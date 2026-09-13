@@ -21,5 +21,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th65",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000th7k",
+    "source": "usgs",
+    "time": "2026-09-13T17:55:25.243000+00:00",
+    "updated": "2026-09-13T18:13:03.040000+00:00",
+    "lat": 6.8511,
+    "lon": -73.0464,
+    "depth_km": 153.773,
+    "magnitude": 4.3,
+    "mag_type": "mb",
+    "place": "13 km NW of Cepitá, Colombia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th7k",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
