@@ -24,11 +24,57 @@ body {
   background: linear-gradient(135deg, var(--color-header-bg), var(--color-header-bg-2));
   color: #fff;
   padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .app-header h1 {
   margin: 0;
   font-size: 1.4rem;
+}
+
+/* Lupa que abre/cierra el desplegable de "Sismos por dia" (#search-panel,
+   mas abajo) -- vive en el header para no ocupar espacio permanente en
+   ningun panel del dashboard. */
+.search-toggle {
+  font: inherit;
+  font-size: 1.1rem;
+  width: 2.3rem;
+  height: 2.3rem;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  cursor: pointer;
+}
+
+.search-toggle:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.search-toggle.is-active {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+/* Desplegable de "Sismos por dia" -- flota sobre el resto del dashboard
+   en vez de ocupar un panel fijo. Se abre/cierra con .search-toggle (ver
+   js/app.js); .hidden (global) lo saca del flujo cuando esta cerrado. */
+.search-panel {
+  position: absolute;
+  top: 68px;
+  right: 1.5rem;
+  z-index: 1000;
+  width: 320px;
+  max-width: calc(100vw - 3rem);
+  max-height: 70vh;
+  box-shadow: 0 4px 16px rgba(10, 46, 77, 0.3);
 }
 
 /*
@@ -54,12 +100,16 @@ body {
   height: 100%;
 }
 
-/* Columna angosta apilada -- Proximamente / Sismos por dia / Detalle del
-   evento, uno debajo del otro en el espacio que le queda a la derecha de
-   los dos feeds de alto completo. */
+/* Columna angosta apilada -- Detalle del evento y el resumen semanal, uno
+   debajo del otro en el espacio que le queda a la derecha de los dos
+   feeds de alto completo. "Sismos por dia" se saco de aca (ver
+   .search-panel, ahora vive en un desplegable del header) -- sin un
+   tercer panel de por medio que se estire, space-between reparte el
+   espacio sobrante entre los dos en vez de dejarlo todo apilado arriba. */
 .stack-column {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   flex: 1 1 auto;
   min-width: 220px;
   height: 100%;
@@ -71,15 +121,6 @@ body {
 .stack-column .week-chart-panel {
   flex: 0 0 auto;
   min-height: 140px;
-}
-
-.stack-column .day-table {
-  /* Mismo ancho que el resto de la columna (no mas angosto -- eso fue un
-     malentendido de un pedido anterior). Se lleva el espacio que sobra
-     despues de que "Detalle del evento" toma lo que necesita para
-     mostrarse completo (ver .event-detail mas abajo). */
-  flex: 1 1 auto;
-  min-height: 0;
 }
 
 .stack-column .event-detail {
@@ -634,10 +675,9 @@ h2.live-feed-title {
   }
 
   .event-detail { order: 2; }
-  .day-table { order: 3; }
-  .week-chart-panel { order: 4; }
-  .live-feed.panel { order: 5; }
-  .social-feed.panel { order: 6; }
+  .week-chart-panel { order: 3; }
+  .live-feed.panel { order: 4; }
+  .social-feed.panel { order: 5; }
 
   /* En el layout de escritorio estos dos van pegados al mapa y entre si,
      de alto completo (sin borde ni esquinas redondeadas de ese lado) --
