@@ -126,16 +126,19 @@
     };
     const utcTime = eventDate.toLocaleString("es-CL", { ...timeFormat, timeZone: "UTC" });
     const chileTime = eventDate.toLocaleString("es-CL", { ...timeFormat, timeZone: "America/Santiago" });
-    // USGS es siempre el catalogo base. SENAPRED es el reporte de intensidad
-    // en si (lo que realmente se leyo para el heatmap). CSN es el informe
-    // propio del evento en sismologia.cl, cuando se pudo encontrar -- son
-    // tres paginas distintas, cada link va a la que corresponde de verdad.
-    const fuenteParts = [`<a href="${event.url}" target="_blank" rel="noopener">USGS</a>`];
-    if (event.senapred_url) {
-      fuenteParts.push(`<a href="${event.senapred_url}" target="_blank" rel="noopener">SENAPRED</a>`);
-    }
+    // Los sismos de Chile ya no pasan por USGS (ver auditoria/collect.py) --
+    // su catalogo base es el CSN directo, asi que no tiene sentido mostrar
+    // un link a USGS que ni se consulto para ellos. Para el resto de la
+    // region (fuera de Chile) el catalogo sigue siendo USGS.
+    const fuenteParts =
+      event.source === "csn"
+        ? []
+        : [`<a href="${event.url}" target="_blank" rel="noopener">USGS</a>`];
     if (event.csn_informe_url) {
       fuenteParts.push(`<a href="${event.csn_informe_url}" target="_blank" rel="noopener">CSN</a>`);
+    }
+    if (event.senapred_url) {
+      fuenteParts.push(`<a href="${event.senapred_url}" target="_blank" rel="noopener">SENAPRED</a>`);
     }
     const fuenteLinks = fuenteParts.join(" · ");
     detailBody.innerHTML = `
