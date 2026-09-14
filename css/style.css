@@ -68,9 +68,9 @@ body {
   background: var(--color-bg);
 }
 
-.stack-column .placeholder-panel {
+.stack-column .week-chart-panel {
   flex: 0 0 auto;
-  min-height: 90px;
+  min-height: 140px;
 }
 
 .stack-column .day-table {
@@ -226,19 +226,79 @@ body {
   color: var(--color-text-muted);
 }
 
-/* Espacio reservado -- sin uso todavia (a futuro, posible espacio de
-   publicidad u otra funcion), por ahora solo un cuadro vacio marcado como
-   tal para que no se lea como un panel roto. */
-.placeholder-panel {
+/* --- Resumen semanal (mini grafico de barras, "Sismos por dia") --- */
+.week-chart-panel {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  border-style: dashed;
+  flex-direction: column;
 }
 
-.placeholder-text {
-  margin: 0;
-  font-size: 0.85rem;
+.week-chart-subtitle {
+  margin: 0.3rem 0 0.75rem;
+  font-size: 0.7rem;
+  color: var(--color-text-muted);
+}
+
+.week-chart {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.35rem;
+  flex: 1 1 auto;
+}
+
+.week-chart-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 0;
+}
+
+.week-chart-count {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--color-header-bg);
+  margin-bottom: 0.25rem;
+}
+
+/* Alto fijo a proposito: el "height:X%" de .week-chart-fill necesita un
+   contenedor con una altura real de la cual ser porcentaje -- .week-chart
+   solo se estira segun su contenido (el numero y la letra tienen su
+   propio alto variable), asi que una barra a "100%" de eso no crecia casi
+   nada. Con el riel a un alto fijo, el porcentaje si funciona siempre. */
+.week-chart-track {
+  width: 100%;
+  max-width: 22px;
+  height: 52px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.week-chart-fill {
+  width: 100%;
+  min-height: 4px;
+  border-radius: 3px 3px 0 0;
+  background: var(--color-header-bg);
+}
+
+/* Hoy se destaca con el mismo color de acento que usa el resto del
+   dashboard para marcar "seleccionado/actual" (linea del titulo, anillo
+   de seleccion en el mapa, etc.) -- mantiene la misma logica de color en
+   vez de inventar una nueva. */
+.week-chart-bar--today .week-chart-fill {
+  background: var(--color-accent);
+}
+
+.week-chart-bar--today .week-chart-count {
+  color: var(--color-accent);
+}
+
+.week-chart-bar--empty .week-chart-fill {
+  background: var(--color-border);
+}
+
+.week-chart-label {
+  margin-top: 0.3rem;
+  font-size: 0.68rem;
+  font-weight: 600;
   color: var(--color-text-muted);
 }
 
@@ -575,7 +635,7 @@ h2.live-feed-title {
 
   .event-detail { order: 2; }
   .day-table { order: 3; }
-  .placeholder-panel { order: 4; }
+  .week-chart-panel { order: 4; }
   .live-feed.panel { order: 5; }
   .social-feed.panel { order: 6; }
 
