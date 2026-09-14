@@ -1,26 +1,31 @@
 """
-Script principal de recoleccion. Lo ejecuta GitHub Actions cada 30 minutos
-(ver .github/workflows/collect.yml), pero tambien se puede correr a mano:
+Script principal de recoleccion. Lo ejecuta GitHub Actions ~13 veces al dia,
+cada ~108 minutos (ver .github/workflows/collect.yml), pero tambien se
+puede correr a mano:
 
     cd backend
     pip install -r requirements.txt
     python -m playwright install --with-deps chromium
     python collect.py
 
-Trae el catalogo base de sismos de USGS para toda la region (incluye el
-Territorio Chileno Antartico). Para la intensidad Mercalli percibida:
+Catalogo de sismos:
 
-- Sismos en Chile: se prioriza el CSN/SENAPRED -- tiene muchisima mas
-  participacion ciudadana real que el DYFI de USGS para eventos chilenos.
-  Dentro de esto, el archivo propio de SENAPRED (senapred.cl/eventos/) es la
-  fuente PRINCIPAL porque retiene semanas de historial; la portada del CSN
-  (solo sus ~15 sismos mas recientes) queda como respaldo para el caso
-  borde de un sismo tan reciente que SENAPRED todavia no indexo. Ver
-  sources/csn.py para el detalle de como se obtiene (ninguno de los dos
-  tiene API publica).
-- Resto de Sudamerica, o sismos chilenos sin match/reporte en ninguna de
-  las dos: se usa USGS DYFI como respaldo (baja participacion en la region,
-  pero es lo unico disponible fuera de Chile).
+- Chile: catalogo propio, directo del CSN (sources/csn.py, fetch_recent_events
+  + fetch_event_detail) -- lat/lon/magnitud/hora salen de ahi, no de USGS.
+  Antes se usaba USGS como catalogo base para Chile y se intentaba cruzar
+  cada evento contra la portada del CSN por tiempo/ubicacion/magnitud, pero
+  son dos catalogos independientes (cada uno con su propia estimacion) y
+  ese cruce fallaba seguido -- una auditoria encontro semanas sin un solo
+  sismo con reporte SENAPRED por esto, no porque no hubiera sismos
+  percibidos. Si la portada del CSN marca el sismo como "percibido", el
+  link a SENAPRED de ese mismo informe da la intensidad Mercalli por
+  comuna directo. La portada solo expone sus ~15 sismos mas recientes, asi
+  que enrich_with_senapred_archive() (el archivo propio de SENAPRED,
+  retiene semanas) hace una segunda pasada para intensidad que no se haya
+  resuelto en la primera.
+- Resto de Sudamerica (incluye el Territorio Chileno Antartico): catalogo
+  de USGS, con DYFI ("Did You Feel It?") como fuente de intensidad --  baja
+  participacion en la region, pero es lo unico disponible fuera de Chile.
 
 Ademas, guarda menciones recientes de sismos en medios chilenos (RSS via
 Google News, ver sources/social.py) en data/social_mentions.json -- un
@@ -36,10 +41,6 @@ import comuna_coords
 import keywords
 import storage
 from sources import bluesky, csn, mastodon, social, usgs
-
-CSN_MATCH_MAX_SECONDS = 180
-CSN_MATCH_MAX_DEGREES = 0.5
-CSN_MATCH_MAX_MAGNITUDE_DIFF = 1.0
 
 # Un reporte de intensidad para UN sismo no deberia tener comunas
 # arbitrariamente lejos del epicentro -- si una comuna geocodifica asi de
@@ -174,111 +175,94 @@ def _build_intensity_point(entry, event):
     }
 
 
-def find_csn_match(usgs_event, csn_details):
+def collect_chile_events():
     """
-    Empareja un evento de USGS con el detalle de un evento del CSN por
-    cercania en tiempo, ubicacion y magnitud -- no comparten un id comun
-    porque son catalogos independientes.
+    Catalogo de sismos en Chile, construido directo desde el CSN (no desde
+    USGS) -- lat/lon/magnitud/hora vienen del propio informe del CSN, y si
+    la portada lo marca "percibido", el link a SENAPRED que trae ese mismo
+    informe da la intensidad por comuna directo, sin adivinar.
+
+    Antes, el catalogo base para Chile era USGS y se intentaba cruzar cada
+    evento contra la portada del CSN por cercania de tiempo/ubicacion/
+    magnitud (ver find_csn_match, sacado) -- son dos organismos con
+    catalogos independientes, cada uno con su propia estimacion de
+    magnitud y epicentro, asi que ese cruce fallaba seguido incluso cuando
+    ambos catalogaban el mismo sismo real (auditoria: semanas completas sin
+    un solo sismo con reporte SENAPRED, no porque no hubiera sismos
+    percibidos, sino porque el cruce nunca calzaba). Al construir el evento
+    directo desde el CSN no hay nada que cruzar: la fuente del sismo y la
+    fuente de "fue percibido" son la misma pagina.
     """
-    usgs_time = datetime.fromisoformat(usgs_event["time"])
-    best = None
-    best_score = None
-    for detail in csn_details:
-        if detail["utc_time"] is None or detail["lat"] is None or detail["lon"] is None:
-            continue
-        seconds_diff = abs((usgs_time - detail["utc_time"]).total_seconds())
-        if seconds_diff > CSN_MATCH_MAX_SECONDS:
-            continue
-        lat_diff = abs(usgs_event["lat"] - detail["lat"])
-        lon_diff = abs(usgs_event["lon"] - detail["lon"])
-        if lat_diff > CSN_MATCH_MAX_DEGREES or lon_diff > CSN_MATCH_MAX_DEGREES:
-            continue
-        if usgs_event["magnitude"] is not None and detail["magnitude"] is not None:
-            if abs(usgs_event["magnitude"] - detail["magnitude"]) > CSN_MATCH_MAX_MAGNITUDE_DIFF:
-                continue
-        score = seconds_diff + (lat_diff + lon_diff) * 100
-        if best_score is None or score < best_score:
-            best, best_score = detail, score
-    return best
-
-
-def enrich_with_csn(events):
-    """
-    Dos cosas, para eventos en Chile:
-
-    1. Pasada secundaria de intensidad: para eventos que
-       enrich_with_senapred_archive() (la fuente principal, ver mas abajo)
-       no pudo resolver, busca en la portada del CSN (sus ~15 sismos mas
-       recientes) -- sirve para el caso borde de un sismo tan reciente que
-       todavia no aparece en el archivo de SENAPRED.
-    2. Completa el link al informe real del CSN (sismologia.cl) en eventos
-       que YA tienen intensidad resuelta por SENAPRED -- son dos paginas
-       distintas (el informe del CSN enlaza al reporte de SENAPRED, pero no
-       son la misma URL) y el panel de detalle del sitio muestra ambas por
-       separado.
-    """
-    chile_events = [e for e in events if is_chile_event(e["place"])]
-    if not chile_events:
-        return
-
     try:
         recent = csn.fetch_recent_events()
     except Exception as exc:
-        print(f"Aviso: no se pudo consultar CSN ({exc}), se usa solo USGS DYFI para Chile.")
-        return
+        print(f"Aviso: no se pudo consultar CSN ({exc}), no hay sismos de Chile esta corrida.")
+        return []
 
-    felt_details = []
+    events = []
     for item in recent:
-        if not item["felt"]:
-            continue
         try:
             detail = csn.fetch_event_detail(item["csn_url"])
         except Exception as exc:
             print(f"Aviso: no se pudo leer el informe CSN {item['csn_url']} ({exc}).")
             continue
-        if detail:
-            detail["csn_url"] = item["csn_url"]
-            felt_details.append(detail)
-
-    if not felt_details:
-        return
-
-    for event in chile_events:
-        match = find_csn_match(event, felt_details)
-        if match is None:
+        if not detail or detail["lat"] is None or detail["lon"] is None or detail["utc_time"] is None:
             continue
 
-        if event["intensity_source"] == "csn":
-            # Ya tiene intensidad de SENAPRED (pasada principal) -- solo
-            # completa el link del informe del CSN, no vuelve a pedir el
-            # reporte de intensidad de nuevo.
-            event["csn_informe_url"] = match["csn_url"]
-            continue
+        place = detail["place"] or item["place"] or "Chile"
+        if not is_chile_event(place):
+            place = f"{place}, Chile"  # el CSN no repite el pais en su propio texto
 
-        if not match["senapred_url"]:
-            continue
-        try:
-            intensity_report = csn.fetch_intensity_report(match["senapred_url"])
-        except Exception as exc:
-            print(f"Aviso: no se pudo leer el reporte SENAPRED de {event['id']} ({exc}).")
-            continue
+        event = {
+            "id": f"csn:{item['csn_url']}",
+            "source": "csn",
+            "time": detail["utc_time"].isoformat(),
+            "updated": detail["utc_time"].isoformat(),
+            "lat": detail["lat"],
+            "lon": detail["lon"],
+            "depth_km": detail["depth_km"],
+            "magnitude": detail["magnitude"],
+            "mag_type": detail["magnitude_type"],
+            "place": place,
+            "cdi": None,
+            "mmi": None,
+            "felt_reports": None,
+            "tsunami_flag": False,
+            "dyfi_points": [],
+            "intensity_source": None,
+            "senapred_url": None,
+            "csn_informe_url": item["csn_url"],
+            "url": item["csn_url"],
+            "relevant": bool(detail["magnitude"] is not None and detail["magnitude"] >= RELEVANT_MAGNITUDE),
+            "keywords_matched": keywords.matched_keywords(place),
+        }
 
-        points = [p for p in (_build_intensity_point(entry, event) for entry in intensity_report) if p]
+        if item["felt"] and detail["senapred_url"]:
+            try:
+                intensity_report = csn.fetch_intensity_report(detail["senapred_url"])
+            except Exception as exc:
+                print(f"Aviso: no se pudo leer el reporte SENAPRED de {item['csn_url']} ({exc}).")
+                intensity_report = []
+            points = [p for p in (_build_intensity_point(entry, event) for entry in intensity_report) if p]
+            if points:
+                event["dyfi_points"] = points
+                event["intensity_source"] = "csn"
+                event["senapred_url"] = detail["senapred_url"]
 
-        if points:
-            event["dyfi_points"] = points
-            event["intensity_source"] = "csn"
-            event["senapred_url"] = match["senapred_url"]
-            event["csn_informe_url"] = match["csn_url"]
+        events.append(event)
+
+    return events
 
 
 def enrich_with_senapred_archive(events):
     """
-    Pasada PRINCIPAL para intensidad de sismos chilenos: busca en el archivo
-    propio de SENAPRED (senapred.cl/eventos/), que retiene semanas de
-    historial -- a diferencia de la portada del CSN, que solo expone sus
-    ~15 sismos mas recientes y por eso pierde eventos en horas. Matchea por
-    cercania de tiempo (SENAPRED no da lat/lon en su listado) y por la
+    Segunda pasada de intensidad para sismos chilenos sin resolver todavia
+    (collect_chile_events() ya resuelve la mayoria directo desde el CSN):
+    busca en el archivo propio de SENAPRED (senapred.cl/eventos/), que
+    retiene semanas de historial -- a diferencia de la portada del CSN, que
+    solo expone sus ~15 sismos mas recientes y por eso puede no tener
+    todavia el link a SENAPRED de un sismo que se percibio recien. Matchea
+    por cercania de tiempo (SENAPRED no da lat/lon en su listado) y por la
     magnitud que la propia pagina del reporte menciona, como cross-check.
     """
     pending = [e for e in events if is_chile_event(e["place"]) and e["intensity_source"] != "csn"]
@@ -403,15 +387,22 @@ def main():
 
     raw_events = usgs.fetch_events(start, now, MIN_MAGNITUDE, BBOX)
 
+    # Chile ya no sale de USGS -- ver collect_chile_events(). Se descartan
+    # aca los eventos de USGS que caen en Chile para no duplicar el mismo
+    # sismo dos veces (uno por cada fuente).
     events = []
     for feature in raw_events:
         props = feature["properties"]
+        place = props.get("place") or ""
+        if is_chile_event(place):
+            continue
         has_dyfi = props.get("felt") or "dyfi" in (props.get("types") or "")
         dyfi_points = usgs.fetch_dyfi_points(props.get("detail")) if has_dyfi else []
         events.append(build_event_record(feature, dyfi_points))
 
+    events.extend(collect_chile_events())
+
     enrich_with_senapred_archive(events)
-    enrich_with_csn(events)
     preserve_existing_csn_data(events)
 
     storage.upsert_events(events)
