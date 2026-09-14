@@ -35,6 +35,10 @@
 
   // --- Resumen semanal ("Sismos por dia", el mini grafico de barras) ---
   const WEEK_DAY_LETTERS = ["D", "L", "M", "M", "J", "V", "S"]; // Date#getUTCDay(): 0=domingo..6=sabado
+  // A pedido: este resumen no depende de si el sismo tiene reporte
+  // SENAPRED (a diferencia del resto del dashboard) -- solo cuenta
+  // magnitud, sin importar si fue "sentido"/reportado o no.
+  const WEEK_CHART_MIN_MAGNITUDE = 5.0;
 
   // yyyy-mm-dd de una fecha en hora de Chile, sin depender de la zona
   // horaria del navegador de quien mira el dashboard.
@@ -57,11 +61,13 @@
       days.push({ key, letter: WEEK_DAY_LETTERS[dt.getUTCDay()], count: 0 });
     }
 
-    events.forEach((event) => {
-      const key = chileDateKey(event.time);
-      const day = days.find((d) => d.key === key);
-      if (day) day.count += 1;
-    });
+    events
+      .filter((event) => (event.magnitude ?? 0) >= WEEK_CHART_MIN_MAGNITUDE)
+      .forEach((event) => {
+        const key = chileDateKey(event.time);
+        const day = days.find((d) => d.key === key);
+        if (day) day.count += 1;
+      });
 
     const maxCount = Math.max(1, ...days.map((day) => day.count));
     weekChartEl.innerHTML = days
@@ -225,8 +231,9 @@
   // ni el detalle seleccionado, solo los datos.
   const refreshEvents = async () => {
     let events;
+    let allEvents;
     try {
-      const allEvents = await SismosApp.loadRecentEvents(7);
+      allEvents = await SismosApp.loadRecentEvents(7);
       events = allEvents.filter(hasSenapredReport);
       statusEl.textContent = `${events.length} sismos con reporte de SENAPRED (ultimos 7 dias).`;
     } catch (err) {
@@ -235,7 +242,11 @@
     }
 
     recentEventKeys = new Set(events.map((event) => event.url));
-    renderWeekChart(events);
+    // A diferencia del resto del dashboard, el resumen semanal no exige
+    // reporte SENAPRED -- se le pasan TODOS los eventos de la ventana
+    // (allEvents, no el "events" ya filtrado) y el propio renderWeekChart
+    // filtra solo por magnitud.
+    renderWeekChart(allEvents);
 
     removeHeatLayer();
     heatLayer = SismosApp.buildHeatLayer(events);
