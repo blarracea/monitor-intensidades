@@ -72,7 +72,7 @@
     "id": "us7000thge",
     "source": "usgs",
     "time": "2026-09-14T20:02:04.355000+00:00",
-    "updated": "2026-09-14T21:05:00.094000+00:00",
+    "updated": "2026-09-14T22:21:55.722000+00:00",
     "lat": 4.4944,
     "lon": -76.7446,
     "depth_km": 59.835,
@@ -81,7 +81,7 @@
     "place": "20 km SSW of Sipí, Colombia",
     "cdi": 4.1,
     "mmi": null,
-    "felt_reports": 3,
+    "felt_reports": 4,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -94,6 +94,12 @@
         "lat": 4.8170525,
         "lon": -75.843185,
         "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 0.51099,
+        "lon": -76.50515999999999,
+        "intensity": 2,
         "responses": 1
       }
     ],
@@ -131,6 +137,36 @@
     "senapred_url": null,
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thgj",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000thh2",
+    "source": "usgs",
+    "time": "2026-09-14T21:13:15.924000+00:00",
+    "updated": "2026-09-14T22:02:56.774000+00:00",
+    "lat": 4.5258,
+    "lon": -76.8931,
+    "depth_km": 48.35,
+    "magnitude": 4.9,
+    "mag_type": "mww",
+    "place": "31 km WSW of Sipí, Colombia",
+    "cdi": 3.4,
+    "mmi": null,
+    "felt_reports": 1,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 4.8170525,
+        "lon": -75.843185,
+        "intensity": 3.4,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thh2",
     "relevant": false,
     "keywords_matched": []
   }
