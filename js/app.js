@@ -8,6 +8,7 @@
   const liveFeedBody = document.getElementById("live-feed-body");
   const dayPicker = document.getElementById("day-picker");
   const dayTableBody = document.getElementById("day-table-body");
+  const weekChartEl = document.getElementById("week-chart");
 
   // La pagina no se refresca sola por si misma -- sin esto, alguien que deja
   // la pestana abierta nunca ve un sismo nuevo ni una mencion nueva sin
@@ -31,6 +32,58 @@
   // -- se deja afuera el catalogo completo de USGS (incluye sismos chicos
   // sin ningun reporte ciudadano) y los que solo tienen DYFI de USGS.
   const hasSenapredReport = (event) => event.intensity_source === "csn";
+
+  // --- Resumen semanal ("Sismos por dia", el mini grafico de barras) ---
+  const WEEK_DAY_LETTERS = ["D", "L", "M", "M", "J", "V", "S"]; // Date#getUTCDay(): 0=domingo..6=sabado
+
+  // yyyy-mm-dd de una fecha en hora de Chile, sin depender de la zona
+  // horaria del navegador de quien mira el dashboard.
+  const chileDateKey = (isoTime) =>
+    new Date(isoTime).toLocaleDateString("en-CA", { timeZone: "America/Santiago" });
+
+  const renderWeekChart = (events) => {
+    if (!weekChartEl) return;
+    const todayKey = chileDateKey(new Date().toISOString());
+    const [y, m, d] = todayKey.split("-").map(Number);
+    // Anclado a mediodia UTC del "hoy" en Chile: evita que sumar/restar
+    // dias con la zona horaria local del navegador (que puede ser
+    // cualquiera) empuje la fecha al dia de al lado.
+    const anchor = Date.UTC(y, m - 1, d, 12);
+
+    const days = [];
+    for (let i = 6; i >= 0; i--) {
+      const dt = new Date(anchor - i * 24 * 60 * 60 * 1000);
+      const key = `${dt.getUTCFullYear()}-${String(dt.getUTCMonth() + 1).padStart(2, "0")}-${String(dt.getUTCDate()).padStart(2, "0")}`;
+      days.push({ key, letter: WEEK_DAY_LETTERS[dt.getUTCDay()], count: 0 });
+    }
+
+    events.forEach((event) => {
+      const key = chileDateKey(event.time);
+      const day = days.find((d) => d.key === key);
+      if (day) day.count += 1;
+    });
+
+    const maxCount = Math.max(1, ...days.map((day) => day.count));
+    weekChartEl.innerHTML = days
+      .map((day) => {
+        const isToday = day.key === todayKey;
+        const isEmpty = day.count === 0;
+        const heightPct = isEmpty ? 6 : Math.max(14, Math.round((day.count / maxCount) * 100));
+        const classes = ["week-chart-bar"];
+        if (isToday) classes.push("week-chart-bar--today");
+        if (isEmpty) classes.push("week-chart-bar--empty");
+        return `
+          <div class="${classes.join(" ")}" title="${day.count} sismo${day.count === 1 ? "" : "s"}">
+            <span class="week-chart-count">${day.count}</span>
+            <div class="week-chart-track">
+              <div class="week-chart-fill" style="height:${heightPct}%"></div>
+            </div>
+            <span class="week-chart-label">${day.letter}</span>
+          </div>
+        `;
+      })
+      .join("");
+  };
 
   // Anillo amarillo que marca cual es el sismo seleccionado (desde la tabla
   // o clickeando un marcador), para ubicarlo de un vistazo en el mapa.
@@ -179,6 +232,7 @@
     }
 
     recentEventKeys = new Set(events.map((event) => event.url));
+    renderWeekChart(events);
 
     removeHeatLayer();
     heatLayer = SismosApp.buildHeatLayer(events);
