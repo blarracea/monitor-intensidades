@@ -5,12 +5,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Monitor de Sismos — Chile y Sudamérica</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-<link rel="stylesheet" href="css/style.css?v=36" />
+<link rel="stylesheet" href="css/style.css?v=37" />
 </head>
 <body>
   <header class="app-header">
     <h1>Monitor de Sismos — Chile y Sudamérica</h1>
+    <button type="button" id="search-toggle" class="search-toggle" aria-label="Buscar sismo por fecha" title="Buscar sismo por fecha">🔍</button>
   </header>
+
+  <!-- Antes era el panel fijo "Sismos por dia" en la columna de la
+       derecha -- ahora es un desplegable que se abre con la lupa del
+       header, para no ocupar espacio permanente. Mismos IDs de siempre
+       (day-picker/day-table/day-table-body/status) asi que la logica de
+       js/app.js no cambia nada, solo se le agrega mostrar/ocultar. -->
+  <div class="panel search-panel hidden" id="search-panel">
+    <h2>Sismos por día</h2>
+    <div class="day-table-controls">
+      <input type="date" id="day-picker" />
+    </div>
+    <div class="day-table-wrap">
+      <table id="day-table">
+        <thead>
+          <tr><th>Hora</th><th>Referencia geográfica</th><th>Mag.</th></tr>
+        </thead>
+        <tbody id="day-table-body"></tbody>
+      </table>
+    </div>
+    <p id="status" class="status">Cargando datos...</p>
+  </div>
 
   <main class="app-main">
     <div class="map-wrap">
@@ -63,31 +85,16 @@
       </aside>
 
       <!-- Columna angosta apilada: Detalle del evento arriba a la
-           derecha, Sismos por dia al medio, resumen semanal al final --
-           separado de redes-en-vivo/menciones para que esas dos puedan
-           ser columnas de alto completo (ver .side-content en el CSS)
-           sin quedar encajonadas junto a estos tres. -->
+           derecha, resumen semanal al final -- separado de
+           redes-en-vivo/menciones para que esas dos puedan ser columnas
+           de alto completo (ver .side-content en el CSS) sin quedar
+           encajonadas junto a estos dos. "Sismos por dia" ya no vive
+           aca, ver el desplegable de la lupa en el header. -->
       <div class="stack-column">
         <section id="event-detail" class="panel event-detail">
           <h2>Detalle del evento</h2>
           <p id="event-detail-placeholder" class="event-detail-placeholder">Hace click en un sismo (mapa o tabla) para ver el detalle.</p>
           <dl id="event-detail-body"></dl>
-        </section>
-
-        <section class="panel day-table">
-          <h2>Sismos por día</h2>
-          <div class="day-table-controls">
-            <input type="date" id="day-picker" />
-          </div>
-          <div class="day-table-wrap">
-            <table id="day-table">
-              <thead>
-                <tr><th>Hora</th><th>Referencia geográfica</th><th>Mag.</th></tr>
-              </thead>
-              <tbody id="day-table-body"></tbody>
-            </table>
-          </div>
-          <p id="status" class="status">Cargando datos...</p>
         </section>
 
         <section class="panel week-chart-panel">
@@ -101,11 +108,11 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
-  <script src="js/data-loader.js?v=36"></script>
-  <script src="js/map.js?v=36"></script>
-  <script src="js/heatmap.js?v=36"></script>
-  <script src="js/social-layer.js?v=36"></script>
-  <script src="js/live-feed.js?v=36"></script>
-  <script src="js/app.js?v=36"></script>
+  <script src="js/data-loader.js?v=37"></script>
+  <script src="js/map.js?v=37"></script>
+  <script src="js/heatmap.js?v=37"></script>
+  <script src="js/social-layer.js?v=37"></script>
+  <script src="js/live-feed.js?v=37"></script>
+  <script src="js/app.js?v=37"></script>
 </body>
 </html>

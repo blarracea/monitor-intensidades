@@ -9,6 +9,8 @@
   const dayPicker = document.getElementById("day-picker");
   const dayTableBody = document.getElementById("day-table-body");
   const weekChartEl = document.getElementById("week-chart");
+  const searchToggle = document.getElementById("search-toggle");
+  const searchPanel = document.getElementById("search-panel");
 
   // La pagina no se refresca sola por si misma -- sin esto, alguien que deja
   // la pestana abierta nunca ve un sismo nuevo ni una mencion nueva sin
@@ -291,6 +293,31 @@
     }
   };
 
+  // --- Desplegable de busqueda ("Sismos por dia", la lupa del header) ---
+  const closeSearchPanel = () => {
+    searchPanel.classList.add("hidden");
+    searchToggle.classList.remove("is-active");
+  };
+
+  searchToggle.addEventListener("click", () => {
+    const willOpen = searchPanel.classList.contains("hidden");
+    searchPanel.classList.toggle("hidden", !willOpen);
+    searchToggle.classList.toggle("is-active", willOpen);
+  });
+
+  // Cerrar al clickear afuera o con Escape -- son los dos gestos
+  // esperados para un desplegable como este, sin eso quedaria abierto
+  // hasta que alguien vuelva a clickear la lupa a proposito.
+  document.addEventListener("click", (e) => {
+    if (searchPanel.classList.contains("hidden")) return;
+    if (searchPanel.contains(e.target) || searchToggle.contains(e.target)) return;
+    closeSearchPanel();
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeSearchPanel();
+  });
+
   // --- Tabla "Sismos por dia" ---
   const renderDayTable = async (dateStr) => {
     dayTableBody.innerHTML = '<tr><td colspan="3">Cargando...</td></tr>';
@@ -316,6 +343,7 @@
       row.addEventListener("click", () => {
         const event = dayEvents.slice().reverse()[Number(row.dataset.idx)];
         focusEvent(event);
+        closeSearchPanel();
       });
     });
   };
