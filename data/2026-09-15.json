@@ -790,5 +790,84 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383172.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383173.html",
+    "source": "csn",
+    "time": "2026-09-15T22:19:22+00:00",
+    "updated": "2026-09-15T22:19:22+00:00",
+    "lat": -20.45,
+    "lon": -69.17,
+    "depth_km": 105.0,
+    "magnitude": 2.6,
+    "mag_type": "MLv",
+    "place": "17 km al E de Pica, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383173.html",
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383173.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383177.html",
+    "source": "csn",
+    "time": "2026-09-15T23:02:04+00:00",
+    "updated": "2026-09-15T23:02:04+00:00",
+    "lat": -31.89,
+    "lon": -69.87,
+    "depth_km": 132.0,
+    "magnitude": 3.9,
+    "mag_type": "MLv",
+    "place": "68 km al E de Mina Los Pelambres, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": -30.3667,
+        "lon": -70.9833,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Río Hurtado",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.2333,
+        "lon": -71.0833,
+        "intensity": 2,
+        "responses": null,
+        "comuna": "Andacollo",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -29.9533,
+        "lon": -71.3436,
+        "intensity": 2,
+        "responses": null,
+        "comuna": "Coquimbo",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.0167,
+        "lon": -70.6833,
+        "intensity": 2,
+        "responses": null,
+        "comuna": "Paiguano",
+        "region": "Coquimbo"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-coquimbo-2026-09-15-16-21-59",
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383177.html",
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383177.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
