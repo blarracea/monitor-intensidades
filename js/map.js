@@ -14,12 +14,10 @@ SismosApp.initMap = function () {
   // Encuadre inicial por bounds (no un centro+zoom fijo): asi Leaflet
   // calcula el zoom que de verdad corresponde al tamano real del
   // contenedor -- un numero de zoom fijo dejaba de calzar cada vez que el
-  // mapa cambiaba de ancho. El rectangulo va desde el norte de Chile
-  // (Visviri, -17.5) hasta el sur (Cabo de Hornos / Falklands, -56), sin
-  // llegar a la Antartica -- este es el encuadre que el usuario confirmo
-  // que le acomoda (Chile completo, con Argentina/Bolivia/Paraguay/
-  // Uruguay alrededor, sin oceano ni espacio vacio de mas).
-  const initialBounds = L.latLngBounds([-17.5, -78], [-56, -53]);
+  // mapa cambiaba de ancho. Ensanchado a pedido para que entren tambien
+  // los puntos del territorio insular (Isla de Pascua, ~-109 de longitud)
+  // sin tener que alejar el zoom a mano cada vez.
+  const initialBounds = L.latLngBounds([20, -120], [-58, -55]);
 
   // El contenedor #map recien termina su layout de CSS flex un instante
   // despues de crear el mapa (mismo problema que el heatmap en app.js) --
