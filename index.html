@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Monitor de Sismos — Chile y Sudamérica</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-<link rel="stylesheet" href="css/style.css?v=37" />
+<link rel="stylesheet" href="css/style.css?v=39" />
 </head>
 <body>
   <header class="app-header">
@@ -84,12 +84,14 @@
         <div id="social-feed-body">Cargando...</div>
       </aside>
 
-      <!-- Columna angosta apilada: Detalle del evento arriba a la
-           derecha, resumen semanal al final -- separado de
-           redes-en-vivo/menciones para que esas dos puedan ser columnas
-           de alto completo (ver .side-content en el CSS) sin quedar
-           encajonadas junto a estos dos. "Sismos por dia" ya no vive
-           aca, ver el desplegable de la lupa en el header. -->
+      <!-- Columna angosta apilada: Detalle del evento arriba (alineado
+           con Mapa de Calor/Redes en vivo/Menciones en medios), resumen
+           semanal justo debajo, y Proximamente ocupando el resto del
+           espacio libre -- separado de redes-en-vivo/menciones para que
+           esas dos puedan ser columnas de alto completo (ver
+           .side-content en el CSS) sin quedar encajonadas junto a estos
+           tres. "Sismos por dia" ya no vive aca, ver el desplegable de
+           la lupa en el header. -->
       <div class="stack-column">
         <section id="event-detail" class="panel event-detail">
           <h2>Detalle del evento</h2>
@@ -102,17 +104,21 @@
           <p class="week-chart-subtitle">Magnitud ≥ 5.0 · últimos 7 días</p>
           <div class="week-chart" id="week-chart"></div>
         </section>
+
+        <section class="panel placeholder-panel">
+          <p class="placeholder-text">Próximamente</p>
+        </section>
       </div>
     </div>
   </main>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
-  <script src="js/data-loader.js?v=37"></script>
-  <script src="js/map.js?v=37"></script>
-  <script src="js/heatmap.js?v=37"></script>
-  <script src="js/social-layer.js?v=37"></script>
-  <script src="js/live-feed.js?v=37"></script>
-  <script src="js/app.js?v=37"></script>
+  <script src="js/data-loader.js?v=39"></script>
+  <script src="js/map.js?v=39"></script>
+  <script src="js/heatmap.js?v=39"></script>
+  <script src="js/social-layer.js?v=39"></script>
+  <script src="js/live-feed.js?v=39"></script>
+  <script src="js/app.js?v=39"></script>
 </body>
 </html>
