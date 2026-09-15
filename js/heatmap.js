@@ -116,3 +116,42 @@ SismosApp.addEventMarkers = function (map, events, onSelect) {
   layer.addTo(map);
   return layer;
 };
+
+// Puntos azules para sismos M5.0+ que NO tienen reporte de intensidad
+// (ni CSN/SENAPRED ni DYFI de USGS) -- a pedido: un sismo grande se puede
+// percibir sin que nadie llegue a reportarlo formalmente, y antes esos
+// sismos no aparecian en el mapa en absoluto (quedaba "en blanco" como si
+// no hubiera pasado nada). No dibujan heatmap -- son solo la marca de
+// "esto ocurrio", separado de la intensidad verificada.
+SismosApp.addUnverifiedMarkers = function (map, events, onSelect) {
+  const layer = L.layerGroup();
+  events.forEach((event) => {
+    if (event.lat == null || event.lon == null) return;
+    const radius = 3 + Math.max(event.magnitude || 0, 0) * 0.5;
+    const select = () => onSelect(event);
+    const tooltip = `M${event.magnitude ?? "?"} · sin reporte de intensidad`;
+
+    // Mismo truco que en addEventMarkers: un circulo invisible mas grande
+    // debajo, solo para ampliar el area de click sin agrandar el punto.
+    L.circleMarker([event.lat, event.lon], {
+      radius: Math.max(radius + 10, 14),
+      stroke: false,
+      fillOpacity: 0,
+    })
+      .on("click", select)
+      .addTo(layer);
+
+    const marker = L.circleMarker([event.lat, event.lon], {
+      radius,
+      color: "#ffffff",
+      fillColor: "#1565c0",
+      fillOpacity: 0.85,
+      weight: 1,
+    });
+    marker.bindTooltip(tooltip, { direction: "top" });
+    marker.on("click", select);
+    marker.addTo(layer);
+  });
+  layer.addTo(map);
+  return layer;
+};
