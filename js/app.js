@@ -40,7 +40,7 @@
   // A pedido: este resumen no depende de si el sismo tiene reporte
   // SENAPRED (a diferencia del resto del dashboard) -- solo cuenta
   // magnitud, sin importar si fue "sentido"/reportado o no.
-  const WEEK_CHART_MIN_MAGNITUDE = 5.0;
+  const WEEK_CHART_MIN_MAGNITUDE = 4.5;
 
   // yyyy-mm-dd de una fecha en hora de Chile, sin depender de la zona
   // horaria del navegador de quien mira el dashboard.
