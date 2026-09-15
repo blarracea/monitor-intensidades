@@ -190,6 +190,14 @@
   // --- Heatmap de intensidad + marcadores de eventos ---
   let heatLayer = null;
   let markersLayer = null;
+  let unverifiedMarkersLayer = null;
+  // A pedido: un sismo M5.0+ percibido puede no llegar nunca a tener un
+  // reporte formal de intensidad -- antes eso lo dejaba totalmente fuera
+  // del mapa, como si no hubiera pasado. 5.0 explicito (no
+  // WEEK_CHART_MIN_MAGNITUDE): son dos pedidos distintos, con umbrales
+  // que el usuario fijo por separado (4.5 para el resumen semanal, 5.0
+  // para esto), aunque hoy coincida el mismo criterio de "sismo grande".
+  const UNVERIFIED_MARKER_MIN_MAGNITUDE = 5.0;
 
   const addHeatLayer = () => {
     if (!heatLayer) return;
@@ -258,6 +266,16 @@
 
     if (markersLayer) map.removeLayer(markersLayer);
     markersLayer = SismosApp.addEventMarkers(map, events, showEventDetail);
+
+    // Puntos azules para sismos grandes sin reporte de intensidad -- se
+    // sacan de "allEvents" (no de "events", que ya filtro por reporte
+    // SENAPRED) y se excluyen los que SI tienen reporte para no dibujar
+    // dos marcadores superpuestos sobre el mismo sismo.
+    if (unverifiedMarkersLayer) map.removeLayer(unverifiedMarkersLayer);
+    const unverifiedBigEvents = allEvents.filter(
+      (event) => (event.magnitude ?? 0) >= UNVERIFIED_MARKER_MIN_MAGNITUDE && !hasSenapredReport(event)
+    );
+    unverifiedMarkersLayer = SismosApp.addUnverifiedMarkers(map, unverifiedBigEvents, showEventDetail);
   };
 
   // --- Menciones en medios (RSS, no verificado) ---
