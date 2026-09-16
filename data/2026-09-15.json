@@ -869,5 +869,28 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383177.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000thr4",
+    "source": "usgs",
+    "time": "2026-09-15T23:45:06.518000+00:00",
+    "updated": "2026-09-16T03:32:08.040000+00:00",
+    "lat": -1.6157,
+    "lon": -78.094,
+    "depth_km": 155.806,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "17 km WNW of Palora, Ecuador",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thr4",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
