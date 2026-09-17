@@ -35,6 +35,14 @@ body {
   font-size: 1.4rem;
 }
 
+/* Logo de la institucion que auspicia/opera el dashboard -- va entre el
+   titulo y la lupa de busqueda, con .app-header en flex + space-between
+   se ubica solo en el medio de la fila azul sin desarmar nada mas. */
+.header-logo {
+  height: 2.5rem;
+  flex-shrink: 0;
+}
+
 /* Lupa que abre/cierra el desplegable de "Sismos por dia" (#search-panel,
    mas abajo) -- vive en el header para no ocupar espacio permanente en
    ningun panel del dashboard. */
