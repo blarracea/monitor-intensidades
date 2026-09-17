@@ -3,7 +3,7 @@ window.SismosApp = window.SismosApp || {};
 
 SismosApp.initMap = function () {
   const map = L.map("map", {
-    minZoom: 2,
+    minZoom: 1,
     // Por defecto Leaflet solo permite zooms enteros (zoomSnap: 1) -- eso
     // hacia que fitBounds saltara de golpe al entero siguiente completo en
     // cuanto el encuadre pedido no entraba exacto en el zoom actual (p.ej.
@@ -22,13 +22,16 @@ SismosApp.initMap = function () {
   // calcula el zoom que de verdad corresponde al tamano real del
   // contenedor -- un numero de zoom fijo dejaba de calzar cada vez que el
   // mapa cambiaba de ancho. Ensanchado hacia el oeste a pedido para que el
-  // Oceano Pacifico se vea protagonico (no solo hasta Isla de Pascua,
-  // ~-109) -- el contenedor es angosto y alto, asi que el mismo zoom que
-  // ensancha el eje oeste-este tambien estira de mas el eje norte-sur;
-  // -130 es el punto donde se ve bien el Pacifico sin llegar a
-  // Australia/Africa por el oeste ni a latitudes irrelevantes por el
-  // norte/sur.
-  const initialBounds = L.latLngBounds([8, -130], [-56, -55]);
+  // Oceano Pacifico se vea aun mas protagonico (llega a la longitud de
+  // Hawai, ~-160) -- el contenedor es angosto y alto, asi que el mismo
+  // zoom que ensancha el eje oeste-este tambien estira de mas el eje
+  // norte-sur. Se probo ensanchar hasta la longitud de Japon (~-235) pero
+  // eso obliga a un zoom tan alejado que el mapa termina mostrando casi
+  // todo el mundo de polo a polo, y Japon queda igual como una franja
+  // casi imperceptible pegada al borde -- el usuario prefirio este punto
+  // medio. Quien quiera llegar mas lejos (Japon, Asia) puede alejar el
+  // zoom a mano; minZoom se deja bajo (1) para permitirlo.
+  const initialBounds = L.latLngBounds([8, -160], [-56, -55]);
 
   // El contenedor #map recien termina su layout de CSS flex un instante
   // despues de crear el mapa (mismo problema que el heatmap en app.js) --
