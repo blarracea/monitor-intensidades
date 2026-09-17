@@ -11,6 +11,22 @@ SismosApp.initMap = function () {
     maxZoom: 18,
   }).addTo(map);
 
+  // El tile de OpenStreetMap trae grabado el nombre "Falkland Islands" --
+  // es un raster ya renderizado, no se puede editar ese texto. Se
+  // superpone una etiqueta propia en el mismo punto con "Islas Malvinas"
+  // (la denominacion que usa Chile), imitando el estilo de las etiquetas
+  // del mapa base para que se vea igual de nativa.
+  L.marker([-51.75, -59.3], {
+    icon: L.divIcon({
+      className: "map-label-malvinas",
+      html: "Islas Malvinas",
+      iconSize: [110, 16],
+      iconAnchor: [55, 8],
+    }),
+    interactive: false,
+    keyboard: false,
+  }).addTo(map);
+
   // Encuadre inicial por bounds (no un centro+zoom fijo): asi Leaflet
   // calcula el zoom que de verdad corresponde al tamano real del
   // contenedor -- un numero de zoom fijo dejaba de calzar cada vez que el
