@@ -23,11 +23,9 @@ Catalogo de sismos:
   que enrich_with_senapred_archive() (el archivo propio de SENAPRED,
   retiene semanas) hace una segunda pasada para intensidad que no se haya
   resuelto en la primera.
-- Resto de Sudamerica (incluye el Territorio Chileno Antartico y el
-  territorio insular -- Isla de Pascua, archipielago Juan Fernandez, San
-  Felix/San Ambrosio): catalogo de USGS, con DYFI ("Did You Feel It?")
-  como fuente de intensidad -- baja participacion en la region, pero es
-  lo unico disponible fuera de Chile continental. Ver BBOX mas abajo.
+- Resto del mundo: catalogo de USGS, con DYFI ("Did You Feel It?") como
+  fuente de intensidad -- a pedido, ya no se restringe a Sudamerica, se
+  consulta el feed global de USGS completo (ver BBOX mas abajo).
 
 Ademas, guarda menciones recientes de sismos en medios chilenos (RSS via
 Google News, ver sources/social.py) en data/social_mentions.json -- un
@@ -81,19 +79,15 @@ def _max_intensity_distance_km(magnitude):
 SENAPRED_MATCH_MAX_MINUTES = 90
 SENAPRED_MATCH_MAX_MAGNITUDE_DIFF = 1.0
 
-# Bounding box aproximado de Chile + Sudamerica + Territorio Chileno
-# Antartico (entre los meridianos 53O y 90O, desde los 60S hasta el Polo
-# Sur) + territorio insular chileno. minlongitude bajo de -95 a -115 para
-# que entre Isla de Pascua (-109.4) -- un sismo real M5.4 del 10-09-2026
-# a -109.15 quedaba afuera del bbox viejo y nunca se veia en el mapa,
-# como si no hubiera pasado. Juan Fernandez (-78.8) y San Felix/San
-# Ambrosio (-80.1) ya entraban sin cambios, la longitud minima era lo
-# unico que le faltaba.
+# Bbox global (todo el planeta) -- a pedido, el reporte DYFI de USGS ya no
+# se restringe a Sudamerica: se quiere ver intensidad percibida de
+# cualquier sismo en el mundo (p.ej. Japon) en el mapa de calor. Chile
+# sigue viniendo aparte, directo del CSN (ver collect_chile_events).
 BBOX = {
     "minlatitude": -90,
-    "maxlatitude": 13,
-    "minlongitude": -115,
-    "maxlongitude": -34,
+    "maxlatitude": 90,
+    "minlongitude": -180,
+    "maxlongitude": 180,
 }
 MIN_MAGNITUDE = 2.5
 LOOKBACK_DAYS = 3  # se reconsulta para capturar revisiones de magnitud y DYFI que llegan tarde
