@@ -28,16 +28,27 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+  /* El titulo se centra con position:absolute (ver .app-header h1) --
+     relative aca es lo que fija el punto de referencia para ese centrado. */
+  position: relative;
 }
 
+/* Centrado real en la fila completa (no en el espacio libre entre logo y
+   lupa): si el logo y el boton no miden exactamente lo mismo, centrar por
+   flexbox normal descuadra el titulo hacia un lado. Sacandolo del flujo y
+   centrandolo contra .app-header entero queda perfecto sin importar el
+   ancho de los elementos de los costados. */
 .app-header h1 {
   margin: 0;
   font-size: 1.4rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
 }
 
-/* Logo de la institucion que auspicia/opera el dashboard -- va entre el
-   titulo y la lupa de busqueda, con .app-header en flex + space-between
-   se ubica solo en el medio de la fila azul sin desarmar nada mas. */
+/* Logo de la institucion que auspicia/opera el dashboard -- esquina
+   izquierda de la fila azul, primer elemento del flex. */
 .header-logo {
   height: 2.5rem;
   flex-shrink: 0;
