@@ -3,7 +3,14 @@ window.SismosApp = window.SismosApp || {};
 
 SismosApp.initMap = function () {
   const map = L.map("map", {
-    minZoom: 3,
+    minZoom: 2,
+    // Por defecto Leaflet solo permite zooms enteros (zoomSnap: 1) -- eso
+    // hacia que fitBounds saltara de golpe al entero siguiente completo en
+    // cuanto el encuadre pedido no entraba exacto en el zoom actual (p.ej.
+    // de zoom 3 directo a zoom 2, mostrando el doble de mundo de lo
+    // necesario). Con zoomSnap en 0 el zoom puede ser fraccionario y
+    // fitBounds calza el encuadre exacto que se pide.
+    zoomSnap: 0,
   });
 
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -11,29 +18,17 @@ SismosApp.initMap = function () {
     maxZoom: 18,
   }).addTo(map);
 
-  // El tile de OpenStreetMap trae grabado el nombre "Falkland Islands" --
-  // es un raster ya renderizado, no se puede editar ese texto. Se
-  // superpone una etiqueta propia en el mismo punto con "Islas Malvinas"
-  // (la denominacion que usa Chile), imitando el estilo de las etiquetas
-  // del mapa base para que se vea igual de nativa.
-  L.marker([-51.75, -59.3], {
-    icon: L.divIcon({
-      className: "map-label-malvinas",
-      html: "Islas Malvinas",
-      iconSize: [110, 16],
-      iconAnchor: [55, 8],
-    }),
-    interactive: false,
-    keyboard: false,
-  }).addTo(map);
-
   // Encuadre inicial por bounds (no un centro+zoom fijo): asi Leaflet
   // calcula el zoom que de verdad corresponde al tamano real del
   // contenedor -- un numero de zoom fijo dejaba de calzar cada vez que el
-  // mapa cambiaba de ancho. Ensanchado a pedido para que entren tambien
-  // los puntos del territorio insular (Isla de Pascua, ~-109 de longitud)
-  // sin tener que alejar el zoom a mano cada vez.
-  const initialBounds = L.latLngBounds([20, -120], [-58, -55]);
+  // mapa cambiaba de ancho. Ensanchado hacia el oeste a pedido para que el
+  // Oceano Pacifico se vea protagonico (no solo hasta Isla de Pascua,
+  // ~-109) -- el contenedor es angosto y alto, asi que el mismo zoom que
+  // ensancha el eje oeste-este tambien estira de mas el eje norte-sur;
+  // -130 es el punto donde se ve bien el Pacifico sin llegar a
+  // Australia/Africa por el oeste ni a latitudes irrelevantes por el
+  // norte/sur.
+  const initialBounds = L.latLngBounds([8, -130], [-56, -55]);
 
   // El contenedor #map recien termina su layout de CSS flex un instante
   // despues de crear el mapa (mismo problema que el heatmap en app.js) --

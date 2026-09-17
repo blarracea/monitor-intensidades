@@ -245,26 +245,6 @@ body {
   padding: 0.4rem 0.2rem;
 }
 
-/* Etiqueta que reemplaza visualmente el nombre "Falkland Islands" del tile
-   de OpenStreetMap por "Islas Malvinas" -- mismo look que las etiquetas
-   nativas del mapa base (texto oscuro con halo blanco), para que no se note
-   que es una superposicion aparte. */
-.map-label-malvinas {
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  font-size: 11px;
-  font-weight: bold;
-  color: #333;
-  text-align: center;
-  white-space: nowrap;
-  text-shadow:
-    -1px -1px 0 #fff,
-    1px -1px 0 #fff,
-    -1px 1px 0 #fff,
-    1px 1px 0 #fff,
-    0 0 3px #fff;
-  pointer-events: none;
-}
-
 .live-feed.panel,
 .social-feed.panel {
   flex: 0 0 300px;
