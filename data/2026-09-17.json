@@ -741,7 +741,7 @@
     "id": "us7000ti15",
     "source": "usgs",
     "time": "2026-09-17T12:31:37.057000+00:00",
-    "updated": "2026-09-18T15:50:00.187000+00:00",
+    "updated": "2026-09-18T22:12:17.196000+00:00",
     "lat": 49.6652,
     "lon": -116.8318,
     "depth_km": 10,
@@ -750,7 +750,7 @@
     "place": "37 km ENE of Nelson, Canada",
     "cdi": 4,
     "mmi": 4.109,
-    "felt_reports": 106,
+    "felt_reports": 107,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -852,6 +852,12 @@
       {
         "lat": 49.47627,
         "lon": -117.4486275,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 49.9088425,
+        "lon": -116.9094675,
         "intensity": 3.4,
         "responses": 1
       },
