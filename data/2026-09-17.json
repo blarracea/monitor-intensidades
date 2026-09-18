@@ -741,7 +741,7 @@
     "id": "us7000ti15",
     "source": "usgs",
     "time": "2026-09-17T12:31:37.057000+00:00",
-    "updated": "2026-09-18T12:36:58.317000+00:00",
+    "updated": "2026-09-18T14:02:59.265000+00:00",
     "lat": 49.6652,
     "lon": -116.8318,
     "depth_km": 10,
@@ -750,7 +750,7 @@
     "place": "37 km ENE of Nelson, Canada",
     "cdi": 4,
     "mmi": 4.109,
-    "felt_reports": 104,
+    "felt_reports": 105,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -798,6 +798,12 @@
       {
         "lat": 49.6748725,
         "lon": -116.8128825,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 49.4944125,
+        "lon": -117.407365,
         "intensity": 3.8,
         "responses": 1
       },
@@ -1291,7 +1297,7 @@
     "id": "us7000ti1p",
     "source": "usgs",
     "time": "2026-09-17T14:19:52.210000+00:00",
-    "updated": "2026-09-18T13:13:42.401000+00:00",
+    "updated": "2026-09-18T14:29:54.553000+00:00",
     "lat": 52.8594,
     "lon": -171.3756,
     "depth_km": 98,
@@ -1356,14 +1362,14 @@
   {
     "id": "us7000ti2d",
     "source": "usgs",
-    "time": "2026-09-17T14:34:15.922000+00:00",
-    "updated": "2026-09-17T18:54:42.040000+00:00",
-    "lat": 51.6411,
-    "lon": -170.7271,
-    "depth_km": 10,
+    "time": "2026-09-17T14:34:22.119000+00:00",
+    "updated": "2026-09-18T13:56:09.040000+00:00",
+    "lat": 52.8272,
+    "lon": -171.278,
+    "depth_km": 95.078,
     "magnitude": 3.5,
     "mag_type": "ml",
-    "place": "192 km SW of Nikolski, Alaska",
+    "place": "163 km W of Nikolski, Alaska",
     "cdi": null,
     "mmi": 1.97,
     "felt_reports": 0,
@@ -1396,6 +1402,29 @@
     "senapred_url": null,
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026slmzxy",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000ti2f",
+    "source": "usgs",
+    "time": "2026-09-17T14:39:42.037000+00:00",
+    "updated": "2026-09-18T14:29:24.040000+00:00",
+    "lat": 52.8259,
+    "lon": -171.4285,
+    "depth_km": 97.243,
+    "magnitude": 4.1,
+    "mag_type": "mb",
+    "place": "173 km W of Nikolski, Alaska",
+    "cdi": null,
+    "mmi": 1.801,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti2f",
     "relevant": false,
     "keywords_matched": []
   },
@@ -1775,7 +1804,7 @@
     "id": "ci41334231",
     "source": "usgs",
     "time": "2026-09-17T20:32:29.830000+00:00",
-    "updated": "2026-09-18T08:16:00.056000+00:00",
+    "updated": "2026-09-18T14:28:21.386000+00:00",
     "lat": 33.8646666666667,
     "lon": -118.2075,
     "depth_km": 13.23,
@@ -1784,7 +1813,7 @@
     "place": "4 km SSE of Compton, CA",
     "cdi": 3.1,
     "mmi": 3.479,
-    "felt_reports": 510,
+    "felt_reports": 511,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2433,7 +2462,7 @@
         "lat": 33.88077,
         "lon": -118.1191675,
         "intensity": 2.7,
-        "responses": 1
+        "responses": 2
       },
       {
         "lat": 33.7719525,
