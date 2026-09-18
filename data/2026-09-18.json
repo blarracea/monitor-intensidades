@@ -967,19 +967,26 @@
     "id": "us7000ti82",
     "source": "usgs",
     "time": "2026-09-18T06:42:06.708000+00:00",
-    "updated": "2026-09-18T16:35:13.040000+00:00",
+    "updated": "2026-09-18T17:36:55.228000+00:00",
     "lat": 38.915,
     "lon": 23.3755,
     "depth_km": 4.385,
     "magnitude": 4.3,
     "mag_type": "mb",
     "place": "15 km NW of Mantoúdi, Greece",
-    "cdi": null,
+    "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 0,
+    "felt_reports": 1,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 39.1435,
+        "lon": 23.4241525,
+        "intensity": 3.1,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti82",
@@ -1473,7 +1480,7 @@
     "id": "pr2026261000",
     "source": "usgs",
     "time": "2026-09-18T13:19:35.140000+00:00",
-    "updated": "2026-09-18T16:38:57.192000+00:00",
+    "updated": "2026-09-18T17:23:11.864000+00:00",
     "lat": 17.9391,
     "lon": -66.9455,
     "depth_km": 7,
@@ -1482,7 +1489,7 @@
     "place": "5 km SW of Guánica, Puerto Rico",
     "cdi": 5.9,
     "mmi": 4.436,
-    "felt_reports": 76,
+    "felt_reports": 78,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1510,16 +1517,28 @@
         "responses": 2
       },
       {
+        "lat": 18.030265,
+        "lon": -67.16265250000001,
+        "intensity": 4.8,
+        "responses": 3
+      },
+      {
         "lat": 18.221145,
         "lon": -66.47063,
         "intensity": 4.8,
         "responses": 1
       },
       {
-        "lat": 18.030265,
-        "lon": -67.16265250000001,
-        "intensity": 4.8,
-        "responses": 3
+        "lat": 18.2288275,
+        "lon": -67.1416675,
+        "intensity": 4.6,
+        "responses": 1
+      },
+      {
+        "lat": 18.0179175,
+        "lon": -66.841735,
+        "intensity": 4.6,
+        "responses": 1
       },
       {
         "lat": 18.037015,
@@ -1540,27 +1559,9 @@
         "responses": 1
       },
       {
-        "lat": 18.2288275,
-        "lon": -67.1416675,
-        "intensity": 4.6,
-        "responses": 1
-      },
-      {
-        "lat": 18.0179175,
-        "lon": -66.841735,
-        "intensity": 4.6,
-        "responses": 1
-      },
-      {
         "lat": 18.082275,
         "lon": -66.94484750000001,
         "intensity": 4.6,
-        "responses": 1
-      },
-      {
-        "lat": 18.0272625,
-        "lon": -66.869945,
-        "intensity": 4.3,
         "responses": 1
       },
       {
@@ -1578,6 +1579,12 @@
       {
         "lat": 17.9973125,
         "lon": -66.624865,
+        "intensity": 4.3,
+        "responses": 1
+      },
+      {
+        "lat": 18.0272625,
+        "lon": -66.869945,
         "intensity": 4.3,
         "responses": 1
       },
@@ -1624,12 +1631,6 @@
         "responses": 1
       },
       {
-        "lat": 18.083257500000002,
-        "lon": -67.03929500000001,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
         "lat": 18.027055,
         "lon": -66.851065,
         "intensity": 3.4,
@@ -1648,6 +1649,12 @@
         "responses": 1
       },
       {
+        "lat": 18.083257500000002,
+        "lon": -67.03929500000001,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
         "lat": 18.201725,
         "lon": -67.141955,
         "intensity": 3.3,
@@ -1660,6 +1667,12 @@
         "responses": 3
       },
       {
+        "lat": 18.1288075,
+        "lon": -67.076585,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
         "lat": 18.2508725,
         "lon": -65.97398,
         "intensity": 3.1,
@@ -1668,12 +1681,6 @@
       {
         "lat": 18.024635,
         "lon": -66.64338000000001,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 18.1288075,
-        "lon": -67.076585,
         "intensity": 3.1,
         "responses": 1
       },
@@ -1708,14 +1715,14 @@
         "responses": 2
       },
       {
-        "lat": 18.16112,
-        "lon": -66.72659250000001,
+        "lat": 18.414515,
+        "lon": -66.098875,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 18.414515,
-        "lon": -66.098875,
+        "lat": 18.16112,
+        "lon": -66.72659250000001,
         "intensity": 2.7,
         "responses": 1
       },
@@ -1780,32 +1787,20 @@
         "responses": 1
       },
       {
+        "lat": 17.962175000000002,
+        "lon": -66.04031,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 18.230175,
         "lon": -66.4705,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 18.2018175,
-        "lon": -67.1514075,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
         "lat": 18.468182499999998,
         "lon": -66.72258,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 18.299265,
-        "lon": -66.9612175,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 18.308695,
-        "lon": -66.99894,
         "intensity": 2,
         "responses": 1
       },
@@ -1840,15 +1835,39 @@
         "responses": 1
       },
       {
+        "lat": 17.98805,
+        "lon": -66.60611,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 18.2018175,
+        "lon": -67.1514075,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 18.299265,
+        "lon": -66.9612175,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 18.308695,
+        "lon": -66.99894,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 18.4146575,
         "lon": -66.108335,
         "intensity": 2,
         "responses": 2
       },
       {
-        "lat": 17.98805,
-        "lon": -66.60611,
-        "intensity": 2,
+        "lat": 18.4904225,
+        "lon": -67.1009925,
+        "intensity": 1,
         "responses": 1
       },
       {
@@ -1915,7 +1934,7 @@
     "id": "us7000tiax",
     "source": "usgs",
     "time": "2026-09-18T13:40:42.979000+00:00",
-    "updated": "2026-09-18T16:33:14.204000+00:00",
+    "updated": "2026-09-18T17:37:21.631000+00:00",
     "lat": 47.5572,
     "lon": -111.3244,
     "depth_km": 27.731,
@@ -1924,7 +1943,7 @@
     "place": "5 km NW of Black Eagle, Montana",
     "cdi": 3.4,
     "mmi": 3.32,
-    "felt_reports": 142,
+    "felt_reports": 149,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1990,12 +2009,6 @@
       {
         "lat": 47.533625,
         "lon": -111.25907749999999,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
-        "lat": 47.506535,
-        "lon": -111.298785,
         "intensity": 3.4,
         "responses": 1
       },
@@ -2072,6 +2085,12 @@
         "responses": 1
       },
       {
+        "lat": 47.506665,
+        "lon": -111.2456675,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
         "lat": 47.506635,
         "lon": -111.258945,
         "intensity": 3.1,
@@ -2108,16 +2127,22 @@
         "responses": 2
       },
       {
-        "lat": 47.488635,
-        "lon": -111.2588575,
-        "intensity": 3,
-        "responses": 6
+        "lat": 47.51546,
+        "lon": -111.32539750000001,
+        "intensity": 2.9,
+        "responses": 3
       },
       {
         "lat": 47.488575,
         "lon": -111.28540749999999,
         "intensity": 2.9,
         "responses": 1
+      },
+      {
+        "lat": 47.488635,
+        "lon": -111.2588575,
+        "intensity": 2.9,
+        "responses": 7
       },
       {
         "lat": 47.47947,
@@ -2132,10 +2157,22 @@
         "responses": 3
       },
       {
+        "lat": 47.47943,
+        "lon": -111.33844500000001,
+        "intensity": 2.9,
+        "responses": 4
+      },
+      {
         "lat": 47.515635,
         "lon": -111.25899,
         "intensity": 2.8,
         "responses": 3
+      },
+      {
+        "lat": 47.506535,
+        "lon": -111.298785,
+        "intensity": 2.8,
+        "responses": 2
       },
       {
         "lat": 47.497605,
@@ -2192,10 +2229,10 @@
         "responses": 1
       },
       {
-        "lat": 47.47943,
-        "lon": -111.33844500000001,
+        "lat": 47.5155675,
+        "lon": -111.285555,
         "intensity": 2.7,
-        "responses": 3
+        "responses": 2
       },
       {
         "lat": 47.4612675,
@@ -2226,12 +2263,6 @@
         "lon": -111.205865,
         "intensity": 2.7,
         "responses": 1
-      },
-      {
-        "lat": 47.51546,
-        "lon": -111.32539750000001,
-        "intensity": 2.6,
-        "responses": 2
       },
       {
         "lat": 47.48854,
@@ -2276,12 +2307,6 @@
         "responses": 1
       },
       {
-        "lat": 47.5155675,
-        "lon": -111.285555,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
         "lat": 47.5595875,
         "lon": -111.55165,
         "intensity": 2.2,
@@ -2321,7 +2346,7 @@
         "lat": 47.51578,
         "lon": -111.17929749999999,
         "intensity": 2,
-        "responses": 2
+        "responses": 3
       },
       {
         "lat": 47.4974675,
@@ -2461,6 +2486,474 @@
     "senapred_url": null,
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383491.html",
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383491.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383505.html",
+    "source": "csn",
+    "time": "2026-09-18T16:52:06+00:00",
+    "updated": "2026-09-18T16:52:06+00:00",
+    "lat": -33.33,
+    "lon": -70.34,
+    "depth_km": 103.0,
+    "magnitude": 4.8,
+    "mag_type": "Mw",
+    "place": "3 km al NO de Farellones, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": -32.8811,
+        "lon": -71.2492,
+        "intensity": 5,
+        "responses": null,
+        "comuna": "Quillota",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -33.5928,
+        "lon": -71.6128,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "San Antonio",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -33.3205864,
+        "lon": -71.4100762,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Casablanca",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -33.0018741,
+        "lon": -71.2657315,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Limache",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -33.0498135,
+        "lon": -71.4415282,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Quilpué",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -33.0246,
+        "lon": -71.5518,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Viña del Mar",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -32.750687,
+        "lon": -70.7252688,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "San Felipe",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -33.5468491,
+        "lon": -71.6031708,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Cartagena",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -33.0852808,
+        "lon": -70.9293877,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Tiltil",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.6403975,
+        "lon": -70.3527845,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "San José de Maipo",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.5922859,
+        "lon": -70.7045838,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "San Bernardo",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.422295,
+        "lon": -70.6554648,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Independencia",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.5241,
+        "lon": -70.5978,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "La Florida",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.5833594,
+        "lon": -70.629827,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "La Pintana",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.4089,
+        "lon": -70.5693,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Las Condes",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.4821635,
+        "lon": -70.5991929,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Macul",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.4543164,
+        "lon": -70.5936358,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Ñuñoa",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.3600426,
+        "lon": -70.7118564,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Quilicura",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.4859746,
+        "lon": -70.6495465,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "San Miguel",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.5428175,
+        "lon": -70.643812,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "San Ramon",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.7537387,
+        "lon": -70.9039325,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Isla de Maipo",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.6058638,
+        "lon": -70.8785306,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Peñaflor",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.6644388,
+        "lon": -70.9302778,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Talagante",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.4489,
+        "lon": -70.6693,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Santiago",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.4022289,
+        "lon": -71.1293733,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Curacaví",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.3616012,
+        "lon": -70.5051957,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Lo Barnechea",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.6678197,
+        "lon": -71.0272362,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "El Monte",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.9536044,
+        "lon": -71.8305775,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Navidad",
+        "region": "Libertador Bernardo O'Higgins"
+      },
+      {
+        "lat": -34.1701,
+        "lon": -70.7444,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Rancagua",
+        "region": "Libertador Bernardo O'Higgins"
+      },
+      {
+        "lat": -34.0644743,
+        "lon": -70.7262983,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Graneros",
+        "region": "Libertador Bernardo O'Higgins"
+      },
+      {
+        "lat": -34.182453,
+        "lon": -70.6511584,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Machalí",
+        "region": "Libertador Bernardo O'Higgins"
+      },
+      {
+        "lat": -33.9468525,
+        "lon": -70.5981024,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Mostazal",
+        "region": "Libertador Bernardo O'Higgins"
+      },
+      {
+        "lat": -34.4083,
+        "lon": -70.8583,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Rengo",
+        "region": "Libertador Bernardo O'Higgins"
+      },
+      {
+        "lat": -34.708953,
+        "lon": -71.0403642,
+        "intensity": 2,
+        "responses": null,
+        "comuna": "Chimbarongo",
+        "region": "Libertador Bernardo O'Higgins"
+      },
+      {
+        "lat": -34.5845,
+        "lon": -70.988,
+        "intensity": 2,
+        "responses": null,
+        "comuna": "San Fernando",
+        "region": "Libertador Bernardo O'Higgins"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-metropolitana-2026-09-18-13-55-38",
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383505.html",
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383505.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "pr71532383",
+    "source": "usgs",
+    "time": "2026-09-18T16:57:05.620000+00:00",
+    "updated": "2026-09-18T17:08:28.370000+00:00",
+    "lat": 17.9705,
+    "lon": -66.9521666666667,
+    "depth_km": 7.86,
+    "magnitude": 2.56,
+    "mag_type": "md",
+    "place": "4 km WSW of Fuig, Puerto Rico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71532383",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "pr71532403",
+    "source": "usgs",
+    "time": "2026-09-18T16:57:53.350000+00:00",
+    "updated": "2026-09-18T17:14:44.710000+00:00",
+    "lat": 17.9443333333333,
+    "lon": -66.958,
+    "depth_km": 7.66,
+    "magnitude": 2.7,
+    "mag_type": "md",
+    "place": "6 km WSW of Guánica, Puerto Rico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71532403",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000tid8",
+    "source": "usgs",
+    "time": "2026-09-18T17:04:59.669000+00:00",
+    "updated": "2026-09-18T17:35:26.166000+00:00",
+    "lat": 19.9161,
+    "lon": -155.7172,
+    "depth_km": 31.318,
+    "magnitude": 2.8,
+    "mag_type": "ml",
+    "place": "7 km ESE of Waikoloa, Hawaii",
+    "cdi": 2.7,
+    "mmi": null,
+    "felt_reports": 8,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 19.92397,
+        "lon": -155.7940275,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 20.0247375,
+        "lon": -155.700275,
+        "intensity": 2.5,
+        "responses": 4
+      },
+      {
+        "lat": 20.0251725,
+        "lon": -155.671625,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tid8",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000tidg",
+    "source": "usgs",
+    "time": "2026-09-18T17:20:42.188000+00:00",
+    "updated": "2026-09-18T17:38:25.117000+00:00",
+    "lat": 17.9549,
+    "lon": -66.9456,
+    "depth_km": 10.45,
+    "magnitude": 3.2,
+    "mag_type": "ml",
+    "place": "4 km WSW of Guánica, Puerto Rico",
+    "cdi": 2.7,
+    "mmi": null,
+    "felt_reports": 1,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 17.974765,
+        "lon": -67.03106,
+        "intensity": 2.7,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tidg",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "aka2026snoksy",
+    "source": "usgs",
+    "time": "2026-09-18T17:21:24.776000+00:00",
+    "updated": "2026-09-18T17:41:11.040000+00:00",
+    "lat": 57.938,
+    "lon": -153.502,
+    "depth_km": 51,
+    "magnitude": 2.6,
+    "mag_type": "ml",
+    "place": "37 km WSW of Aleneva, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026snoksy",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383512.html",
+    "source": "csn",
+    "time": "2026-09-18T17:26:21+00:00",
+    "updated": "2026-09-18T17:26:21+00:00",
+    "lat": -29.03,
+    "lon": -71.28,
+    "depth_km": 41.0,
+    "magnitude": 2.8,
+    "mag_type": "MLv",
+    "place": "31 km al NE de Punta de Choros, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383512.html",
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383512.html",
     "relevant": false,
     "keywords_matched": []
   }
