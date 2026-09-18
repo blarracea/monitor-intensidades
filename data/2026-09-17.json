@@ -741,7 +741,7 @@
     "id": "us7000ti15",
     "source": "usgs",
     "time": "2026-09-17T12:31:37.057000+00:00",
-    "updated": "2026-09-18T14:02:59.265000+00:00",
+    "updated": "2026-09-18T15:50:00.187000+00:00",
     "lat": 49.6652,
     "lon": -116.8318,
     "depth_km": 10,
@@ -750,7 +750,7 @@
     "place": "37 km ENE of Nelson, Canada",
     "cdi": 4,
     "mmi": 4.109,
-    "felt_reports": 105,
+    "felt_reports": 106,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1066,16 +1066,16 @@
         "responses": 1
       },
       {
+        "lat": 49.4947475,
+        "lon": -117.296895,
+        "intensity": 2.5,
+        "responses": 4
+      },
+      {
         "lat": 49.49752,
         "lon": -115.7639825,
         "intensity": 2.5,
         "responses": 1
-      },
-      {
-        "lat": 49.4947475,
-        "lon": -117.296895,
-        "intensity": 2.5,
-        "responses": 3
       },
       {
         "lat": 49.26841,
@@ -1452,6 +1452,29 @@
     "keywords_matched": []
   },
   {
+    "id": "us7000ti2h",
+    "source": "usgs",
+    "time": "2026-09-17T14:46:43.544000+00:00",
+    "updated": "2026-09-18T14:43:39.040000+00:00",
+    "lat": 52.8617,
+    "lon": -171.3302,
+    "depth_km": 97.508,
+    "magnitude": 3.8,
+    "mag_type": "ml",
+    "place": "166 km W of Nikolski, Alaska",
+    "cdi": null,
+    "mmi": 1.86,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti2h",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "tx2026sipbbo",
     "source": "usgs",
     "time": "2026-09-17T15:04:16.188000+00:00",
@@ -1804,7 +1827,7 @@
     "id": "ci41334231",
     "source": "usgs",
     "time": "2026-09-17T20:32:29.830000+00:00",
-    "updated": "2026-09-18T14:28:21.386000+00:00",
+    "updated": "2026-09-18T14:43:21.223000+00:00",
     "lat": 33.8646666666667,
     "lon": -118.2075,
     "depth_km": 13.23,
@@ -1813,7 +1836,7 @@
     "place": "4 km SSE of Compton, CA",
     "cdi": 3.1,
     "mmi": 3.479,
-    "felt_reports": 511,
+    "felt_reports": 512,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2093,12 +2116,6 @@
         "responses": 2
       },
       {
-        "lat": 33.8532125,
-        "lon": -118.172855,
-        "intensity": 3.1,
-        "responses": 3
-      },
-      {
         "lat": 33.861705,
         "lon": -118.22702,
         "intensity": 3.1,
@@ -2187,6 +2204,12 @@
         "lon": -118.162535,
         "intensity": 3,
         "responses": 2
+      },
+      {
+        "lat": 33.8532125,
+        "lon": -118.172855,
+        "intensity": 3,
+        "responses": 4
       },
       {
         "lat": 33.844300000000004,
