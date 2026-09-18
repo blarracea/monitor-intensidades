@@ -1253,6 +1253,36 @@
     "keywords_matched": []
   },
   {
+    "id": "hv75039307",
+    "source": "usgs",
+    "time": "2026-09-18T09:26:11.300000+00:00",
+    "updated": "2026-09-18T20:59:34.078000+00:00",
+    "lat": 19.165,
+    "lon": -155.484166666667,
+    "depth_km": 10.45,
+    "magnitude": 2.52,
+    "mag_type": "ml",
+    "place": "4 km S of Pāhala, Hawaii",
+    "cdi": 2.2,
+    "mmi": null,
+    "felt_reports": 1,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 19.1971925,
+        "lon": -155.4773825,
+        "intensity": 2.2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75039307",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "hv75039342",
     "source": "usgs",
     "time": "2026-09-18T10:27:35.610000+00:00",
@@ -1998,7 +2028,7 @@
     "id": "us7000tiax",
     "source": "usgs",
     "time": "2026-09-18T13:40:42.979000+00:00",
-    "updated": "2026-09-18T20:18:18.833000+00:00",
+    "updated": "2026-09-18T21:47:17.804000+00:00",
     "lat": 47.5572,
     "lon": -111.3244,
     "depth_km": 27.731,
@@ -2007,14 +2037,14 @@
     "place": "5 km NW of Black Eagle, Montana",
     "cdi": 3.4,
     "mmi": 3.32,
-    "felt_reports": 154,
+    "felt_reports": 162,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 47.506569999999996,
         "lon": -111.285505,
         "intensity": 3.9,
-        "responses": 2
+        "responses": 3
       },
       {
         "lat": 47.5425625,
@@ -2083,16 +2113,22 @@
         "responses": 1
       },
       {
-        "lat": 47.524497499999995,
-        "lon": -111.3121675,
+        "lat": 47.41575,
+        "lon": -111.523635,
         "intensity": 3.4,
-        "responses": 2
+        "responses": 1
       },
       {
         "lat": 47.41645,
         "lon": -111.3380425,
         "intensity": 3.4,
         "responses": 1
+      },
+      {
+        "lat": 47.524497499999995,
+        "lon": -111.3121675,
+        "intensity": 3.4,
+        "responses": 2
       },
       {
         "lat": 47.53353,
@@ -2155,6 +2191,12 @@
         "responses": 3
       },
       {
+        "lat": 47.506690000000006,
+        "lon": -111.23239,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
         "lat": 47.4975375,
         "lon": -111.298735,
         "intensity": 3.1,
@@ -2187,6 +2229,12 @@
       {
         "lat": 47.51542,
         "lon": -111.33868,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 47.515662500000005,
+        "lon": -111.24571,
         "intensity": 3.1,
         "responses": 1
       },
@@ -2305,6 +2353,12 @@
         "responses": 2
       },
       {
+        "lat": 47.619727499999996,
+        "lon": -111.9781475,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": 47.4612675,
         "lon": -111.3914025,
         "intensity": 2.7,
@@ -2395,10 +2449,22 @@
         "responses": 1
       },
       {
+        "lat": 47.51578,
+        "lon": -111.17929749999999,
+        "intensity": 2.2,
+        "responses": 4
+      },
+      {
         "lat": 47.5156875,
         "lon": -111.23243,
         "intensity": 2,
         "responses": 3
+      },
+      {
+        "lat": 46.12578499999999,
+        "lon": -111.9902,
+        "intensity": 2,
+        "responses": 1
       },
       {
         "lat": 47.4705775,
@@ -2419,12 +2485,6 @@
         "responses": 2
       },
       {
-        "lat": 47.51578,
-        "lon": -111.17929749999999,
-        "intensity": 2,
-        "responses": 3
-      },
-      {
         "lat": 47.4974675,
         "lon": -111.3252875,
         "intensity": 2,
@@ -2433,6 +2493,12 @@
       {
         "lat": 47.488695,
         "lon": -111.23230749999999,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 47.549710000000005,
+        "lon": -111.711035,
         "intensity": 2,
         "responses": 1
       },
@@ -3260,6 +3326,75 @@
     "keywords_matched": []
   },
   {
+    "id": "us7000tie4",
+    "source": "usgs",
+    "time": "2026-09-18T18:41:22.677000+00:00",
+    "updated": "2026-09-18T20:29:02.040000+00:00",
+    "lat": 4.5042,
+    "lon": -76.7978,
+    "depth_km": 72.587,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "23 km SW of Sipí, Colombia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tie4",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000tiej",
+    "source": "usgs",
+    "time": "2026-09-18T19:13:17.034000+00:00",
+    "updated": "2026-09-18T21:23:03.554000+00:00",
+    "lat": 19.4646,
+    "lon": -155.5904,
+    "depth_km": 26.769,
+    "magnitude": 2.6,
+    "mag_type": "ml",
+    "place": "28 km E of Honaunau-Napoopoo, Hawaii",
+    "cdi": 0,
+    "mmi": null,
+    "felt_reports": 1,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiej",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000tiem",
+    "source": "usgs",
+    "time": "2026-09-18T19:16:37.535000+00:00",
+    "updated": "2026-09-18T21:41:41.040000+00:00",
+    "lat": 55.7503,
+    "lon": 164.062,
+    "depth_km": 30.943,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "112 km ESE of Ust’-Kamchatsk Staryy, Russia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiem",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383527.html",
     "source": "csn",
     "time": "2026-09-18T19:24:35+00:00",
@@ -3333,12 +3468,12 @@
     "source": "csn",
     "time": "2026-09-18T19:54:27+00:00",
     "updated": "2026-09-18T19:54:27+00:00",
-    "lat": -24.21,
-    "lon": -67.98,
-    "depth_km": 160.0,
-    "magnitude": 2.7,
+    "lat": -23.99,
+    "lon": -68.12,
+    "depth_km": 181.0,
+    "magnitude": 2.6,
     "mag_type": "MLv",
-    "place": "69 km al S de Socaire, Chile",
+    "place": "50 km al SO de Socaire, Chile",
     "cdi": null,
     "mmi": null,
     "felt_reports": null,
@@ -3348,6 +3483,29 @@
     "senapred_url": null,
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383530.html",
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383530.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383535.html",
+    "source": "csn",
+    "time": "2026-09-18T21:13:57+00:00",
+    "updated": "2026-09-18T21:13:57+00:00",
+    "lat": -20.17,
+    "lon": -69.28,
+    "depth_km": 100.0,
+    "magnitude": 2.6,
+    "mag_type": "MLv",
+    "place": "36 km al N de Pica, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383535.html",
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383535.html",
     "relevant": false,
     "keywords_matched": []
   }
