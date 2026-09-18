@@ -1769,7 +1769,7 @@
     "id": "ci41334231",
     "source": "usgs",
     "time": "2026-09-17T20:32:29.830000+00:00",
-    "updated": "2026-09-18T03:44:01.703000+00:00",
+    "updated": "2026-09-18T04:53:30.541000+00:00",
     "lat": 33.8646666666667,
     "lon": -118.2075,
     "depth_km": 13.23,
@@ -1778,7 +1778,7 @@
     "place": "4 km SSE of Compton, CA",
     "cdi": 3.1,
     "mmi": 3.479,
-    "felt_reports": 505,
+    "felt_reports": 507,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -3372,6 +3372,12 @@
         "responses": 1
       },
       {
+        "lat": 34.1958575,
+        "lon": -118.17758,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
         "lat": 33.765765,
         "lon": -117.8369125,
         "intensity": 1,
@@ -3455,7 +3461,7 @@
     "id": "us7000ti5y",
     "source": "usgs",
     "time": "2026-09-17T21:10:25.572000+00:00",
-    "updated": "2026-09-18T03:46:52.509000+00:00",
+    "updated": "2026-09-18T06:34:59.836000+00:00",
     "lat": 4.5211,
     "lon": -76.8219,
     "depth_km": 57.808,
@@ -3464,7 +3470,7 @@
     "place": "24 km SW of Sipí, Colombia",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 3,
+    "felt_reports": 4,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -3477,6 +3483,12 @@
         "lat": 3.368895,
         "lon": -76.51669,
         "intensity": 2.9,
+        "responses": 1
+      },
+      {
+        "lat": 3.377925,
+        "lon": -76.5257025,
+        "intensity": 2,
         "responses": 1
       },
       {
