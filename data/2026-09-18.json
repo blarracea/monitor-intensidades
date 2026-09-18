@@ -467,6 +467,29 @@
     "keywords_matched": []
   },
   {
+    "id": "aka2026smrdve",
+    "source": "usgs",
+    "time": "2026-09-18T05:43:46.639000+00:00",
+    "updated": "2026-09-18T19:23:29.208000+00:00",
+    "lat": 52.164,
+    "lon": -171.02,
+    "depth_km": 109.9,
+    "magnitude": 3.8,
+    "mag_type": "ml",
+    "place": "169 km WSW of Nikolski, Alaska",
+    "cdi": null,
+    "mmi": 1.634,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026smrdve",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "us7000ti7x",
     "source": "usgs",
     "time": "2026-09-18T06:17:03.598000+00:00",
@@ -536,7 +559,7 @@
     "id": "hv75039212",
     "source": "usgs",
     "time": "2026-09-18T06:36:43.030000+00:00",
-    "updated": "2026-09-18T17:51:04.529000+00:00",
+    "updated": "2026-09-18T19:43:08.056000+00:00",
     "lat": 19.1576666666667,
     "lon": -155.476333333333,
     "depth_km": 12.42,
@@ -545,7 +568,7 @@
     "place": "5 km S of Pāhala, Hawaii",
     "cdi": 4.6,
     "mmi": 3.699,
-    "felt_reports": 103,
+    "felt_reports": 104,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -931,6 +954,12 @@
         "lon": -155.281175,
         "intensity": 2,
         "responses": 1
+      },
+      {
+        "lat": 20.024,
+        "lon": -155.74802499999998,
+        "intensity": 1,
+        "responses": 1
       }
     ],
     "intensity_source": "usgs_dyfi",
@@ -1174,6 +1203,29 @@
     "senapred_url": null,
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti8q",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "aka2026smympm",
+    "source": "usgs",
+    "time": "2026-09-18T09:23:44.994000+00:00",
+    "updated": "2026-09-18T19:30:17.844000+00:00",
+    "lat": 51.364,
+    "lon": -173.278,
+    "depth_km": 0,
+    "magnitude": 3.6,
+    "mag_type": "ml",
+    "place": "112 km SE of Atka, Alaska",
+    "cdi": null,
+    "mmi": 2.337,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026smympm",
     "relevant": false,
     "keywords_matched": []
   },
@@ -1480,7 +1532,7 @@
     "id": "pr2026261000",
     "source": "usgs",
     "time": "2026-09-18T13:19:35.140000+00:00",
-    "updated": "2026-09-18T17:23:11.864000+00:00",
+    "updated": "2026-09-18T20:14:17.912000+00:00",
     "lat": 17.9391,
     "lon": -66.9455,
     "depth_km": 7,
@@ -1489,7 +1541,7 @@
     "place": "5 km SW of Guánica, Puerto Rico",
     "cdi": 5.9,
     "mmi": 4.436,
-    "felt_reports": 78,
+    "felt_reports": 82,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1511,12 +1563,6 @@
         "responses": 1
       },
       {
-        "lat": 18.1103575,
-        "lon": -67.038995,
-        "intensity": 4.8,
-        "responses": 2
-      },
-      {
         "lat": 18.030265,
         "lon": -67.16265250000001,
         "intensity": 4.8,
@@ -1527,6 +1573,12 @@
         "lon": -66.47063,
         "intensity": 4.8,
         "responses": 1
+      },
+      {
+        "lat": 18.1103575,
+        "lon": -67.038995,
+        "intensity": 4.6,
+        "responses": 3
       },
       {
         "lat": 18.2288275,
@@ -1565,12 +1617,6 @@
         "responses": 1
       },
       {
-        "lat": 17.946485,
-        "lon": -66.9181075,
-        "intensity": 4.3,
-        "responses": 1
-      },
-      {
         "lat": 17.974765,
         "lon": -67.03106,
         "intensity": 4.3,
@@ -1592,6 +1638,18 @@
         "lat": 18.045225,
         "lon": -66.860285,
         "intensity": 4.3,
+        "responses": 1
+      },
+      {
+        "lat": 17.946485,
+        "lon": -66.9181075,
+        "intensity": 4.2,
+        "responses": 2
+      },
+      {
+        "lat": 18.188769999999998,
+        "lon": -66.773485,
+        "intensity": 3.8,
         "responses": 1
       },
       {
@@ -1859,6 +1917,12 @@
         "responses": 1
       },
       {
+        "lat": 18.051845,
+        "lon": -66.65246,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 18.4146575,
         "lon": -66.108335,
         "intensity": 2,
@@ -1934,7 +1998,7 @@
     "id": "us7000tiax",
     "source": "usgs",
     "time": "2026-09-18T13:40:42.979000+00:00",
-    "updated": "2026-09-18T18:51:16.449000+00:00",
+    "updated": "2026-09-18T20:18:18.833000+00:00",
     "lat": 47.5572,
     "lon": -111.3244,
     "depth_km": 27.731,
@@ -1943,7 +2007,7 @@
     "place": "5 km NW of Black Eagle, Montana",
     "cdi": 3.4,
     "mmi": 3.32,
-    "felt_reports": 151,
+    "felt_reports": 154,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2055,6 +2119,12 @@
         "responses": 2
       },
       {
+        "lat": 47.47939,
+        "lon": -111.35172,
+        "intensity": 3.3,
+        "responses": 2
+      },
+      {
         "lat": 47.52446,
         "lon": -111.3254525,
         "intensity": 3.2,
@@ -2121,12 +2191,6 @@
         "responses": 1
       },
       {
-        "lat": 47.47939,
-        "lon": -111.35172,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
         "lat": 47.47051,
         "lon": -111.31184999999999,
         "intensity": 3.1,
@@ -2149,6 +2213,12 @@
         "lon": -111.2588575,
         "intensity": 2.9,
         "responses": 7
+      },
+      {
+        "lat": 47.533495,
+        "lon": -111.31222249999999,
+        "intensity": 2.9,
+        "responses": 2
       },
       {
         "lat": 47.47947,
@@ -2213,12 +2283,6 @@
       {
         "lat": 47.16173,
         "lon": -111.86416,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 47.533495,
-        "lon": -111.31222249999999,
         "intensity": 2.7,
         "responses": 1
       },
@@ -2321,6 +2385,12 @@
       {
         "lat": 47.515715,
         "lon": -111.21914749999999,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 48.4935075,
+        "lon": -111.84595,
         "intensity": 2.2,
         "responses": 1
       },
@@ -2800,6 +2870,29 @@
     "keywords_matched": []
   },
   {
+    "id": "aka2026snnoxq",
+    "source": "usgs",
+    "time": "2026-09-18T16:56:17.314000+00:00",
+    "updated": "2026-09-18T19:38:01.620000+00:00",
+    "lat": 52.751,
+    "lon": -169.518,
+    "depth_km": 72.1,
+    "magnitude": 3.5,
+    "mag_type": "ml",
+    "place": "48 km WSW of Nikolski, Alaska",
+    "cdi": null,
+    "mmi": 1.929,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026snnoxq",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "tx2026skomwk",
     "source": "usgs",
     "time": "2026-09-18T16:56:37.145000+00:00",
@@ -2872,16 +2965,16 @@
     "id": "us7000tid8",
     "source": "usgs",
     "time": "2026-09-18T17:04:59.669000+00:00",
-    "updated": "2026-09-18T18:25:59.958000+00:00",
+    "updated": "2026-09-18T19:40:03.772000+00:00",
     "lat": 19.9161,
     "lon": -155.7172,
     "depth_km": 31.318,
     "magnitude": 2.8,
     "mag_type": "ml",
     "place": "7 km ESE of Waikoloa, Hawaii",
-    "cdi": 2.7,
+    "cdi": 2.4,
     "mmi": null,
-    "felt_reports": 10,
+    "felt_reports": 11,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2905,6 +2998,12 @@
       {
         "lat": 19.932995,
         "lon": -155.794185,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 20.024,
+        "lon": -155.74802499999998,
         "intensity": 1,
         "responses": 1
       }
@@ -3069,6 +3168,52 @@
     "keywords_matched": []
   },
   {
+    "id": "pr71532538",
+    "source": "usgs",
+    "time": "2026-09-18T18:23:30.020000+00:00",
+    "updated": "2026-09-18T19:19:58.150000+00:00",
+    "lat": 17.9553333333333,
+    "lon": -66.9475,
+    "depth_km": 7.58,
+    "magnitude": 2.84,
+    "mag_type": "md",
+    "place": "4 km WSW of Guánica, Puerto Rico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71532538",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "uw714105301",
+    "source": "usgs",
+    "time": "2026-09-18T18:33:46.080000+00:00",
+    "updated": "2026-09-18T20:03:55.380000+00:00",
+    "lat": 45.9486666666667,
+    "lon": -122.098833333333,
+    "depth_km": 9.25,
+    "magnitude": 2.68,
+    "mag_type": "md",
+    "place": "25 km ENE of Yacolt, Washington",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714105301",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383518.html",
     "source": "csn",
     "time": "2026-09-18T18:34:35+00:00",
@@ -3111,6 +3256,98 @@
     "senapred_url": null,
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383520.html",
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383520.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383527.html",
+    "source": "csn",
+    "time": "2026-09-18T19:24:35+00:00",
+    "updated": "2026-09-18T19:24:35+00:00",
+    "lat": -30.13,
+    "lon": -71.21,
+    "depth_km": 62.0,
+    "magnitude": 2.6,
+    "mag_type": "MLv",
+    "place": "17 km al NO de Andacollo, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383527.html",
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383527.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "pr71532603",
+    "source": "usgs",
+    "time": "2026-09-18T19:24:48.010000+00:00",
+    "updated": "2026-09-18T19:39:54.290000+00:00",
+    "lat": 17.976,
+    "lon": -66.9545,
+    "depth_km": 6.33,
+    "magnitude": 2.72,
+    "mag_type": "md",
+    "place": "4 km WSW of Fuig, Puerto Rico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71532603",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "pr71532618",
+    "source": "usgs",
+    "time": "2026-09-18T19:28:33.210000+00:00",
+    "updated": "2026-09-18T20:15:39.330000+00:00",
+    "lat": 17.9498333333333,
+    "lon": -66.9486666666667,
+    "depth_km": 6.97,
+    "magnitude": 3.01,
+    "mag_type": "md",
+    "place": "4 km WSW of Guánica, Puerto Rico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71532618",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383530.html",
+    "source": "csn",
+    "time": "2026-09-18T19:54:27+00:00",
+    "updated": "2026-09-18T19:54:27+00:00",
+    "lat": -24.21,
+    "lon": -67.98,
+    "depth_km": 160.0,
+    "magnitude": 2.7,
+    "mag_type": "MLv",
+    "place": "69 km al S de Socaire, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383530.html",
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383530.html",
     "relevant": false,
     "keywords_matched": []
   }
