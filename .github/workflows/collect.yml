@@ -3,36 +3,21 @@ name: Recolectar datos de sismos
 # El self-encadenado (un job que se queda corriendo horas y se re-dispara
 # solo) quedo descartado: aunque funcionaba, factura como "en ejecucion"
 # TODO el tiempo que el job esta vivo, incluido el tiempo dormido entre
-# recolecciones -- eso es gratis en un repo publico (minutos ilimitados),
-# pero el usuario quiere mantenerse dentro de los 200 minutos gratuitos
-# mensuales de un plan mas ajustado, y para eso cada corrida tiene que
-# facturar solo su tiempo real de ejecucion (~1 minuto), no las horas de
-# espera intermedias.
+# recolecciones.
 #
-# Por eso se vuelve a un job simple de una sola pasada (arranca, recolecta,
-# termina), disparado por horarios fijos en vez de un intervalo. 108
-# minutos (lo que el usuario calculo para ~13 corridas/dia dentro de su
-# presupuesto) no divide 24 horas de forma pareja, asi que en vez de tratar
-# de expresar "cada 108 min" en sintaxis de cron (no se puede directamente)
-# se listan 13 horarios fijos por dia espaciados exactamente 108 minutos
-# entre si -- el unico tramo mas largo es el nocturno, de 21:36 a 00:00
-# (144 min), inevitable porque 108 no divide 1440 (los minutos del dia) de
-# forma exacta.
+# Antes esto corria en 13 horarios fijos por dia (~108 min entre si) para
+# quedar dentro de un presupuesto autoimpuesto de 200 min/mes -- pero el
+# repo es publico, y GitHub Actions da minutos ilimitados y gratis en repos
+# publicos, sin tope mensual, para cualquier plan de cuenta (no es que este
+# repo particular tenga un limite mas chico -- es politica fija de GitHub).
+# Ese presupuesto de 200 min no reflejaba una restriccion real, asi que se
+# volvio al intervalo simple de 5 minutos (el minimo real que permite un
+# cron de GitHub Actions -- no se puede programar mas seguido). A ~1.55 min
+# facturados por corrida en promedio (71s reales, redondeado hacia arriba
+# al minuto), son ~13.800 min/mes -- gratis igual, por ser repo publico.
 on:
   schedule:
-    - cron: "0 0 * * *"
-    - cron: "48 1 * * *"
-    - cron: "36 3 * * *"
-    - cron: "24 5 * * *"
-    - cron: "12 7 * * *"
-    - cron: "0 9 * * *"
-    - cron: "48 10 * * *"
-    - cron: "36 12 * * *"
-    - cron: "24 14 * * *"
-    - cron: "12 16 * * *"
-    - cron: "0 18 * * *"
-    - cron: "48 19 * * *"
-    - cron: "36 21 * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch: {}
 
 permissions:
