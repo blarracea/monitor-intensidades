@@ -552,6 +552,29 @@
     "keywords_matched": []
   },
   {
+    "id": "us7000tiir",
+    "source": "usgs",
+    "time": "2026-09-19T09:56:02.046000+00:00",
+    "updated": "2026-09-19T11:58:55.040000+00:00",
+    "lat": 38.7884,
+    "lon": 23.3566,
+    "depth_km": 10,
+    "magnitude": 4.4,
+    "mag_type": "mb",
+    "place": "4 km NE of Límni, Greece",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiir",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "us7000tiis",
     "source": "usgs",
     "time": "2026-09-19T09:59:59.264000+00:00",
@@ -578,7 +601,7 @@
     "id": "us7000tiiz",
     "source": "usgs",
     "time": "2026-09-19T10:31:17.071000+00:00",
-    "updated": "2026-09-19T11:42:13.078000+00:00",
+    "updated": "2026-09-19T12:41:17.552000+00:00",
     "lat": 27.1636,
     "lon": 91.1016,
     "depth_km": 10,
@@ -587,7 +610,7 @@
     "place": "18 km SW of Mongar, Bhutan",
     "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 8,
+    "felt_reports": 11,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -600,6 +623,12 @@
         "lat": 26.1455575,
         "lon": 91.65445,
         "intensity": 3.4,
+        "responses": 2
+      },
+      {
+        "lat": 26.341175,
+        "lon": 92.7143875,
+        "intensity": 2.7,
         "responses": 1
       },
       {
@@ -611,6 +640,12 @@
       {
         "lat": 26.49855,
         "lon": 90.96817250000001,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 26.713455,
+        "lon": 88.432565,
         "intensity": 2.7,
         "responses": 1
       },
@@ -650,22 +685,40 @@
     "id": "nc75438287",
     "source": "usgs",
     "time": "2026-09-19T10:52:05.170000+00:00",
-    "updated": "2026-09-19T11:17:25.273000+00:00",
+    "updated": "2026-09-19T12:42:06.665000+00:00",
     "lat": 37.466667175293,
     "lon": -121.801834106445,
     "depth_km": 2.67000007629395,
     "magnitude": 2.5,
     "mag_type": "md",
     "place": "10 km ENE of Milpitas, CA",
-    "cdi": 2.2,
+    "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 4,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 37.43298,
+        "lon": -121.875325,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 37.441990000000004,
+        "lon": -121.8751925,
+        "intensity": 2.7,
+        "responses": 1
+      },
       {
         "lat": 37.433189999999996,
         "lon": -121.89792750000001,
         "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 37.8959325,
+        "lon": -122.30051,
+        "intensity": 2,
         "responses": 1
       }
     ],
@@ -673,6 +726,82 @@
     "senapred_url": null,
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75438287",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000tijd",
+    "source": "usgs",
+    "time": "2026-09-19T12:07:12.020000+00:00",
+    "updated": "2026-09-19T12:32:50.117000+00:00",
+    "lat": 32.3799,
+    "lon": 129.8568,
+    "depth_km": 10,
+    "magnitude": 4.6,
+    "mag_type": "mb",
+    "place": "25 km NW of Ushibukamachi, Japan",
+    "cdi": 3.1,
+    "mmi": null,
+    "felt_reports": 1,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 33.135055,
+        "lon": 129.73439000000002,
+        "intensity": 3.1,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tijd",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000tijf",
+    "source": "usgs",
+    "time": "2026-09-19T12:19:55.048000+00:00",
+    "updated": "2026-09-19T12:39:10.040000+00:00",
+    "lat": 32.0711,
+    "lon": 89.2243,
+    "depth_km": 10,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "273 km NNW of Dêqên, China",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tijf",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383618.html",
+    "source": "csn",
+    "time": "2026-09-19T12:29:29+00:00",
+    "updated": "2026-09-19T12:29:29+00:00",
+    "lat": -22.1,
+    "lon": -68.59,
+    "depth_km": 102.0,
+    "magnitude": 2.9,
+    "mag_type": "MLv",
+    "place": "54 km al NE de Calama, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383618.html",
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383618.html",
     "relevant": false,
     "keywords_matched": []
   }
