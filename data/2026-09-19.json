@@ -601,7 +601,7 @@
     "id": "us7000tiiz",
     "source": "usgs",
     "time": "2026-09-19T10:31:17.071000+00:00",
-    "updated": "2026-09-19T12:41:17.552000+00:00",
+    "updated": "2026-09-19T13:18:23.089000+00:00",
     "lat": 27.1636,
     "lon": 91.1016,
     "depth_km": 10,
@@ -610,7 +610,7 @@
     "place": "18 km SW of Mongar, Bhutan",
     "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 11,
+    "felt_reports": 12,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -624,6 +624,12 @@
         "lon": 91.65445,
         "intensity": 3.4,
         "responses": 2
+      },
+      {
+        "lat": 25.569555,
+        "lon": 91.8700075,
+        "intensity": 2.9,
+        "responses": 1
       },
       {
         "lat": 26.341175,
@@ -802,6 +808,70 @@
     "senapred_url": null,
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383618.html",
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383618.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383621.html",
+    "source": "csn",
+    "time": "2026-09-19T13:25:02+00:00",
+    "updated": "2026-09-19T13:25:02+00:00",
+    "lat": -29.77,
+    "lon": -71.43,
+    "depth_km": 54.0,
+    "magnitude": 4.4,
+    "mag_type": "Mw",
+    "place": "23 km al NO de La Serena, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": -29.9027,
+        "lon": -71.2519,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "La Serena",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.2333,
+        "lon": -71.0833,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Andacollo",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.0167,
+        "lon": -70.6833,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Paiguano",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.0319,
+        "lon": -70.7081,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Vicuña",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -29.5,
+        "lon": -71.15,
+        "intensity": 2,
+        "responses": null,
+        "comuna": "La Higuera",
+        "region": "Coquimbo"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://www.senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-coquimbo-2026-09-19-10-28-57",
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383621.html",
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383621.html",
     "relevant": false,
     "keywords_matched": []
   }
