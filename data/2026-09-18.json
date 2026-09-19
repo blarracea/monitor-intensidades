@@ -559,7 +559,7 @@
     "id": "hv75039212",
     "source": "usgs",
     "time": "2026-09-18T06:36:43.030000+00:00",
-    "updated": "2026-09-19T06:43:01.828000+00:00",
+    "updated": "2026-09-19T21:03:01.126000+00:00",
     "lat": 19.1576666666667,
     "lon": -155.476333333333,
     "depth_km": 12.42,
@@ -568,7 +568,7 @@
     "place": "5 km S of Pāhala, Hawaii",
     "cdi": 4.6,
     "mmi": 3.702,
-    "felt_reports": 105,
+    "felt_reports": 106,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -604,6 +604,12 @@
       {
         "lat": 19.1299325,
         "lon": -155.761395,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 19.147985,
+        "lon": -155.761695,
         "intensity": 3.8,
         "responses": 1
       },
@@ -3389,6 +3395,29 @@
     "senapred_url": null,
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71532538",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "pr71533183",
+    "source": "usgs",
+    "time": "2026-09-18T18:24:23.690000+00:00",
+    "updated": "2026-09-19T22:12:55.170000+00:00",
+    "lat": 17.928,
+    "lon": -66.9268333333333,
+    "depth_km": 5.57,
+    "magnitude": 2.52,
+    "mag_type": "md",
+    "place": "5 km SSW of Guánica, Puerto Rico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71533183",
     "relevant": false,
     "keywords_matched": []
   },
