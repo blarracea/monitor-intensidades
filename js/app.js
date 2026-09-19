@@ -120,6 +120,24 @@
     }).addTo(map);
   };
 
+  // Mismo patron que _escapeHtml/_escapeAttr/_safeUrl en social-layer.js y
+  // live-feed.js (sufijo "Detail" para no chocar con esos, que se cargan
+  // como scripts sueltos sin modulos) -- innerHTML trata el string como
+  // HTML, asi que hay que escapar texto libre y validar/escapar cualquier
+  // URL antes de ponerla en un href.
+  const _escapeHtmlDetail = (text) => {
+    const div = document.createElement("div");
+    div.textContent = text == null ? "" : String(text);
+    return div.innerHTML;
+  };
+  const _escapeAttrDetail = (text) =>
+    String(text || "")
+      .replace(/&/g, "&amp;")
+      .replace(/"/g, "&quot;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
+  const _safeUrlDetail = (url) => (typeof url === "string" && /^https?:\/\//i.test(url) ? url : "#");
+
   const showEventDetail = (event) => {
     highlightEvent(event);
     const eventDate = new Date(event.time);
@@ -138,20 +156,26 @@
     // su catalogo base es el CSN directo, asi que no tiene sentido mostrar
     // un link a USGS que ni se consulto para ellos. Para el resto de la
     // region (fuera de Chile) el catalogo sigue siendo USGS.
+    //
+    // place/url/csn_informe_url/senapred_url vienen de USGS y del scraping
+    // del CSN -- fuentes externas igual que el RSS/redes (ver el mismo
+    // escapeo en social-layer.js/live-feed.js), asi que se tratan con el
+    // mismo cuidado aunque el riesgo real sea mas bajo (no es texto libre
+    // de usuarios, pero tampoco es texto que este codigo controle).
     const fuenteParts =
       event.source === "csn"
         ? []
-        : [`<a href="${event.url}" target="_blank" rel="noopener">USGS</a>`];
+        : [`<a href="${_escapeAttrDetail(_safeUrlDetail(event.url))}" target="_blank" rel="noopener">USGS</a>`];
     if (event.csn_informe_url) {
-      fuenteParts.push(`<a href="${event.csn_informe_url}" target="_blank" rel="noopener">CSN</a>`);
+      fuenteParts.push(`<a href="${_escapeAttrDetail(_safeUrlDetail(event.csn_informe_url))}" target="_blank" rel="noopener">CSN</a>`);
     }
     if (event.senapred_url) {
-      fuenteParts.push(`<a href="${event.senapred_url}" target="_blank" rel="noopener">SENAPRED</a>`);
+      fuenteParts.push(`<a href="${_escapeAttrDetail(_safeUrlDetail(event.senapred_url))}" target="_blank" rel="noopener">SENAPRED</a>`);
     }
     const fuenteLinks = fuenteParts.join(" · ");
     detailBody.innerHTML = `
-      <dt>Referencia geográfica</dt><dd>${event.place || "-"}</dd>
-      <dt>Magnitud</dt><dd>${event.magnitude ?? "-"} ${event.mag_type || ""}</dd>
+      <dt>Referencia geográfica</dt><dd>${_escapeHtmlDetail(event.place || "-")}</dd>
+      <dt>Magnitud</dt><dd>${_escapeHtmlDetail(event.magnitude ?? "-")} ${_escapeHtmlDetail(event.mag_type || "")}</dd>
       <dt>Hora (UTC)</dt><dd>${utcTime}</dd>
       <dt>Hora (Chile)</dt><dd>${chileTime}</dd>
       <dt>Fuente</dt><dd>${fuenteLinks}</dd>
@@ -226,15 +250,14 @@
     heatLayer.eachLayer((layer) => map.removeLayer(layer));
   };
 
-  // El checkbox #toggle-heatmap sigue en el DOM pero esta oculto (ver
-  // index.html) y no hay forma de que la persona lo cambie -- por eso el
-  // heatmap general ya no depende de su estado "checked". Antes, si en
-  // algun refresco no habia ningun sismo con reporte SENAPRED, el codigo
-  // dejaba el checkbox desmarcado para "apagar" el heatmap, pero como
-  // nada lo volvia a marcar despues, el mapa de calor general se quedaba
-  // apagado para siempre aunque despues sí aparecieran sismos nuevos.
-  // Ahora simplemente se muestra cada vez que hay datos, sin ese estado
-  // intermedio que nadie puede tocar.
+  // El checkbox #toggle-heatmap se elimino del todo de index.html (ya no
+  // existe ni oculto) -- el heatmap general no depende de ningun estado
+  // "checked". Antes, si en algun refresco no habia ningun sismo con
+  // reporte SENAPRED, el codigo dejaba el checkbox desmarcado para
+  // "apagar" el heatmap, pero como nada lo volvia a marcar despues, el
+  // mapa de calor general se quedaba apagado para siempre aunque despues
+  // sí aparecieran sismos nuevos. Ahora simplemente se muestra cada vez
+  // que hay datos, sin ese estado intermedio que nadie puede tocar.
 
   // Trae los eventos, reconstruye heatmap y marcadores. Se llama al iniciar
   // y despues cada REFRESH_INTERVAL_MS -- no toca el zoom/centro del mapa
