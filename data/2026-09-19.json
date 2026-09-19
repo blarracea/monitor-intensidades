@@ -460,6 +460,29 @@
     "keywords_matched": []
   },
   {
+    "id": "pr71532943",
+    "source": "usgs",
+    "time": "2026-09-19T07:54:22.700000+00:00",
+    "updated": "2026-09-19T10:11:48.970000+00:00",
+    "lat": 19.7728333333333,
+    "lon": -66.7496666666667,
+    "depth_km": 33.14,
+    "magnitude": 3.41,
+    "mag_type": "md",
+    "place": "142 km N of Hatillo, Puerto Rico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71532943",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383607.html",
     "source": "csn",
     "time": "2026-09-19T09:04:30+00:00",
@@ -502,6 +525,154 @@
     "senapred_url": null,
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383608.html",
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383608.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000tiim",
+    "source": "usgs",
+    "time": "2026-09-19T09:34:04.394000+00:00",
+    "updated": "2026-09-19T09:46:41.040000+00:00",
+    "lat": 47.4016,
+    "lon": 146.3637,
+    "depth_km": 394.117,
+    "magnitude": 4.8,
+    "mag_type": "mb",
+    "place": "268 km NNW of Kuril’sk, Russia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiim",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000tiis",
+    "source": "usgs",
+    "time": "2026-09-19T09:59:59.264000+00:00",
+    "updated": "2026-09-19T10:15:13.040000+00:00",
+    "lat": -55.6255,
+    "lon": -28.1116,
+    "depth_km": 77.621,
+    "magnitude": 5,
+    "mag_type": "mb",
+    "place": "South Sandwich Islands region",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiis",
+    "relevant": true,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000tiiz",
+    "source": "usgs",
+    "time": "2026-09-19T10:31:17.071000+00:00",
+    "updated": "2026-09-19T11:42:13.078000+00:00",
+    "lat": 27.1636,
+    "lon": 91.1016,
+    "depth_km": 10,
+    "magnitude": 4.8,
+    "mag_type": "mb",
+    "place": "18 km SW of Mongar, Bhutan",
+    "cdi": 3.8,
+    "mmi": null,
+    "felt_reports": 8,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 27.615365,
+        "lon": 91.49507,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 26.1455575,
+        "lon": 91.65445,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 26.182904999999998,
+        "lon": 91.7941125,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 26.49855,
+        "lon": 90.96817250000001,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 26.129465,
+        "lon": 91.88467750000001,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 27.4543175,
+        "lon": 89.625625,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 26.173625,
+        "lon": 91.76419,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 26.173540000000003,
+        "lon": 91.754185,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiiz",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "nc75438287",
+    "source": "usgs",
+    "time": "2026-09-19T10:52:05.170000+00:00",
+    "updated": "2026-09-19T11:17:25.273000+00:00",
+    "lat": 37.466667175293,
+    "lon": -121.801834106445,
+    "depth_km": 2.67000007629395,
+    "magnitude": 2.5,
+    "mag_type": "md",
+    "place": "10 km ENE of Milpitas, CA",
+    "cdi": 2.2,
+    "mmi": null,
+    "felt_reports": 1,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 37.433189999999996,
+        "lon": -121.89792750000001,
+        "intensity": 2.2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75438287",
     "relevant": false,
     "keywords_matched": []
   }
