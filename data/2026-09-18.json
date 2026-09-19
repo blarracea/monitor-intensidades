@@ -3605,6 +3605,42 @@
     "keywords_matched": []
   },
   {
+    "id": "us7000tij9",
+    "source": "usgs",
+    "time": "2026-09-18T22:09:36.768000+00:00",
+    "updated": "2026-09-19T11:46:20.681000+00:00",
+    "lat": 8.7166,
+    "lon": -83.0267,
+    "depth_km": 10,
+    "magnitude": 3.9,
+    "mag_type": "mb",
+    "place": "12 km NW of Corredor, Costa Rica",
+    "cdi": 2.7,
+    "mmi": null,
+    "felt_reports": 2,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 8.767967500000001,
+        "lon": -82.43189,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 8.502585,
+        "lon": -83.121095,
+        "intensity": 2.2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tij9",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "us7000tifz",
     "source": "usgs",
     "time": "2026-09-18T22:11:57.388000+00:00",
