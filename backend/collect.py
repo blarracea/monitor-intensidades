@@ -95,6 +95,47 @@ RETENTION_DAYS = 30
 RELEVANT_MAGNITUDE = 5.0
 RELEVANT_FELT_REPORTS = 50
 
+# Territorio insular chileno, por coordenadas (no alcanza con buscar "Chile"
+# en el texto -- ver is_chile_territory). Cajas generosas: para Isla de
+# Pascua se extiende bastante al sur porque la sismicidad real de la zona
+# (limite de la Microplaca de Pascua / East Pacific Rise) no esta pegada a
+# la isla -- el sismo M5.4 del 10-09-2026 que motivo ensanchar el bbox de
+# USGS cayo a ~-34.8,-109.1, casi 700 km al sur de Isla de Pascua misma.
+INSULAR_TERRITORY_BBOXES = [
+    {"minlat": -36, "maxlat": -24, "minlon": -115, "maxlon": -103},  # Isla de Pascua / Sala y Gomez
+    {"minlat": -36, "maxlat": -31, "minlon": -82, "maxlon": -77},  # Archipielago Juan Fernandez
+    {"minlat": -28, "maxlat": -25, "minlon": -81, "maxlon": -79},  # San Felix / San Ambrosio
+]
+
+# Territorio Chileno Antartico: entre los meridianos 53O y 90O, desde los
+# 60S hasta el Polo Sur. USGS no reconoce la reclamacion en el texto de
+# "place" (usa nombres geograficos como "South Shetland Islands" o
+# "Antarctica", nunca "Chile"), asi que tambien se detecta por coordenadas.
+CHILE_ANTARCTIC_BBOX = {"minlat": -90, "maxlat": -60, "minlon": -90, "maxlon": -53}
+
+
+def is_chile_territory(lat, lon, place):
+    """
+    Chile continental + Territorio Chileno Antartico + territorio insular
+    (Isla de Pascua, Juan Fernandez, San Felix/San Ambrosio) -- usado para
+    el umbral de magnitud del resumen semanal (5.0 para territorio
+    chileno, 6.5 para el resto del mundo, a pedido). No alcanza con
+    is_chile_event (busca "Chile" en el texto): confirmado con datos
+    reales de USGS que un sismo oceanico cerca de Isla de Pascua aparece
+    como "southern East Pacific Rise", sin mencionar Chile ni la isla.
+    """
+    if is_chile_event(place):
+        return True
+    if lat is None or lon is None:
+        return False
+    if any(
+        box["minlat"] <= lat <= box["maxlat"] and box["minlon"] <= lon <= box["maxlon"]
+        for box in INSULAR_TERRITORY_BBOXES
+    ):
+        return True
+    box = CHILE_ANTARCTIC_BBOX
+    return box["minlat"] <= lat <= box["maxlat"] and box["minlon"] <= lon <= box["maxlon"]
+
 
 def build_event_record(feature, dyfi_points):
     props = feature["properties"]
@@ -130,6 +171,7 @@ def build_event_record(feature, dyfi_points):
         "csn_informe_url": None,
         "url": props.get("url"),
         "relevant": is_relevant,
+        "chile_territory": is_chile_territory(lat, lon, place),
         "keywords_matched": keywords.matched_keywords(place),
     }
 
@@ -236,6 +278,10 @@ def collect_chile_events():
             "csn_informe_url": item["csn_url"],
             "url": item["csn_url"],
             "relevant": bool(detail["magnitude"] is not None and detail["magnitude"] >= RELEVANT_MAGNITUDE),
+            # Siempre True: todo evento de collect_chile_events() viene del
+            # CSN, que solo cubre Chile -- y el "place" ya garantiza tener
+            # "Chile" en el texto (par de lineas mas arriba).
+            "chile_territory": True,
             "keywords_matched": keywords.matched_keywords(place),
         }
 

@@ -27,7 +27,8 @@
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdu1",
     "relevant": false,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "chile_territory": false
   },
   {
     "id": "us7000tdua",
@@ -50,7 +51,8 @@
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdua",
     "relevant": false,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "chile_territory": true
   },
   {
     "id": "us7000tduc",
@@ -210,7 +212,8 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/381556.html",
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tduc",
     "relevant": true,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "chile_territory": true
   },
   {
     "id": "us7000te20",
@@ -233,7 +236,8 @@
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te20",
     "relevant": false,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "chile_territory": false
   },
   {
     "id": "us7000te5e",
@@ -417,6 +421,7 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/381638.html",
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te5e",
     "relevant": false,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "chile_territory": true
   }
 ]

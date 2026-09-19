@@ -18,7 +18,8 @@
     "intensity_source": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm1m",
     "relevant": false,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "chile_territory": false
   },
   {
     "id": "us6000tm25",
@@ -39,7 +40,8 @@
     "intensity_source": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm25",
     "relevant": false,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "chile_territory": true
   },
   {
     "id": "us6000tm2i",
@@ -60,7 +62,8 @@
     "intensity_source": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm2i",
     "relevant": false,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "chile_territory": true
   },
   {
     "id": "us6000tm81",
@@ -400,7 +403,8 @@
     "intensity_source": "usgs_dyfi",
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tm81",
     "relevant": true,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "chile_territory": false
   },
   {
     "id": "us6000tmau",
@@ -421,6 +425,7 @@
     "intensity_source": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tmau",
     "relevant": false,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "chile_territory": false
   }
 ]
