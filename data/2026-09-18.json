@@ -1568,7 +1568,7 @@
     "id": "pr2026261000",
     "source": "usgs",
     "time": "2026-09-18T13:19:35.140000+00:00",
-    "updated": "2026-09-19T06:46:12.064000+00:00",
+    "updated": "2026-09-19T13:26:36.800000+00:00",
     "lat": 17.9391,
     "lon": -66.9455,
     "depth_km": 7,
@@ -1576,8 +1576,8 @@
     "mag_type": "ml",
     "place": "5 km SW of Guánica, Puerto Rico",
     "cdi": 5.9,
-    "mmi": 4.436,
-    "felt_reports": 85,
+    "mmi": 4.461,
+    "felt_reports": 86,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1721,6 +1721,12 @@
       {
         "lat": 18.2163,
         "lon": -66.810945,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 18.1924,
+        "lon": -66.34821249999999,
         "intensity": 3.4,
         "responses": 1
       },
@@ -2046,7 +2052,7 @@
     "id": "us7000tiax",
     "source": "usgs",
     "time": "2026-09-18T13:40:42.979000+00:00",
-    "updated": "2026-09-19T12:36:04.537000+00:00",
+    "updated": "2026-09-19T13:43:54.164000+00:00",
     "lat": 47.5572,
     "lon": -111.3244,
     "depth_km": 27.731,
@@ -2054,7 +2060,7 @@
     "mag_type": "ml",
     "place": "5 km NW of Black Eagle, Montana",
     "cdi": 3.4,
-    "mmi": 3.32,
+    "mmi": 3.306,
     "felt_reports": 175,
     "tsunami_flag": false,
     "dyfi_points": [
