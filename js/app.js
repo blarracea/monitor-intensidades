@@ -39,15 +39,8 @@
   const WEEK_DAY_LETTERS = ["D", "L", "M", "M", "J", "V", "S"]; // Date#getUTCDay(): 0=domingo..6=sabado
   // A pedido: este resumen no depende de si el sismo tiene reporte
   // SENAPRED (a diferencia del resto del dashboard) -- solo cuenta
-  // magnitud, sin importar si fue "sentido"/reportado o no. Umbral doble,
-  // tambien a pedido: territorio chileno (continental + Antartico +
-  // insular, ver chile_territory que calcula backend/collect.py) cuenta
-  // desde 5.0; el resto del mundo (desde que el DYFI de USGS es global,
-  // ver commit anterior) recien desde 6.5 -- si no, cualquier sismo
-  // mediano en cualquier parte del planeta inundaria este resumen
-  // pensado para Chile.
-  const WEEK_CHART_CHILE_MIN_MAGNITUDE = 5.0;
-  const WEEK_CHART_WORLD_MIN_MAGNITUDE = 6.5;
+  // magnitud, sin importar si fue "sentido"/reportado o no.
+  const WEEK_CHART_MIN_MAGNITUDE = 4.5;
 
   // yyyy-mm-dd de una fecha en hora de Chile, sin depender de la zona
   // horaria del navegador de quien mira el dashboard.
@@ -71,10 +64,7 @@
     }
 
     events
-      .filter((event) => {
-        const threshold = event.chile_territory ? WEEK_CHART_CHILE_MIN_MAGNITUDE : WEEK_CHART_WORLD_MIN_MAGNITUDE;
-        return (event.magnitude ?? 0) >= threshold;
-      })
+      .filter((event) => (event.magnitude ?? 0) >= WEEK_CHART_MIN_MAGNITUDE)
       .forEach((event) => {
         const key = chileDateKey(event.time);
         const day = days.find((d) => d.key === key);
@@ -204,9 +194,9 @@
   // A pedido: un sismo M5.0+ percibido puede no llegar nunca a tener un
   // reporte formal de intensidad -- antes eso lo dejaba totalmente fuera
   // del mapa, como si no hubiera pasado. 5.0 explicito (no
-  // WEEK_CHART_CHILE_MIN_MAGNITUDE): son dos pedidos distintos, con
-  // umbrales que el usuario fijo por separado, aunque hoy coincida el
-  // mismo numero para Chile.
+  // WEEK_CHART_MIN_MAGNITUDE): son dos pedidos distintos, con umbrales
+  // que el usuario fijo por separado (4.5 para el resumen semanal, 5.0
+  // para esto), aunque hoy coincida el mismo criterio de "sismo grande".
   const UNVERIFIED_MARKER_MIN_MAGNITUDE = 5.0;
 
   const addHeatLayer = () => {
