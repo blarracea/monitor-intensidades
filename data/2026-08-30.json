@@ -109,7 +109,8 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/08/381084.html",
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tcwp",
     "relevant": false,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "chile_territory": true
   },
   {
     "id": "us7000tczt",
@@ -145,6 +146,7 @@
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tczt",
     "relevant": false,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "chile_territory": false
   }
 ]

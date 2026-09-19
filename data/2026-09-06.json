@@ -45,7 +45,8 @@
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000telw",
     "relevant": false,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "chile_territory": true
   },
   {
     "id": "us7000teme",
@@ -68,7 +69,8 @@
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000teme",
     "relevant": false,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "chile_territory": false
   },
   {
     "id": "us7000tenr",
@@ -98,7 +100,8 @@
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tenr",
     "relevant": false,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "chile_territory": false
   },
   {
     "id": "us7000tep0",
@@ -130,7 +133,8 @@
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tep0",
     "relevant": false,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "chile_territory": true
   },
   {
     "id": "us7000tes0",
@@ -160,6 +164,7 @@
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tes0",
     "relevant": false,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "chile_territory": false
   }
 ]
