@@ -13,6 +13,13 @@ KEYWORDS = [
     "terremoto",
     "tsunami",
     "temblor",
+    # "temblo" (sin la "r") atrapa "tembló"/"temblo" -- conjugacion de
+    # "temblar" que normalize() deja asi al sacarle la tilde a la "o". No es
+    # prefijo de "temblor" (le falta la "r" final), asi que sin esta entrada
+    # separada esos posts/titulares quedaban afuera aunque mencionen un
+    # sismo. normalize() ya baja todo a minuscula, asi que no hace falta
+    # una entrada separada para mayusculas/minusculas.
+    "temblo",
     "megaterremoto",
     "maremoto",
 ]
