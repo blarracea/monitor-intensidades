@@ -605,11 +605,6 @@ h2.live-feed-title {
   font-size: 0.9rem;
 }
 
-.layer-toggle--disabled {
-  color: var(--color-text-muted);
-  cursor: not-allowed;
-}
-
 /* Escala vertical: la intensidad crece hacia arriba (Leve abajo, Fuerte
    arriba), como un termometro. column-reverse deja el HTML en el mismo
    orden de siempre (I..X, azul a rosado) y solo invierte el sentido
