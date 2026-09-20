@@ -11,15 +11,20 @@ name: Recolectar datos de sismos
 # muy frecuente se dispare de verdad con esa cadencia -- bajo carga de la
 # plataforma, descarta la mayoria de los disparos de un cron cada 5 min
 # (medido: 14 corridas reales en 24 horas contra las 288 que deberian
-# haber sido -- el ultimo dato quedaba de hasta 3-4 horas de antiguedad).
-# No es algo que se arregle desde este archivo con un cron mas agresivo --
-# ya se probo "*/5 * * * *" y el resultado fue el mismo problema. Cada 15
-# minutos es un intervalo menos exigente para el scheduler de GitHub, y en
-# la practica se cumple con mucha mas consistencia (igual puede atrasarse
-# ocasionalmente, pero no de la misma forma masiva que cada 5 min).
+# haber sido). Se subio a cada 15 min y el problema persistio igual --
+# revisando el historial real de corridas (gh run list) los espacios entre
+# corridas "schedule" llegan hasta 2-2.5 horas, no 15-20 minutos. O sea el
+# numero exacto del cron (15 vs 20) no es la causa ni la solucion: es
+# GitHub descartando disparos bajo carga, pase lo que pase. Se sube a 20
+# min de todos modos (pide un poco menos al scheduler) y se re-registro el
+# workflow (disable/enable) por si eso resetea algo del lado de GitHub,
+# pero la causa de fondo sigue siendo la misma y no depende de este
+# archivo. La alternativa real (un disparador externo con token de GitHub)
+# se descarto por ahora a pedido explicito: se evita meter un token nuevo
+# cuyo consumo/duracion no esta claro.
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/20 * * * *"
   workflow_dispatch: {}
 
 permissions:
