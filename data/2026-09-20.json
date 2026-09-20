@@ -1950,5 +1950,28 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383841.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tiu3",
+    "source": "usgs",
+    "time": "2026-09-20T23:25:38.807000+00:00",
+    "updated": "2026-09-20T23:41:59.040000+00:00",
+    "lat": 43.7443,
+    "lon": 146.5339,
+    "depth_km": 64.936,
+    "magnitude": 5,
+    "mag_type": "mb",
+    "place": "16 km WSW of Shikotan, Russia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiu3",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
