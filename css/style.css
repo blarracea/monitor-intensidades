@@ -725,6 +725,20 @@ h2.live-feed-title {
     height: 320px;
   }
 
+  /* La leyenda de colores esta calibrada para el alto del mapa de
+     escritorio (top:83px + ~248px de caja completa, ver .map-legend-overlay/
+     .legend-scale mas arriba) -- con el mapa fijo a 320px de alto en mobile
+     (menos la barra de titulo, quedan ~280px para el mapa mismo) esa caja
+     se pasaba casi 50px por debajo del mapa y tapaba el titulo de "Detalle
+     del evento" que viene justo despues (.map-canvas no recorta su
+     contenido, un position:absolute que se pasa de alto queda pintado
+     encima de lo que sigue en la pagina). Se achica la franja de colores
+     para que la caja completa entre en el alto disponible.
+  */
+  .legend-scale {
+    height: 130px;
+  }
+
   .event-detail { order: 2; }
   .week-chart-panel { order: 3; }
   .placeholder-panel { order: 4; }
@@ -750,5 +764,40 @@ h2.live-feed-title {
   #live-feed-body,
   #social-feed-body {
     max-height: 340px;
+  }
+}
+
+/*
+ * Celular (mas angosto que una tablet, que ya entra bien en el breakpoint
+ * de arriba): el titulo del header se centra con position:absolute +
+ * white-space:nowrap (ver .app-header h1) para no descuadrarse segun el
+ * ancho real del logo/boton de los costados -- pero eso ignora el ancho
+ * del propio viewport, asi que a este ancho el titulo entero (~469px de
+ * texto, mas largo que la pantalla) se sale por los dos bordes y queda
+ * cortado/ilegible en vez de simplemente achicarse. Se pasa a flujo normal
+ * en una segunda fila propia (el header pasa a flex-wrap), permitiendo
+ * salto de linea y con una tipografia mas chica -- logo y lupa quedan en
+ * la primera fila.
+ */
+@media (max-width: 600px) {
+  .app-header {
+    flex-wrap: wrap;
+    padding: 0.75rem 1rem;
+    row-gap: 0.5rem;
+  }
+
+  .app-header h1 {
+    position: static;
+    transform: none;
+    order: 3;
+    width: 100%;
+    text-align: center;
+    font-size: 1.05rem;
+    white-space: normal;
+    line-height: 1.25;
+  }
+
+  .header-logo {
+    height: 2rem;
   }
 }
