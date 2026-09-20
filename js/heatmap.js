@@ -40,9 +40,12 @@ const INTENSITY_GRADIENT = {
 // transparente. Por eso el CSN usa un radio chico (para no verse como una
 // mancha gigante) pero con un nucleo bien solido (blur bajo en proporcion),
 // para que el color en el centro refleje la intensidad real reportada.
+// Bajado de 20/8 a 13/5 a pedido: con el blend por maximo (ver
+// ComunaIntensityLayer) las manchas ya no se inflan al superponerse, pero
+// todavia se veian demasiado grandes/amplias sobre el mapa.
 const HEAT_STYLE_BY_SOURCE = {
   usgs_dyfi: { radius: 32, blur: 24 },
-  csn: { radius: 20, blur: 8 },
+  csn: { radius: 13, blur: 5 },
 };
 
 const MIN_OPACITY = 0.15;
