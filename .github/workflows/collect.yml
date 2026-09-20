@@ -7,35 +7,35 @@ name: Recolectar datos de sismos
 #
 # El minuto de GitHub Actions no es la restriccion (el repo es publico:
 # minutos ilimitados y gratis, sin tope mensual, para cualquier plan de
-# cuenta). El problema real es otro: GitHub NO garantiza que un "schedule"
-# muy frecuente se dispare de verdad con esa cadencia -- bajo carga de la
-# plataforma, descarta la mayoria de los disparos de un cron cada 5 min
-# (medido: 14 corridas reales en 24 horas contra las 288 que deberian
-# haber sido). Se subio a cada 15 min y el problema persistio igual --
-# revisando el historial real de corridas (gh run list) los espacios entre
-# corridas "schedule" llegan hasta 2-2.5 horas, no 15-20 minutos. O sea el
-# numero exacto del cron (15 vs 20) no es la causa ni la solucion: es
-# GitHub descartando disparos bajo carga, pase lo que pase. Se sube a 20
-# min de todos modos (pide un poco menos al scheduler) y se re-registro el
-# workflow (disable/enable) por si eso resetea algo del lado de GitHub,
-# pero la causa de fondo sigue siendo la misma y no depende de este
-# archivo. La alternativa real (un disparador externo con token de GitHub)
-# se descarto por ahora a pedido explicito: se evita meter un token nuevo
-# cuyo consumo/duracion no esta claro.
+# cuenta). El problema real es otro: GitHub trata "schedule" como
+# best-effort y NO garantiza el horario -- bajo carga de la plataforma
+# (sobre todo en la hora en punto) descarta o atrasa la mayoria de los
+# disparos de un cron frecuente. Se midio en varias cadencias (cada 5, 15
+# y 20 min) y en la practica el workflow terminaba corriendo cada 1-2.5
+# horas en vez de la cadencia configurada -- no es algo que se arregle
+# eligiendo mejor el numero del cron.
+#
+# Por eso la cadencia real (cada 5 min) la maneja un servicio externo
+# (cron-job.org) que llama a la API de GitHub para disparar
+# `workflow_dispatch` de este workflow. El `schedule` de aca abajo queda
+# solo como respaldo poco frecuente (cada hora, en minuto no redondo para
+# no competir con la carga de la hora en punto) por si el servicio externo
+# falla o se desconfigura.
 on:
   schedule:
-    - cron: "*/20 * * * *"
+    - cron: "37 * * * *"
   workflow_dispatch: {}
 
 permissions:
   contents: write
 
-# Evita que dos corridas se pisen si una tarda mas de lo esperado -- la
-# nueva espera a que termine la anterior en vez de correr en paralelo y
-# generar conflictos de git push.
+# cancel-in-progress: true porque el disparo externo va cada 5 min -- si
+# una corrida nueva llega antes de que termine la anterior, se cancela la
+# vieja en vez de encolarse (cada corrida solo trae el estado mas
+# reciente, no hace falta conservar corridas viejas en cola).
 concurrency:
   group: collect-sismos
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   collect:
