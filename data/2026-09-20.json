@@ -1973,5 +1973,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiu3",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "pr71533688",
+    "source": "usgs",
+    "time": "2026-09-20T23:38:39.890000+00:00",
+    "updated": "2026-09-20T23:52:54.250000+00:00",
+    "lat": 17.9701666666667,
+    "lon": -66.9458333333333,
+    "depth_km": 7.4,
+    "magnitude": 2.5,
+    "mag_type": "md",
+    "place": "3 km WSW of Fuig, Puerto Rico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71533688",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
