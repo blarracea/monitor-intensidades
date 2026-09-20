@@ -888,6 +888,29 @@
     "keywords_matched": []
   },
   {
+    "id": "us7000tikp",
+    "source": "usgs",
+    "time": "2026-09-19T12:44:03.347000+00:00",
+    "updated": "2026-09-20T04:53:27.040000+00:00",
+    "lat": 52.2509,
+    "lon": -169.4274,
+    "depth_km": 40.507,
+    "magnitude": 4,
+    "mag_type": "mb",
+    "place": "85 km SSW of Nikolski, Alaska",
+    "cdi": null,
+    "mmi": 2.124,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tikp",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383621.html",
     "source": "csn",
     "time": "2026-09-19T13:25:02+00:00",
@@ -1643,7 +1666,7 @@
     "id": "tx2026smwdrk",
     "source": "usgs",
     "time": "2026-09-19T22:56:14.262000+00:00",
-    "updated": "2026-09-20T03:50:02.738000+00:00",
+    "updated": "2026-09-20T05:51:09.787000+00:00",
     "lat": 29.137,
     "lon": -97.682,
     "depth_km": 9.6561,
@@ -1652,7 +1675,7 @@
     "place": "15 km SSW of Smiley, Texas",
     "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
       {

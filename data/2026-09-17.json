@@ -1862,7 +1862,7 @@
     "id": "ci41334231",
     "source": "usgs",
     "time": "2026-09-17T20:32:29.830000+00:00",
-    "updated": "2026-09-19T20:19:59.232000+00:00",
+    "updated": "2026-09-20T06:21:01.035000+00:00",
     "lat": 33.8646666666667,
     "lon": -118.2075,
     "depth_km": 13.23,
@@ -1871,7 +1871,7 @@
     "place": "4 km SSE of Compton, CA",
     "cdi": 3.1,
     "mmi": 3.359,
-    "felt_reports": 515,
+    "felt_reports": 516,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2271,6 +2271,12 @@
         "responses": 1
       },
       {
+        "lat": 33.8977725,
+        "lon": -118.22754,
+        "intensity": 2.9,
+        "responses": 3
+      },
+      {
         "lat": 33.861485,
         "lon": -118.24864,
         "intensity": 2.9,
@@ -2575,12 +2581,6 @@
         "lon": -118.281065,
         "intensity": 2.7,
         "responses": 1
-      },
-      {
-        "lat": 33.8977725,
-        "lon": -118.22754,
-        "intensity": 2.6,
-        "responses": 2
       },
       {
         "lat": 33.924385,
