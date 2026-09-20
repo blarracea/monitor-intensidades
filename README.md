@@ -25,8 +25,7 @@ la magnitud Richter del epicentro.
   "Redes en vivo" del dashboard. Todos los sismos se guardan en
   `data/YYYY-MM-DD.json`, un archivo por día.
 - **GitHub Actions (`.github/workflows/collect.yml`)**: corre `collect.py`
-  cada 5 minutos (el mínimo real que permite un `cron` de GitHub Actions,
-  ver más abajo),
+  cada 15 minutos (ver más abajo por qué no cada 5, que sería lo ideal),
   sin depender de que nadie tenga el navegador abierto, y hace commit + push
   automático de los archivos que cambiaron en `data/`.
 - **Frontend (`index.html`, `css/`, `js/`)**: página estática con un mapa
@@ -103,26 +102,31 @@ y abre `http://localhost:8000` en el navegador.
    gratis y sin límites de minutos).
 2. GitHub Pages sirve el sitio directamente desde la raíz del repo en la
    rama `master` (Settings → Pages → Branch: master / root).
-3. El workflow `.github/workflows/collect.yml` corre cada 5 minutos vía
-   cron (el mínimo real que permite GitHub Actions — un valor menor
-   simplemente no se ejecuta a esa cadencia) y también se puede disparar a
-   mano desde la pestaña "Actions" del repo (botón "Run workflow", o `gh
-   workflow run collect.yml`). `concurrency` en el workflow evita que dos
-   corridas se pisen si una tarda más de lo esperado. Como el repo es
-   público, esto no tiene costo ni tope mensual de minutos — es política
-   fija de GitHub Actions para repos públicos, no una restricción propia de
-   este proyecto.
+3. El workflow `.github/workflows/collect.yml` corre cada 15 minutos vía
+   cron, y también se puede disparar a mano desde la pestaña "Actions" del
+   repo (botón "Run workflow", o `gh workflow run collect.yml`).
+   `concurrency` en el workflow evita que dos corridas se pisen si una
+   tarda más de lo esperado. Como el repo es público, esto no tiene costo
+   ni tope mensual de minutos — es política fija de GitHub Actions para
+   repos públicos, no una restricción propia de este proyecto.
 
 ## Ajustes comunes
 
-- **Frecuencia de recolección**: cambia el cron `*/5 * * * *` en
-  `.github/workflows/collect.yml`. **Importante**: GitHub Actions no permite
-  programar workflows más seguido que cada 5 minutos (`*/5` ya es el piso
-  real de la plataforma) — cualquier valor menor simplemente no se ejecuta
-  a esa cadencia. Ir más rápido tampoco aportaría mucho: el CSN/SENAPRED
-  tarda tiempo real en armar un reporte de intensidad (participación
-  ciudadana), y cada corrida ya usa Playwright contra `senapred.cl` (más
-  pesado que un simple request).
+- **Frecuencia de recolección**: cambia el cron `*/15 * * * *` en
+  `.github/workflows/collect.yml`. **Importante**: el límite real no es el
+  costo (minutos ilimitados en repo público) ni la sintaxis de cron (GitHub
+  técnicamente permite hasta cada 5 minutos) -- es que GitHub **no
+  garantiza** que un `schedule` muy frecuente se dispare de verdad con esa
+  cadencia. Se probó `*/5 * * * *` y en la práctica GitHub solo disparó 14
+  corridas en 24 horas en vez de las 288 esperadas (descarta la mayoría de
+  los disparos bajo carga de la plataforma) -- el dato de "Redes en vivo"
+  llegó a quedar de hasta 3-4 horas de antigüedad. Cada 15 minutos es menos
+  exigente para el scheduler de GitHub y se cumple con mucha más
+  consistencia, aunque puede atrasarse ocasionalmente igual. Ir más rápido
+  tampoco aportaría mucho más alla de este problema: el CSN/SENAPRED tarda
+  tiempo real en armar un reporte de intensidad (participación ciudadana),
+  y cada corrida ya usa Playwright contra `senapred.cl` (más pesado que un
+  simple request).
 - **Palabras clave** (qué cuenta como mención de un sismo en RSS/redes):
   lista `KEYWORDS` en `backend/keywords.py`.
 - **Bbox del catálogo de USGS**: constante `BBOX` en `backend/collect.py`
