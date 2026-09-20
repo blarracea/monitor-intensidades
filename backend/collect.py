@@ -310,6 +310,11 @@ def enrich_with_senapred_archive(events):
                 event["dyfi_points"] = points
                 event["intensity_source"] = "csn"
                 event["senapred_url"] = candidate["url"]
+                # Se guarda la hora del candidato que se matcheo (no solo el
+                # resultado) para que preserve_existing_csn_data pueda
+                # revalidar tambien la cercania de tiempo mas adelante, no
+                # solo la distancia -- ver el comentario ahi.
+                event["senapred_match_time"] = candidate["local_time"].isoformat()
                 break  # encontramos un match valido, no probar mas candidatos
 
 
@@ -351,12 +356,21 @@ def preserve_existing_csn_data(events):
     la intensidad del CSN ya capturada. Se restaura desde lo guardado si la
     corrida actual no encontro un match nuevo.
 
-    Se revalida la distancia al restaurar (no solo al construir el punto por
-    primera vez): un match viejo entre el evento y el reporte de SENAPRED
-    equivocado (dos sismos distintos el mismo dia, con hora/magnitud
-    parecidas) puede haber quedado guardado de una corrida anterior a que
-    existiera esta validacion, y sin este chequeo se seguiria preservando
-    para siempre.
+    Se revalida la distancia Y la cercania de tiempo al restaurar (no solo
+    al construir el match por primera vez). La distancia sola no alcanza:
+    un caso real (auditoria) tenia el mismo informe de SENAPRED (un sismo
+    real cerca de Tongoy) reusado en otros dos sismos distintos esa misma
+    tarde (Los Pelambres, Pichidangui) porque CSN le revisa la hora a un
+    evento despues de la primera pasada (por eso existe LOOKBACK_DAYS) --
+    el match se hizo en una corrida donde la hora todavia no estaba
+    revisada y caia dentro de SENAPRED_MATCH_MAX_MINUTES del informe, pero
+    la hora final revisada quedo a 150-250 km Y a mas de 90 minutos del
+    informe real. Sin revalidar tiempo, la distancia sola no bastaba para
+    descartarlo (150 km de piso deja pasar sismos chicos igual). Los
+    matches directo de la portada del CSN (ver collect_chile_events(), sin
+    "senapred_match_time") no tienen esta nocion de ventana de tiempo -- son
+    un link explicito en la misma pagina del informe, no una adivinanza por
+    cercania horaria, asi que solo se les revalida distancia.
     """
     stored_by_date = {}
     for event in events:
@@ -367,6 +381,13 @@ def preserve_existing_csn_data(events):
             stored_by_date[date_str] = {e["id"]: e for e in storage.load_day(date_str)}
         previous = stored_by_date[date_str].get(event["id"])
         if previous and previous.get("intensity_source") == "csn":
+            match_time = previous.get("senapred_match_time")
+            if match_time is not None:
+                event_time = datetime.fromisoformat(event["time"])
+                minutes_off = abs((event_time - datetime.fromisoformat(match_time)).total_seconds()) / 60
+                if minutes_off > SENAPRED_MATCH_MAX_MINUTES:
+                    continue  # la hora del evento se reviso y el match guardado ya no es cercano -- no se preserva
+
             max_distance_km = _max_intensity_distance_km(event["magnitude"])
             valid_points = [
                 p
@@ -380,6 +401,8 @@ def preserve_existing_csn_data(events):
             event["intensity_source"] = "csn"
             event["senapred_url"] = previous.get("senapred_url")
             event["csn_informe_url"] = previous.get("csn_informe_url")
+            if match_time is not None:
+                event["senapred_match_time"] = match_time
 
 
 def main():
