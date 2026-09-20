@@ -32,49 +32,189 @@ const INTENSITY_GRADIENT = {
 // DYFI reporta en una grilla densa (decenas de puntos muy juntos, a veces a
 // 1 km entre si), asi que un radio grande da un heatmap suave y continuo --
 // los puntos se superponen y el difuminado de cada uno se compensa con el
-// de los vecinos. El CSN reporta por comuna -- pocos puntos (3-15) muy
-// separados, sin superposicion -- si el blur es casi tan grande como el
-// radio (poco "nucleo" solido), el pico de cada punto queda diluido y una
-// intensidad real III-V se ve casi transparente. Por eso el CSN usa un
-// radio chico (para no verse como una mancha gigante) pero con un nucleo
-// bien solido (blur bajo en proporcion), para que el color en el centro
-// refleje la intensidad real reportada.
+// de los vecinos (ahi si tiene sentido sumar: mas respuestas ciudadanas
+// cerca = mas densidad real). El CSN reporta por comuna -- pocos puntos
+// (3-40) que en el Gran Santiago pueden estar a solo 3-5 km entre si -- si
+// el blur es casi tan grande como el radio (poco "nucleo" solido), el pico
+// de cada punto queda diluido y una intensidad real III-V se ve casi
+// transparente. Por eso el CSN usa un radio chico (para no verse como una
+// mancha gigante) pero con un nucleo bien solido (blur bajo en proporcion),
+// para que el color en el centro refleje la intensidad real reportada.
 const HEAT_STYLE_BY_SOURCE = {
   usgs_dyfi: { radius: 32, blur: 24 },
   csn: { radius: 20, blur: 8 },
 };
 
+const MIN_OPACITY = 0.15;
+
+// Paleta de 256 colores (indexable por 0-255) que reproduce INTENSITY_GRADIENT
+// -- se arma una sola vez dibujando los stops en un canvas de 1x256 y
+// leyendo los pixeles resultantes, el mismo truco que usa Leaflet.heat/
+// simpleheat por dentro para su propia paleta.
+let _palette = null;
+function _getPalette() {
+  if (_palette) return _palette;
+  const canvas = document.createElement("canvas");
+  canvas.width = 1;
+  canvas.height = 256;
+  const ctx = canvas.getContext("2d");
+  const grad = ctx.createLinearGradient(0, 0, 0, 256);
+  Object.keys(INTENSITY_GRADIENT).forEach((stop) => grad.addColorStop(Number(stop), INTENSITY_GRADIENT[stop]));
+  ctx.fillStyle = grad;
+  ctx.fillRect(0, 0, 1, 256);
+  _palette = ctx.getImageData(0, 0, 1, 256).data;
+  return _palette;
+}
+
+// Capa de intensidad por comuna con blend de "maximo" en vez de "suma".
+// Leaflet.heat (usado para DYFI, ver mas arriba) SUMA la densidad de puntos
+// superpuestos -- correcto para "cuantas respuestas hubo cerca de aca", pero
+// el reporte de SENAPRED no es eso: cada comuna entrega un VALOR propio (su
+// intensidad), no una cantidad que deba sumarse con la del vecino. Como
+// muchas comunas chilenas estan a pocos km entre si (sobre todo en el Gran
+// Santiago), con suma sus manchas se superponian y el color final terminaba
+// reflejando cuantas comunas vecinas reportaron, no la intensidad real de
+// ninguna en particular -- una comuna con IV rodeada de otras con IV podia
+// pintarse como VII-VIII solo por la cantidad de vecinas (bug real, visto
+// en el sismo de Farellones del 18-09-2026, 35 comunas). Con maximo, el
+// color en cualquier punto nunca supera la intensidad real mas alta
+// reportada cerca de ahi -- mismo radio/blur y mismo look de nube
+// difuminada que antes, pero el dato ya no se infla por tener vecinos.
+const ComunaIntensityLayer = L.Layer.extend({
+  initialize: function (points, options) {
+    this._points = points; // [{lat, lon, value}], value ya normalizado 0-1
+    L.setOptions(this, options);
+  },
+
+  onAdd: function (map) {
+    this._map = map;
+    if (!this._canvas) this._initCanvas();
+    map.getPanes().overlayPane.appendChild(this._canvas);
+    map.on("moveend resize", this._reset, this);
+    map.on("zoomstart", this._hide, this);
+    map.on("zoomend", this._reset, this);
+    this._reset();
+  },
+
+  onRemove: function (map) {
+    map.getPanes().overlayPane.removeChild(this._canvas);
+    map.off("moveend resize", this._reset, this);
+    map.off("zoomstart", this._hide, this);
+    map.off("zoomend", this._reset, this);
+  },
+
+  _initCanvas: function () {
+    this._canvas = L.DomUtil.create("canvas", "leaflet-comuna-intensity-layer leaflet-layer");
+    this._canvas.style.position = "absolute";
+  },
+
+  _hide: function () {
+    this._canvas.style.visibility = "hidden";
+  },
+
+  _reset: function () {
+    const topLeft = this._map.containerPointToLayerPoint([0, 0]);
+    L.DomUtil.setPosition(this._canvas, topLeft);
+    const size = this._map.getSize();
+    this._canvas.width = size.x;
+    this._canvas.height = size.y;
+    this._canvas.style.visibility = "";
+    this._redraw();
+  },
+
+  // Suaviza el borde de cada mancha (1 en el centro, 0 en el borde exterior)
+  // en vez de un corte lineal -- mismo efecto de nube difuminada que el
+  // gradiente radial que usaba Leaflet.heat.
+  _falloff: function (dist, radius, blur) {
+    if (dist <= radius) return 1;
+    const outer = radius + blur;
+    if (dist >= outer) return 0;
+    const t = (dist - radius) / blur;
+    return 1 - t * t * (3 - 2 * t); // smoothstep
+  },
+
+  _redraw: function () {
+    const ctx = this._canvas.getContext("2d");
+    const width = this._canvas.width;
+    const height = this._canvas.height;
+    ctx.clearRect(0, 0, width, height);
+    if (width === 0 || height === 0 || this._points.length === 0) return;
+
+    const radius = this.options.radius;
+    const blur = this.options.blur;
+    const outer = radius + blur;
+    const maxGrid = new Float32Array(width * height);
+
+    this._points.forEach((point) => {
+      const pt = this._map.latLngToContainerPoint([point.lat, point.lon]);
+      const x0 = Math.max(0, Math.floor(pt.x - outer));
+      const x1 = Math.min(width - 1, Math.ceil(pt.x + outer));
+      const y0 = Math.max(0, Math.floor(pt.y - outer));
+      const y1 = Math.min(height - 1, Math.ceil(pt.y + outer));
+      for (let yy = y0; yy <= y1; yy++) {
+        for (let xx = x0; xx <= x1; xx++) {
+          const dx = xx - pt.x;
+          const dy = yy - pt.y;
+          const dist = Math.sqrt(dx * dx + dy * dy);
+          if (dist >= outer) continue;
+          const value = point.value * this._falloff(dist, radius, blur);
+          const idx = yy * width + xx;
+          if (value > maxGrid[idx]) maxGrid[idx] = value;
+        }
+      }
+    });
+
+    const palette = this.options.palette;
+    const imgData = ctx.createImageData(width, height);
+    for (let i = 0; i < maxGrid.length; i++) {
+      const v = maxGrid[i];
+      if (v <= 0) continue;
+      const p = Math.min(255, Math.floor(v * 255)) * 4;
+      const o = i * 4;
+      imgData.data[o] = palette[p];
+      imgData.data[o + 1] = palette[p + 1];
+      imgData.data[o + 2] = palette[p + 2];
+      imgData.data[o + 3] = Math.round(Math.max(v, MIN_OPACITY) * 255);
+    }
+    ctx.putImageData(imgData, 0, 0);
+  },
+});
+
 SismosApp.buildHeatLayer = function (events) {
-  const pointsBySource = { usgs_dyfi: [], csn: [] };
+  const dyfiPoints = [];
+  const csnPoints = [];
   events.forEach((event) => {
-    const source = event.intensity_source;
-    const bucket = pointsBySource[source];
-    if (!bucket) return;
     (event.dyfi_points || []).forEach((p) => {
       if (p.intensity == null) return;
-      bucket.push([p.lat, p.lon, Math.min(p.intensity / 12, 1)]);
+      const value = Math.min(p.intensity / 12, 1);
+      if (event.intensity_source === "csn") {
+        csnPoints.push({ lat: p.lat, lon: p.lon, value });
+      } else if (event.intensity_source === "usgs_dyfi") {
+        dyfiPoints.push([p.lat, p.lon, value]);
+      }
     });
   });
 
-  const layers = Object.keys(pointsBySource)
-    .filter((source) => pointsBySource[source].length > 0)
-    .map((source) =>
-      L.heatLayer(pointsBySource[source], {
-        ...HEAT_STYLE_BY_SOURCE[source],
+  const layers = [];
+  if (dyfiPoints.length > 0) {
+    layers.push(
+      L.heatLayer(dyfiPoints, {
+        ...HEAT_STYLE_BY_SOURCE.usgs_dyfi,
         max: 1.0,
         // Sin minOpacity, Leaflet.heat usa un piso interno de 0.05 -- un
         // reporte real de intensidad III-V (lo mas comun) queda con una
         // opacidad maxima de ~13%, practicamente invisible. 0.15 lo hace
         // visible sin volver a generar un halo marcado donde no hay dato
         // (el halo grande era con 0.35, ver commit anterior).
-        minOpacity: 0.15,
+        minOpacity: MIN_OPACITY,
         gradient: INTENSITY_GRADIENT,
       })
     );
+  }
+  if (csnPoints.length > 0) {
+    layers.push(new ComunaIntensityLayer(csnPoints, { ...HEAT_STYLE_BY_SOURCE.csn, palette: _getPalette() }));
+  }
 
-  // Sin puntos, Leaflet.heat igual crea su canvas interno y puede tirar un
-  // error de consola inofensivo al dibujar con ancho 0 -- mas simple evitar
-  // crear capas cuando no hay nada que pintar todavia.
   if (layers.length === 0) return null;
   return L.layerGroup(layers);
 };
