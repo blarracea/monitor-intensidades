@@ -5,19 +5,21 @@ name: Recolectar datos de sismos
 # TODO el tiempo que el job esta vivo, incluido el tiempo dormido entre
 # recolecciones.
 #
-# Antes esto corria en 13 horarios fijos por dia (~108 min entre si) para
-# quedar dentro de un presupuesto autoimpuesto de 200 min/mes -- pero el
-# repo es publico, y GitHub Actions da minutos ilimitados y gratis en repos
-# publicos, sin tope mensual, para cualquier plan de cuenta (no es que este
-# repo particular tenga un limite mas chico -- es politica fija de GitHub).
-# Ese presupuesto de 200 min no reflejaba una restriccion real, asi que se
-# volvio al intervalo simple de 5 minutos (el minimo real que permite un
-# cron de GitHub Actions -- no se puede programar mas seguido). A ~1.55 min
-# facturados por corrida en promedio (71s reales, redondeado hacia arriba
-# al minuto), son ~13.800 min/mes -- gratis igual, por ser repo publico.
+# El minuto de GitHub Actions no es la restriccion (el repo es publico:
+# minutos ilimitados y gratis, sin tope mensual, para cualquier plan de
+# cuenta). El problema real es otro: GitHub NO garantiza que un "schedule"
+# muy frecuente se dispare de verdad con esa cadencia -- bajo carga de la
+# plataforma, descarta la mayoria de los disparos de un cron cada 5 min
+# (medido: 14 corridas reales en 24 horas contra las 288 que deberian
+# haber sido -- el ultimo dato quedaba de hasta 3-4 horas de antiguedad).
+# No es algo que se arregle desde este archivo con un cron mas agresivo --
+# ya se probo "*/5 * * * *" y el resultado fue el mismo problema. Cada 15
+# minutos es un intervalo menos exigente para el scheduler de GitHub, y en
+# la practica se cumple con mucha mas consistencia (igual puede atrasarse
+# ocasionalmente, pero no de la misma forma masiva que cada 5 min).
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch: {}
 
 permissions:
