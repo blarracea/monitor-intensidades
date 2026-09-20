@@ -25,9 +25,9 @@ la magnitud Richter del epicentro.
   "Redes en vivo" del dashboard. Todos los sismos se guardan en
   `data/YYYY-MM-DD.json`, un archivo por día.
 - **GitHub Actions (`.github/workflows/collect.yml`)**: corre `collect.py`
-  cada 15 minutos (ver más abajo por qué no cada 5, que sería lo ideal),
-  sin depender de que nadie tenga el navegador abierto, y hace commit + push
-  automático de los archivos que cambiaron en `data/`.
+  cada 20 minutos (ver más abajo por qué no cada 5 o cada 15, que sería lo
+  ideal), sin depender de que nadie tenga el navegador abierto, y hace
+  commit + push automático de los archivos que cambiaron en `data/`.
 - **Frontend (`index.html`, `css/`, `js/`)**: página estática con un mapa
   Leaflet que **solo lee** los archivos ya guardados en `data/` — nunca llama
   directamente a las APIs externas. Se sirve gratis con GitHub Pages. Se
@@ -102,7 +102,7 @@ y abre `http://localhost:8000` en el navegador.
    gratis y sin límites de minutos).
 2. GitHub Pages sirve el sitio directamente desde la raíz del repo en la
    rama `master` (Settings → Pages → Branch: master / root).
-3. El workflow `.github/workflows/collect.yml` corre cada 15 minutos vía
+3. El workflow `.github/workflows/collect.yml` corre cada 20 minutos vía
    cron, y también se puede disparar a mano desde la pestaña "Actions" del
    repo (botón "Run workflow", o `gh workflow run collect.yml`).
    `concurrency` en el workflow evita que dos corridas se pisen si una
@@ -112,21 +112,22 @@ y abre `http://localhost:8000` en el navegador.
 
 ## Ajustes comunes
 
-- **Frecuencia de recolección**: cambia el cron `*/15 * * * *` en
+- **Frecuencia de recolección**: cambia el cron `*/20 * * * *` en
   `.github/workflows/collect.yml`. **Importante**: el límite real no es el
   costo (minutos ilimitados en repo público) ni la sintaxis de cron (GitHub
   técnicamente permite hasta cada 5 minutos) -- es que GitHub **no
   garantiza** que un `schedule` muy frecuente se dispare de verdad con esa
-  cadencia. Se probó `*/5 * * * *` y en la práctica GitHub solo disparó 14
-  corridas en 24 horas en vez de las 288 esperadas (descarta la mayoría de
-  los disparos bajo carga de la plataforma) -- el dato de "Redes en vivo"
-  llegó a quedar de hasta 3-4 horas de antigüedad. Cada 15 minutos es menos
-  exigente para el scheduler de GitHub y se cumple con mucha más
-  consistencia, aunque puede atrasarse ocasionalmente igual. Ir más rápido
-  tampoco aportaría mucho más alla de este problema: el CSN/SENAPRED tarda
-  tiempo real en armar un reporte de intensidad (participación ciudadana),
-  y cada corrida ya usa Playwright contra `senapred.cl` (más pesado que un
-  simple request).
+  cadencia. Se probó `*/5 * * * *` (14 corridas reales en 24 horas en vez
+  de las 288 esperadas) y después `*/15 * * * *`, y el problema persistió
+  igual: revisando el historial real de corridas (`gh run list`), los
+  espacios entre corridas "schedule" llegan hasta 2-2.5 horas, muy por
+  encima del número configurado. En otras palabras, **el número exacto del
+  cron no es la causa ni la solución** -- es GitHub descartando disparos
+  bajo carga de la plataforma, y eso pasa a cualquier cadencia sub-horaria
+  probada hasta ahora. La única forma de garantizar el intervalo de verdad
+  sería un disparador externo (ej. cron-job.org llamando a la API de
+  GitHub) con un token de acceso, que por ahora se descartó a propósito
+  para no depender de un servicio externo ni de un token nuevo.
 - **Palabras clave** (qué cuenta como mención de un sismo en RSS/redes):
   lista `KEYWORDS` en `backend/keywords.py`.
 - **Bbox del catálogo de USGS**: constante `BBOX` en `backend/collect.py`

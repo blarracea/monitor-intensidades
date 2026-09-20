@@ -1,8 +1,8 @@
 """
-Script principal de recoleccion. Lo ejecuta GitHub Actions cada 15 minutos
+Script principal de recoleccion. Lo ejecuta GitHub Actions cada 20 minutos
 (ver .github/workflows/collect.yml -- GitHub no garantiza un schedule
-confiable cada 5 min, ver el comentario ahi), pero tambien se puede correr
-a mano:
+confiable a cadencias sub-horarias, ver el comentario ahi), pero tambien
+se puede correr a mano:
 
     cd backend
     pip install -r requirements.txt
