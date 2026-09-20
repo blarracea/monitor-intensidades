@@ -1882,42 +1882,9 @@
     "mmi": null,
     "felt_reports": null,
     "tsunami_flag": false,
-    "dyfi_points": [
-      {
-        "lat": -30.3667,
-        "lon": -70.9833,
-        "intensity": 3,
-        "responses": null,
-        "comuna": "Río Hurtado",
-        "region": "Coquimbo"
-      },
-      {
-        "lat": -30.2333,
-        "lon": -71.0833,
-        "intensity": 2,
-        "responses": null,
-        "comuna": "Andacollo",
-        "region": "Coquimbo"
-      },
-      {
-        "lat": -29.9533,
-        "lon": -71.3436,
-        "intensity": 2,
-        "responses": null,
-        "comuna": "Coquimbo",
-        "region": "Coquimbo"
-      },
-      {
-        "lat": -30.0167,
-        "lon": -70.6833,
-        "intensity": 2,
-        "responses": null,
-        "comuna": "Paiguano",
-        "region": "Coquimbo"
-      }
-    ],
-    "intensity_source": "csn",
-    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-coquimbo-2026-09-15-16-21-59",
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383177.html",
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383177.html",
     "relevant": false,
