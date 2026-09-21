@@ -1597,5 +1597,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiz7",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383968.html",
+    "source": "csn",
+    "time": "2026-09-21T17:38:45+00:00",
+    "updated": "2026-09-21T17:38:45+00:00",
+    "lat": -22.12,
+    "lon": -67.66,
+    "depth_km": 178.0,
+    "magnitude": 4.1,
+    "mag_type": "M",
+    "place": "105 km al NE de San Pedro de Atacama, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383968.html",
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383968.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
