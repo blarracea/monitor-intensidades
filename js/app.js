@@ -172,6 +172,9 @@
     if (event.senapred_url) {
       fuenteParts.push(`<a href="${_escapeAttrDetail(_safeUrlDetail(event.senapred_url))}" target="_blank" rel="noopener">SENAPRED</a>`);
     }
+    if (event.snam_url) {
+      fuenteParts.push(`<a href="${_escapeAttrDetail(_safeUrlDetail(event.snam_url))}" target="_blank" rel="noopener">SNAM</a>`);
+    }
     const fuenteLinks = fuenteParts.join(" · ");
     detailBody.innerHTML = `
       <dt>Referencia geográfica</dt><dd>${_escapeHtmlDetail(event.place || "-")}</dd>
