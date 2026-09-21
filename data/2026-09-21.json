@@ -847,5 +847,28 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383914.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tiw4",
+    "source": "usgs",
+    "time": "2026-09-21T07:31:07.967000+00:00",
+    "updated": "2026-09-21T07:51:52.040000+00:00",
+    "lat": -0.8563,
+    "lon": 122.4959,
+    "depth_km": 9.863,
+    "magnitude": 5,
+    "mag_type": "mb",
+    "place": "34 km WNW of Luwuk, Indonesia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiw4",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
