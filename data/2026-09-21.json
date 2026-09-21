@@ -118,7 +118,7 @@
     "id": "us7000tiui",
     "source": "usgs",
     "time": "2026-09-21T01:02:04.529000+00:00",
-    "updated": "2026-09-21T01:25:41.887000+00:00",
+    "updated": "2026-09-21T07:04:20.618000+00:00",
     "lat": 37.8136,
     "lon": 36.2994,
     "depth_km": 10,
@@ -127,7 +127,7 @@
     "place": "26 km SE of Saimbeyli, Turkey",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -799,6 +799,29 @@
     "senapred_url": null,
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383905.html",
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383905.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383910.html",
+    "source": "csn",
+    "time": "2026-09-21T06:55:12+00:00",
+    "updated": "2026-09-21T06:55:12+00:00",
+    "lat": -23.05,
+    "lon": -70.65,
+    "depth_km": 25.0,
+    "magnitude": 2.8,
+    "mag_type": "MLv",
+    "place": "22 km al O de Mejillones, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383910.html",
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383910.html",
     "relevant": false,
     "keywords_matched": []
   }
