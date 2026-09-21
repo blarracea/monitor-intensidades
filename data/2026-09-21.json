@@ -1946,5 +1946,28 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383988.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026stkjjp",
+    "source": "usgs",
+    "time": "2026-09-21T21:17:48.143000+00:00",
+    "updated": "2026-09-21T21:20:11.343000+00:00",
+    "lat": 61.653,
+    "lon": -151.672,
+    "depth_km": 100.6,
+    "magnitude": 2.7,
+    "mag_type": "ml",
+    "place": "40 km SSW of Skwentna, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026stkjjp",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
