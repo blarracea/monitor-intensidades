@@ -870,5 +870,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiw4",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "pr71533868",
+    "source": "usgs",
+    "time": "2026-09-21T07:53:11.990000+00:00",
+    "updated": "2026-09-21T08:42:41.730000+00:00",
+    "lat": 19.2541666666667,
+    "lon": -65.3803333333333,
+    "depth_km": 75.73,
+    "magnitude": 3.32,
+    "mag_type": "md",
+    "place": "103 km NNE of Vieques, Puerto Rico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71533868",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
