@@ -20,6 +20,11 @@ KEYWORDS = [
     # sismo. normalize() ya baja todo a minuscula, asi que no hace falta
     # una entrada separada para mayusculas/minusculas.
     "temblo",
+    # "temblando" (gerundio, ej. "esta temblando") tampoco es atrapado por
+    # "temblor" ni "temblo" -- diverge en la 6ta letra ("tembl-a-ndo" vs
+    # "tembl-o-r"/"tembl-o"). Es una forma muy comun en redes en vivo
+    # durante un sismo, asi que necesita su propia entrada.
+    "temblando",
     "megaterremoto",
     "maremoto",
 ]
