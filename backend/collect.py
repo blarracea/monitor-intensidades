@@ -38,6 +38,8 @@ data/live_mentions.json, para el panel "Redes en vivo" del dashboard.
 import math
 from datetime import datetime, timedelta, timezone
 
+import requests
+
 import comuna_coords
 import keywords
 import storage
@@ -444,6 +446,12 @@ def enrich_with_snam(events):
 
     try:
         snam_events = snam.fetch_snam_events()
+    except requests.HTTPError as exc:
+        # El cuerpo de la respuesta puede traer el motivo real del bloqueo
+        # (ej. un WAF) -- el mensaje por defecto de HTTPError no lo incluye.
+        detail = exc.response.text[:300] if exc.response is not None else str(exc)
+        print(f"Aviso: no se pudo consultar SNAM ({detail}).")
+        return
     except Exception as exc:
         print(f"Aviso: no se pudo consultar SNAM ({exc}).")
         return
