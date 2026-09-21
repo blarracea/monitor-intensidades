@@ -350,5 +350,28 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383870.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026srytln",
+    "source": "usgs",
+    "time": "2026-09-21T02:29:56.669000+00:00",
+    "updated": "2026-09-21T02:33:39.384000+00:00",
+    "lat": 60.311,
+    "lon": -152.056,
+    "depth_km": 78.8,
+    "magnitude": 2.7,
+    "mag_type": "ml",
+    "place": "36 km NW of Ninilchik, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026srytln",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
