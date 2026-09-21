@@ -899,7 +899,7 @@
     "id": "us7000tiqc",
     "source": "usgs",
     "time": "2026-09-20T09:17:35.624000+00:00",
-    "updated": "2026-09-20T22:27:47.804000+00:00",
+    "updated": "2026-09-21T05:12:06.750000+00:00",
     "lat": -5.9021,
     "lon": 146.0922,
     "depth_km": 104.329,
@@ -908,7 +908,7 @@
     "place": "49 km NNE of Kainantu, Papua New Guinea",
     "cdi": 5.6,
     "mmi": 5.356,
-    "felt_reports": 29,
+    "felt_reports": 30,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -999,6 +999,12 @@
         "lat": -7.04297,
         "lon": 147.049795,
         "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": -6.0817025000000005,
+        "lon": 145.396085,
+        "intensity": 2.7,
         "responses": 1
       },
       {
