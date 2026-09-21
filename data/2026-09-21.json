@@ -1376,5 +1376,28 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383936.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tixp",
+    "source": "usgs",
+    "time": "2026-09-21T13:38:32.404000+00:00",
+    "updated": "2026-09-21T13:56:15.040000+00:00",
+    "lat": 32.5978,
+    "lon": 132.0805,
+    "depth_km": 42.736,
+    "magnitude": 5,
+    "mag_type": "mb",
+    "place": "38 km E of Nobeoka, Japan",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tixp",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
