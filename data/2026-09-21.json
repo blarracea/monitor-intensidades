@@ -587,5 +587,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tivb",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383885.html",
+    "source": "csn",
+    "time": "2026-09-21T04:26:47+00:00",
+    "updated": "2026-09-21T04:26:47+00:00",
+    "lat": -22.68,
+    "lon": -69.02,
+    "depth_km": 112.0,
+    "magnitude": 2.9,
+    "mag_type": "MLv",
+    "place": "26 km al SO de Calama, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383885.html",
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383885.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
