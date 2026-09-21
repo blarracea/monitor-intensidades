@@ -1999,5 +1999,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj0z",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383995.html",
+    "source": "csn",
+    "time": "2026-09-21T22:24:16+00:00",
+    "updated": "2026-09-21T22:24:16+00:00",
+    "lat": -21.25,
+    "lon": -68.36,
+    "depth_km": 209.0,
+    "magnitude": 2.8,
+    "mag_type": "MLv",
+    "place": "12 km al O de Ollagüe, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383995.html",
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/383995.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
