@@ -7,11 +7,16 @@ publicacion.
 
 Como funciona (investigado navegando el sitio, no hay API publica):
   1. La portada (snamchile.cl) es HTML plano generado en el servidor (PHP
-     clasico), con una tabla de los ultimos eventos -- "Se publican solo
-     los sismos iguales o mayores a 5 en la escala de Richter", segun la
-     propia pagina. A diferencia de SENAPRED no hace falta Playwright: el
-     contenido ya esta en el HTML de la primera respuesta, no lo arma un
-     framework de JS despues de cargar.
+     clasico, sin React/SPA) -- el contenido de la tabla ya esta ahi, no lo
+     arma JS despues de cargar. Aun asi hace falta un navegador (Playwright,
+     ya es dependencia del proyecto -- lo usa sources.csn para SENAPRED): el
+     sitio esta detras de un WAF (cookie AWSALB) que bloquea firmas de bot
+     conocidas. Un `requests.get()` comun (desde los runners de GitHub
+     Actions, no en local) devuelve una pagina de "Human Verification"; el
+     Chromium headless por defecto de Playwright igual queda bloqueado con
+     un 403 porque anuncia "HeadlessChrome" en su propio User-Agent. Un
+     User-Agent de Chrome de escritorio comun (ver BROWSER_USER_AGENT) lo
+     evita en los dos casos -- probado.
   2. Cada fila tiene, en atributos "onclick" de sus botones:
      - "Ver Boletin": modalBol(id, ...) -- el id del boletin. Se confirmo
        leyendo js/funciones.js que ese boton en realidad carga (via AJAX
@@ -30,25 +35,22 @@ import re
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-import requests
 from bs4 import BeautifulSoup
 
 BASE_URL = "https://www.snamchile.cl"
-REQUEST_TIMEOUT = 30
+PAGE_LOAD_TIMEOUT_MS = 30000
+# El WAF del sitio bloquea el User-Agent por defecto de Chromium headless
+# ("HeadlessChrome/...", anuncia que es un navegador automatizado) con un
+# 403 -- un User-Agent de Chrome de escritorio comun lo evita (probado).
+BROWSER_USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/120.0 Safari/537.36"
+)
 # A diferencia del offset fijo que usa sources.csn (CHILE_UTC_OFFSET, sin
 # manejo de horario de verano), aca se usa la zona horaria real -- Chile
 # tiene horario de verano (UTC-3) buena parte del año, y esta fuente
 # necesita la hora exacta para el cruce por cercania de tiempo con SNAM_MATCH.
 CHILE_TZ = ZoneInfo("America/Santiago")
-# El sitio devuelve 403 al User-Agent por defecto de requests
-# ("python-requests/x.y") -- algun WAF/CDN delante bloquea firmas de bot
-# conocidas. Un User-Agent de navegador comun lo evita (probado).
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/120.0 Safari/537.36"
-    )
-}
 
 # Grupos: lat, lon, referencia (sin usar, cells[1] ya trae el texto limpio
 # de la tabla), magnitud, fecha (sin usar, cells[0] ya trae lo mismo), fuente.
@@ -65,10 +67,8 @@ def fetch_snam_events():
     "boletin_url"} -- ver el docstring del modulo para de donde sale cada
     campo.
     """
-    response = requests.get(BASE_URL + "/", timeout=REQUEST_TIMEOUT, headers=HEADERS)
-    response.raise_for_status()
-    response.encoding = "utf-8"  # el sitio no siempre declara charset en el header HTTP
-    soup = BeautifulSoup(response.text, "html.parser")
+    html = _fetch_page_html()
+    soup = BeautifulSoup(html, "html.parser")
 
     table = soup.find("table", class_="table-stripped")
     if table is None:
@@ -108,6 +108,33 @@ def fetch_snam_events():
             }
         )
     return events
+
+
+def _fetch_page_html():
+    """
+    Renderiza la portada con un navegador headless -- ver el docstring del
+    modulo para por que hace falta (el WAF del sitio bloquea un
+    `requests.get()` comun con una pagina de "Human Verification").
+    """
+    from playwright.sync_api import sync_playwright
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch()
+        try:
+            page = browser.new_page(user_agent=BROWSER_USER_AGENT)
+            page.goto(BASE_URL + "/", wait_until="domcontentloaded", timeout=PAGE_LOAD_TIMEOUT_MS)
+            # Si el WAF muestra el desafio, la tabla real todavia no esta en
+            # el DOM -- se espera a que aparezca (el desafio se resuelve
+            # solo y redirige/recarga) en vez de leer el contenido de
+            # inmediato.
+            # state="attached" (no el "visible" por defecto) -- solo hace
+            # falta que este en el DOM para leer page.content(), no que se
+            # vea en pantalla (la pagina tiene layout de tablas viejo que a
+            # veces no calcula como "visible" en un viewport headless).
+            page.wait_for_selector("table.table-stripped", state="attached", timeout=PAGE_LOAD_TIMEOUT_MS)
+            return page.content()
+        finally:
+            browser.close()
 
 
 def _parse_local_time(text):
