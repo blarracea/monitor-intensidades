@@ -41,7 +41,7 @@ from datetime import datetime, timedelta, timezone
 import comuna_coords
 import keywords
 import storage
-from sources import bluesky, csn, mastodon, social, usgs
+from sources import bluesky, csn, mastodon, snam, social, usgs
 
 # Un reporte de intensidad para UN sismo no deberia tener comunas
 # arbitrariamente lejos del epicentro -- si una comuna geocodifica asi de
@@ -80,6 +80,13 @@ def _max_intensity_distance_km(magnitude):
 SENAPRED_MATCH_MAX_MINUTES = 90
 SENAPRED_MATCH_MAX_MAGNITUDE_DIFF = 1.0
 
+# El SHOA (SNAM) publica su boletin ~10 min despues del CSN/USGS -- a
+# diferencia del archivo de SENAPRED, si trae lat/lon exactos, asi que el
+# cruce es por cercania de tiempo Y distancia de epicentro (nunca por
+# magnitud, que es el dato que puede diferir y se quiere actualizar).
+SNAM_MATCH_MAX_MINUTES = 30
+SNAM_MATCH_MAX_DISTANCE_KM = 50
+
 # Bbox global (todo el planeta) -- a pedido, el reporte DYFI de USGS ya no
 # se restringe a Sudamerica: se quiere ver intensidad percibida de
 # cualquier sismo en el mundo (p.ej. Japon) en el mapa de calor. Chile
@@ -95,6 +102,15 @@ LOOKBACK_DAYS = 3  # se reconsulta para capturar revisiones de magnitud y DYFI q
 RETENTION_DAYS = 30
 RELEVANT_MAGNITUDE = 5.0
 RELEVANT_FELT_REPORTS = 50
+
+# El SNAM solo publica sismos M>=5.0 -- pero segun SU PROPIA estimacion de
+# magnitud, que puede diferir de la nuestra (CSN/USGS) en hasta ~1 punto
+# para el mismo sismo real (mismo margen que SENAPRED_MATCH_MAX_MAGNITUDE_DIFF).
+# Si se filtraran los candidatos por RELEVANT_MAGNITUDE usando NUESTRA
+# magnitud, se perderian justo los casos que mas importa corregir (ej. un
+# sismo que el CSN informo en 4.8 pero el SNAM -- con otra fuente -- publico
+# en 5.2, caso real visto en Farellones 18-09).
+SNAM_CANDIDATE_MIN_MAGNITUDE = RELEVANT_MAGNITUDE - SENAPRED_MATCH_MAX_MAGNITUDE_DIFF
 
 
 def build_event_record(feature, dyfi_points):
@@ -129,6 +145,7 @@ def build_event_record(feature, dyfi_points):
         "intensity_source": "usgs_dyfi" if dyfi_points else None,
         "senapred_url": None,
         "csn_informe_url": None,
+        "snam_url": None,
         "url": props.get("url"),
         "relevant": is_relevant,
         "keywords_matched": keywords.matched_keywords(place),
@@ -235,6 +252,7 @@ def collect_chile_events():
             "intensity_source": None,
             "senapred_url": None,
             "csn_informe_url": item["csn_url"],
+            "snam_url": None,
             "url": item["csn_url"],
             "relevant": bool(detail["magnitude"] is not None and detail["magnitude"] >= RELEVANT_MAGNITUDE),
             "keywords_matched": keywords.matched_keywords(place),
@@ -407,6 +425,49 @@ def preserve_existing_csn_data(events):
                 event["senapred_match_time"] = match_time
 
 
+def enrich_with_snam(events):
+    """
+    Segunda fuente para sismos M>=5.0 (Chile o el resto del mundo, el SNAM
+    cubre cualquier sismo relevante para la alarma de tsunami en las costas
+    de Chile, no solo epicentros chilenos): el SHOA confirma o revisa la
+    referencia geografica y la magnitud del CSN/USGS. Se preseleccionan
+    candidatos por SNAM_CANDIDATE_MIN_MAGNITUDE (con margen bajo el umbral
+    real, ver comentario ahi) en vez de consultar el sitio para cada evento
+    -- no tiene sentido hacerlo si de entrada la magnitud propia esta muy
+    por debajo de lo que el SNAM podria haber publicado.
+    """
+    candidates = [
+        e for e in events if e["magnitude"] is not None and e["magnitude"] >= SNAM_CANDIDATE_MIN_MAGNITUDE
+    ]
+    if not candidates:
+        return
+
+    try:
+        snam_events = snam.fetch_snam_events()
+    except Exception as exc:
+        print(f"Aviso: no se pudo consultar SNAM ({exc}).")
+        return
+
+    for event in candidates:
+        event_time = datetime.fromisoformat(event["time"])
+        nearby = sorted(
+            (
+                s
+                for s in snam_events
+                if abs((event_time - s["local_time"]).total_seconds()) <= SNAM_MATCH_MAX_MINUTES * 60
+                and _haversine_km(event["lat"], event["lon"], s["lat"], s["lon"]) <= SNAM_MATCH_MAX_DISTANCE_KM
+            ),
+            key=lambda s: abs((event_time - s["local_time"]).total_seconds()),
+        )
+        if not nearby:
+            continue
+
+        match = nearby[0]
+        event["place"] = match["place"]
+        event["magnitude"] = match["magnitude"]
+        event["snam_url"] = match["boletin_url"]
+
+
 def main():
     now = datetime.now(timezone.utc)
     start = now - timedelta(days=LOOKBACK_DAYS)
@@ -430,6 +491,7 @@ def main():
 
     enrich_with_senapred_archive(events)
     preserve_existing_csn_data(events)
+    enrich_with_snam(events)
 
     storage.upsert_events(events)
     storage.purge_old(RETENTION_DAYS)

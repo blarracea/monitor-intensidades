@@ -1,3 +1,8 @@
 requests>=2.31,<3
 beautifulsoup4>=4.12,<5
 playwright>=1.40,<2
+# zoneinfo (stdlib) necesita esto en Windows -- no trae la base de datos de
+# huso horario del sistema como Linux/Mac. Se usa para America/Santiago en
+# sources/snam.py (Chile tiene horario de verano, un offset fijo queda mal
+# ~medio año).
+tzdata>=2024.1
