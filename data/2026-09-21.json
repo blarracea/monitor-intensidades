@@ -168,6 +168,36 @@
     "keywords_matched": []
   },
   {
+    "id": "us7000tiuj",
+    "source": "usgs",
+    "time": "2026-09-21T01:07:33.847000+00:00",
+    "updated": "2026-09-21T22:39:47.017000+00:00",
+    "lat": -13.6048,
+    "lon": -71.9868,
+    "depth_km": 10,
+    "magnitude": 4.3,
+    "mag_type": "mb",
+    "place": "8 km S of Santiago, Peru",
+    "cdi": 3.4,
+    "mmi": null,
+    "felt_reports": 1,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": -13.52842,
+        "lon": -71.95149,
+        "intensity": 3.4,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiuj",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383855.html",
     "source": "csn",
     "time": "2026-09-21T01:07:52+00:00",
