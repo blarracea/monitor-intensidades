@@ -507,7 +507,7 @@
     "id": "us7000tj3v",
     "source": "usgs",
     "time": "2026-09-22T06:48:09.705000+00:00",
-    "updated": "2026-09-22T07:11:17.331000+00:00",
+    "updated": "2026-09-22T07:50:06.452000+00:00",
     "lat": 11.0957,
     "lon": 124.2096,
     "depth_km": 10,
@@ -516,13 +516,19 @@
     "place": "19 km ENE of Nailong, Philippines",
     "cdi": 4.8,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 11.337227500000001,
         "lon": 124.113405,
         "intensity": 4.8,
+        "responses": 1
+      },
+      {
+        "lat": 10.3251075,
+        "lon": 123.90876,
+        "intensity": 2.2,
         "responses": 1
       }
     ],
