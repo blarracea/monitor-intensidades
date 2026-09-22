@@ -1857,5 +1857,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384079.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026svhnuz",
+    "source": "usgs",
+    "time": "2026-09-22T21:52:18.325000+00:00",
+    "updated": "2026-09-22T21:53:48.408000+00:00",
+    "lat": 55.496,
+    "lon": -158.9,
+    "depth_km": 5,
+    "magnitude": 2.6,
+    "mag_type": "ml",
+    "place": "48 km SSE of Perryville, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026svhnuz",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
