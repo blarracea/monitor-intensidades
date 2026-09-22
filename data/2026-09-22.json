@@ -1172,5 +1172,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384044.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026susmgb",
+    "source": "usgs",
+    "time": "2026-09-22T14:20:48.751000+00:00",
+    "updated": "2026-09-22T14:25:29.489000+00:00",
+    "lat": 67.384,
+    "lon": -157.22,
+    "depth_km": 26,
+    "magnitude": 3.6,
+    "mag_type": "ml",
+    "place": "42 km NE of Ambler, Alaska",
+    "cdi": null,
+    "mmi": 2.954,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026susmgb",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
