@@ -166,5 +166,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj30",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384011.html",
+    "source": "csn",
+    "time": "2026-09-22T03:13:19+00:00",
+    "updated": "2026-09-22T03:13:19+00:00",
+    "lat": -22.36,
+    "lon": -68.02,
+    "depth_km": 195.0,
+    "magnitude": 3.0,
+    "mag_type": "MLv",
+    "place": "65 km al N de San Pedro de Atacama, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384011.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384011.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
