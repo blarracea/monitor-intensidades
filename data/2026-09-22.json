@@ -1881,5 +1881,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026svhnuz",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "pr71534123",
+    "source": "usgs",
+    "time": "2026-09-22T22:01:26.080000+00:00",
+    "updated": "2026-09-22T22:11:05.130000+00:00",
+    "lat": 18.7448333333333,
+    "lon": -64.6248333333333,
+    "depth_km": 15.16,
+    "magnitude": 2.63,
+    "mag_type": "md",
+    "place": "49 km NNE of Cruz Bay, U.S. Virgin Islands",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71534123",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
