@@ -1539,5 +1539,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75440082",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384068.html",
+    "source": "csn",
+    "time": "2026-09-22T19:17:08+00:00",
+    "updated": "2026-09-22T19:17:08+00:00",
+    "lat": -27.52,
+    "lon": -70.92,
+    "depth_km": 40.0,
+    "magnitude": 2.6,
+    "mag_type": "ML",
+    "place": "52 km al S de Caldera, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384068.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384068.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
