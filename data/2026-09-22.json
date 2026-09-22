@@ -1443,5 +1443,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026srvtwi",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384060.html",
+    "source": "csn",
+    "time": "2026-09-22T17:55:47+00:00",
+    "updated": "2026-09-22T17:55:47+00:00",
+    "lat": -22.97,
+    "lon": -68.27,
+    "depth_km": 99.0,
+    "magnitude": 2.7,
+    "mag_type": "MLv",
+    "place": "9 km al SO de San Pedro de Atacama, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384060.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384060.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
