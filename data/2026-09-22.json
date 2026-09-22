@@ -1340,5 +1340,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75439987",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "tx2026srvtwi",
+    "source": "usgs",
+    "time": "2026-09-22T16:07:21.955000+00:00",
+    "updated": "2026-09-22T16:15:16.344000+00:00",
+    "lat": 31.605,
+    "lon": -103.933,
+    "depth_km": 7.7533,
+    "magnitude": 2.5,
+    "mag_type": "ml",
+    "place": "33 km WSW of Mentone, Texas",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026srvtwi",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
