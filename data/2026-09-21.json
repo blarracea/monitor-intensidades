@@ -174,7 +174,7 @@
     "id": "us7000tiuj",
     "source": "usgs",
     "time": "2026-09-21T01:07:33.847000+00:00",
-    "updated": "2026-09-21T22:39:47.017000+00:00",
+    "updated": "2026-09-22T12:56:05.601000+00:00",
     "lat": -13.6048,
     "lon": -71.9868,
     "depth_km": 10,
@@ -183,13 +183,19 @@
     "place": "8 km S of Santiago, Peru",
     "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": -13.52842,
         "lon": -71.95149,
         "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": -13.51003,
+        "lon": -71.97895,
+        "intensity": 3.1,
         "responses": 1
       }
     ],
