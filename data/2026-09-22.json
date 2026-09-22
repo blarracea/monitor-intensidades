@@ -612,5 +612,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714107571",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384023.html",
+    "source": "csn",
+    "time": "2026-09-22T07:56:06+00:00",
+    "updated": "2026-09-22T07:56:06+00:00",
+    "lat": -24.02,
+    "lon": -67.48,
+    "depth_km": 217.0,
+    "magnitude": 3.7,
+    "mag_type": "MLv",
+    "place": "63 km al SE de Socaire, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384023.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384023.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
