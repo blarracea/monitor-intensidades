@@ -955,5 +955,36 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384037.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tj58",
+    "source": "usgs",
+    "time": "2026-09-22T11:43:45.547000+00:00",
+    "updated": "2026-09-22T12:08:38.579000+00:00",
+    "lat": 14.113,
+    "lon": -91.1165,
+    "depth_km": 88.793,
+    "magnitude": 4.7,
+    "mag_type": "mb",
+    "place": "7 km WNW of La Gomera, Guatemala",
+    "cdi": 2.2,
+    "mmi": null,
+    "felt_reports": 1,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 14.54745,
+        "lon": -90.7216825,
+        "intensity": 2.2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj58",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
