@@ -1905,5 +1905,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71534123",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384085.html",
+    "source": "csn",
+    "time": "2026-09-22T23:00:34+00:00",
+    "updated": "2026-09-22T23:00:34+00:00",
+    "lat": -21.15,
+    "lon": -68.82,
+    "depth_km": 143.0,
+    "magnitude": 3.5,
+    "mag_type": "MLv",
+    "place": "40 km al SO de Mina Collahuasi, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384085.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384085.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
