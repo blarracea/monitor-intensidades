@@ -142,5 +142,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384008.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tj30",
+    "source": "usgs",
+    "time": "2026-09-22T02:49:20.009000+00:00",
+    "updated": "2026-09-22T03:00:45.040000+00:00",
+    "lat": 18.3791,
+    "lon": -68.7551,
+    "depth_km": 189.636,
+    "magnitude": 3.7,
+    "mag_type": "ml",
+    "place": "10 km WSW of San Rafael del Yuma, Dominican Republic",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj30",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
