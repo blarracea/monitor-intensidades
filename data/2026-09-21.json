@@ -2208,7 +2208,7 @@
     "id": "nc75439717",
     "source": "usgs",
     "time": "2026-09-21T23:08:02.630000+00:00",
-    "updated": "2026-09-22T01:07:22.167000+00:00",
+    "updated": "2026-09-22T04:37:57.134000+00:00",
     "lat": 35.7215003967285,
     "lon": -121.017669677734,
     "depth_km": 5.21999979019165,
@@ -2217,13 +2217,19 @@
     "place": "12 km W of Lake Nacimiento, CA",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 35.724865,
         "lon": -120.882715,
         "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 35.66362,
+        "lon": -120.50878,
+        "intensity": 2.2,
         "responses": 1
       }
     ],
