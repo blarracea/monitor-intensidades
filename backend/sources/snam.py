@@ -131,7 +131,17 @@ def _fetch_page_html():
             # falta que este en el DOM para leer page.content(), no que se
             # vea en pantalla (la pagina tiene layout de tablas viejo que a
             # veces no calcula como "visible" en un viewport headless).
-            page.wait_for_selector("table.table-stripped", state="attached", timeout=PAGE_LOAD_TIMEOUT_MS)
+            try:
+                page.wait_for_selector("table.table-stripped", state="attached", timeout=PAGE_LOAD_TIMEOUT_MS)
+            except Exception as exc:
+                # El mensaje por defecto de Playwright no dice que trajo la
+                # pagina en realidad (otro bloqueo del WAF, una redirection,
+                # etc.) -- se agrega titulo/url/inicio del HTML para poder
+                # diagnosticarlo desde el log en vez de a ciegas.
+                raise RuntimeError(
+                    f"{exc} -- title={page.title()!r} url={page.url!r} "
+                    f"html_start={page.content()[:200]!r}"
+                ) from None
             return page.content()
         finally:
             browser.close()
