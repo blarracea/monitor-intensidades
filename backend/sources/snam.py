@@ -8,15 +8,22 @@ publicacion.
 Como funciona (investigado navegando el sitio, no hay API publica):
   1. La portada (snamchile.cl) es HTML plano generado en el servidor (PHP
      clasico, sin React/SPA) -- el contenido de la tabla ya esta ahi, no lo
-     arma JS despues de cargar. Aun asi hace falta un navegador (Playwright,
-     ya es dependencia del proyecto -- lo usa sources.csn para SENAPRED): el
-     sitio esta detras de un WAF (cookie AWSALB) que bloquea firmas de bot
-     conocidas. Un `requests.get()` comun (desde los runners de GitHub
-     Actions, no en local) devuelve una pagina de "Human Verification"; el
-     Chromium headless por defecto de Playwright igual queda bloqueado con
-     un 403 porque anuncia "HeadlessChrome" en su propio User-Agent. Un
-     User-Agent de Chrome de escritorio comun (ver BROWSER_USER_AGENT) lo
-     evita en los dos casos -- probado.
+     arma JS despues de cargar. Aun asi se usa Playwright (ya es dependencia
+     del proyecto -- lo usa sources.csn para SENAPRED) con un User-Agent de
+     Chrome de escritorio (ver BROWSER_USER_AGENT): el sitio esta detras de
+     un WAF (AWS, cookie AWSALB) que bloquea firmas de bot conocidas --
+     tanto un `requests.get()` comun como el Chromium headless por defecto
+     de Playwright (anuncia "HeadlessChrome" en su propio User-Agent)
+     quedaban bloqueados.
+     LIMITACION CONOCIDA sin solucion: desde las IPs de los runners de
+     GitHub Actions, el WAF pasa a mostrar un CAPTCHA real (no un desafio
+     silencioso) -- confirmado en logs de produccion (titulo "Human
+     Verification", scripts de captcha.awswaf.com). Nada automatico puede
+     resolver eso, asi que en la practica esta fuente solo trae datos
+     corriendo collect.py a mano desde una IP normal -- ver el docstring de
+     _fetch_page_html() y "Correrlo en tu computador" en el README. Desde
+     GitHub Actions falla en silencio (enrich_with_snam la atrapa) sin
+     romper el resto de la recoleccion.
   2. Cada fila tiene, en atributos "onclick" de sus botones:
      - "Ver Boletin": modalBol(id, ...) -- el id del boletin. Se confirmo
        leyendo js/funciones.js que ese boton en realidad carga (via AJAX
@@ -112,9 +119,18 @@ def fetch_snam_events():
 
 def _fetch_page_html():
     """
-    Renderiza la portada con un navegador headless -- ver el docstring del
-    modulo para por que hace falta (el WAF del sitio bloquea un
-    `requests.get()` comun con una pagina de "Human Verification").
+    Renderiza la portada con un navegador headless.
+
+    LIMITACION CONOCIDA, sin solucion automatica: el sitio esta detras de un
+    WAF (AWS) que le muestra un CAPTCHA real -- no un desafio silencioso que
+    un script pueda resolver solo -- a las IPs de los runners de GitHub
+    Actions (confirmado en logs de produccion: titulo "Human Verification",
+    scripts cargados desde captcha.awswaf.com). Nada automatico puede
+    resolver un CAPTCHA real, asi que esta fuente en la practica solo
+    funciona corriendo collect.py a mano desde una IP normal (no la de un
+    datacenter/cloud) -- ver "Correrlo en tu computador" en el README. Desde
+    GitHub Actions, enrich_with_snam() en collect.py atrapa esto y sigue sin
+    romper el resto de la recoleccion.
     """
     from playwright.sync_api import sync_playwright
 
@@ -123,25 +139,15 @@ def _fetch_page_html():
         try:
             page = browser.new_page(user_agent=BROWSER_USER_AGENT)
             page.goto(BASE_URL + "/", wait_until="domcontentloaded", timeout=PAGE_LOAD_TIMEOUT_MS)
-            # Si el WAF muestra el desafio, la tabla real todavia no esta en
-            # el DOM -- se espera a que aparezca (el desafio se resuelve
-            # solo y redirige/recarga) en vez de leer el contenido de
-            # inmediato.
-            # state="attached" (no el "visible" por defecto) -- solo hace
-            # falta que este en el DOM para leer page.content(), no que se
-            # vea en pantalla (la pagina tiene layout de tablas viejo que a
-            # veces no calcula como "visible" en un viewport headless).
             try:
                 page.wait_for_selector("table.table-stripped", state="attached", timeout=PAGE_LOAD_TIMEOUT_MS)
-            except Exception as exc:
-                # El mensaje por defecto de Playwright no dice que trajo la
-                # pagina en realidad (otro bloqueo del WAF, una redirection,
-                # etc.) -- se agrega titulo/url/inicio del HTML para poder
-                # diagnosticarlo desde el log en vez de a ciegas.
-                raise RuntimeError(
-                    f"{exc} -- title={page.title()!r} url={page.url!r} "
-                    f"html_start={page.content()[:2000]!r}"
-                ) from None
+            except Exception:
+                if "verification" in page.title().lower() or "awswaf.com" in page.content():
+                    raise RuntimeError(
+                        "el sitio mostro un CAPTCHA (AWS WAF) en vez del contenido -- "
+                        "limitacion conocida desde IPs de datacenter, ver el docstring de esta funcion"
+                    ) from None
+                raise
             return page.content()
         finally:
             browser.close()
