@@ -24,7 +24,7 @@ import requests
 CACHE_FILE = Path(__file__).resolve().parent.parent / "data" / "comuna_coords_cache.json"
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 # Nominatim exige un User-Agent identificable y maximo 1 solicitud por segundo.
-NOMINATIM_HEADERS = {"User-Agent": "sismos-dashboard-chile/1.0 (github.com/blarracea/sismos-dashboard-chile)"}
+NOMINATIM_HEADERS = {"User-Agent": "monitor-intensidades/1.0 (github.com/blarracea/monitor-intensidades)"}
 NOMINATIM_DELAY_SECONDS = 1.1
 
 # Capitales regionales y comunas grandes, cubren la mayoria de los reportes
