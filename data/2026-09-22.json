@@ -859,5 +859,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj4v",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tj4y",
+    "source": "usgs",
+    "time": "2026-09-22T10:46:22.312000+00:00",
+    "updated": "2026-09-22T11:06:19.040000+00:00",
+    "lat": 29.0367,
+    "lon": 128.8944,
+    "depth_km": 10,
+    "magnitude": 5.1,
+    "mag_type": "mww",
+    "place": "88 km NNW of Uken, Japan",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj4y",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
