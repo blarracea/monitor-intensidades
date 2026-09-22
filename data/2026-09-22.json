@@ -1689,5 +1689,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026svdmzd",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384074.html",
+    "source": "csn",
+    "time": "2026-09-22T20:16:24+00:00",
+    "updated": "2026-09-22T20:16:24+00:00",
+    "lat": -23.88,
+    "lon": -67.36,
+    "depth_km": 228.0,
+    "magnitude": 3.3,
+    "mag_type": "MLv",
+    "place": "63 km al SE de Socaire, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384074.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384074.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
