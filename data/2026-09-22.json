@@ -835,5 +835,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384034.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tj4v",
+    "source": "usgs",
+    "time": "2026-09-22T10:30:19.045000+00:00",
+    "updated": "2026-09-22T10:48:32.040000+00:00",
+    "lat": -6.3408,
+    "lon": 128.6303,
+    "depth_km": 295.618,
+    "magnitude": 4.6,
+    "mag_type": "mb",
+    "place": "296 km S of Ambon, Indonesia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tj4v",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
