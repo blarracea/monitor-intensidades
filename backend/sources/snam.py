@@ -140,7 +140,7 @@ def _fetch_page_html():
                 # diagnosticarlo desde el log en vez de a ciegas.
                 raise RuntimeError(
                     f"{exc} -- title={page.title()!r} url={page.url!r} "
-                    f"html_start={page.content()[:200]!r}"
+                    f"html_start={page.content()[:2000]!r}"
                 ) from None
             return page.content()
         finally:
