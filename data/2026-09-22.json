@@ -555,7 +555,7 @@
     "id": "uw714107561",
     "source": "usgs",
     "time": "2026-09-22T06:42:25.220000+00:00",
-    "updated": "2026-09-22T17:26:28.616000+00:00",
+    "updated": "2026-09-22T19:31:34.073000+00:00",
     "lat": 42.2588333333333,
     "lon": -122.000666666667,
     "depth_km": 13.95,
@@ -564,9 +564,15 @@
     "place": "18 km WNW of Klamath Falls, Oregon",
     "cdi": 1,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 42.22495,
+        "lon": -121.7579625,
+        "intensity": 1,
+        "responses": 1
+      },
       {
         "lat": 42.118605,
         "lon": -121.9293975,
