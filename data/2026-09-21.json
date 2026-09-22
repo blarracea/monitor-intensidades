@@ -1065,6 +1065,49 @@
     "keywords_matched": []
   },
   {
+    "id": "us7000tiwh",
+    "source": "usgs",
+    "time": "2026-09-21T09:23:42.552000+00:00",
+    "updated": "2026-09-22T15:14:48.040000+00:00",
+    "lat": -40.9249,
+    "lon": 175.51,
+    "depth_km": 26.042,
+    "magnitude": 4,
+    "mag_type": "mb",
+    "place": "9 km WNW of Solway, New Zealand",
+    "cdi": 4.1,
+    "mmi": null,
+    "felt_reports": 4,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": -41.0241975,
+        "lon": 175.519125,
+        "intensity": 4.1,
+        "responses": 1
+      },
+      {
+        "lat": -40.6337025,
+        "lon": 175.291295,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -41.11674,
+        "lon": 175.0763475,
+        "intensity": 2.2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiwh",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383921.html",
     "source": "csn",
     "time": "2026-09-21T09:36:39+00:00",
