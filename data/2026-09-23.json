@@ -364,7 +364,7 @@
     "id": "nn00924762",
     "source": "usgs",
     "time": "2026-09-23T05:33:36.493000+00:00",
-    "updated": "2026-09-23T05:58:16.066000+00:00",
+    "updated": "2026-09-23T06:03:21.841000+00:00",
     "lat": 39.6026,
     "lon": -119.7884,
     "depth_km": 13.4309,
@@ -373,7 +373,7 @@
     "place": "1 km WNW of Sun Valley, Nevada",
     "cdi": 3.2,
     "mmi": null,
-    "felt_reports": 194,
+    "felt_reports": 199,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -404,6 +404,12 @@
         "lat": 39.61305,
         "lon": -119.77823,
         "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 39.54893,
+        "lon": -119.8222125,
+        "intensity": 3.3,
         "responses": 1
       },
       {
@@ -461,12 +467,6 @@
         "responses": 1
       },
       {
-        "lat": 39.566644999999994,
-        "lon": -119.83457,
-        "intensity": 3.1,
-        "responses": 3
-      },
-      {
         "lat": 39.547214999999994,
         "lon": -119.8919575,
         "intensity": 3.1,
@@ -509,6 +509,12 @@
         "responses": 2
       },
       {
+        "lat": 39.53288,
+        "lon": -119.7401275,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
         "lat": 39.596424999999996,
         "lon": -119.71934250000001,
         "intensity": 3.1,
@@ -525,6 +531,12 @@
         "lon": -119.71723,
         "intensity": 3.1,
         "responses": 1
+      },
+      {
+        "lat": 39.566644999999994,
+        "lon": -119.83457,
+        "intensity": 3,
+        "responses": 4
       },
       {
         "lat": 39.55005,
@@ -779,6 +791,12 @@
         "responses": 1
       },
       {
+        "lat": 39.604605,
+        "lon": -119.7546,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 39.614425,
         "lon": -119.720045,
         "intensity": 2,
@@ -886,6 +904,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384098.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384098.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000tx16",
+    "source": "usgs",
+    "time": "2026-09-23T05:46:11.056000+00:00",
+    "updated": "2026-09-23T06:03:02.040000+00:00",
+    "lat": 37.2772,
+    "lon": 71.768,
+    "depth_km": 141.19,
+    "magnitude": 4.7,
+    "mag_type": "mb",
+    "place": "30 km SE of Khorugh, Tajikistan",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx16",
     "relevant": false,
     "keywords_matched": []
   }
