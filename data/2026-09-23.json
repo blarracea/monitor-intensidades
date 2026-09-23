@@ -1451,7 +1451,7 @@
     "id": "us6000tx29",
     "source": "usgs",
     "time": "2026-09-23T09:21:14.600000+00:00",
-    "updated": "2026-09-23T13:43:45.395000+00:00",
+    "updated": "2026-09-23T15:54:18.908000+00:00",
     "lat": -28.7298,
     "lon": -67.2912,
     "depth_km": 121.534,
@@ -1460,13 +1460,19 @@
     "place": "51 km WSW of Arauco, Argentina",
     "cdi": 4.3,
     "mmi": null,
-    "felt_reports": 3,
+    "felt_reports": 4,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": -29.4018175,
         "lon": -66.810025,
         "intensity": 4.3,
+        "responses": 1
+      },
+      {
+        "lat": -29.167655,
+        "lon": -67.493545,
+        "intensity": 3.8,
         "responses": 1
       },
       {
@@ -1982,6 +1988,12 @@
     "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 34.390232499999996,
+        "lon": -118.5392525,
+        "intensity": 2.2,
+        "responses": 1
+      },
       {
         "lat": 34.0101925,
         "lon": -117.68769,
