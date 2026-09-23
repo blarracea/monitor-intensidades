@@ -1014,5 +1014,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026svywgt",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384106.html",
+    "source": "csn",
+    "time": "2026-09-23T06:40:24+00:00",
+    "updated": "2026-09-23T06:40:24+00:00",
+    "lat": -41.5,
+    "lon": -74.08,
+    "depth_km": 24.0,
+    "magnitude": 3.1,
+    "mag_type": "MLv",
+    "place": "46 km al NO de Ancud, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384106.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384106.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
