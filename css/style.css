@@ -302,9 +302,22 @@ body {
   padding-bottom: 0.25rem;
 }
 
+/* Instruccion para quien entra por primera vez y no sabe como funciona el
+   panel: centrada, en negrita y sobre un fondo ambar (el color de acento del
+   sitio) para que sea lo primero que se vea en el detalle. Sin "display"
+   propio a proposito, para no pelear con .hidden (que la saca al elegir un
+   sismo). */
 .event-detail-placeholder {
-  font-size: 0.85rem;
-  color: var(--color-text-muted);
+  margin: 0.75rem 0 0;
+  padding: 0.85rem 1rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--color-header-bg);
+  background: #fff3d6;
+  border: 2px solid var(--color-accent);
+  border-radius: 8px;
 }
 
 /* Espacio reservado -- sin uso todavia (a futuro, posible espacio de
