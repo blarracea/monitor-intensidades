@@ -31,6 +31,12 @@ import keywords
 GOOGLE_NEWS_RSS_URL = "https://news.google.com/rss/search"
 REQUEST_TIMEOUT = 20
 
+# Medios excluidos a pedido del usuario (no los considera fuente confiable).
+# Se compara contra el nombre del medio Y el dominio del <source url=...>,
+# porque Google News a veces trae el mismo medio con nombres distintos
+# ("Infobae" e "infobae.com" aparecieron los dos).
+BLOCKED_SOURCE_MARKERS = ("infobae",)
+
 
 def fetch_rss_mentions():
     """Una consulta por cada palabra clave, dedupeadas por link."""
@@ -60,6 +66,11 @@ def _fetch_google_news(keyword):
         if not title or not link:
             continue
 
+        source_el = item.find("source")
+        source_url = (source_el.get("url") if source_el is not None else "") or ""
+        if is_blocked_source(_parse_source(item), source_url):
+            continue
+
         full_text = f"{title} {description}"
         if not keywords.is_relevant(full_text):
             continue
@@ -79,6 +90,11 @@ def _fetch_google_news(keyword):
             }
         )
     return items
+
+
+def is_blocked_source(source_name, source_url=""):
+    haystack = f"{source_name or ''} {source_url or ''}".lower()
+    return any(marker in haystack for marker in BLOCKED_SOURCE_MARKERS)
 
 
 def _parse_source(item):
