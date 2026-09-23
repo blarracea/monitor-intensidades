@@ -388,7 +388,7 @@
     "id": "nn00924762",
     "source": "usgs",
     "time": "2026-09-23T05:33:36.493000+00:00",
-    "updated": "2026-09-23T13:46:47.878000+00:00",
+    "updated": "2026-09-23T14:04:15.588000+00:00",
     "lat": 39.6026,
     "lon": -119.7884,
     "depth_km": 13.4309,
@@ -397,7 +397,7 @@
     "place": "1 km WNW of Sun Valley, Nevada",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 227,
+    "felt_reports": 228,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -671,16 +671,16 @@
         "responses": 1
       },
       {
-        "lat": 39.529795,
-        "lon": -119.86796749999999,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
         "lat": 39.53993,
         "lon": -119.82184749999999,
         "intensity": 2.7,
         "responses": 4
+      },
+      {
+        "lat": 39.529795,
+        "lon": -119.86796749999999,
+        "intensity": 2.7,
+        "responses": 1
       },
       {
         "lat": 39.495490000000004,
@@ -979,6 +979,12 @@
       {
         "lat": 39.542695,
         "lon": -119.70560499999999,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 39.485082500000004,
+        "lon": -119.854505,
         "intensity": 1,
         "responses": 1
       },
@@ -1772,7 +1778,7 @@
     "id": "us6000tx38",
     "source": "usgs",
     "time": "2026-09-23T13:01:51.614000+00:00",
-    "updated": "2026-09-23T13:41:58.690000+00:00",
+    "updated": "2026-09-23T14:01:53.562000+00:00",
     "lat": 21.6622,
     "lon": 143.0239,
     "depth_km": 306.016,
@@ -1837,6 +1843,30 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026swmvfb",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384134.html",
+    "source": "csn",
+    "time": "2026-09-23T14:00:23+00:00",
+    "updated": "2026-09-23T14:00:23+00:00",
+    "lat": -24.19,
+    "lon": -69.73,
+    "depth_km": 79.0,
+    "magnitude": 2.6,
+    "mag_type": "MLv",
+    "place": "69 km al O de Mina La Escondida, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384134.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384134.html",
     "relevant": false,
     "keywords_matched": []
   }
