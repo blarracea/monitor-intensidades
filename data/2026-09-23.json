@@ -364,7 +364,7 @@
     "id": "nn00924762",
     "source": "usgs",
     "time": "2026-09-23T05:33:36.493000+00:00",
-    "updated": "2026-09-23T06:29:24.482000+00:00",
+    "updated": "2026-09-23T06:37:18.994000+00:00",
     "lat": 39.6026,
     "lon": -119.7884,
     "depth_km": 13.4309,
@@ -373,7 +373,7 @@
     "place": "1 km WNW of Sun Valley, Nevada",
     "cdi": 3.2,
     "mmi": null,
-    "felt_reports": 213,
+    "felt_reports": 214,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -463,12 +463,6 @@
       {
         "lat": 39.5477925,
         "lon": -119.86871,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 39.548365000000004,
-        "lon": -119.8454625,
         "intensity": 3.1,
         "responses": 1
       },
@@ -821,6 +815,12 @@
         "responses": 2
       },
       {
+        "lat": 39.548365000000004,
+        "lon": -119.8454625,
+        "intensity": 2.1,
+        "responses": 2
+      },
+      {
         "lat": 39.52921499999999,
         "lon": -119.89121,
         "intensity": 2.1,
@@ -989,11 +989,11 @@
     "id": "aka2026svywgt",
     "source": "usgs",
     "time": "2026-09-23T06:31:42.731000+00:00",
-    "updated": "2026-09-23T06:34:19.617000+00:00",
+    "updated": "2026-09-23T06:35:58.756000+00:00",
     "lat": 58.233,
     "lon": -151.427,
     "depth_km": 15.7,
-    "magnitude": 2.5,
+    "magnitude": 2.6,
     "mag_type": "ml",
     "place": "72 km ENE of Ouzinkie, Alaska",
     "cdi": null,
