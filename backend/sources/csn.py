@@ -37,6 +37,7 @@ Como funciona (investigado navegando el sitio, no hay API publica):
 import re
 import unicodedata
 from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 
 import requests
 from bs4 import BeautifulSoup
@@ -46,6 +47,7 @@ SENAPRED_EVENTS_URL = "https://senapred.cl/eventos/"
 REQUEST_TIMEOUT = 30
 ROMAN_VALUES = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}
 CHILE_UTC_OFFSET = timezone(timedelta(hours=-4))  # Chile continental en horario de invierno (sin DST)
+CHILE_TZ = ZoneInfo("America/Santiago")  # zona real, con horario de verano (ver _senapred_slug_time)
 
 
 def fetch_recent_events():
@@ -204,14 +206,35 @@ def fetch_senapred_seismic_events():
             continue
         seen_urls.add(link["href"])
 
-        date_match = re.search(r"(\d{2}-\d{2}-\d{4} \d{2}:\d{2})", link["text"])
-        local_time = None
-        if date_match:
-            naive = datetime.strptime(date_match.group(1), "%d-%m-%Y %H:%M")
-            local_time = naive.replace(tzinfo=CHILE_UTC_OFFSET)
+        # La hora que trae el texto del listado NO sirve para cruzar: es la
+        # de publicacion/actualizacion del reporte (a veces horas despues del
+        # sismo) y ademas se le aplicaba un offset fijo UTC-4. En cambio el
+        # link lleva la hora exacta del evento en hora de Chile
+        # ("...-2026-09-23-00-10-06"): contra los 5 sismos que el CSN si
+        # enlaza directo a su reporte, esa hora calza a 3-6 minutos del
+        # sismo real. Auditoria 23-09-2026: con la hora del listado, un
+        # reporte de La Higuera M4.4 se pego tambien a dos sismos M2.5/2.9
+        # de 4-5 horas despues (Pichidangui, Copiapo).
+        local_time = _senapred_slug_time(link["href"])
+        if local_time is None:
+            date_match = re.search(r"(\d{2}-\d{2}-\d{4} \d{2}:\d{2})", link["text"])
+            if date_match:
+                naive = datetime.strptime(date_match.group(1), "%d-%m-%Y %H:%M")
+                local_time = naive.replace(tzinfo=CHILE_UTC_OFFSET)
 
         events.append({"title": lines[0], "url": link["href"], "local_time": local_time})
     return events
+
+
+def _senapred_slug_time(url):
+    match = re.search(r"(\d{4}-\d{2}-\d{2}-\d{2}-\d{2}-\d{2})/?$", url)
+    if not match:
+        return None
+    try:
+        naive = datetime.strptime(match.group(1), "%Y-%m-%d-%H-%M-%S")
+    except ValueError:
+        return None
+    return naive.replace(tzinfo=CHILE_TZ)
 
 
 def _fetch_senapred_text(senapred_url):

@@ -1264,72 +1264,14 @@
     "mmi": null,
     "felt_reports": null,
     "tsunami_flag": false,
-    "dyfi_points": [
-      {
-        "lat": -29.9533,
-        "lon": -71.3436,
-        "intensity": 4,
-        "responses": null,
-        "comuna": "Coquimbo",
-        "region": "Coquimbo"
-      },
-      {
-        "lat": -30.0167,
-        "lon": -70.6833,
-        "intensity": 4,
-        "responses": null,
-        "comuna": "Paiguano",
-        "region": "Coquimbo"
-      },
-      {
-        "lat": -30.0319,
-        "lon": -70.7081,
-        "intensity": 4,
-        "responses": null,
-        "comuna": "Vicuña",
-        "region": "Coquimbo"
-      },
-      {
-        "lat": -29.9027,
-        "lon": -71.2519,
-        "intensity": 3,
-        "responses": null,
-        "comuna": "La Serena",
-        "region": "Coquimbo"
-      },
-      {
-        "lat": -30.2333,
-        "lon": -71.0833,
-        "intensity": 3,
-        "responses": null,
-        "comuna": "Andacollo",
-        "region": "Coquimbo"
-      },
-      {
-        "lat": -30.2578,
-        "lon": -71.4864,
-        "intensity": 3,
-        "responses": null,
-        "comuna": "Tongoy",
-        "region": "Coquimbo"
-      },
-      {
-        "lat": -30.3667,
-        "lon": -70.9833,
-        "intensity": 3,
-        "responses": null,
-        "comuna": "Río Hurtado",
-        "region": "Coquimbo"
-      }
-    ],
-    "intensity_source": "csn",
-    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-coquimbo-2026-09-23-00-10-06",
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384109.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384109.html",
     "relevant": false,
-    "keywords_matched": [],
-    "senapred_match_time": "2026-09-23T03:18:00-04:00"
+    "keywords_matched": []
   },
   {
     "id": "aka2026swatrm",
@@ -1370,88 +1312,14 @@
     "mmi": null,
     "felt_reports": null,
     "tsunami_flag": false,
-    "dyfi_points": [
-      {
-        "lat": -28.5708,
-        "lon": -70.7581,
-        "intensity": 3,
-        "responses": null,
-        "comuna": "Vallenar",
-        "region": "Atacama"
-      },
-      {
-        "lat": -29.9533,
-        "lon": -71.3436,
-        "intensity": 4,
-        "responses": null,
-        "comuna": "Coquimbo",
-        "region": "Coquimbo"
-      },
-      {
-        "lat": -30.0167,
-        "lon": -70.6833,
-        "intensity": 4,
-        "responses": null,
-        "comuna": "Paiguano",
-        "region": "Coquimbo"
-      },
-      {
-        "lat": -30.0319,
-        "lon": -70.7081,
-        "intensity": 4,
-        "responses": null,
-        "comuna": "Vicuña",
-        "region": "Coquimbo"
-      },
-      {
-        "lat": -29.9027,
-        "lon": -71.2519,
-        "intensity": 3,
-        "responses": null,
-        "comuna": "La Serena",
-        "region": "Coquimbo"
-      },
-      {
-        "lat": -29.5,
-        "lon": -71.15,
-        "intensity": 3,
-        "responses": null,
-        "comuna": "La Higuera",
-        "region": "Coquimbo"
-      },
-      {
-        "lat": -30.2333,
-        "lon": -71.0833,
-        "intensity": 3,
-        "responses": null,
-        "comuna": "Andacollo",
-        "region": "Coquimbo"
-      },
-      {
-        "lat": -30.2578,
-        "lon": -71.4864,
-        "intensity": 3,
-        "responses": null,
-        "comuna": "Tongoy",
-        "region": "Coquimbo"
-      },
-      {
-        "lat": -30.3667,
-        "lon": -70.9833,
-        "intensity": 3,
-        "responses": null,
-        "comuna": "Río Hurtado",
-        "region": "Coquimbo"
-      }
-    ],
-    "intensity_source": "csn",
-    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-coquimbo-2026-09-23-00-10-06",
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384111.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384111.html",
     "relevant": false,
-    "keywords_matched": [],
-    "senapred_match_time": "2026-09-23T03:18:00-04:00"
+    "keywords_matched": []
   },
   {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384114.html",

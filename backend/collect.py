@@ -76,10 +76,13 @@ def _max_intensity_distance_km(magnitude):
         min(MAX_INTENSITY_POINT_DISTANCE_CEILING_KM, magnitude * MAX_INTENSITY_POINT_DISTANCE_KM_PER_MAGNITUDE),
     )
 
-# El archivo de SENAPRED solo da hora local (no lat/lon), asi que la segunda
-# pasada usa una ventana de tiempo mas ancha y matchea por magnitud en vez
-# de por ubicacion.
-SENAPRED_MATCH_MAX_MINUTES = 90
+# El archivo de SENAPRED no da lat/lon, asi que la segunda pasada matchea por
+# hora. La hora sale del link del reporte (hora exacta del evento en Chile,
+# ver csn._senapred_slug_time), que calza a 3-6 min del sismo real -- por eso
+# la ventana es angosta. Antes era de 90 min sobre la hora del listado
+# (que es la de publicacion, no la del sismo): un reporte de un M4.4 se pego
+# tambien a dos sismos M2.5/2.9 de 4-5 horas despues (auditoria 23-09-2026).
+SENAPRED_MATCH_MAX_MINUTES = 20
 SENAPRED_MATCH_MAX_MAGNITUDE_DIFF = 1.0
 
 # El SHOA (SNAM) publica su boletin ~10 min despues del CSN/USGS -- a
@@ -298,6 +301,11 @@ def enrich_with_senapred_archive(events):
         print(f"Aviso: no se pudo consultar el archivo de eventos de SENAPRED ({exc}).")
         return
 
+    # Un reporte de SENAPRED describe UN sismo: si ya lo tiene otro evento
+    # (por el link directo del CSN o por un match anterior de esta pasada),
+    # no se le puede pegar a un segundo.
+    claimed_urls = {e["senapred_url"] for e in events if e.get("senapred_url")}
+
     for event in pending:
         usgs_time = datetime.fromisoformat(event["time"])
         nearby = sorted(
@@ -313,6 +321,8 @@ def enrich_with_senapred_archive(events):
             continue
 
         for candidate in nearby:
+            if candidate["url"] in claimed_urls:
+                continue
             try:
                 report = csn.fetch_senapred_report(candidate["url"])
             except Exception as exc:
@@ -332,6 +342,7 @@ def enrich_with_senapred_archive(events):
                 event["dyfi_points"] = points
                 event["intensity_source"] = "csn"
                 event["senapred_url"] = candidate["url"]
+                claimed_urls.add(candidate["url"])
                 # Se guarda la hora del candidato que se matcheo (no solo el
                 # resultado) para que preserve_existing_csn_data pueda
                 # revalidar tambien la cercania de tiempo mas adelante, no
