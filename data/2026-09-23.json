@@ -364,7 +364,7 @@
     "id": "nn00924762",
     "source": "usgs",
     "time": "2026-09-23T05:33:36.493000+00:00",
-    "updated": "2026-09-23T06:51:43.477000+00:00",
+    "updated": "2026-09-23T06:59:18.079000+00:00",
     "lat": 39.6026,
     "lon": -119.7884,
     "depth_km": 13.4309,
@@ -373,7 +373,7 @@
     "place": "1 km WNW of Sun Valley, Nevada",
     "cdi": 3.2,
     "mmi": null,
-    "felt_reports": 218,
+    "felt_reports": 219,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -437,16 +437,16 @@
         "responses": 2
       },
       {
+        "lat": 39.55821,
+        "lon": -119.8109525,
+        "intensity": 3.2,
+        "responses": 9
+      },
+      {
         "lat": 39.56721,
         "lon": -119.81131500000001,
         "intensity": 3.2,
         "responses": 3
-      },
-      {
-        "lat": 39.55821,
-        "lon": -119.8109525,
-        "intensity": 3.2,
-        "responses": 8
       },
       {
         "lat": 39.58688,
@@ -992,6 +992,30 @@
     "keywords_matched": []
   },
   {
+    "id": "pr71534208",
+    "source": "usgs",
+    "time": "2026-09-23T06:15:36.520000+00:00",
+    "updated": "2026-09-23T06:56:27.980000+00:00",
+    "lat": 17.943,
+    "lon": -66.9513333333333,
+    "depth_km": 6.99,
+    "magnitude": 2.51,
+    "mag_type": "md",
+    "place": "5 km SW of Guánica, Puerto Rico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71534208",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "aka2026svywgt",
     "source": "usgs",
     "time": "2026-09-23T06:31:42.731000+00:00",
@@ -1036,6 +1060,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384106.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384106.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384107.html",
+    "source": "csn",
+    "time": "2026-09-23T06:41:58+00:00",
+    "updated": "2026-09-23T06:41:58+00:00",
+    "lat": -19.74,
+    "lon": -69.3,
+    "depth_km": 104.0,
+    "magnitude": 2.5,
+    "mag_type": "MLv",
+    "place": "49 km al S de Camiña, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384107.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384107.html",
     "relevant": false,
     "keywords_matched": []
   }
