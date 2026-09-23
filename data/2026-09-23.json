@@ -411,19 +411,67 @@
   {
     "id": "nn00924762",
     "source": "usgs",
-    "time": "2026-09-23T05:33:36.493000+00:00",
-    "updated": "2026-09-23T17:32:03.542000+00:00",
-    "lat": 39.6026,
+    "time": "2026-09-23T05:33:37.383000+00:00",
+    "updated": "2026-09-23T18:03:08.989000+00:00",
+    "lat": 39.6017,
     "lon": -119.7884,
-    "depth_km": 13.4309,
-    "magnitude": 2.59,
+    "depth_km": 5.092,
+    "magnitude": 2.77,
     "mag_type": "ml",
     "place": "1 km WNW of Sun Valley, Nevada",
-    "cdi": 3.1,
+    "cdi": 3.7,
     "mmi": null,
     "felt_reports": 234,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 39.59505,
+        "lon": -119.77751,
+        "intensity": 4.1,
+        "responses": 3
+      },
+      {
+        "lat": 39.585210000000004,
+        "lon": -119.812045,
+        "intensity": 4.1,
+        "responses": 1
+      },
+      {
+        "lat": 39.58577,
+        "lon": -119.7887825,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 39.578425,
+        "lon": -119.71864,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 39.575644999999994,
+        "lon": -119.83494,
+        "intensity": 3.8,
+        "responses": 2
+      },
+      {
+        "lat": 39.57621,
+        "lon": -119.81168,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 39.53121,
+        "lon": -119.80986,
+        "intensity": 3.7,
+        "responses": 9
+      },
+      {
+        "lat": 39.55905,
+        "lon": -119.77607,
+        "intensity": 3.5,
+        "responses": 4
+      },
       {
         "lat": 39.56805,
         "lon": -119.77643,
@@ -441,6 +489,24 @@
         "lon": -119.7767875,
         "intensity": 3.4,
         "responses": 2
+      },
+      {
+        "lat": 39.538505,
+        "lon": -119.879965,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 39.547505,
+        "lon": -119.880335,
+        "intensity": 3.4,
+        "responses": 2
+      },
+      {
+        "lat": 39.53065,
+        "lon": -119.833105,
+        "intensity": 3.4,
+        "responses": 1
       },
       {
         "lat": 39.56888,
