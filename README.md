@@ -44,7 +44,7 @@ la magnitud Richter del epicentro.
 | CSN/SENAPRED | ✅ Implementada — catálogo **y** fuente de intensidad para Chile. Ninguno de los dos tiene API pública: se lee la portada del CSN (`sismologia.cl`, sus ~15 sismos más recientes) para el catálogo, y si un sismo fue percibido, el reporte de intensidad por comuna de SENAPRED que trae ese mismo informe. `enrich_with_senapred_archive()` hace una segunda pasada contra el archivo propio de SENAPRED (`senapred.cl/eventos/`, retiene semanas) para sismos que la portada del CSN ya rotó fuera de su lista corta. El reporte de intensidad se lee con Playwright (SENAPRED es una app en React sin API documentada). Ver `backend/sources/csn.py` |
 | USGS (catálogo global + DYFI) | ✅ Implementada — catálogo para todo sismo fuera de Chile, sin límite geográfico, con "Did You Feel It?" (DYFI) como intensidad percibida cuando el sismo tiene reporte ciudadano. Ver `backend/sources/usgs.py` |
 | Menciones en medios (RSS) | ✅ Implementada — Google News RSS filtrado por palabras clave (agrega Emol, La Tercera, BioBioChile, Infobae y otros). Es un proxy de "dónde se habla del sismo", no intensidad verificada. Ver `backend/sources/social.py` |
-| Redes en vivo (Bluesky + Mastodon) | ✅ Implementada — posts públicos con las palabras clave del proyecto, en cualquier parte del mundo. Bluesky necesita las variables de entorno `BLUESKY_HANDLE`/`BLUESKY_APP_PASSWORD` (secrets de GitHub Actions); si no están configuradas, esta fuente se salta sin romper el resto de la recolección. Mastodon no necesita cuenta ni autenticación. Ver `backend/sources/bluesky.py` y `backend/sources/mastodon.py` |
+| Redes en vivo (Bluesky + Mastodon) | ✅ Implementada — posts públicos con las palabras clave del proyecto, en cualquier parte del mundo. Bluesky necesita `BLUESKY_HANDLE`/`BLUESKY_APP_PASSWORD` (secrets de GitHub Actions). Mastodon busca por texto libre (cualquier post público, con o sin hashtag) si está configurado `MASTODON_ACCESS_TOKEN` — sin ese token cae a buscar solo por hashtag exacto (`#sismo`), mucho más limitado. Ninguna de las dos rompe el resto de la recolección si falta su credencial, simplemente se saltan. Ver `backend/sources/bluesky.py` y `backend/sources/mastodon.py` |
 | SNAM/SHOA (segunda fuente para M≥5.0) | ⚠️ Implementada, pero **no funciona desde GitHub Actions** — el SHOA (Servicio Hidrográfico y Oceanográfico de la Armada, el mismo organismo detrás del SNAM) confirma o revisa la referencia geográfica y la magnitud del CSN/USGS ~10 min después de la primera publicación, para cualquier sismo M≥5.0. El sitio (`snamchile.cl`) está detrás de un WAF de AWS que le muestra un CAPTCHA real (no un desafío resoluble por script) a las IPs de los runners de GitHub Actions — confirmado en producción, no hay forma automática de resolverlo. En la práctica solo trae datos corriendo `collect.py` a mano desde una IP normal; desde GitHub Actions falla en silencio sin romper el resto de la recolección. Ver `backend/sources/snam.py` y `enrich_with_snam()` en `backend/collect.py` |
 
 ### Cómo se arma el mapa de calor
@@ -101,7 +101,11 @@ chileno fue percibido.
 Bluesky (posts para "Redes en vivo") necesita `BLUESKY_HANDLE` y
 `BLUESKY_APP_PASSWORD` (una "contraseña de aplicación", no la contraseña
 real de la cuenta) como variables de entorno; sin ellas, esa fuente
-simplemente se salta. Mastodon no necesita nada.
+simplemente se salta. Mastodon funciona sin nada (busca solo por hashtag
+exacto), pero mejora mucho con `MASTODON_ACCESS_TOKEN` (busca cualquier
+post público, con o sin hashtag) — se genera en Mastodon, Preferencias >
+Desarrollo > crear una aplicación con permiso "read", "Tu token de
+acceso".
 
 Esto crea/actualiza los archivos en `data/`. Luego, para ver el frontend:
 
