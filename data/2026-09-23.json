@@ -359,5 +359,42 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384097.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "nn00924762",
+    "source": "usgs",
+    "time": "2026-09-23T05:33:36.493000+00:00",
+    "updated": "2026-09-23T05:37:15.654000+00:00",
+    "lat": 39.6026,
+    "lon": -119.7884,
+    "depth_km": 13.4309,
+    "magnitude": 2.59,
+    "mag_type": "ml",
+    "place": "1 km WNW of Sun Valley, Nevada",
+    "cdi": 3.1,
+    "mmi": null,
+    "felt_reports": 5,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 39.55905,
+        "lon": -119.77607,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 39.485367499999995,
+        "lon": -119.84289,
+        "intensity": 2.2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924762",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
