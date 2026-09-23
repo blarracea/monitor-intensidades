@@ -1429,5 +1429,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384122.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026swgfml",
+    "source": "usgs",
+    "time": "2026-09-23T10:12:16.819000+00:00",
+    "updated": "2026-09-23T10:15:39.387000+00:00",
+    "lat": 59.858,
+    "lon": -152.719,
+    "depth_km": 93.8,
+    "magnitude": 2.6,
+    "mag_type": "ml",
+    "place": "50 km W of Anchor Point, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026swgfml",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
