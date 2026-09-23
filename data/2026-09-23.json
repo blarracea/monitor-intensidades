@@ -22,5 +22,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384087.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000tx07",
+    "source": "usgs",
+    "time": "2026-09-23T01:44:16.540000+00:00",
+    "updated": "2026-09-23T02:11:00.040000+00:00",
+    "lat": 46.8489,
+    "lon": 152.9319,
+    "depth_km": 46.244,
+    "magnitude": 4.4,
+    "mag_type": "mb",
+    "place": "Kuril Islands",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tx07",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
