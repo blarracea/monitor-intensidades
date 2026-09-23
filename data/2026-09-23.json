@@ -364,7 +364,7 @@
     "id": "nn00924762",
     "source": "usgs",
     "time": "2026-09-23T05:33:36.493000+00:00",
-    "updated": "2026-09-23T06:03:21.841000+00:00",
+    "updated": "2026-09-23T06:08:31.936000+00:00",
     "lat": 39.6026,
     "lon": -119.7884,
     "depth_km": 13.4309,
@@ -373,7 +373,7 @@
     "place": "1 km WNW of Sun Valley, Nevada",
     "cdi": 3.2,
     "mmi": null,
-    "felt_reports": 199,
+    "felt_reports": 201,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -551,12 +551,6 @@
         "responses": 5
       },
       {
-        "lat": 39.551425,
-        "lon": -119.71758249999999,
-        "intensity": 3,
-        "responses": 4
-      },
-      {
         "lat": 39.53965,
         "lon": -119.8334725,
         "intensity": 2.9,
@@ -579,6 +573,12 @@
         "lon": -119.7521075,
         "intensity": 2.8,
         "responses": 6
+      },
+      {
+        "lat": 39.551425,
+        "lon": -119.71758249999999,
+        "intensity": 2.8,
+        "responses": 5
       },
       {
         "lat": 39.550605,
@@ -872,6 +872,12 @@
         "lat": 39.55033,
         "lon": -119.7640875,
         "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 39.542695,
+        "lon": -119.70560499999999,
+        "intensity": 1,
         "responses": 1
       }
     ],
