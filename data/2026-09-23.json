@@ -1537,7 +1537,7 @@
     "id": "ci41337559",
     "source": "usgs",
     "time": "2026-09-23T10:52:08.320000+00:00",
-    "updated": "2026-09-23T11:05:33.290000+00:00",
+    "updated": "2026-09-23T11:37:14.343000+00:00",
     "lat": 33.5738333333333,
     "lon": -116.77,
     "depth_km": 12.33,
@@ -1546,9 +1546,15 @@
     "place": "9 km WNW of Anza, CA",
     "cdi": 2,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 33.21839,
+        "lon": -116.951705,
+        "intensity": 2,
+        "responses": 1
+      },
       {
         "lat": 33.353615000000005,
         "lon": -117.14509,
