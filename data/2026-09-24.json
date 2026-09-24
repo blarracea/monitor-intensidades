@@ -2007,5 +2007,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026syrpcd",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000txf7",
+    "source": "usgs",
+    "time": "2026-09-24T17:56:13.809000+00:00",
+    "updated": "2026-09-24T18:14:00.040000+00:00",
+    "lat": 32.5187,
+    "lon": -104.6362,
+    "depth_km": 3.014,
+    "magnitude": 3.4,
+    "mag_type": "ml",
+    "place": "33 km SSE of Hope, New Mexico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txf7",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
