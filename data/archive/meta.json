@@ -1,6 +1,10 @@
 {
   "media_from": "2026-09-21T18:57:46+00:00",
   "media_days": [
+    "2026-09-15",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-19",
     "2026-09-21",
     "2026-09-22",
     "2026-09-23",
@@ -8,7 +12,28 @@
   ],
   "live_from": "2026-09-23T18:54:24.606000+00:00",
   "live_days": [
+    "2026-09-15",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-21",
     "2026-09-23",
     "2026-09-24"
+  ],
+  "live_backfilled": [
+    "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383156.html",
+    "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383343.html",
+    "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383505.html",
+    "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383621.html",
+    "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383933.html",
+    "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384095.html"
+  ],
+  "media_backfilled": [
+    "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383156.html",
+    "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383343.html",
+    "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383505.html",
+    "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383621.html",
+    "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/383933.html",
+    "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384095.html"
   ]
 }
