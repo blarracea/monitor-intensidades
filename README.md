@@ -1,4 +1,4 @@
-# Monitor de intensidades — Chile y el mundo
+# Monitor Intensidades
 
 Dashboard gratuito que muestra sismos recientes de Chile y del resto del
 mundo en un mapa, con un heatmap de **intensidad percibida (escala de
