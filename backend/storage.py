@@ -186,6 +186,17 @@ def _save_archive_meta(meta):
         json.dump(meta, f, ensure_ascii=False, indent=2)
 
 
+def record_backfilled(kind, event_ids):
+    """Anota en meta.json los sismos cuya ventana se recupero por busqueda
+    historica (backfill.py) -- el frontend usa esto para no decir "el archivo
+    parte el dd-mm" de un sismo anterior a esa fecha que si se recupero (con el
+    aviso, distinto, de que la recuperacion puede ser parcial)."""
+    meta = _load_archive_meta()
+    key = f"{kind}_backfilled"
+    meta[key] = sorted(set(meta.get(key, [])) | set(event_ids))
+    _save_archive_meta(meta)
+
+
 def archive_mentions(kind, mentions):
     """
     Copia las publicaciones al archivo permanente de su dia (por `published`,

@@ -19,6 +19,7 @@ Importante: esta fuente es un proxy de "donde se habla del sismo", no un
 dato de intensidad Mercalli verificada. En el frontend se muestra en una
 capa separada y claramente rotulada como tal (ver js/social-layer.js).
 """
+import time
 import xml.etree.ElementTree as ET
 from datetime import timezone
 from email.utils import parsedate_to_datetime
@@ -58,8 +59,29 @@ def fetch_rss_mentions():
     return list(mentions.values())
 
 
+def fetch_rss_window(queries, after_day, before_day):
+    """Noticias de un rango de dias (date, `before_day` no incluido) -- para
+    recuperar la cobertura de un sismo pasado (ver backfill.py). Google News
+    acepta los operadores after:/before: (por dia) dentro de la busqueda.
+    Devuelve una lista; el llamador filtra por hora exacta."""
+    mentions = {}
+    for query in queries:
+        dated = f"{query} after:{after_day.isoformat()} before:{before_day.isoformat()}"
+        try:
+            for item in _fetch_query(dated):
+                mentions[item["link"]] = item
+        except Exception as exc:
+            print(f"Aviso: no se pudo consultar Google News para '{dated}' ({exc}).")
+        time.sleep(1)  # Google News devolvia 503 con rafagas de consultas
+    return list(mentions.values())
+
+
 def _fetch_google_news(keyword):
-    params = {"q": f"{keyword} Chile", "hl": "es-419", "gl": "CL", "ceid": "CL:es"}
+    return _fetch_query(f"{keyword} Chile")
+
+
+def _fetch_query(query):
+    params = {"q": query, "hl": "es-419", "gl": "CL", "ceid": "CL:es"}
     response = requests.get(GOOGLE_NEWS_RSS_URL, params=params, timeout=REQUEST_TIMEOUT)
     response.raise_for_status()
     root = ET.fromstring(response.text)

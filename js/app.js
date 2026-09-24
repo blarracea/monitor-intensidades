@@ -365,10 +365,14 @@
 
   // Avisos honestos cuando el archivo no alcanza a cubrir el sismo: el archivo
   // parte el dia que se empezo a guardar, hacia atras no hay nada.
-  const traceNotes = (archiveFrom, startMs, total, shown) => {
+  const traceNotes = (archiveFrom, startMs, total, shown, backfilled, noun) => {
     const notes = [];
     if (archiveFrom && startMs < archiveFrom.getTime()) {
-      notes.push(`El archivo parte el ${chileDateTime(archiveFrom)}; este sismo es anterior, por eso puede faltar información.`);
+      notes.push(
+        backfilled
+          ? `${noun} recuperadas con una búsqueda histórica (no hay archivo continuo de esa fecha): puede faltar contenido.`
+          : `El archivo parte el ${chileDateTime(archiveFrom)}; este sismo es anterior, por eso puede faltar información.`
+      );
     }
     if (total > shown) notes.push(`Mostrando las primeras ${shown} de ${total}.`);
     return notes;
@@ -401,13 +405,13 @@
       event,
       "Publicaciones",
       `${live.total} publicaci${live.total === 1 ? "ón" : "ones"}`,
-      traceNotes(trace.liveFrom, trace.startMs, live.total, live.items.length)
+      traceNotes(trace.liveFrom, trace.startMs, live.total, live.items.length, trace.liveBackfilled, "Publicaciones")
     );
     mediaTraceBanner.innerHTML = traceBannerHtml(
       event,
       "Noticias",
       `${media.total} noticia${media.total === 1 ? "" : "s"}`,
-      traceNotes(trace.mediaFrom, trace.startMs, media.total, media.items.length)
+      traceNotes(trace.mediaFrom, trace.startMs, media.total, media.items.length, trace.mediaBackfilled, "Noticias")
     );
     SismosApp.renderLiveFeed(live.items, liveFeedBody, {
       absoluteTime: true,

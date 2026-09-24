@@ -104,10 +104,33 @@ def _login(handle, app_password):
 
 
 def _search_posts(keyword, access_jwt):
+    return _search_page(keyword, access_jwt)[0]
+
+
+def search_window(keyword, access_jwt, since, until, max_pages=3):
+    """Busqueda por rango de fechas (since/until, datetime con zona) -- para
+    recuperar publicaciones de un sismo pasado (ver backfill.py). Pagina con
+    el cursor de Bluesky hasta max_pages de 100."""
+    items, cursor = [], None
+    for _ in range(max_pages):
+        page, cursor = _search_page(keyword, access_jwt, since=since, until=until, limit=100, cursor=cursor)
+        items.extend(page)
+        if not cursor:
+            break
+    return items
+
+
+def _search_page(keyword, access_jwt, since=None, until=None, limit=POSTS_PER_KEYWORD, cursor=None):
     # "terremoto"/"tsunami"/"maremoto" tambien son palabras en otros idiomas
     # (italiano, portugues, ingles) -- se restringe a espanol para no traer
     # ruido de esos idiomas (ya no hay ninguna palabra clave en ingles).
-    params = {"q": keyword, "lang": "es", "sort": "latest", "limit": POSTS_PER_KEYWORD}
+    params = {"q": keyword, "lang": "es", "sort": "latest", "limit": limit}
+    if since:
+        params["since"] = since.strftime("%Y-%m-%dT%H:%M:%SZ")
+    if until:
+        params["until"] = until.strftime("%Y-%m-%dT%H:%M:%SZ")
+    if cursor:
+        params["cursor"] = cursor
     headers = {"Authorization": f"Bearer {access_jwt}", "atproto-proxy": APPVIEW_PROXY}
     response = requests.get(SEARCH_URL, params=params, headers=headers, timeout=REQUEST_TIMEOUT)
     response.raise_for_status()
@@ -148,7 +171,7 @@ def _search_posts(keyword, access_jwt):
                 "lon": coords[1] if coords else None,
             }
         )
-    return items
+    return items, data.get("cursor")
 
 
 def _is_automated_alert(text):

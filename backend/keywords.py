@@ -78,3 +78,14 @@ def mentions_chile(text, place=None, handle=None):
         if "chile" in h or h.endswith(".cl"):
             return True
     return bool(_CHILE_PATTERN.search(normalize(text)))
+
+
+_PLACE_PATTERN = re.compile(r"\bal\s+[nsoe]{1,3}\s+de\s+(.+?)(?:,|$)", re.IGNORECASE)
+
+
+def place_search_term(place):
+    """Nombre del lugar de referencia de un sismo, para buscar noticias/posts
+    por el ("20 km al S de La Higuera, Chile" -> "La Higuera"). None si el
+    texto no tiene esa forma (ej. USGS: "3 km WSW of Fuig")."""
+    match = _PLACE_PATTERN.search(place or "")
+    return match.group(1).strip() if match else None

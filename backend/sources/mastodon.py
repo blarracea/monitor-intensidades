@@ -88,12 +88,45 @@ def _search_statuses(keyword, access_token):
     """Busqueda de texto libre (api/v2/search) -- encuentra CUALQUIER post
     publico que mencione la palabra, con o sin hashtag. Exige autenticacion
     (sin ella, la instancia devuelve resultados vacios en silencio)."""
+    statuses = _search_raw(keyword, access_token, POSTS_PER_KEYWORD)
+    return [item for item in (_parse_status(s) for s in statuses) if item]
+
+
+def _search_raw(keyword, access_token, limit, min_id=None, max_id=None, offset=None):
     headers = {"Authorization": f"Bearer {access_token}"}
-    params = {"q": keyword, "type": "statuses", "limit": POSTS_PER_KEYWORD}
+    params = {"q": keyword, "type": "statuses", "limit": limit}
+    if min_id:
+        params["min_id"] = min_id
+    if max_id:
+        params["max_id"] = max_id
+    if offset:
+        params["offset"] = offset
     response = requests.get(STATUS_SEARCH_URL, params=params, headers=headers, timeout=REQUEST_TIMEOUT)
     response.raise_for_status()
-    statuses = response.json().get("statuses", [])
-    return [item for item in (_parse_status(s) for s in statuses) if item]
+    return response.json().get("statuses", [])
+
+
+def _snowflake(dt):
+    # Los IDs de Mastodon codifican la hora (ms desde 1970, desplazados 16
+    # bits) -- asi se acota una busqueda a un rango de fechas con min_id/max_id.
+    return str(int(dt.timestamp() * 1000) << 16)
+
+
+def search_window(keyword, access_token, since, until, max_pages=3):
+    """Busqueda de texto libre acotada a un rango de fechas (since/until,
+    datetime con zona) -- para recuperar publicaciones de un sismo pasado (ver
+    backfill.py). Verificado: min_id/max_id funcionan en /api/v2/search."""
+    items = []
+    page_size = 40
+    for page in range(max_pages):
+        raw = _search_raw(
+            keyword, access_token, page_size,
+            min_id=_snowflake(since), max_id=_snowflake(until), offset=page * page_size,
+        )
+        items.extend(item for item in (_parse_status(s) for s in raw) if item)
+        if len(raw) < page_size:
+            break
+    return items
 
 
 def _fetch_hashtag_timeline(tag):
