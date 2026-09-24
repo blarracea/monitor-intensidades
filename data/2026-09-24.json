@@ -154,22 +154,40 @@
     "id": "aka2026sxksxl",
     "source": "usgs",
     "time": "2026-09-24T01:27:20.936000+00:00",
-    "updated": "2026-09-24T01:33:07.053000+00:00",
+    "updated": "2026-09-24T01:38:12.196000+00:00",
     "lat": 62.039,
     "lon": -149.756,
     "depth_km": 26.8,
     "magnitude": 3.8,
     "mag_type": "ml",
     "place": "14 km SSE of Susitna North, Alaska",
-    "cdi": 2.7,
+    "cdi": 3.1,
     "mmi": 3.476,
-    "felt_reports": 15,
+    "felt_reports": 37,
     "tsunami_flag": false,
     "dyfi_points": [
       {
-        "lat": 61.15589,
-        "lon": -149.85269499999998,
-        "intensity": 2.7,
+        "lat": 62.1779575,
+        "lon": -150.0513925,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 61.2287875,
+        "lon": -149.80338999999998,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 61.637145000000004,
+        "lon": -149.5948625,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 61.235640000000004,
+        "lon": -149.449885,
+        "intensity": 2.9,
         "responses": 1
       },
       {
@@ -179,8 +197,8 @@
         "responses": 2
       },
       {
-        "lat": 61.561175,
-        "lon": -149.32487,
+        "lat": 61.1901675,
+        "lon": -149.930245,
         "intensity": 2.7,
         "responses": 1
       },
@@ -189,6 +207,66 @@
         "lon": -149.5300875,
         "intensity": 2.7,
         "responses": 2
+      },
+      {
+        "lat": 61.7651725,
+        "lon": -149.927945,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 61.15589,
+        "lon": -149.85269499999998,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 61.33258,
+        "lon": -149.550925,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 62.321385,
+        "lon": -150.037335,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 61.1897625,
+        "lon": -149.9488225,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 61.561175,
+        "lon": -149.32487,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 61.671895,
+        "lon": -149.14422,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 61.659515,
+        "lon": -149.3511525,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 61.32361,
+        "lon": -149.550195,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 61.3053225,
+        "lon": -149.56739,
+        "intensity": 2.2,
+        "responses": 1
       },
       {
         "lat": 61.58611,
@@ -203,20 +281,20 @@
         "responses": 1
       },
       {
+        "lat": 61.191362500000004,
+        "lon": -149.87452000000002,
+        "intensity": 2.2,
+        "responses": 2
+      },
+      {
         "lat": 61.1999325,
         "lon": -149.89392,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 61.1312875,
-        "lon": -149.7390075,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 61.6018475,
-        "lon": -149.026255,
+        "lat": 61.31499,
+        "lon": -149.53081,
         "intensity": 2,
         "responses": 1
       },
@@ -227,10 +305,46 @@
         "responses": 1
       },
       {
+        "lat": 61.41536,
+        "lon": -149.44521749999998,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.6079,
+        "lon": -149.2152225,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.60042,
+        "lon": -149.1204225,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.1312875,
+        "lon": -149.7390075,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.307055,
+        "lon": -149.4741325,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.6018475,
+        "lon": -149.026255,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 61.31534,
         "lon": -149.51215249999998,
         "intensity": 2,
-        "responses": 1
+        "responses": 2
       },
       {
         "lat": 61.31429,
@@ -244,6 +358,30 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sxksxl",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384173.html",
+    "source": "csn",
+    "time": "2026-09-24T01:30:35+00:00",
+    "updated": "2026-09-24T01:30:35+00:00",
+    "lat": -22.32,
+    "lon": -70.28,
+    "depth_km": 64.0,
+    "magnitude": 2.9,
+    "mag_type": "MLv",
+    "place": "26 km al S de Tocopilla, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384173.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384173.html",
     "relevant": false,
     "keywords_matched": []
   }
