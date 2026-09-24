@@ -2057,7 +2057,7 @@
     "id": "nc75440387",
     "source": "usgs",
     "time": "2026-09-23T16:00:10.570000+00:00",
-    "updated": "2026-09-23T19:14:05.885000+00:00",
+    "updated": "2026-09-24T00:35:01.139000+00:00",
     "lat": 36.8610000610352,
     "lon": -121.415000915527,
     "depth_km": 6.07000017166138,
@@ -2066,7 +2066,7 @@
     "place": "2 km NW of Hollister, CA",
     "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 21,
+    "felt_reports": 22,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2080,6 +2080,12 @@
         "lon": -121.379195,
         "intensity": 3.3,
         "responses": 2
+      },
+      {
+        "lat": 36.85968,
+        "lon": -121.4014325,
+        "intensity": 3.1,
+        "responses": 1
       },
       {
         "lat": 36.83295,

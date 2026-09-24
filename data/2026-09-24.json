@@ -77,5 +77,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sxhzwp",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384168.html",
+    "source": "csn",
+    "time": "2026-09-24T00:23:26+00:00",
+    "updated": "2026-09-24T00:23:26+00:00",
+    "lat": -31.46,
+    "lon": -71.62,
+    "depth_km": 33.0,
+    "magnitude": 3.4,
+    "mag_type": "MLv",
+    "place": "17 km al O de Canela Baja, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384168.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384168.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
