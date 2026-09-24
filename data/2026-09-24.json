@@ -1141,5 +1141,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384224.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000txan",
+    "source": "usgs",
+    "time": "2026-09-24T09:36:40.497000+00:00",
+    "updated": "2026-09-24T09:43:41.040000+00:00",
+    "lat": 31.6946,
+    "lon": -101.7035,
+    "depth_km": 5,
+    "magnitude": 3,
+    "mag_type": "mb_lg",
+    "place": "28 km SW of Garden City, Texas",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txan",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
