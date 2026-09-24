@@ -2261,5 +2261,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sywlqq",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000txgd",
+    "source": "usgs",
+    "time": "2026-09-24T20:33:22.188000+00:00",
+    "updated": "2026-09-24T20:42:14.040000+00:00",
+    "lat": 31.689,
+    "lon": -101.7308,
+    "depth_km": 6.372,
+    "magnitude": 3.2,
+    "mag_type": "mb_lg",
+    "place": "30 km SW of Garden City, Texas",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txgd",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
