@@ -87,8 +87,8 @@ que se publicó en torno a **ese** sismo — con un aviso arriba y un botón
   (`backend/backfill.py`, workflow manual "Recuperar historial de sismos
   anteriores"): Bluesky acepta `since`/`until`, Mastodon acepta `min_id`/`max_id`
   (sus IDs codifican la hora) y Google News acepta `after:`/`before:`. Es
-  parcial —los índices de búsqueda no garantizan tener todo— y el panel lo
-  avisa. Cubre los sismos chilenos que se pueden elegir (con reporte de
+  parcial —los índices de búsqueda no garantizan tener todo— y el panel ya
+  no lo avisa (se quitó a pedido). Cubre los sismos chilenos que se pueden elegir (con reporte de
   SENAPRED o M≥5.0); es idempotente, se puede volver a correr cuando haya
   sismos nuevos que recuperar.
 - Para que haya publicaciones chilenas que mostrar, Bluesky y Mastodon se
