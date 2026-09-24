@@ -172,7 +172,7 @@
     "id": "aka2026sxksxl",
     "source": "usgs",
     "time": "2026-09-24T01:27:20.936000+00:00",
-    "updated": "2026-09-24T02:19:35.504000+00:00",
+    "updated": "2026-09-24T02:51:20.002000+00:00",
     "lat": 62.039,
     "lon": -149.756,
     "depth_km": 26.8,
@@ -181,7 +181,7 @@
     "place": "14 km SSE of Susitna North, Alaska",
     "cdi": 3.1,
     "mmi": 3.476,
-    "felt_reports": 45,
+    "felt_reports": 46,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -398,6 +398,12 @@
         "lat": 61.6018475,
         "lon": -149.026255,
         "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.14453,
+        "lon": -149.963185,
+        "intensity": 1,
         "responses": 1
       },
       {
