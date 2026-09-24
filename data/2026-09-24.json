@@ -2130,24 +2130,14 @@
     "mmi": null,
     "felt_reports": null,
     "tsunami_flag": false,
-    "dyfi_points": [
-      {
-        "lat": -31.6335,
-        "lon": -71.1697,
-        "intensity": 3,
-        "responses": null,
-        "comuna": "Illapel",
-        "region": "Coquimbo"
-      }
-    ],
-    "intensity_source": "csn",
-    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-coquimbo-2026-09-24-14-32-53",
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384289.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384289.html",
     "relevant": false,
-    "keywords_matched": [],
-    "senapred_match_time": "2026-09-24T14:32:53-03:00"
+    "keywords_matched": []
   },
   {
     "id": "aka2026syrpcd",
