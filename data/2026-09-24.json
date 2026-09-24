@@ -1,0 +1,57 @@
+[
+  {
+    "id": "hv75042947",
+    "source": "usgs",
+    "time": "2026-09-24T00:05:12.580000+00:00",
+    "updated": "2026-09-24T00:09:12.600000+00:00",
+    "lat": 19.3271675109863,
+    "lon": -155.814331054688,
+    "depth_km": 9.40999984741211,
+    "magnitude": 2.95,
+    "mag_type": "ml",
+    "place": "15 km SSE of Honaunau-Napoopoo, Hawaii",
+    "cdi": 2,
+    "mmi": null,
+    "felt_reports": 1,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 19.4531175,
+        "lon": -155.881045,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75042947",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "aka2026sxhzwp",
+    "source": "usgs",
+    "time": "2026-09-24T00:05:25.735000+00:00",
+    "updated": "2026-09-24T00:09:19.530000+00:00",
+    "lat": 62.767,
+    "lon": -143.743,
+    "depth_km": 5,
+    "magnitude": 3,
+    "mag_type": "ml",
+    "place": "13 km ENE of Slana, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sxhzwp",
+    "relevant": false,
+    "keywords_matched": []
+  }
+]
