@@ -68,8 +68,12 @@ def fetch_mastodon_mentions():
     dedupeadas por link."""
     access_token = os.environ.get("MASTODON_ACCESS_TOKEN")
 
+    # Un hashtag es una sola palabra ("#sismo"): el respaldo sin token no puede
+    # usar las consultas de dos palabras ("sismo Chile").
+    queries = keywords.SEARCH_QUERIES if access_token else keywords.KEYWORDS
+
     mentions = {}
-    for keyword in keywords.KEYWORDS:
+    for keyword in queries:
         try:
             posts = _search_statuses(keyword, access_token) if access_token else _fetch_hashtag_timeline(keyword)
         except Exception as exc:

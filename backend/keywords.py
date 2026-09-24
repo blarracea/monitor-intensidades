@@ -30,6 +30,16 @@ KEYWORDS = [
 ]
 
 
+# Consultas para Bluesky y Mastodon (busqueda de texto libre). Las palabras
+# sueltas ("sismo", "temblor") devuelven solo las ultimas ~20 publicaciones DEL
+# MUNDO, y las de cuentas chilenas (BioBioChile, Emol, La Tercera, Cooperativa
+# en mastodon.cl, gente comentando un temblor) quedan tapadas por el ruido
+# global. Auditoria 24-09-2026: sumar estas consultas con "Chile" subio de 5 a
+# 49 las publicaciones sobre Chile que se capturan (Mastodon). El texto de cada
+# resultado igual tiene que contener una palabra clave (is_relevant).
+SEARCH_QUERIES = KEYWORDS + [f"{k} Chile" for k in ("sismo", "temblor", "terremoto", "tsunami", "maremoto")]
+
+
 def normalize(text):
     """Pasa a minusculas y quita tildes, para que la busqueda no dependa de acentos."""
     if not text:

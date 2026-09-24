@@ -68,7 +68,7 @@ def fetch_bluesky_mentions():
         return []
 
     mentions = {}
-    for keyword in keywords.KEYWORDS:
+    for keyword in keywords.SEARCH_QUERIES:
         try:
             posts = _search_posts(keyword, access_jwt)
         except requests.HTTPError as exc:
