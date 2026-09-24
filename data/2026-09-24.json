@@ -1959,5 +1959,29 @@
     "relevant": false,
     "keywords_matched": [],
     "senapred_match_time": "2026-09-24T14:32:53-03:00"
+  },
+  {
+    "id": "aka2026syrpcd",
+    "source": "usgs",
+    "time": "2026-09-24T17:52:17.387000+00:00",
+    "updated": "2026-09-24T17:56:49.763000+00:00",
+    "lat": 59.671,
+    "lon": -153.546,
+    "depth_km": 138.6,
+    "magnitude": 2.7,
+    "mag_type": "ml",
+    "place": "34 km ESE of Pedro Bay, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026syrpcd",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
