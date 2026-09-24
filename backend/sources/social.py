@@ -22,6 +22,7 @@ capa separada y claramente rotulada como tal (ver js/social-layer.js).
 import xml.etree.ElementTree as ET
 from datetime import timezone
 from email.utils import parsedate_to_datetime
+from urllib.parse import urlparse
 
 import requests
 
@@ -36,6 +37,11 @@ REQUEST_TIMEOUT = 20
 # porque Google News a veces trae el mismo medio con nombres distintos
 # ("Infobae" e "infobae.com" aparecieron los dos).
 BLOCKED_SOURCE_MARKERS = ("infobae",)
+
+# Medios chilenos: cualquier dominio .cl, mas estos que usan .com. El titulo
+# de una noticia suele no decir "Chile" ("Temblor sacude el norte del pais"),
+# asi que el dominio del medio es la mejor senal de que es contenido chileno.
+CHILEAN_NEWS_DOMAINS = ("latercera.com", "emol.com")
 
 
 def fetch_rss_mentions():
@@ -70,6 +76,7 @@ def _fetch_google_news(keyword):
         source_url = (source_el.get("url") if source_el is not None else "") or ""
         if is_blocked_source(_parse_source(item), source_url):
             continue
+        from_chilean_outlet = _is_chilean_outlet(source_url)
 
         full_text = f"{title} {description}"
         if not keywords.is_relevant(full_text):
@@ -84,6 +91,7 @@ def _fetch_google_news(keyword):
                 "source": _parse_source(item),
                 "published": _parse_pub_date(item.findtext("pubDate")),
                 "keywords_matched": keywords.matched_keywords(full_text),
+                "chile": from_chilean_outlet or keywords.mentions_chile(full_text, place),
                 "place": place,
                 "lat": coords[0] if coords else None,
                 "lon": coords[1] if coords else None,
@@ -95,6 +103,26 @@ def _fetch_google_news(keyword):
 def is_blocked_source(source_name, source_url=""):
     haystack = f"{source_name or ''} {source_url or ''}".lower()
     return any(marker in haystack for marker in BLOCKED_SOURCE_MARKERS)
+
+
+# Respaldo por NOMBRE del medio, para noticias guardadas antes de que existiera
+# el campo "chile" (no traen el dominio, solo el nombre que muestra Google News).
+CHILEAN_OUTLET_NAMES = {
+    "biobiochile", "meganoticias", "radio agricultura", "chilevisión", "chilevision",
+    "teletrece", "t13", "vln radio", "24horas", "la tercera", "emol", "adn radio",
+    "cooperativa", "radio pauta 100.5", "antofagasta tv", "epicentro chile", "tvn",
+    "ex-ante", "publimetro", "la cuarta", "fm plus", "canal 9 bío bío televisión",
+}
+
+
+def is_chilean_outlet_name(name):
+    lowered = (name or "").strip().lower()
+    return ".cl" in lowered or lowered in CHILEAN_OUTLET_NAMES
+
+
+def _is_chilean_outlet(source_url):
+    host = (urlparse(source_url or "").hostname or "").lower()
+    return host.endswith(".cl") or any(host == d or host.endswith("." + d) for d in CHILEAN_NEWS_DOMAINS)
 
 
 def _parse_source(item):

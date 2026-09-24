@@ -32,10 +32,12 @@ la magnitud Richter del epicentro.
   Leaflet que **solo lee** los archivos ya guardados en `data/` — nunca llama
   directamente a las APIs externas. Se sirve gratis con GitHub Pages. Se
   auto-refresca cada 60 segundos para mostrar lo último recolectado.
-- **Retención**: `collect.py` borra los archivos de sismos en `data/` con
-  más de 30 días de antigüedad en cada corrida. Las menciones en medios se
-  recortan a 72 horas y los posts de redes a 24 horas (no necesitan
-  historial largo).
+- **Retención**: **nada se borra**. Los sismos (`data/YYYY-MM-DD.json`) se
+  guardan para siempre. Los paneles "Menciones en medios" (72 h) y "Redes en
+  vivo" (24 h) solo muestran lo reciente, pero cada publicación además se
+  copia a un archivo permanente por día (`data/archive/media/` y
+  `data/archive/live/`, ver más abajo). Ritmo medido: ~200 KB/día en archivos
+  (~73 MB/año sin comprimir, unos 20–40 MB/año dentro de git).
 
 ## Estado de cada fuente de datos
 
@@ -65,6 +67,28 @@ saber de dónde salió el dato.
 - El **resumen semanal** (gráfico de barras, últimos 7 días) es la única
   parte del dashboard que no exige reporte de intensidad: cuenta cualquier
   sismo de magnitud ≥ 4.5, tenga o no reporte.
+
+### Trazabilidad por sismo
+
+Al elegir un sismo (click en el mapa de calor, o desde la lupa "Sismos por
+día"), los paneles "Redes en vivo" y "Menciones en medios" pasan a mostrar lo
+que se publicó en torno a **ese** sismo — con un aviso arriba y un botón
+"Volver a en vivo". Las reglas:
+
+- Publicaciones y noticias **sobre Chile** (campo `chile`, calculado al
+  archivar: el texto nombra Chile o un lugar chileno conocido, la cuenta es
+  chilena, o la noticia viene de un medio chileno), desde 5 minutos antes
+  hasta 6 horas después del sismo (`TRACE_BEFORE_MS`/`TRACE_AFTER_MS` en
+  `js/data-loader.js`), en orden cronológico, hasta 100 por panel.
+- El archivo (`data/archive/live/` y `data/archive/media/`, un archivo por día
+  UTC, un ítem por línea) **parte el día en que se empezó a guardar** —
+  `data/archive/meta.json` dice desde cuándo. Hacia atrás no hay historial (las
+  APIs de Bluesky/Mastodon/Google News no permiten recuperarlo de forma
+  confiable), así que un sismo anterior al archivo muestra un aviso en vez de
+  resultados.
+- Solo se archiva lo que el dashboard ya muestra (autor, texto, enlace, fecha).
+  Son publicaciones de terceros: si alguien borra la suya, el archivo la sigue
+  conservando.
 
 ### Cruce con SNAM/SHOA
 

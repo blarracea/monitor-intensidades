@@ -11,6 +11,16 @@
   const weekChartEl = document.getElementById("week-chart");
   const searchToggle = document.getElementById("search-toggle");
   const searchPanel = document.getElementById("search-panel");
+  const liveTraceBanner = document.getElementById("live-trace-banner");
+  const mediaTraceBanner = document.getElementById("media-trace-banner");
+
+  // Trazabilidad: cuando hay un sismo elegido (desde el mapa o la lupa), los
+  // paneles "Redes en vivo" y "Menciones en medios" dejan de mostrar lo
+  // ultimo y pasan a mostrar lo que se publico en torno a ESE sismo (ver
+  // SismosApp.loadEventTrace). Mientras eso pasa, el refresco automatico de
+  // cada 60 s no debe pisar la vista -- traceEvent lo frena.
+  let traceEvent = null;
+  let traceRequestId = 0;
 
   // La pagina no se refresca sola por si misma -- sin esto, alguien que deja
   // la pestana abierta nunca ve un sismo nuevo ni una mencion nueva sin
@@ -205,6 +215,8 @@
         selectedEventHeatLayer.addTo(map);
       }
     }
+
+    showTrace(event);
   };
 
   const focusEvent = (event) => {
@@ -318,7 +330,7 @@
   const refreshSocialFeed = async () => {
     try {
       const mentions = await SismosApp.loadSocialMentions();
-      SismosApp.renderSocialFeed(mentions, socialFeedBody);
+      if (!traceEvent) SismosApp.renderSocialFeed(mentions, socialFeedBody);
       if (socialLayer) map.removeLayer(socialLayer);
       socialLayer = SismosApp.buildSocialMapLayer(mentions);
       if (socialLayer && socialToggle.checked) socialLayer.addTo(map);
@@ -329,13 +341,99 @@
 
   // --- Redes en vivo (Bluesky + Mastodon, posts con las palabras clave del proyecto) ---
   const refreshLiveFeed = async () => {
+    if (traceEvent) return;
     try {
       const mentions = await SismosApp.loadLiveMentions();
+      if (traceEvent) return; // se eligio un sismo mientras cargaba
       SismosApp.renderLiveFeed(mentions, liveFeedBody);
     } catch (err) {
       liveFeedBody.innerHTML = '<p class="live-feed-empty">No se pudieron cargar los posts.</p>';
     }
   };
+
+  // --- Trazabilidad: publicaciones y noticias de un sismo elegido ---
+  const chileDateTime = (date) =>
+    date.toLocaleString("es-CL", { timeZone: "America/Santiago", dateStyle: "short", timeStyle: "short" });
+
+  const traceBannerHtml = (event, title, summary, notes) => `
+    <strong>${title} del sismo M${_escapeHtmlDetail(event.magnitude ?? "?")} · ${_escapeHtmlDetail(event.place || "-")}</strong>
+    ${_escapeHtmlDetail(chileDateTime(new Date(event.time)))} (hora Chile) · ${_escapeHtmlDetail(summary)}
+    <div class="trace-note">Solo contenido sobre Chile, desde 5 min antes hasta 6 h después del sismo.</div>
+    ${notes.map((note) => `<div class="trace-note">${_escapeHtmlDetail(note)}</div>`).join("")}
+    <button type="button" data-trace-reset>Volver a en vivo</button>
+  `;
+
+  // Avisos honestos cuando el archivo no alcanza a cubrir el sismo: el archivo
+  // parte el dia que se empezo a guardar, hacia atras no hay nada.
+  const traceNotes = (archiveFrom, startMs, total, shown) => {
+    const notes = [];
+    if (archiveFrom && startMs < archiveFrom.getTime()) {
+      notes.push(`El archivo parte el ${chileDateTime(archiveFrom)}; este sismo es anterior, por eso puede faltar información.`);
+    }
+    if (total > shown) notes.push(`Mostrando las primeras ${shown} de ${total}.`);
+    return notes;
+  };
+
+  const showTrace = async (event) => {
+    traceEvent = event;
+    const requestId = ++traceRequestId;
+    const loadingNotes = [];
+    liveTraceBanner.innerHTML = traceBannerHtml(event, "Publicaciones", "buscando…", loadingNotes);
+    mediaTraceBanner.innerHTML = traceBannerHtml(event, "Noticias", "buscando…", loadingNotes);
+    liveTraceBanner.classList.remove("hidden");
+    mediaTraceBanner.classList.remove("hidden");
+    liveFeedBody.innerHTML = '<p class="live-feed-empty">Buscando publicaciones…</p>';
+    socialFeedBody.innerHTML = '<p class="social-feed-empty">Buscando noticias…</p>';
+
+    let trace;
+    try {
+      trace = await SismosApp.loadEventTrace(event);
+    } catch (err) {
+      if (requestId !== traceRequestId) return;
+      liveFeedBody.innerHTML = '<p class="live-feed-empty">No se pudo cargar el archivo.</p>';
+      socialFeedBody.innerHTML = '<p class="social-feed-empty">No se pudo cargar el archivo.</p>';
+      return;
+    }
+    if (requestId !== traceRequestId) return; // se eligio otro sismo (o "volver a en vivo") mientras cargaba
+
+    const { live, media } = trace;
+    liveTraceBanner.innerHTML = traceBannerHtml(
+      event,
+      "Publicaciones",
+      `${live.total} publicaci${live.total === 1 ? "ón" : "ones"}`,
+      traceNotes(trace.liveFrom, trace.startMs, live.total, live.items.length)
+    );
+    mediaTraceBanner.innerHTML = traceBannerHtml(
+      event,
+      "Noticias",
+      `${media.total} noticia${media.total === 1 ? "" : "s"}`,
+      traceNotes(trace.mediaFrom, trace.startMs, media.total, media.items.length)
+    );
+    SismosApp.renderLiveFeed(live.items, liveFeedBody, {
+      absoluteTime: true,
+      emptyMessage: "No hay publicaciones archivadas de Chile para este sismo.",
+    });
+    SismosApp.renderSocialFeed(media.items, socialFeedBody, {
+      emptyMessage: "No hay noticias archivadas para este sismo.",
+    });
+    liveFeedBody.scrollTop = 0;
+    socialFeedBody.scrollTop = 0;
+  };
+
+  const clearTrace = () => {
+    traceEvent = null;
+    traceRequestId++;
+    liveTraceBanner.classList.add("hidden");
+    mediaTraceBanner.classList.add("hidden");
+    refreshLiveFeed();
+    refreshSocialFeed();
+  };
+
+  [liveTraceBanner, mediaTraceBanner].forEach((banner) =>
+    banner.addEventListener("click", (e) => {
+      if (e.target.matches("[data-trace-reset]")) clearTrace();
+    })
+  );
 
   // --- Desplegable de busqueda ("Sismos por dia", la lupa del header) ---
   const closeSearchPanel = () => {

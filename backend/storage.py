@@ -150,12 +150,94 @@ def save_live_mentions(new_mentions):
         json.dump(kept, f, ensure_ascii=False, indent=2)
 
 
-def purge_old(retention_days):
-    """Borra los archivos diarios con mas de `retention_days` dias de antiguedad."""
-    cutoff = datetime.now(timezone.utc).date() - timedelta(days=retention_days)
-    for path in DATA_DIR.glob("*.json"):
-        if not _is_day_file(path):
+# --- Archivo permanente de publicaciones (trazabilidad por sismo) ---
+#
+# Los paneles "Redes en vivo" (24 h) y "Menciones en medios" (72 h) solo
+# guardan lo reciente. Para poder ver, semanas despues, que se dijo tras un
+# sismo, cada publicacion se copia ademas a un archivo por dia que NUNCA se
+# borra: data/archive/live/YYYY-MM-DD.json y data/archive/media/YYYY-MM-DD.json
+# (fecha UTC de publicacion, igual que los archivos de sismos). Los sismos
+# tampoco se borran: data/YYYY-MM-DD.json ya no tiene purga.
+#
+# Solo se guarda lo que el dashboard ya muestra (autor, texto, enlace, fecha),
+# nada mas -- son publicaciones de terceros y se conservan para siempre.
+ARCHIVE_DIR = DATA_DIR / "archive"
+ARCHIVE_META_FILE = ARCHIVE_DIR / "meta.json"
+ARCHIVE_FIELDS = {
+    "live": ("platform", "link", "text", "author_handle", "author_name", "author_avatar", "published", "chile"),
+    "media": ("title", "link", "source", "published", "place", "chile"),
+}
+
+
+def _archive_day_file(kind, date_str):
+    return ARCHIVE_DIR / kind / f"{date_str}.json"
+
+
+def _load_archive_meta():
+    if not ARCHIVE_META_FILE.exists():
+        return {}
+    with ARCHIVE_META_FILE.open("r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def _save_archive_meta(meta):
+    ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
+    with ARCHIVE_META_FILE.open("w", encoding="utf-8") as f:
+        json.dump(meta, f, ensure_ascii=False, indent=2)
+
+
+def archive_mentions(kind, mentions):
+    """
+    Copia las publicaciones al archivo permanente de su dia (por `published`,
+    UTC). Solo agrega enlaces que todavia no estan -- lo ya archivado no se
+    reescribe, asi el historial de git de esos archivos solo crece al final.
+    Cada `mention` debe traer el campo `chile` (ver collect.py).
+
+    Guarda ademas data/archive/meta.json: desde cuando existe archivo
+    ("live_from"/"media_from", la publicacion mas antigua de la primera tanda)
+    y que dias existen -- el frontend lo usa para avisar "este sismo es
+    anterior al archivo" y para no pedir archivos que no existen.
+    Devuelve cuantas publicaciones nuevas se archivaron.
+    """
+    fields = ARCHIVE_FIELDS[kind]
+    by_day = {}
+    for m in mentions:
+        published = m.get("published")
+        if not published or not m.get("link"):
             continue
-        file_date = datetime.strptime(path.stem, "%Y-%m-%d").date()
-        if file_date < cutoff:
-            path.unlink()
+        by_day.setdefault(published[:10], []).append({k: m.get(k) for k in fields})
+
+    if not by_day:
+        return 0
+
+    meta = _load_archive_meta()
+    days_key = f"{kind}_days"
+    from_key = f"{kind}_from"
+    known_days = set(meta.get(days_key, []))
+    added = 0
+    for date_str, items in by_day.items():
+        path = _archive_day_file(kind, date_str)
+        existing = {}
+        if path.exists():
+            with path.open("r", encoding="utf-8") as f:
+                existing = {m["link"]: m for m in json.load(f)}
+        new_items = [m for m in items if m["link"] not in existing]
+        if not new_items:
+            continue
+        for m in new_items:
+            existing[m["link"]] = m
+        added += len(new_items)
+        ordered = sorted(existing.values(), key=lambda m: m["published"])
+        path.parent.mkdir(parents=True, exist_ok=True)
+        # Un item por linea: JSON compacto (ocupa ~la mitad que con indent) y
+        # los diffs de git siguen siendo legibles.
+        with path.open("w", encoding="utf-8") as f:
+            f.write("[\n" + ",\n".join(json.dumps(m, ensure_ascii=False, separators=(",", ":")) for m in ordered) + "\n]\n")
+        known_days.add(date_str)
+
+    if added:
+        if from_key not in meta:
+            meta[from_key] = min(m["published"] for items in by_day.values() for m in items)
+        meta[days_key] = sorted(known_days)
+        _save_archive_meta(meta)
+    return added

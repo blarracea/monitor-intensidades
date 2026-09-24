@@ -46,3 +46,25 @@ def matched_keywords(text):
 
 def is_relevant(text):
     return len(matched_keywords(text)) > 0
+
+
+# Marcas de que un texto habla de Chile (el "solo Chile" de la trazabilidad
+# por sismo, ver storage.archive_mentions). Sin "santiago" suelto: tambien es
+# una ciudad de Espana/Rep. Dominicana -- las ciudades chilenas ya las cubre
+# el parametro `place` (comuna_coords.find_known_place).
+_CHILE_PATTERN = re.compile(
+    r"\b(chile|chilen[oa]s?|senapred|onemi|shoa|centro sismologico nacional)\b"
+)
+
+
+def mentions_chile(text, place=None, handle=None):
+    """True si el texto nombra Chile, un lugar chileno conocido (`place`), o
+    viene de una cuenta chilena (handle que contiene "chile" o termina en
+    ".cl", ej. chile-sismos.bsky.social o alguien@mastodon.cl)."""
+    if place:
+        return True
+    if handle:
+        h = handle.lower()
+        if "chile" in h or h.endswith(".cl"):
+            return True
+    return bool(_CHILE_PATTERN.search(normalize(text)))

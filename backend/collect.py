@@ -104,7 +104,6 @@ BBOX = {
 }
 MIN_MAGNITUDE = 2.5
 LOOKBACK_DAYS = 3  # se reconsulta para capturar revisiones de magnitud y DYFI que llegan tarde
-RETENTION_DAYS = 30
 RELEVANT_MAGNITUDE = 5.0
 RELEVANT_FELT_REPORTS = 50
 
@@ -359,7 +358,8 @@ def collect_social_mentions():
         print(f"Aviso: no se pudo consultar RSS de menciones ({exc}).")
         return
     storage.save_social_mentions(mentions)
-    print(f"Menciones en medios: {len(mentions)} nuevas encontradas.")
+    archived = storage.archive_mentions("media", _with_chile_flag(storage.load_social_mentions(), "title"))
+    print(f"Menciones en medios: {len(mentions)} nuevas encontradas, {archived} archivadas.")
 
 
 def collect_live_mentions():
@@ -376,7 +376,25 @@ def collect_live_mentions():
     except Exception as exc:
         print(f"Aviso: no se pudo consultar Mastodon ({exc}).")
     storage.save_live_mentions(mentions)
-    print(f"Redes en vivo: {len(mentions)} posts nuevos encontrados (Bluesky + Mastodon).")
+    archived = storage.archive_mentions("live", _with_chile_flag(storage.load_live_mentions(), "text"))
+    print(f"Redes en vivo: {len(mentions)} posts nuevos encontrados (Bluesky + Mastodon), {archived} archivados.")
+
+
+def _with_chile_flag(items, text_key):
+    """Agrega el campo `chile` a las publicaciones que aun no lo traen (las
+    noticias ya lo traen desde sources/social.py; los posts de Bluesky/Mastodon
+    y las noticias guardadas antes de este campo, no). Se archiva desde el
+    archivo de "lo reciente" completo (no solo lo nuevo de esta corrida) para
+    que la primera vez tambien se archive lo que ya estaba guardado."""
+    flagged = []
+    for m in items:
+        m = dict(m)
+        if "chile" not in m:
+            m["chile"] = keywords.mentions_chile(
+                m.get(text_key), m.get("place"), m.get("author_handle")
+            ) or social.is_chilean_outlet_name(m.get("source"))
+        flagged.append(m)
+    return flagged
 
 
 def preserve_existing_csn_data(events):
@@ -513,7 +531,6 @@ def main():
     enrich_with_snam(events)
 
     storage.upsert_events(events)
-    storage.purge_old(RETENTION_DAYS)
     storage.update_index()
     collect_social_mentions()
     collect_live_mentions()
