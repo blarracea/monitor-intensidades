@@ -845,7 +845,7 @@
     "id": "us6000tx9u",
     "source": "usgs",
     "time": "2026-09-24T07:40:58.138000+00:00",
-    "updated": "2026-09-24T08:59:20.175000+00:00",
+    "updated": "2026-09-24T10:44:13.424000+00:00",
     "lat": 37.4736,
     "lon": 38.8612,
     "depth_km": 10,
@@ -854,7 +854,7 @@
     "place": "15 km SSW of Hilvan, Turkey",
     "cdi": 4.8,
     "mmi": null,
-    "felt_reports": 6,
+    "felt_reports": 7,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -873,6 +873,12 @@
         "lat": 37.326655,
         "lon": 40.721262499999995,
         "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 36.982755,
+        "lon": 35.3313775,
+        "intensity": 1,
         "responses": 1
       }
     ],
@@ -1056,7 +1062,7 @@
     "id": "tx2026suygvy",
     "source": "usgs",
     "time": "2026-09-24T08:36:08.785000+00:00",
-    "updated": "2026-09-24T09:50:08.810000+00:00",
+    "updated": "2026-09-24T10:40:50.481000+00:00",
     "lat": 31.671,
     "lon": -101.742,
     "depth_km": 5.542,
