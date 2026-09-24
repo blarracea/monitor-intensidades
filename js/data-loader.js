@@ -126,21 +126,46 @@ SismosApp.loadEventTrace = async function (event) {
   };
 };
 
-/* Fecha minima/maxima disponibles, segun data/index.json (para el selector de fecha). */
+function _chileDateKey(isoTime) {
+  return new Date(isoTime).toLocaleDateString("en-CA", { timeZone: "America/Santiago" });
+}
+
+/* Fecha minima/maxima del selector de fecha. Los archivos de data/ son por dia
+   UTC, pero el selector habla en dias de CHILE: el maximo es el "hoy" de Chile
+   (el ultimo archivo UTC puede ser el de "manana" durante la noche chilena). */
 SismosApp.loadAvailableDateRange = async function () {
   const indexResponse = await fetch("data/index.json", { cache: "no-store" });
   if (!indexResponse.ok) return null;
   const index = await indexResponse.json();
   const days = index.days || [];
   if (days.length === 0) return null;
-  return { min: days[0], max: days[days.length - 1] };
+  const chileToday = _chileDateKey(new Date().toISOString());
+  const last = days[days.length - 1];
+  return { min: days[0], max: last < chileToday ? last : chileToday };
 };
 
-/* Trae los eventos de un dia puntual (para la tabla "Sismos por dia"). */
+/* Sismos de un dia de CHILE (para la tabla "Sismos por dia"). Un dia chileno
+   cruza dos archivos UTC: las ultimas ~3-4 h (Chile 20/21:00 a 23:59) quedan en
+   el archivo del dia UTC siguiente. Antes se leia solo el archivo del mismo
+   numero: un sismo de las 21:01 hora Chile del 19-09 aparecia bajo el 20-09
+   (caso real: Tolten). Se leen ese archivo y el siguiente y se filtra por la
+   fecha chilena de cada sismo. */
 SismosApp.loadDay = async function (dateStr) {
-  const response = await fetch(`data/${dateStr}.json`, { cache: "no-store" });
-  if (!response.ok) return [];
-  return response.json();
+  const indexResponse = await fetch("data/index.json", { cache: "no-store" });
+  const existing = new Set(indexResponse.ok ? (await indexResponse.json()).days || [] : []);
+  const next = new Date(Date.parse(`${dateStr}T12:00:00Z`) + 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+  const files = [dateStr, next].filter((day) => existing.has(day));
+  const events = (
+    await Promise.all(
+      files.map(async (day) => {
+        const response = await fetch(`data/${day}.json`, { cache: "no-store" });
+        return response.ok ? response.json() : [];
+      })
+    )
+  ).flat();
+  return events
+    .filter((event) => _chileDateKey(event.time) === dateStr)
+    .sort((a, b) => new Date(a.time) - new Date(b.time));
 };
 
 /* Menciones recientes en medios (RSS) -- ver js/social-layer.js. */
