@@ -28,7 +28,7 @@ SismosApp.renderLiveFeed = function (mentions, container, options = {}) {
     .map((m) => {
       const when = m.published
         ? options.absoluteTime
-          ? new Date(m.published).toLocaleString("es-CL", { timeZone: "America/Santiago", dateStyle: "short", timeStyle: "short" })
+          ? SismosApp.formatChileDateTime24(new Date(m.published))
           : _timeAgoLive(new Date(m.published))
         : "";
       const avatar = m.author_avatar
