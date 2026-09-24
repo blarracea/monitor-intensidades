@@ -2498,5 +2498,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384320.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000txhp",
+    "source": "usgs",
+    "time": "2026-09-24T23:30:28.053000+00:00",
+    "updated": "2026-09-24T23:48:55.040000+00:00",
+    "lat": -6.0863,
+    "lon": 147.3935,
+    "depth_km": 53.586,
+    "magnitude": 5.3,
+    "mag_type": "mww",
+    "place": "72 km NW of Finschhafen, Papua New Guinea",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txhp",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
