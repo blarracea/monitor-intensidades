@@ -381,6 +381,27 @@
   const showTrace = async (event) => {
     traceEvent = event;
     const requestId = ++traceRequestId;
+
+    // Solo los sismos chilenos del CSN tienen trazabilidad: el archivo es
+    // "solo Chile", asi que para un sismo de otro pais lo unico que caeria en
+    // su ventana horaria seria contenido de OTRO sismo chileno (auditoria
+    // 24-09-2026: un sismo en Indonesia mostraba 22 posts y 58 noticias de
+    // Farellones).
+    if (event.source !== "csn") {
+      const note = `
+        <strong>${_escapeHtmlDetail(event.place || "Sismo")} · M${_escapeHtmlDetail(event.magnitude ?? "?")}</strong>
+        <div class="trace-note">Este sismo ocurrió fuera de Chile: las publicaciones y noticias solo se asocian a sismos en Chile.</div>
+        <button type="button" data-trace-reset>Volver a en vivo</button>
+      `;
+      liveTraceBanner.innerHTML = note;
+      mediaTraceBanner.innerHTML = note;
+      liveTraceBanner.classList.remove("hidden");
+      mediaTraceBanner.classList.remove("hidden");
+      liveFeedBody.innerHTML = '<p class="live-feed-empty">Sin publicaciones asociadas.</p>';
+      socialFeedBody.innerHTML = '<p class="social-feed-empty">Sin noticias asociadas.</p>';
+      return;
+    }
+
     const loadingNotes = [];
     liveTraceBanner.innerHTML = traceBannerHtml(event, "Publicaciones", "buscando…", loadingNotes);
     mediaTraceBanner.innerHTML = traceBannerHtml(event, "Noticias", "buscando…", loadingNotes);
