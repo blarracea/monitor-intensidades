@@ -8,9 +8,9 @@
  */
 window.SismosApp = window.SismosApp || {};
 
-SismosApp.renderSocialFeed = function (mentions, container) {
+SismosApp.renderSocialFeed = function (mentions, container, options = {}) {
   if (mentions.length === 0) {
-    container.innerHTML = '<p class="social-feed-empty">Sin menciones recientes.</p>';
+    container.innerHTML = `<p class="social-feed-empty">${_escapeHtml(options.emptyMessage || "Sin menciones recientes.")}</p>`;
     return;
   }
 

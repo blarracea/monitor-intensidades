@@ -15,15 +15,22 @@ const PLATFORM_BADGE = {
   mastodon: { icon: "🐘", label: "Mastodon" },
 };
 
-SismosApp.renderLiveFeed = function (mentions, container) {
+// options.absoluteTime: en la vista de un sismo pasado, "hace 5 d" no sirve --
+// se muestra fecha y hora de Chile. options.emptyMessage: texto cuando no hay
+// nada (distinto en vivo que en la vista de un sismo).
+SismosApp.renderLiveFeed = function (mentions, container, options = {}) {
   if (mentions.length === 0) {
-    container.innerHTML = '<p class="live-feed-empty">Sin posts recientes.</p>';
+    container.innerHTML = `<p class="live-feed-empty">${_escapeHtmlLive(options.emptyMessage || "Sin posts recientes.")}</p>`;
     return;
   }
 
   container.innerHTML = mentions
     .map((m) => {
-      const when = m.published ? _timeAgoLive(new Date(m.published)) : "";
+      const when = m.published
+        ? options.absoluteTime
+          ? new Date(m.published).toLocaleString("es-CL", { timeZone: "America/Santiago", dateStyle: "short", timeStyle: "short" })
+          : _timeAgoLive(new Date(m.published))
+        : "";
       const avatar = m.author_avatar
         ? `<img class="live-card-avatar" src="${_escapeAttrLive(_safeUrlLive(m.author_avatar))}" alt="" />`
         : '<span class="live-card-avatar"></span>';

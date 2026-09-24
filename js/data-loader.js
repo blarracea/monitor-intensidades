@@ -39,7 +39,12 @@ SismosApp.loadRecentEvents = async function (days) {
       "No se encontro data/index.json todavia (esperando la primera recoleccion de GitHub Actions)."
     );
   }
-  const dayFiles = _recentUtcDayKeys(days);
+  // Las fechas se calculan a mano (ver _recentUtcDayKeys), pero solo se piden
+  // las que existen segun index.json -- el "+1" de hoy no existe hasta la
+  // noche y pedirlo daba un 404 en cada refresco.
+  const index = await indexResponse.json();
+  const existingDays = new Set(index.days || []);
+  const dayFiles = _recentUtcDayKeys(days).filter((day) => existingDays.has(day));
 
   const allEvents = [];
   for (const day of dayFiles) {
@@ -53,6 +58,68 @@ SismosApp.loadRecentEvents = async function (days) {
     }
   }
   return allEvents;
+};
+
+/*
+ * Trazabilidad por sismo: publicaciones (Redes en vivo) y noticias (Menciones
+ * en medios) archivadas alrededor de un sismo -- ver storage.archive_mentions
+ * en el backend. Se muestran solo las que hablan de Chile (campo `chile`) y
+ * se publicaron desde 5 minutos antes hasta 6 horas despues de la hora del
+ * sismo. Los archivos son por dia UTC (igual que los de sismos), asi que una
+ * ventana de 6 h puede tocar 2 archivos.
+ */
+const TRACE_BEFORE_MS = 5 * 60 * 1000;
+const TRACE_AFTER_MS = 6 * 60 * 60 * 1000;
+const TRACE_MAX_ITEMS = 100;
+
+async function _loadArchiveDay(kind, day) {
+  const response = await fetch(`data/archive/${kind}/${day}.json`, { cache: "no-store" });
+  if (!response.ok) return [];
+  return response.json();
+}
+
+SismosApp.loadEventTrace = async function (event) {
+  const eventMs = new Date(event.time).getTime();
+  const startMs = eventMs - TRACE_BEFORE_MS;
+  const endMs = eventMs + TRACE_AFTER_MS;
+
+  let meta = {};
+  try {
+    const metaResponse = await fetch("data/archive/meta.json", { cache: "no-store" });
+    if (metaResponse.ok) meta = await metaResponse.json();
+  } catch (err) {
+    // sin meta.json todavia (el archivo aun no existe) -- se muestra vacio, no es un error
+  }
+
+  const DAY_MS = 24 * 60 * 60 * 1000;
+  const daysBetween = [];
+  for (let d = Math.floor(startMs / DAY_MS) * DAY_MS; d <= endMs; d += DAY_MS) {
+    daysBetween.push(new Date(d).toISOString().slice(0, 10));
+  }
+
+  const pick = async (kind) => {
+    const available = new Set(meta[`${kind}_days`] || []);
+    const days = daysBetween.filter((day) => available.has(day));
+    const items = (await Promise.all(days.map((day) => _loadArchiveDay(kind, day)))).flat();
+    const inWindow = items
+      .filter((m) => m.chile === true)
+      .filter((m) => {
+        const ms = new Date(m.published).getTime();
+        return ms >= startMs && ms <= endMs;
+      })
+      .sort((a, b) => new Date(a.published) - new Date(b.published));
+    return { items: inWindow.slice(0, TRACE_MAX_ITEMS), total: inWindow.length };
+  };
+
+  const [live, media] = await Promise.all([pick("live"), pick("media")]);
+  return {
+    live,
+    media,
+    liveFrom: meta.live_from ? new Date(meta.live_from) : null,
+    mediaFrom: meta.media_from ? new Date(meta.media_from) : null,
+    startMs,
+    endMs,
+  };
 };
 
 /* Fecha minima/maxima disponibles, segun data/index.json (para el selector de fecha). */
