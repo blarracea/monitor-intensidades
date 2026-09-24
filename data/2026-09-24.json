@@ -851,18 +851,24 @@
     "id": "us6000tx9u",
     "source": "usgs",
     "time": "2026-09-24T07:40:58.138000+00:00",
-    "updated": "2026-09-24T10:44:13.424000+00:00",
+    "updated": "2026-09-24T13:46:19.236000+00:00",
     "lat": 37.4736,
     "lon": 38.8612,
     "depth_km": 10,
     "magnitude": 5.3,
     "mag_type": "mww",
     "place": "15 km SSW of Hilvan, Turkey",
-    "cdi": 4.8,
+    "cdi": 4.6,
     "mmi": null,
-    "felt_reports": 7,
+    "felt_reports": 8,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 37.06663,
+        "lon": 37.374602499999995,
+        "intensity": 4.3,
+        "responses": 1
+      },
       {
         "lat": 37.34487,
         "lon": 38.113725,
