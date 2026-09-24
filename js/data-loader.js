@@ -117,6 +117,10 @@ SismosApp.loadEventTrace = async function (event) {
     media,
     liveFrom: meta.live_from ? new Date(meta.live_from) : null,
     mediaFrom: meta.media_from ? new Date(meta.media_from) : null,
+    // sismos anteriores al archivo continuo cuyas publicaciones/noticias se
+    // recuperaron por busqueda historica (backend/backfill.py) -- parcial.
+    liveBackfilled: (meta.live_backfilled || []).includes(event.id),
+    mediaBackfilled: (meta.media_backfilled || []).includes(event.id),
     startMs,
     endMs,
   };
