@@ -83,6 +83,13 @@ def _max_intensity_distance_km(magnitude):
 # (que es la de publicacion, no la del sismo): un reporte de un M4.4 se pego
 # tambien a dos sismos M2.5/2.9 de 4-5 horas despues (auditoria 23-09-2026).
 SENAPRED_MATCH_MAX_MINUTES = 20
+# Un reporte de SENAPRED que NO enlazo el CSN (cruce por hora, adivinado) solo
+# es creible si la comuna reportada mas cercana esta cerca del epicentro. En
+# los 13 sismos bien asociados esa distancia va de 16 a 46 km; el falso positivo
+# encontrado (auditoria 24-09-2026: el reporte de Illapel pegado tambien a un
+# M3.3 frente a Navidad) daba 259 km. 100 km deja margen para sismos en el mar.
+# No se aplica a los enlaces directos del CSN (son explicitos, no adivinados).
+GUESSED_MATCH_MAX_NEAREST_POINT_KM = 100
 SENAPRED_MATCH_MAX_MAGNITUDE_DIFF = 1.0
 
 # El SHOA (SNAM) publica su boletin ~10 min despues del CSN/USGS -- a
@@ -167,6 +174,14 @@ def _haversine_km(lat1, lon1, lat2, lon2):
     delta_lon = math.radians(lon2 - lon1)
     a = math.sin(delta_lat / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(delta_lon / 2) ** 2
     return 2 * earth_radius_km * math.asin(math.sqrt(a))
+
+
+def _has_point_near_epicenter(event, points):
+    return any(
+        _haversine_km(event["lat"], event["lon"], p["lat"], p["lon"]) <= GUESSED_MATCH_MAX_NEAREST_POINT_KM
+        for p in points
+        if p.get("lat") is not None
+    )
 
 
 def _build_intensity_point(entry, event):
@@ -337,7 +352,7 @@ def enrich_with_senapred_archive(events):
                 continue
 
             points = [p for p in (_build_intensity_point(entry, event) for entry in report["points"]) if p]
-            if points:
+            if points and _has_point_near_epicenter(event, points):
                 event["dyfi_points"] = points
                 event["intensity_source"] = "csn"
                 event["senapred_url"] = candidate["url"]
@@ -390,9 +405,12 @@ def _with_chile_flag(items, text_key):
     for m in items:
         m = dict(m)
         if "chile" not in m:
-            m["chile"] = keywords.mentions_chile(
-                m.get(text_key), m.get("place"), m.get("author_handle")
-            ) or social.is_chilean_outlet_name(m.get("source"))
+            m["chile"] = keywords.is_chile_quake_post(
+                m.get(text_key),
+                m.get("place"),
+                m.get("author_handle"),
+                chilean_source=social.is_chilean_outlet_name(m.get("source")),
+            )
         flagged.append(m)
     return flagged
 
@@ -424,6 +442,13 @@ def preserve_existing_csn_data(events):
     cercania horaria, asi que solo se les revalida distancia.
     """
     stored_by_date = {}
+    # Un reporte describe UN sismo. Al restaurar, los matches directos del CSN
+    # (sin senapred_match_time) van primero y reclaman su reporte; un match
+    # adivinado guardado que apunte al mismo reporte se descarta (auditoria
+    # 24-09-2026: el reporte de Salamanca seguia pegado tambien a otro sismo
+    # porque se restauraba sin mirar si ya tenia dueno).
+    claimed = {e["senapred_url"] for e in events if e["intensity_source"] == "csn" and e.get("senapred_url")}
+    pending = []
     for event in events:
         if event["intensity_source"] == "csn":
             continue  # ya tiene match fresco de esta corrida
@@ -432,28 +457,37 @@ def preserve_existing_csn_data(events):
             stored_by_date[date_str] = {e["id"]: e for e in storage.load_day(date_str)}
         previous = stored_by_date[date_str].get(event["id"])
         if previous and previous.get("intensity_source") == "csn":
-            match_time = previous.get("senapred_match_time")
-            if match_time is not None:
-                event_time = datetime.fromisoformat(event["time"])
-                minutes_off = abs((event_time - datetime.fromisoformat(match_time)).total_seconds()) / 60
-                if minutes_off > SENAPRED_MATCH_MAX_MINUTES:
-                    continue  # la hora del evento se reviso y el match guardado ya no es cercano -- no se preserva
+            pending.append((event, previous))
+    pending.sort(key=lambda pair: pair[1].get("senapred_match_time") is not None)
 
-            max_distance_km = _max_intensity_distance_km(event["magnitude"])
-            valid_points = [
-                p
-                for p in previous["dyfi_points"]
-                if p.get("lat") is not None
-                and _haversine_km(event["lat"], event["lon"], p["lat"], p["lon"]) <= max_distance_km
-            ]
-            if not valid_points:
-                continue  # el match guardado ya no pasa la validacion -- no se preserva
-            event["dyfi_points"] = valid_points
-            event["intensity_source"] = "csn"
-            event["senapred_url"] = previous.get("senapred_url")
-            event["csn_informe_url"] = previous.get("csn_informe_url")
-            if match_time is not None:
-                event["senapred_match_time"] = match_time
+    for event, previous in pending:
+        match_time = previous.get("senapred_match_time")
+        if previous.get("senapred_url") in claimed:
+            continue  # otro sismo ya es el dueno de ese reporte
+        if match_time is not None:
+            event_time = datetime.fromisoformat(event["time"])
+            minutes_off = abs((event_time - datetime.fromisoformat(match_time)).total_seconds()) / 60
+            if minutes_off > SENAPRED_MATCH_MAX_MINUTES:
+                continue  # la hora del evento se reviso y el match guardado ya no es cercano -- no se preserva
+
+        max_distance_km = _max_intensity_distance_km(event["magnitude"])
+        valid_points = [
+            p
+            for p in previous["dyfi_points"]
+            if p.get("lat") is not None
+            and _haversine_km(event["lat"], event["lon"], p["lat"], p["lon"]) <= max_distance_km
+        ]
+        if not valid_points:
+            continue  # el match guardado ya no pasa la validacion -- no se preserva
+        if match_time is not None and not _has_point_near_epicenter(event, valid_points):
+            continue  # match adivinado sin ninguna comuna cerca del epicentro
+        event["dyfi_points"] = valid_points
+        event["intensity_source"] = "csn"
+        event["senapred_url"] = previous.get("senapred_url")
+        claimed.add(previous.get("senapred_url"))
+        event["csn_informe_url"] = previous.get("csn_informe_url")
+        if match_time is not None:
+            event["senapred_match_time"] = match_time
 
 
 def enrich_with_snam(events):

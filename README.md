@@ -96,6 +96,11 @@ que se publicó en torno a **ese** sismo — con un aviso arriba y un botón
   (`keywords.SEARCH_QUERIES`): con solo palabras sueltas, las cuentas chilenas
   (BioBioChile, Emol, La Tercera, Cooperativa en mastodon.cl) quedaban tapadas
   por el ruido del resto del mundo (medido en Mastodon, ventana de 7 días: de 2 a 14 publicaciones sobre Chile).
+- El campo `chile` exige que el texto hable de un **sismo** (no del trago
+  "terremoto" de Fiestas Patrias, ni "tsunami de emociones") y de Chile (sin
+  contar "Los Ángeles" de EE. UU. y otros nombres ambiguos). Como el archivo
+  nunca reescribe lo ya guardado, si se mejora esa regla hay que correr
+  `python backend/reclassify_archive.py` una vez para corregir lo anterior.
 - Solo se archiva lo que el dashboard ya muestra (autor, texto, enlace, fecha).
   Son publicaciones de terceros: si alguien borra la suya, el archivo la sigue
   conservando.

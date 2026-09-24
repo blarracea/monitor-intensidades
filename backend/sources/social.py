@@ -113,7 +113,7 @@ def _fetch_query(query):
                 "source": _parse_source(item),
                 "published": _parse_pub_date(item.findtext("pubDate")),
                 "keywords_matched": keywords.matched_keywords(full_text),
-                "chile": from_chilean_outlet or keywords.mentions_chile(full_text, place),
+                "chile": keywords.is_chile_quake_post(full_text, place, chilean_source=from_chilean_outlet),
                 "place": place,
                 "lat": coords[0] if coords else None,
                 "lon": coords[1] if coords else None,
@@ -134,12 +134,13 @@ CHILEAN_OUTLET_NAMES = {
     "teletrece", "t13", "vln radio", "24horas", "la tercera", "emol", "adn radio",
     "cooperativa", "radio pauta 100.5", "antofagasta tv", "epicentro chile", "tvn",
     "ex-ante", "publimetro", "la cuarta", "fm plus", "canal 9 bío bío televisión",
+    "canal 13", "la segunda", "el mostrador", "the clinic", "diario financiero", "cnn chile",
 }
 
 
 def is_chilean_outlet_name(name):
     lowered = (name or "").strip().lower()
-    return ".cl" in lowered or lowered in CHILEAN_OUTLET_NAMES
+    return ".cl" in lowered or "chile" in lowered or lowered in CHILEAN_OUTLET_NAMES
 
 
 def _is_chilean_outlet(source_url):
