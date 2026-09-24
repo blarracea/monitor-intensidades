@@ -2,23 +2,35 @@
   {
     "id": "hv75042947",
     "source": "usgs",
-    "time": "2026-09-24T00:05:12.580000+00:00",
-    "updated": "2026-09-24T00:14:36.015000+00:00",
-    "lat": 19.3271675109863,
-    "lon": -155.814331054688,
-    "depth_km": 9.40999984741211,
-    "magnitude": 2.95,
+    "time": "2026-09-24T00:05:12.310000+00:00",
+    "updated": "2026-09-24T00:25:07.360000+00:00",
+    "lat": 19.3303333333333,
+    "lon": -155.827666666667,
+    "depth_km": 7.39,
+    "magnitude": 3.18,
     "mag_type": "ml",
-    "place": "15 km SSE of Honaunau-Napoopoo, Hawaii",
-    "cdi": 2.4,
+    "place": "Island of Hawaii, Hawaii",
+    "cdi": 2,
     "mmi": null,
-    "felt_reports": 3,
+    "felt_reports": 5,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 19.44394,
         "lon": -155.8904,
         "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 19.2726,
+        "lon": -155.87787500000002,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 19.5068125,
+        "lon": -155.91056,
+        "intensity": 2,
         "responses": 1
       },
       {
