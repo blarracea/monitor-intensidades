@@ -90,7 +90,7 @@ que se publicó en torno a **ese** sismo — con un aviso arriba y un botón
   consultan además con "sismo Chile", "temblor Chile", etc.
   (`keywords.SEARCH_QUERIES`): con solo palabras sueltas, las cuentas chilenas
   (BioBioChile, Emol, La Tercera, Cooperativa en mastodon.cl) quedaban tapadas
-  por el ruido del resto del mundo (medido: 5 → 49 publicaciones sobre Chile).
+  por el ruido del resto del mundo (medido en Mastodon, ventana de 7 días: de 2 a 14 publicaciones sobre Chile).
 - Solo se archiva lo que el dashboard ya muestra (autor, texto, enlace, fecha).
   Son publicaciones de terceros: si alguien borra la suya, el archivo la sigue
   conservando.

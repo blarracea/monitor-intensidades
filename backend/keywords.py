@@ -34,8 +34,8 @@ KEYWORDS = [
 # sueltas ("sismo", "temblor") devuelven solo las ultimas ~20 publicaciones DEL
 # MUNDO, y las de cuentas chilenas (BioBioChile, Emol, La Tercera, Cooperativa
 # en mastodon.cl, gente comentando un temblor) quedan tapadas por el ruido
-# global. Auditoria 24-09-2026: sumar estas consultas con "Chile" subio de 5 a
-# 49 las publicaciones sobre Chile que se capturan (Mastodon). El texto de cada
+# global. Auditoria 24-09-2026: sumar estas consultas con "Chile" subio, en una
+# ventana de 7 dias, de 2 a 14 las publicaciones sobre Chile capturadas (Mastodon). El texto de cada
 # resultado igual tiene que contener una palabra clave (is_relevant).
 SEARCH_QUERIES = KEYWORDS + [f"{k} Chile" for k in ("sismo", "temblor", "terremoto", "tsunami", "maremoto")]
 
