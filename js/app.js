@@ -358,21 +358,17 @@
   const traceBannerHtml = (event, title, summary, notes) => `
     <strong>${title} del sismo M${_escapeHtmlDetail(event.magnitude ?? "?")} · ${_escapeHtmlDetail(event.place || "-")}</strong>
     ${_escapeHtmlDetail(chileDateTime(new Date(event.time)))} (hora Chile) · ${_escapeHtmlDetail(summary)}
-    <div class="trace-note">Solo contenido sobre Chile, desde 5 min antes hasta 6 h después del sismo.</div>
     ${notes.map((note) => `<div class="trace-note">${_escapeHtmlDetail(note)}</div>`).join("")}
     <button type="button" data-trace-reset>Volver a en vivo</button>
   `;
 
-  // Avisos honestos cuando el archivo no alcanza a cubrir el sismo: el archivo
-  // parte el dia que se empezo a guardar, hacia atras no hay nada.
-  const traceNotes = (archiveFrom, startMs, total, shown, backfilled, noun) => {
+  // Aviso cuando el archivo continuo no alcanza a cubrir el sismo (parte el dia
+  // que se empezo a guardar). Si el sismo se recupero por busqueda historica
+  // (backfill) no se avisa nada, a pedido.
+  const traceNotes = (archiveFrom, startMs, total, shown, backfilled) => {
     const notes = [];
-    if (archiveFrom && startMs < archiveFrom.getTime()) {
-      notes.push(
-        backfilled
-          ? `${noun} recuperadas con una búsqueda histórica (no hay archivo continuo de esa fecha): puede faltar contenido.`
-          : `El archivo parte el ${chileDateTime(archiveFrom)}; este sismo es anterior, por eso puede faltar información.`
-      );
+    if (archiveFrom && startMs < archiveFrom.getTime() && !backfilled) {
+      notes.push(`El archivo parte el ${chileDateTime(archiveFrom)}; este sismo es anterior, por eso puede faltar información.`);
     }
     if (total > shown) notes.push(`Mostrando las primeras ${shown} de ${total}.`);
     return notes;
@@ -426,13 +422,13 @@
       event,
       "Publicaciones",
       `${live.total} publicaci${live.total === 1 ? "ón" : "ones"}`,
-      traceNotes(trace.liveFrom, trace.startMs, live.total, live.items.length, trace.liveBackfilled, "Publicaciones")
+      traceNotes(trace.liveFrom, trace.startMs, live.total, live.items.length, trace.liveBackfilled)
     );
     mediaTraceBanner.innerHTML = traceBannerHtml(
       event,
       "Noticias",
       `${media.total} noticia${media.total === 1 ? "" : "s"}`,
-      traceNotes(trace.mediaFrom, trace.startMs, media.total, media.items.length, trace.mediaBackfilled, "Noticias")
+      traceNotes(trace.mediaFrom, trace.startMs, media.total, media.items.length, trace.mediaBackfilled)
     );
     SismosApp.renderLiveFeed(live.items, liveFeedBody, {
       absoluteTime: true,
