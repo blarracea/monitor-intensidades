@@ -352,8 +352,7 @@
   };
 
   // --- Trazabilidad: publicaciones y noticias de un sismo elegido ---
-  const chileDateTime = (date) =>
-    date.toLocaleString("es-CL", { timeZone: "America/Santiago", dateStyle: "short", timeStyle: "short" });
+  const chileDateTime = (date) => SismosApp.formatChileDateTime24(date);
 
   const traceBannerHtml = (event, title, summary, notes) => `
     <strong>${title} del sismo M${_escapeHtmlDetail(event.magnitude ?? "?")} · ${_escapeHtmlDetail(event.place || "-")}</strong>

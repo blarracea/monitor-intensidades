@@ -1,6 +1,22 @@
 /* Carga data/index.json y los archivos diarios que necesita el dashboard. */
 window.SismosApp = window.SismosApp || {};
 
+/* Fecha y hora de Chile en formato de 24 horas, sin "a. m."/"p. m." (a
+   pedido). hourCycle "h23" y no hour12:false: en algunos navegadores hour12:false
+   muestra la medianoche como "24:05". */
+SismosApp.formatChileDateTime24 = function (date, withSeconds = false) {
+  return date.toLocaleString("es-CL", {
+    timeZone: "America/Santiago",
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+    ...(withSeconds ? { second: "2-digit" } : {}),
+    hourCycle: "h23",
+  });
+};
+
 // data/YYYY-MM-DD.json particiona por fecha UTC (ver storage._event_date en
 // el backend), pero Chile esta en UTC-3 (o UTC-4 en horario de invierno) --
 // las ultimas ~3-4 horas de cada dia CHILENO (Chile 20/21:00 a 23:59) caen

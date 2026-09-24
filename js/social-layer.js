@@ -17,7 +17,7 @@ SismosApp.renderSocialFeed = function (mentions, container, options = {}) {
   container.innerHTML = mentions
     .map((m) => {
       const when = m.published
-        ? new Date(m.published).toLocaleString("es-CL", { timeZone: "America/Santiago" })
+        ? SismosApp.formatChileDateTime24(new Date(m.published), true)
         : "";
       const place = m.place ? `<span class="social-card-place">📍 ${_capitalize(m.place)}</span>` : "";
       return `
