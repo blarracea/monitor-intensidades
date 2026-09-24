@@ -2429,5 +2429,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384313.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "pr71534443",
+    "source": "usgs",
+    "time": "2026-09-24T21:21:45.340000+00:00",
+    "updated": "2026-09-24T21:55:21.280000+00:00",
+    "lat": 17.9326666666667,
+    "lon": -66.9596666666667,
+    "depth_km": 7.71,
+    "magnitude": 2.65,
+    "mag_type": "md",
+    "place": "6 km SW of Guánica, Puerto Rico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71534443",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
