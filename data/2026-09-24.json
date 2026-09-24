@@ -232,7 +232,7 @@
     "id": "aka2026sxksxl",
     "source": "usgs",
     "time": "2026-09-24T01:27:20.927000+00:00",
-    "updated": "2026-09-24T05:26:03.640000+00:00",
+    "updated": "2026-09-24T12:34:08.762000+00:00",
     "lat": 62.04,
     "lon": -149.756,
     "depth_km": 26.8,
@@ -241,7 +241,7 @@
     "place": "14 km SSE of Susitna North, Alaska",
     "cdi": 3.1,
     "mmi": 3.409,
-    "felt_reports": 46,
+    "felt_reports": 47,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -363,6 +363,12 @@
         "lon": -149.87452000000002,
         "intensity": 2.2,
         "responses": 2
+      },
+      {
+        "lat": 61.636425,
+        "lon": -149.6325625,
+        "intensity": 2.2,
+        "responses": 1
       },
       {
         "lat": 61.305675,
@@ -1407,9 +1413,9 @@
     "time": "2026-09-24T12:22:26+00:00",
     "updated": "2026-09-24T12:22:26+00:00",
     "lat": -33.8,
-    "lon": -72.03,
+    "lon": -72.02,
     "depth_km": 31.0,
-    "magnitude": 3.5,
+    "magnitude": 3.3,
     "mag_type": "MLv",
     "place": "25 km al NO de Navidad, Chile",
     "cdi": null,
