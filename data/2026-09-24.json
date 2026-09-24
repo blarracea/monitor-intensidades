@@ -3,16 +3,16 @@
     "id": "hv75042947",
     "source": "usgs",
     "time": "2026-09-24T00:05:12.310000+00:00",
-    "updated": "2026-09-24T02:57:23.040000+00:00",
+    "updated": "2026-09-24T09:34:19.239000+00:00",
     "lat": 19.3303333333333,
     "lon": -155.827666666667,
     "depth_km": 7.39,
     "magnitude": 3.18,
     "mag_type": "ml",
     "place": "Island of Hawaii, Hawaii",
-    "cdi": 2.8,
+    "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 10,
+    "felt_reports": 11,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -54,6 +54,12 @@
       {
         "lat": 19.41656,
         "lon": -155.90894500000002,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 19.326905,
+        "lon": -155.869315,
         "intensity": 2,
         "responses": 1
       },
