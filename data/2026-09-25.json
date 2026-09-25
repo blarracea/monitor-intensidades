@@ -473,7 +473,7 @@
     "id": "us6000txjq",
     "source": "usgs",
     "time": "2026-09-25T09:04:36.235000+00:00",
-    "updated": "2026-09-25T12:13:00.634000+00:00",
+    "updated": "2026-09-25T12:54:20.326000+00:00",
     "lat": 38.1037,
     "lon": -0.9501,
     "depth_km": 10,
@@ -482,7 +482,7 @@
     "place": "2 km NNW of Orihuela, Spain",
     "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 5,
+    "felt_reports": 6,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -500,6 +500,12 @@
       {
         "lat": 37.8000275,
         "lon": -1.006575,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 37.921185,
+        "lon": -0.73029,
         "intensity": 2.7,
         "responses": 1
       },
