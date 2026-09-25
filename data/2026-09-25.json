@@ -1818,5 +1818,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384430.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000txp8",
+    "source": "usgs",
+    "time": "2026-09-25T20:41:09.329000+00:00",
+    "updated": "2026-09-25T20:59:25.040000+00:00",
+    "lat": -11.7022,
+    "lon": 166.6797,
+    "depth_km": 223.583,
+    "magnitude": 4.6,
+    "mag_type": "mb",
+    "place": "144 km SE of Lata, Solomon Islands",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txp8",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
