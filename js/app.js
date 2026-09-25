@@ -496,6 +496,7 @@
           timeZone: "America/Santiago",
           hour: "2-digit",
           minute: "2-digit",
+          hourCycle: "h23", // 24 horas, sin a. m./p. m. (medianoche = 00:05, no 24:05)
         });
         return `<tr data-idx="${idx}"><td>${hora}</td><td>${event.place || "-"}</td><td>${event.magnitude ?? "-"}</td></tr>`;
       })
