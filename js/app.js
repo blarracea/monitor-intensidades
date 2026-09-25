@@ -430,7 +430,6 @@
       traceNotes(trace.mediaFrom, trace.startMs, media.total, media.items.length, trace.mediaBackfilled)
     );
     SismosApp.renderLiveFeed(live.items, liveFeedBody, {
-      absoluteTime: true,
       emptyMessage: "No hay publicaciones archivadas de Chile para este sismo.",
     });
     SismosApp.renderSocialFeed(media.items, socialFeedBody, {

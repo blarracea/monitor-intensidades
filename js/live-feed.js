@@ -15,9 +15,9 @@ const PLATFORM_BADGE = {
   mastodon: { icon: "🐘", label: "Mastodon" },
 };
 
-// options.absoluteTime: en la vista de un sismo pasado, "hace 5 d" no sirve --
-// se muestra fecha y hora de Chile. options.emptyMessage: texto cuando no hay
-// nada (distinto en vivo que en la vista de un sismo).
+// options.emptyMessage: texto cuando no hay nada (distinto en vivo que en la
+// vista de un sismo). La hora de cada post es siempre fecha y hora de Chile en
+// 24 horas (a pedido, igual que el resto del dashboard), nunca "hace N min".
 SismosApp.renderLiveFeed = function (mentions, container, options = {}) {
   if (mentions.length === 0) {
     container.innerHTML = `<p class="live-feed-empty">${_escapeHtmlLive(options.emptyMessage || "Sin posts recientes.")}</p>`;
@@ -26,11 +26,7 @@ SismosApp.renderLiveFeed = function (mentions, container, options = {}) {
 
   container.innerHTML = mentions
     .map((m) => {
-      const when = m.published
-        ? options.absoluteTime
-          ? SismosApp.formatChileDateTime24(new Date(m.published))
-          : _timeAgoLive(new Date(m.published))
-        : "";
+      const when = m.published ? SismosApp.formatChileDateTime24(new Date(m.published)) : "";
       const avatar = m.author_avatar
         ? `<img class="live-card-avatar" src="${_escapeAttrLive(_safeUrlLive(m.author_avatar))}" alt="" />`
         : '<span class="live-card-avatar"></span>';
@@ -54,17 +50,6 @@ SismosApp.renderLiveFeed = function (mentions, container, options = {}) {
     })
     .join("");
 };
-
-function _timeAgoLive(date) {
-  const seconds = Math.floor((Date.now() - date.getTime()) / 1000);
-  if (seconds < 60) return "ahora";
-  const minutes = Math.floor(seconds / 60);
-  if (minutes < 60) return `hace ${minutes} min`;
-  const hours = Math.floor(minutes / 60);
-  if (hours < 24) return `hace ${hours} h`;
-  const days = Math.floor(hours / 24);
-  return `hace ${days} d`;
-}
 
 function _escapeHtmlLive(text) {
   const div = document.createElement("div");
