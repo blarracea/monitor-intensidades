@@ -420,5 +420,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384347.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000txj1",
+    "source": "usgs",
+    "time": "2026-09-25T05:57:51.890000+00:00",
+    "updated": "2026-09-25T06:20:16.040000+00:00",
+    "lat": 34.7286,
+    "lon": -103.7598,
+    "depth_km": 9.36,
+    "magnitude": 2.5,
+    "mag_type": "mb_lg",
+    "place": "16 km NE of House, New Mexico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txj1",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
