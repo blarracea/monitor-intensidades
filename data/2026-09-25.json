@@ -348,5 +348,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384343.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "uu80157966",
+    "source": "usgs",
+    "time": "2026-09-25T05:41:42.720000+00:00",
+    "updated": "2026-09-25T05:51:22.790000+00:00",
+    "lat": 41.5663333333333,
+    "lon": -109.881666666667,
+    "depth_km": -3.37,
+    "magnitude": 3.1,
+    "mag_type": "ml",
+    "place": "3 km NW of Little America, Wyoming",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80157966",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
