@@ -1402,16 +1402,16 @@
     "id": "hv75043722",
     "source": "usgs",
     "time": "2026-09-25T17:54:48.110000+00:00",
-    "updated": "2026-09-25T18:03:54.718000+00:00",
+    "updated": "2026-09-25T18:09:03.048000+00:00",
     "lat": 19.4190006256104,
     "lon": -155.888336181641,
     "depth_km": -1.07000005245209,
     "magnitude": 3.06,
     "mag_type": "ml",
     "place": "4 km SSW of Honaunau-Napoopoo, Hawaii",
-    "cdi": 3.1,
+    "cdi": 3.2,
     "mmi": null,
-    "felt_reports": 9,
+    "felt_reports": 15,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1421,9 +1421,27 @@
         "responses": 2
       },
       {
+        "lat": 19.39896,
+        "lon": -155.8800925,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 19.434915,
+        "lon": -155.89024,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
         "lat": 19.44394,
         "lon": -155.8904,
         "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 19.417165,
+        "lon": -155.87089500000002,
+        "intensity": 3.1,
         "responses": 1
       },
       {
@@ -1433,16 +1451,28 @@
         "responses": 1
       },
       {
+        "lat": 19.4078375,
+        "lon": -155.889765,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
         "lat": 19.47989,
         "lon": -155.90055999999998,
-        "intensity": 2.9,
-        "responses": 1
+        "intensity": 2.8,
+        "responses": 2
       },
       {
         "lat": 19.4531175,
         "lon": -155.881045,
         "intensity": 2.2,
         "responses": 2
+      },
+      {
+        "lat": 19.5156875,
+        "lon": -155.92024,
+        "intensity": 2,
+        "responses": 1
       },
       {
         "lat": 19.45327,
