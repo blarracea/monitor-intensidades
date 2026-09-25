@@ -444,5 +444,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txj1",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384352.html",
+    "source": "csn",
+    "time": "2026-09-25T08:21:20+00:00",
+    "updated": "2026-09-25T08:21:20+00:00",
+    "lat": -21.48,
+    "lon": -68.61,
+    "depth_km": 139.0,
+    "magnitude": 2.6,
+    "mag_type": "MLv",
+    "place": "47 km al SO de Ollagüe, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384352.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384352.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
