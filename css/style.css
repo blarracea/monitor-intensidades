@@ -40,7 +40,7 @@ body {
    ancho de los elementos de los costados. */
 .app-header h1 {
   margin: 0;
-  font-size: 1.4rem;
+  font-size: 1.525rem; /* 24,4 px (antes 22,4: +2 px, a pedido) */
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -846,7 +846,7 @@ h2.live-feed-title {
     order: 3;
     width: 100%;
     text-align: center;
-    font-size: 1.05rem;
+    font-size: 1.175rem; /* 18,8 px (antes 16,8: +2 px) */
     white-space: normal;
     line-height: 1.25;
   }
