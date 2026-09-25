@@ -2030,5 +2030,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt26268000",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384441.html",
+    "source": "csn",
+    "time": "2026-09-25T21:50:35+00:00",
+    "updated": "2026-09-25T21:50:35+00:00",
+    "lat": -21.63,
+    "lon": -70.36,
+    "depth_km": 16.0,
+    "magnitude": 3.2,
+    "mag_type": "MLv",
+    "place": "55 km al N de Tocopilla, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384441.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384441.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
