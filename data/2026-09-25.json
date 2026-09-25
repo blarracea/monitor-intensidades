@@ -541,5 +541,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75043607",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384360.html",
+    "source": "csn",
+    "time": "2026-09-25T10:29:33+00:00",
+    "updated": "2026-09-25T10:29:33+00:00",
+    "lat": -23.81,
+    "lon": -67.28,
+    "depth_km": 232.0,
+    "magnitude": 3.1,
+    "mag_type": "MLv",
+    "place": "67 km al E de Socaire, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384360.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384360.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
