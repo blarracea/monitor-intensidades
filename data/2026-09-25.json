@@ -1842,5 +1842,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txp8",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384434.html",
+    "source": "csn",
+    "time": "2026-09-25T21:03:56+00:00",
+    "updated": "2026-09-25T21:03:56+00:00",
+    "lat": -22.19,
+    "lon": -68.84,
+    "depth_km": 110.0,
+    "magnitude": 2.9,
+    "mag_type": "MLv",
+    "place": "33 km al N de Calama, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384434.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384434.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
