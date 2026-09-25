@@ -1925,23 +1925,23 @@
     "id": "us6000txpi",
     "source": "usgs",
     "time": "2026-09-25T21:23:03.309000+00:00",
-    "updated": "2026-09-25T21:44:38.272000+00:00",
+    "updated": "2026-09-25T21:48:36.726000+00:00",
     "lat": -21.2982,
     "lon": 168.61,
     "depth_km": 10,
     "magnitude": 6.6,
     "mag_type": "mww",
     "place": "80 km ENE of Tadine, New Caledonia",
-    "cdi": 2,
+    "cdi": 2.3,
     "mmi": 5.672,
-    "felt_reports": 2,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": -22.26168,
         "lon": 166.4412075,
-        "intensity": 2.5,
-        "responses": 1
+        "intensity": 3,
+        "responses": 2
       },
       {
         "lat": -22.2796575,
