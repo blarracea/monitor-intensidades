@@ -613,5 +613,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txjy",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384362.html",
+    "source": "csn",
+    "time": "2026-09-25T11:38:25+00:00",
+    "updated": "2026-09-25T11:38:25+00:00",
+    "lat": -28.85,
+    "lon": -71.42,
+    "depth_km": 20.0,
+    "magnitude": 2.5,
+    "mag_type": "MLv",
+    "place": "45 km al N de Punta de Choros, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384362.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384362.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
