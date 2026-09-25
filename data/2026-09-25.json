@@ -226,7 +226,7 @@
     "id": "us6000txil",
     "source": "usgs",
     "time": "2026-09-25T04:26:30.062000+00:00",
-    "updated": "2026-09-25T05:26:07.909000+00:00",
+    "updated": "2026-09-25T19:07:06.591000+00:00",
     "lat": -11.3812,
     "lon": -77.721,
     "depth_km": 45.943,
@@ -235,7 +235,7 @@
     "place": "32 km SSW of Huacho, Peru",
     "cdi": 4.3,
     "mmi": null,
-    "felt_reports": 5,
+    "felt_reports": 6,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -254,6 +254,12 @@
         "lat": -12.137055,
         "lon": -76.9894475,
         "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": -12.191015,
+        "lon": -77.0266,
+        "intensity": 2,
         "responses": 1
       },
       {
