@@ -226,7 +226,7 @@
     "id": "us6000txil",
     "source": "usgs",
     "time": "2026-09-25T04:26:30.062000+00:00",
-    "updated": "2026-09-25T19:07:06.591000+00:00",
+    "updated": "2026-09-25T21:15:32.018000+00:00",
     "lat": -11.3812,
     "lon": -77.721,
     "depth_km": 45.943,
@@ -235,7 +235,7 @@
     "place": "32 km SSW of Huacho, Peru",
     "cdi": 4.3,
     "mmi": null,
-    "felt_reports": 6,
+    "felt_reports": 7,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1841,6 +1841,30 @@
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txp8",
     "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000txpf",
+    "source": "usgs",
+    "time": "2026-09-25T21:01:27.262000+00:00",
+    "updated": "2026-09-25T21:18:30.040000+00:00",
+    "lat": 28.5744,
+    "lon": 104.7032,
+    "depth_km": 10,
+    "magnitude": 5,
+    "mag_type": "mb",
+    "place": "13 km N of Xunchang, China",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txpf",
+    "relevant": true,
     "keywords_matched": []
   },
   {
