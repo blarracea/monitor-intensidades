@@ -1890,5 +1890,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384434.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "pt26268000",
+    "source": "usgs",
+    "time": "2026-09-25T21:23:05+00:00",
+    "updated": "2026-09-25T21:31:03.972000+00:00",
+    "lat": -21.246,
+    "lon": 168.453,
+    "depth_km": 17.1,
+    "magnitude": 7,
+    "mag_type": "Mi",
+    "place": "68 km ENE of Tadine, New Caledonia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt26268000",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
