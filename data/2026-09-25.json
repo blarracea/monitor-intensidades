@@ -118,5 +118,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026swhsch",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000txi7",
+    "source": "usgs",
+    "time": "2026-09-25T02:42:31.424000+00:00",
+    "updated": "2026-09-25T03:04:52.040000+00:00",
+    "lat": 43.5977,
+    "lon": 39.4641,
+    "depth_km": 10,
+    "magnitude": 4.1,
+    "mag_type": "mb",
+    "place": "16 km SSW of Vardane, Russia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txi7",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
