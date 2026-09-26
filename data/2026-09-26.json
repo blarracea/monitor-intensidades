@@ -1722,8 +1722,15 @@
     "mmi": 4.268,
     "felt_reports": 1,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": -3.1166875,
+        "lon": 152.5995,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "snam_url": null,
