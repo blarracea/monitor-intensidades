@@ -171,16 +171,16 @@
     "id": "nc75442207",
     "source": "usgs",
     "time": "2026-09-26T03:42:49.570000+00:00",
-    "updated": "2026-09-26T04:01:37.471000+00:00",
+    "updated": "2026-09-26T04:06:37.825000+00:00",
     "lat": 39.0108337402344,
     "lon": -123.484169006348,
     "depth_km": 4,
     "magnitude": 3.73,
     "mag_type": "mw",
     "place": "10 km W of Boonville, CA",
-    "cdi": 4.4,
+    "cdi": 4.3,
     "mmi": 4.207,
-    "felt_reports": 82,
+    "felt_reports": 94,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -208,12 +208,6 @@
         "responses": 1
       },
       {
-        "lat": 39.023935,
-        "lon": -123.3754475,
-        "intensity": 4.5,
-        "responses": 1
-      },
-      {
         "lat": 39.004490000000004,
         "lon": -123.68717,
         "intensity": 4.3,
@@ -229,6 +223,18 @@
         "lat": 39.077420000000004,
         "lon": -123.5260225,
         "intensity": 4.3,
+        "responses": 1
+      },
+      {
+        "lat": 39.023935,
+        "lon": -123.3754475,
+        "intensity": 3.9,
+        "responses": 2
+      },
+      {
+        "lat": 39.194285,
+        "lon": -123.5847925,
+        "intensity": 3.8,
         "responses": 1
       },
       {
@@ -276,8 +282,8 @@
       {
         "lat": 39.02251,
         "lon": -123.68734,
-        "intensity": 3.6,
-        "responses": 2
+        "intensity": 3.7,
+        "responses": 3
       },
       {
         "lat": 39.08658,
@@ -300,6 +306,12 @@
       {
         "lat": 38.91438,
         "lon": -123.6862975,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 39.0510375,
+        "lon": -123.3524775,
         "intensity": 3.4,
         "responses": 1
       },
@@ -364,12 +376,6 @@
         "responses": 1
       },
       {
-        "lat": 39.005945,
-        "lon": -123.3638,
-        "intensity": 3.1,
-        "responses": 2
-      },
-      {
         "lat": 39.1305,
         "lon": -123.71153,
         "intensity": 3.1,
@@ -380,6 +386,18 @@
         "lon": -123.69774000000001,
         "intensity": 3.1,
         "responses": 1
+      },
+      {
+        "lat": 39.005945,
+        "lon": -123.3638,
+        "intensity": 3.1,
+        "responses": 3
+      },
+      {
+        "lat": 39.0149225,
+        "lon": -123.3754,
+        "intensity": 3,
+        "responses": 2
       },
       {
         "lat": 38.91431,
@@ -394,10 +412,10 @@
         "responses": 2
       },
       {
-        "lat": 38.708295,
-        "lon": -123.44279750000001,
-        "intensity": 2.8,
-        "responses": 2
+        "lat": 39.0059825,
+        "lon": -123.3522525,
+        "intensity": 2.7,
+        "responses": 1
       },
       {
         "lat": 38.914645,
@@ -406,14 +424,14 @@
         "responses": 1
       },
       {
-        "lat": 38.905695,
-        "lon": -123.62855,
+        "lat": 39.184560000000005,
+        "lon": -123.712075,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 39.0149225,
-        "lon": -123.3754,
+        "lat": 38.905695,
+        "lon": -123.62855,
         "intensity": 2.7,
         "responses": 1
       },
@@ -451,7 +469,7 @@
         "lat": 39.150515,
         "lon": -123.2025225,
         "intensity": 2.5,
-        "responses": 2
+        "responses": 3
       },
       {
         "lat": 39.132475,
@@ -518,6 +536,18 @@
         "lon": -123.535275,
         "intensity": 2.2,
         "responses": 1
+      },
+      {
+        "lat": 38.869524999999996,
+        "lon": -123.651285,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 38.708295,
+        "lon": -123.44279750000001,
+        "intensity": 2.1,
+        "responses": 3
       },
       {
         "lat": 39.339420000000004,
@@ -604,19 +634,38 @@
     "id": "nc75442217",
     "source": "usgs",
     "time": "2026-09-26T04:02:07.440000+00:00",
-    "updated": "2026-09-26T04:04:45.794000+00:00",
+    "updated": "2026-09-26T04:09:49.244000+00:00",
     "lat": 39.013500213623,
     "lon": -123.483001708984,
     "depth_km": 3.46000003814697,
     "magnitude": 2.74,
     "mag_type": "md",
     "place": "10 km W of Boonville, CA",
-    "cdi": 0,
+    "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 6,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 39.068745,
+        "lon": -123.44504,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 39.050845,
+        "lon": -123.4102575,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 39.014885,
+        "lon": -123.38695000000001,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "snam_url": null,
