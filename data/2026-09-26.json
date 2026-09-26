@@ -94,5 +94,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txr0",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384464.html",
+    "source": "csn",
+    "time": "2026-09-26T03:19:45+00:00",
+    "updated": "2026-09-26T03:19:45+00:00",
+    "lat": -21.13,
+    "lon": -68.78,
+    "depth_km": 132.0,
+    "magnitude": 3.1,
+    "mag_type": "MLv",
+    "place": "36 km al S de Mina Collahuasi, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384464.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384464.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
