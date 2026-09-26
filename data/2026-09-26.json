@@ -1839,5 +1839,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txtn",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "pr71534743",
+    "source": "usgs",
+    "time": "2026-09-26T15:03:03.030000+00:00",
+    "updated": "2026-09-26T15:28:19.650000+00:00",
+    "lat": 17.839,
+    "lon": -65.1946666666667,
+    "depth_km": 11.76,
+    "magnitude": 3.21,
+    "mag_type": "md",
+    "place": "40 km SE of Esperanza, Puerto Rico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71534743",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
