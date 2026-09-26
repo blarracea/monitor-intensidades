@@ -70,5 +70,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txqv",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000txr0",
+    "source": "usgs",
+    "time": "2026-09-26T02:52:55.988000+00:00",
+    "updated": "2026-09-26T03:06:32.040000+00:00",
+    "lat": 68.8565,
+    "lon": -16.9554,
+    "depth_km": 10,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "Iceland region",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txr0",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
