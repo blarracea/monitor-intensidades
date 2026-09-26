@@ -2270,9 +2270,18 @@
     "mmi": null,
     "felt_reports": null,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
-    "senapred_url": null,
+    "dyfi_points": [
+      {
+        "lat": -20.2133,
+        "lon": -70.1503,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Iquique",
+        "region": "Tarapacá"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-tarapaca-2026-09-26-16-51-55",
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384545.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384545.html",
