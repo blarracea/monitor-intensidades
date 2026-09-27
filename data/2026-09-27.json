@@ -276,5 +276,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384595.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000txwy",
+    "source": "usgs",
+    "time": "2026-09-27T04:59:48.847000+00:00",
+    "updated": "2026-09-27T05:17:35.040000+00:00",
+    "lat": -8.8929,
+    "lon": 158.0533,
+    "depth_km": 10,
+    "magnitude": 4.9,
+    "mag_type": "mb",
+    "place": "159 km ESE of Gizo, Solomon Islands",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txwy",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
