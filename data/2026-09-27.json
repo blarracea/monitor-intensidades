@@ -1495,7 +1495,7 @@
     "id": "ci41339927",
     "source": "usgs",
     "time": "2026-09-27T15:40:01.580000+00:00",
-    "updated": "2026-09-27T19:00:49.247000+00:00",
+    "updated": "2026-09-27T19:06:06.682000+00:00",
     "lat": 33.844165802002,
     "lon": -118.464996337891,
     "depth_km": 11.8500003814697,
@@ -1504,7 +1504,7 @@
     "place": "6 km WSW of Hermosa Beach, CA",
     "cdi": 3.4,
     "mmi": 3.461,
-    "felt_reports": 1948,
+    "felt_reports": 1950,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1844,12 +1844,6 @@
         "responses": 4
       },
       {
-        "lat": 33.88691,
-        "lon": -118.4003975,
-        "intensity": 3.3,
-        "responses": 21
-      },
-      {
         "lat": 33.8958025,
         "lon": -118.4113575,
         "intensity": 3.3,
@@ -1860,6 +1854,12 @@
         "lon": -118.59073000000001,
         "intensity": 3.3,
         "responses": 1
+      },
+      {
+        "lat": 33.88691,
+        "lon": -118.4003975,
+        "intensity": 3.3,
+        "responses": 22
       },
       {
         "lat": 33.9586675,
@@ -1890,12 +1890,6 @@
         "lon": -118.24058,
         "intensity": 3.3,
         "responses": 2
-      },
-      {
-        "lat": 33.985335,
-        "lon": -118.46696,
-        "intensity": 3.2,
-        "responses": 11
       },
       {
         "lat": 33.8329325,
@@ -1938,6 +1932,12 @@
         "lon": -118.37804750000001,
         "intensity": 3.2,
         "responses": 9
+      },
+      {
+        "lat": 33.985335,
+        "lon": -118.46696,
+        "intensity": 3.2,
+        "responses": 12
       },
       {
         "lat": 33.81538,
@@ -4854,6 +4854,30 @@
     "keywords_matched": []
   },
   {
+    "id": "us6000txzx",
+    "source": "usgs",
+    "time": "2026-09-27T18:30:09.687000+00:00",
+    "updated": "2026-09-27T19:06:22.040000+00:00",
+    "lat": 29.7444,
+    "lon": 100.2661,
+    "depth_km": 10,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "78 km N of Daocheng, China",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txzx",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384668.html",
     "source": "csn",
     "time": "2026-09-27T18:50:36+00:00",
@@ -4902,12 +4926,44 @@
         "region": "Los Lagos"
       },
       {
+        "lat": -43.185771,
+        "lon": -71.866702,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Futaleufú",
+        "region": "Los Lagos"
+      },
+      {
+        "lat": -43.6178268,
+        "lon": -71.8039587,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Palena",
+        "region": "Los Lagos"
+      },
+      {
         "lat": -42.4821,
         "lon": -73.7628,
         "intensity": 3,
         "responses": null,
         "comuna": "Castro",
         "region": "Los Lagos"
+      },
+      {
+        "lat": -43.1200305,
+        "lon": -73.6203025,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Quellón",
+        "region": "Los Lagos"
+      },
+      {
+        "lat": -43.7771432,
+        "lon": -72.9521283,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Raúl Marín Balmaceda",
+        "region": "Aysén del General Carlos Ibáñez del Campo"
       }
     ],
     "intensity_source": "csn",
