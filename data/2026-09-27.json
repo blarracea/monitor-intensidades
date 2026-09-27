@@ -1320,15 +1320,15 @@
     "id": "nc75443097",
     "source": "usgs",
     "time": "2026-09-27T14:21:50.350000+00:00",
-    "updated": "2026-09-27T17:28:56.475000+00:00",
+    "updated": "2026-09-27T18:59:46.724000+00:00",
     "lat": 37.417667388916,
     "lon": -121.455497741699,
     "depth_km": 2.41000008583069,
-    "magnitude": 3.45,
-    "mag_type": "ml",
+    "magnitude": 3.32,
+    "mag_type": "mw",
     "place": "27 km WSW of Westley, CA",
     "cdi": 2,
-    "mmi": 3.612,
+    "mmi": 3.618,
     "felt_reports": 13,
     "tsunami_flag": false,
     "dyfi_points": [
@@ -1495,7 +1495,7 @@
     "id": "ci41339927",
     "source": "usgs",
     "time": "2026-09-27T15:40:01.580000+00:00",
-    "updated": "2026-09-27T18:50:22.609000+00:00",
+    "updated": "2026-09-27T18:55:33.769000+00:00",
     "lat": 33.844165802002,
     "lon": -118.464996337891,
     "depth_km": 11.8500003814697,
@@ -1504,7 +1504,7 @@
     "place": "6 km WSW of Hermosa Beach, CA",
     "cdi": 3.4,
     "mmi": 3.461,
-    "felt_reports": 1943,
+    "felt_reports": 1946,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2420,16 +2420,16 @@
         "responses": 4
       },
       {
+        "lat": 33.922852500000005,
+        "lon": -118.4118,
+        "intensity": 2.9,
+        "responses": 22
+      },
+      {
         "lat": 33.9229775,
         "lon": -118.40098499999999,
         "intensity": 2.9,
         "responses": 14
-      },
-      {
-        "lat": 33.922852500000005,
-        "lon": -118.4118,
-        "intensity": 2.9,
-        "responses": 21
       },
       {
         "lat": 33.914325,
@@ -2486,12 +2486,6 @@
         "responses": 2
       },
       {
-        "lat": 33.9854625,
-        "lon": -118.4561375,
-        "intensity": 2.9,
-        "responses": 18
-      },
-      {
         "lat": 33.87826,
         "lon": -118.3678175,
         "intensity": 2.9,
@@ -2526,6 +2520,12 @@
         "lon": -118.32402,
         "intensity": 2.9,
         "responses": 2
+      },
+      {
+        "lat": 33.9854625,
+        "lon": -118.4561375,
+        "intensity": 2.8,
+        "responses": 19
       },
       {
         "lat": 34.039035,
@@ -2819,7 +2819,7 @@
         "lat": 34.004245,
         "lon": -118.39149,
         "intensity": 2.7,
-        "responses": 2
+        "responses": 3
       },
       {
         "lat": 33.79921,
@@ -4844,6 +4844,54 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384661.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384661.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384668.html",
+    "source": "csn",
+    "time": "2026-09-27T18:50:36+00:00",
+    "updated": "2026-09-27T18:50:36+00:00",
+    "lat": -22.4,
+    "lon": -68.46,
+    "depth_km": 101.0,
+    "magnitude": 2.9,
+    "mag_type": "MLv",
+    "place": "49 km al E de Calama, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384668.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384668.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384671.html",
+    "source": "csn",
+    "time": "2026-09-27T18:55:42+00:00",
+    "updated": "2026-09-27T18:55:42+00:00",
+    "lat": -43.08,
+    "lon": -72.65,
+    "depth_km": 10.0,
+    "magnitude": 4.6,
+    "mag_type": "MLv",
+    "place": "19 km al S de Chaitén, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384671.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384671.html",
     "relevant": false,
     "keywords_matched": []
   }
