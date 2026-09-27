@@ -843,7 +843,7 @@
     "id": "us6000txya",
     "source": "usgs",
     "time": "2026-09-27T10:07:08.075000+00:00",
-    "updated": "2026-09-27T22:26:07.640000+00:00",
+    "updated": "2026-09-27T22:41:43.525000+00:00",
     "lat": 18.647,
     "lon": -69.6988,
     "depth_km": 98.093,
@@ -852,7 +852,7 @@
     "place": "13 km SSW of Bayaguana, Dominican Republic",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 28,
+    "felt_reports": 29,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -960,6 +960,12 @@
       {
         "lat": 18.48847,
         "lon": -69.96143000000001,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 19.47625,
+        "lon": -70.7863875,
         "intensity": 2,
         "responses": 1
       },
@@ -1537,7 +1543,7 @@
     "id": "ci41339927",
     "source": "usgs",
     "time": "2026-09-27T15:40:01.580000+00:00",
-    "updated": "2026-09-27T22:39:10.400000+00:00",
+    "updated": "2026-09-27T22:44:29.933000+00:00",
     "lat": 33.844165802002,
     "lon": -118.464996337891,
     "depth_km": 11.8500003814697,
@@ -1546,7 +1552,7 @@
     "place": "6 km WSW of Hermosa Beach, CA",
     "cdi": 3.4,
     "mmi": 3.461,
-    "felt_reports": 2039,
+    "felt_reports": 2040,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -3182,6 +3188,12 @@
         "responses": 2
       },
       {
+        "lat": 33.976825000000005,
+        "lon": -118.42351500000001,
+        "intensity": 2.6,
+        "responses": 12
+      },
+      {
         "lat": 33.833055,
         "lon": -118.3779025,
         "intensity": 2.6,
@@ -3234,12 +3246,6 @@
         "lon": -118.42487,
         "intensity": 2.5,
         "responses": 5
-      },
-      {
-        "lat": 33.976825000000005,
-        "lon": -118.42351500000001,
-        "intensity": 2.5,
-        "responses": 11
       },
       {
         "lat": 34.01238,
@@ -5484,7 +5490,7 @@
     "id": "us6000ty0q",
     "source": "usgs",
     "time": "2026-09-27T21:49:47.544000+00:00",
-    "updated": "2026-09-27T22:36:14.392000+00:00",
+    "updated": "2026-09-27T22:41:15.852000+00:00",
     "lat": 18.6067,
     "lon": -69.0863,
     "depth_km": 107.391,
@@ -5493,7 +5499,7 @@
     "place": "11 km W of Guaymate, Dominican Republic",
     "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 110,
+    "felt_reports": 115,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -5517,6 +5523,12 @@
       {
         "lat": 18.44563,
         "lon": -69.1846675,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 18.48922,
+        "lon": -69.800415,
         "intensity": 3.8,
         "responses": 1
       },
@@ -5547,12 +5559,6 @@
       {
         "lat": 18.443335,
         "lon": -69.95170999999999,
-        "intensity": 3.8,
-        "responses": 1
-      },
-      {
-        "lat": 18.4523725,
-        "lon": -69.95176000000001,
         "intensity": 3.8,
         "responses": 1
       },
@@ -5617,6 +5623,18 @@
         "responses": 2
       },
       {
+        "lat": 18.4523725,
+        "lon": -69.95176000000001,
+        "intensity": 3.6,
+        "responses": 2
+      },
+      {
+        "lat": 18.434295,
+        "lon": -69.95166,
+        "intensity": 3.6,
+        "responses": 2
+      },
+      {
         "lat": 18.4706775,
         "lon": -69.90451,
         "intensity": 3.5,
@@ -5667,12 +5685,6 @@
       {
         "lat": 18.461265,
         "lon": -69.98022,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
-        "lat": 18.434295,
-        "lon": -69.95166,
         "intensity": 3.4,
         "responses": 1
       },
@@ -5743,6 +5755,12 @@
         "responses": 1
       },
       {
+        "lat": 18.543062499999998,
+        "lon": -69.8859375,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
         "lat": 18.425114999999998,
         "lon": -69.9800125,
         "intensity": 3.1,
@@ -5805,6 +5823,12 @@
       {
         "lat": 18.580365,
         "lon": -68.407645,
+        "intensity": 2.5,
+        "responses": 1
+      },
+      {
+        "lat": 18.488612500000002,
+        "lon": -69.93302,
         "intensity": 2.5,
         "responses": 1
       },
@@ -5958,6 +5982,30 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tenrvu",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000ty0u",
+    "source": "usgs",
+    "time": "2026-09-27T21:57:52.827000+00:00",
+    "updated": "2026-09-27T22:44:50.040000+00:00",
+    "lat": 4.5313,
+    "lon": -76.7753,
+    "depth_km": 70.497,
+    "magnitude": 4.6,
+    "mag_type": "mb",
+    "place": "19 km SW of Sipí, Colombia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty0u",
     "relevant": false,
     "keywords_matched": []
   }
