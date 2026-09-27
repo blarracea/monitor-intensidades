@@ -787,7 +787,7 @@
     "id": "us6000txya",
     "source": "usgs",
     "time": "2026-09-27T10:07:08.075000+00:00",
-    "updated": "2026-09-27T11:32:07.505000+00:00",
+    "updated": "2026-09-27T11:37:21.004000+00:00",
     "lat": 18.647,
     "lon": -69.6988,
     "depth_km": 98.093,
@@ -796,7 +796,7 @@
     "place": "13 km SSW of Bayaguana, Dominican Republic",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 13,
+    "felt_reports": 15,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -808,8 +808,8 @@
       {
         "lat": 18.4795275,
         "lon": -69.94244,
-        "intensity": 3.3,
-        "responses": 1
+        "intensity": 3.1,
+        "responses": 3
       },
       {
         "lat": 18.54315,
@@ -949,6 +949,30 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txyd",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000txyf",
+    "source": "usgs",
+    "time": "2026-09-27T10:57:07.641000+00:00",
+    "updated": "2026-09-27T11:38:44.040000+00:00",
+    "lat": 68.9242,
+    "lon": -17.2234,
+    "depth_km": 10,
+    "magnitude": 4.3,
+    "mag_type": "mb",
+    "place": "Iceland region",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txyf",
     "relevant": false,
     "keywords_matched": []
   }
