@@ -1495,7 +1495,7 @@
     "id": "ci41339927",
     "source": "usgs",
     "time": "2026-09-27T15:40:01.580000+00:00",
-    "updated": "2026-09-27T21:29:23.752000+00:00",
+    "updated": "2026-09-27T21:34:32.550000+00:00",
     "lat": 33.844165802002,
     "lon": -118.464996337891,
     "depth_km": 11.8500003814697,
@@ -1504,7 +1504,7 @@
     "place": "6 km WSW of Hermosa Beach, CA",
     "cdi": 3.4,
     "mmi": 3.461,
-    "felt_reports": 2016,
+    "felt_reports": 2019,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2330,12 +2330,6 @@
         "responses": 12
       },
       {
-        "lat": 33.85121,
-        "lon": -118.3673875,
-        "intensity": 3,
-        "responses": 13
-      },
-      {
         "lat": 33.79711,
         "lon": -118.366525,
         "intensity": 3,
@@ -2358,6 +2352,12 @@
         "lon": -118.3671,
         "intensity": 3,
         "responses": 3
+      },
+      {
+        "lat": 33.85121,
+        "lon": -118.3673875,
+        "intensity": 3,
+        "responses": 14
       },
       {
         "lat": 34.048445,
@@ -2516,12 +2516,6 @@
         "responses": 2
       },
       {
-        "lat": 34.003235000000004,
-        "lon": -118.4780975,
-        "intensity": 2.8,
-        "responses": 8
-      },
-      {
         "lat": 34.039035,
         "lon": -118.500385,
         "intensity": 2.8,
@@ -2556,6 +2550,12 @@
         "lon": -118.4889225,
         "intensity": 2.8,
         "responses": 3
+      },
+      {
+        "lat": 34.003235000000004,
+        "lon": -118.4780975,
+        "intensity": 2.8,
+        "responses": 9
       },
       {
         "lat": 33.994857499999995,
@@ -3210,6 +3210,12 @@
         "lon": -118.379355,
         "intensity": 2.5,
         "responses": 5
+      },
+      {
+        "lat": 33.7886775,
+        "lon": -118.31239,
+        "intensity": 2.5,
+        "responses": 3
       },
       {
         "lat": 33.7696975,
@@ -4292,12 +4298,6 @@
         "responses": 1
       },
       {
-        "lat": 33.7886775,
-        "lon": -118.31239,
-        "intensity": 2,
-        "responses": 2
-      },
-      {
         "lat": 33.89653,
         "lon": -118.34648250000001,
         "intensity": 2,
@@ -5110,7 +5110,7 @@
     "id": "nc75443252",
     "source": "usgs",
     "time": "2026-09-27T19:10:36.830000+00:00",
-    "updated": "2026-09-27T20:19:49.345000+00:00",
+    "updated": "2026-09-27T21:32:21.824000+00:00",
     "lat": 39.3238334655762,
     "lon": -123.270164489746,
     "depth_km": -0.379999995231628,
@@ -5309,6 +5309,30 @@
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty0g",
     "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000ty0j",
+    "source": "usgs",
+    "time": "2026-09-27T21:13:31.803000+00:00",
+    "updated": "2026-09-27T21:32:11.040000+00:00",
+    "lat": -59.1357,
+    "lon": -25.9354,
+    "depth_km": 87.66,
+    "magnitude": 5,
+    "mag_type": "mb",
+    "place": "South Sandwich Islands region",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty0j",
+    "relevant": true,
     "keywords_matched": []
   },
   {
