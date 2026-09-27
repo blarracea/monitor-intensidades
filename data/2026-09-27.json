@@ -758,5 +758,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924954",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384623.html",
+    "source": "csn",
+    "time": "2026-09-27T10:00:09+00:00",
+    "updated": "2026-09-27T10:00:09+00:00",
+    "lat": -28.94,
+    "lon": -71.28,
+    "depth_km": 47.0,
+    "magnitude": 2.9,
+    "mag_type": "MLv",
+    "place": "39 km al NE de Punta de Choros, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384623.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384623.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
