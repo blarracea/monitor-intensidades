@@ -1314,7 +1314,7 @@
     "id": "nc75443097",
     "source": "usgs",
     "time": "2026-09-27T14:21:50.350000+00:00",
-    "updated": "2026-09-27T16:30:19.418000+00:00",
+    "updated": "2026-09-27T17:10:15.691000+00:00",
     "lat": 37.417667388916,
     "lon": -121.455497741699,
     "depth_km": 2.41000008583069,
@@ -1323,7 +1323,7 @@
     "place": "27 km WSW of Westley, CA",
     "cdi": 2.4,
     "mmi": 3.612,
-    "felt_reports": 11,
+    "felt_reports": 12,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1477,7 +1477,7 @@
     "id": "ci41339927",
     "source": "usgs",
     "time": "2026-09-27T15:40:01.580000+00:00",
-    "updated": "2026-09-27T17:04:07.640000+00:00",
+    "updated": "2026-09-27T17:09:39.246000+00:00",
     "lat": 33.844165802002,
     "lon": -118.464996337891,
     "depth_km": 11.8500003814697,
@@ -1486,7 +1486,7 @@
     "place": "6 km WSW of Hermosa Beach, CA",
     "cdi": 3.2,
     "mmi": 3.461,
-    "felt_reports": 1828,
+    "felt_reports": 1843,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1622,16 +1622,16 @@
         "responses": 3
       },
       {
-        "lat": 33.85986,
-        "lon": -118.3999525,
-        "intensity": 3.6,
-        "responses": 38
-      },
-      {
         "lat": 34.0128875,
         "lon": -118.42412,
         "intensity": 3.5,
         "responses": 2
+      },
+      {
+        "lat": 33.85986,
+        "lon": -118.3999525,
+        "intensity": 3.5,
+        "responses": 39
       },
       {
         "lat": 33.8778925,
@@ -1643,7 +1643,7 @@
         "lat": 33.869,
         "lon": -118.3892925,
         "intensity": 3.5,
-        "responses": 24
+        "responses": 25
       },
       {
         "lat": 33.8599825,
@@ -1820,12 +1820,6 @@
         "responses": 16
       },
       {
-        "lat": 33.860225,
-        "lon": -118.3675325,
-        "intensity": 3.3,
-        "responses": 6
-      },
-      {
         "lat": 34.236285,
         "lon": -118.59073000000001,
         "intensity": 3.3,
@@ -1866,6 +1860,12 @@
         "lon": -118.46696,
         "intensity": 3.2,
         "responses": 11
+      },
+      {
+        "lat": 33.860225,
+        "lon": -118.3675325,
+        "intensity": 3.2,
+        "responses": 7
       },
       {
         "lat": 33.985205,
@@ -2099,7 +2099,7 @@
         "lat": 33.89605,
         "lon": -118.38973,
         "intensity": 3.1,
-        "responses": 5
+        "responses": 6
       },
       {
         "lat": 34.041935,
@@ -2249,7 +2249,7 @@
         "lat": 33.84231,
         "lon": -118.3564375,
         "intensity": 3,
-        "responses": 25
+        "responses": 26
       },
       {
         "lat": 34.1738675,
@@ -2324,6 +2324,12 @@
         "responses": 4
       },
       {
+        "lat": 33.85109,
+        "lon": -118.3781925,
+        "intensity": 3,
+        "responses": 10
+      },
+      {
         "lat": 34.048445,
         "lon": -118.468045,
         "intensity": 3,
@@ -2336,12 +2342,6 @@
         "responses": 6
       },
       {
-        "lat": 33.85109,
-        "lon": -118.3781925,
-        "intensity": 2.9,
-        "responses": 9
-      },
-      {
         "lat": 33.922852500000005,
         "lon": -118.4118,
         "intensity": 2.9,
@@ -2352,6 +2352,12 @@
         "lon": -118.41373999999999,
         "intensity": 2.9,
         "responses": 1
+      },
+      {
+        "lat": 33.82428,
+        "lon": -118.35615250000001,
+        "intensity": 2.9,
+        "responses": 5
       },
       {
         "lat": 33.860345,
@@ -2400,12 +2406,6 @@
         "lon": -118.3456325,
         "intensity": 2.9,
         "responses": 2
-      },
-      {
-        "lat": 33.82428,
-        "lon": -118.35615250000001,
-        "intensity": 2.9,
-        "responses": 4
       },
       {
         "lat": 33.9138375,
@@ -2484,12 +2484,6 @@
         "lon": -118.32402,
         "intensity": 2.9,
         "responses": 2
-      },
-      {
-        "lat": 34.01238,
-        "lon": -118.4674275,
-        "intensity": 2.9,
-        "responses": 8
       },
       {
         "lat": 34.057845,
@@ -2897,7 +2891,7 @@
         "lat": 34.039685000000006,
         "lon": -118.44623,
         "intensity": 2.7,
-        "responses": 3
+        "responses": 4
       },
       {
         "lat": 34.24982,
@@ -2996,6 +2990,12 @@
         "responses": 1
       },
       {
+        "lat": 33.92322,
+        "lon": -118.379355,
+        "intensity": 2.7,
+        "responses": 4
+      },
+      {
         "lat": 33.78785,
         "lon": -118.38798,
         "intensity": 2.7,
@@ -3056,12 +3056,6 @@
         "responses": 11
       },
       {
-        "lat": 33.959525,
-        "lon": -118.358295,
-        "intensity": 2.7,
-        "responses": 5
-      },
-      {
         "lat": 33.959162500000005,
         "lon": -118.390755,
         "intensity": 2.6,
@@ -3090,6 +3084,12 @@
         "lon": -118.32319,
         "intensity": 2.6,
         "responses": 3
+      },
+      {
+        "lat": 33.959525,
+        "lon": -118.358295,
+        "intensity": 2.6,
+        "responses": 6
       },
       {
         "lat": 33.887275,
@@ -3126,12 +3126,6 @@
         "lon": -118.3779025,
         "intensity": 2.6,
         "responses": 8
-      },
-      {
-        "lat": 33.92322,
-        "lon": -118.379355,
-        "intensity": 2.5,
-        "responses": 3
       },
       {
         "lat": 33.778835,
@@ -3212,6 +3206,12 @@
         "responses": 2
       },
       {
+        "lat": 33.8697125,
+        "lon": -118.324435,
+        "intensity": 2.5,
+        "responses": 6
+      },
+      {
         "lat": 33.90531,
         "lon": -118.36825,
         "intensity": 2.5,
@@ -3234,6 +3234,12 @@
         "lon": -118.33454499999999,
         "intensity": 2.5,
         "responses": 2
+      },
+      {
+        "lat": 34.01238,
+        "lon": -118.4674275,
+        "intensity": 2.5,
+        "responses": 9
       },
       {
         "lat": 34.030285,
@@ -3293,12 +3299,6 @@
         "lat": 34.03002,
         "lon": -118.500225,
         "intensity": 2.4,
-        "responses": 5
-      },
-      {
-        "lat": 33.8697125,
-        "lon": -118.324435,
-        "intensity": 2.3,
         "responses": 5
       },
       {
@@ -3490,6 +3490,12 @@
       {
         "lat": 33.9507475,
         "lon": -118.33651,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 34.1643,
+        "lon": -118.5785325,
         "intensity": 2.2,
         "responses": 1
       },
@@ -4418,6 +4424,12 @@
         "responses": 1
       },
       {
+        "lat": 34.0503925,
+        "lon": -118.2947375,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
         "lat": 33.871849999999995,
         "lon": -118.10824,
         "intensity": 1,
@@ -4657,6 +4669,30 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tedvrp",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384652.html",
+    "source": "csn",
+    "time": "2026-09-27T16:58:20+00:00",
+    "updated": "2026-09-27T16:58:20+00:00",
+    "lat": -21.69,
+    "lon": -68.65,
+    "depth_km": 130.0,
+    "magnitude": 3.0,
+    "mag_type": "MLv",
+    "place": "66 km al SO de Ollagüe, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384652.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384652.html",
     "relevant": false,
     "keywords_matched": []
   }
