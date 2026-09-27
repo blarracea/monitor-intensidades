@@ -432,18 +432,24 @@
     "id": "nn00924930",
     "source": "usgs",
     "time": "2026-09-27T07:01:41.497000+00:00",
-    "updated": "2026-09-27T13:11:50.120000+00:00",
+    "updated": "2026-09-27T13:30:05.978000+00:00",
     "lat": 38.9319,
     "lon": -115.3083,
     "depth_km": 4.4299,
     "magnitude": 4.8,
     "mag_type": "ml",
     "place": "21 km W of Preston, Nevada",
-    "cdi": 3.1,
+    "cdi": 4.3,
     "mmi": 4.036,
-    "felt_reports": 4,
+    "felt_reports": 5,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 38.74425,
+        "lon": -115.47533999999999,
+        "intensity": 4.3,
+        "responses": 1
+      },
       {
         "lat": 38.8724325,
         "lon": -115.01154,
@@ -739,19 +745,26 @@
     "id": "nn00924954",
     "source": "usgs",
     "time": "2026-09-27T08:54:07.495000+00:00",
-    "updated": "2026-09-27T10:59:24.599000+00:00",
+    "updated": "2026-09-27T13:28:06.343000+00:00",
     "lat": 38.9229,
     "lon": -115.2989,
     "depth_km": 0,
     "magnitude": 4.36,
     "mag_type": "ml",
     "place": "20 km W of Preston, Nevada",
-    "cdi": null,
+    "cdi": 1,
     "mmi": 3.97,
-    "felt_reports": 0,
+    "felt_reports": 1,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 39.266040000000004,
+        "lon": -119.590625,
+        "intensity": 1,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "snam_url": null,
@@ -787,7 +800,7 @@
     "id": "us6000txya",
     "source": "usgs",
     "time": "2026-09-27T10:07:08.075000+00:00",
-    "updated": "2026-09-27T13:22:22.774000+00:00",
+    "updated": "2026-09-27T13:29:18.811000+00:00",
     "lat": 18.647,
     "lon": -69.6988,
     "depth_km": 98.093,
@@ -796,7 +809,7 @@
     "place": "13 km SSW of Bayaguana, Dominican Republic",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 22,
+    "felt_reports": 23,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -905,6 +918,12 @@
         "lat": 18.5158625,
         "lon": -69.90474499999999,
         "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 18.506445,
+        "lon": -69.9804775,
+        "intensity": 1,
         "responses": 1
       }
     ],
@@ -1112,6 +1131,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384636.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384636.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384638.html",
+    "source": "csn",
+    "time": "2026-09-27T13:20:43+00:00",
+    "updated": "2026-09-27T13:20:43+00:00",
+    "lat": -32.79,
+    "lon": -70.17,
+    "depth_km": 105.0,
+    "magnitude": 3.0,
+    "mag_type": "MLv",
+    "place": "40 km al E de Los Andes, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384638.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384638.html",
     "relevant": false,
     "keywords_matched": []
   }
