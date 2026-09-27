@@ -1301,19 +1301,38 @@
     "id": "nc75443097",
     "source": "usgs",
     "time": "2026-09-27T14:21:50.350000+00:00",
-    "updated": "2026-09-27T14:29:25.891000+00:00",
+    "updated": "2026-09-27T14:31:56.082000+00:00",
     "lat": 37.417667388916,
     "lon": -121.455497741699,
     "depth_km": 2.41000008583069,
     "magnitude": 3.45,
     "mag_type": "ml",
     "place": "27 km WSW of Westley, CA",
-    "cdi": null,
+    "cdi": 2.2,
     "mmi": 3.617,
-    "felt_reports": 0,
+    "felt_reports": 3,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 37.903285,
+        "lon": -122.0615725,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 37.675155000000004,
+        "lon": -121.758285,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 37.378907500000004,
+        "lon": -121.876135,
+        "intensity": 1,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "snam_url": null,
