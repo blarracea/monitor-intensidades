@@ -5044,7 +5044,7 @@
     "id": "nc75443252",
     "source": "usgs",
     "time": "2026-09-27T19:10:36.830000+00:00",
-    "updated": "2026-09-27T19:32:59.088000+00:00",
+    "updated": "2026-09-27T20:01:50.086000+00:00",
     "lat": 39.3238334655762,
     "lon": -123.270164489746,
     "depth_km": -0.379999995231628,
@@ -5053,9 +5053,15 @@
     "place": "9 km NW of Redwood Valley, CA",
     "cdi": 2.2,
     "mmi": null,
-    "felt_reports": 4,
+    "felt_reports": 5,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 39.339704999999995,
+        "lon": -123.226275,
+        "intensity": 2.2,
+        "responses": 1
+      },
       {
         "lat": 39.39355,
         "lon": -123.319355,
