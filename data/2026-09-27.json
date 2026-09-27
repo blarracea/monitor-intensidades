@@ -1489,7 +1489,7 @@
     "id": "ci41339927",
     "source": "usgs",
     "time": "2026-09-27T15:40:01.580000+00:00",
-    "updated": "2026-09-27T18:13:10.329000+00:00",
+    "updated": "2026-09-27T18:18:51.341000+00:00",
     "lat": 33.844165802002,
     "lon": -118.464996337891,
     "depth_km": 11.8500003814697,
@@ -1498,7 +1498,7 @@
     "place": "6 km WSW of Hermosa Beach, CA",
     "cdi": 3.2,
     "mmi": 3.461,
-    "felt_reports": 1911,
+    "felt_reports": 1916,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1925,7 +1925,7 @@
         "lat": 33.8329325,
         "lon": -118.38870750000001,
         "intensity": 3.2,
-        "responses": 20
+        "responses": 21
       },
       {
         "lat": 33.833529999999996,
@@ -2270,12 +2270,6 @@
         "responses": 11
       },
       {
-        "lat": 33.84231,
-        "lon": -118.3564375,
-        "intensity": 3,
-        "responses": 26
-      },
-      {
         "lat": 34.1738675,
         "lon": -118.5353125,
         "intensity": 3,
@@ -2298,6 +2292,12 @@
         "lon": -118.35587,
         "intensity": 3,
         "responses": 13
+      },
+      {
+        "lat": 33.84231,
+        "lon": -118.3564375,
+        "intensity": 3,
+        "responses": 27
       },
       {
         "lat": 33.86936,
@@ -2336,6 +2336,12 @@
         "responses": 13
       },
       {
+        "lat": 33.85109,
+        "lon": -118.3781925,
+        "intensity": 3,
+        "responses": 11
+      },
+      {
         "lat": 33.869479999999996,
         "lon": -118.346055,
         "intensity": 3,
@@ -2352,12 +2358,6 @@
         "lon": -118.41106,
         "intensity": 3,
         "responses": 4
-      },
-      {
-        "lat": 33.85109,
-        "lon": -118.3781925,
-        "intensity": 3,
-        "responses": 10
       },
       {
         "lat": 34.048445,
@@ -3110,12 +3110,6 @@
         "responses": 3
       },
       {
-        "lat": 33.959525,
-        "lon": -118.358295,
-        "intensity": 2.6,
-        "responses": 6
-      },
-      {
         "lat": 33.887275,
         "lon": -118.3679625,
         "intensity": 2.6,
@@ -3150,6 +3144,12 @@
         "lon": -118.390755,
         "intensity": 2.6,
         "responses": 5
+      },
+      {
+        "lat": 33.959525,
+        "lon": -118.358295,
+        "intensity": 2.6,
+        "responses": 7
       },
       {
         "lat": 33.9145625,
@@ -4007,7 +4007,7 @@
         "lat": 34.2791675,
         "lon": -119.2975675,
         "intensity": 2,
-        "responses": 1
+        "responses": 2
       },
       {
         "lat": 34.105375,
@@ -4790,6 +4790,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384652.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384652.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384661.html",
+    "source": "csn",
+    "time": "2026-09-27T18:13:31+00:00",
+    "updated": "2026-09-27T18:13:31+00:00",
+    "lat": -22.51,
+    "lon": -70.52,
+    "depth_km": 22.0,
+    "magnitude": 3.2,
+    "mag_type": "MLv",
+    "place": "57 km al SO de Tocopilla, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384661.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384661.html",
     "relevant": false,
     "keywords_matched": []
   }
