@@ -439,7 +439,7 @@
     "id": "nn00924930",
     "source": "usgs",
     "time": "2026-09-27T07:01:41.497000+00:00",
-    "updated": "2026-09-27T18:24:28.550000+00:00",
+    "updated": "2026-09-27T19:11:55.709000+00:00",
     "lat": 38.9319,
     "lon": -115.3083,
     "depth_km": 6,
@@ -1495,7 +1495,7 @@
     "id": "ci41339927",
     "source": "usgs",
     "time": "2026-09-27T15:40:01.580000+00:00",
-    "updated": "2026-09-27T19:06:06.682000+00:00",
+    "updated": "2026-09-27T19:11:24.816000+00:00",
     "lat": 33.844165802002,
     "lon": -118.464996337891,
     "depth_km": 11.8500003814697,
@@ -1504,7 +1504,7 @@
     "place": "6 km WSW of Hermosa Beach, CA",
     "cdi": 3.4,
     "mmi": 3.461,
-    "felt_reports": 1950,
+    "felt_reports": 1953,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1828,12 +1828,6 @@
       {
         "lat": 33.994605,
         "lon": -118.4454675,
-        "intensity": 3.3,
-        "responses": 3
-      },
-      {
-        "lat": 34.03117,
-        "lon": -118.40276,
         "intensity": 3.3,
         "responses": 3
       },
@@ -2298,6 +2292,12 @@
         "lon": -118.356865,
         "intensity": 3,
         "responses": 5
+      },
+      {
+        "lat": 34.03117,
+        "lon": -118.40276,
+        "intensity": 3,
+        "responses": 4
       },
       {
         "lat": 33.9501475,
@@ -3890,12 +3890,6 @@
         "responses": 1
       },
       {
-        "lat": 33.79687,
-        "lon": -118.388125,
-        "intensity": 2.1,
-        "responses": 4
-      },
-      {
         "lat": 33.798035,
         "lon": -118.280125,
         "intensity": 2.1,
@@ -3912,6 +3906,12 @@
         "lon": -118.6443,
         "intensity": 2.1,
         "responses": 1
+      },
+      {
+        "lat": 33.778835,
+        "lon": -118.387835,
+        "intensity": 2.1,
+        "responses": 5
       },
       {
         "lat": 34.0037475,
@@ -4394,6 +4394,12 @@
         "responses": 2
       },
       {
+        "lat": 33.79687,
+        "lon": -118.388125,
+        "intensity": 2,
+        "responses": 5
+      },
+      {
         "lat": 34.005535,
         "lon": -118.2724025,
         "intensity": 2,
@@ -4428,12 +4434,6 @@
         "lon": -118.569695,
         "intensity": 2,
         "responses": 1
-      },
-      {
-        "lat": 33.778835,
-        "lon": -118.387835,
-        "intensity": 2,
-        "responses": 4
       },
       {
         "lat": 33.9965175,
@@ -4902,6 +4902,30 @@
     "keywords_matched": []
   },
   {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384665.html",
+    "source": "csn",
+    "time": "2026-09-27T18:53:01+00:00",
+    "updated": "2026-09-27T18:53:01+00:00",
+    "lat": -23.78,
+    "lon": -66.87,
+    "depth_km": 204.0,
+    "magnitude": 3.8,
+    "mag_type": "MLv",
+    "place": "75 km al NO de San Antonio de los Cobres, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384665.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384665.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384671.html",
     "source": "csn",
     "time": "2026-09-27T18:55:43+00:00",
@@ -4971,6 +4995,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384671.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384671.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "nc75443252",
+    "source": "usgs",
+    "time": "2026-09-27T19:10:36.830000+00:00",
+    "updated": "2026-09-27T19:15:06.670000+00:00",
+    "lat": 39.3238334655762,
+    "lon": -123.270164489746,
+    "depth_km": -0.379999995231628,
+    "magnitude": 2.63,
+    "mag_type": "md",
+    "place": "9 km NW of Redwood Valley, CA",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75443252",
     "relevant": false,
     "keywords_matched": []
   }
