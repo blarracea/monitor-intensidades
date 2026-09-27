@@ -813,7 +813,7 @@
     "id": "us6000txya",
     "source": "usgs",
     "time": "2026-09-27T10:07:08.075000+00:00",
-    "updated": "2026-09-27T13:29:18.811000+00:00",
+    "updated": "2026-09-27T16:08:41.952000+00:00",
     "lat": 18.647,
     "lon": -69.6988,
     "depth_km": 98.093,
@@ -822,7 +822,7 @@
     "place": "13 km SSW of Bayaguana, Dominican Republic",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 23,
+    "felt_reports": 25,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -853,6 +853,12 @@
         "lat": 18.4706775,
         "lon": -69.90451,
         "intensity": 2.9,
+        "responses": 1
+      },
+      {
+        "lat": 19.4946875,
+        "lon": -70.748485,
+        "intensity": 2.7,
         "responses": 1
       },
       {
