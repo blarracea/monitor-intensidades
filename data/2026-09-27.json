@@ -1495,7 +1495,7 @@
     "id": "ci41339927",
     "source": "usgs",
     "time": "2026-09-27T15:40:01.580000+00:00",
-    "updated": "2026-09-27T19:22:04.871000+00:00",
+    "updated": "2026-09-27T19:27:16.425000+00:00",
     "lat": 33.844165802002,
     "lon": -118.464996337891,
     "depth_km": 11.8500003814697,
@@ -1504,7 +1504,7 @@
     "place": "6 km WSW of Hermosa Beach, CA",
     "cdi": 3.4,
     "mmi": 3.461,
-    "felt_reports": 1958,
+    "felt_reports": 1960,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -4556,6 +4556,12 @@
         "responses": 1
       },
       {
+        "lat": 33.754325,
+        "lon": -118.139115,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
         "lat": 33.8080225,
         "lon": -118.1830425,
         "intensity": 1,
@@ -4588,6 +4594,12 @@
       {
         "lat": 33.8266625,
         "lon": -118.118465,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 33.736585000000005,
+        "lon": -118.10649749999999,
         "intensity": 1,
         "responses": 1
       },
@@ -5002,19 +5014,38 @@
     "id": "nc75443252",
     "source": "usgs",
     "time": "2026-09-27T19:10:36.830000+00:00",
-    "updated": "2026-09-27T19:17:27.926000+00:00",
+    "updated": "2026-09-27T19:27:41.290000+00:00",
     "lat": 39.3238334655762,
     "lon": -123.270164489746,
     "depth_km": -0.379999995231628,
     "magnitude": 2.63,
     "mag_type": "md",
     "place": "9 km NW of Redwood Valley, CA",
-    "cdi": null,
+    "cdi": 2.2,
     "mmi": null,
-    "felt_reports": 0,
+    "felt_reports": 3,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 39.39355,
+        "lon": -123.319355,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 39.28564,
+        "lon": -123.2261,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 39.3755,
+        "lon": -123.3308825,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "snam_url": null,
