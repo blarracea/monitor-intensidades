@@ -1301,7 +1301,7 @@
     "id": "nc75443097",
     "source": "usgs",
     "time": "2026-09-27T14:21:50.350000+00:00",
-    "updated": "2026-09-27T14:55:38.263000+00:00",
+    "updated": "2026-09-27T15:29:22.668000+00:00",
     "lat": 37.417667388916,
     "lon": -121.455497741699,
     "depth_km": 2.41000008583069,
@@ -1310,7 +1310,7 @@
     "place": "27 km WSW of Westley, CA",
     "cdi": 2.4,
     "mmi": 3.612,
-    "felt_reports": 8,
+    "felt_reports": 9,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1352,6 +1352,12 @@
       {
         "lat": 37.224575,
         "lon": -121.76571,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 37.8121425,
+        "lon": -121.19936,
         "intensity": 1,
         "responses": 1
       },
@@ -1415,6 +1421,30 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75443112",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384647.html",
+    "source": "csn",
+    "time": "2026-09-27T15:18:50+00:00",
+    "updated": "2026-09-27T15:18:50+00:00",
+    "lat": -20.98,
+    "lon": -68.66,
+    "depth_km": 120.0,
+    "magnitude": 3.4,
+    "mag_type": "MLv",
+    "place": "17 km al S de Mina Collahuasi, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384647.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384647.html",
     "relevant": false,
     "keywords_matched": []
   }
