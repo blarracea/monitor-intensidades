@@ -1543,7 +1543,7 @@
     "id": "ci41339927",
     "source": "usgs",
     "time": "2026-09-27T15:40:01.580000+00:00",
-    "updated": "2026-09-27T22:44:29.933000+00:00",
+    "updated": "2026-09-27T22:54:45.228000+00:00",
     "lat": 33.844165802002,
     "lon": -118.464996337891,
     "depth_km": 11.8500003814697,
@@ -1552,7 +1552,7 @@
     "place": "6 km WSW of Hermosa Beach, CA",
     "cdi": 3.4,
     "mmi": 3.461,
-    "felt_reports": 2040,
+    "felt_reports": 2042,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2192,6 +2192,12 @@
         "responses": 2
       },
       {
+        "lat": 34.048315,
+        "lon": -118.4788775,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
         "lat": 34.152662500000005,
         "lon": -117.9600325,
         "intensity": 3.1,
@@ -2242,6 +2248,12 @@
       {
         "lat": 34.281499999999994,
         "lon": -118.58072,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 34.085634999999996,
+        "lon": -118.371145,
         "intensity": 3.1,
         "responses": 1
       },
@@ -5490,7 +5502,7 @@
     "id": "us6000ty0q",
     "source": "usgs",
     "time": "2026-09-27T21:49:47.544000+00:00",
-    "updated": "2026-09-27T22:46:23.878000+00:00",
+    "updated": "2026-09-27T22:51:46.696000+00:00",
     "lat": 18.6067,
     "lon": -69.0863,
     "depth_km": 107.391,
@@ -5499,7 +5511,7 @@
     "place": "11 km W of Guaymate, Dominican Republic",
     "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 116,
+    "felt_reports": 118,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -5701,6 +5713,12 @@
         "responses": 1
       },
       {
+        "lat": 18.46136,
+        "lon": -69.96128,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
         "lat": 18.4706775,
         "lon": -69.90451,
         "intensity": 3.4,
@@ -5881,6 +5899,12 @@
         "responses": 1
       },
       {
+        "lat": 18.4154025,
+        "lon": -70.103035,
+        "intensity": 2.2,
+        "responses": 2
+      },
+      {
         "lat": 19.116255,
         "lon": -70.639915,
         "intensity": 2,
@@ -5919,12 +5943,6 @@
       {
         "lat": 19.2907875,
         "lon": -70.2800625,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 18.4154025,
-        "lon": -70.103035,
         "intensity": 2,
         "responses": 1
       },
