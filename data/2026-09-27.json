@@ -787,7 +787,7 @@
     "id": "us6000txya",
     "source": "usgs",
     "time": "2026-09-27T10:07:08.075000+00:00",
-    "updated": "2026-09-27T12:05:09.393000+00:00",
+    "updated": "2026-09-27T12:57:11.325000+00:00",
     "lat": 18.647,
     "lon": -69.6988,
     "depth_km": 98.093,
@@ -796,7 +796,7 @@
     "place": "13 km SSW of Bayaguana, Dominican Republic",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 20,
+    "felt_reports": 21,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -815,6 +815,12 @@
         "lat": 18.54315,
         "lon": -69.8669875,
         "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 18.5801075,
+        "lon": -69.66816,
+        "intensity": 2.9,
         "responses": 1
       },
       {
@@ -1010,14 +1016,14 @@
   {
     "id": "aka2026tdvrey",
     "source": "usgs",
-    "time": "2026-09-27T12:53:05.221000+00:00",
-    "updated": "2026-09-27T12:55:18.865000+00:00",
-    "lat": 62.622,
-    "lon": -152.145,
+    "time": "2026-09-27T12:53:05.943000+00:00",
+    "updated": "2026-09-27T12:57:28.946000+00:00",
+    "lat": 62.647,
+    "lon": -152.116,
     "depth_km": 5,
-    "magnitude": 2.9,
+    "magnitude": 3,
     "mag_type": "ml",
-    "place": "72 km W of Petersville, Alaska",
+    "place": "71 km WNW of Petersville, Alaska",
     "cdi": null,
     "mmi": null,
     "felt_reports": 0,
@@ -1028,6 +1034,30 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tdvrey",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384633.html",
+    "source": "csn",
+    "time": "2026-09-27T12:54:28+00:00",
+    "updated": "2026-09-27T12:54:28+00:00",
+    "lat": -19.39,
+    "lon": -69.38,
+    "depth_km": 88.0,
+    "magnitude": 3.9,
+    "mag_type": "MLv",
+    "place": "10 km al SE de Camiña, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384633.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384633.html",
     "relevant": false,
     "keywords_matched": []
   }
