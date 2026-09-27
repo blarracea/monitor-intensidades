@@ -1537,7 +1537,7 @@
     "id": "ci41339927",
     "source": "usgs",
     "time": "2026-09-27T15:40:01.580000+00:00",
-    "updated": "2026-09-27T22:33:28.865000+00:00",
+    "updated": "2026-09-27T22:39:10.400000+00:00",
     "lat": 33.844165802002,
     "lon": -118.464996337891,
     "depth_km": 11.8500003814697,
@@ -1546,7 +1546,7 @@
     "place": "6 km WSW of Hermosa Beach, CA",
     "cdi": 3.4,
     "mmi": 3.461,
-    "felt_reports": 2036,
+    "felt_reports": 2039,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1691,7 +1691,7 @@
         "lat": 33.85986,
         "lon": -118.3999525,
         "intensity": 3.5,
-        "responses": 40
+        "responses": 41
       },
       {
         "lat": 33.869,
@@ -2336,12 +2336,6 @@
         "responses": 13
       },
       {
-        "lat": 33.86936,
-        "lon": -118.356865,
-        "intensity": 3,
-        "responses": 5
-      },
-      {
         "lat": 34.03117,
         "lon": -118.40276,
         "intensity": 3,
@@ -2724,6 +2718,12 @@
         "lon": -118.4562925,
         "intensity": 2.7,
         "responses": 7
+      },
+      {
+        "lat": 33.86936,
+        "lon": -118.356865,
+        "intensity": 2.7,
+        "responses": 6
       },
       {
         "lat": 33.887155,
@@ -3322,12 +3322,6 @@
       {
         "lat": 33.986575,
         "lon": -118.3587275,
-        "intensity": 2.5,
-        "responses": 2
-      },
-      {
-        "lat": 33.78809,
-        "lon": -118.36637999999999,
         "intensity": 2.5,
         "responses": 2
       },
@@ -4580,6 +4574,12 @@
         "responses": 2
       },
       {
+        "lat": 33.78809,
+        "lon": -118.36637999999999,
+        "intensity": 2,
+        "responses": 3
+      },
+      {
         "lat": 34.16666,
         "lon": -118.3833025,
         "intensity": 2,
@@ -5484,7 +5484,7 @@
     "id": "us6000ty0q",
     "source": "usgs",
     "time": "2026-09-27T21:49:47.544000+00:00",
-    "updated": "2026-09-27T22:30:46.282000+00:00",
+    "updated": "2026-09-27T22:36:14.392000+00:00",
     "lat": 18.6067,
     "lon": -69.0863,
     "depth_km": 107.391,
@@ -5493,7 +5493,7 @@
     "place": "11 km W of Guaymate, Dominican Republic",
     "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 105,
+    "felt_reports": 110,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -5515,6 +5515,12 @@
         "responses": 1
       },
       {
+        "lat": 18.44563,
+        "lon": -69.1846675,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
         "lat": 18.5248525,
         "lon": -69.9142675,
         "intensity": 3.8,
@@ -5523,6 +5529,12 @@
       {
         "lat": 18.9464825,
         "lon": -70.41036,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 18.54348,
+        "lon": -69.7911925,
         "intensity": 3.8,
         "responses": 1
       },
@@ -5587,6 +5599,12 @@
         "responses": 6
       },
       {
+        "lat": 18.524165,
+        "lon": -70.04688999999999,
+        "intensity": 3.6,
+        "responses": 1
+      },
+      {
         "lat": 18.4524175,
         "lon": -69.94229,
         "intensity": 3.6,
@@ -5647,6 +5665,12 @@
         "responses": 1
       },
       {
+        "lat": 18.461265,
+        "lon": -69.98022,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
         "lat": 18.434295,
         "lon": -69.95166,
         "intensity": 3.4,
@@ -5671,16 +5695,16 @@
         "responses": 1
       },
       {
-        "lat": 18.461595,
-        "lon": -69.91393,
-        "intensity": 3.3,
-        "responses": 2
-      },
-      {
         "lat": 18.4976475,
         "lon": -69.93306749999999,
         "intensity": 3.3,
         "responses": 2
+      },
+      {
+        "lat": 18.461595,
+        "lon": -69.91393,
+        "intensity": 3.2,
+        "responses": 3
       },
       {
         "lat": 18.452325000000002,
