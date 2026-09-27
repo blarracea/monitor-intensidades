@@ -348,5 +348,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tdjhdl",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "uu80158066",
+    "source": "usgs",
+    "time": "2026-09-27T07:02:12.460000+00:00",
+    "updated": "2026-09-27T07:05:26.430000+00:00",
+    "lat": 38.9966659545898,
+    "lon": -112.963836669922,
+    "depth_km": 0.0299999993294477,
+    "magnitude": 3.51,
+    "mag_type": "ml",
+    "place": "41 km SW of Deseret, Utah",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80158066",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
