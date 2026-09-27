@@ -1495,7 +1495,7 @@
     "id": "ci41339927",
     "source": "usgs",
     "time": "2026-09-27T15:40:01.580000+00:00",
-    "updated": "2026-09-27T21:08:12.284000+00:00",
+    "updated": "2026-09-27T21:13:36.568000+00:00",
     "lat": 33.844165802002,
     "lon": -118.464996337891,
     "depth_km": 11.8500003814697,
@@ -1504,7 +1504,7 @@
     "place": "6 km WSW of Hermosa Beach, CA",
     "cdi": 3.4,
     "mmi": 3.461,
-    "felt_reports": 2007,
+    "felt_reports": 2011,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1964,12 +1964,6 @@
         "responses": 21
       },
       {
-        "lat": 34.0298875,
-        "lon": -118.511055,
-        "intensity": 3.2,
-        "responses": 13
-      },
-      {
         "lat": 33.8156125,
         "lon": -118.3236,
         "intensity": 3.2,
@@ -2274,6 +2268,12 @@
         "lon": -118.53728,
         "intensity": 3,
         "responses": 1
+      },
+      {
+        "lat": 34.0298875,
+        "lon": -118.511055,
+        "intensity": 3,
+        "responses": 14
       },
       {
         "lat": 33.806245,
@@ -3032,6 +3032,12 @@
         "responses": 1
       },
       {
+        "lat": 33.76314,
+        "lon": -118.16083,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": 34.05733,
         "lon": -118.479035,
         "intensity": 2.7,
@@ -3406,6 +3412,12 @@
       {
         "lat": 34.2005025,
         "lon": -118.5683525,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.743362499999996,
+        "lon": -118.333285,
         "intensity": 2.2,
         "responses": 1
       },
@@ -4582,6 +4594,12 @@
       {
         "lat": 33.844300000000004,
         "lon": -118.161925,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 33.7516625,
+        "lon": -118.3981925,
         "intensity": 1,
         "responses": 1
       },
