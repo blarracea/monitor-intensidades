@@ -1495,7 +1495,7 @@
     "id": "ci41339927",
     "source": "usgs",
     "time": "2026-09-27T15:40:01.580000+00:00",
-    "updated": "2026-09-27T21:18:44.714000+00:00",
+    "updated": "2026-09-27T21:24:05.795000+00:00",
     "lat": 33.844165802002,
     "lon": -118.464996337891,
     "depth_km": 11.8500003814697,
@@ -1504,7 +1504,7 @@
     "place": "6 km WSW of Hermosa Beach, CA",
     "cdi": 3.4,
     "mmi": 3.461,
-    "felt_reports": 2013,
+    "felt_reports": 2014,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1868,12 +1868,6 @@
         "responses": 18
       },
       {
-        "lat": 33.8959275,
-        "lon": -118.4005425,
-        "intensity": 3.3,
-        "responses": 8
-      },
-      {
         "lat": 33.8251975,
         "lon": -118.269725,
         "intensity": 3.3,
@@ -1884,6 +1878,12 @@
         "lon": -118.24058,
         "intensity": 3.3,
         "responses": 2
+      },
+      {
+        "lat": 33.8959275,
+        "lon": -118.4005425,
+        "intensity": 3.3,
+        "responses": 9
       },
       {
         "lat": 33.89617,
@@ -5302,6 +5302,30 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty0g",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "aka2026temmhr",
+    "source": "usgs",
+    "time": "2026-09-27T21:17:13.242000+00:00",
+    "updated": "2026-09-27T21:20:59.286000+00:00",
+    "lat": 63.139,
+    "lon": -150.41,
+    "depth_km": 111.7,
+    "magnitude": 2.6,
+    "mag_type": "ml",
+    "place": "73 km NNE of Petersville, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026temmhr",
     "relevant": false,
     "keywords_matched": []
   }
