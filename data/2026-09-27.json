@@ -1495,7 +1495,7 @@
     "id": "ci41339927",
     "source": "usgs",
     "time": "2026-09-27T15:40:01.580000+00:00",
-    "updated": "2026-09-27T20:12:12.422000+00:00",
+    "updated": "2026-09-27T20:17:21.724000+00:00",
     "lat": 33.844165802002,
     "lon": -118.464996337891,
     "depth_km": 11.8500003814697,
@@ -1504,7 +1504,7 @@
     "place": "6 km WSW of Hermosa Beach, CA",
     "cdi": 3.4,
     "mmi": 3.461,
-    "felt_reports": 1981,
+    "felt_reports": 1984,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2255,7 +2255,7 @@
         "lat": 33.82404,
         "lon": -118.37776,
         "intensity": 3,
-        "responses": 11
+        "responses": 12
       },
       {
         "lat": 34.1738675,
@@ -3362,12 +3362,6 @@
         "responses": 3
       },
       {
-        "lat": 34.057717499999995,
-        "lon": -118.44654,
-        "intensity": 2.3,
-        "responses": 14
-      },
-      {
         "lat": 34.0859925,
         "lon": -118.33863500000001,
         "intensity": 2.2,
@@ -3864,6 +3858,12 @@
         "lon": -118.50229,
         "intensity": 2.2,
         "responses": 1
+      },
+      {
+        "lat": 34.057717499999995,
+        "lon": -118.44654,
+        "intensity": 2.2,
+        "responses": 15
       },
       {
         "lat": 34.058465,
@@ -5044,7 +5044,7 @@
     "id": "nc75443252",
     "source": "usgs",
     "time": "2026-09-27T19:10:36.830000+00:00",
-    "updated": "2026-09-27T20:01:50.086000+00:00",
+    "updated": "2026-09-27T20:19:49.345000+00:00",
     "lat": 39.3238334655762,
     "lon": -123.270164489746,
     "depth_km": -0.379999995231628,
@@ -5053,7 +5053,7 @@
     "place": "9 km NW of Redwood Valley, CA",
     "cdi": 2.2,
     "mmi": null,
-    "felt_reports": 5,
+    "felt_reports": 6,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -5071,6 +5071,12 @@
       {
         "lat": 39.456415,
         "lon": -123.38937999999999,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 39.35751,
+        "lon": -123.31919,
         "intensity": 2.2,
         "responses": 1
       },
