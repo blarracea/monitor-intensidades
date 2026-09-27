@@ -1543,7 +1543,7 @@
     "id": "ci41339927",
     "source": "usgs",
     "time": "2026-09-27T15:40:01.580000+00:00",
-    "updated": "2026-09-27T23:29:00.933000+00:00",
+    "updated": "2026-09-27T23:51:35.826000+00:00",
     "lat": 33.844165802002,
     "lon": -118.464996337891,
     "depth_km": 11.8500003814697,
@@ -1552,7 +1552,7 @@
     "place": "6 km WSW of Hermosa Beach, CA",
     "cdi": 3.4,
     "mmi": 3.461,
-    "felt_reports": 2046,
+    "felt_reports": 2047,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2648,6 +2648,12 @@
         "responses": 15
       },
       {
+        "lat": 33.9944775,
+        "lon": -118.4562925,
+        "intensity": 2.8,
+        "responses": 8
+      },
+      {
         "lat": 33.878730000000004,
         "lon": -118.324575,
         "intensity": 2.8,
@@ -2736,12 +2742,6 @@
         "lon": -118.4671175,
         "intensity": 2.8,
         "responses": 9
-      },
-      {
-        "lat": 33.9944775,
-        "lon": -118.4562925,
-        "intensity": 2.7,
-        "responses": 7
       },
       {
         "lat": 33.86936,
@@ -5538,7 +5538,7 @@
     "id": "us6000ty0q",
     "source": "usgs",
     "time": "2026-09-27T21:49:47.544000+00:00",
-    "updated": "2026-09-27T23:50:04.713000+00:00",
+    "updated": "2026-09-27T23:55:25.092000+00:00",
     "lat": 18.6067,
     "lon": -69.0863,
     "depth_km": 107.391,
@@ -5547,7 +5547,7 @@
     "place": "11 km W of Guaymate, Dominican Republic",
     "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 124,
+    "felt_reports": 125,
     "tsunami_flag": false,
     "dyfi_points": [
       {
