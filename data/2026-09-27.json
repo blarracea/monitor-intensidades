@@ -1477,7 +1477,7 @@
     "id": "ci41339927",
     "source": "usgs",
     "time": "2026-09-27T15:40:01.580000+00:00",
-    "updated": "2026-09-27T16:58:32.481000+00:00",
+    "updated": "2026-09-27T17:04:07.640000+00:00",
     "lat": 33.844165802002,
     "lon": -118.464996337891,
     "depth_km": 11.8500003814697,
@@ -1486,7 +1486,7 @@
     "place": "6 km WSW of Hermosa Beach, CA",
     "cdi": 3.2,
     "mmi": 3.461,
-    "felt_reports": 1825,
+    "felt_reports": 1828,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2366,12 +2366,6 @@
         "responses": 13
       },
       {
-        "lat": 34.057845,
-        "lon": -118.435705,
-        "intensity": 2.9,
-        "responses": 7
-      },
-      {
         "lat": 33.8878625,
         "lon": -118.313905,
         "intensity": 2.9,
@@ -2498,6 +2492,12 @@
         "responses": 8
       },
       {
+        "lat": 34.057845,
+        "lon": -118.435705,
+        "intensity": 2.8,
+        "responses": 8
+      },
+      {
         "lat": 34.039035,
         "lon": -118.500385,
         "intensity": 2.8,
@@ -2512,12 +2512,6 @@
       {
         "lat": 34.0489525,
         "lon": -118.42472000000001,
-        "intensity": 2.8,
-        "responses": 3
-      },
-      {
-        "lat": 34.003495,
-        "lon": -118.4564475,
         "intensity": 2.8,
         "responses": 3
       },
@@ -2578,6 +2572,12 @@
       {
         "lat": 33.878730000000004,
         "lon": -118.324575,
+        "intensity": 2.8,
+        "responses": 4
+      },
+      {
+        "lat": 34.003495,
+        "lon": -118.4564475,
         "intensity": 2.8,
         "responses": 4
       },
@@ -3872,6 +3872,12 @@
         "responses": 3
       },
       {
+        "lat": 34.0310475,
+        "lon": -118.41359,
+        "intensity": 2.1,
+        "responses": 4
+      },
+      {
         "lat": 34.135515,
         "lon": -118.70813,
         "intensity": 2,
@@ -3936,12 +3942,6 @@
         "lon": -118.372455,
         "intensity": 2,
         "responses": 5
-      },
-      {
-        "lat": 34.0310475,
-        "lon": -118.41359,
-        "intensity": 2,
-        "responses": 3
       },
       {
         "lat": 33.9873875,
@@ -4609,6 +4609,54 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txzg",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000txzj",
+    "source": "usgs",
+    "time": "2026-09-27T16:43:10.268000+00:00",
+    "updated": "2026-09-27T17:01:19.040000+00:00",
+    "lat": 35.3861,
+    "lon": 99.5536,
+    "depth_km": 10,
+    "magnitude": 5,
+    "mag_type": "mb",
+    "place": "191 km NW of Oula Xiuma, China",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txzj",
+    "relevant": true,
+    "keywords_matched": []
+  },
+  {
+    "id": "aka2026tedvrp",
+    "source": "usgs",
+    "time": "2026-09-27T16:58:08.186000+00:00",
+    "updated": "2026-09-27T17:02:39.338000+00:00",
+    "lat": 59.957,
+    "lon": -152.981,
+    "depth_km": 127.9,
+    "magnitude": 2.6,
+    "mag_type": "ml",
+    "place": "65 km ENE of Pedro Bay, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tedvrp",
     "relevant": false,
     "keywords_matched": []
   }
