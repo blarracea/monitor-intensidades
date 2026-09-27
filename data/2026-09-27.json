@@ -751,12 +751,12 @@
     "id": "nn00924954",
     "source": "usgs",
     "time": "2026-09-27T08:54:07.495000+00:00",
-    "updated": "2026-09-27T13:28:06.343000+00:00",
+    "updated": "2026-09-27T14:53:53.579000+00:00",
     "lat": 38.9229,
     "lon": -115.2989,
-    "depth_km": 0,
-    "magnitude": 4.36,
-    "mag_type": "ml",
+    "depth_km": 6,
+    "magnitude": 4.1,
+    "mag_type": "mwr",
     "place": "20 km W of Preston, Nevada",
     "cdi": 1,
     "mmi": 3.97,
@@ -1301,7 +1301,7 @@
     "id": "nc75443097",
     "source": "usgs",
     "time": "2026-09-27T14:21:50.350000+00:00",
-    "updated": "2026-09-27T14:47:28.094000+00:00",
+    "updated": "2026-09-27T14:54:20.582000+00:00",
     "lat": 37.417667388916,
     "lon": -121.455497741699,
     "depth_km": 2.41000008583069,
@@ -1310,7 +1310,7 @@
     "place": "27 km WSW of Westley, CA",
     "cdi": 2.4,
     "mmi": 3.612,
-    "felt_reports": 7,
+    "felt_reports": 8,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1340,6 +1340,12 @@
       {
         "lat": 37.09719,
         "lon": -121.0138925,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 37.97599,
+        "lon": -121.30921000000001,
         "intensity": 1,
         "responses": 1
       },
