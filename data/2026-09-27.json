@@ -764,7 +764,7 @@
     "id": "nn00924954",
     "source": "usgs",
     "time": "2026-09-27T08:54:07.495000+00:00",
-    "updated": "2026-09-27T15:04:13.884000+00:00",
+    "updated": "2026-09-27T21:04:19.879000+00:00",
     "lat": 38.9229,
     "lon": -115.2989,
     "depth_km": 6,
@@ -1495,7 +1495,7 @@
     "id": "ci41339927",
     "source": "usgs",
     "time": "2026-09-27T15:40:01.580000+00:00",
-    "updated": "2026-09-27T20:54:05.714000+00:00",
+    "updated": "2026-09-27T21:03:04.742000+00:00",
     "lat": 33.844165802002,
     "lon": -118.464996337891,
     "depth_km": 11.8500003814697,
@@ -1504,7 +1504,7 @@
     "place": "6 km WSW of Hermosa Beach, CA",
     "cdi": 3.4,
     "mmi": 3.461,
-    "felt_reports": 2004,
+    "felt_reports": 2005,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -3920,6 +3920,12 @@
         "responses": 1
       },
       {
+        "lat": 34.26126,
+        "lon": -118.743245,
+        "intensity": 2.1,
+        "responses": 1
+      },
+      {
         "lat": 33.798035,
         "lon": -118.280125,
         "intensity": 2.1,
@@ -5230,6 +5236,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384679.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384679.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000ty0e",
+    "source": "usgs",
+    "time": "2026-09-27T20:49:20.425000+00:00",
+    "updated": "2026-09-27T21:03:45.040000+00:00",
+    "lat": -37.7103,
+    "lon": 177.0583,
+    "depth_km": 153.508,
+    "magnitude": 4.1,
+    "mag_type": "mb",
+    "place": "28 km NNE of Whakatane, New Zealand",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty0e",
     "relevant": false,
     "keywords_matched": []
   }
