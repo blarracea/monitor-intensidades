@@ -1495,7 +1495,7 @@
     "id": "ci41339927",
     "source": "usgs",
     "time": "2026-09-27T15:40:01.580000+00:00",
-    "updated": "2026-09-27T19:42:59.484000+00:00",
+    "updated": "2026-09-27T19:48:39.567000+00:00",
     "lat": 33.844165802002,
     "lon": -118.464996337891,
     "depth_km": 11.8500003814697,
@@ -1504,7 +1504,7 @@
     "place": "6 km WSW of Hermosa Beach, CA",
     "cdi": 3.4,
     "mmi": 3.461,
-    "felt_reports": 1967,
+    "felt_reports": 1971,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1626,12 +1626,6 @@
         "lon": -118.50181,
         "intensity": 3.6,
         "responses": 1
-      },
-      {
-        "lat": 33.815020000000004,
-        "lon": -118.377615,
-        "intensity": 3.6,
-        "responses": 6
       },
       {
         "lat": 33.833295,
@@ -1788,6 +1782,12 @@
         "lon": -118.4224675,
         "intensity": 3.4,
         "responses": 5
+      },
+      {
+        "lat": 33.815020000000004,
+        "lon": -118.377615,
+        "intensity": 3.4,
+        "responses": 7
       },
       {
         "lat": 33.9585425,
@@ -3158,6 +3158,12 @@
         "responses": 8
       },
       {
+        "lat": 33.976445,
+        "lon": -118.455985,
+        "intensity": 2.5,
+        "responses": 12
+      },
+      {
         "lat": 33.89641,
         "lon": -118.357295,
         "intensity": 2.5,
@@ -3210,12 +3216,6 @@
         "lon": -118.301725,
         "intensity": 2.5,
         "responses": 5
-      },
-      {
-        "lat": 33.976445,
-        "lon": -118.455985,
-        "intensity": 2.5,
-        "responses": 11
       },
       {
         "lat": 34.0595225,
@@ -3878,6 +3878,12 @@
         "responses": 2
       },
       {
+        "lat": 34.1995075,
+        "lon": -118.6443,
+        "intensity": 2.2,
+        "responses": 2
+      },
+      {
         "lat": 34.02203,
         "lon": -118.41344000000001,
         "intensity": 2.2,
@@ -3906,12 +3912,6 @@
         "lon": -118.44561999999999,
         "intensity": 2.1,
         "responses": 2
-      },
-      {
-        "lat": 34.1995075,
-        "lon": -118.6443,
-        "intensity": 2.1,
-        "responses": 1
       },
       {
         "lat": 33.778835,
@@ -4538,6 +4538,12 @@
         "responses": 1
       },
       {
+        "lat": 34.0144375,
+        "lon": -118.283365,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
         "lat": 34.100125,
         "lon": -117.73178,
         "intensity": 1,
@@ -5074,6 +5080,30 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75443252",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000ty06",
+    "source": "usgs",
+    "time": "2026-09-27T19:33:32.354000+00:00",
+    "updated": "2026-09-27T19:50:39.040000+00:00",
+    "lat": -31.4171,
+    "lon": -179.8762,
+    "depth_km": 354.409,
+    "magnitude": 4.1,
+    "mag_type": "mb",
+    "place": "Kermadec Islands region",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty06",
     "relevant": false,
     "keywords_matched": []
   }
