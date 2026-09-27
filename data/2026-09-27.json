@@ -1290,5 +1290,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924959",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "nc75443097",
+    "source": "usgs",
+    "time": "2026-09-27T14:21:50.350000+00:00",
+    "updated": "2026-09-27T14:24:59.698000+00:00",
+    "lat": 37.417667388916,
+    "lon": -121.455497741699,
+    "depth_km": 2.41000008583069,
+    "magnitude": 3.45,
+    "mag_type": "ml",
+    "place": "27 km WSW of Westley, CA",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75443097",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
