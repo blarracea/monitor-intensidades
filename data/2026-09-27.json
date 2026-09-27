@@ -77,5 +77,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txvu",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026tczykx",
+    "source": "usgs",
+    "time": "2026-09-27T02:01:42.224000+00:00",
+    "updated": "2026-09-27T02:03:50.091000+00:00",
+    "lat": 57.65,
+    "lon": -155.509,
+    "depth_km": 86.4,
+    "magnitude": 2.5,
+    "mag_type": "ml",
+    "place": "63 km W of Karluk, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tczykx",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
