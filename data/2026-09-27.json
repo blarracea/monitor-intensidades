@@ -432,7 +432,7 @@
     "id": "nn00924930",
     "source": "usgs",
     "time": "2026-09-27T07:01:41.497000+00:00",
-    "updated": "2026-09-27T07:41:42.281000+00:00",
+    "updated": "2026-09-27T07:54:17.429000+00:00",
     "lat": 38.9319,
     "lon": -115.3083,
     "depth_km": 4.4299,
@@ -441,7 +441,7 @@
     "place": "21 km W of Preston, Nevada",
     "cdi": 3.1,
     "mmi": 4.036,
-    "felt_reports": 2,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -454,6 +454,12 @@
         "lat": 38.8724325,
         "lon": -115.01154,
         "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 39.24884,
+        "lon": -114.8966575,
+        "intensity": 2.7,
         "responses": 1
       }
     ],
