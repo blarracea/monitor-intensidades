@@ -1495,7 +1495,7 @@
     "id": "ci41339927",
     "source": "usgs",
     "time": "2026-09-27T15:40:01.580000+00:00",
-    "updated": "2026-09-27T19:16:53.498000+00:00",
+    "updated": "2026-09-27T19:22:04.871000+00:00",
     "lat": 33.844165802002,
     "lon": -118.464996337891,
     "depth_km": 11.8500003814697,
@@ -1504,7 +1504,7 @@
     "place": "6 km WSW of Hermosa Beach, CA",
     "cdi": 3.4,
     "mmi": 3.461,
-    "felt_reports": 1955,
+    "felt_reports": 1958,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2042,12 +2042,6 @@
         "responses": 2
       },
       {
-        "lat": 33.959405000000004,
-        "lon": -118.369115,
-        "intensity": 3.1,
-        "responses": 2
-      },
-      {
         "lat": 34.19135,
         "lon": -118.579035,
         "intensity": 3.1,
@@ -2522,12 +2516,6 @@
         "responses": 2
       },
       {
-        "lat": 33.9854625,
-        "lon": -118.4561375,
-        "intensity": 2.8,
-        "responses": 19
-      },
-      {
         "lat": 34.039035,
         "lon": -118.500385,
         "intensity": 2.8,
@@ -2594,6 +2582,12 @@
         "responses": 5
       },
       {
+        "lat": 33.9854625,
+        "lon": -118.4561375,
+        "intensity": 2.8,
+        "responses": 20
+      },
+      {
         "lat": 34.1816225,
         "lon": -118.633105,
         "intensity": 2.8,
@@ -2616,12 +2610,6 @@
         "lon": -118.423665,
         "intensity": 2.8,
         "responses": 9
-      },
-      {
-        "lat": 33.779075,
-        "lon": -118.36624,
-        "intensity": 2.8,
-        "responses": 4
       },
       {
         "lat": 33.76945,
@@ -3314,6 +3302,12 @@
         "responses": 6
       },
       {
+        "lat": 33.779075,
+        "lon": -118.36624,
+        "intensity": 2.4,
+        "responses": 5
+      },
+      {
         "lat": 33.8065975,
         "lon": -118.3234625,
         "intensity": 2.4,
@@ -3330,6 +3324,12 @@
         "lon": -118.61124,
         "intensity": 2.4,
         "responses": 2
+      },
+      {
+        "lat": 33.959405000000004,
+        "lon": -118.369115,
+        "intensity": 2.4,
+        "responses": 3
       },
       {
         "lat": 34.0488275,
