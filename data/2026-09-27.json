@@ -819,5 +819,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txya",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384625.html",
+    "source": "csn",
+    "time": "2026-09-27T10:26:43+00:00",
+    "updated": "2026-09-27T10:26:43+00:00",
+    "lat": -19.65,
+    "lon": -69.19,
+    "depth_km": 93.0,
+    "magnitude": 3.2,
+    "mag_type": "MLv",
+    "place": "45 km al SE de Camiña, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384625.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384625.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
