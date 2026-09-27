@@ -55,6 +55,30 @@
     "keywords_matched": []
   },
   {
+    "id": "us6000txvq",
+    "source": "usgs",
+    "time": "2026-09-27T00:45:22.364000+00:00",
+    "updated": "2026-09-27T21:43:47.040000+00:00",
+    "lat": 35.8881,
+    "lon": 140.3909,
+    "depth_km": 76.46,
+    "magnitude": 4.3,
+    "mag_type": "mb",
+    "place": "1 km SSW of Kōzaki, Japan",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txvq",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "us6000txvu",
     "source": "usgs",
     "time": "2026-09-27T01:18:25.822000+00:00",
@@ -1495,7 +1519,7 @@
     "id": "ci41339927",
     "source": "usgs",
     "time": "2026-09-27T15:40:01.580000+00:00",
-    "updated": "2026-09-27T21:39:36.819000+00:00",
+    "updated": "2026-09-27T21:44:54.577000+00:00",
     "lat": 33.844165802002,
     "lon": -118.464996337891,
     "depth_km": 11.8500003814697,
@@ -1504,7 +1528,7 @@
     "place": "6 km WSW of Hermosa Beach, CA",
     "cdi": 3.4,
     "mmi": 3.461,
-    "felt_reports": 2022,
+    "felt_reports": 2023,
     "tsunami_flag": false,
     "dyfi_points": [
       {
