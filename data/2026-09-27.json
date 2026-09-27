@@ -762,14 +762,14 @@
   {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384623.html",
     "source": "csn",
-    "time": "2026-09-27T10:00:09+00:00",
-    "updated": "2026-09-27T10:00:09+00:00",
-    "lat": -28.94,
-    "lon": -71.28,
-    "depth_km": 47.0,
+    "time": "2026-09-27T10:00:08+00:00",
+    "updated": "2026-09-27T10:00:08+00:00",
+    "lat": -28.92,
+    "lon": -71.34,
+    "depth_km": 49.0,
     "magnitude": 2.9,
     "mag_type": "MLv",
-    "place": "39 km al NE de Punta de Choros, Chile",
+    "place": "38 km al N de Punta de Choros, Chile",
     "cdi": null,
     "mmi": null,
     "felt_reports": null,
@@ -787,16 +787,16 @@
     "id": "us6000txya",
     "source": "usgs",
     "time": "2026-09-27T10:07:08.075000+00:00",
-    "updated": "2026-09-27T10:29:44.586000+00:00",
+    "updated": "2026-09-27T10:39:22.313000+00:00",
     "lat": 18.647,
     "lon": -69.6988,
     "depth_km": 98.093,
     "magnitude": 4.2,
     "mag_type": "mb",
     "place": "13 km SSW of Bayaguana, Dominican Republic",
-    "cdi": 3.3,
+    "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 2,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -809,6 +809,12 @@
         "lat": 18.54315,
         "lon": -69.8669875,
         "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 18.52512,
+        "lon": -69.857425,
+        "intensity": 2,
         "responses": 1
       }
     ],
