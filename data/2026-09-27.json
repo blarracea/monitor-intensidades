@@ -1555,7 +1555,7 @@
     "id": "ci41339927",
     "source": "usgs",
     "time": "2026-09-27T15:40:01.580000+00:00",
-    "updated": "2026-09-28T04:50:26.016000+00:00",
+    "updated": "2026-09-28T04:59:15.025000+00:00",
     "lat": 33.844165802002,
     "lon": -118.464996337891,
     "depth_km": 11.8500003814697,
@@ -1564,7 +1564,7 @@
     "place": "6 km WSW of Hermosa Beach, CA",
     "cdi": 3.4,
     "mmi": 3.461,
-    "felt_reports": 2084,
+    "felt_reports": 2085,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -4259,7 +4259,7 @@
         "lat": 33.95904,
         "lon": -118.40157500000001,
         "intensity": 2,
-        "responses": 6
+        "responses": 7
       },
       {
         "lat": 34.157765,
@@ -5542,6 +5542,30 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026temmhr",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000ty2m",
+    "source": "usgs",
+    "time": "2026-09-27T21:36:20.167000+00:00",
+    "updated": "2026-09-28T05:00:15.040000+00:00",
+    "lat": 53.511,
+    "lon": -157.7326,
+    "depth_km": 10,
+    "magnitude": 3.3,
+    "mag_type": "ml",
+    "place": "271 km SE of Sand Point, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty2m",
     "relevant": false,
     "keywords_matched": []
   },
