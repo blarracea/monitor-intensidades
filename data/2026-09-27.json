@@ -5586,7 +5586,7 @@
     "id": "us6000ty0q",
     "source": "usgs",
     "time": "2026-09-27T21:49:47.853000+00:00",
-    "updated": "2026-09-28T01:23:40.436000+00:00",
+    "updated": "2026-09-28T01:31:34.743000+00:00",
     "lat": 18.6081,
     "lon": -68.9901,
     "depth_km": 116.353,
@@ -5595,7 +5595,7 @@
     "place": "2 km NNW of Guaymate, Dominican Republic",
     "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 201,
+    "felt_reports": 202,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -5897,6 +5897,12 @@
         "lon": -69.96123,
         "intensity": 3.1,
         "responses": 5
+      },
+      {
+        "lat": 18.415775,
+        "lon": -70.0367675,
+        "intensity": 3.1,
+        "responses": 1
       },
       {
         "lat": 18.3733625,
