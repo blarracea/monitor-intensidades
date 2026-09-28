@@ -598,5 +598,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tfdfhc",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "nn00924977",
+    "source": "usgs",
+    "time": "2026-09-28T05:53:10.737000+00:00",
+    "updated": "2026-09-28T05:57:45.163000+00:00",
+    "lat": 39.083,
+    "lon": -115.4138,
+    "depth_km": 0,
+    "magnitude": 3.28,
+    "mag_type": "ml",
+    "place": "35 km WNW of Preston, Nevada",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924977",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
