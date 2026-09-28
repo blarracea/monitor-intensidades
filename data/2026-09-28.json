@@ -526,5 +526,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty2w",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384705.html",
+    "source": "csn",
+    "time": "2026-09-28T05:28:25+00:00",
+    "updated": "2026-09-28T05:28:25+00:00",
+    "lat": -19.27,
+    "lon": -70.36,
+    "depth_km": 35.0,
+    "magnitude": 3.1,
+    "mag_type": "MLv",
+    "place": "22 km al SO de Cuya, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384705.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384705.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
