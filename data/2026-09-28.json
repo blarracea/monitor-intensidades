@@ -1939,7 +1939,7 @@
     "id": "us6000ty7u",
     "source": "usgs",
     "time": "2026-09-28T19:45:07.515000+00:00",
-    "updated": "2026-09-28T21:09:00.136000+00:00",
+    "updated": "2026-09-28T21:14:06.914000+00:00",
     "lat": 36.0809,
     "lon": 139.7782,
     "depth_km": 70.972,
@@ -1948,7 +1948,7 @@
     "place": "2 km SW of Sakai, Japan",
     "cdi": 4.3,
     "mmi": null,
-    "felt_reports": 30,
+    "felt_reports": 31,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2068,6 +2068,12 @@
       {
         "lat": 35.535035,
         "lon": 139.4391725,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 36.7280625,
+        "lon": 139.6953175,
         "intensity": 2.7,
         "responses": 1
       },
