@@ -1975,7 +1975,7 @@
     "id": "us6000ty7u",
     "source": "usgs",
     "time": "2026-09-28T19:45:07.515000+00:00",
-    "updated": "2026-09-28T23:33:13.712000+00:00",
+    "updated": "2026-09-28T23:38:52.047000+00:00",
     "lat": 36.0809,
     "lon": 139.7782,
     "depth_km": 70.972,
@@ -1984,7 +1984,7 @@
     "place": "2 km SW of Sakai, Japan",
     "cdi": 4.3,
     "mmi": null,
-    "felt_reports": 49,
+    "felt_reports": 50,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2204,6 +2204,12 @@
         "responses": 1
       },
       {
+        "lat": 35.637445,
+        "lon": 139.7132825,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
         "lat": 35.718575,
         "lon": 139.71197999999998,
         "intensity": 2.2,
@@ -2251,7 +2257,7 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty7u",
-    "relevant": false,
+    "relevant": true,
     "keywords_matched": []
   },
   {
