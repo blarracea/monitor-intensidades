@@ -1825,5 +1825,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tgbuia",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000ty73",
+    "source": "usgs",
+    "time": "2026-09-28T18:20:44.330000+00:00",
+    "updated": "2026-09-28T18:53:00.040000+00:00",
+    "lat": 23.702,
+    "lon": 121.8063,
+    "depth_km": 19.011,
+    "magnitude": 4.6,
+    "mag_type": "mwr",
+    "place": "36 km SE of Hualien City, Taiwan",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty73",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
