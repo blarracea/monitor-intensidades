@@ -1794,5 +1794,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty71",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026tgbuia",
+    "source": "usgs",
+    "time": "2026-09-28T17:55:53.431000+00:00",
+    "updated": "2026-09-28T17:59:59.432000+00:00",
+    "lat": 60.169,
+    "lon": -151.738,
+    "depth_km": 71.4,
+    "magnitude": 2.6,
+    "mag_type": "ml",
+    "place": "13 km NNW of Ninilchik, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tgbuia",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
