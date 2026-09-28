@@ -1603,7 +1603,7 @@
     "id": "ci41339927",
     "source": "usgs",
     "time": "2026-09-27T15:40:01.460000+00:00",
-    "updated": "2026-09-28T15:43:01.295000+00:00",
+    "updated": "2026-09-28T15:48:40.893000+00:00",
     "lat": 33.843,
     "lon": -118.468833333333,
     "depth_km": 11.85,
@@ -1612,7 +1612,7 @@
     "place": "7 km WSW of Hermosa Beach, CA",
     "cdi": 3.4,
     "mmi": 3.41,
-    "felt_reports": 2107,
+    "felt_reports": 2108,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1994,6 +1994,12 @@
         "responses": 9
       },
       {
+        "lat": 33.860225,
+        "lon": -118.3675325,
+        "intensity": 3.2,
+        "responses": 8
+      },
+      {
         "lat": 33.8778925,
         "lon": -118.40025,
         "intensity": 3.2,
@@ -2004,12 +2010,6 @@
         "lon": -118.3789175,
         "intensity": 3.2,
         "responses": 3
-      },
-      {
-        "lat": 33.860225,
-        "lon": -118.3675325,
-        "intensity": 3.2,
-        "responses": 7
       },
       {
         "lat": 33.904695000000004,
