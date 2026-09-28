@@ -1555,7 +1555,7 @@
     "id": "ci41339927",
     "source": "usgs",
     "time": "2026-09-27T15:40:01.580000+00:00",
-    "updated": "2026-09-28T02:08:49.035000+00:00",
+    "updated": "2026-09-28T02:37:46.178000+00:00",
     "lat": 33.844165802002,
     "lon": -118.464996337891,
     "depth_km": 11.8500003814697,
@@ -1564,7 +1564,7 @@
     "place": "6 km WSW of Hermosa Beach, CA",
     "cdi": 3.4,
     "mmi": 3.461,
-    "felt_reports": 2066,
+    "felt_reports": 2068,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2582,12 +2582,6 @@
         "responses": 18
       },
       {
-        "lat": 34.039035,
-        "lon": -118.500385,
-        "intensity": 2.8,
-        "responses": 5
-      },
-      {
         "lat": 34.0216525,
         "lon": -118.4459275,
         "intensity": 2.8,
@@ -3186,6 +3180,12 @@
         "lon": -118.5243025,
         "intensity": 2.6,
         "responses": 3
+      },
+      {
+        "lat": 34.039035,
+        "lon": -118.500385,
+        "intensity": 2.6,
+        "responses": 6
       },
       {
         "lat": 34.022152500000004,
@@ -4655,7 +4655,7 @@
         "lat": 33.9683,
         "lon": -118.3800825,
         "intensity": 2,
-        "responses": 3
+        "responses": 4
       },
       {
         "lat": 34.272059999999996,
@@ -6384,6 +6384,30 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty0u",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000ty16",
+    "source": "usgs",
+    "time": "2026-09-27T23:45:52.132000+00:00",
+    "updated": "2026-09-28T02:38:36.040000+00:00",
+    "lat": 31.5754,
+    "lon": -104.3397,
+    "depth_km": 9.988,
+    "magnitude": 2.5,
+    "mag_type": "ml",
+    "place": "59 km WNW of Toyah, Texas",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty16",
     "relevant": false,
     "keywords_matched": []
   }
