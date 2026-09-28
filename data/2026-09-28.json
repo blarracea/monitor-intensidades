@@ -1082,5 +1082,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71534978",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384733.html",
+    "source": "csn",
+    "time": "2026-09-28T11:14:18+00:00",
+    "updated": "2026-09-28T11:14:18+00:00",
+    "lat": -31.95,
+    "lon": -70.28,
+    "depth_km": 136.0,
+    "magnitude": 3.4,
+    "mag_type": "MLv",
+    "place": "32 km al SE de Mina Los Pelambres, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384733.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384733.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
