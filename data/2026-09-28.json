@@ -1975,7 +1975,7 @@
     "id": "us6000ty7u",
     "source": "usgs",
     "time": "2026-09-28T19:45:07.515000+00:00",
-    "updated": "2026-09-28T23:17:14.610000+00:00",
+    "updated": "2026-09-28T23:33:13.712000+00:00",
     "lat": 36.0809,
     "lon": 139.7782,
     "depth_km": 70.972,
@@ -1984,7 +1984,7 @@
     "place": "2 km SW of Sakai, Japan",
     "cdi": 4.3,
     "mmi": null,
-    "felt_reports": 48,
+    "felt_reports": 49,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2174,6 +2174,12 @@
         "responses": 1
       },
       {
+        "lat": 35.7103625,
+        "lon": 139.7894925,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": 36.55864,
         "lon": 139.8769575,
         "intensity": 2.7,
@@ -2355,18 +2361,24 @@
     "id": "us6000ty8z",
     "source": "usgs",
     "time": "2026-09-28T22:54:44.809000+00:00",
-    "updated": "2026-09-28T23:08:05.126000+00:00",
+    "updated": "2026-09-28T23:30:54.572000+00:00",
     "lat": 39.3636,
     "lon": -99.7458,
     "depth_km": 5,
     "magnitude": 3,
     "mag_type": "mb_lg",
     "place": "4 km W of Bogue, Kansas",
-    "cdi": 3.2,
+    "cdi": 4.7,
     "mmi": null,
-    "felt_reports": 4,
+    "felt_reports": 5,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 39.37317,
+        "lon": -99.8068625,
+        "intensity": 4.7,
+        "responses": 1
+      },
       {
         "lat": 39.372925,
         "lon": -99.84169,
