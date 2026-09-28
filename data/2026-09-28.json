@@ -1890,18 +1890,24 @@
     "id": "us6000ty73",
     "source": "usgs",
     "time": "2026-09-28T18:20:44.330000+00:00",
-    "updated": "2026-09-28T19:06:56.415000+00:00",
+    "updated": "2026-09-28T22:45:54.390000+00:00",
     "lat": 23.702,
     "lon": 121.8063,
     "depth_km": 19.011,
     "magnitude": 4.6,
     "mag_type": "mwr",
     "place": "36 km SE of Hualien City, Taiwan",
-    "cdi": 3.8,
+    "cdi": 4.1,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 23.9781825,
+        "lon": 121.618955,
+        "intensity": 4.3,
+        "responses": 1
+      },
       {
         "lat": 23.9780975,
         "lon": 121.609125,
