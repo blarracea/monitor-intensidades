@@ -1915,7 +1915,7 @@
     "id": "us6000ty7u",
     "source": "usgs",
     "time": "2026-09-28T19:45:07.515000+00:00",
-    "updated": "2026-09-28T20:25:06.822000+00:00",
+    "updated": "2026-09-28T20:30:19.125000+00:00",
     "lat": 36.0809,
     "lon": 139.7782,
     "depth_km": 70.972,
@@ -1924,7 +1924,7 @@
     "place": "2 km SW of Sakai, Japan",
     "cdi": 4.3,
     "mmi": null,
-    "felt_reports": 22,
+    "felt_reports": 23,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1946,14 +1946,14 @@
         "responses": 1
       },
       {
-        "lat": 35.6650675,
-        "lon": 139.76808,
+        "lat": 35.64681,
+        "lon": 139.74627,
         "intensity": 3.8,
         "responses": 1
       },
       {
-        "lat": 35.64681,
-        "lon": 139.74627,
+        "lat": 35.6650675,
+        "lon": 139.76808,
         "intensity": 3.8,
         "responses": 1
       },
@@ -1964,14 +1964,32 @@
         "responses": 1
       },
       {
-        "lat": 35.655355,
-        "lon": 139.7019475,
+        "lat": 35.674080000000004,
+        "lon": 139.7679425,
         "intensity": 3.4,
         "responses": 1
       },
       {
         "lat": 35.751915,
         "lon": 139.479185,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 35.6989225,
+        "lon": 139.568615,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 35.655355,
+        "lon": 139.7019475,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 35.7368375,
+        "lon": 139.7338,
         "intensity": 3.4,
         "responses": 1
       },
@@ -1988,16 +2006,22 @@
         "responses": 1
       },
       {
+        "lat": 35.691295,
+        "lon": 139.690315,
+        "intensity": 3.3,
+        "responses": 3
+      },
+      {
         "lat": 35.6741925,
         "lon": 139.7789875,
         "intensity": 3.1,
         "responses": 1
       },
       {
-        "lat": 35.691295,
-        "lon": 139.690315,
+        "lat": 35.635022500000005,
+        "lon": 139.503495,
         "intensity": 3.1,
-        "responses": 2
+        "responses": 1
       },
       {
         "lat": 35.68332,
@@ -2006,9 +2030,21 @@
         "responses": 1
       },
       {
-        "lat": 35.635022500000005,
-        "lon": 139.503495,
-        "intensity": 3.1,
+        "lat": 35.535035,
+        "lon": 139.4391725,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 35.664722499999996,
+        "lon": 139.73494,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 35.718575,
+        "lon": 139.71197999999998,
+        "intensity": 2.2,
         "responses": 1
       },
       {
