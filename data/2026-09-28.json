@@ -1257,5 +1257,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty4w",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "hv75044657",
+    "source": "usgs",
+    "time": "2026-09-28T12:31:34.130000+00:00",
+    "updated": "2026-09-28T12:35:56.720000+00:00",
+    "lat": 19.1498336791992,
+    "lon": -155.517669677734,
+    "depth_km": 33.0999984741211,
+    "magnitude": 2.51,
+    "mag_type": "md",
+    "place": "7 km SW of Pāhala, Hawaii",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75044657",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
