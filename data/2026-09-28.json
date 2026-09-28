@@ -177,14 +177,14 @@
   {
     "id": "aka2026teuaqx",
     "source": "usgs",
-    "time": "2026-09-28T01:03:39.496000+00:00",
-    "updated": "2026-09-28T01:43:05.040000+00:00",
-    "lat": 59.816,
-    "lon": -153.303,
-    "depth_km": 139,
+    "time": "2026-09-28T01:03:39.347000+00:00",
+    "updated": "2026-09-28T21:20:07.748000+00:00",
+    "lat": 59.819,
+    "lon": -153.311,
+    "depth_km": 138.3,
     "magnitude": 3.1,
     "mag_type": "ml",
-    "place": "45 km E of Pedro Bay, Alaska",
+    "place": "44 km E of Pedro Bay, Alaska",
     "cdi": null,
     "mmi": null,
     "felt_reports": 0,
@@ -1939,7 +1939,7 @@
     "id": "us6000ty7u",
     "source": "usgs",
     "time": "2026-09-28T19:45:07.515000+00:00",
-    "updated": "2026-09-28T21:14:06.914000+00:00",
+    "updated": "2026-09-28T21:19:14.817000+00:00",
     "lat": 36.0809,
     "lon": 139.7782,
     "depth_km": 70.972,
@@ -1948,7 +1948,7 @@
     "place": "2 km SW of Sakai, Japan",
     "cdi": 4.3,
     "mmi": null,
-    "felt_reports": 31,
+    "felt_reports": 32,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2063,6 +2063,12 @@
         "lat": 35.68332,
         "lon": 139.7899,
         "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 35.62901,
+        "lon": 139.76863,
+        "intensity": 2.7,
         "responses": 1
       },
       {
