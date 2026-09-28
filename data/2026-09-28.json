@@ -50,14 +50,14 @@
   {
     "id": "uw714110692",
     "source": "usgs",
-    "time": "2026-09-28T00:12:09.360000+00:00",
-    "updated": "2026-09-28T17:48:55.863000+00:00",
-    "lat": 46.2143333333333,
-    "lon": -121.520833333333,
-    "depth_km": -1.13,
+    "time": "2026-09-28T00:12:09.330000+00:00",
+    "updated": "2026-09-28T20:59:59.694000+00:00",
+    "lat": 46.2126666666667,
+    "lon": -121.518666666667,
+    "depth_km": -1.07,
     "magnitude": 2.56,
     "mag_type": "ml",
-    "place": "24 km N of Trout Lake, Washington",
+    "place": "23 km N of Trout Lake, Washington",
     "cdi": 2.2,
     "mmi": null,
     "felt_reports": 2,
@@ -2080,6 +2080,12 @@
       {
         "lat": 35.654872499999996,
         "lon": 139.65777,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 35.6915325,
+        "lon": 139.712415,
         "intensity": 2,
         "responses": 1
       }
