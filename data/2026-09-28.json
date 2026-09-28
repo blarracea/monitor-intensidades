@@ -449,7 +449,7 @@
     "id": "us6000ty55",
     "source": "usgs",
     "time": "2026-09-28T04:38:10.605000+00:00",
-    "updated": "2026-09-28T17:31:58.987000+00:00",
+    "updated": "2026-09-28T19:22:54.219000+00:00",
     "lat": 43.2073,
     "lon": 76.9838,
     "depth_km": 10,
@@ -458,13 +458,19 @@
     "place": "7 km SE of Almaty, Kazakhstan",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 3,
+    "felt_reports": 4,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 43.25147,
         "lon": 76.903265,
         "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 43.242265,
+        "lon": 76.915295,
+        "intensity": 2.7,
         "responses": 1
       },
       {
