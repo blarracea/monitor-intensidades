@@ -1709,7 +1709,7 @@
     "id": "aka2026tfzjzc",
     "source": "usgs",
     "time": "2026-09-28T16:44:00.462000+00:00",
-    "updated": "2026-09-28T17:04:13.040000+00:00",
+    "updated": "2026-09-28T20:14:31.434000+00:00",
     "lat": 59.675,
     "lon": -152.558,
     "depth_km": 87,
@@ -1717,7 +1717,7 @@
     "mag_type": "ml",
     "place": "42 km WSW of Anchor Point, Alaska",
     "cdi": null,
-    "mmi": 1.851,
+    "mmi": 2.213,
     "felt_reports": 0,
     "tsunami_flag": false,
     "dyfi_points": [],
@@ -1915,7 +1915,7 @@
     "id": "us6000ty7u",
     "source": "usgs",
     "time": "2026-09-28T19:45:07.515000+00:00",
-    "updated": "2026-09-28T20:09:35.704000+00:00",
+    "updated": "2026-09-28T20:14:31.194000+00:00",
     "lat": 36.0809,
     "lon": 139.7782,
     "depth_km": 70.972,
@@ -1924,7 +1924,7 @@
     "place": "2 km SW of Sakai, Japan",
     "cdi": 4.3,
     "mmi": null,
-    "felt_reports": 9,
+    "felt_reports": 11,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1954,6 +1954,18 @@
       {
         "lat": 35.655355,
         "lon": 139.7019475,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 35.751915,
+        "lon": 139.479185,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 35.2854075,
+        "lon": 139.6748925,
         "intensity": 3.4,
         "responses": 1
       },
