@@ -446,6 +446,37 @@
     "keywords_matched": []
   },
   {
+    "id": "us6000ty55",
+    "source": "usgs",
+    "time": "2026-09-28T04:38:10.577000+00:00",
+    "updated": "2026-09-28T13:54:35.567000+00:00",
+    "lat": 43.2129,
+    "lon": 76.9819,
+    "depth_km": 10,
+    "magnitude": 3.4,
+    "mag_type": "ml",
+    "place": "6 km SE of Almaty, Kazakhstan",
+    "cdi": 3.1,
+    "mmi": null,
+    "felt_reports": 1,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 43.25147,
+        "lon": 76.903265,
+        "intensity": 3.1,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty55",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384702.html",
     "source": "csn",
     "time": "2026-09-28T04:38:11+00:00",
