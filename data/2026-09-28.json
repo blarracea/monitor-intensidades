@@ -1233,5 +1233,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384739.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000ty4w",
+    "source": "usgs",
+    "time": "2026-09-28T12:14:24.032000+00:00",
+    "updated": "2026-09-28T12:32:25.040000+00:00",
+    "lat": -20.6932,
+    "lon": -178.4971,
+    "depth_km": 573.114,
+    "magnitude": 4.7,
+    "mag_type": "mb",
+    "place": "Fiji region",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty4w",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
