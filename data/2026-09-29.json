@@ -310,5 +310,71 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384788.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384790.html",
+    "source": "csn",
+    "time": "2026-09-29T04:02:46+00:00",
+    "updated": "2026-09-29T04:02:46+00:00",
+    "lat": -32.81,
+    "lon": -71.5,
+    "depth_km": 58.0,
+    "magnitude": 4.2,
+    "mag_type": "MLv",
+    "place": "5 km al SE de Quintero, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": -32.8811,
+        "lon": -71.2492,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Quillota",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -33.0246,
+        "lon": -71.5518,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Viña del Mar",
+        "region": "Valparaíso"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-valparaiso-2026-09-29-01-08-29",
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384790.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384790.html",
+    "relevant": false,
+    "keywords_matched": [],
+    "senapred_match_time": "2026-09-29T01:08:29-03:00"
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384792.html",
+    "source": "csn",
+    "time": "2026-09-29T04:06:35+00:00",
+    "updated": "2026-09-29T04:06:35+00:00",
+    "lat": -20.87,
+    "lon": -68.9,
+    "depth_km": 109.0,
+    "magnitude": 3.0,
+    "mag_type": "MLv",
+    "place": "26 km al O de Mina Collahuasi, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384792.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384792.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
