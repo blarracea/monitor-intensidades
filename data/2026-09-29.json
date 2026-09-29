@@ -1076,7 +1076,7 @@
     "id": "nc75444322",
     "source": "usgs",
     "time": "2026-09-29T11:36:39.240000+00:00",
-    "updated": "2026-09-29T16:55:13.995000+00:00",
+    "updated": "2026-09-29T16:57:43.137000+00:00",
     "lat": 40.4225,
     "lon": -125.418333333333,
     "depth_km": 10,
@@ -1085,7 +1085,7 @@
     "place": "97 km W of Petrolia, CA",
     "cdi": 2.7,
     "mmi": 2.251,
-    "felt_reports": 15,
+    "felt_reports": 16,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1097,12 +1097,6 @@
       {
         "lat": 40.784459999999996,
         "lon": -124.17924500000001,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 40.784580000000005,
-        "lon": -124.167395,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1125,9 +1119,9 @@
         "responses": 1
       },
       {
-        "lat": 40.83965,
-        "lon": -124.06160750000001,
-        "intensity": 2,
+        "lat": 40.784580000000005,
+        "lon": -124.167395,
+        "intensity": 2.2,
         "responses": 1
       },
       {
@@ -1149,12 +1143,6 @@
         "responses": 1
       },
       {
-        "lat": 40.57643,
-        "lon": -124.258285,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
         "lat": 40.793825,
         "lon": -124.14385,
         "intensity": 2,
@@ -1167,6 +1155,18 @@
         "responses": 1
       },
       {
+        "lat": 40.83965,
+        "lon": -124.06160750000001,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 40.57643,
+        "lon": -124.258285,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 37.50832,
         "lon": -122.2928275,
         "intensity": 1,
@@ -1175,6 +1175,12 @@
       {
         "lat": 40.595555,
         "lon": -124.1522825,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 41.7659725,
+        "lon": -124.2090725,
         "intensity": 1,
         "responses": 1
       }
