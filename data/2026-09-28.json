@@ -570,7 +570,7 @@
     "id": "us6000ty2u",
     "source": "usgs",
     "time": "2026-09-28T04:41:21.639000+00:00",
-    "updated": "2026-09-29T04:46:36.441000+00:00",
+    "updated": "2026-09-29T18:00:07.688000+00:00",
     "lat": 50.0527,
     "lon": -130.2208,
     "depth_km": 10,
@@ -579,9 +579,15 @@
     "place": "231 km WSW of Port McNeill, Canada",
     "cdi": 1,
     "mmi": 0,
-    "felt_reports": 2,
+    "felt_reports": 3,
     "tsunami_flag": true,
     "dyfi_points": [
+      {
+        "lat": 50.53014,
+        "lon": -127.6102175,
+        "intensity": 1,
+        "responses": 1
+      },
       {
         "lat": 49.26115,
         "lon": -123.15805,
