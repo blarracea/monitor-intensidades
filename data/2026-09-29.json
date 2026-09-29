@@ -1076,7 +1076,7 @@
     "id": "nc75444322",
     "source": "usgs",
     "time": "2026-09-29T11:36:37.910000+00:00",
-    "updated": "2026-09-29T15:53:55.034000+00:00",
+    "updated": "2026-09-29T16:23:13.328000+00:00",
     "lat": 40.4329986572266,
     "lon": -125.459831237793,
     "depth_km": 2.27999997138977,
@@ -1085,7 +1085,7 @@
     "place": "100 km W of Petrolia, CA",
     "cdi": 2.7,
     "mmi": 2.219,
-    "felt_reports": 13,
+    "felt_reports": 14,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1103,6 +1103,12 @@
       {
         "lat": 40.784580000000005,
         "lon": -124.167395,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 40.830535,
+        "lon": -124.07332,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1347,16 +1353,16 @@
     "id": "nc75444432",
     "source": "usgs",
     "time": "2026-09-29T16:06:37.410000+00:00",
-    "updated": "2026-09-29T16:17:19.486000+00:00",
+    "updated": "2026-09-29T16:22:47.457000+00:00",
     "lat": 38.3988342285156,
     "lon": -122.424003601074,
     "depth_km": 8.30000019073486,
     "magnitude": 2.58,
     "mag_type": "md",
     "place": "6 km W of Yountville, CA",
-    "cdi": 3.3,
+    "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 13,
+    "felt_reports": 23,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1384,14 +1390,14 @@
         "responses": 1
       },
       {
-        "lat": 38.301745,
-        "lon": -122.3423775,
+        "lat": 38.293369999999996,
+        "lon": -122.4682425,
         "intensity": 3.1,
         "responses": 1
       },
       {
-        "lat": 38.4279075,
-        "lon": -122.341235,
+        "lat": 38.301745,
+        "lon": -122.3423775,
         "intensity": 3.1,
         "responses": 1
       },
@@ -1414,6 +1420,18 @@
         "responses": 1
       },
       {
+        "lat": 38.4279075,
+        "lon": -122.341235,
+        "intensity": 2.6,
+        "responses": 2
+      },
+      {
+        "lat": 38.2933175,
+        "lon": -122.4568075,
+        "intensity": 2.5,
+        "responses": 2
+      },
+      {
         "lat": 38.32851,
         "lon": -122.296375,
         "intensity": 2.2,
@@ -1423,6 +1441,24 @@
         "lat": 38.4550675,
         "lon": -122.36391,
         "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 38.32051,
+        "lon": -122.4909225,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 38.364824999999996,
+        "lon": -122.341805,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 38.391985,
+        "lon": -122.364465,
+        "intensity": 2,
         "responses": 1
       }
     ],
