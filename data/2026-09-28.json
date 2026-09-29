@@ -1975,7 +1975,7 @@
     "id": "us6000ty7u",
     "source": "usgs",
     "time": "2026-09-28T19:45:07.515000+00:00",
-    "updated": "2026-09-29T00:27:59.190000+00:00",
+    "updated": "2026-09-29T00:33:19.594000+00:00",
     "lat": 36.0809,
     "lon": 139.7782,
     "depth_km": 70.972,
@@ -1984,7 +1984,7 @@
     "place": "2 km SW of Sakai, Japan",
     "cdi": 4.3,
     "mmi": null,
-    "felt_reports": 54,
+    "felt_reports": 56,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2014,6 +2014,12 @@
       {
         "lat": 35.8979925,
         "lon": 139.6315175,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 35.856247499999995,
+        "lon": 139.9644725,
         "intensity": 3.8,
         "responses": 1
       },
@@ -2222,6 +2228,12 @@
         "responses": 1
       },
       {
+        "lat": 35.8906475,
+        "lon": 139.78674999999998,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": 35.535035,
         "lon": 139.4391725,
         "intensity": 2.7,
@@ -2391,16 +2403,16 @@
     "id": "us6000ty8z",
     "source": "usgs",
     "time": "2026-09-28T22:54:44.809000+00:00",
-    "updated": "2026-09-28T23:59:02.689000+00:00",
+    "updated": "2026-09-29T00:30:55.751000+00:00",
     "lat": 39.3636,
     "lon": -99.7458,
     "depth_km": 5,
     "magnitude": 3,
     "mag_type": "mb_lg",
     "place": "4 km W of Bogue, Kansas",
-    "cdi": 4.7,
+    "cdi": 4.4,
     "mmi": null,
-    "felt_reports": 7,
+    "felt_reports": 8,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2414,6 +2426,12 @@
         "lon": -99.84169,
         "intensity": 3.8,
         "responses": 2
+      },
+      {
+        "lat": 39.355760000000004,
+        "lon": -99.71381,
+        "intensity": 3.4,
+        "responses": 1
       },
       {
         "lat": 39.363995,
