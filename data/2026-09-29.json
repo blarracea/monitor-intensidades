@@ -1174,5 +1174,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75444342",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384844.html",
+    "source": "csn",
+    "time": "2026-09-29T12:18:49+00:00",
+    "updated": "2026-09-29T12:18:49+00:00",
+    "lat": -27.39,
+    "lon": -69.68,
+    "depth_km": 101.0,
+    "magnitude": 2.8,
+    "mag_type": "MLv",
+    "place": "64 km al E de Copiapó, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384844.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384844.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
