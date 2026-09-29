@@ -1288,5 +1288,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyc3",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000tyc9",
+    "source": "usgs",
+    "time": "2026-09-29T14:14:06.077000+00:00",
+    "updated": "2026-09-29T15:15:34.040000+00:00",
+    "lat": -8.7834,
+    "lon": 124.0495,
+    "depth_km": 157.801,
+    "magnitude": 5,
+    "mag_type": "mb",
+    "place": "58 km NW of Pante Makasar, Timor Leste",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyc9",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
