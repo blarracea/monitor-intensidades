@@ -999,5 +999,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tybr",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "ew1790681810",
+    "source": "usgs",
+    "time": "2026-09-29T11:36:30+00:00",
+    "updated": "2026-09-29T11:37:01+00:00",
+    "lat": 40.3784,
+    "lon": -126.0905,
+    "depth_km": 8,
+    "magnitude": 4.5,
+    "mag_type": "mw",
+    "place": "156 km W of Ferndale, California",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ew1790681810",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
