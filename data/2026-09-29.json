@@ -519,5 +519,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384795.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000tyat",
+    "source": "usgs",
+    "time": "2026-09-29T06:38:49.006000+00:00",
+    "updated": "2026-09-29T06:58:22.040000+00:00",
+    "lat": -55.2555,
+    "lon": -28.4628,
+    "depth_km": 35,
+    "magnitude": 4.8,
+    "mag_type": "mb",
+    "place": "South Sandwich Islands region",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyat",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
