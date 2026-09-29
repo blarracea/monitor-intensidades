@@ -1342,5 +1342,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384852.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "nc75444432",
+    "source": "usgs",
+    "time": "2026-09-29T16:06:37.410000+00:00",
+    "updated": "2026-09-29T16:10:29.240000+00:00",
+    "lat": 38.3988342285156,
+    "lon": -122.424003601074,
+    "depth_km": 8.30000019073486,
+    "magnitude": 2.58,
+    "mag_type": "md",
+    "place": "6 km W of Yountville, CA",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75444432",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
