@@ -783,5 +783,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384825.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "hv75045217",
+    "source": "usgs",
+    "time": "2026-09-29T09:39:39.990000+00:00",
+    "updated": "2026-09-29T09:43:03.240000+00:00",
+    "lat": 19.341833114624,
+    "lon": -155.140335083008,
+    "depth_km": 4.03000020980835,
+    "magnitude": 2.5,
+    "mag_type": "ml",
+    "place": "13 km S of Fern Forest, Hawaii",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75045217",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
