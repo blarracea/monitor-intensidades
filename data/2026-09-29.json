@@ -567,5 +567,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384806.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026thenke",
+    "source": "usgs",
+    "time": "2026-09-29T08:17:48.027000+00:00",
+    "updated": "2026-09-29T08:19:19.526000+00:00",
+    "lat": 57.675,
+    "lon": -154.503,
+    "depth_km": 60.1,
+    "magnitude": 2.5,
+    "mag_type": "ml",
+    "place": "12 km NNW of Karluk, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026thenke",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
