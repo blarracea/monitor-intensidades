@@ -886,6 +886,37 @@
     "keywords_matched": []
   },
   {
+    "id": "us6000ty3k",
+    "source": "usgs",
+    "time": "2026-09-28T07:21:55.131000+00:00",
+    "updated": "2026-09-29T07:22:46.082000+00:00",
+    "lat": 18.9102,
+    "lon": -104.3766,
+    "depth_km": 51.814,
+    "magnitude": 4.4,
+    "mag_type": "mb",
+    "place": "20 km SW of El Colomo, Mexico",
+    "cdi": 3.1,
+    "mmi": null,
+    "felt_reports": 1,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 18.922375,
+        "lon": -104.064595,
+        "intensity": 3.1,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ty3k",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "pr71534948",
     "source": "usgs",
     "time": "2026-09-28T07:35:09.620000+00:00",
