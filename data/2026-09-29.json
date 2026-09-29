@@ -1804,7 +1804,7 @@
     "id": "uw714111952",
     "source": "usgs",
     "time": "2026-09-29T21:05:56.250000+00:00",
-    "updated": "2026-09-29T21:24:24.624000+00:00",
+    "updated": "2026-09-29T21:28:18.117000+00:00",
     "lat": 47.4058333333333,
     "lon": -122.71,
     "depth_km": 27.88,
@@ -1812,7 +1812,7 @@
     "mag_type": "ml",
     "place": "5 km WNW of Wauna, Washington",
     "cdi": 3.4,
-    "mmi": 3.48,
+    "mmi": 3.511,
     "felt_reports": 1846,
     "tsunami_flag": false,
     "dyfi_points": [
@@ -6797,6 +6797,30 @@
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714111952",
     "relevant": true,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384883.html",
+    "source": "csn",
+    "time": "2026-09-29T21:23:41+00:00",
+    "updated": "2026-09-29T21:23:41+00:00",
+    "lat": -22.05,
+    "lon": -68.88,
+    "depth_km": 128.0,
+    "magnitude": 2.5,
+    "mag_type": "MLv",
+    "place": "47 km al N de Calama, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384883.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384883.html",
+    "relevant": false,
     "keywords_matched": []
   }
 ]
