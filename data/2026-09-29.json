@@ -1076,7 +1076,7 @@
     "id": "nc75444322",
     "source": "usgs",
     "time": "2026-09-29T11:36:37.910000+00:00",
-    "updated": "2026-09-29T12:09:59.523000+00:00",
+    "updated": "2026-09-29T12:20:02.821000+00:00",
     "lat": 40.4329986572266,
     "lon": -125.459831237793,
     "depth_km": 2.27999997138977,
@@ -1085,18 +1085,18 @@
     "place": "100 km W of Petrolia, CA",
     "cdi": 2.2,
     "mmi": 2.219,
-    "felt_reports": 7,
+    "felt_reports": 8,
     "tsunami_flag": false,
     "dyfi_points": [
       {
-        "lat": 40.028752499999996,
-        "lon": -124.07237,
+        "lat": 40.784580000000005,
+        "lon": -124.167395,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 40.784580000000005,
-        "lon": -124.167395,
+        "lat": 40.028752499999996,
+        "lon": -124.07237,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1113,14 +1113,20 @@
         "responses": 1
       },
       {
-        "lat": 40.793825,
-        "lon": -124.14385,
+        "lat": 40.7939425,
+        "lon": -124.132,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 40.7939425,
-        "lon": -124.132,
+        "lat": 40.57643,
+        "lon": -124.258285,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 40.793825,
+        "lon": -124.14385,
         "intensity": 2,
         "responses": 1
       },
@@ -1136,6 +1142,30 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75444322",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "nc75444342",
+    "source": "usgs",
+    "time": "2026-09-29T12:18:44.820000+00:00",
+    "updated": "2026-09-29T12:20:23.709000+00:00",
+    "lat": 37.3976669311523,
+    "lon": -118.605003356934,
+    "depth_km": 8.59000015258789,
+    "magnitude": 2.51,
+    "mag_type": "md",
+    "place": "2 km SSW of Round Valley, CA",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75444342",
     "relevant": false,
     "keywords_matched": []
   }
