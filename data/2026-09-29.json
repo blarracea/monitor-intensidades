@@ -543,5 +543,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyat",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384806.html",
+    "source": "csn",
+    "time": "2026-09-29T08:06:51+00:00",
+    "updated": "2026-09-29T08:06:51+00:00",
+    "lat": -21.61,
+    "lon": -68.98,
+    "depth_km": 101.0,
+    "magnitude": 2.5,
+    "mag_type": "MLv",
+    "place": "57 km al E de Quillagua, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384806.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384806.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
