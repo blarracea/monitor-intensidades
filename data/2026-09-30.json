@@ -1277,5 +1277,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyik",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026tjasea",
+    "source": "usgs",
+    "time": "2026-09-30T08:22:22.267000+00:00",
+    "updated": "2026-09-30T08:24:30.692000+00:00",
+    "lat": 61.733,
+    "lon": -150.176,
+    "depth_km": 5,
+    "magnitude": 2.5,
+    "mag_type": "ml",
+    "place": "7 km WSW of Willow, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tjasea",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
