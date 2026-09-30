@@ -2262,10 +2262,34 @@
     "keywords_matched": []
   },
   {
+    "id": "pr71535218",
+    "source": "usgs",
+    "time": "2026-09-30T21:03:41.740000+00:00",
+    "updated": "2026-09-30T21:41:53.950000+00:00",
+    "lat": 17.9443333333333,
+    "lon": -66.9465,
+    "depth_km": 7.78,
+    "magnitude": 2.57,
+    "mag_type": "md",
+    "place": "5 km SW of Guánica, Puerto Rico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71535218",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "nc75441996",
     "source": "usgs",
     "time": "2026-09-30T21:07:19.250000+00:00",
-    "updated": "2026-09-30T21:34:42.769000+00:00",
+    "updated": "2026-09-30T21:45:17.676000+00:00",
     "lat": 38.7781677246094,
     "lon": -122.933166503906,
     "depth_km": 4.03000020980835,
@@ -2274,7 +2298,7 @@
     "place": "8 km ESE of Cloverdale, CA",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 8,
+    "felt_reports": 9,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2310,6 +2334,12 @@
       {
         "lat": 38.8172675,
         "lon": -123.02879,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 37.7037575,
+        "lon": -121.916625,
         "intensity": 2,
         "responses": 1
       },
