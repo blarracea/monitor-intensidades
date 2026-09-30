@@ -164,18 +164,24 @@
     "id": "us6000tygs",
     "source": "usgs",
     "time": "2026-09-30T01:34:05.751000+00:00",
-    "updated": "2026-09-30T02:09:41.450000+00:00",
+    "updated": "2026-09-30T02:18:27.542000+00:00",
     "lat": 13.0922,
     "lon": 120.4734,
     "depth_km": 10,
     "magnitude": 4.8,
     "mag_type": "mb",
     "place": "18 km SW of Tayaman, Philippines",
-    "cdi": 2,
+    "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 13.746415,
+        "lon": 121.0901875,
+        "intensity": 2.7,
+        "responses": 1
+      },
       {
         "lat": 13.63873,
         "lon": 121.19271499999999,
@@ -196,12 +202,12 @@
     "source": "csn",
     "time": "2026-09-30T02:08:51+00:00",
     "updated": "2026-09-30T02:08:51+00:00",
-    "lat": -29.86,
-    "lon": -71.65,
-    "depth_km": 20.0,
-    "magnitude": 3.8,
+    "lat": -29.87,
+    "lon": -71.61,
+    "depth_km": 32.0,
+    "magnitude": 3.9,
     "mag_type": "MLv",
-    "place": "39 km al O de La Serena, Chile",
+    "place": "35 km al O de La Serena, Chile",
     "cdi": null,
     "mmi": null,
     "felt_reports": null,
@@ -230,7 +236,6 @@
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384894.html",
     "relevant": false,
-    "keywords_matched": [],
-    "senapred_match_time": "2026-09-29T23:12:16-03:00"
+    "keywords_matched": []
   }
 ]
