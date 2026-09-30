@@ -290,16 +290,16 @@
     "id": "ci41340823",
     "source": "usgs",
     "time": "2026-09-30T03:00:27.240000+00:00",
-    "updated": "2026-09-30T03:14:51.040000+00:00",
+    "updated": "2026-09-30T03:19:41.320000+00:00",
     "lat": 34.3951683044434,
     "lon": -118.762168884277,
     "depth_km": 10.6999998092651,
     "magnitude": 3.81008714964485,
     "mag_type": "mw",
     "place": "4 km SE of Piru, CA",
-    "cdi": 3.1,
-    "mmi": 3.368,
-    "felt_reports": 29,
+    "cdi": 3.2,
+    "mmi": 3.268,
+    "felt_reports": 67,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -309,8 +309,26 @@
         "responses": 1
       },
       {
-        "lat": 34.394037499999996,
-        "lon": -118.90915,
+        "lat": 34.364345,
+        "lon": -119.0715725,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 34.336937500000005,
+        "lon": -119.09263250000001,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 34.4118925,
+        "lon": -118.92043749999999,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 34.40486,
+        "lon": -118.78973500000001,
         "intensity": 3.3,
         "responses": 2
       },
@@ -321,10 +339,70 @@
         "responses": 2
       },
       {
+        "lat": 34.19574,
+        "lon": -118.9046675,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 34.2421275,
+        "lon": -118.81885249999999,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 34.4047,
+        "lon": -118.80061,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 34.2644675,
+        "lon": -119.11255750000001,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 34.3848525,
+        "lon": -118.9198175,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 34.40271,
+        "lon": -118.93110250000001,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
         "lat": 34.3938675,
         "lon": -118.9200225,
         "intensity": 3.1,
-        "responses": 2
+        "responses": 3
+      },
+      {
+        "lat": 34.394037499999996,
+        "lon": -118.90915,
+        "intensity": 3,
+        "responses": 3
+      },
+      {
+        "lat": 34.40305,
+        "lon": -118.9093575,
+        "intensity": 2.7,
+        "responses": 5
+      },
+      {
+        "lat": 34.364895000000004,
+        "lon": -119.038965,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 34.34632,
+        "lon": -119.071125,
+        "intensity": 2.7,
+        "responses": 1
       },
       {
         "lat": 34.297395,
@@ -333,32 +411,38 @@
         "responses": 1
       },
       {
-        "lat": 34.2862125,
-        "lon": -118.88498,
-        "intensity": 2.7,
-        "responses": 2
-      },
-      {
-        "lat": 34.2793725,
-        "lon": -119.28671,
+        "lat": 34.21865,
+        "lon": -119.15483,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 34.40305,
-        "lon": -118.9093575,
+        "lat": 34.355697500000005,
+        "lon": -119.049615,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 34.3553325,
+        "lon": -119.0713475,
+        "intensity": 2.7,
+        "responses": 5
+      },
+      {
+        "lat": 34.2793725,
+        "lon": -119.28671,
         "intensity": 2.6,
+        "responses": 2
+      },
+      {
+        "lat": 34.355515,
+        "lon": -119.0604825,
+        "intensity": 2.5,
         "responses": 3
       },
       {
         "lat": 34.3062025,
         "lon": -119.298305,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 34.26785,
-        "lon": -118.9062925,
         "intensity": 2.2,
         "responses": 1
       },
@@ -369,14 +453,32 @@
         "responses": 1
       },
       {
-        "lat": 34.186045,
-        "lon": -118.94785,
+        "lat": 34.205255,
+        "lon": -118.872325,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 34.205255,
-        "lon": -118.872325,
+        "lat": 34.188835,
+        "lon": -118.7634525,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 34.279575,
+        "lon": -119.275855,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 34.26785,
+        "lon": -118.9062925,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 34.186045,
+        "lon": -118.94785,
         "intensity": 2.2,
         "responses": 1
       },
@@ -387,22 +489,34 @@
         "responses": 1
       },
       {
-        "lat": 34.355515,
-        "lon": -119.0604825,
-        "intensity": 2.2,
-        "responses": 2
-      },
-      {
         "lat": 34.1772025,
         "lon": -118.9367975,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 34.3553325,
-        "lon": -119.0713475,
+        "lat": 34.29605,
+        "lon": -118.83088000000001,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 34.2862125,
+        "lon": -118.88498,
         "intensity": 2.2,
         "responses": 3
+      },
+      {
+        "lat": 34.2811575,
+        "lon": -119.18900500000001,
+        "intensity": 2.1,
+        "responses": 1
+      },
+      {
+        "lat": 34.152465,
+        "lon": -118.78439,
+        "intensity": 2,
+        "responses": 1
       },
       {
         "lat": 34.816415,
@@ -415,6 +529,54 @@
         "lon": -119.06026,
         "intensity": 2,
         "responses": 2
+      },
+      {
+        "lat": 34.229155,
+        "lon": -119.068255,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 34.166610000000006,
+        "lon": -119.0341825,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 34.28057,
+        "lon": -119.221575,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 34.229519999999994,
+        "lon": -119.0465525,
+        "intensity": 2,
+        "responses": 2
+      },
+      {
+        "lat": 34.2791675,
+        "lon": -119.2975675,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 34.25274,
+        "lon": -119.264275,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 34.470240000000004,
+        "lon": -118.62782,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 33.985842500000004,
+        "lon": -118.423665,
+        "intensity": 1,
+        "responses": 1
       }
     ],
     "intensity_source": "usgs_dyfi",
@@ -422,7 +584,7 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41340823",
-    "relevant": false,
+    "relevant": true,
     "keywords_matched": []
   },
   {
