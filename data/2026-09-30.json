@@ -290,7 +290,7 @@
     "id": "ci41340823",
     "source": "usgs",
     "time": "2026-09-30T03:00:27.240000+00:00",
-    "updated": "2026-09-30T03:53:23.368000+00:00",
+    "updated": "2026-09-30T03:58:28.398000+00:00",
     "lat": 34.3951683044434,
     "lon": -118.762168884277,
     "depth_km": 10.6999998092651,
@@ -299,7 +299,7 @@
     "place": "4 km SE of Piru, CA",
     "cdi": 3.2,
     "mmi": 3.268,
-    "felt_reports": 164,
+    "felt_reports": 166,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -726,7 +726,7 @@
         "lat": 34.1765125,
         "lon": -118.9801775,
         "intensity": 2,
-        "responses": 1
+        "responses": 2
       },
       {
         "lat": 34.2791675,
@@ -792,7 +792,7 @@
         "lat": 34.2715575,
         "lon": -119.2213375,
         "intensity": 2,
-        "responses": 1
+        "responses": 2
       },
       {
         "lat": 34.247545,
@@ -944,6 +944,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384897.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384897.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384900.html",
+    "source": "csn",
+    "time": "2026-09-30T03:52:02+00:00",
+    "updated": "2026-09-30T03:52:02+00:00",
+    "lat": -30.37,
+    "lon": -71.81,
+    "depth_km": 36.0,
+    "magnitude": 3.3,
+    "mag_type": "MLv",
+    "place": "33 km al O de Tongoy, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384900.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384900.html",
     "relevant": false,
     "keywords_matched": []
   }
