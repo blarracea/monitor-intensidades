@@ -1131,7 +1131,7 @@
     "id": "us6000tyhk",
     "source": "usgs",
     "time": "2026-09-30T05:00:24.971000+00:00",
-    "updated": "2026-09-30T06:33:11.900000+00:00",
+    "updated": "2026-09-30T06:46:07.854000+00:00",
     "lat": 23.8027,
     "lon": 122.9149,
     "depth_km": 10.792,
@@ -1140,7 +1140,7 @@
     "place": "74 km S of Yonakuni, Japan",
     "cdi": 4.1,
     "mmi": 3.747,
-    "felt_reports": 8,
+    "felt_reports": 9,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1165,6 +1165,12 @@
         "lat": 25.0151575,
         "lon": 121.4688525,
         "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 25.0609975,
+        "lon": 121.53767,
+        "intensity": 2.7,
         "responses": 1
       },
       {
