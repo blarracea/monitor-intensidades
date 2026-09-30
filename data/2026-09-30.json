@@ -46,5 +46,39 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75045547",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384892.html",
+    "source": "csn",
+    "time": "2026-09-30T01:20:52+00:00",
+    "updated": "2026-09-30T01:20:52+00:00",
+    "lat": -30.65,
+    "lon": -71.34,
+    "depth_km": 14.0,
+    "magnitude": 3.5,
+    "mag_type": "M",
+    "place": "14 km al O de Ovalle, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": -30.6006,
+        "lon": -71.1994,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Ovalle",
+        "region": "Coquimbo"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-coquimbo-2026-09-29-22-25-17",
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384892.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384892.html",
+    "relevant": false,
+    "keywords_matched": [],
+    "senapred_match_time": "2026-09-29T22:25:17-03:00"
   }
 ]
