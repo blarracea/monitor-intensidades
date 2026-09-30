@@ -296,7 +296,7 @@
     "id": "ci41340823",
     "source": "usgs",
     "time": "2026-09-30T03:00:27.240000+00:00",
-    "updated": "2026-09-30T05:06:33.020000+00:00",
+    "updated": "2026-09-30T05:32:56.577000+00:00",
     "lat": 34.3951683044434,
     "lon": -118.762168884277,
     "depth_km": 10.6999998092651,
@@ -305,7 +305,7 @@
     "place": "4 km SE of Piru, CA",
     "cdi": 3.2,
     "mmi": 3.355,
-    "felt_reports": 177,
+    "felt_reports": 178,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -467,12 +467,6 @@
       {
         "lat": 34.34632,
         "lon": -119.071125,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 34.18639,
-        "lon": -118.9261575,
         "intensity": 2.7,
         "responses": 1
       },
@@ -733,6 +727,12 @@
         "lon": -119.254145,
         "intensity": 2,
         "responses": 1
+      },
+      {
+        "lat": 34.18639,
+        "lon": -118.9261575,
+        "intensity": 2,
+        "responses": 2
       },
       {
         "lat": 33.8239175,
@@ -1119,18 +1119,30 @@
     "id": "us6000tyhk",
     "source": "usgs",
     "time": "2026-09-30T05:00:24.971000+00:00",
-    "updated": "2026-09-30T05:26:58.877000+00:00",
+    "updated": "2026-09-30T05:32:08.360000+00:00",
     "lat": 23.8027,
     "lon": 122.9149,
     "depth_km": 10.792,
     "magnitude": 5.6,
     "mag_type": "mww",
     "place": "74 km S of Yonakuni, Japan",
-    "cdi": 3.1,
+    "cdi": 4.1,
     "mmi": 3.747,
-    "felt_reports": 4,
+    "felt_reports": 6,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 25.042645,
+        "lon": 121.50816,
+        "intensity": 4.1,
+        "responses": 1
+      },
+      {
+        "lat": 25.069927500000002,
+        "lon": 121.52765,
+        "intensity": 3.8,
+        "responses": 1
+      },
       {
         "lat": 25.034205,
         "lon": 121.56772000000001,
