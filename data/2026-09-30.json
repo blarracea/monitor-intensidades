@@ -2204,22 +2204,28 @@
     "id": "nc75441981",
     "source": "usgs",
     "time": "2026-09-30T20:48:14.500000+00:00",
-    "updated": "2026-09-30T20:52:49.340000+00:00",
+    "updated": "2026-09-30T20:57:20.626000+00:00",
     "lat": 38.7664985656738,
     "lon": -122.700668334961,
     "depth_km": 1.78999996185303,
     "magnitude": 2.63,
     "mag_type": "md",
     "place": "1 km SW of Anderson Springs, CA",
-    "cdi": 2.7,
+    "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 38.7808,
         "lon": -122.683385,
         "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 38.7355675,
+        "lon": -122.6260575,
+        "intensity": 2.2,
         "responses": 1
       }
     ],
