@@ -290,7 +290,7 @@
     "id": "ci41340823",
     "source": "usgs",
     "time": "2026-09-30T03:00:27.240000+00:00",
-    "updated": "2026-09-30T03:58:28.398000+00:00",
+    "updated": "2026-09-30T04:04:26.661000+00:00",
     "lat": 34.3951683044434,
     "lon": -118.762168884277,
     "depth_km": 10.6999998092651,
@@ -298,8 +298,8 @@
     "mag_type": "mw",
     "place": "4 km SE of Piru, CA",
     "cdi": 3.2,
-    "mmi": 3.268,
-    "felt_reports": 166,
+    "mmi": 3.355,
+    "felt_reports": 167,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -817,6 +817,12 @@
         "lon": -119.221575,
         "intensity": 2,
         "responses": 2
+      },
+      {
+        "lat": 34.2995675,
+        "lon": -119.167755,
+        "intensity": 2,
+        "responses": 1
       },
       {
         "lat": 34.229519999999994,
