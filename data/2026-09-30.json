@@ -2416,7 +2416,7 @@
     "id": "us6000tymj",
     "source": "usgs",
     "time": "2026-09-30T21:55:26.169000+00:00",
-    "updated": "2026-09-30T22:48:54.322000+00:00",
+    "updated": "2026-09-30T23:12:59.671000+00:00",
     "lat": 9.7526,
     "lon": -86.5063,
     "depth_km": 8,
@@ -2425,9 +2425,15 @@
     "place": "94 km SW of Tamarindo, Costa Rica",
     "cdi": 2,
     "mmi": 3.825,
-    "felt_reports": 2,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 10.5498125,
+        "lon": -85.6976175,
+        "intensity": 2,
+        "responses": 1
+      },
       {
         "lat": 9.943185,
         "lon": -84.122875,
