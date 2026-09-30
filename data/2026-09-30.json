@@ -1247,5 +1247,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyid",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000tyik",
+    "source": "usgs",
+    "time": "2026-09-30T07:07:16.005000+00:00",
+    "updated": "2026-09-30T07:42:11.040000+00:00",
+    "lat": -63.5619,
+    "lon": 171.414,
+    "depth_km": 10,
+    "magnitude": 5.2,
+    "mag_type": "mww",
+    "place": "Balleny Islands region",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyik",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
