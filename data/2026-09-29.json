@@ -1846,7 +1846,7 @@
     "id": "uw714111952",
     "source": "usgs",
     "time": "2026-09-29T21:05:56.370000+00:00",
-    "updated": "2026-09-30T21:01:45.278000+00:00",
+    "updated": "2026-09-30T21:06:51.452000+00:00",
     "lat": 47.4003333333333,
     "lon": -122.722,
     "depth_km": 27.92,
@@ -1855,7 +1855,7 @@
     "place": "6 km WNW of Wauna, Washington",
     "cdi": 3.8,
     "mmi": 3.452,
-    "felt_reports": 9330,
+    "felt_reports": 9334,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -5903,6 +5903,12 @@
         "responses": 9
       },
       {
+        "lat": 47.047955,
+        "lon": -122.88809,
+        "intensity": 3,
+        "responses": 27
+      },
+      {
         "lat": 47.362245,
         "lon": -122.596075,
         "intensity": 3,
@@ -6021,12 +6027,6 @@
         "lon": -122.4387825,
         "intensity": 3,
         "responses": 3
-      },
-      {
-        "lat": 47.047955,
-        "lon": -122.88809,
-        "intensity": 3,
-        "responses": 26
       },
       {
         "lat": 47.298950000000005,
@@ -13250,7 +13250,7 @@
         "lat": 47.576865,
         "lon": -122.315185,
         "intensity": 2,
-        "responses": 7
+        "responses": 8
       },
       {
         "lat": 47.038995,
@@ -13268,7 +13268,7 @@
         "lat": 47.5602875,
         "lon": -122.62114249999999,
         "intensity": 2,
-        "responses": 2
+        "responses": 3
       },
       {
         "lat": 47.34482,
@@ -13670,7 +13670,7 @@
         "lat": 47.55879,
         "lon": -122.302125,
         "intensity": 2,
-        "responses": 1
+        "responses": 2
       },
       {
         "lat": 48.433165,
