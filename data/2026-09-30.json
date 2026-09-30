@@ -2127,5 +2127,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyku",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000tykw",
+    "source": "usgs",
+    "time": "2026-09-30T18:36:22.667000+00:00",
+    "updated": "2026-09-30T18:59:51.040000+00:00",
+    "lat": 52.3676,
+    "lon": 160.2895,
+    "depth_km": 31.929,
+    "magnitude": 4.9,
+    "mag_type": "mb",
+    "place": "136 km SE of Petropavlovsk-Kamchatsky, Russia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tykw",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
