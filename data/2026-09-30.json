@@ -190,5 +190,47 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tygs",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384894.html",
+    "source": "csn",
+    "time": "2026-09-30T02:08:51+00:00",
+    "updated": "2026-09-30T02:08:51+00:00",
+    "lat": -29.86,
+    "lon": -71.65,
+    "depth_km": 20.0,
+    "magnitude": 3.8,
+    "mag_type": "MLv",
+    "place": "39 km al O de La Serena, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": -29.9533,
+        "lon": -71.3436,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Coquimbo",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -29.9027,
+        "lon": -71.2519,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "La Serena",
+        "region": "Coquimbo"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-coquimbo-2026-09-29-23-12-16",
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384894.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384894.html",
+    "relevant": false,
+    "keywords_matched": [],
+    "senapred_match_time": "2026-09-29T23:12:16-03:00"
   }
 ]
