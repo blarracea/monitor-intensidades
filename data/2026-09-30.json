@@ -2289,7 +2289,7 @@
     "id": "nc75441996",
     "source": "usgs",
     "time": "2026-09-30T21:07:19.250000+00:00",
-    "updated": "2026-09-30T21:45:17.676000+00:00",
+    "updated": "2026-09-30T21:50:38.458000+00:00",
     "lat": 38.7781677246094,
     "lon": -122.933166503906,
     "depth_km": 4.03000020980835,
@@ -2298,7 +2298,7 @@
     "place": "8 km ESE of Cloverdale, CA",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 9,
+    "felt_reports": 10,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2344,6 +2344,12 @@
         "responses": 1
       },
       {
+        "lat": 38.600235,
+        "lon": -122.580825,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 38.790234999999996,
         "lon": -123.0287825,
         "intensity": 2,
@@ -2355,6 +2361,30 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75441996",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000tym9",
+    "source": "usgs",
+    "time": "2026-09-30T21:11:57.694000+00:00",
+    "updated": "2026-09-30T21:53:25.040000+00:00",
+    "lat": 25.2167,
+    "lon": 128.5077,
+    "depth_km": 10,
+    "magnitude": 4.6,
+    "mag_type": "mb",
+    "place": "131 km SE of Itoman, Japan",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tym9",
     "relevant": false,
     "keywords_matched": []
   }
