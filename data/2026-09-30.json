@@ -1187,5 +1187,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyhk",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384908.html",
+    "source": "csn",
+    "time": "2026-09-30T05:49:25+00:00",
+    "updated": "2026-09-30T05:49:25+00:00",
+    "lat": -30.62,
+    "lon": -71.65,
+    "depth_km": 31.0,
+    "magnitude": 2.9,
+    "mag_type": "MLv",
+    "place": "6 km al NE de Parque Fray Jorge, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384908.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384908.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
