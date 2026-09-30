@@ -22,5 +22,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384888.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "hv75045547",
+    "source": "usgs",
+    "time": "2026-09-30T01:07:33.810000+00:00",
+    "updated": "2026-09-30T01:11:03.400000+00:00",
+    "lat": 19.8915004730225,
+    "lon": -155.880493164062,
+    "depth_km": 38.8699989318848,
+    "magnitude": 2.53,
+    "mag_type": "md",
+    "place": "9 km SSW of Puako, Hawaii",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75045547",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
