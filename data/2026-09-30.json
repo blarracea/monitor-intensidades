@@ -2295,7 +2295,7 @@
     "id": "nc75441996",
     "source": "usgs",
     "time": "2026-09-30T21:07:19.250000+00:00",
-    "updated": "2026-09-30T22:16:21.207000+00:00",
+    "updated": "2026-09-30T22:21:31.484000+00:00",
     "lat": 38.7781677246094,
     "lon": -122.933166503906,
     "depth_km": 4.03000020980835,
@@ -2304,7 +2304,7 @@
     "place": "8 km ESE of Cloverdale, CA",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 12,
+    "felt_reports": 13,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2362,6 +2362,12 @@
         "responses": 1
       },
       {
+        "lat": 38.438435,
+        "lon": -122.71926500000001,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 38.790234999999996,
         "lon": -123.0287825,
         "intensity": 2,
@@ -2410,7 +2416,7 @@
     "id": "us6000tymj",
     "source": "usgs",
     "time": "2026-09-30T21:55:27.177000+00:00",
-    "updated": "2026-09-30T22:19:42.781000+00:00",
+    "updated": "2026-09-30T22:25:13.484000+00:00",
     "lat": 9.8084,
     "lon": -86.4364,
     "depth_km": 10,
@@ -2419,7 +2425,7 @@
     "place": "84 km SW of Tamarindo, Costa Rica",
     "cdi": 2,
     "mmi": 3.959,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
       {
