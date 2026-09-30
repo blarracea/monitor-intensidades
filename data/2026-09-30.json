@@ -164,7 +164,7 @@
     "id": "us6000tygs",
     "source": "usgs",
     "time": "2026-09-30T01:34:05.751000+00:00",
-    "updated": "2026-09-30T02:18:27.542000+00:00",
+    "updated": "2026-09-30T04:43:27.238000+00:00",
     "lat": 13.0922,
     "lon": 120.4734,
     "depth_km": 10,
@@ -173,7 +173,7 @@
     "place": "18 km SW of Tayaman, Philippines",
     "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 2,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -185,6 +185,12 @@
       {
         "lat": 13.63873,
         "lon": 121.19271499999999,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 14.54088,
+        "lon": 120.9907675,
         "intensity": 2,
         "responses": 1
       }
@@ -290,7 +296,7 @@
     "id": "ci41340823",
     "source": "usgs",
     "time": "2026-09-30T03:00:27.240000+00:00",
-    "updated": "2026-09-30T04:32:07.363000+00:00",
+    "updated": "2026-09-30T04:44:23.285000+00:00",
     "lat": 34.3951683044434,
     "lon": -118.762168884277,
     "depth_km": 10.6999998092651,
@@ -299,7 +305,7 @@
     "place": "4 km SE of Piru, CA",
     "cdi": 3.2,
     "mmi": 3.355,
-    "felt_reports": 174,
+    "felt_reports": 175,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -581,6 +587,12 @@
       {
         "lat": 34.29605,
         "lon": -118.83088000000001,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 34.181332499999996,
+        "lon": -118.6547975,
         "intensity": 2.2,
         "responses": 1
       },
