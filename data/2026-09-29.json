@@ -1846,7 +1846,7 @@
     "id": "uw714111952",
     "source": "usgs",
     "time": "2026-09-29T21:05:56.370000+00:00",
-    "updated": "2026-09-30T15:49:32.272000+00:00",
+    "updated": "2026-09-30T15:54:59.548000+00:00",
     "lat": 47.4003333333333,
     "lon": -122.722,
     "depth_km": 27.92,
@@ -1855,7 +1855,7 @@
     "place": "6 km WNW of Wauna, Washington",
     "cdi": 3.8,
     "mmi": 3.452,
-    "felt_reports": 9153,
+    "felt_reports": 9158,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -4358,7 +4358,7 @@
         "lat": 47.488165,
         "lon": -122.5818375,
         "intensity": 3.1,
-        "responses": 2
+        "responses": 3
       },
       {
         "lat": 47.497115,
@@ -7139,12 +7139,6 @@
         "responses": 8
       },
       {
-        "lat": 47.235115,
-        "lon": -122.34602000000001,
-        "intensity": 2.7,
-        "responses": 6
-      },
-      {
         "lat": 47.04778,
         "lon": -122.769605,
         "intensity": 2.7,
@@ -7163,6 +7157,12 @@
         "responses": 4
       },
       {
+        "lat": 47.235115,
+        "lon": -122.34602000000001,
+        "intensity": 2.7,
+        "responses": 7
+      },
+      {
         "lat": 47.34252,
         "lon": -122.2520275,
         "intensity": 2.7,
@@ -7179,12 +7179,6 @@
         "lon": -122.28203500000001,
         "intensity": 2.7,
         "responses": 6
-      },
-      {
-        "lat": 47.3784225,
-        "lon": -122.238275,
-        "intensity": 2.7,
-        "responses": 70
       },
       {
         "lat": 47.59486,
@@ -8697,6 +8691,12 @@
         "lon": -122.6097825,
         "intensity": 2.7,
         "responses": 9
+      },
+      {
+        "lat": 47.3784225,
+        "lon": -122.238275,
+        "intensity": 2.7,
+        "responses": 71
       },
       {
         "lat": 47.2446025,
@@ -11717,12 +11717,6 @@
         "responses": 1
       },
       {
-        "lat": 47.380195,
-        "lon": -122.58269,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
         "lat": 47.23496,
         "lon": -122.31960000000001,
         "intensity": 2.2,
@@ -14012,7 +14006,7 @@
         "lat": 47.612075,
         "lon": -122.19497,
         "intensity": 2,
-        "responses": 16
+        "responses": 17
       },
       {
         "lat": 47.217735,
@@ -14979,6 +14973,12 @@
         "lon": -122.22211250000001,
         "intensity": 2,
         "responses": 10
+      },
+      {
+        "lat": 47.380195,
+        "lon": -122.58269,
+        "intensity": 2,
+        "responses": 2
       },
       {
         "lat": 47.26296,
