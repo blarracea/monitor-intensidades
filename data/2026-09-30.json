@@ -72,6 +72,30 @@
     "keywords_matched": []
   },
   {
+    "id": "us6000tygq",
+    "source": "usgs",
+    "time": "2026-09-30T01:17:47.844000+00:00",
+    "updated": "2026-09-30T01:35:08.040000+00:00",
+    "lat": -21.0085,
+    "lon": 168.3284,
+    "depth_km": 10,
+    "magnitude": 4.8,
+    "mag_type": "mb",
+    "place": "75 km NE of Tadine, New Caledonia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tygq",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/09/384892.html",
     "source": "csn",
     "time": "2026-09-30T01:20:50+00:00",
@@ -94,6 +118,38 @@
         "responses": null,
         "comuna": "Ovalle",
         "region": "Coquimbo"
+      },
+      {
+        "lat": -31.1781518,
+        "lon": -71.0024382,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Combarbalá",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.7833,
+        "lon": -71.25,
+        "intensity": 2,
+        "responses": null,
+        "comuna": "Punitaqui",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.2333,
+        "lon": -71.0833,
+        "intensity": 2,
+        "responses": null,
+        "comuna": "Andacollo",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.6947,
+        "lon": -70.96,
+        "intensity": 2,
+        "responses": null,
+        "comuna": "Monte Patria",
+        "region": "Coquimbo"
       }
     ],
     "intensity_source": "csn",
@@ -102,7 +158,6 @@
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384892.html",
     "relevant": false,
-    "keywords_matched": [],
-    "senapred_match_time": "2026-09-29T22:25:17-03:00"
+    "keywords_matched": []
   }
 ]
