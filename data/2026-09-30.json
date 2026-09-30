@@ -1279,10 +1279,34 @@
     "keywords_matched": []
   },
   {
+    "id": "us6000tyit",
+    "source": "usgs",
+    "time": "2026-09-30T08:15:17.486000+00:00",
+    "updated": "2026-09-30T08:31:11.040000+00:00",
+    "lat": -5.435,
+    "lon": 152.1328,
+    "depth_km": 28.026,
+    "magnitude": 5.1,
+    "mag_type": "mb",
+    "place": "121 km S of Kokopo, Papua New Guinea",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyit",
+    "relevant": true,
+    "keywords_matched": []
+  },
+  {
     "id": "aka2026tjasea",
     "source": "usgs",
     "time": "2026-09-30T08:22:22.267000+00:00",
-    "updated": "2026-09-30T08:29:20.975000+00:00",
+    "updated": "2026-09-30T08:34:25.719000+00:00",
     "lat": 61.733,
     "lon": -150.176,
     "depth_km": 5,
@@ -1291,13 +1315,25 @@
     "place": "7 km WSW of Willow, Alaska",
     "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 61.720344999999995,
         "lon": -150.0763,
         "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 61.710567499999996,
+        "lon": -150.039375,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 61.801835,
+        "lon": -150.1065175,
+        "intensity": 2,
         "responses": 1
       }
     ],
