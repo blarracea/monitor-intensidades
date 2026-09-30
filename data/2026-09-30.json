@@ -237,5 +237,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/09/384894.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000tygz",
+    "source": "usgs",
+    "time": "2026-09-30T02:30:44.716000+00:00",
+    "updated": "2026-09-30T02:52:39.040000+00:00",
+    "lat": 4.5021,
+    "lon": 125.7472,
+    "depth_km": 156.847,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "104 km SSE of Sarangani, Philippines",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tygz",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
