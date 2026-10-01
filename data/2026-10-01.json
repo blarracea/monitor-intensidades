@@ -1143,5 +1143,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tlelut",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026tlezlc",
+    "source": "usgs",
+    "time": "2026-10-01T12:29:59.518000+00:00",
+    "updated": "2026-10-01T12:33:39.569000+00:00",
+    "lat": 58.221,
+    "lon": -156.443,
+    "depth_km": 0,
+    "magnitude": 2.9,
+    "mag_type": "ml",
+    "place": "53 km SSE of King Salmon, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tlezlc",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
