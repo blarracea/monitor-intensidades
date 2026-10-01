@@ -1480,5 +1480,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyuf",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026tlkkpe",
+    "source": "usgs",
+    "time": "2026-10-01T15:13:16.780000+00:00",
+    "updated": "2026-10-01T15:17:39.872000+00:00",
+    "lat": 58.977,
+    "lon": -150.994,
+    "depth_km": 54.5,
+    "magnitude": 3,
+    "mag_type": "ml",
+    "place": "63 km SE of Port Graham, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tlkkpe",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
