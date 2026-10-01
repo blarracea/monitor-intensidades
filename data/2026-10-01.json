@@ -769,5 +769,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75046747",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000tyqw",
+    "source": "usgs",
+    "time": "2026-10-01T08:14:59.626000+00:00",
+    "updated": "2026-10-01T08:31:56.040000+00:00",
+    "lat": 14.7356,
+    "lon": -92.6959,
+    "depth_km": 71.276,
+    "magnitude": 4.1,
+    "mag_type": "mb",
+    "place": "28 km SW of Buenos Aires, Mexico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyqw",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
