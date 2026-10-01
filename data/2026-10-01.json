@@ -240,5 +240,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000typ7",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/384988.html",
+    "source": "csn",
+    "time": "2026-10-01T03:09:30+00:00",
+    "updated": "2026-10-01T03:09:30+00:00",
+    "lat": -18.74,
+    "lon": -68.77,
+    "depth_km": 147.0,
+    "magnitude": 2.9,
+    "mag_type": "MLv",
+    "place": "61 km al N de Colchane, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/384988.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/384988.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
