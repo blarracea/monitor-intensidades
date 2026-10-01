@@ -185,5 +185,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyny",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000typ0",
+    "source": "usgs",
+    "time": "2026-10-01T01:31:23.443000+00:00",
+    "updated": "2026-10-01T01:50:10.040000+00:00",
+    "lat": -0.863,
+    "lon": 123.1839,
+    "depth_km": 116.392,
+    "magnitude": 4.6,
+    "mag_type": "mb",
+    "place": "45 km ENE of Luwuk, Indonesia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000typ0",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
