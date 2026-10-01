@@ -999,5 +999,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75046927",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026tlapkt",
+    "source": "usgs",
+    "time": "2026-10-01T10:18:48.389000+00:00",
+    "updated": "2026-10-01T10:20:09.870000+00:00",
+    "lat": 61.848,
+    "lon": -151.984,
+    "depth_km": 121.3,
+    "magnitude": 2.7,
+    "mag_type": "ml",
+    "place": "34 km WSW of Skwentna, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tlapkt",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
