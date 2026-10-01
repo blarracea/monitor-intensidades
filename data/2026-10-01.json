@@ -1179,7 +1179,7 @@
     "id": "us6000tytg",
     "source": "usgs",
     "time": "2026-10-01T12:27:11.864000+00:00",
-    "updated": "2026-10-01T16:34:16.646000+00:00",
+    "updated": "2026-10-01T19:53:01.403000+00:00",
     "lat": 35.7025,
     "lon": 140.5507,
     "depth_km": 41.649,
@@ -1188,7 +1188,7 @@
     "place": "0 km NNE of Yōkaichiba, Japan",
     "cdi": 3.7,
     "mmi": null,
-    "felt_reports": 21,
+    "felt_reports": 22,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1272,6 +1272,12 @@
       {
         "lat": 35.786955,
         "lon": 140.374785,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 35.78684,
+        "lon": 140.3526575,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1814,6 +1820,30 @@
     "keywords_matched": []
   },
   {
+    "id": "us6000tywf",
+    "source": "usgs",
+    "time": "2026-10-01T18:53:23.692000+00:00",
+    "updated": "2026-10-01T19:46:13.040000+00:00",
+    "lat": 31.6815,
+    "lon": -104.5902,
+    "depth_km": 7.512,
+    "magnitude": 2.6,
+    "mag_type": "ml",
+    "place": "58 km SSW of Whites City, New Mexico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tywf",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "aka2026tlsylt",
     "source": "usgs",
     "time": "2026-10-01T19:28:58.587000+00:00",
@@ -1835,6 +1865,30 @@
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tlsylt",
     "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000tywu",
+    "source": "usgs",
+    "time": "2026-10-01T19:38:01.795000+00:00",
+    "updated": "2026-10-01T20:03:02.040000+00:00",
+    "lat": -11.7706,
+    "lon": 166.961,
+    "depth_km": 10,
+    "magnitude": 5.1,
+    "mag_type": "mww",
+    "place": "171 km SE of Lata, Solomon Islands",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tywu",
+    "relevant": true,
     "keywords_matched": []
   }
 ]
