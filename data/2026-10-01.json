@@ -1203,6 +1203,12 @@
         "responses": 1
       },
       {
+        "lat": 35.68228,
+        "lon": 139.69046,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": 35.786955,
         "lon": 140.374785,
         "intensity": 2.2,
@@ -1221,20 +1227,26 @@
         "responses": 1
       },
       {
+        "lat": 35.751915,
+        "lon": 139.479185,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 35.6649525,
         "lon": 139.757035,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 35.68332,
-        "lon": 139.7899,
+        "lat": 35.63019,
+        "lon": 139.89009,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 35.63019,
-        "lon": 139.89009,
+        "lat": 35.68332,
+        "lon": 139.7899,
         "intensity": 2,
         "responses": 1
       }
@@ -1316,6 +1328,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385017.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385017.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/385022.html",
+    "source": "csn",
+    "time": "2026-10-01T13:33:55+00:00",
+    "updated": "2026-10-01T13:33:55+00:00",
+    "lat": -22.26,
+    "lon": -68.58,
+    "depth_km": 97.0,
+    "magnitude": 2.7,
+    "mag_type": "MLv",
+    "place": "43 km al NE de Calama, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385022.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385022.html",
     "relevant": false,
     "keywords_matched": []
   }
