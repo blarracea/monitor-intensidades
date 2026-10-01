@@ -1781,5 +1781,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tywe",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "tx2026tiooka",
+    "source": "usgs",
+    "time": "2026-10-01T18:47:10.033000+00:00",
+    "updated": "2026-10-01T19:10:20.764000+00:00",
+    "lat": 31.697,
+    "lon": -104.548,
+    "depth_km": 4.7028,
+    "magnitude": 2.9,
+    "mag_type": "ml",
+    "place": "55 km SSW of Whites City, New Mexico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026tiooka",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
