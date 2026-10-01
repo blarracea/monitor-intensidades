@@ -3,7 +3,7 @@
     "id": "ci41341279",
     "source": "usgs",
     "time": "2026-10-01T00:01:59.650000+00:00",
-    "updated": "2026-10-01T00:14:10.936000+00:00",
+    "updated": "2026-10-01T00:19:54.410000+00:00",
     "lat": 33.502498626709,
     "lon": -116.460998535156,
     "depth_km": 4.55000019073486,
@@ -12,13 +12,19 @@
     "place": "21 km ESE of Anza, CA",
     "cdi": 4.1,
     "mmi": null,
-    "felt_reports": 5,
+    "felt_reports": 8,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 33.6051025,
         "lon": -116.4664375,
         "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 33.721945000000005,
+        "lon": -116.3793675,
+        "intensity": 2.2,
         "responses": 1
       },
       {
@@ -31,6 +37,18 @@
         "lat": 33.7036825,
         "lon": -116.33634,
         "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.9306125,
+        "lon": -116.7132675,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 33.155215,
+        "lon": -117.112595,
+        "intensity": 1,
         "responses": 1
       },
       {
