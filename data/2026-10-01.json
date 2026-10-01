@@ -1047,5 +1047,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tlapkt",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/385013.html",
+    "source": "csn",
+    "time": "2026-10-01T11:01:45+00:00",
+    "updated": "2026-10-01T11:01:45+00:00",
+    "lat": -22.89,
+    "lon": -68.84,
+    "depth_km": 94.0,
+    "magnitude": 2.9,
+    "mag_type": "MLv",
+    "place": "48 km al S de Calama, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385013.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385013.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
