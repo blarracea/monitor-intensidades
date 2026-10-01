@@ -659,7 +659,7 @@
     "id": "hv75046747",
     "source": "usgs",
     "time": "2026-10-01T07:52:05.140000+00:00",
-    "updated": "2026-10-01T08:23:42.315000+00:00",
+    "updated": "2026-10-01T08:28:58.881000+00:00",
     "lat": 19.4156666666667,
     "lon": -155.277,
     "depth_km": 0.32,
@@ -668,14 +668,14 @@
     "place": "5 km WSW of Volcano, Hawaii",
     "cdi": 3.2,
     "mmi": 4.312,
-    "felt_reports": 26,
+    "felt_reports": 27,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 19.443595,
         "lon": -155.281175,
-        "intensity": 3.5,
-        "responses": 7
+        "intensity": 3.4,
+        "responses": 8
       },
       {
         "lat": 19.435045,
