@@ -113,5 +113,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/384974.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000tynp",
+    "source": "usgs",
+    "time": "2026-10-01T00:28:22.644000+00:00",
+    "updated": "2026-10-01T00:45:24.040000+00:00",
+    "lat": 19.2756,
+    "lon": -43.0353,
+    "depth_km": 10,
+    "magnitude": 4.9,
+    "mag_type": "mb",
+    "place": "northern Mid-Atlantic Ridge",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tynp",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
