@@ -456,5 +456,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyq7",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/384993.html",
+    "source": "csn",
+    "time": "2026-10-01T05:50:24+00:00",
+    "updated": "2026-10-01T05:50:24+00:00",
+    "lat": -19.83,
+    "lon": -69.3,
+    "depth_km": 106.0,
+    "magnitude": 2.5,
+    "mag_type": "MLv",
+    "place": "59 km al S de Camiña, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/384993.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/384993.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
