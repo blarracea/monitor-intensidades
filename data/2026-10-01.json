@@ -432,5 +432,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/384992.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000tyq7",
+    "source": "usgs",
+    "time": "2026-10-01T05:34:10.634000+00:00",
+    "updated": "2026-10-01T05:49:06.040000+00:00",
+    "lat": 6.1116,
+    "lon": 123.8599,
+    "depth_km": 10,
+    "magnitude": 5,
+    "mag_type": "mb",
+    "place": "38 km WSW of Palimbang, Philippines",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyq7",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
