@@ -216,5 +216,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000typ0",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000typ7",
+    "source": "usgs",
+    "time": "2026-10-01T02:40:40.210000+00:00",
+    "updated": "2026-10-01T02:56:29.040000+00:00",
+    "lat": -20.9019,
+    "lon": -179.2476,
+    "depth_km": 637.906,
+    "magnitude": 4.4,
+    "mag_type": "mb",
+    "place": "Fiji region",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000typ7",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
