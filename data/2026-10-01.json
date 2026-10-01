@@ -1172,7 +1172,7 @@
     "id": "us6000tytg",
     "source": "usgs",
     "time": "2026-10-01T12:27:11.864000+00:00",
-    "updated": "2026-10-01T14:32:11.241000+00:00",
+    "updated": "2026-10-01T14:43:46.929000+00:00",
     "lat": 35.7025,
     "lon": 140.5507,
     "depth_km": 41.649,
@@ -1181,7 +1181,7 @@
     "place": "0 km NNE of Yōkaichiba, Japan",
     "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 12,
+    "felt_reports": 13,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1194,6 +1194,12 @@
         "lat": 35.6915325,
         "lon": 139.712415,
         "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 35.4473025,
+        "lon": 139.63918999999999,
+        "intensity": 3.1,
         "responses": 1
       },
       {
