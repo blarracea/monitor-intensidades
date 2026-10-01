@@ -1805,5 +1805,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026tiooka",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026tlsylt",
+    "source": "usgs",
+    "time": "2026-10-01T19:28:58.516000+00:00",
+    "updated": "2026-10-01T19:32:50.191000+00:00",
+    "lat": 59.973,
+    "lon": -152.591,
+    "depth_km": 101.2,
+    "magnitude": 2.5,
+    "mag_type": "ml",
+    "place": "47 km WNW of Anchor Point, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tlsylt",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
