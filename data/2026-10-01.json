@@ -1145,6 +1145,55 @@
     "keywords_matched": []
   },
   {
+    "id": "us6000tytg",
+    "source": "usgs",
+    "time": "2026-10-01T12:27:11.864000+00:00",
+    "updated": "2026-10-01T12:48:01.620000+00:00",
+    "lat": 35.7025,
+    "lon": 140.5507,
+    "depth_km": 41.649,
+    "magnitude": 5.3,
+    "mag_type": "mww",
+    "place": "0 km NNE of Yōkaichiba, Japan",
+    "cdi": 3.4,
+    "mmi": null,
+    "felt_reports": 4,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 35.696965000000006,
+        "lon": 140.40865,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 35.6915325,
+        "lon": 139.712415,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 35.87157,
+        "lon": 139.687355,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 35.68332,
+        "lon": 139.7899,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tytg",
+    "relevant": true,
+    "keywords_matched": []
+  },
+  {
     "id": "aka2026tlezlc",
     "source": "usgs",
     "time": "2026-10-01T12:29:59.518000+00:00",
