@@ -166,5 +166,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyzl",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000tyzt",
+    "source": "usgs",
+    "time": "2026-10-02T05:38:55.084000+00:00",
+    "updated": "2026-10-02T06:12:24.040000+00:00",
+    "lat": 2.5781,
+    "lon": 126.4944,
+    "depth_km": 10,
+    "magnitude": 4.8,
+    "mag_type": "mb",
+    "place": "192 km WNW of Tobelo, Indonesia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tyzt",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
