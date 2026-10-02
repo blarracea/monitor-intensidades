@@ -387,7 +387,7 @@
     "id": "nc75442791",
     "source": "usgs",
     "time": "2026-10-02T10:00:11.230000+00:00",
-    "updated": "2026-10-02T17:35:40.640000+00:00",
+    "updated": "2026-10-02T17:41:05.666000+00:00",
     "lat": 38.8899993896484,
     "lon": -120.083168029785,
     "depth_km": 7.01000022888184,
@@ -396,7 +396,7 @@
     "place": "10 km WSW of South Lake Tahoe, CA",
     "cdi": 3.9,
     "mmi": 3.213,
-    "felt_reports": 459,
+    "felt_reports": 461,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -538,12 +538,6 @@
         "responses": 4
       },
       {
-        "lat": 38.904765,
-        "lon": -119.99594,
-        "intensity": 3.8,
-        "responses": 4
-      },
-      {
         "lat": 38.90565,
         "lon": -119.969495,
         "intensity": 3.7,
@@ -582,6 +576,12 @@
       {
         "lat": 38.860065000000006,
         "lon": -120.009345,
+        "intensity": 3.6,
+        "responses": 5
+      },
+      {
+        "lat": 38.904765,
+        "lon": -119.99594,
         "intensity": 3.6,
         "responses": 5
       },
@@ -756,6 +756,12 @@
       {
         "lat": 38.765355,
         "lon": -120.588695,
+        "intensity": 3.3,
+        "responses": 2
+      },
+      {
+        "lat": 38.86877,
+        "lon": -120.0025325,
         "intensity": 3.3,
         "responses": 2
       },
@@ -996,12 +1002,6 @@
       {
         "lat": 39.0384775,
         "lon": -120.72962,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 38.86877,
-        "lon": -120.0025325,
         "intensity": 2.7,
         "responses": 1
       },
@@ -1834,7 +1834,7 @@
     "id": "us6000tz1y",
     "source": "usgs",
     "time": "2026-10-02T16:01:39.581000+00:00",
-    "updated": "2026-10-02T17:39:40.936000+00:00",
+    "updated": "2026-10-02T17:45:07.569000+00:00",
     "lat": -38.3802,
     "lon": 145.8401,
     "depth_km": 10,
@@ -1843,7 +1843,7 @@
     "place": "5 km NNE of Korumburra, Australia",
     "cdi": 5.4,
     "mmi": null,
-    "felt_reports": 464,
+    "felt_reports": 468,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -3997,11 +3997,11 @@
     "time": "2026-10-02T17:28:18+00:00",
     "updated": "2026-10-02T17:28:18+00:00",
     "lat": -32.78,
-    "lon": -71.69,
+    "lon": -71.68,
     "depth_km": 29.0,
     "magnitude": 4.5,
     "mag_type": "MLv",
-    "place": "15 km al O de Quintero, Chile",
+    "place": "14 km al O de Quintero, Chile",
     "cdi": null,
     "mmi": null,
     "felt_reports": null,
@@ -4032,12 +4032,52 @@
         "region": "Valparaíso"
       },
       {
+        "lat": -32.5528294,
+        "lon": -71.4588181,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Zapallar",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -33.3205864,
+        "lon": -71.4100762,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Casablanca",
+        "region": "Valparaíso"
+      },
+      {
         "lat": -32.750687,
         "lon": -70.7252688,
         "intensity": 3,
         "responses": null,
         "comuna": "San Felipe",
         "region": "Valparaíso"
+      },
+      {
+        "lat": -33.5167,
+        "lon": -70.7667,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Maipu",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.3600426,
+        "lon": -70.7118564,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Quilicura",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.611,
+        "lon": -70.5756,
+        "intensity": 2,
+        "responses": null,
+        "comuna": "Puente Alto",
+        "region": "Metropolitana de Santiago"
       }
     ],
     "intensity_source": "csn",
