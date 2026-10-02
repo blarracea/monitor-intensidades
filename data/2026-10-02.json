@@ -1834,7 +1834,7 @@
     "id": "us6000tz1y",
     "source": "usgs",
     "time": "2026-10-02T16:01:39.581000+00:00",
-    "updated": "2026-10-02T17:34:34.560000+00:00",
+    "updated": "2026-10-02T17:39:40.936000+00:00",
     "lat": -38.3802,
     "lon": 145.8401,
     "depth_km": 10,
@@ -1843,7 +1843,7 @@
     "place": "5 km NNE of Korumburra, Australia",
     "cdi": 5.4,
     "mmi": null,
-    "felt_reports": 461,
+    "felt_reports": 464,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2383,6 +2383,12 @@
       {
         "lat": -37.7327025,
         "lon": 144.770095,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": -37.8486925,
+        "lon": 145.232565,
         "intensity": 3.8,
         "responses": 1
       },
@@ -3053,6 +3059,12 @@
         "responses": 1
       },
       {
+        "lat": -38.084905,
+        "lon": 145.36371250000002,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
         "lat": -38.004445000000004,
         "lon": 145.4110625,
         "intensity": 3.1,
@@ -3331,6 +3343,12 @@
       {
         "lat": -38.171585,
         "lon": 145.13347,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -37.780640000000005,
+        "lon": 144.9276175,
         "intensity": 2.7,
         "responses": 1
       },
@@ -3988,9 +4006,42 @@
     "mmi": null,
     "felt_reports": null,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
-    "senapred_url": null,
+    "dyfi_points": [
+      {
+        "lat": -32.7840217,
+        "lon": -71.5283361,
+        "intensity": 5,
+        "responses": null,
+        "comuna": "Quintero",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -33.0472,
+        "lon": -71.6127,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Valparaíso",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -33.0246,
+        "lon": -71.5518,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Viña del Mar",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -32.750687,
+        "lon": -70.7252688,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "San Felipe",
+        "region": "Valparaíso"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://www.senapred.cl/evento/sismo-de-mediana-intensidad-en-la-region-de-valparaiso-2026-10-02-14-36-31",
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385146.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385146.html",
