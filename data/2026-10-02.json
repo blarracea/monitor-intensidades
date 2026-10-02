@@ -387,7 +387,7 @@
     "id": "nc75442791",
     "source": "usgs",
     "time": "2026-10-02T10:00:11.180000+00:00",
-    "updated": "2026-10-02T18:45:22.927000+00:00",
+    "updated": "2026-10-02T18:50:28.101000+00:00",
     "lat": 38.8935,
     "lon": -120.080666666667,
     "depth_km": 10.9,
@@ -396,7 +396,7 @@
     "place": "9 km WSW of South Lake Tahoe, CA",
     "cdi": 3.9,
     "mmi": 3.576,
-    "felt_reports": 497,
+    "felt_reports": 498,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -607,7 +607,7 @@
         "lat": 38.941355,
         "lon": -119.98252,
         "intensity": 3.5,
-        "responses": 46
+        "responses": 47
       },
       {
         "lat": 38.76464,
@@ -1901,7 +1901,7 @@
     "id": "us6000tz1y",
     "source": "usgs",
     "time": "2026-10-02T16:01:39.581000+00:00",
-    "updated": "2026-10-02T18:42:14.208000+00:00",
+    "updated": "2026-10-02T18:50:04.423000+00:00",
     "lat": -38.3802,
     "lon": 145.8401,
     "depth_km": 10,
@@ -1909,8 +1909,8 @@
     "mag_type": "mb",
     "place": "5 km NNE of Korumburra, Australia",
     "cdi": 5.4,
-    "mmi": null,
-    "felt_reports": 493,
+    "mmi": 5.856,
+    "felt_reports": 494,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -3456,6 +3456,12 @@
         "responses": 1
       },
       {
+        "lat": -38.036285,
+        "lon": 145.12552,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": -37.8628875,
         "lon": 144.993515,
         "intensity": 2.7,
@@ -4364,6 +4370,30 @@
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75048472",
     "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000tz7b",
+    "source": "usgs",
+    "time": "2026-10-02T18:25:20.940000+00:00",
+    "updated": "2026-10-02T18:46:26.040000+00:00",
+    "lat": 51.5775,
+    "lon": 159.8307,
+    "depth_km": 10,
+    "magnitude": 5,
+    "mag_type": "mb",
+    "place": "179 km SSE of Vilyuchinsk, Russia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz7b",
+    "relevant": true,
     "keywords_matched": []
   }
 ]
