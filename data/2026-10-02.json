@@ -387,7 +387,7 @@
     "id": "nc75442791",
     "source": "usgs",
     "time": "2026-10-02T10:00:11.180000+00:00",
-    "updated": "2026-10-02T18:18:37.690000+00:00",
+    "updated": "2026-10-02T18:23:34.974000+00:00",
     "lat": 38.8935,
     "lon": -120.080666666667,
     "depth_km": 10.9,
@@ -396,7 +396,7 @@
     "place": "9 km WSW of South Lake Tahoe, CA",
     "cdi": 3.9,
     "mmi": 3.576,
-    "felt_reports": 494,
+    "felt_reports": 495,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -772,12 +772,6 @@
         "responses": 4
       },
       {
-        "lat": 38.91406,
-        "lon": -120.00708,
-        "intensity": 3.2,
-        "responses": 8
-      },
-      {
         "lat": 38.765355,
         "lon": -120.588695,
         "intensity": 3.2,
@@ -812,6 +806,12 @@
         "lon": -119.982145,
         "intensity": 3.2,
         "responses": 5
+      },
+      {
+        "lat": 38.91406,
+        "lon": -120.00708,
+        "intensity": 3.1,
+        "responses": 9
       },
       {
         "lat": 38.80052,
