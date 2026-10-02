@@ -1708,18 +1708,24 @@
     "id": "us6000tz1c",
     "source": "usgs",
     "time": "2026-10-02T13:57:15.838000+00:00",
-    "updated": "2026-10-02T18:44:13.248000+00:00",
+    "updated": "2026-10-02T18:52:10.460000+00:00",
     "lat": -39.1598,
     "lon": 174.2598,
     "depth_km": 10,
     "magnitude": 5,
     "mag_type": "mb",
     "place": "6 km E of Inglewood, New Zealand",
-    "cdi": 4.3,
+    "cdi": 4.7,
     "mmi": 5.421,
-    "felt_reports": 5,
+    "felt_reports": 6,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": -39.309215,
+        "lon": 174.326595,
+        "intensity": 4.7,
+        "responses": 1
+      },
       {
         "lat": -39.069675000000004,
         "lon": 174.104525,
@@ -1901,7 +1907,7 @@
     "id": "us6000tz1y",
     "source": "usgs",
     "time": "2026-10-02T16:01:39.581000+00:00",
-    "updated": "2026-10-02T18:50:04.423000+00:00",
+    "updated": "2026-10-02T18:53:21.105000+00:00",
     "lat": -38.3802,
     "lon": 145.8401,
     "depth_km": 10,
@@ -1910,7 +1916,7 @@
     "place": "5 km NNE of Korumburra, Australia",
     "cdi": 5.4,
     "mmi": 5.856,
-    "felt_reports": 494,
+    "felt_reports": 495,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -3494,6 +3500,12 @@
       {
         "lat": -37.763217499999996,
         "lon": 144.9621575,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -37.811795000000004,
+        "lon": 145.17665,
         "intensity": 2.7,
         "responses": 1
       },
