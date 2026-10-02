@@ -2332,7 +2332,7 @@
     "id": "nc75441996",
     "source": "usgs",
     "time": "2026-09-30T21:07:19.250000+00:00",
-    "updated": "2026-10-01T00:00:55.687000+00:00",
+    "updated": "2026-10-02T01:16:09.070000+00:00",
     "lat": 38.7781677246094,
     "lon": -122.933166503906,
     "depth_km": 4.03000020980835,
@@ -2341,7 +2341,7 @@
     "place": "8 km ESE of Cloverdale, CA",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 14,
+    "felt_reports": 15,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2389,6 +2389,12 @@
       {
         "lat": 37.7037575,
         "lon": -121.916625,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 38.45637,
+        "lon": -122.68481,
         "intensity": 2,
         "responses": 1
       },
