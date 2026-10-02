@@ -387,7 +387,7 @@
     "id": "nc75442791",
     "source": "usgs",
     "time": "2026-10-02T10:00:11.180000+00:00",
-    "updated": "2026-10-02T18:23:34.974000+00:00",
+    "updated": "2026-10-02T18:28:52.822000+00:00",
     "lat": 38.8935,
     "lon": -120.080666666667,
     "depth_km": 10.9,
@@ -396,7 +396,7 @@
     "place": "9 km WSW of South Lake Tahoe, CA",
     "cdi": 3.9,
     "mmi": 3.576,
-    "felt_reports": 495,
+    "felt_reports": 496,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1056,6 +1056,12 @@
       {
         "lat": 38.74898,
         "lon": -120.66978499999999,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 38.6833,
+        "lon": -121.01679,
         "intensity": 2.7,
         "responses": 1
       },
@@ -1883,7 +1889,7 @@
     "id": "us6000tz1y",
     "source": "usgs",
     "time": "2026-10-02T16:01:39.581000+00:00",
-    "updated": "2026-10-02T18:16:18.690000+00:00",
+    "updated": "2026-10-02T18:26:10.742000+00:00",
     "lat": -38.3802,
     "lon": 145.8401,
     "depth_km": 10,
@@ -1892,7 +1898,7 @@
     "place": "5 km NNE of Korumburra, Australia",
     "cdi": 5.4,
     "mmi": null,
-    "felt_reports": 489,
+    "felt_reports": 491,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2426,6 +2432,12 @@
       {
         "lat": -37.8542625,
         "lon": 145.01648,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": -37.702435,
+        "lon": 145.09993500000002,
         "intensity": 3.8,
         "responses": 1
       },
@@ -3792,6 +3804,12 @@
         "responses": 1
       },
       {
+        "lat": -37.732055,
+        "lon": 144.73608000000002,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": -38.3076,
         "lon": 145.1871725,
         "intensity": 2,
@@ -4219,16 +4237,16 @@
     "id": "hv75048472",
     "source": "usgs",
     "time": "2026-10-02T17:55:58.410000+00:00",
-    "updated": "2026-10-02T18:20:13.692000+00:00",
+    "updated": "2026-10-02T18:25:40.400000+00:00",
     "lat": 19.4155,
     "lon": -155.279,
     "depth_km": 0.3,
     "magnitude": 3.49,
     "mag_type": "ml",
     "place": "5 km WSW of Volcano, Hawaii",
-    "cdi": 3.5,
+    "cdi": 3.4,
     "mmi": 4.288,
-    "felt_reports": 32,
+    "felt_reports": 34,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -4252,8 +4270,8 @@
       {
         "lat": 19.443595,
         "lon": -155.281175,
-        "intensity": 3.4,
-        "responses": 7
+        "intensity": 3.3,
+        "responses": 8
       },
       {
         "lat": 19.434685,
@@ -4296,6 +4314,12 @@
         "lon": -155.2810475,
         "intensity": 2.7,
         "responses": 2
+      },
+      {
+        "lat": 19.417099999999998,
+        "lon": -155.2332075,
+        "intensity": 2.2,
+        "responses": 1
       },
       {
         "lat": 19.68014,
