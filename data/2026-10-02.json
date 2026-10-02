@@ -1834,7 +1834,7 @@
     "id": "us6000tz1y",
     "source": "usgs",
     "time": "2026-10-02T16:01:39.581000+00:00",
-    "updated": "2026-10-02T17:55:22.547000+00:00",
+    "updated": "2026-10-02T18:00:31.995000+00:00",
     "lat": -38.3802,
     "lon": 145.8401,
     "depth_km": 10,
@@ -1843,7 +1843,7 @@
     "place": "5 km NNE of Korumburra, Australia",
     "cdi": 5.4,
     "mmi": null,
-    "felt_reports": 481,
+    "felt_reports": 484,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -4139,6 +4139,37 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385146.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385146.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "hv75048472",
+    "source": "usgs",
+    "time": "2026-10-02T17:55:58.400000+00:00",
+    "updated": "2026-10-02T17:59:55.411000+00:00",
+    "lat": 19.4126663208008,
+    "lon": -155.274826049805,
+    "depth_km": 0.200000002980232,
+    "magnitude": 3.69,
+    "mag_type": "ml",
+    "place": "5 km SW of Volcano, Hawaii",
+    "cdi": 2,
+    "mmi": null,
+    "felt_reports": 1,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 19.434565,
+        "lon": -155.2810475,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75048472",
     "relevant": false,
     "keywords_matched": []
   }
