@@ -310,5 +310,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tmvtvv",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "nc75442791",
+    "source": "usgs",
+    "time": "2026-10-02T10:00:11.230000+00:00",
+    "updated": "2026-10-02T10:03:35.797000+00:00",
+    "lat": 38.8899993896484,
+    "lon": -120.083168029785,
+    "depth_km": 7.01000022888184,
+    "magnitude": 3.68,
+    "mag_type": "ml",
+    "place": "10 km WSW of South Lake Tahoe, CA",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75442791",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
