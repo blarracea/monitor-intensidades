@@ -387,7 +387,7 @@
     "id": "nc75442791",
     "source": "usgs",
     "time": "2026-10-02T10:00:11.230000+00:00",
-    "updated": "2026-10-02T17:51:19.929000+00:00",
+    "updated": "2026-10-02T18:13:30.991000+00:00",
     "lat": 38.8899993896484,
     "lon": -120.083168029785,
     "depth_km": 7.01000022888184,
@@ -396,7 +396,7 @@
     "place": "10 km WSW of South Lake Tahoe, CA",
     "cdi": 3.9,
     "mmi": 3.213,
-    "felt_reports": 464,
+    "felt_reports": 466,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -595,7 +595,7 @@
         "lat": 38.941355,
         "lon": -119.98252,
         "intensity": 3.6,
-        "responses": 41
+        "responses": 42
       },
       {
         "lat": 38.84236,
@@ -666,12 +666,6 @@
       {
         "lat": 38.941644999999994,
         "lon": -120.0289925,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
-        "lat": 38.690524999999994,
-        "lon": -120.0739025,
         "intensity": 3.4,
         "responses": 1
       },
@@ -768,6 +762,12 @@
       {
         "lat": 38.969815,
         "lon": -119.9260125,
+        "intensity": 3.3,
+        "responses": 2
+      },
+      {
+        "lat": 38.690524999999994,
+        "lon": -120.0739025,
         "intensity": 3.3,
         "responses": 2
       },
@@ -1666,19 +1666,38 @@
     "id": "us6000tz1c",
     "source": "usgs",
     "time": "2026-10-02T13:57:15.838000+00:00",
-    "updated": "2026-10-02T16:06:25.440000+00:00",
+    "updated": "2026-10-02T18:06:33.401000+00:00",
     "lat": -39.1598,
     "lon": 174.2598,
     "depth_km": 10,
     "magnitude": 5,
     "mag_type": "mb",
     "place": "6 km E of Inglewood, New Zealand",
-    "cdi": null,
+    "cdi": 4.3,
     "mmi": 5.421,
-    "felt_reports": 0,
+    "felt_reports": 4,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": -39.069675000000004,
+        "lon": 174.104525,
+        "intensity": 4.3,
+        "responses": 1
+      },
+      {
+        "lat": -39.5477925,
+        "lon": 174.13128,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -37.804155,
+        "lon": 175.267705,
+        "intensity": 2.2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "snam_url": null,
@@ -1834,7 +1853,7 @@
     "id": "us6000tz1y",
     "source": "usgs",
     "time": "2026-10-02T16:01:39.581000+00:00",
-    "updated": "2026-10-02T18:00:31.995000+00:00",
+    "updated": "2026-10-02T18:11:12.065000+00:00",
     "lat": -38.3802,
     "lon": 145.8401,
     "depth_km": 10,
@@ -1843,7 +1862,7 @@
     "place": "5 km NNE of Korumburra, Australia",
     "cdi": 5.4,
     "mmi": null,
-    "felt_reports": 484,
+    "felt_reports": 488,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2483,6 +2502,12 @@
         "responses": 2
       },
       {
+        "lat": -37.9649375,
+        "lon": 145.1728675,
+        "intensity": 3.6,
+        "responses": 4
+      },
+      {
         "lat": -37.81861,
         "lon": 145.040155,
         "intensity": 3.6,
@@ -2493,12 +2518,6 @@
         "lon": 145.067555,
         "intensity": 3.5,
         "responses": 2
-      },
-      {
-        "lat": -37.9649375,
-        "lon": 145.1728675,
-        "intensity": 3.5,
-        "responses": 3
       },
       {
         "lat": -37.596525,
@@ -2773,12 +2792,6 @@
       {
         "lat": -37.8452575,
         "lon": 145.01672,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
-        "lat": -38.07268,
-        "lon": 145.14739,
         "intensity": 3.4,
         "responses": 1
       },
@@ -3353,6 +3366,12 @@
         "responses": 1
       },
       {
+        "lat": -37.7463825,
+        "lon": 145.677645,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": -37.89987,
         "lon": 145.049375,
         "intensity": 2.7,
@@ -3489,6 +3508,12 @@
         "lon": 145.35191,
         "intensity": 2.6,
         "responses": 1
+      },
+      {
+        "lat": -38.07268,
+        "lon": 145.14739,
+        "intensity": 2.6,
+        "responses": 2
       },
       {
         "lat": -37.8446775,
@@ -3911,6 +3936,12 @@
         "responses": 1
       },
       {
+        "lat": -38.4697425,
+        "lon": 145.18312,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": -37.591085,
         "lon": 144.910235,
         "intensity": 2,
@@ -4157,24 +4188,30 @@
   {
     "id": "hv75048472",
     "source": "usgs",
-    "time": "2026-10-02T17:55:58.400000+00:00",
-    "updated": "2026-10-02T18:04:52.040000+00:00",
-    "lat": 19.4126663208008,
-    "lon": -155.274826049805,
-    "depth_km": 0.200000002980232,
-    "magnitude": 3.69,
+    "time": "2026-10-02T17:55:58.410000+00:00",
+    "updated": "2026-10-02T18:14:54.278000+00:00",
+    "lat": 19.4155,
+    "lon": -155.279,
+    "depth_km": 0.3,
+    "magnitude": 3.49,
     "mag_type": "ml",
-    "place": "5 km SW of Volcano, Hawaii",
-    "cdi": 3.2,
-    "mmi": null,
-    "felt_reports": 13,
+    "place": "5 km WSW of Volcano, Hawaii",
+    "cdi": 3.5,
+    "mmi": 4.359,
+    "felt_reports": 28,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 19.44419,
         "lon": -155.2335775,
-        "intensity": 3.8,
-        "responses": 1
+        "intensity": 4.2,
+        "responses": 4
+      },
+      {
+        "lat": 19.43516,
+        "lon": -155.2334525,
+        "intensity": 3.6,
+        "responses": 4
       },
       {
         "lat": 19.425775,
@@ -4183,10 +4220,10 @@
         "responses": 2
       },
       {
-        "lat": 19.434685,
-        "lon": -155.27152999999998,
+        "lat": 19.443595,
+        "lon": -155.281175,
         "intensity": 3.4,
-        "responses": 1
+        "responses": 5
       },
       {
         "lat": 19.416385,
@@ -4195,15 +4232,33 @@
         "responses": 1
       },
       {
-        "lat": 19.443595,
-        "lon": -155.281175,
+        "lat": 19.435045,
+        "lon": -155.24297,
+        "intensity": 3.1,
+        "responses": 2
+      },
+      {
+        "lat": 19.434685,
+        "lon": -155.27152999999998,
+        "intensity": 3.1,
+        "responses": 3
+      },
+      {
+        "lat": 19.453105,
+        "lon": -155.24322,
         "intensity": 3.1,
         "responses": 1
       },
       {
-        "lat": 19.435045,
-        "lon": -155.24297,
-        "intensity": 3.1,
+        "lat": 19.426245,
+        "lon": -155.22381000000001,
+        "intensity": 2.9,
+        "responses": 2
+      },
+      {
+        "lat": 19.307785,
+        "lon": -155.30782,
+        "intensity": 2.7,
         "responses": 1
       },
       {
@@ -4211,12 +4266,6 @@
         "lon": -155.2810475,
         "intensity": 2.7,
         "responses": 2
-      },
-      {
-        "lat": 19.426245,
-        "lon": -155.22381000000001,
-        "intensity": 2.7,
-        "responses": 1
       },
       {
         "lat": 19.68014,
