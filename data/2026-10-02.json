@@ -1919,7 +1919,7 @@
     "id": "us6000tz1y",
     "source": "usgs",
     "time": "2026-10-02T16:01:39.581000+00:00",
-    "updated": "2026-10-02T19:09:44.047000+00:00",
+    "updated": "2026-10-02T19:17:24.608000+00:00",
     "lat": -38.3802,
     "lon": 145.8401,
     "depth_km": 10,
@@ -1928,7 +1928,7 @@
     "place": "5 km NNE of Korumburra, Australia",
     "cdi": 5.4,
     "mmi": 5.856,
-    "felt_reports": 497,
+    "felt_reports": 498,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2112,12 +2112,6 @@
         "responses": 6
       },
       {
-        "lat": -37.9836525,
-        "lon": 145.2179475,
-        "intensity": 4.2,
-        "responses": 3
-      },
-      {
         "lat": -37.621545,
         "lon": 145.113325,
         "intensity": 4.1,
@@ -2230,6 +2224,12 @@
         "lon": 145.0389625,
         "intensity": 3.9,
         "responses": 1
+      },
+      {
+        "lat": -37.9836525,
+        "lon": 145.2179475,
+        "intensity": 3.9,
+        "responses": 4
       },
       {
         "lat": -37.820445,
