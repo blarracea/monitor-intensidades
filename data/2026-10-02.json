@@ -387,7 +387,7 @@
     "id": "nc75442791",
     "source": "usgs",
     "time": "2026-10-02T10:00:11.180000+00:00",
-    "updated": "2026-10-02T18:28:52.822000+00:00",
+    "updated": "2026-10-02T18:45:22.927000+00:00",
     "lat": 38.8935,
     "lon": -120.080666666667,
     "depth_km": 10.9,
@@ -396,7 +396,7 @@
     "place": "9 km WSW of South Lake Tahoe, CA",
     "cdi": 3.9,
     "mmi": 3.576,
-    "felt_reports": 496,
+    "felt_reports": 497,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1258,6 +1258,12 @@
         "responses": 1
       },
       {
+        "lat": 38.8129225,
+        "lon": -119.28622,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 39.248205,
         "lon": -120.03926,
         "intensity": 2,
@@ -1702,7 +1708,7 @@
     "id": "us6000tz1c",
     "source": "usgs",
     "time": "2026-10-02T13:57:15.838000+00:00",
-    "updated": "2026-10-02T18:06:33.401000+00:00",
+    "updated": "2026-10-02T18:44:13.248000+00:00",
     "lat": -39.1598,
     "lon": 174.2598,
     "depth_km": 10,
@@ -1711,13 +1717,19 @@
     "place": "6 km E of Inglewood, New Zealand",
     "cdi": 4.3,
     "mmi": 5.421,
-    "felt_reports": 4,
+    "felt_reports": 5,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": -39.069675000000004,
         "lon": 174.104525,
         "intensity": 4.3,
+        "responses": 1
+      },
+      {
+        "lat": -38.0129675,
+        "lon": 174.8185775,
+        "intensity": 3.3,
         "responses": 1
       },
       {
@@ -1889,7 +1901,7 @@
     "id": "us6000tz1y",
     "source": "usgs",
     "time": "2026-10-02T16:01:39.581000+00:00",
-    "updated": "2026-10-02T18:31:18.443000+00:00",
+    "updated": "2026-10-02T18:42:14.208000+00:00",
     "lat": -38.3802,
     "lon": 145.8401,
     "depth_km": 10,
@@ -1898,7 +1910,7 @@
     "place": "5 km NNE of Korumburra, Australia",
     "cdi": 5.4,
     "mmi": null,
-    "felt_reports": 492,
+    "felt_reports": 493,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -3912,6 +3924,12 @@
         "responses": 1
       },
       {
+        "lat": -37.882042500000004,
+        "lon": 145.061215,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": -37.7990525,
         "lon": 144.949815,
         "intensity": 2,
@@ -4122,7 +4140,7 @@
     "id": "us6000tz62",
     "source": "usgs",
     "time": "2026-10-02T16:34:41.010000+00:00",
-    "updated": "2026-10-02T18:38:57.794000+00:00",
+    "updated": "2026-10-02T18:40:56.479000+00:00",
     "lat": 51.6873,
     "lon": 159.7398,
     "depth_km": 29.477,
