@@ -1913,7 +1913,7 @@
     "id": "us6000tz1y",
     "source": "usgs",
     "time": "2026-10-02T16:01:39.581000+00:00",
-    "updated": "2026-10-02T18:53:21.105000+00:00",
+    "updated": "2026-10-02T19:04:13.575000+00:00",
     "lat": -38.3802,
     "lon": 145.8401,
     "depth_km": 10,
@@ -1922,7 +1922,7 @@
     "place": "5 km NNE of Korumburra, Australia",
     "cdi": 5.4,
     "mmi": 5.856,
-    "felt_reports": 495,
+    "felt_reports": 496,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -3924,6 +3924,12 @@
         "responses": 1
       },
       {
+        "lat": -37.824395,
+        "lon": 147.5965425,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": -37.8770225,
         "lon": 144.7771225,
         "intensity": 2,
@@ -4285,7 +4291,7 @@
     "id": "hv75048472",
     "source": "usgs",
     "time": "2026-10-02T17:55:58.410000+00:00",
-    "updated": "2026-10-02T18:36:06.693000+00:00",
+    "updated": "2026-10-02T19:02:49.376000+00:00",
     "lat": 19.4155,
     "lon": -155.279,
     "depth_km": 0.3,
@@ -4294,7 +4300,7 @@
     "place": "5 km WSW of Volcano, Hawaii",
     "cdi": 3.4,
     "mmi": 4.288,
-    "felt_reports": 36,
+    "felt_reports": 37,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -4354,6 +4360,12 @@
       {
         "lat": 19.307785,
         "lon": -155.30782,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 19.48202,
+        "lon": -155.09124,
         "intensity": 2.7,
         "responses": 1
       },
