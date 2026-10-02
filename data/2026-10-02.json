@@ -4677,5 +4677,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz8l",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000tz8q",
+    "source": "usgs",
+    "time": "2026-10-02T21:05:06.532000+00:00",
+    "updated": "2026-10-02T21:46:46.040000+00:00",
+    "lat": 52.7302,
+    "lon": 157.5867,
+    "depth_km": 93.182,
+    "magnitude": 4.4,
+    "mag_type": "mb",
+    "place": "52 km WSW of Paratunka, Russia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz8q",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
