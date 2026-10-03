@@ -1192,27 +1192,27 @@
     "id": "pr2026276000",
     "source": "usgs",
     "time": "2026-10-03T10:35:38.360000+00:00",
-    "updated": "2026-10-03T11:29:31.626000+00:00",
+    "updated": "2026-10-03T15:34:17.048000+00:00",
     "lat": 18.4461,
     "lon": -67.3978,
     "depth_km": 6,
     "magnitude": 3.85,
     "mag_type": "md",
     "place": "19 km NW of Rincón, Puerto Rico",
-    "cdi": 3.4,
+    "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 9,
+    "felt_reports": 10,
     "tsunami_flag": false,
     "dyfi_points": [
       {
-        "lat": 18.39198,
-        "lon": -67.19670500000001,
+        "lat": 18.2197,
+        "lon": -67.1323125,
         "intensity": 3.4,
         "responses": 1
       },
       {
-        "lat": 18.2197,
-        "lon": -67.1323125,
+        "lat": 18.39198,
+        "lon": -67.19670500000001,
         "intensity": 3.4,
         "responses": 1
       },
@@ -1229,15 +1229,21 @@
         "responses": 2
       },
       {
+        "lat": 18.3654075,
+        "lon": -67.253755,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": 18.229100000000003,
         "lon": -67.1700275,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 18.3654075,
-        "lon": -67.253755,
-        "intensity": 2.7,
+        "lat": 18.3734575,
+        "lon": -67.1495875,
+        "intensity": 2.2,
         "responses": 1
       },
       {
@@ -1570,6 +1576,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385257.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385257.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/385262.html",
+    "source": "csn",
+    "time": "2026-10-03T15:27:14+00:00",
+    "updated": "2026-10-03T15:27:14+00:00",
+    "lat": -21.53,
+    "lon": -68.63,
+    "depth_km": 134.0,
+    "magnitude": 2.8,
+    "mag_type": "MLv",
+    "place": "52 km al SO de Ollagüe, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385262.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385262.html",
     "relevant": false,
     "keywords_matched": []
   }
