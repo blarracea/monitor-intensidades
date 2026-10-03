@@ -46,5 +46,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tza4",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/385187.html",
+    "source": "csn",
+    "time": "2026-10-03T01:27:39+00:00",
+    "updated": "2026-10-03T01:27:39+00:00",
+    "lat": -21.68,
+    "lon": -69.84,
+    "depth_km": 62.0,
+    "magnitude": 2.5,
+    "mag_type": "MLv",
+    "place": "32 km al O de Quillagua, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385187.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385187.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
