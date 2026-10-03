@@ -521,19 +521,98 @@
     "id": "nc75443306",
     "source": "usgs",
     "time": "2026-10-03T06:58:44.070000+00:00",
-    "updated": "2026-10-03T07:05:06.330000+00:00",
+    "updated": "2026-10-03T07:08:42.186000+00:00",
     "lat": 38.8911666870117,
     "lon": -120.082664489746,
     "depth_km": 7.05000019073486,
     "magnitude": 2.91,
     "mag_type": "md",
     "place": "10 km WSW of South Lake Tahoe, CA",
-    "cdi": null,
+    "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 0,
+    "felt_reports": 17,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 38.8873575,
+        "lon": -119.98026250000001,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 38.92306,
+        "lon": -120.0067,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 38.9326475,
+        "lon": -119.9706225,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 38.80896,
+        "lon": -120.12663,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 38.942235,
+        "lon": -119.9479525,
+        "intensity": 2.8,
+        "responses": 3
+      },
+      {
+        "lat": 38.824365,
+        "lon": -120.02235999999999,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 38.90506,
+        "lon": -120.00746,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 38.702799999999996,
+        "lon": -120.613795,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 38.905355,
+        "lon": -119.9810125,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 38.68152499999999,
+        "lon": -120.0742675,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 38.860065000000006,
+        "lon": -120.009345,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 38.869654999999995,
+        "lon": -120.031995,
+        "intensity": 2.1,
+        "responses": 1
+      },
+      {
+        "lat": 38.941355,
+        "lon": -119.98252,
+        "intensity": 2,
+        "responses": 2
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "snam_url": null,
