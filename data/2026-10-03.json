@@ -521,22 +521,22 @@
     "id": "nc75443306",
     "source": "usgs",
     "time": "2026-10-03T06:58:44.070000+00:00",
-    "updated": "2026-10-03T07:24:53.034000+00:00",
+    "updated": "2026-10-03T07:29:09.315000+00:00",
     "lat": 38.8911666870117,
     "lon": -120.082664489746,
     "depth_km": 7.05000019073486,
     "magnitude": 2.91,
     "mag_type": "md",
     "place": "10 km WSW of South Lake Tahoe, CA",
-    "cdi": 3.4,
+    "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 59,
+    "felt_reports": 62,
     "tsunami_flag": false,
     "dyfi_points": [
       {
-        "lat": 38.8873575,
-        "lon": -119.98026250000001,
-        "intensity": 3.4,
+        "lat": 38.92306,
+        "lon": -119.99329,
+        "intensity": 3.8,
         "responses": 1
       },
       {
@@ -546,16 +546,16 @@
         "responses": 1
       },
       {
+        "lat": 38.8873575,
+        "lon": -119.98026250000001,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
         "lat": 38.932355,
         "lon": -120.017845,
         "intensity": 3.4,
         "responses": 4
-      },
-      {
-        "lat": 38.85977,
-        "lon": -120.002155,
-        "intensity": 3.1,
-        "responses": 1
       },
       {
         "lat": 39.061245,
@@ -568,6 +568,12 @@
         "lon": -120.0063225,
         "intensity": 3.1,
         "responses": 2
+      },
+      {
+        "lat": 38.85977,
+        "lon": -120.002155,
+        "intensity": 3.1,
+        "responses": 1
       },
       {
         "lat": 38.942235,
@@ -588,14 +594,20 @@
         "responses": 5
       },
       {
-        "lat": 38.702799999999996,
-        "lon": -120.613795,
+        "lat": 38.913765,
+        "lon": -120.00443,
         "intensity": 2.7,
         "responses": 1
       },
       {
         "lat": 38.824945,
         "lon": -120.04536999999999,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 38.702799999999996,
+        "lon": -120.613795,
         "intensity": 2.7,
         "responses": 1
       },
@@ -612,6 +624,12 @@
         "responses": 1
       },
       {
+        "lat": 38.90506,
+        "lon": -120.00746,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": 38.824365,
         "lon": -120.02235999999999,
         "intensity": 2.7,
@@ -624,15 +642,9 @@
         "responses": 1
       },
       {
-        "lat": 38.90506,
-        "lon": -120.00746,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 38.913765,
-        "lon": -120.00443,
-        "intensity": 2.7,
+        "lat": 38.932942499999996,
+        "lon": -119.9591,
+        "intensity": 2.5,
         "responses": 1
       },
       {
@@ -648,14 +660,20 @@
         "responses": 10
       },
       {
+        "lat": 38.7561125,
+        "lon": -120.5775,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
         "lat": 38.86036,
         "lon": -120.0208575,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 38.860065000000006,
-        "lon": -120.009345,
+        "lat": 38.68152499999999,
+        "lon": -120.0742675,
         "intensity": 2.2,
         "responses": 1
       },
@@ -666,14 +684,8 @@
         "responses": 1
       },
       {
-        "lat": 38.7561125,
-        "lon": -120.5775,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 38.68152499999999,
-        "lon": -120.0742675,
+        "lat": 38.860065000000006,
+        "lon": -120.009345,
         "intensity": 2.2,
         "responses": 1
       },
@@ -690,32 +702,32 @@
         "responses": 1
       },
       {
-        "lat": 38.905945,
-        "lon": -119.9579775,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
         "lat": 38.933525,
         "lon": -119.936055,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 38.879814999999994,
-        "lon": -120.0776725,
+        "lat": 38.905945,
+        "lon": -119.9579775,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 38.85136,
-        "lon": -120.02123499999999,
+        "lat": 38.8870625,
+        "lon": -119.991775,
         "intensity": 2,
         "responses": 1
       },
       {
         "lat": 38.969525000000004,
         "lon": -119.93754,
+        "intensity": 2,
+        "responses": 3
+      },
+      {
+        "lat": 38.905355,
+        "lon": -119.9810125,
         "intensity": 2,
         "responses": 2
       },
@@ -726,14 +738,14 @@
         "responses": 2
       },
       {
-        "lat": 38.905355,
-        "lon": -119.9810125,
+        "lat": 38.85136,
+        "lon": -120.02123499999999,
         "intensity": 2,
-        "responses": 2
+        "responses": 1
       },
       {
-        "lat": 38.8870625,
-        "lon": -119.991775,
+        "lat": 38.879814999999994,
+        "lon": -120.0776725,
         "intensity": 2,
         "responses": 1
       }
@@ -744,6 +756,30 @@
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75443306",
     "relevant": true,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000tzbe",
+    "source": "usgs",
+    "time": "2026-10-03T07:12:22.596000+00:00",
+    "updated": "2026-10-03T07:29:27.040000+00:00",
+    "lat": 56.0389,
+    "lon": -149.2204,
+    "depth_km": 10,
+    "magnitude": 3,
+    "mag_type": "ml",
+    "place": "256 km SE of Chiniak, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzbe",
+    "relevant": false,
     "keywords_matched": []
   }
 ]
