@@ -1764,5 +1764,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tpgsir",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000tzdj",
+    "source": "usgs",
+    "time": "2026-10-03T17:24:12.545000+00:00",
+    "updated": "2026-10-03T17:52:33.040000+00:00",
+    "lat": -6.0496,
+    "lon": 147.1678,
+    "depth_km": 81.86,
+    "magnitude": 4.6,
+    "mag_type": "mb",
+    "place": "76 km NNE of Lae, Papua New Guinea",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzdj",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
