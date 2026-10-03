@@ -250,18 +250,24 @@
     "id": "us6000tzax",
     "source": "usgs",
     "time": "2026-10-03T04:13:31.661000+00:00",
-    "updated": "2026-10-03T05:29:31.107000+00:00",
+    "updated": "2026-10-03T10:00:05.283000+00:00",
     "lat": 19.3072,
     "lon": 76.922,
     "depth_km": 16.033,
     "magnitude": 4.2,
     "mag_type": "mb",
     "place": "16 km ENE of Parbhani, India",
-    "cdi": 2,
+    "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 19.52389,
+        "lon": 77.3585025,
+        "intensity": 3.4,
+        "responses": 1
+      },
       {
         "lat": 19.172215,
         "lon": 77.3154325,
@@ -903,8 +909,7 @@
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385221.html",
     "relevant": false,
-    "keywords_matched": [],
-    "senapred_match_time": "2026-10-03T05:41:50-03:00"
+    "keywords_matched": []
   },
   {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/385223.html",
