@@ -521,23 +521,23 @@
     "id": "nc75443306",
     "source": "usgs",
     "time": "2026-10-03T06:58:44.070000+00:00",
-    "updated": "2026-10-03T07:15:05.458000+00:00",
+    "updated": "2026-10-03T07:18:54.077000+00:00",
     "lat": 38.8911666870117,
     "lon": -120.082664489746,
     "depth_km": 7.05000019073486,
     "magnitude": 2.91,
     "mag_type": "md",
     "place": "10 km WSW of South Lake Tahoe, CA",
-    "cdi": 4.1,
+    "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 40,
+    "felt_reports": 54,
     "tsunami_flag": false,
     "dyfi_points": [
       {
-        "lat": 38.932355,
-        "lon": -120.017845,
-        "intensity": 4.1,
-        "responses": 2
+        "lat": 38.9326475,
+        "lon": -119.9706225,
+        "intensity": 3.4,
+        "responses": 1
       },
       {
         "lat": 38.8873575,
@@ -546,9 +546,21 @@
         "responses": 1
       },
       {
-        "lat": 38.9326475,
-        "lon": -119.9706225,
+        "lat": 38.932355,
+        "lon": -120.017845,
         "intensity": 3.4,
+        "responses": 4
+      },
+      {
+        "lat": 39.061245,
+        "lon": -120.1279775,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 38.85977,
+        "lon": -120.002155,
+        "intensity": 3.1,
         "responses": 1
       },
       {
@@ -573,19 +585,7 @@
         "lat": 38.92306,
         "lon": -120.0067,
         "intensity": 2.9,
-        "responses": 4
-      },
-      {
-        "lat": 38.824945,
-        "lon": -120.04536999999999,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 38.702799999999996,
-        "lon": -120.613795,
-        "intensity": 2.7,
-        "responses": 1
+        "responses": 5
       },
       {
         "lat": 38.7318775,
@@ -600,8 +600,26 @@
         "responses": 1
       },
       {
+        "lat": 38.702799999999996,
+        "lon": -120.613795,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 39.016245,
+        "lon": -120.1298025,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": 38.824365,
         "lon": -120.02235999999999,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 38.824945,
+        "lon": -120.04536999999999,
         "intensity": 2.7,
         "responses": 1
       },
@@ -621,7 +639,7 @@
         "lat": 38.941355,
         "lon": -119.98252,
         "intensity": 2.3,
-        "responses": 4
+        "responses": 8
       },
       {
         "lat": 38.896355,
@@ -632,6 +650,12 @@
       {
         "lat": 38.87806500000001,
         "lon": -119.991395,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 38.860065000000006,
+        "lon": -120.009345,
         "intensity": 2.2,
         "responses": 1
       },
@@ -648,12 +672,6 @@
         "responses": 1
       },
       {
-        "lat": 38.860065000000006,
-        "lon": -120.009345,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
         "lat": 38.869654999999995,
         "lon": -120.031995,
         "intensity": 2.1,
@@ -666,10 +684,22 @@
         "responses": 1
       },
       {
-        "lat": 38.85136,
-        "lon": -120.02123499999999,
+        "lat": 38.905945,
+        "lon": -119.9579775,
         "intensity": 2,
         "responses": 1
+      },
+      {
+        "lat": 38.969525000000004,
+        "lon": -119.93754,
+        "intensity": 2,
+        "responses": 2
+      },
+      {
+        "lat": 38.923355,
+        "lon": -119.98177,
+        "intensity": 2,
+        "responses": 2
       },
       {
         "lat": 38.905355,
@@ -678,10 +708,16 @@
         "responses": 2
       },
       {
-        "lat": 38.969525000000004,
-        "lon": -119.93754,
+        "lat": 38.8870625,
+        "lon": -119.991775,
         "intensity": 2,
-        "responses": 2
+        "responses": 1
+      },
+      {
+        "lat": 38.85136,
+        "lon": -120.02123499999999,
+        "intensity": 2,
+        "responses": 1
       }
     ],
     "intensity_source": "usgs_dyfi",
@@ -689,7 +725,7 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75443306",
-    "relevant": false,
+    "relevant": true,
     "keywords_matched": []
   }
 ]
