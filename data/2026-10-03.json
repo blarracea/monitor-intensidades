@@ -2159,7 +2159,7 @@
     "id": "us6000tzer",
     "source": "usgs",
     "time": "2026-10-03T22:55:55.358000+00:00",
-    "updated": "2026-10-03T23:25:56.759000+00:00",
+    "updated": "2026-10-03T23:44:11.217000+00:00",
     "lat": -9.5672,
     "lon": 118.9078,
     "depth_km": 45.951,
@@ -2168,9 +2168,15 @@
     "place": "39 km WSW of Tambolaka, Indonesia",
     "cdi": 4.5,
     "mmi": 5.147,
-    "felt_reports": 2,
+    "felt_reports": 4,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": -8.45027,
+        "lon": 118.73038,
+        "intensity": 4.5,
+        "responses": 1
+      },
       {
         "lat": -8.723395,
         "lon": 118.24994,
@@ -2181,6 +2187,12 @@
         "lat": -8.72108,
         "lon": 115.1775125,
         "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -8.804305,
+        "lon": 118.386575,
+        "intensity": 2.2,
         "responses": 1
       }
     ],
