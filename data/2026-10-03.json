@@ -527,7 +527,7 @@
     "id": "nc75443306",
     "source": "usgs",
     "time": "2026-10-03T06:58:44.070000+00:00",
-    "updated": "2026-10-03T11:32:20.014000+00:00",
+    "updated": "2026-10-03T12:30:49.956000+00:00",
     "lat": 38.8911666870117,
     "lon": -120.082664489746,
     "depth_km": 7.05000019073486,
@@ -536,7 +536,7 @@
     "place": "10 km WSW of South Lake Tahoe, CA",
     "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 69,
+    "felt_reports": 70,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -576,6 +576,12 @@
         "responses": 2
       },
       {
+        "lat": 38.93206,
+        "lon": -120.0063225,
+        "intensity": 3.1,
+        "responses": 3
+      },
+      {
         "lat": 38.878654999999995,
         "lon": -119.9683725,
         "intensity": 3.1,
@@ -584,18 +590,6 @@
       {
         "lat": 38.85977,
         "lon": -120.002155,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 38.93206,
-        "lon": -120.0063225,
-        "intensity": 3.1,
-        "responses": 3
-      },
-      {
-        "lat": 39.061245,
-        "lon": -120.1279775,
         "intensity": 3.1,
         "responses": 1
       },
@@ -624,38 +618,20 @@
         "responses": 3
       },
       {
-        "lat": 39.016245,
-        "lon": -120.1298025,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
         "lat": 38.702799999999996,
         "lon": -120.613795,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 38.7318775,
-        "lon": -120.716355,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 38.824365,
-        "lon": -120.02235999999999,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 38.824945,
-        "lon": -120.04536999999999,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
         "lat": 38.951235,
         "lon": -119.948325,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 38.7318775,
+        "lon": -120.716355,
         "intensity": 2.7,
         "responses": 1
       },
@@ -672,10 +648,34 @@
         "responses": 1
       },
       {
+        "lat": 38.824365,
+        "lon": -120.02235999999999,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 39.016245,
+        "lon": -120.1298025,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": 38.808105,
         "lon": -120.0921225,
         "intensity": 2.7,
         "responses": 1
+      },
+      {
+        "lat": 38.824945,
+        "lon": -120.04536999999999,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 39.061245,
+        "lon": -120.1279775,
+        "intensity": 2.4,
+        "responses": 2
       },
       {
         "lat": 38.941355,
@@ -686,12 +686,6 @@
       {
         "lat": 38.68152499999999,
         "lon": -120.0742675,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 38.860065000000006,
-        "lon": -120.009345,
         "intensity": 2.2,
         "responses": 1
       },
@@ -710,6 +704,12 @@
       {
         "lat": 38.7561125,
         "lon": -120.5775,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 38.860065000000006,
+        "lon": -120.009345,
         "intensity": 2.2,
         "responses": 1
       },
@@ -738,24 +738,6 @@
         "responses": 1
       },
       {
-        "lat": 38.905355,
-        "lon": -119.9810125,
-        "intensity": 2,
-        "responses": 2
-      },
-      {
-        "lat": 38.8870625,
-        "lon": -119.991775,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 38.85136,
-        "lon": -120.02123499999999,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
         "lat": 38.969525000000004,
         "lon": -119.93754,
         "intensity": 2,
@@ -768,10 +750,28 @@
         "responses": 3
       },
       {
+        "lat": 38.85136,
+        "lon": -120.02123499999999,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 38.8870625,
+        "lon": -119.991775,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 38.879814999999994,
         "lon": -120.0776725,
         "intensity": 2,
         "responses": 1
+      },
+      {
+        "lat": 38.905355,
+        "lon": -119.9810125,
+        "intensity": 2,
+        "responses": 2
       }
     ],
     "intensity_source": "usgs_dyfi",
