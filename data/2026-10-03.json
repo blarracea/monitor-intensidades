@@ -1059,22 +1059,34 @@
     "id": "us6000tzc3",
     "source": "usgs",
     "time": "2026-10-03T10:35:36.138000+00:00",
-    "updated": "2026-10-03T10:46:27.856000+00:00",
+    "updated": "2026-10-03T10:55:53.375000+00:00",
     "lat": 18.4882,
     "lon": -67.4859,
     "depth_km": 10,
     "magnitude": 3.9,
     "mag_type": "ml",
     "place": "29 km WNW of Rincón, Puerto Rico",
-    "cdi": 2.7,
+    "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 18.39198,
+        "lon": -67.19670500000001,
+        "intensity": 3.4,
+        "responses": 1
+      },
       {
         "lat": 18.229100000000003,
         "lon": -67.1700275,
         "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 18.3379525,
+        "lon": -67.2161875,
+        "intensity": 2.2,
         "responses": 1
       }
     ],
