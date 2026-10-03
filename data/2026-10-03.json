@@ -851,14 +851,14 @@
   {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/385221.html",
     "source": "csn",
-    "time": "2026-10-03T08:36:46+00:00",
-    "updated": "2026-10-03T08:36:46+00:00",
-    "lat": -30.68,
-    "lon": -71.46,
-    "depth_km": 30.0,
-    "magnitude": 3.8,
+    "time": "2026-10-03T08:36:44+00:00",
+    "updated": "2026-10-03T08:36:44+00:00",
+    "lat": -30.73,
+    "lon": -71.31,
+    "depth_km": 52.0,
+    "magnitude": 3.7,
     "mag_type": "MLv",
-    "place": "21 km al E de Parque Fray Jorge, Chile",
+    "place": "12 km al NO de Punitaqui, Chile",
     "cdi": null,
     "mmi": null,
     "felt_reports": null,
@@ -870,6 +870,30 @@
         "intensity": 4,
         "responses": null,
         "comuna": "Río Hurtado",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -31.1781518,
+        "lon": -71.0024382,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Combarbalá",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.6006,
+        "lon": -71.1994,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Ovalle",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.6947,
+        "lon": -70.96,
+        "intensity": 2,
+        "responses": null,
+        "comuna": "Monte Patria",
         "region": "Coquimbo"
       }
     ],
