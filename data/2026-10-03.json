@@ -1812,5 +1812,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzdj",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000tzdp",
+    "source": "usgs",
+    "time": "2026-10-03T18:12:46.916000+00:00",
+    "updated": "2026-10-03T18:34:52.040000+00:00",
+    "lat": 20.6061,
+    "lon": 93.3991,
+    "depth_km": 35,
+    "magnitude": 4.9,
+    "mag_type": "mb",
+    "place": "72 km NE of Sittwe, Burma (Myanmar)",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzdp",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
