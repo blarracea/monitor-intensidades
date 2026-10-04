@@ -142,5 +142,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385324.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026tpxzfg",
+    "source": "usgs",
+    "time": "2026-10-04T01:58:07.920000+00:00",
+    "updated": "2026-10-04T02:00:39.302000+00:00",
+    "lat": 62.019,
+    "lon": -149.274,
+    "depth_km": 22.8,
+    "magnitude": 3.5,
+    "mag_type": "ml",
+    "place": "30 km N of Fishhook, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tpxzfg",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
