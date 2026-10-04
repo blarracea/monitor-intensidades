@@ -1446,9 +1446,58 @@
     "mmi": null,
     "felt_reports": null,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
-    "senapred_url": null,
+    "dyfi_points": [
+      {
+        "lat": -39.370616,
+        "lon": -72.6300704,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Loncoche",
+        "region": "La Araucanía"
+      },
+      {
+        "lat": -39.2731173,
+        "lon": -71.9777605,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Pucón",
+        "region": "La Araucanía"
+      },
+      {
+        "lat": -38.7359,
+        "lon": -72.5904,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Temuco",
+        "region": "La Araucanía"
+      },
+      {
+        "lat": -39.2833,
+        "lon": -72.2167,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Villarrica",
+        "region": "La Araucanía"
+      },
+      {
+        "lat": -38.534312,
+        "lon": -72.4350504,
+        "intensity": 2,
+        "responses": null,
+        "comuna": "Lautaro",
+        "region": "La Araucanía"
+      },
+      {
+        "lat": -39.6419909,
+        "lon": -72.3333801,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Panguipulli",
+        "region": "Los Ríos"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-los-rios-2026-10-04-11-07-34",
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385391.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385391.html",
