@@ -1382,5 +1382,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385386.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026tquwqe",
+    "source": "usgs",
+    "time": "2026-10-04T13:24:48.891000+00:00",
+    "updated": "2026-10-04T13:28:09.542000+00:00",
+    "lat": 60.301,
+    "lon": -151.695,
+    "depth_km": 70.4,
+    "magnitude": 2.6,
+    "mag_type": "ml",
+    "place": "18 km WNW of Clam Gulch, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tquwqe",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
