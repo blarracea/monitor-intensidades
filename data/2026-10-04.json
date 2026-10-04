@@ -2065,5 +2065,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75444416",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/385439.html",
+    "source": "csn",
+    "time": "2026-10-04T22:13:23+00:00",
+    "updated": "2026-10-04T22:13:23+00:00",
+    "lat": -23.69,
+    "lon": -67.27,
+    "depth_km": 245.0,
+    "magnitude": 2.9,
+    "mag_type": "MLv",
+    "place": "64 km al E de Socaire, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385439.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385439.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
