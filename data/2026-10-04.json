@@ -1662,5 +1662,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tqyehr",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/385408.html",
+    "source": "csn",
+    "time": "2026-10-04T16:17:58+00:00",
+    "updated": "2026-10-04T16:17:58+00:00",
+    "lat": -23.62,
+    "lon": -68.8,
+    "depth_km": 101.0,
+    "magnitude": 3.2,
+    "mag_type": "MLv",
+    "place": "77 km al N de Mina La Escondida, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385408.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385408.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
