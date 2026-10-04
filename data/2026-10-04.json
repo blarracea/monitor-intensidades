@@ -75,18 +75,24 @@
     "id": "us6000tzfr",
     "source": "usgs",
     "time": "2026-10-04T00:48:41.995000+00:00",
-    "updated": "2026-10-04T03:49:52.101000+00:00",
+    "updated": "2026-10-04T05:01:46.068000+00:00",
     "lat": 35.2454,
     "lon": 24.8055,
     "depth_km": 10,
     "magnitude": 4.3,
     "mag_type": "mb",
     "place": "5 km SSW of Zonianá, Greece",
-    "cdi": 2,
+    "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 35.33238,
+        "lon": 25.1350325,
+        "intensity": 2.7,
+        "responses": 1
+      },
       {
         "lat": 35.33231,
         "lon": 24.6179925,
