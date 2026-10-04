@@ -1980,5 +1980,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzka",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000tzkn",
+    "source": "usgs",
+    "time": "2026-10-04T20:27:25.597000+00:00",
+    "updated": "2026-10-04T20:43:07.040000+00:00",
+    "lat": 36.611,
+    "lon": 71.0216,
+    "depth_km": 248.906,
+    "magnitude": 4.8,
+    "mag_type": "mb",
+    "place": "32 km SSE of Jurm, Afghanistan",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzkn",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
