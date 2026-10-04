@@ -1961,7 +1961,7 @@
     "id": "us6000tzka",
     "source": "usgs",
     "time": "2026-10-04T18:56:14.005000+00:00",
-    "updated": "2026-10-04T21:56:14.543000+00:00",
+    "updated": "2026-10-04T22:20:53.473000+00:00",
     "lat": 44.2452,
     "lon": -129.1453,
     "depth_km": 10,
@@ -1970,9 +1970,15 @@
     "place": "off the coast of Oregon",
     "cdi": 1,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 41.064255,
+        "lon": -124.12472,
+        "intensity": 1,
+        "responses": 1
+      },
       {
         "lat": 45.55936,
         "lon": -123.9161375,
