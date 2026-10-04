@@ -1310,5 +1310,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385384.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026tqtplt",
+    "source": "usgs",
+    "time": "2026-10-04T12:46:30.522000+00:00",
+    "updated": "2026-10-04T12:50:10.641000+00:00",
+    "lat": 60.381,
+    "lon": -150.666,
+    "depth_km": 68.2,
+    "magnitude": 3.4,
+    "mag_type": "ml",
+    "place": "14 km SSE of Funny River, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tqtplt",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
