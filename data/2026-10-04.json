@@ -185,5 +185,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tpxzfg",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/385326.html",
+    "source": "csn",
+    "time": "2026-10-04T02:30:57+00:00",
+    "updated": "2026-10-04T02:30:57+00:00",
+    "lat": -24.18,
+    "lon": -67.85,
+    "depth_km": 192.0,
+    "magnitude": 3.2,
+    "mag_type": "MLv",
+    "place": "66 km al S de Socaire, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385326.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385326.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
