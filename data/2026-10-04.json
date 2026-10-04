@@ -913,5 +913,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzi5",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/385370.html",
+    "source": "csn",
+    "time": "2026-10-04T10:57:13+00:00",
+    "updated": "2026-10-04T10:57:13+00:00",
+    "lat": -21.84,
+    "lon": -67.58,
+    "depth_km": 222.0,
+    "magnitude": 3.3,
+    "mag_type": "MLv",
+    "place": "98 km al SE de Ollagüe, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385370.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385370.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
