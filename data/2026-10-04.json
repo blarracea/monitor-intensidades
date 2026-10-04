@@ -1430,5 +1430,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tqvifo",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/385391.html",
+    "source": "csn",
+    "time": "2026-10-04T13:57:38+00:00",
+    "updated": "2026-10-04T13:57:38+00:00",
+    "lat": -38.99,
+    "lon": -72.68,
+    "depth_km": 45.0,
+    "magnitude": 4.3,
+    "mag_type": "MLv",
+    "place": "29 km al S de Temuco, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385391.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385391.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
