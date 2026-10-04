@@ -1686,5 +1686,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385408.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026trbbuc",
+    "source": "usgs",
+    "time": "2026-10-04T16:30:36.607000+00:00",
+    "updated": "2026-10-04T16:33:49.932000+00:00",
+    "lat": 58.51,
+    "lon": -137.235,
+    "depth_km": 5,
+    "magnitude": 3,
+    "mag_type": "ml",
+    "place": "62 km WNW of Elfin Cove, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026trbbuc",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
