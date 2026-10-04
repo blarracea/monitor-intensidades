@@ -1854,5 +1854,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzjy",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/385418.html",
+    "source": "csn",
+    "time": "2026-10-04T17:38:33+00:00",
+    "updated": "2026-10-04T17:38:33+00:00",
+    "lat": -20.72,
+    "lon": -69.78,
+    "depth_km": 14.0,
+    "magnitude": 2.9,
+    "mag_type": "MLv",
+    "place": "45 km al E de Patache, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385418.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385418.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
