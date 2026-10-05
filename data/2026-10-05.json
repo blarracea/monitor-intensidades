@@ -262,5 +262,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90210028",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "pr71535753",
+    "source": "usgs",
+    "time": "2026-10-05T03:05:50.670000+00:00",
+    "updated": "2026-10-05T04:02:19.890000+00:00",
+    "lat": 18.817,
+    "lon": -64.437,
+    "depth_km": 23.55,
+    "magnitude": 2.91,
+    "mag_type": "md",
+    "place": "65 km NE of Cruz Bay, U.S. Virgin Islands",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71535753",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
