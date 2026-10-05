@@ -250,7 +250,7 @@
     "id": "mb90210028",
     "source": "usgs",
     "time": "2026-10-05T02:34:54.630000+00:00",
-    "updated": "2026-10-05T14:33:33.933000+00:00",
+    "updated": "2026-10-05T14:42:22.868000+00:00",
     "lat": 47.1368333333333,
     "lon": -113.108,
     "depth_km": 5,
@@ -259,7 +259,7 @@
     "place": "13 km N of Ovando, Montana",
     "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 2,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -271,6 +271,12 @@
       {
         "lat": 46.841805,
         "lon": -113.839425,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 47.506605,
+        "lon": -111.27222499999999,
         "intensity": 2,
         "responses": 1
       }
