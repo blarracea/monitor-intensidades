@@ -348,5 +348,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzm7",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000tzme",
+    "source": "usgs",
+    "time": "2026-10-05T05:26:44.808000+00:00",
+    "updated": "2026-10-05T05:46:50.040000+00:00",
+    "lat": -21.4208,
+    "lon": -174.2679,
+    "depth_km": 10,
+    "magnitude": 5,
+    "mag_type": "mb",
+    "place": "71 km E of ‘Ohonua, Tonga",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzme",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
