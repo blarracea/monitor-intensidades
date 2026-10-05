@@ -1190,7 +1190,7 @@
     "id": "ci41343551",
     "source": "usgs",
     "time": "2026-10-05T15:40:40.520000+00:00",
-    "updated": "2026-10-05T15:59:10.133000+00:00",
+    "updated": "2026-10-05T16:02:21.783000+00:00",
     "lat": 34.3853333333333,
     "lon": -119.776,
     "depth_km": 8.51,
@@ -1199,7 +1199,7 @@
     "place": "7 km SE of Goleta, CA",
     "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 31,
+    "felt_reports": 34,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1209,14 +1209,14 @@
         "responses": 1
       },
       {
-        "lat": 34.424115,
-        "lon": -119.70406,
+        "lat": 34.4056175,
+        "lon": -119.725215,
         "intensity": 3.1,
         "responses": 1
       },
       {
-        "lat": 34.4056175,
-        "lon": -119.725215,
+        "lat": 34.424115,
+        "lon": -119.70406,
         "intensity": 3.1,
         "responses": 1
       },
@@ -1239,12 +1239,6 @@
         "responses": 1
       },
       {
-        "lat": 34.4667,
-        "lon": -119.81427,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
         "lat": 34.4051325,
         "lon": -119.74695,
         "intensity": 2.7,
@@ -1257,14 +1251,14 @@
         "responses": 1
       },
       {
-        "lat": 34.50323,
-        "lon": -119.79372000000001,
-        "intensity": 2.2,
+        "lat": 34.4667,
+        "lon": -119.81427,
+        "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 34.4291525,
-        "lon": -119.87828,
+        "lat": 34.50323,
+        "lon": -119.79372000000001,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1275,8 +1269,26 @@
         "responses": 1
       },
       {
+        "lat": 34.4391775,
+        "lon": -119.83510749999999,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
         "lat": 34.44092,
         "lon": -119.75900250000001,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 34.4291525,
+        "lon": -119.87828,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 34.414384999999996,
+        "lon": -119.7363775,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1293,20 +1305,8 @@
         "responses": 1
       },
       {
-        "lat": 34.429407499999996,
-        "lon": -119.8674125,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 34.43117,
-        "lon": -119.7913225,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 34.406105,
-        "lon": -119.70348,
+        "lat": 34.437905,
+        "lon": -119.88946,
         "intensity": 2,
         "responses": 1
       },
@@ -1317,14 +1317,8 @@
         "responses": 1
       },
       {
-        "lat": 34.439679999999996,
-        "lon": -119.813365,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 34.437905,
-        "lon": -119.88946,
+        "lat": 34.406105,
+        "lon": -119.70348,
         "intensity": 2,
         "responses": 1
       },
@@ -1332,6 +1326,30 @@
         "lat": 34.44869,
         "lon": -119.813665,
         "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 34.43117,
+        "lon": -119.7913225,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 34.429407499999996,
+        "lon": -119.8674125,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 34.439679999999996,
+        "lon": -119.813365,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 34.396855,
+        "lon": -119.714055,
+        "intensity": 1,
         "responses": 1
       }
     ],
@@ -1347,16 +1365,16 @@
     "id": "nc75445011",
     "source": "usgs",
     "time": "2026-10-05T15:56:36.660000+00:00",
-    "updated": "2026-10-05T15:58:13.548000+00:00",
+    "updated": "2026-10-05T16:04:07.539000+00:00",
     "lat": 40.5731658935547,
     "lon": -124.048500061035,
     "depth_km": 20.6399993896484,
     "magnitude": 2.81,
     "mag_type": "md",
     "place": "5 km NE of Hydesville, CA",
-    "cdi": null,
+    "cdi": 0,
     "mmi": null,
-    "felt_reports": 0,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [],
     "intensity_source": null,
