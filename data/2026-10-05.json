@@ -1244,7 +1244,7 @@
     "id": "ci41343551",
     "source": "usgs",
     "time": "2026-10-05T15:40:40.490000+00:00",
-    "updated": "2026-10-05T21:22:56.082000+00:00",
+    "updated": "2026-10-05T21:51:13.208000+00:00",
     "lat": 34.3868333333333,
     "lon": -119.775833333333,
     "depth_km": 9.27,
@@ -1253,7 +1253,7 @@
     "place": "7 km SE of Goleta, CA",
     "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 54,
+    "felt_reports": 55,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1275,12 +1275,6 @@
         "responses": 1
       },
       {
-        "lat": 34.424115,
-        "lon": -119.70406,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
         "lat": 34.4056175,
         "lon": -119.725215,
         "intensity": 3.1,
@@ -1293,26 +1287,14 @@
         "responses": 1
       },
       {
-        "lat": 34.438159999999996,
-        "lon": -119.87859,
-        "intensity": 2.7,
+        "lat": 34.424115,
+        "lon": -119.70406,
+        "intensity": 3.1,
         "responses": 1
       },
       {
         "lat": 34.4201475,
         "lon": -119.8779725,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 34.4481825,
-        "lon": -119.83541249999999,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 34.43943,
-        "lon": -119.824235,
         "intensity": 2.7,
         "responses": 1
       },
@@ -1329,6 +1311,30 @@
         "responses": 1
       },
       {
+        "lat": 34.43943,
+        "lon": -119.824235,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 34.414384999999996,
+        "lon": -119.7363775,
+        "intensity": 2.7,
+        "responses": 2
+      },
+      {
+        "lat": 34.4481825,
+        "lon": -119.83541249999999,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 34.438159999999996,
+        "lon": -119.87859,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": 34.43042,
         "lon": -119.823935,
         "intensity": 2.5,
@@ -1341,16 +1347,10 @@
         "responses": 3
       },
       {
-        "lat": 34.411395,
-        "lon": -119.8668,
+        "lat": 34.4291525,
+        "lon": -119.87828,
         "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 34.4414075,
-        "lon": -119.7372575,
-        "intensity": 2.2,
-        "responses": 1
+        "responses": 2
       },
       {
         "lat": 34.429407499999996,
@@ -1359,14 +1359,8 @@
         "responses": 2
       },
       {
-        "lat": 34.50323,
-        "lon": -119.79372000000001,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 34.414384999999996,
-        "lon": -119.7363775,
+        "lat": 34.4414075,
+        "lon": -119.7372575,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1377,16 +1371,22 @@
         "responses": 1
       },
       {
-        "lat": 34.44092,
-        "lon": -119.75900250000001,
+        "lat": 34.411395,
+        "lon": -119.8668,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 34.4291525,
-        "lon": -119.87828,
+        "lat": 34.50323,
+        "lon": -119.79372000000001,
         "intensity": 2.2,
-        "responses": 2
+        "responses": 1
+      },
+      {
+        "lat": 34.44092,
+        "lon": -119.75900250000001,
+        "intensity": 2.2,
+        "responses": 1
       },
       {
         "lat": 34.4296625,
@@ -1395,14 +1395,20 @@
         "responses": 6
       },
       {
-        "lat": 34.432155,
-        "lon": -119.747835,
-        "intensity": 2,
-        "responses": 2
-      },
-      {
         "lat": 34.4509025,
         "lon": -119.7158025,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 34.439679999999996,
+        "lon": -119.813365,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 34.44869,
+        "lon": -119.813665,
         "intensity": 2,
         "responses": 1
       },
@@ -1411,6 +1417,24 @@
         "lon": -119.88946,
         "intensity": 2,
         "responses": 1
+      },
+      {
+        "lat": 34.432155,
+        "lon": -119.747835,
+        "intensity": 2,
+        "responses": 2
+      },
+      {
+        "lat": 34.437645,
+        "lon": -119.90033249999999,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 34.424355,
+        "lon": -119.69319,
+        "intensity": 2,
+        "responses": 2
       },
       {
         "lat": 34.43117,
@@ -1425,50 +1449,26 @@
         "responses": 1
       },
       {
-        "lat": 34.406105,
-        "lon": -119.70348,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 34.439679999999996,
-        "lon": -119.813365,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 34.437645,
-        "lon": -119.90033249999999,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 34.44869,
-        "lon": -119.813665,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
         "lat": 34.432885,
         "lon": -119.71522,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 34.424355,
-        "lon": -119.69319,
+        "lat": 34.406105,
+        "lon": -119.70348,
         "intensity": 2,
-        "responses": 2
-      },
-      {
-        "lat": 34.396855,
-        "lon": -119.714055,
-        "intensity": 1,
         "responses": 1
       },
       {
         "lat": 34.4494325,
         "lon": -119.781045,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 34.396855,
+        "lon": -119.714055,
         "intensity": 1,
         "responses": 1
       },
@@ -1635,14 +1635,14 @@
   {
     "id": "tx2026tputog",
     "source": "usgs",
-    "time": "2026-10-05T17:24:06.398000+00:00",
-    "updated": "2026-10-05T17:35:46.040000+00:00",
-    "lat": 28.863,
-    "lon": -98.977,
-    "depth_km": 8.8955,
+    "time": "2026-10-05T17:24:06.427000+00:00",
+    "updated": "2026-10-05T21:51:08.861000+00:00",
+    "lat": 28.853,
+    "lon": -98.978,
+    "depth_km": 7.1851,
     "magnitude": 2.6,
     "mag_type": "ml",
-    "place": "11 km ESE of Pearsall, Texas",
+    "place": "12 km ESE of Pearsall, Texas",
     "cdi": null,
     "mmi": null,
     "felt_reports": 0,
