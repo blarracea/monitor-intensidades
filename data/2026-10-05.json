@@ -1208,7 +1208,7 @@
     "id": "ci41343551",
     "source": "usgs",
     "time": "2026-10-05T15:40:40.490000+00:00",
-    "updated": "2026-10-05T18:01:59.668000+00:00",
+    "updated": "2026-10-05T18:07:10.826000+00:00",
     "lat": 34.3868333333333,
     "lon": -119.775833333333,
     "depth_km": 9.27,
@@ -1217,7 +1217,7 @@
     "place": "7 km SE of Goleta, CA",
     "cdi": 3.7,
     "mmi": null,
-    "felt_reports": 45,
+    "felt_reports": 46,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1257,26 +1257,8 @@
         "responses": 2
       },
       {
-        "lat": 34.438159999999996,
-        "lon": -119.87859,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 34.4667,
-        "lon": -119.81427,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
         "lat": 34.43943,
         "lon": -119.824235,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 34.4051325,
-        "lon": -119.74695,
         "intensity": 2.7,
         "responses": 1
       },
@@ -1287,14 +1269,44 @@
         "responses": 1
       },
       {
+        "lat": 34.4667,
+        "lon": -119.81427,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 34.438159999999996,
+        "lon": -119.87859,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 34.4051325,
+        "lon": -119.74695,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": 34.43092,
         "lon": -119.802195,
         "intensity": 2.3,
         "responses": 3
       },
       {
-        "lat": 34.44092,
-        "lon": -119.75900250000001,
+        "lat": 34.4291525,
+        "lon": -119.87828,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 34.50323,
+        "lon": -119.79372000000001,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 34.4414075,
+        "lon": -119.7372575,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1317,26 +1329,14 @@
         "responses": 1
       },
       {
-        "lat": 34.4291525,
-        "lon": -119.87828,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 34.4414075,
-        "lon": -119.7372575,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
         "lat": 34.4391775,
         "lon": -119.83510749999999,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 34.50323,
-        "lon": -119.79372000000001,
+        "lat": 34.44092,
+        "lon": -119.75900250000001,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1347,8 +1347,20 @@
         "responses": 6
       },
       {
-        "lat": 34.432885,
-        "lon": -119.71522,
+        "lat": 34.4509025,
+        "lon": -119.7158025,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 34.44869,
+        "lon": -119.813665,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 34.437645,
+        "lon": -119.90033249999999,
         "intensity": 2,
         "responses": 1
       },
@@ -1365,12 +1377,6 @@
         "responses": 1
       },
       {
-        "lat": 34.437645,
-        "lon": -119.90033249999999,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
         "lat": 34.439679999999996,
         "lon": -119.813365,
         "intensity": 2,
@@ -1383,18 +1389,6 @@
         "responses": 1
       },
       {
-        "lat": 34.4509025,
-        "lon": -119.7158025,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 34.44869,
-        "lon": -119.813665,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
         "lat": 34.406105,
         "lon": -119.70348,
         "intensity": 2,
@@ -1403,7 +1397,13 @@
       {
         "lat": 34.432155,
         "lon": -119.747835,
-        "intensity": 1,
+        "intensity": 2,
+        "responses": 2
+      },
+      {
+        "lat": 34.432885,
+        "lon": -119.71522,
+        "intensity": 2,
         "responses": 1
       },
       {
@@ -1605,6 +1605,54 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzpq",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000tzpp",
+    "source": "usgs",
+    "time": "2026-10-05T17:30:40.698000+00:00",
+    "updated": "2026-10-05T18:10:14.040000+00:00",
+    "lat": 51.3621,
+    "lon": -130.3859,
+    "depth_km": 10,
+    "magnitude": 3.9,
+    "mag_type": "mb",
+    "place": "247 km WNW of Port McNeill, Canada",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzpp",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "aka2026ttagyp",
+    "source": "usgs",
+    "time": "2026-10-05T18:05:53.048000+00:00",
+    "updated": "2026-10-05T18:09:50.264000+00:00",
+    "lat": 57.644,
+    "lon": -155.822,
+    "depth_km": 0.5,
+    "magnitude": 2.7,
+    "mag_type": "ml",
+    "place": "82 km W of Karluk, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ttagyp",
     "relevant": false,
     "keywords_matched": []
   }
