@@ -2108,18 +2108,24 @@
     "id": "us6000tzl0",
     "source": "usgs",
     "time": "2026-10-04T22:13:26.165000+00:00",
-    "updated": "2026-10-05T02:56:58.520000+00:00",
+    "updated": "2026-10-05T04:23:35.649000+00:00",
     "lat": 44.6317,
     "lon": -128.9457,
     "depth_km": 10,
     "magnitude": 4.2,
     "mag_type": "mb",
     "place": "off the coast of Oregon",
-    "cdi": 1,
+    "cdi": 2.2,
     "mmi": null,
-    "felt_reports": 2,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 44.91937,
+        "lon": -124.01993999999999,
+        "intensity": 2.2,
+        "responses": 1
+      },
       {
         "lat": 45.55936,
         "lon": -123.9161375,
