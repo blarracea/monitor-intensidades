@@ -1208,7 +1208,7 @@
     "id": "ci41343551",
     "source": "usgs",
     "time": "2026-10-05T15:40:40.490000+00:00",
-    "updated": "2026-10-05T18:19:03.351000+00:00",
+    "updated": "2026-10-05T18:50:06.545000+00:00",
     "lat": 34.3868333333333,
     "lon": -119.775833333333,
     "depth_km": 9.27,
@@ -1217,7 +1217,7 @@
     "place": "7 km SE of Goleta, CA",
     "cdi": 3.7,
     "mmi": null,
-    "felt_reports": 48,
+    "felt_reports": 49,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1233,6 +1233,12 @@
         "responses": 1
       },
       {
+        "lat": 34.44018,
+        "lon": -119.79162,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
         "lat": 34.4056175,
         "lon": -119.725215,
         "intensity": 3.1,
@@ -1245,26 +1251,26 @@
         "responses": 1
       },
       {
-        "lat": 34.44018,
-        "lon": -119.79162,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
         "lat": 34.43042,
         "lon": -119.823935,
         "intensity": 2.8,
         "responses": 3
       },
       {
-        "lat": 34.438159999999996,
-        "lon": -119.87859,
+        "lat": 34.43943,
+        "lon": -119.824235,
         "intensity": 2.7,
         "responses": 1
       },
       {
         "lat": 34.4667,
         "lon": -119.81427,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 34.4201475,
+        "lon": -119.8779725,
         "intensity": 2.7,
         "responses": 1
       },
@@ -1281,14 +1287,8 @@
         "responses": 1
       },
       {
-        "lat": 34.4201475,
-        "lon": -119.8779725,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 34.43943,
-        "lon": -119.824235,
+        "lat": 34.438159999999996,
+        "lon": -119.87859,
         "intensity": 2.7,
         "responses": 1
       },
@@ -1299,8 +1299,8 @@
         "responses": 3
       },
       {
-        "lat": 34.50323,
-        "lon": -119.79372000000001,
+        "lat": 34.4291525,
+        "lon": -119.87828,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1317,24 +1317,6 @@
         "responses": 1
       },
       {
-        "lat": 34.4291525,
-        "lon": -119.87828,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 34.414384999999996,
-        "lon": -119.7363775,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 34.429407499999996,
-        "lon": -119.8674125,
-        "intensity": 2.2,
-        "responses": 2
-      },
-      {
         "lat": 34.4414075,
         "lon": -119.7372575,
         "intensity": 2.2,
@@ -1347,10 +1329,40 @@
         "responses": 1
       },
       {
+        "lat": 34.429407499999996,
+        "lon": -119.8674125,
+        "intensity": 2.2,
+        "responses": 2
+      },
+      {
+        "lat": 34.50323,
+        "lon": -119.79372000000001,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 34.414384999999996,
+        "lon": -119.7363775,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
         "lat": 34.4296625,
         "lon": -119.856545,
         "intensity": 2.1,
         "responses": 6
+      },
+      {
+        "lat": 34.44869,
+        "lon": -119.813665,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 34.406105,
+        "lon": -119.70348,
+        "intensity": 2,
+        "responses": 1
       },
       {
         "lat": 34.437645,
@@ -1371,10 +1383,16 @@
         "responses": 1
       },
       {
-        "lat": 34.406105,
-        "lon": -119.70348,
+        "lat": 34.424355,
+        "lon": -119.69319,
         "intensity": 2,
-        "responses": 1
+        "responses": 2
+      },
+      {
+        "lat": 34.432155,
+        "lon": -119.747835,
+        "intensity": 2,
+        "responses": 2
       },
       {
         "lat": 34.432885,
@@ -1389,32 +1407,20 @@
         "responses": 1
       },
       {
-        "lat": 34.424355,
-        "lon": -119.69319,
-        "intensity": 2,
-        "responses": 2
-      },
-      {
-        "lat": 34.432155,
-        "lon": -119.747835,
-        "intensity": 2,
-        "responses": 2
-      },
-      {
         "lat": 34.437905,
         "lon": -119.88946,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 34.44869,
-        "lon": -119.813665,
-        "intensity": 2,
+        "lat": 34.396855,
+        "lon": -119.714055,
+        "intensity": 1,
         "responses": 1
       },
       {
-        "lat": 34.396855,
-        "lon": -119.714055,
+        "lat": 34.4494325,
+        "lon": -119.781045,
         "intensity": 1,
         "responses": 1
       }
@@ -1641,14 +1647,14 @@
   {
     "id": "aka2026ttagyp",
     "source": "usgs",
-    "time": "2026-10-05T18:05:53.048000+00:00",
-    "updated": "2026-10-05T18:13:10.040000+00:00",
-    "lat": 57.644,
-    "lon": -155.822,
-    "depth_km": 0.5,
+    "time": "2026-10-05T18:05:53.049000+00:00",
+    "updated": "2026-10-05T18:49:39.036000+00:00",
+    "lat": 57.638,
+    "lon": -155.806,
+    "depth_km": 1,
     "magnitude": 2.7,
     "mag_type": "ml",
-    "place": "82 km W of Karluk, Alaska",
+    "place": "81 km W of Karluk, Alaska",
     "cdi": null,
     "mmi": null,
     "felt_reports": 0,
