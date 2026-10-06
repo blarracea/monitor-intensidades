@@ -2069,7 +2069,7 @@
     "id": "us6000u0hy",
     "source": "usgs",
     "time": "2026-10-06T16:48:21.805000+00:00",
-    "updated": "2026-10-06T17:08:19.040000+00:00",
+    "updated": "2026-10-06T17:12:38.142000+00:00",
     "lat": 48.4554,
     "lon": 154.8085,
     "depth_km": 26.047,
@@ -2077,7 +2077,7 @@
     "mag_type": "mww",
     "place": "264 km SSW of Severo-Kuril’sk, Russia",
     "cdi": null,
-    "mmi": null,
+    "mmi": 3.825,
     "felt_reports": 0,
     "tsunami_flag": false,
     "dyfi_points": [],
@@ -2093,19 +2093,134 @@
     "id": "us6000u0hz",
     "source": "usgs",
     "time": "2026-10-06T16:53:11.296000+00:00",
-    "updated": "2026-10-06T17:09:45.040000+00:00",
+    "updated": "2026-10-06T17:13:12.340000+00:00",
     "lat": 30.1171,
     "lon": 79.6148,
     "depth_km": 10,
     "magnitude": 5.1,
     "mag_type": "mb",
     "place": "34 km NNW of Bāgeshwar, India",
-    "cdi": null,
+    "cdi": 4.4,
     "mmi": null,
-    "felt_reports": 0,
+    "felt_reports": 20,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 29.2220225,
+        "lon": 79.51332,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 29.2973875,
+        "lon": 78.513785,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 29.3756325,
+        "lon": 79.531695,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 29.7482225,
+        "lon": 78.50273250000001,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 29.1284325,
+        "lon": 79.2371775,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 29.13372,
+        "lon": 79.6996075,
+        "intensity": 3.3,
+        "responses": 1
+      },
+      {
+        "lat": 29.21242,
+        "lon": 79.4620275,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 29.39286,
+        "lon": 79.45931999999999,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 29.4917375,
+        "lon": 77.69715,
+        "intensity": 2.9,
+        "responses": 1
+      },
+      {
+        "lat": 28.9368525,
+        "lon": 79.88674499999999,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 29.388645,
+        "lon": 79.1296775,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 30.397705000000002,
+        "lon": 78.070185,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 28.8321425,
+        "lon": 78.2483225,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 29.3948775,
+        "lon": 79.64477500000001,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 28.967585,
+        "lon": 78.255005,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 30.4772825,
+        "lon": 78.421835,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 29.389355000000002,
+        "lon": 78.15105,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 29.4850025,
+        "lon": 79.633265,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 28.537442499999997,
+        "lon": 79.63546,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "snam_url": null,
