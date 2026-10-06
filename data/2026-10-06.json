@@ -1329,5 +1329,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385600.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000tzvn",
+    "source": "usgs",
+    "time": "2026-10-06T08:45:26.946000+00:00",
+    "updated": "2026-10-06T09:12:47.040000+00:00",
+    "lat": -4.4773,
+    "lon": 152.7519,
+    "depth_km": 20.643,
+    "magnitude": 4.9,
+    "mag_type": "mb",
+    "place": "55 km ESE of Kokopo, Papua New Guinea",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzvn",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
