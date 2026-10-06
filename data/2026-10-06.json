@@ -1956,5 +1956,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385623.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "nn00925363",
+    "source": "usgs",
+    "time": "2026-10-06T15:34:28.341000+00:00",
+    "updated": "2026-10-06T15:39:10.354000+00:00",
+    "lat": 38.9746,
+    "lon": -115.3457,
+    "depth_km": 0.8693,
+    "magnitude": 3.81,
+    "mag_type": "ml",
+    "place": "25 km WNW of Preston, Nevada",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925363",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
