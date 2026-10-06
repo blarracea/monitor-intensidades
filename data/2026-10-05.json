@@ -2719,5 +2719,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tztg",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000tzth",
+    "source": "usgs",
+    "time": "2026-10-05T22:53:42.181000+00:00",
+    "updated": "2026-10-06T02:55:02.040000+00:00",
+    "lat": 26.3539,
+    "lon": 92.8359,
+    "depth_km": 10,
+    "magnitude": 4.6,
+    "mag_type": "mb",
+    "place": "31 km S of Tezpur, India",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzth",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
