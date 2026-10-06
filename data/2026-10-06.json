@@ -2,25 +2,83 @@
   {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/385552.html",
     "source": "csn",
-    "time": "2026-10-06T00:41:29+00:00",
-    "updated": "2026-10-06T00:41:29+00:00",
-    "lat": -19.86,
-    "lon": -69.52,
-    "depth_km": 106.0,
-    "magnitude": 4.2,
+    "time": "2026-10-06T00:41:27+00:00",
+    "updated": "2026-10-06T00:41:27+00:00",
+    "lat": -19.83,
+    "lon": -69.25,
+    "depth_km": 107.0,
+    "magnitude": 4.4,
     "mag_type": "MLv",
-    "place": "52 km al NE de Pozo Almonte, Chile",
+    "place": "61 km al S de Camiña, Chile",
     "cdi": null,
     "mmi": null,
     "felt_reports": null,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
-    "senapred_url": null,
+    "dyfi_points": [
+      {
+        "lat": -20.2133,
+        "lon": -70.1503,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Iquique",
+        "region": "Tarapacá"
+      },
+      {
+        "lat": -20.2716,
+        "lon": -70.1,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Alto Hospicio",
+        "region": "Tarapacá"
+      },
+      {
+        "lat": -19.313081,
+        "lon": -69.4266968,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Camiña",
+        "region": "Tarapacá"
+      },
+      {
+        "lat": -19.9957872,
+        "lon": -69.7727034,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Huara",
+        "region": "Tarapacá"
+      },
+      {
+        "lat": -20.3359256,
+        "lon": -69.6564201,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "La Tirana",
+        "region": "Tarapacá"
+      },
+      {
+        "lat": -20.4911417,
+        "lon": -69.3290752,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Pica",
+        "region": "Tarapacá"
+      },
+      {
+        "lat": -20.2597061,
+        "lon": -69.7861372,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Pozo Almonte",
+        "region": "Tarapacá"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-tarapaca-2026-10-05-21-46-34",
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385552.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385552.html",
     "relevant": false,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "senapred_match_time": "2026-10-05T21:46:34-03:00"
   }
 ]
