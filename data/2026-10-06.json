@@ -1683,7 +1683,7 @@
     "id": "us6000tzwg",
     "source": "usgs",
     "time": "2026-10-06T13:11:22.577000+00:00",
-    "updated": "2026-10-06T14:12:31.399000+00:00",
+    "updated": "2026-10-06T15:16:36.209000+00:00",
     "lat": 4.8667,
     "lon": 118.8285,
     "depth_km": 10,
@@ -1692,13 +1692,19 @@
     "place": "48 km NNE of Semporna, Malaysia",
     "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 4.4901,
         "lon": 118.617835,
         "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 5.0243649999999995,
+        "lon": 118.294425,
+        "intensity": 2,
         "responses": 1
       }
     ],
@@ -1763,12 +1769,12 @@
     "source": "csn",
     "time": "2026-10-06T15:08:25+00:00",
     "updated": "2026-10-06T15:08:25+00:00",
-    "lat": -22.32,
-    "lon": -68.61,
-    "depth_km": 123.0,
-    "magnitude": 3.7,
+    "lat": -22.27,
+    "lon": -68.67,
+    "depth_km": 107.0,
+    "magnitude": 3.6,
     "mag_type": "MLv",
-    "place": "37 km al NE de Calama, Chile",
+    "place": "35 km al NE de Calama, Chile",
     "cdi": null,
     "mmi": null,
     "felt_reports": null,
