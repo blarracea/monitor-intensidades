@@ -350,5 +350,84 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzuj",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026ttudjl",
+    "source": "usgs",
+    "time": "2026-10-06T04:01:29.033000+00:00",
+    "updated": "2026-10-06T04:09:03.129000+00:00",
+    "lat": 61.548,
+    "lon": -149.903,
+    "depth_km": 32.8,
+    "magnitude": 3.4,
+    "mag_type": "ml",
+    "place": "4 km NE of Big Lake, Alaska",
+    "cdi": 3.1,
+    "mmi": 2.955,
+    "felt_reports": 9,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 61.56483,
+        "lon": -149.09915999999998,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 61.323260000000005,
+        "lon": -149.5688575,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 61.34155,
+        "lon": -149.55165499999998,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.296710000000004,
+        "lon": -149.5480125,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.4067275,
+        "lon": -149.4258025,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.58611,
+        "lon": -149.4398175,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.586445,
+        "lon": -149.4209975,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.31534,
+        "lon": -149.51215249999998,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.585775,
+        "lon": -149.45863500000002,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ttudjl",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
