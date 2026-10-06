@@ -2093,7 +2093,7 @@
     "id": "us6000u0hz",
     "source": "usgs",
     "time": "2026-10-06T16:53:11.296000+00:00",
-    "updated": "2026-10-06T17:25:52.562000+00:00",
+    "updated": "2026-10-06T17:35:30.832000+00:00",
     "lat": 30.1171,
     "lon": 79.6148,
     "depth_km": 10,
@@ -2102,7 +2102,7 @@
     "place": "34 km NNW of Bāgeshwar, India",
     "cdi": 4.4,
     "mmi": null,
-    "felt_reports": 30,
+    "felt_reports": 35,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2286,6 +2286,30 @@
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0hz",
     "relevant": true,
+    "keywords_matched": []
+  },
+  {
+    "id": "aka2026tuvccy",
+    "source": "usgs",
+    "time": "2026-10-06T17:29:38.354000+00:00",
+    "updated": "2026-10-06T17:30:46.532000+00:00",
+    "lat": 56.065,
+    "lon": -157.483,
+    "depth_km": 26.1,
+    "magnitude": 2.5,
+    "mag_type": "ml",
+    "place": "62 km ESE of Chignik, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tuvccy",
+    "relevant": false,
     "keywords_matched": []
   }
 ]
