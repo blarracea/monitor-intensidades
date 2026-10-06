@@ -2165,16 +2165,16 @@
     "id": "us6000u0hz",
     "source": "usgs",
     "time": "2026-10-06T16:53:11.296000+00:00",
-    "updated": "2026-10-06T18:04:05.085000+00:00",
+    "updated": "2026-10-06T18:32:24.316000+00:00",
     "lat": 30.1171,
     "lon": 79.6148,
     "depth_km": 10,
     "magnitude": 5.1,
     "mag_type": "mb",
     "place": "34 km NNW of Bāgeshwar, India",
-    "cdi": 5.4,
+    "cdi": 4.6,
     "mmi": 5.32,
-    "felt_reports": 42,
+    "felt_reports": 43,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2196,14 +2196,14 @@
         "responses": 1
       },
       {
-        "lat": 29.2038625,
-        "lon": 79.50329500000001,
+        "lat": 29.6452375,
+        "lon": 79.43483499999999,
         "intensity": 3.8,
         "responses": 1
       },
       {
-        "lat": 29.6452375,
-        "lon": 79.43483499999999,
+        "lat": 29.2038625,
+        "lon": 79.50329500000001,
         "intensity": 3.8,
         "responses": 1
       },
@@ -2214,14 +2214,44 @@
         "responses": 1
       },
       {
-        "lat": 30.1498,
-        "lon": 79.37501499999999,
+        "lat": 29.7482225,
+        "lon": 78.50273250000001,
         "intensity": 3.4,
         "responses": 1
       },
       {
         "lat": 29.222135,
         "lon": 79.523605,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 30.2223,
+        "lon": 78.7816725,
+        "intensity": 3.4,
+        "responses": 2
+      },
+      {
+        "lat": 29.6382775,
+        "lon": 79.6208675,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 28.823922500000002,
+        "lon": 78.78125,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 29.3756325,
+        "lon": 79.531695,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 30.1498,
+        "lon": 79.37501499999999,
         "intensity": 3.4,
         "responses": 1
       },
@@ -2240,30 +2270,6 @@
       {
         "lat": 29.1284325,
         "lon": 79.2371775,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
-        "lat": 29.3756325,
-        "lon": 79.531695,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
-        "lat": 29.7482225,
-        "lon": 78.50273250000001,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
-        "lat": 30.2223,
-        "lon": 78.7816725,
-        "intensity": 3.4,
-        "responses": 2
-      },
-      {
-        "lat": 28.823922500000002,
-        "lon": 78.78125,
         "intensity": 3.4,
         "responses": 1
       },
@@ -2292,20 +2298,8 @@
         "responses": 1
       },
       {
-        "lat": 29.388645,
-        "lon": 79.1296775,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
         "lat": 30.412035,
         "lon": 79.4227375,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 28.9368525,
-        "lon": 79.88674499999999,
         "intensity": 2.7,
         "responses": 1
       },
@@ -2318,6 +2312,18 @@
       {
         "lat": 28.973605,
         "lon": 79.9684575,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 28.9368525,
+        "lon": 79.88674499999999,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 29.388645,
+        "lon": 79.1296775,
         "intensity": 2.7,
         "responses": 1
       },
@@ -2340,26 +2346,8 @@
         "responses": 1
       },
       {
-        "lat": 28.967585,
-        "lon": 78.255005,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 30.1047425,
-        "lon": 78.2863325,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
         "lat": 30.241885,
         "lon": 78.8747425,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 30.4772825,
-        "lon": 78.421835,
         "intensity": 2.2,
         "responses": 1
       },
@@ -2370,26 +2358,44 @@
         "responses": 1
       },
       {
-        "lat": 28.50271,
-        "lon": 77.528605,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
         "lat": 29.3948775,
         "lon": 79.64477500000001,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 28.537442499999997,
-        "lon": 79.63546,
-        "intensity": 2,
+        "lat": 30.4772825,
+        "lon": 78.421835,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 30.1047425,
+        "lon": 78.2863325,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 28.50271,
+        "lon": 77.528605,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 28.967585,
+        "lon": 78.255005,
+        "intensity": 2.2,
         "responses": 1
       },
       {
         "lat": 29.4850025,
         "lon": 79.633265,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 28.537442499999997,
+        "lon": 79.63546,
         "intensity": 2,
         "responses": 1
       },
@@ -2532,6 +2538,30 @@
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385636.html",
     "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "aka2026tuxgky",
+    "source": "usgs",
+    "time": "2026-10-06T18:34:37.099000+00:00",
+    "updated": "2026-10-06T18:35:29.469000+00:00",
+    "lat": 58.988,
+    "lon": -154.112,
+    "depth_km": 5,
+    "magnitude": 5.4,
+    "mag_type": "ml",
+    "place": "62 km SE of Kokhanok, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tuxgky",
+    "relevant": true,
     "keywords_matched": []
   }
 ]
