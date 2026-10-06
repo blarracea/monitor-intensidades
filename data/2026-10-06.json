@@ -1406,7 +1406,7 @@
     "id": "ci41344007",
     "source": "usgs",
     "time": "2026-10-06T09:37:56.970000+00:00",
-    "updated": "2026-10-06T14:30:27.539000+00:00",
+    "updated": "2026-10-06T14:55:42.872000+00:00",
     "lat": 35.6856651306152,
     "lon": -118.412002563477,
     "depth_km": 3.72000002861023,
@@ -1415,7 +1415,7 @@
     "place": "5 km ESE of Wofford Heights, CA",
     "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 24,
+    "felt_reports": 25,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1425,14 +1425,26 @@
         "responses": 1
       },
       {
+        "lat": 35.63647,
+        "lon": -118.375045,
+        "intensity": 3.8,
+        "responses": 2
+      },
+      {
+        "lat": 35.6082525,
+        "lon": -118.47391999999999,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
         "lat": 35.589955,
         "lon": -118.49566,
         "intensity": 3.8,
         "responses": 1
       },
       {
-        "lat": 35.635295,
-        "lon": -118.474415,
+        "lat": 35.63596,
+        "lon": -118.41920999999999,
         "intensity": 3.8,
         "responses": 1
       },
@@ -1443,20 +1455,8 @@
         "responses": 1
       },
       {
-        "lat": 35.63647,
-        "lon": -118.375045,
-        "intensity": 3.8,
-        "responses": 2
-      },
-      {
-        "lat": 35.63596,
-        "lon": -118.41920999999999,
-        "intensity": 3.8,
-        "responses": 1
-      },
-      {
-        "lat": 35.6082525,
-        "lon": -118.47391999999999,
+        "lat": 35.635295,
+        "lon": -118.474415,
         "intensity": 3.8,
         "responses": 1
       },
@@ -1479,26 +1479,26 @@
         "responses": 2
       },
       {
-        "lat": 35.716682500000005,
-        "lon": -118.453805,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
         "lat": 35.61806,
         "lon": -118.40785,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 35.700545,
-        "lon": -118.28772000000001,
+        "lat": 35.716682500000005,
+        "lon": -118.453805,
         "intensity": 2.7,
         "responses": 1
       },
       {
         "lat": 35.76215,
         "lon": -118.42145,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 35.700545,
+        "lon": -118.28772000000001,
         "intensity": 2.7,
         "responses": 1
       },
