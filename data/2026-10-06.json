@@ -326,5 +326,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385564.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000tzuj",
+    "source": "usgs",
+    "time": "2026-10-06T03:42:43.999000+00:00",
+    "updated": "2026-10-06T04:00:46.040000+00:00",
+    "lat": -7.8323,
+    "lon": 120.3932,
+    "depth_km": 8.653,
+    "magnitude": 4.8,
+    "mag_type": "mb",
+    "place": "86 km N of Ruteng, Indonesia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzuj",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
