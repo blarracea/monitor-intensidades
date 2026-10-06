@@ -1355,6 +1355,103 @@
     "keywords_matched": []
   },
   {
+    "id": "ci41343975",
+    "source": "usgs",
+    "time": "2026-10-06T08:40:14.530000+00:00",
+    "updated": "2026-10-06T15:34:11.583000+00:00",
+    "lat": 34.2938333333333,
+    "lon": -116.8615,
+    "depth_km": 4.05,
+    "magnitude": 2.6,
+    "mag_type": "ml",
+    "place": "4 km NNW of Big Bear City, CA",
+    "cdi": 3.4,
+    "mmi": null,
+    "felt_reports": 18,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 34.264565000000005,
+        "lon": -116.864215,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 34.255534999999995,
+        "lon": -116.85337,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 34.264525,
+        "lon": -116.83163,
+        "intensity": 3.3,
+        "responses": 2
+      },
+      {
+        "lat": 34.264555,
+        "lon": -116.8533525,
+        "intensity": 2.9,
+        "responses": 2
+      },
+      {
+        "lat": 34.237494999999996,
+        "lon": -116.8534,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 34.24644,
+        "lon": -116.79908,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 34.25552,
+        "lon": -116.8425075,
+        "intensity": 2.6,
+        "responses": 2
+      },
+      {
+        "lat": 34.2735575,
+        "lon": -116.8424725,
+        "intensity": 2.6,
+        "responses": 2
+      },
+      {
+        "lat": 34.26454,
+        "lon": -116.84249,
+        "intensity": 2.2,
+        "responses": 3
+      },
+      {
+        "lat": 34.2465275,
+        "lon": -116.864245,
+        "intensity": 2.1,
+        "responses": 1
+      },
+      {
+        "lat": 34.26451,
+        "lon": -116.820765,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 34.25549,
+        "lon": -116.8207825,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41343975",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "us6000tzvn",
     "source": "usgs",
     "time": "2026-10-06T08:45:26.946000+00:00",
@@ -1406,7 +1503,7 @@
     "id": "ci41344007",
     "source": "usgs",
     "time": "2026-10-06T09:37:56.940000+00:00",
-    "updated": "2026-10-06T15:10:26.183000+00:00",
+    "updated": "2026-10-06T15:32:34.572000+00:00",
     "lat": 35.6843333333333,
     "lon": -118.411333333333,
     "depth_km": 4.3,
@@ -1415,7 +1512,7 @@
     "place": "5 km ESE of Wofford Heights, CA",
     "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 25,
+    "felt_reports": 26,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1425,10 +1522,10 @@
         "responses": 1
       },
       {
-        "lat": 35.63647,
-        "lon": -118.375045,
+        "lat": 35.627075000000005,
+        "lon": -118.40801,
         "intensity": 3.8,
-        "responses": 2
+        "responses": 1
       },
       {
         "lat": 35.63596,
@@ -1437,14 +1534,14 @@
         "responses": 1
       },
       {
-        "lat": 35.589955,
-        "lon": -118.49566,
+        "lat": 35.63647,
+        "lon": -118.375045,
         "intensity": 3.8,
-        "responses": 1
+        "responses": 2
       },
       {
-        "lat": 35.627075000000005,
-        "lon": -118.40801,
+        "lat": 35.635295,
+        "lon": -118.474415,
         "intensity": 3.8,
         "responses": 1
       },
@@ -1455,8 +1552,8 @@
         "responses": 1
       },
       {
-        "lat": 35.635295,
-        "lon": -118.474415,
+        "lat": 35.589955,
+        "lon": -118.49566,
         "intensity": 3.8,
         "responses": 1
       },
@@ -1479,18 +1576,6 @@
         "responses": 1
       },
       {
-        "lat": 35.716682500000005,
-        "lon": -118.453805,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 35.76215,
-        "lon": -118.42145,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
         "lat": 35.700545,
         "lon": -118.28772000000001,
         "intensity": 2.7,
@@ -1503,10 +1588,22 @@
         "responses": 1
       },
       {
+        "lat": 35.76215,
+        "lon": -118.42145,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 35.716682500000005,
+        "lon": -118.453805,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": 35.753135,
         "lon": -118.42129,
-        "intensity": 2.6,
-        "responses": 2
+        "intensity": 2.5,
+        "responses": 3
       },
       {
         "lat": 35.636089999999996,
@@ -1656,6 +1753,30 @@
     "keywords_matched": []
   },
   {
+    "id": "us6000tzwb",
+    "source": "usgs",
+    "time": "2026-10-06T12:40:23.290000+00:00",
+    "updated": "2026-10-06T15:33:16.040000+00:00",
+    "lat": -9.7538,
+    "lon": 118.9128,
+    "depth_km": 52.889,
+    "magnitude": 4.4,
+    "mag_type": "mb",
+    "place": "50 km SW of Tambolaka, Indonesia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzwb",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/385614.html",
     "source": "csn",
     "time": "2026-10-06T13:04:51+00:00",
@@ -1713,6 +1834,30 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzwg",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000tzwi",
+    "source": "usgs",
+    "time": "2026-10-06T13:26:22.092000+00:00",
+    "updated": "2026-10-06T15:34:56.040000+00:00",
+    "lat": -30.8569,
+    "lon": 178.7672,
+    "depth_km": 537.886,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "Kermadec Islands region",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzwi",
     "relevant": false,
     "keywords_matched": []
   },
@@ -1785,6 +1930,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385621.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385621.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/385623.html",
+    "source": "csn",
+    "time": "2026-10-06T15:25:40+00:00",
+    "updated": "2026-10-06T15:25:40+00:00",
+    "lat": -21.41,
+    "lon": -68.61,
+    "depth_km": 150.0,
+    "magnitude": 2.6,
+    "mag_type": "MLv",
+    "place": "43 km al SO de Ollagüe, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385623.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385623.html",
     "relevant": false,
     "keywords_matched": []
   }
