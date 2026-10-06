@@ -1922,6 +1922,30 @@
     "keywords_matched": []
   },
   {
+    "id": "us6000u0jh",
+    "source": "usgs",
+    "time": "2026-10-06T14:22:26.014000+00:00",
+    "updated": "2026-10-06T18:44:44.040000+00:00",
+    "lat": 50.5237,
+    "lon": -172.833,
+    "depth_km": 10,
+    "magnitude": 3.9,
+    "mag_type": "mb",
+    "place": "209 km SSE of Atka, Alaska",
+    "cdi": null,
+    "mmi": 1.22,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0jh",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "aka2026tuowca",
     "source": "usgs",
     "time": "2026-10-06T14:22:32.019000+00:00",
@@ -2544,19 +2568,92 @@
     "id": "aka2026tuxgky",
     "source": "usgs",
     "time": "2026-10-06T18:34:31.760000+00:00",
-    "updated": "2026-10-06T18:40:26.344000+00:00",
+    "updated": "2026-10-06T18:45:21.536000+00:00",
     "lat": 58.802,
     "lon": -153.609,
     "depth_km": 87.6,
     "magnitude": 5.5,
     "mag_type": "ml",
     "place": "92 km NNW of Aleneva, Alaska",
-    "cdi": 3.1,
-    "mmi": 4.124,
-    "felt_reports": 4,
+    "cdi": 3.3,
+    "mmi": 4.215,
+    "felt_reports": 22,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 57.79011,
+        "lon": -152.402895,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 61.13637,
+        "lon": -149.9252575,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 61.199535,
+        "lon": -149.9125,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 59.6424275,
+        "lon": -151.53659,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 59.678725,
+        "lon": -151.5705275,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 59.6864975,
+        "lon": -151.4636175,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 61.305675,
+        "lon": -149.54874,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 61.095045,
+        "lon": -149.75443,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 61.1620525,
+        "lon": -149.9834275,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 59.7708125,
+        "lon": -151.79809,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.281815,
+        "lon": -149.37883,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 57.79003,
+        "lon": -152.3860775,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "snam_url": null,
