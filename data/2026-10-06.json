@@ -1804,18 +1804,24 @@
     "id": "us6000tzwg",
     "source": "usgs",
     "time": "2026-10-06T13:11:22.577000+00:00",
-    "updated": "2026-10-06T15:16:36.209000+00:00",
+    "updated": "2026-10-06T15:52:06.274000+00:00",
     "lat": 4.8667,
     "lon": 118.8285,
     "depth_km": 10,
     "magnitude": 4.9,
     "mag_type": "mww",
     "place": "48 km NNE of Semporna, Malaysia",
-    "cdi": 2.7,
+    "cdi": 3.3,
     "mmi": null,
-    "felt_reports": 2,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 4.481075000000001,
+        "lon": 118.608805,
+        "intensity": 3.8,
+        "responses": 1
+      },
       {
         "lat": 4.4901,
         "lon": 118.617835,
