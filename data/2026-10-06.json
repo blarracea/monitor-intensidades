@@ -4336,5 +4336,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0md",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u0mf",
+    "source": "usgs",
+    "time": "2026-10-06T23:50:36.679000+00:00",
+    "updated": "2026-10-07T04:01:35.040000+00:00",
+    "lat": 35.3207,
+    "lon": 26.6477,
+    "depth_km": 10,
+    "magnitude": 4.2,
+    "mag_type": "mb",
+    "place": "27 km WSW of Fry, Greece",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0mf",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
