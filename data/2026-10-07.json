@@ -739,22 +739,28 @@
     "id": "us6000u0r1",
     "source": "usgs",
     "time": "2026-10-07T11:17:48.600000+00:00",
-    "updated": "2026-10-07T12:05:06.421000+00:00",
+    "updated": "2026-10-07T12:09:06.219000+00:00",
     "lat": -38.3481,
     "lon": 145.8111,
     "depth_km": 10,
     "magnitude": 3.6,
     "mag_type": "mb",
     "place": "9 km N of Korumburra, Australia",
-    "cdi": 3.3,
+    "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 16,
+    "felt_reports": 19,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": -38.479135,
         "lon": 145.950975,
         "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": -38.399615,
+        "lon": 146.146805,
+        "intensity": 3.4,
         "responses": 1
       },
       {
@@ -770,8 +776,26 @@
         "responses": 1
       },
       {
-        "lat": -37.862692499999994,
-        "lon": 144.98215499999998,
+        "lat": -38.488145,
+        "lon": 145.9508425,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -38.08629,
+        "lon": 145.466305,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -37.923204999999996,
+        "lon": 145.401435,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -38.47903,
+        "lon": 145.9395125,
         "intensity": 2.7,
         "responses": 1
       },
@@ -788,14 +812,20 @@
         "responses": 1
       },
       {
-        "lat": -37.5906775,
-        "lon": 144.887595,
-        "intensity": 2.2,
+        "lat": -37.862692499999994,
+        "lon": 144.98215499999998,
+        "intensity": 2.7,
         "responses": 1
       },
       {
         "lat": -37.6121675,
         "lon": 145.090905,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": -37.5906775,
+        "lon": 144.887595,
         "intensity": 2.2,
         "responses": 1
       },
@@ -806,14 +836,20 @@
         "responses": 1
       },
       {
-        "lat": -37.753415000000004,
-        "lon": 144.917025,
+        "lat": -38.12664,
+        "lon": 145.8419475,
         "intensity": 2,
         "responses": 1
       },
       {
         "lat": -38.058345,
         "lon": 145.3984975,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": -37.753415000000004,
+        "lon": 144.917025,
         "intensity": 2,
         "responses": 1
       },
