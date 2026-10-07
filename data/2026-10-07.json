@@ -1263,7 +1263,7 @@
     "id": "us6000u0rr",
     "source": "usgs",
     "time": "2026-10-07T14:59:25.858000+00:00",
-    "updated": "2026-10-07T17:26:37.711000+00:00",
+    "updated": "2026-10-07T17:43:55.635000+00:00",
     "lat": -6.6637,
     "lon": 72.2362,
     "depth_km": 10,
@@ -1272,14 +1272,14 @@
     "place": "Chagos Archipelago region",
     "cdi": 3.7,
     "mmi": null,
-    "felt_reports": 8,
+    "felt_reports": 9,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": -7.3161775,
         "lon": 72.45042000000001,
         "intensity": 3.8,
-        "responses": 5
+        "responses": 6
       },
       {
         "lat": -7.261545,
