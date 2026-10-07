@@ -1690,7 +1690,7 @@
     "id": "ok2026treo",
     "source": "usgs",
     "time": "2026-10-07T18:47:24.265000+00:00",
-    "updated": "2026-10-07T18:57:34.633000+00:00",
+    "updated": "2026-10-07T19:10:23.523000+00:00",
     "lat": 35.01686859,
     "lon": -97.86476898,
     "depth_km": 1.557481766,
@@ -1699,13 +1699,25 @@
     "place": "7 km ESE of Chickasha, Oklahoma",
     "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 2,
+    "felt_reports": 4,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 35.0536975,
         "lon": -97.95277250000001,
         "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 35.017445,
+        "lon": -97.9313175,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 35.044200000000004,
+        "lon": -97.8980775,
+        "intensity": 2.5,
         "responses": 1
       },
       {
