@@ -1637,5 +1637,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0tl",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "ok2026treo",
+    "source": "usgs",
+    "time": "2026-10-07T18:47:23.970000+00:00",
+    "updated": "2026-10-07T18:49:15.392000+00:00",
+    "lat": 35.01931,
+    "lon": -97.87533569,
+    "depth_km": 1.906356573,
+    "magnitude": 2.74,
+    "mag_type": "ml",
+    "place": "6 km ESE of Chickasha, Oklahoma",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026treo",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
