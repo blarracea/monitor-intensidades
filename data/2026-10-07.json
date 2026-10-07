@@ -1557,7 +1557,7 @@
     "id": "aka2026twrpqs",
     "source": "usgs",
     "time": "2026-10-07T17:45:15.499000+00:00",
-    "updated": "2026-10-07T18:10:13.822000+00:00",
+    "updated": "2026-10-07T18:20:51.969000+00:00",
     "lat": 60.773,
     "lon": -149.933,
     "depth_km": 22.9,
@@ -1566,15 +1566,9 @@
     "place": "22 km SW of Hope, Alaska",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 8,
+    "felt_reports": 9,
     "tsunami_flag": false,
     "dyfi_points": [
-      {
-        "lat": 61.190965,
-        "lon": -149.8930975,
-        "intensity": 3.1,
-        "responses": 1
-      },
       {
         "lat": 61.1309125,
         "lon": -149.7575525,
@@ -1582,9 +1576,21 @@
         "responses": 1
       },
       {
+        "lat": 61.190965,
+        "lon": -149.8930975,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
         "lat": 61.09351,
         "lon": -149.82852,
         "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 61.1301525,
+        "lon": -149.7946375,
+        "intensity": 2,
         "responses": 1
       },
       {
