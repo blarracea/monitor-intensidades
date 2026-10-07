@@ -1210,5 +1210,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385719.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "pr71535953",
+    "source": "usgs",
+    "time": "2026-10-07T14:08:16.400000+00:00",
+    "updated": "2026-10-07T14:54:59.040000+00:00",
+    "lat": 19.0458333333333,
+    "lon": -65.415,
+    "depth_km": 39.66,
+    "magnitude": 3.43,
+    "mag_type": "md",
+    "place": "81 km NNE of Luquillo, Puerto Rico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71535953",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
