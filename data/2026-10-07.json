@@ -1485,7 +1485,7 @@
     "id": "tx2026ttlzei",
     "source": "usgs",
     "time": "2026-10-07T17:17:08.236000+00:00",
-    "updated": "2026-10-07T17:50:14.192000+00:00",
+    "updated": "2026-10-07T17:53:45.803000+00:00",
     "lat": 31.171,
     "lon": -103.137,
     "depth_km": 2.511,
@@ -1493,7 +1493,7 @@
     "mag_type": "ml",
     "place": "10 km SW of Coyanosa, Texas",
     "cdi": null,
-    "mmi": 4.237,
+    "mmi": 3.622,
     "felt_reports": 0,
     "tsunami_flag": false,
     "dyfi_points": [],
@@ -1557,7 +1557,7 @@
     "id": "aka2026twrpqs",
     "source": "usgs",
     "time": "2026-10-07T17:45:15.543000+00:00",
-    "updated": "2026-10-07T17:51:29.792000+00:00",
+    "updated": "2026-10-07T17:58:31.742000+00:00",
     "lat": 60.749,
     "lon": -149.935,
     "depth_km": 21.8,
@@ -1566,10 +1566,41 @@
     "place": "24 km SW of Hope, Alaska",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 2,
+    "felt_reports": 8,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 61.1309125,
+        "lon": -149.7575525,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 61.190965,
+        "lon": -149.8930975,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 61.09351,
+        "lon": -149.82852,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 61.18547,
+        "lon": -149.7251025,
+        "intensity": 2,
+        "responses": 3
+      },
+      {
+        "lat": 61.31429,
+        "lon": -149.5681225,
+        "intensity": 1,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "snam_url": null,
