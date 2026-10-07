@@ -1613,5 +1613,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026twrpqs",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u0tl",
+    "source": "usgs",
+    "time": "2026-10-07T18:13:13.966000+00:00",
+    "updated": "2026-10-07T18:33:02.040000+00:00",
+    "lat": -24.7869,
+    "lon": 179.8762,
+    "depth_km": 504.432,
+    "magnitude": 4.6,
+    "mag_type": "mb",
+    "place": "south of the Fiji Islands",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0tl",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
