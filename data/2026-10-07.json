@@ -267,7 +267,7 @@
     "id": "hv75051442",
     "source": "usgs",
     "time": "2026-10-07T04:39:46.870000+00:00",
-    "updated": "2026-10-07T19:18:57.880000+00:00",
+    "updated": "2026-10-07T19:20:47.296000+00:00",
     "lat": 19.3866666666667,
     "lon": -154.859333333333,
     "depth_km": 8.28,
@@ -279,6 +279,12 @@
     "felt_reports": 12,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 19.4657525,
+        "lon": -154.929135,
+        "intensity": 4.1,
+        "responses": 1
+      },
       {
         "lat": 19.402525,
         "lon": -154.928385,
@@ -304,14 +310,14 @@
         "responses": 2
       },
       {
-        "lat": 19.430125,
-        "lon": -154.8811025,
+        "lat": 19.438855,
+        "lon": -154.90976999999998,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 19.438855,
-        "lon": -154.90976999999998,
+        "lat": 19.430125,
+        "lon": -154.8811025,
         "intensity": 2,
         "responses": 1
       }
@@ -1485,7 +1491,7 @@
     "id": "tx2026ttlzei",
     "source": "usgs",
     "time": "2026-10-07T17:17:08.236000+00:00",
-    "updated": "2026-10-07T17:53:45.803000+00:00",
+    "updated": "2026-10-07T19:22:18.656000+00:00",
     "lat": 31.171,
     "lon": -103.137,
     "depth_km": 2.511,
@@ -1581,7 +1587,7 @@
     "id": "aka2026twrpqs",
     "source": "usgs",
     "time": "2026-10-07T17:45:15.499000+00:00",
-    "updated": "2026-10-07T19:17:32.040000+00:00",
+    "updated": "2026-10-07T19:22:26.884000+00:00",
     "lat": 60.773,
     "lon": -149.933,
     "depth_km": 22.9,
@@ -1589,7 +1595,7 @@
     "mag_type": "ml",
     "place": "22 km SW of Hope, Alaska",
     "cdi": 3.1,
-    "mmi": null,
+    "mmi": 2.49,
     "felt_reports": 9,
     "tsunami_flag": false,
     "dyfi_points": [
@@ -1635,6 +1641,30 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026twrpqs",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000u0ti",
+    "source": "usgs",
+    "time": "2026-10-07T17:54:56.525000+00:00",
+    "updated": "2026-10-07T19:25:22.040000+00:00",
+    "lat": 61.429,
+    "lon": -140.1039,
+    "depth_km": 10,
+    "magnitude": 2.6,
+    "mag_type": "ml",
+    "place": "148 km SSE of Alcan Border, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0ti",
     "relevant": false,
     "keywords_matched": []
   },
