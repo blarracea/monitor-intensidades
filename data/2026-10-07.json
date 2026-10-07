@@ -587,5 +587,39 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75051582",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/385704.html",
+    "source": "csn",
+    "time": "2026-10-07T09:09:14+00:00",
+    "updated": "2026-10-07T09:09:14+00:00",
+    "lat": -30.1,
+    "lon": -71.09,
+    "depth_km": 41.0,
+    "magnitude": 3.6,
+    "mag_type": "ml",
+    "place": "15 km al N de Andacollo, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": -29.9533,
+        "lon": -71.3436,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Coquimbo",
+        "region": "Coquimbo"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-coquimbo-2026-10-07-06-13-23",
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385704.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385704.html",
+    "relevant": false,
+    "keywords_matched": [],
+    "senapred_match_time": "2026-10-07T06:13:23-03:00"
   }
 ]
