@@ -739,7 +739,7 @@
     "id": "us6000u0r1",
     "source": "usgs",
     "time": "2026-10-07T11:17:49.338000+00:00",
-    "updated": "2026-10-07T15:47:00.207000+00:00",
+    "updated": "2026-10-07T15:56:27.204000+00:00",
     "lat": -38.3065,
     "lon": 145.8267,
     "depth_km": 10,
@@ -748,7 +748,7 @@
     "place": "13 km ENE of Nyora, Australia",
     "cdi": 3.6,
     "mmi": null,
-    "felt_reports": 57,
+    "felt_reports": 58,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -776,14 +776,14 @@
         "responses": 1
       },
       {
-        "lat": -37.747005,
-        "lon": 145.7343875,
+        "lat": -38.098304999999996,
+        "lon": 145.7169475,
         "intensity": 3.1,
         "responses": 1
       },
       {
-        "lat": -38.098304999999996,
-        "lon": 145.7169475,
+        "lat": -38.154465,
+        "lon": 145.1909725,
         "intensity": 3.1,
         "responses": 1
       },
@@ -794,8 +794,8 @@
         "responses": 1
       },
       {
-        "lat": -38.154465,
-        "lon": 145.1909725,
+        "lat": -37.747005,
+        "lon": 145.7343875,
         "intensity": 3.1,
         "responses": 1
       },
@@ -812,92 +812,8 @@
         "responses": 1
       },
       {
-        "lat": -37.923204999999996,
-        "lon": 145.401435,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": -38.008897499999996,
-        "lon": 145.1034375,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": -37.953154999999995,
-        "lon": 145.0024425,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": -38.515175,
-        "lon": 145.95045,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": -37.935715,
-        "lon": 145.03705,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": -37.7966,
-        "lon": 144.813605,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": -38.47903,
-        "lon": 145.9395125,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
         "lat": -38.06827,
         "lon": 145.46668,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": -38.021035,
-        "lon": 145.3081775,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": -38.08629,
-        "lon": 145.466305,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": -38.488145,
-        "lon": 145.9508425,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": -38.433,
-        "lon": 145.8370725,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": -37.813825,
-        "lon": 145.3129175,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": -37.862692499999994,
-        "lon": 144.98215499999998,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": -38.1456275,
-        "lon": 145.9443575,
         "intensity": 2.7,
         "responses": 1
       },
@@ -908,14 +824,116 @@
         "responses": 1
       },
       {
+        "lat": -38.08629,
+        "lon": 145.466305,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -37.7966,
+        "lon": 144.813605,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -37.923204999999996,
+        "lon": 145.401435,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -37.953154999999995,
+        "lon": 145.0024425,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -38.47903,
+        "lon": 145.9395125,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -38.1456275,
+        "lon": 145.9443575,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -37.862692499999994,
+        "lon": 144.98215499999998,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -38.008897499999996,
+        "lon": 145.1034375,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -38.488145,
+        "lon": 145.9508425,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -38.021035,
+        "lon": 145.3081775,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -38.433,
+        "lon": 145.8370725,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -37.935715,
+        "lon": 145.03705,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -38.515175,
+        "lon": 145.95045,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -37.813825,
+        "lon": 145.3129175,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": -37.648205000000004,
         "lon": 145.08998,
         "intensity": 2.5,
         "responses": 1
       },
       {
-        "lat": -37.772225,
-        "lon": 145.575,
+        "lat": -37.5906775,
+        "lon": 144.887595,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": -37.6121675,
+        "lon": 145.090905,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": -37.82762,
+        "lon": 145.0399175,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": -37.890485,
+        "lon": 145.02688,
         "intensity": 2.2,
         "responses": 1
       },
@@ -932,14 +950,8 @@
         "responses": 1
       },
       {
-        "lat": -37.890485,
-        "lon": 145.02688,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": -37.79764,
-        "lon": 144.87035500000002,
+        "lat": -38.1841125,
+        "lon": 146.2635075,
         "intensity": 2.2,
         "responses": 1
       },
@@ -950,14 +962,14 @@
         "responses": 1
       },
       {
-        "lat": -37.6121675,
-        "lon": 145.090905,
+        "lat": -37.79764,
+        "lon": 144.87035500000002,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": -38.1841125,
-        "lon": 146.2635075,
+        "lat": -37.772225,
+        "lon": 145.575,
         "intensity": 2.2,
         "responses": 1
       },
@@ -968,8 +980,8 @@
         "responses": 1
       },
       {
-        "lat": -37.5906775,
-        "lon": 144.887595,
+        "lat": -37.817265,
+        "lon": 144.9606725,
         "intensity": 2.2,
         "responses": 1
       },
@@ -980,44 +992,20 @@
         "responses": 1
       },
       {
-        "lat": -37.82762,
-        "lon": 145.0399175,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
         "lat": -37.8452575,
         "lon": 145.01672,
         "intensity": 2.1,
         "responses": 1
       },
       {
-        "lat": -37.90342,
-        "lon": 145.27675,
+        "lat": -37.86755,
+        "lon": 145.288955,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": -37.753415000000004,
-        "lon": 144.917025,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": -38.12664,
-        "lon": 145.8419475,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": -38.066565,
-        "lon": 145.3413225,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": -38.058345,
-        "lon": 145.3984975,
+        "lat": -37.937195,
+        "lon": 145.12804,
         "intensity": 2,
         "responses": 1
       },
@@ -1028,8 +1016,26 @@
         "responses": 1
       },
       {
-        "lat": -37.86755,
-        "lon": 145.288955,
+        "lat": -37.90342,
+        "lon": 145.27675,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": -38.12664,
+        "lon": 145.8419475,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": -37.753415000000004,
+        "lon": 144.917025,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": -38.058345,
+        "lon": 145.3984975,
         "intensity": 2,
         "responses": 1
       },
@@ -1040,15 +1046,21 @@
         "responses": 1
       },
       {
+        "lat": -38.066565,
+        "lon": 145.3413225,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": -37.804815,
         "lon": 145.31312250000002,
         "intensity": 2,
         "responses": 2
       },
       {
-        "lat": -37.937195,
-        "lon": 145.12804,
-        "intensity": 2,
+        "lat": -37.81804,
+        "lon": 145.00609,
+        "intensity": 1,
         "responses": 1
       },
       {
@@ -1060,12 +1072,6 @@
       {
         "lat": -37.9649375,
         "lon": 145.1728675,
-        "intensity": 1,
-        "responses": 1
-      },
-      {
-        "lat": -37.81804,
-        "lon": 145.00609,
         "intensity": 1,
         "responses": 1
       }
@@ -1359,6 +1365,47 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385728.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385728.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/385730.html",
+    "source": "csn",
+    "time": "2026-10-07T15:48:07+00:00",
+    "updated": "2026-10-07T15:48:07+00:00",
+    "lat": -19.17,
+    "lon": -70.12,
+    "depth_km": 45.0,
+    "magnitude": 3.8,
+    "mag_type": "MLv",
+    "place": "6 km al E de Cuya, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": -19.1401644,
+        "lon": -70.1592132,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Cuya",
+        "region": "Arica y Parinacota"
+      },
+      {
+        "lat": -18.4783,
+        "lon": -70.3126,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Arica",
+        "region": "Arica y Parinacota"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-arica-y-parinacota-2026-10-07-12-51-43",
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385730.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385730.html",
     "relevant": false,
     "keywords_matched": []
   }
