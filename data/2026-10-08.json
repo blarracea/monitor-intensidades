@@ -479,5 +479,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385790.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u0ws",
+    "source": "usgs",
+    "time": "2026-10-08T06:46:47.971000+00:00",
+    "updated": "2026-10-08T07:02:59.040000+00:00",
+    "lat": -52.5475,
+    "lon": 140.2121,
+    "depth_km": 10,
+    "magnitude": 5.5,
+    "mag_type": "mww",
+    "place": "west of Macquarie Island",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0ws",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
