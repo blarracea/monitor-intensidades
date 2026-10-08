@@ -1978,7 +1978,7 @@
     "id": "us6000u0u7",
     "source": "usgs",
     "time": "2026-10-07T19:13:47.589000+00:00",
-    "updated": "2026-10-07T21:05:28.953000+00:00",
+    "updated": "2026-10-08T07:52:11.832000+00:00",
     "lat": 35.5597,
     "lon": 140.5835,
     "depth_km": 50.601,
@@ -1987,7 +1987,7 @@
     "place": "13 km SE of Yokoshiba, Japan",
     "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 2,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2000,6 +2000,12 @@
         "lat": 35.6649525,
         "lon": 139.757035,
         "intensity": 2.5,
+        "responses": 1
+      },
+      {
+        "lat": 35.5927225,
+        "lon": 139.74711,
+        "intensity": 2,
         "responses": 1
       }
     ],
