@@ -529,6 +529,30 @@
     "keywords_matched": []
   },
   {
+    "id": "pr71536093",
+    "source": "usgs",
+    "time": "2026-10-08T07:26:09.760000+00:00",
+    "updated": "2026-10-08T08:15:53.270000+00:00",
+    "lat": 19.085,
+    "lon": -66.4703333333333,
+    "depth_km": 34.61,
+    "magnitude": 3.11,
+    "mag_type": "md",
+    "place": "68 km N of Tierras Nuevas Poniente, Puerto Rico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71536093",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "us6000u0x2",
     "source": "usgs",
     "time": "2026-10-08T07:45:12.588000+00:00",
@@ -556,27 +580,135 @@
     "id": "ci41344855",
     "source": "usgs",
     "time": "2026-10-08T08:09:03.220000+00:00",
-    "updated": "2026-10-08T08:13:49.043000+00:00",
+    "updated": "2026-10-08T08:20:20+00:00",
     "lat": 34.1028333333333,
     "lon": -117.480166666667,
     "depth_km": 5.87,
     "magnitude": 2.7,
     "mag_type": "ml",
     "place": "2 km WNW of Fontana, CA",
-    "cdi": 2.7,
+    "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 2,
+    "felt_reports": 24,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 34.119437500000004,
+        "lon": -117.4717,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 34.10061,
+        "lon": -117.645055,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 34.128235000000004,
+        "lon": -117.5259725,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 34.109955,
+        "lon": -117.58007,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 34.101225,
+        "lon": -117.51496499999999,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 34.082997500000005,
+        "lon": -117.55821,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 34.128185,
+        "lon": -117.5368175,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 33.975179999999995,
+        "lon": -117.46007499999999,
+        "intensity": 2.9,
+        "responses": 2
+      },
       {
         "lat": 34.12854,
         "lon": -117.45006000000001,
         "intensity": 2.7,
+        "responses": 2
+      },
+      {
+        "lat": 34.011445,
+        "lon": -117.4061225,
+        "intensity": 2.7,
+        "responses": 2
+      },
+      {
+        "lat": 34.1284975,
+        "lon": -117.460905,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 34.100935,
+        "lon": -117.58001,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 34.074385,
+        "lon": -117.46061499999999,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 34.083479999999994,
+        "lon": -117.438985,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 34.155425,
+        "lon": -117.4935975,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.94791,
+        "lon": -117.5140375,
+        "intensity": 2,
         "responses": 1
       },
       {
         "lat": 34.01141,
         "lon": -117.41695,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 34.1281375,
+        "lon": -117.54766000000001,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 34.047520000000006,
+        "lon": -117.406295,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 34.028735,
+        "lon": -117.59035,
         "intensity": 2,
         "responses": 1
       }
