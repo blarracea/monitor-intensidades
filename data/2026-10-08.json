@@ -1310,5 +1310,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt26281001",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u0xn",
+    "source": "usgs",
+    "time": "2026-10-08T10:07:28.642000+00:00",
+    "updated": "2026-10-08T10:21:28.040000+00:00",
+    "lat": -18.0147,
+    "lon": -178.4545,
+    "depth_km": 602.272,
+    "magnitude": 5.1,
+    "mag_type": "mb",
+    "place": "236 km E of Levuka, Fiji",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0xn",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
