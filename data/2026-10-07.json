@@ -291,7 +291,7 @@
     "id": "hv75051442",
     "source": "usgs",
     "time": "2026-10-07T04:39:46.870000+00:00",
-    "updated": "2026-10-07T19:20:47.296000+00:00",
+    "updated": "2026-10-08T06:43:41.732000+00:00",
     "lat": 19.3866666666667,
     "lon": -154.859333333333,
     "depth_km": 8.28,
@@ -300,7 +300,7 @@
     "place": "11 km SSE of Leilani Estates, Hawaii",
     "cdi": 3.3,
     "mmi": null,
-    "felt_reports": 12,
+    "felt_reports": 13,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -308,6 +308,12 @@
         "lon": -154.929135,
         "intensity": 4.1,
         "responses": 1
+      },
+      {
+        "lat": 19.402625,
+        "lon": -154.9188675,
+        "intensity": 3.4,
+        "responses": 3
       },
       {
         "lat": 19.402525,
@@ -326,12 +332,6 @@
         "lon": -154.957055,
         "intensity": 3.1,
         "responses": 1
-      },
-      {
-        "lat": 19.402625,
-        "lon": -154.9188675,
-        "intensity": 3.1,
-        "responses": 2
       },
       {
         "lat": 19.438855,
