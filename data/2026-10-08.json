@@ -262,5 +262,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0vw",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u0w0",
+    "source": "usgs",
+    "time": "2026-10-08T03:42:52.895000+00:00",
+    "updated": "2026-10-08T03:51:22.040000+00:00",
+    "lat": 39.2061,
+    "lon": 14.3516,
+    "depth_km": 367.078,
+    "magnitude": 4.9,
+    "mag_type": "mww",
+    "place": "81 km NNW of Malfa, Italy",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0w0",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
