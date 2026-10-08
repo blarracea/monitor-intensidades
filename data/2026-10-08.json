@@ -527,5 +527,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0ws",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u0x2",
+    "source": "usgs",
+    "time": "2026-10-08T07:45:12.588000+00:00",
+    "updated": "2026-10-08T08:02:52.040000+00:00",
+    "lat": 5.4545,
+    "lon": 94.7814,
+    "depth_km": 97.534,
+    "magnitude": 4.6,
+    "mag_type": "mb",
+    "place": "61 km W of Banda Aceh, Indonesia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u0x2",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
