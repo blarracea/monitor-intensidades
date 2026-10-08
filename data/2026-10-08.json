@@ -1866,5 +1866,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385876.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026tyuyom",
+    "source": "usgs",
+    "time": "2026-10-08T21:24:20.141000+00:00",
+    "updated": "2026-10-08T21:29:00.404000+00:00",
+    "lat": 56.848,
+    "lon": -149.045,
+    "depth_km": 5,
+    "magnitude": 3.1,
+    "mag_type": "ml",
+    "place": "213 km ESE of Chiniak, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tyuyom",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
