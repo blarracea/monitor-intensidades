@@ -1248,7 +1248,7 @@
     "id": "us6000u0xi",
     "source": "usgs",
     "time": "2026-10-08T09:00:07.768000+00:00",
-    "updated": "2026-10-08T09:30:29.671000+00:00",
+    "updated": "2026-10-08T10:04:56.368000+00:00",
     "lat": -15.5411,
     "lon": 168.1889,
     "depth_km": 10,
@@ -1257,13 +1257,19 @@
     "place": "102 km NE of Norsup, Vanuatu",
     "cdi": 7,
     "mmi": 7.654,
-    "felt_reports": 3,
+    "felt_reports": 4,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": -15.43354,
         "lon": 167.2131925,
         "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": -15.5152175,
+        "lon": 167.176785,
+        "intensity": 3.1,
         "responses": 1
       },
       {
