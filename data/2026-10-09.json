@@ -3430,5 +3430,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386015.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026uajubu",
+    "source": "usgs",
+    "time": "2026-10-09T17:48:24.984000+00:00",
+    "updated": "2026-10-09T17:50:14.638000+00:00",
+    "lat": 61.243,
+    "lon": -146.145,
+    "depth_km": 22.3,
+    "magnitude": 2.6,
+    "mag_type": "ml",
+    "place": "16 km NE of Valdez, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uajubu",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
