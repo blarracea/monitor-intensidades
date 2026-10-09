@@ -2412,5 +2412,46 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385952.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/385955.html",
+    "source": "csn",
+    "time": "2026-10-09T10:22:14+00:00",
+    "updated": "2026-10-09T10:22:14+00:00",
+    "lat": -19.9,
+    "lon": -68.87,
+    "depth_km": 128.0,
+    "magnitude": 5.2,
+    "mag_type": "Mw",
+    "place": "74 km al S de Colchane, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": -20.2716,
+        "lon": -70.1,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Alto Hospicio",
+        "region": "Tarapaca"
+      },
+      {
+        "lat": -20.2133,
+        "lon": -70.1503,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Iquique",
+        "region": "Tarapaca"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-tarapaca-2026-10-09-07-30-38",
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385955.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385955.html",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
