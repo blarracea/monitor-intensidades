@@ -4611,7 +4611,7 @@
     "id": "hv75051227",
     "source": "usgs",
     "time": "2026-10-06T22:30:03.880000+00:00",
-    "updated": "2026-10-07T03:31:01.040000+00:00",
+    "updated": "2026-10-09T22:10:01.493000+00:00",
     "lat": 19.9548333333333,
     "lon": -155.403,
     "depth_km": 11.07,
@@ -4620,13 +4620,19 @@
     "place": "10 km SSW of Pa‘auilo, Hawaii",
     "cdi": 2.2,
     "mmi": null,
-    "felt_reports": 2,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 19.976845,
         "lon": -155.25054,
         "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 20.951349999999998,
+        "lon": -156.68713250000002,
+        "intensity": 1,
         "responses": 1
       },
       {
