@@ -448,7 +448,7 @@
     "id": "ci41345415",
     "source": "usgs",
     "time": "2026-10-09T07:44:17.510000+00:00",
-    "updated": "2026-10-09T10:39:30.333000+00:00",
+    "updated": "2026-10-09T10:45:21.629000+00:00",
     "lat": 33.7916679382324,
     "lon": -118.179832458496,
     "depth_km": 12.3000001907349,
@@ -457,7 +457,7 @@
     "place": "2 km SW of Signal Hill, CA",
     "cdi": 3.4,
     "mmi": 3.541,
-    "felt_reports": 895,
+    "felt_reports": 896,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2498,6 +2498,30 @@
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385955.html",
     "relevant": true,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/385958.html",
+    "source": "csn",
+    "time": "2026-10-09T10:38:09+00:00",
+    "updated": "2026-10-09T10:38:09+00:00",
+    "lat": -31.65,
+    "lon": -71.5,
+    "depth_km": 22.0,
+    "magnitude": 3.8,
+    "mag_type": "ml",
+    "place": "29 km al N de Los Vilos, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385958.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385958.html",
+    "relevant": false,
     "keywords_matched": []
   }
 ]
