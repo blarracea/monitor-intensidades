@@ -2934,27 +2934,33 @@
     "id": "us6000u15l",
     "source": "usgs",
     "time": "2026-10-09T12:33:43.985000+00:00",
-    "updated": "2026-10-09T17:31:52.108000+00:00",
+    "updated": "2026-10-09T18:12:58.282000+00:00",
     "lat": 11.5951,
     "lon": -86.0613,
     "depth_km": 165.662,
     "magnitude": 4.8,
     "mag_type": "mb",
     "place": "17 km S of Nandaime, Nicaragua",
-    "cdi": 1,
+    "cdi": 2,
     "mmi": null,
-    "felt_reports": 2,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
       {
-        "lat": 12.143215,
-        "lon": -86.26013499999999,
-        "intensity": 1,
+        "lat": 10.507865,
+        "lon": -84.68385,
+        "intensity": 2,
         "responses": 1
       },
       {
         "lat": 9.898095,
         "lon": -84.132375,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 12.143215,
+        "lon": -86.26013499999999,
         "intensity": 1,
         "responses": 1
       }
@@ -3483,6 +3489,67 @@
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uajubu",
     "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000u18k",
+    "source": "usgs",
+    "time": "2026-10-09T17:56:05.655000+00:00",
+    "updated": "2026-10-09T18:11:12.040000+00:00",
+    "lat": 7.5993,
+    "lon": -80.7572,
+    "depth_km": 10,
+    "magnitude": 7.6,
+    "mag_type": "mww",
+    "place": "10 km WSW of Pitaloza Arriba, Panama",
+    "cdi": 4.6,
+    "mmi": null,
+    "felt_reports": 6,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 9.7439875,
+        "lon": -83.93003,
+        "intensity": 4.6,
+        "responses": 1
+      },
+      {
+        "lat": 9.011965,
+        "lon": -79.53077,
+        "intensity": 4.3,
+        "responses": 1
+      },
+      {
+        "lat": 8.994060000000001,
+        "lon": -79.57631749999999,
+        "intensity": 4.1,
+        "responses": 1
+      },
+      {
+        "lat": -3.1306175,
+        "lon": -60.0268,
+        "intensity": 4.1,
+        "responses": 1
+      },
+      {
+        "lat": 8.9849475,
+        "lon": -79.55816250000001,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 6.102047499999999,
+        "lon": -75.375055,
+        "intensity": 2.2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u18k",
+    "relevant": true,
     "keywords_matched": []
   },
   {
