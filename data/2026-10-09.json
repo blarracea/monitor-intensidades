@@ -3038,5 +3038,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u15x",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u164",
+    "source": "usgs",
+    "time": "2026-10-09T14:49:41.714000+00:00",
+    "updated": "2026-10-09T15:08:34.040000+00:00",
+    "lat": -60.9758,
+    "lon": 154.4619,
+    "depth_km": 10,
+    "magnitude": 5.9,
+    "mag_type": "mww",
+    "place": "west of Macquarie Island",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u164",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
