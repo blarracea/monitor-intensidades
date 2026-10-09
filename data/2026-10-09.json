@@ -7174,7 +7174,7 @@
     "id": "us6000u1ay",
     "source": "usgs",
     "time": "2026-10-09T23:12:37.790000+00:00",
-    "updated": "2026-10-09T23:40:25.473000+00:00",
+    "updated": "2026-10-09T23:42:28.769000+00:00",
     "lat": 7.4366,
     "lon": -80.0968,
     "depth_km": 10,
@@ -7185,8 +7185,27 @@
     "mmi": 6.661,
     "felt_reports": 3,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 7.52126,
+        "lon": -79.99845,
+        "intensity": 5.3,
+        "responses": 1
+      },
+      {
+        "lat": 8.9848025,
+        "lon": -79.521785,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 8.966755,
+        "lon": -79.53095250000001,
+        "intensity": 2.2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "snam_url": null,
