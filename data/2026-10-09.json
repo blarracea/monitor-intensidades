@@ -448,19 +448,50 @@
     "id": "ci41345415",
     "source": "usgs",
     "time": "2026-10-09T07:44:17.510000+00:00",
-    "updated": "2026-10-09T07:49:59.127000+00:00",
+    "updated": "2026-10-09T07:54:57.840000+00:00",
     "lat": 33.7916679382324,
     "lon": -118.179832458496,
     "depth_km": 12.3000001907349,
     "magnitude": 3.19046262420132,
     "mag_type": "ml",
     "place": "2 km SW of Signal Hill, CA",
-    "cdi": null,
+    "cdi": 3.4,
     "mmi": 3.473,
-    "felt_reports": 0,
+    "felt_reports": 5,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 33.8894875,
+        "lon": -118.151725,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 33.8445,
+        "lon": -118.140315,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 33.77216,
+        "lon": -118.16095,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 33.880669999999995,
+        "lon": -118.1299825,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 33.808822500000005,
+        "lon": -118.096625,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "snam_url": null,
