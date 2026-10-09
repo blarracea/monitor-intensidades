@@ -6621,7 +6621,7 @@
     "id": "us6000u19w",
     "source": "usgs",
     "time": "2026-10-09T20:25:39.080000+00:00",
-    "updated": "2026-10-09T22:32:49.534000+00:00",
+    "updated": "2026-10-09T23:33:22.338000+00:00",
     "lat": 7.7176,
     "lon": -81.4687,
     "depth_km": 10,
@@ -6630,7 +6630,7 @@
     "place": "14 km W of Río Grande, Panama",
     "cdi": 7.1,
     "mmi": 8.131,
-    "felt_reports": 25,
+    "felt_reports": 24,
     "tsunami_flag": true,
     "dyfi_points": [
       {
@@ -6646,12 +6646,6 @@
         "responses": 1
       },
       {
-        "lat": 8.59782,
-        "lon": -80.12301500000001,
-        "intensity": 4.5,
-        "responses": 1
-      },
-      {
         "lat": 8.99381,
         "lon": -79.5126525,
         "intensity": 4.3,
@@ -6664,14 +6658,14 @@
         "responses": 1
       },
       {
-        "lat": 8.740805,
-        "lon": -82.440875,
+        "lat": 8.9757225,
+        "lon": -79.5127275,
         "intensity": 3.8,
         "responses": 1
       },
       {
-        "lat": 8.9757225,
-        "lon": -79.5127275,
+        "lat": 8.740805,
+        "lon": -82.440875,
         "intensity": 3.8,
         "responses": 1
       },
@@ -6679,12 +6673,6 @@
         "lat": 8.415475,
         "lon": -82.3851625,
         "intensity": 3.8,
-        "responses": 1
-      },
-      {
-        "lat": 7.4226825000000005,
-        "lon": -81.439505,
-        "intensity": 3.4,
         "responses": 1
       },
       {
@@ -6706,14 +6694,20 @@
         "responses": 1
       },
       {
+        "lat": 9.952215,
+        "lon": -84.122795,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": 9.392635,
         "lon": -82.234045,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 9.6127575,
-        "lon": -84.626475,
+        "lat": 9.933755,
+        "lon": -84.077395,
         "intensity": 2.2,
         "responses": 1
       },
@@ -6730,26 +6724,14 @@
         "responses": 1
       },
       {
-        "lat": 9.933755,
-        "lon": -84.077395,
+        "lat": 9.6127575,
+        "lon": -84.626475,
         "intensity": 2.2,
         "responses": 1
       },
       {
         "lat": 9.3842,
         "lon": -83.7359075,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 9.9785975,
-        "lon": -84.04054500000001,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 9.0477975,
-        "lon": -79.44876,
         "intensity": 2,
         "responses": 1
       },
@@ -6762,6 +6744,18 @@
       {
         "lat": 9.0030675,
         "lon": -79.56718749999999,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 9.0477975,
+        "lon": -79.44876,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 9.9785975,
+        "lon": -84.04054500000001,
         "intensity": 2,
         "responses": 1
       },
@@ -7138,6 +7132,30 @@
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386068.html",
     "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000u1ay",
+    "source": "usgs",
+    "time": "2026-10-09T23:12:37.790000+00:00",
+    "updated": "2026-10-09T23:33:31.040000+00:00",
+    "lat": 7.4366,
+    "lon": -80.0968,
+    "depth_km": 10,
+    "magnitude": 5.4,
+    "mag_type": "mb",
+    "place": "9 km SSE of Los Asientos, Panama",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ay",
+    "relevant": true,
     "keywords_matched": []
   }
 ]
