@@ -6379,7 +6379,7 @@
     "id": "us6000u18x",
     "source": "usgs",
     "time": "2026-10-09T18:37:46.146000+00:00",
-    "updated": "2026-10-09T23:23:45.762000+00:00",
+    "updated": "2026-10-10T02:18:52.590000+00:00",
     "lat": 7.4362,
     "lon": -80.4012,
     "depth_km": 10,
@@ -6388,7 +6388,7 @@
     "place": "1 km S of El Cacao, Panama",
     "cdi": 7.7,
     "mmi": 7.435,
-    "felt_reports": 8,
+    "felt_reports": 9,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -6401,6 +6401,12 @@
         "lat": 9.011965,
         "lon": -79.53077,
         "intensity": 4.6,
+        "responses": 1
+      },
+      {
+        "lat": 9.175045,
+        "lon": -79.612,
+        "intensity": 4.3,
         "responses": 1
       },
       {
@@ -6419,6 +6425,12 @@
         "lat": 8.4978825,
         "lon": -79.9415525,
         "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 8.95775,
+        "lon": -79.54008250000001,
+        "intensity": 2,
         "responses": 1
       },
       {
@@ -7344,7 +7356,7 @@
     "id": "us6000u1ay",
     "source": "usgs",
     "time": "2026-10-09T23:12:37.790000+00:00",
-    "updated": "2026-10-10T01:19:46.347000+00:00",
+    "updated": "2026-10-10T02:15:32.344000+00:00",
     "lat": 7.4366,
     "lon": -80.0968,
     "depth_km": 10,
@@ -7353,13 +7365,19 @@
     "place": "9 km SSE of Los Asientos, Panama",
     "cdi": 5.3,
     "mmi": 6.661,
-    "felt_reports": 3,
+    "felt_reports": 5,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 7.52126,
         "lon": -79.99845,
         "intensity": 5.3,
+        "responses": 1
+      },
+      {
+        "lat": 9.175045,
+        "lon": -79.612,
+        "intensity": 3.4,
         "responses": 1
       },
       {
@@ -7371,6 +7389,12 @@
       {
         "lat": 8.966755,
         "lon": -79.53095250000001,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 9.00285,
+        "lon": -79.5126175,
         "intensity": 2.2,
         "responses": 1
       }
