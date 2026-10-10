@@ -503,16 +503,16 @@
     "id": "us6000u1cd",
     "source": "usgs",
     "time": "2026-10-10T03:58:18.250000+00:00",
-    "updated": "2026-10-10T04:18:22.328000+00:00",
+    "updated": "2026-10-10T04:24:04.653000+00:00",
     "lat": 13.8594,
     "lon": 145.0892,
     "depth_km": 111.584,
     "magnitude": 5.3,
     "mag_type": "mb",
     "place": "41 km NNE of Yigo Village, Guam",
-    "cdi": 4.2,
+    "cdi": 4.1,
     "mmi": null,
-    "felt_reports": 21,
+    "felt_reports": 28,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -522,14 +522,26 @@
         "responses": 1
       },
       {
-        "lat": 13.54565,
-        "lon": 144.85164,
+        "lat": 13.5183,
+        "lon": 144.82418,
         "intensity": 4.1,
         "responses": 1
       },
       {
-        "lat": 13.5183,
-        "lon": 144.82418,
+        "lat": 13.44553,
+        "lon": 144.76944500000002,
+        "intensity": 4.1,
+        "responses": 1
+      },
+      {
+        "lat": 13.26391,
+        "lon": 144.6696375,
+        "intensity": 4.1,
+        "responses": 1
+      },
+      {
+        "lat": 13.54565,
+        "lon": 144.85164,
         "intensity": 4.1,
         "responses": 1
       },
@@ -537,18 +549,18 @@
         "lat": 13.518460000000001,
         "lon": 144.8426475,
         "intensity": 3.9,
-        "responses": 2
+        "responses": 3
+      },
+      {
+        "lat": 13.481670000000001,
+        "lon": 144.76910750000002,
+        "intensity": 3.8,
+        "responses": 1
       },
       {
         "lat": 13.518139999999999,
         "lon": 144.80571,
         "intensity": 3.6,
-        "responses": 2
-      },
-      {
-        "lat": 13.44561,
-        "lon": 144.77867500000002,
-        "intensity": 3.4,
         "responses": 2
       },
       {
@@ -558,16 +570,10 @@
         "responses": 1
       },
       {
-        "lat": 13.536927500000001,
-        "lon": 144.88866,
-        "intensity": 3.1,
+        "lat": 13.44561,
+        "lon": 144.77867500000002,
+        "intensity": 3.4,
         "responses": 2
-      },
-      {
-        "lat": 14.14455,
-        "lon": 145.151735,
-        "intensity": 3.1,
-        "responses": 1
       },
       {
         "lat": 13.58187,
@@ -576,9 +582,39 @@
         "responses": 1
       },
       {
+        "lat": 14.14455,
+        "lon": 145.151735,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 13.536927500000001,
+        "lon": 144.88866,
+        "intensity": 3.1,
+        "responses": 2
+      },
+      {
         "lat": 14.1444775,
         "lon": 145.142475,
         "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 13.4999875,
+        "lon": 144.7966425,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 13.463925,
+        "lon": 144.80620499999998,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 13.463435,
+        "lon": 144.7508125,
+        "intensity": 2.7,
         "responses": 1
       },
       {
