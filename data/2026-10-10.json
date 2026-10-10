@@ -528,7 +528,7 @@
     "id": "us6000u1cd",
     "source": "usgs",
     "time": "2026-10-10T03:58:18.250000+00:00",
-    "updated": "2026-10-10T08:08:31.608000+00:00",
+    "updated": "2026-10-10T08:56:47.164000+00:00",
     "lat": 13.8594,
     "lon": 145.0892,
     "depth_km": 111.584,
@@ -537,7 +537,7 @@
     "place": "41 km NNE of Yigo Village, Guam",
     "cdi": 4.2,
     "mmi": null,
-    "felt_reports": 38,
+    "felt_reports": 39,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -589,26 +589,20 @@
         "responses": 2
       },
       {
-        "lat": 13.44561,
-        "lon": 144.77867500000002,
-        "intensity": 3.4,
-        "responses": 2
-      },
-      {
         "lat": 13.50039,
         "lon": 144.84281,
         "intensity": 3.4,
         "responses": 2
       },
       {
-        "lat": 13.390482500000001,
-        "lon": 144.67765500000002,
+        "lat": 13.5642675,
+        "lon": 144.91613,
         "intensity": 3.4,
         "responses": 1
       },
       {
-        "lat": 13.5642675,
-        "lon": 144.91613,
+        "lat": 13.390482500000001,
+        "lon": 144.67765500000002,
         "intensity": 3.4,
         "responses": 1
       },
@@ -619,9 +613,9 @@
         "responses": 1
       },
       {
-        "lat": 13.4997425,
-        "lon": 144.7689425,
-        "intensity": 3.3,
+        "lat": 13.44561,
+        "lon": 144.77867500000002,
+        "intensity": 3.4,
         "responses": 2
       },
       {
@@ -631,14 +625,14 @@
         "responses": 2
       },
       {
-        "lat": 14.14455,
-        "lon": 145.151735,
-        "intensity": 3.1,
-        "responses": 1
+        "lat": 13.4997425,
+        "lon": 144.7689425,
+        "intensity": 3.3,
+        "responses": 2
       },
       {
-        "lat": 13.4999875,
-        "lon": 144.7966425,
+        "lat": 13.509105,
+        "lon": 144.8057925,
         "intensity": 3.1,
         "responses": 1
       },
@@ -649,20 +643,8 @@
         "responses": 1
       },
       {
-        "lat": 13.463925,
-        "lon": 144.80620499999998,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
         "lat": 14.1444775,
         "lon": 145.142475,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 13.654160000000001,
-        "lon": 144.8599,
         "intensity": 3.1,
         "responses": 1
       },
@@ -673,20 +655,44 @@
         "responses": 1
       },
       {
+        "lat": 13.4999875,
+        "lon": 144.7966425,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 13.654160000000001,
+        "lon": 144.8599,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 14.14455,
+        "lon": 145.151735,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 13.463925,
+        "lon": 144.80620499999998,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
         "lat": 13.536927500000001,
         "lon": 144.88866,
         "intensity": 3.1,
         "responses": 2
       },
       {
-        "lat": 13.463435,
-        "lon": 144.7508125,
+        "lat": 13.500070000000001,
+        "lon": 144.80587500000001,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 13.500070000000001,
-        "lon": 144.80587500000001,
+        "lat": 13.463435,
+        "lon": 144.7508125,
         "intensity": 2.7,
         "responses": 1
       },
@@ -1510,6 +1516,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386124.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386124.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000u1dm",
+    "source": "usgs",
+    "time": "2026-10-10T08:38:50.674000+00:00",
+    "updated": "2026-10-10T08:58:29.040000+00:00",
+    "lat": -15.397,
+    "lon": -173.7816,
+    "depth_km": 79.424,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "61 km N of Hihifo, Tonga",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1dm",
     "relevant": false,
     "keywords_matched": []
   }
