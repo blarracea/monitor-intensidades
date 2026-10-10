@@ -7248,7 +7248,7 @@
     "id": "us6000u1az",
     "source": "usgs",
     "time": "2026-10-09T23:23:13.082000+00:00",
-    "updated": "2026-10-09T23:57:20.204000+00:00",
+    "updated": "2026-10-10T00:02:07.029000+00:00",
     "lat": 7.6651,
     "lon": -81.4005,
     "depth_km": 10,
@@ -7257,9 +7257,15 @@
     "place": "9 km SW of Río Grande, Panama",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 2,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 8.966755,
+        "lon": -79.53095250000001,
+        "intensity": 3.4,
+        "responses": 1
+      },
       {
         "lat": 8.994095,
         "lon": -79.58541249999999,
