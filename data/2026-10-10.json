@@ -1651,5 +1651,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386140.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u1e5",
+    "source": "usgs",
+    "time": "2026-10-10T10:35:11.922000+00:00",
+    "updated": "2026-10-10T10:50:44.040000+00:00",
+    "lat": 7.7463,
+    "lon": -81.3092,
+    "depth_km": 10,
+    "magnitude": 4.8,
+    "mag_type": "mb",
+    "place": "4 km NE of Río Grande, Panama",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1e5",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
