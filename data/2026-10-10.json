@@ -522,7 +522,7 @@
     "id": "us6000u1cd",
     "source": "usgs",
     "time": "2026-10-10T03:58:18.250000+00:00",
-    "updated": "2026-10-10T06:08:24.769000+00:00",
+    "updated": "2026-10-10T06:18:29.778000+00:00",
     "lat": 13.8594,
     "lon": 145.0892,
     "depth_km": 111.584,
@@ -531,7 +531,7 @@
     "place": "41 km NNE of Yigo Village, Guam",
     "cdi": 4.5,
     "mmi": null,
-    "felt_reports": 35,
+    "felt_reports": 36,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -541,14 +541,14 @@
         "responses": 1
       },
       {
-        "lat": 13.44553,
-        "lon": 144.76944500000002,
+        "lat": 13.26391,
+        "lon": 144.6696375,
         "intensity": 4.1,
         "responses": 1
       },
       {
-        "lat": 13.26391,
-        "lon": 144.6696375,
+        "lat": 13.44553,
+        "lon": 144.76944500000002,
         "intensity": 4.1,
         "responses": 1
       },
@@ -565,14 +565,14 @@
         "responses": 3
       },
       {
-        "lat": 13.481670000000001,
-        "lon": 144.76910750000002,
+        "lat": 13.52797,
+        "lon": 144.897975,
         "intensity": 3.8,
         "responses": 1
       },
       {
-        "lat": 13.52797,
-        "lon": 144.897975,
+        "lat": 13.481670000000001,
+        "lon": 144.76910750000002,
         "intensity": 3.8,
         "responses": 1
       },
@@ -583,8 +583,8 @@
         "responses": 2
       },
       {
-        "lat": 13.5642675,
-        "lon": 144.91613,
+        "lat": 13.390482500000001,
+        "lon": 144.67765500000002,
         "intensity": 3.4,
         "responses": 1
       },
@@ -592,7 +592,7 @@
         "lat": 13.50039,
         "lon": 144.84281,
         "intensity": 3.4,
-        "responses": 1
+        "responses": 2
       },
       {
         "lat": 13.472305,
@@ -601,8 +601,8 @@
         "responses": 1
       },
       {
-        "lat": 13.390482500000001,
-        "lon": 144.67765500000002,
+        "lat": 13.5642675,
+        "lon": 144.91613,
         "intensity": 3.4,
         "responses": 1
       },
@@ -625,14 +625,26 @@
         "responses": 2
       },
       {
+        "lat": 13.536927500000001,
+        "lon": 144.88866,
+        "intensity": 3.1,
+        "responses": 2
+      },
+      {
         "lat": 13.58187,
         "lon": 144.86055,
         "intensity": 3.1,
         "responses": 1
       },
       {
-        "lat": 14.14455,
-        "lon": 145.151735,
+        "lat": 13.4999875,
+        "lon": 144.7966425,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 13.654160000000001,
+        "lon": 144.8599,
         "intensity": 3.1,
         "responses": 1
       },
@@ -649,20 +661,8 @@
         "responses": 1
       },
       {
-        "lat": 13.654160000000001,
-        "lon": 144.8599,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 13.536927500000001,
-        "lon": 144.88866,
-        "intensity": 3.1,
-        "responses": 2
-      },
-      {
-        "lat": 13.4999875,
-        "lon": 144.7966425,
+        "lat": 14.14455,
+        "lon": 145.151735,
         "intensity": 3.1,
         "responses": 1
       },
@@ -691,7 +691,7 @@
     "id": "us6000u1cf",
     "source": "usgs",
     "time": "2026-10-10T04:14:01.786000+00:00",
-    "updated": "2026-10-10T05:59:05.295000+00:00",
+    "updated": "2026-10-10T06:19:28.610000+00:00",
     "lat": 7.5068,
     "lon": -80.5985,
     "depth_km": 10,
@@ -1070,6 +1070,30 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75053257",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000u1cr",
+    "source": "usgs",
+    "time": "2026-10-10T05:11:05.225000+00:00",
+    "updated": "2026-10-10T06:18:22.040000+00:00",
+    "lat": 12.0344,
+    "lon": -88.3086,
+    "depth_km": 10,
+    "magnitude": 4.4,
+    "mag_type": "mb",
+    "place": "121 km SW of Jiquilillo, Nicaragua",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cr",
     "relevant": false,
     "keywords_matched": []
   },
