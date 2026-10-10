@@ -22,5 +22,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386079.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u1bl",
+    "source": "usgs",
+    "time": "2026-10-10T01:11:47.812000+00:00",
+    "updated": "2026-10-10T01:29:24.040000+00:00",
+    "lat": 7.5302,
+    "lon": -80.5858,
+    "depth_km": 10,
+    "magnitude": 4.7,
+    "mag_type": "mb",
+    "place": "10 km N of La Tronosa, Panama",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bl",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
