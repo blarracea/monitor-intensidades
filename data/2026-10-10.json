@@ -2607,5 +2607,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386197.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026ucjpkf",
+    "source": "usgs",
+    "time": "2026-10-10T19:42:21.304000+00:00",
+    "updated": "2026-10-10T19:43:49.373000+00:00",
+    "lat": 55.469,
+    "lon": -158.399,
+    "depth_km": 16.4,
+    "magnitude": 3,
+    "mag_type": "ml",
+    "place": "68 km SE of Perryville, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ucjpkf",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
