@@ -2191,5 +2191,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1fk",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "pr71536388",
+    "source": "usgs",
+    "time": "2026-10-10T16:32:28.780000+00:00",
+    "updated": "2026-10-10T16:50:55.240000+00:00",
+    "lat": 18.7586666666667,
+    "lon": -68.1685,
+    "depth_km": 83.51,
+    "magnitude": 3.35,
+    "mag_type": "md",
+    "place": "31 km NE of Punta Cana, Dominican Republic",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71536388",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
