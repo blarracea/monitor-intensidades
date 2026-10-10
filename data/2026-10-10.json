@@ -322,7 +322,7 @@
     "id": "nc75447201",
     "source": "usgs",
     "time": "2026-10-10T02:48:36.040000+00:00",
-    "updated": "2026-10-10T03:25:10.567000+00:00",
+    "updated": "2026-10-10T04:37:28.040000+00:00",
     "lat": 39.5688323974609,
     "lon": -123.355499267578,
     "depth_km": 8.52999973297119,
@@ -503,7 +503,7 @@
     "id": "us6000u1cd",
     "source": "usgs",
     "time": "2026-10-10T03:58:18.250000+00:00",
-    "updated": "2026-10-10T04:29:08.332000+00:00",
+    "updated": "2026-10-10T04:39:16.052000+00:00",
     "lat": 13.8594,
     "lon": 145.0892,
     "depth_km": 111.584,
@@ -522,14 +522,14 @@
         "responses": 1
       },
       {
-        "lat": 13.54565,
-        "lon": 144.85164,
+        "lat": 13.26391,
+        "lon": 144.6696375,
         "intensity": 4.1,
         "responses": 1
       },
       {
-        "lat": 13.26391,
-        "lon": 144.6696375,
+        "lat": 13.54565,
+        "lon": 144.85164,
         "intensity": 4.1,
         "responses": 1
       },
@@ -546,14 +546,14 @@
         "responses": 3
       },
       {
-        "lat": 13.481670000000001,
-        "lon": 144.76910750000002,
+        "lat": 13.52797,
+        "lon": 144.897975,
         "intensity": 3.8,
         "responses": 1
       },
       {
-        "lat": 13.52797,
-        "lon": 144.897975,
+        "lat": 13.481670000000001,
+        "lon": 144.76910750000002,
         "intensity": 3.8,
         "responses": 1
       },
@@ -564,16 +564,16 @@
         "responses": 2
       },
       {
-        "lat": 13.5642675,
-        "lon": 144.91613,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
         "lat": 13.44561,
         "lon": 144.77867500000002,
         "intensity": 3.4,
         "responses": 2
+      },
+      {
+        "lat": 13.5642675,
+        "lon": 144.91613,
+        "intensity": 3.4,
+        "responses": 1
       },
       {
         "lat": 13.5183,
@@ -582,22 +582,16 @@
         "responses": 2
       },
       {
-        "lat": 13.463925,
-        "lon": 144.80620499999998,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
         "lat": 13.58187,
         "lon": 144.86055,
         "intensity": 3.1,
         "responses": 1
       },
       {
-        "lat": 13.536927500000001,
-        "lon": 144.88866,
+        "lat": 13.463925,
+        "lon": 144.80620499999998,
         "intensity": 3.1,
-        "responses": 2
+        "responses": 1
       },
       {
         "lat": 14.1444775,
@@ -616,6 +610,12 @@
         "lon": 145.151735,
         "intensity": 3.1,
         "responses": 1
+      },
+      {
+        "lat": 13.536927500000001,
+        "lon": 144.88866,
+        "intensity": 3.1,
+        "responses": 2
       },
       {
         "lat": 13.463435,
@@ -648,19 +648,50 @@
     "id": "us6000u1cf",
     "source": "usgs",
     "time": "2026-10-10T04:14:01.786000+00:00",
-    "updated": "2026-10-10T04:35:12.376000+00:00",
+    "updated": "2026-10-10T04:40:17.900000+00:00",
     "lat": 7.5068,
     "lon": -80.5985,
     "depth_km": 10,
     "magnitude": 6,
     "mag_type": "mww",
     "place": "7 km N of La Tronosa, Panama",
-    "cdi": null,
+    "cdi": 5.6,
     "mmi": 7.553,
-    "felt_reports": 0,
+    "felt_reports": 5,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 8.309365,
+        "lon": -80.9409675,
+        "intensity": 5.6,
+        "responses": 1
+      },
+      {
+        "lat": 8.5339075,
+        "lon": -79.8869425,
+        "intensity": 4.6,
+        "responses": 1
+      },
+      {
+        "lat": 8.931262499999999,
+        "lon": -79.71297,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 8.7417725,
+        "lon": -79.84088,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 8.94867,
+        "lon": -79.531025,
+        "intensity": 2.7,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "snam_url": null,
