@@ -274,23 +274,78 @@
     "id": "nc75447201",
     "source": "usgs",
     "time": "2026-10-10T02:48:36.040000+00:00",
-    "updated": "2026-10-10T02:54:50.910000+00:00",
+    "updated": "2026-10-10T02:59:49.009000+00:00",
     "lat": 39.5688323974609,
     "lon": -123.355499267578,
     "depth_km": 8.52999973297119,
     "magnitude": 3.42,
     "mag_type": "ml",
     "place": "14 km N of Brooktrails, CA",
-    "cdi": null,
+    "cdi": 2.9,
     "mmi": null,
-    "felt_reports": 0,
+    "felt_reports": 5,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 39.40246,
+        "lon": -123.3542375,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 39.411435,
+        "lon": -123.3658975,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 39.69033,
+        "lon": -123.4839925,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 39.68132,
+        "lon": -123.48393,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 39.26766,
+        "lon": -123.20286,
+        "intensity": 1,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75447201",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/386095.html",
+    "source": "csn",
+    "time": "2026-10-10T02:49:31+00:00",
+    "updated": "2026-10-10T02:49:31+00:00",
+    "lat": -22.33,
+    "lon": -68.62,
+    "depth_km": 114.0,
+    "magnitude": 3.1,
+    "mag_type": "MLv",
+    "place": "35 km al NE de Calama, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386095.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386095.html",
     "relevant": false,
     "keywords_matched": []
   }
