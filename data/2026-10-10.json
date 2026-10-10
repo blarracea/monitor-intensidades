@@ -329,7 +329,7 @@
     "id": "nc75447201",
     "source": "usgs",
     "time": "2026-10-10T02:48:36.040000+00:00",
-    "updated": "2026-10-10T07:07:43.601000+00:00",
+    "updated": "2026-10-10T15:00:04.901000+00:00",
     "lat": 39.5688323974609,
     "lon": -123.355499267578,
     "depth_km": 8.52999973297119,
@@ -338,7 +338,7 @@
     "place": "14 km N of Brooktrails, CA",
     "cdi": 2.8,
     "mmi": null,
-    "felt_reports": 12,
+    "felt_reports": 13,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2015,6 +2015,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386158.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386158.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/386162.html",
+    "source": "csn",
+    "time": "2026-10-10T14:55:59+00:00",
+    "updated": "2026-10-10T14:55:59+00:00",
+    "lat": -20.95,
+    "lon": -68.96,
+    "depth_km": 111.0,
+    "magnitude": 2.6,
+    "mag_type": "MLv",
+    "place": "34 km al O de Mina Collahuasi, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386162.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386162.html",
     "relevant": false,
     "keywords_matched": []
   }
