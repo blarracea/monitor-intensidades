@@ -271,10 +271,34 @@
     "keywords_matched": []
   },
   {
+    "id": "us6000u1bw",
+    "source": "usgs",
+    "time": "2026-10-10T02:43:38.371000+00:00",
+    "updated": "2026-10-10T03:00:45.040000+00:00",
+    "lat": 7.5746,
+    "lon": -81.2493,
+    "depth_km": 10,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "18 km SSE of Río Grande, Panama",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1bw",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "nc75447201",
     "source": "usgs",
     "time": "2026-10-10T02:48:36.040000+00:00",
-    "updated": "2026-10-10T02:59:49.009000+00:00",
+    "updated": "2026-10-10T03:04:14.237000+00:00",
     "lat": 39.5688323974609,
     "lon": -123.355499267578,
     "depth_km": 8.52999973297119,
@@ -283,7 +307,7 @@
     "place": "14 km N of Brooktrails, CA",
     "cdi": 2.9,
     "mmi": null,
-    "felt_reports": 5,
+    "felt_reports": 6,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -293,14 +317,14 @@
         "responses": 1
       },
       {
-        "lat": 39.411435,
-        "lon": -123.3658975,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
         "lat": 39.69033,
         "lon": -123.4839925,
+        "intensity": 3.1,
+        "responses": 2
+      },
+      {
+        "lat": 39.411435,
+        "lon": -123.3658975,
         "intensity": 2.2,
         "responses": 1
       },
