@@ -2299,7 +2299,7 @@
     "id": "ci41346143",
     "source": "usgs",
     "time": "2026-10-10T16:59:07.790000+00:00",
-    "updated": "2026-10-10T17:16:54.675000+00:00",
+    "updated": "2026-10-10T17:20:52.452000+00:00",
     "lat": 33.6373333333333,
     "lon": -117.018333333333,
     "depth_km": 13.98,
@@ -2308,7 +2308,7 @@
     "place": "10 km SE of Winchester, CA",
     "cdi": 2.9,
     "mmi": null,
-    "felt_reports": 15,
+    "felt_reports": 17,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2318,32 +2318,14 @@
         "responses": 1
       },
       {
+        "lat": 33.543015,
+        "lon": -117.15618,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
         "lat": 33.6873,
         "lon": -117.178015,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 33.71446,
-        "lon": -116.91905,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 33.687385,
-        "lon": -117.10248999999999,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 33.732519999999994,
-        "lon": -116.9730075,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 33.696415,
-        "lon": -117.09171,
         "intensity": 2.2,
         "responses": 1
       },
@@ -2354,8 +2336,38 @@
         "responses": 1
       },
       {
-        "lat": 33.75056,
-        "lon": -117.01619,
+        "lat": 33.687385,
+        "lon": -117.10248999999999,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.696415,
+        "lon": -117.09171,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.71446,
+        "lon": -116.91905,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.732519999999994,
+        "lon": -116.9730075,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.678264999999996,
+        "lon": -117.188785,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 33.741535,
+        "lon": -117.04857750000001,
         "intensity": 2,
         "responses": 1
       },
@@ -2366,8 +2378,8 @@
         "responses": 1
       },
       {
-        "lat": 33.741535,
-        "lon": -117.04857750000001,
+        "lat": 33.75056,
+        "lon": -117.01619,
         "intensity": 2,
         "responses": 1
       },
