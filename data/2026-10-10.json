@@ -2775,5 +2775,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386210.html",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u1gs",
+    "source": "usgs",
+    "time": "2026-10-10T21:34:02.337000+00:00",
+    "updated": "2026-10-10T21:59:26.040000+00:00",
+    "lat": -37.1165,
+    "lon": -95.2667,
+    "depth_km": 10,
+    "magnitude": 5.3,
+    "mag_type": "mww",
+    "place": "southeast of Easter Island",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1gs",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
