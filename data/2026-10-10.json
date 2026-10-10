@@ -1084,5 +1084,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386113.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u1cv",
+    "source": "usgs",
+    "time": "2026-10-10T05:32:01.552000+00:00",
+    "updated": "2026-10-10T05:50:42.040000+00:00",
+    "lat": 1.6248,
+    "lon": 126.3886,
+    "depth_km": 10,
+    "magnitude": 5,
+    "mag_type": "mb",
+    "place": "141 km E of Bitung, Indonesia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cv",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
