@@ -476,22 +476,125 @@
     "keywords_matched": []
   },
   {
-    "id": "us6000u1cd",
+    "id": "us6000u1cb",
     "source": "usgs",
-    "time": "2026-10-10T03:58:18.250000+00:00",
-    "updated": "2026-10-10T04:10:21.040000+00:00",
-    "lat": 13.8594,
-    "lon": 145.0892,
-    "depth_km": 111.584,
-    "magnitude": 5.3,
+    "time": "2026-10-10T03:56:17.471000+00:00",
+    "updated": "2026-10-10T04:19:41.040000+00:00",
+    "lat": 7.5141,
+    "lon": -80.5849,
+    "depth_km": 10,
+    "magnitude": 4.7,
     "mag_type": "mb",
-    "place": "41 km NNE of Yigo Village, Guam",
+    "place": "8 km N of La Tronosa, Panama",
     "cdi": null,
     "mmi": null,
     "felt_reports": 0,
     "tsunami_flag": false,
     "dyfi_points": [],
     "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1cb",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000u1cd",
+    "source": "usgs",
+    "time": "2026-10-10T03:58:18.250000+00:00",
+    "updated": "2026-10-10T04:18:22.328000+00:00",
+    "lat": 13.8594,
+    "lon": 145.0892,
+    "depth_km": 111.584,
+    "magnitude": 5.3,
+    "mag_type": "mb",
+    "place": "41 km NNE of Yigo Village, Guam",
+    "cdi": 4.2,
+    "mmi": null,
+    "felt_reports": 21,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 13.490870000000001,
+        "lon": 144.78749249999998,
+        "intensity": 4.6,
+        "responses": 1
+      },
+      {
+        "lat": 13.54565,
+        "lon": 144.85164,
+        "intensity": 4.1,
+        "responses": 1
+      },
+      {
+        "lat": 13.5183,
+        "lon": 144.82418,
+        "intensity": 4.1,
+        "responses": 1
+      },
+      {
+        "lat": 13.518460000000001,
+        "lon": 144.8426475,
+        "intensity": 3.9,
+        "responses": 2
+      },
+      {
+        "lat": 13.518139999999999,
+        "lon": 144.80571,
+        "intensity": 3.6,
+        "responses": 2
+      },
+      {
+        "lat": 13.44561,
+        "lon": 144.77867500000002,
+        "intensity": 3.4,
+        "responses": 2
+      },
+      {
+        "lat": 13.5642675,
+        "lon": 144.91613,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 13.536927500000001,
+        "lon": 144.88866,
+        "intensity": 3.1,
+        "responses": 2
+      },
+      {
+        "lat": 14.14455,
+        "lon": 145.151735,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 13.58187,
+        "lon": 144.86055,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 14.1444775,
+        "lon": 145.142475,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 13.4997425,
+        "lon": 144.7689425,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 13.45481,
+        "lon": 144.797055,
+        "intensity": 2.2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "snam_url": null,
