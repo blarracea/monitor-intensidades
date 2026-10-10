@@ -2268,7 +2268,7 @@
     "id": "ci41346143",
     "source": "usgs",
     "time": "2026-10-10T16:59:07.790000+00:00",
-    "updated": "2026-10-10T17:04:09.207000+00:00",
+    "updated": "2026-10-10T17:10:15.340000+00:00",
     "lat": 33.6373333333333,
     "lon": -117.018333333333,
     "depth_km": 13.98,
@@ -2277,13 +2277,43 @@
     "place": "10 km SE of Winchester, CA",
     "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 7,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 33.570170000000005,
         "lon": -116.9838325,
         "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 33.71446,
+        "lon": -116.91905,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.687385,
+        "lon": -117.10248999999999,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.732519999999994,
+        "lon": -116.9730075,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.741535,
+        "lon": -117.04857750000001,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 33.5971975,
+        "lon": -117.091605,
+        "intensity": 2,
         "responses": 1
       }
     ],
