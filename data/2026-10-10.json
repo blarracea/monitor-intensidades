@@ -1493,7 +1493,7 @@
     "id": "us6000u1dh",
     "source": "usgs",
     "time": "2026-10-10T07:47:00.391000+00:00",
-    "updated": "2026-10-10T10:00:21.368000+00:00",
+    "updated": "2026-10-10T12:37:34.918000+00:00",
     "lat": 17.8191,
     "lon": -92.7794,
     "depth_km": 10,
@@ -1502,12 +1502,18 @@
     "place": "4 km W of Aquiles Serdán 1ra. Sección, Mexico",
     "cdi": 2,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 16.73703,
         "lon": -92.6388,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 17.9847475,
+        "lon": -92.92915500000001,
         "intensity": 2,
         "responses": 1
       }
@@ -1781,6 +1787,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386149.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386149.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000u1ej",
+    "source": "usgs",
+    "time": "2026-10-10T12:21:02.813000+00:00",
+    "updated": "2026-10-10T12:37:37.040000+00:00",
+    "lat": -19.9451,
+    "lon": -177.5258,
+    "depth_km": 560.2,
+    "magnitude": 4.6,
+    "mag_type": "mb",
+    "place": "268 km WNW of Houma, Tonga",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ej",
     "relevant": false,
     "keywords_matched": []
   }
