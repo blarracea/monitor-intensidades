@@ -118,7 +118,7 @@
     "id": "us6000u1hw",
     "source": "usgs",
     "time": "2026-10-11T01:50:52.299000+00:00",
-    "updated": "2026-10-11T02:48:53.775000+00:00",
+    "updated": "2026-10-11T03:50:36.082000+00:00",
     "lat": 7.5139,
     "lon": -80.4283,
     "depth_km": 10,
@@ -127,9 +127,15 @@
     "place": "3 km NW of Flores, Panama",
     "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 13,
+    "felt_reports": 15,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 7.8385575,
+        "lon": -80.38772,
+        "intensity": 3.4,
+        "responses": 1
+      },
       {
         "lat": 8.9848025,
         "lon": -79.521785,
@@ -137,9 +143,9 @@
         "responses": 1
       },
       {
-        "lat": 7.8385575,
-        "lon": -80.38772,
-        "intensity": 3.4,
+        "lat": 8.850205,
+        "lon": -79.81327,
+        "intensity": 3.1,
         "responses": 1
       },
       {
@@ -155,9 +161,9 @@
         "responses": 1
       },
       {
-        "lat": 8.850205,
-        "lon": -79.81327,
-        "intensity": 3.1,
+        "lat": 9.056877499999999,
+        "lon": -79.4578175,
+        "intensity": 2.7,
         "responses": 1
       },
       {
@@ -165,6 +171,12 @@
         "lon": -79.53095250000001,
         "intensity": 2.5,
         "responses": 3
+      },
+      {
+        "lat": 8.019905000000001,
+        "lon": -80.9137825,
+        "intensity": 2.5,
+        "responses": 1
       },
       {
         "lat": 8.921825,
@@ -317,6 +329,30 @@
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1i6",
     "relevant": true,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/386264.html",
+    "source": "csn",
+    "time": "2026-10-11T03:45:18+00:00",
+    "updated": "2026-10-11T03:45:18+00:00",
+    "lat": -25.06,
+    "lon": -69.41,
+    "depth_km": 94.0,
+    "magnitude": 3.2,
+    "mag_type": "MLv",
+    "place": "95 km al SO de Mina La Escondida, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386264.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386264.html",
+    "relevant": false,
     "keywords_matched": []
   }
 ]
