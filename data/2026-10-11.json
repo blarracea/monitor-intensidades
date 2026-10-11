@@ -240,5 +240,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386257.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u1i0",
+    "source": "usgs",
+    "time": "2026-10-11T02:35:35.917000+00:00",
+    "updated": "2026-10-11T02:52:52.040000+00:00",
+    "lat": 5.4706,
+    "lon": 126.6164,
+    "depth_km": 121.25,
+    "magnitude": 4.6,
+    "mag_type": "mb",
+    "place": "109 km SSE of Pondaguitan, Philippines",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1i0",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
