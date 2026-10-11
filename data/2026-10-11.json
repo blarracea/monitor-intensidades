@@ -644,18 +644,54 @@
     "id": "ci41346375",
     "source": "usgs",
     "time": "2026-10-11T08:04:03.090000+00:00",
-    "updated": "2026-10-11T08:08:58.463000+00:00",
+    "updated": "2026-10-11T08:15:13.700000+00:00",
     "lat": 33.77783203125,
     "lon": -116.921165466309,
     "depth_km": 12.3900003433228,
     "magnitude": 3.12133880345907,
     "mag_type": "ml",
     "place": "4 km E of San Jacinto, CA",
-    "cdi": 2,
+    "cdi": 2.7,
     "mmi": 3.075,
-    "felt_reports": 2,
+    "felt_reports": 15,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 33.732519999999994,
+        "lon": -116.9730075,
+        "intensity": 4.1,
+        "responses": 1
+      },
+      {
+        "lat": 33.759555,
+        "lon": -116.919005,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 33.7235,
+        "lon": -116.98380499999999,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 33.741535,
+        "lon": -117.04857750000001,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 33.750527500000004,
+        "lon": -116.90822,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 33.768585,
+        "lon": -116.94059999999999,
+        "intensity": 2.4,
+        "responses": 2
+      },
       {
         "lat": 33.7234775,
         "lon": -116.91904,
@@ -663,10 +699,40 @@
         "responses": 1
       },
       {
+        "lat": 33.56096,
+        "lon": -117.2208525,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.66923,
+        "lon": -117.199555,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.588155,
+        "lon": -117.12392750000001,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.579135,
+        "lon": -117.12391500000001,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 33.72349,
+        "lon": -116.94063,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 33.768600000000006,
         "lon": -116.9838,
         "intensity": 2,
-        "responses": 1
+        "responses": 2
       }
     ],
     "intensity_source": "usgs_dyfi",
@@ -674,6 +740,30 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41346375",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000u1jb",
+    "source": "usgs",
+    "time": "2026-10-11T08:04:54.268000+00:00",
+    "updated": "2026-10-11T08:13:58.040000+00:00",
+    "lat": 31.6276,
+    "lon": -104.4577,
+    "depth_km": 7.704,
+    "magnitude": 3.8,
+    "mag_type": "mwr",
+    "place": "61 km S of Whites City, New Mexico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1jb",
     "relevant": false,
     "keywords_matched": []
   }
