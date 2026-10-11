@@ -125,15 +125,33 @@
     "tsunami_flag": false,
     "dyfi_points": [
       {
+        "lat": 8.9848025,
+        "lon": -79.521785,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
         "lat": 7.8385575,
         "lon": -80.38772,
         "intensity": 3.4,
         "responses": 1
       },
       {
+        "lat": 9.038640000000001,
+        "lon": -79.42151,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
         "lat": 8.966755,
         "lon": -79.53095250000001,
         "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 8.99377,
+        "lon": -79.5035575,
+        "intensity": 2,
         "responses": 1
       }
     ],
@@ -166,6 +184,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386253.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386253.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/386257.html",
+    "source": "csn",
+    "time": "2026-10-11T02:13:14+00:00",
+    "updated": "2026-10-11T02:13:14+00:00",
+    "lat": -32.98,
+    "lon": -70.26,
+    "depth_km": 101.0,
+    "magnitude": 2.8,
+    "mag_type": "MLv",
+    "place": "36 km al SE de Los Andes, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386257.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386257.html",
     "relevant": false,
     "keywords_matched": []
   }
