@@ -615,5 +615,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925616",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u1j3",
+    "source": "usgs",
+    "time": "2026-10-11T07:28:52.878000+00:00",
+    "updated": "2026-10-11T07:46:37.040000+00:00",
+    "lat": -23.6919,
+    "lon": 179.9648,
+    "depth_km": 546.339,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "south of the Fiji Islands",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1j3",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
