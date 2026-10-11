@@ -1357,5 +1357,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386316.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u1ka",
+    "source": "usgs",
+    "time": "2026-10-11T12:13:18.599000+00:00",
+    "updated": "2026-10-11T12:31:54.040000+00:00",
+    "lat": 23.5015,
+    "lon": 126.1264,
+    "depth_km": 10,
+    "magnitude": 4.8,
+    "mag_type": "mww",
+    "place": "165 km SSE of Miyakojima, Japan",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ka",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
