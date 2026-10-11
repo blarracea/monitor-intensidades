@@ -294,5 +294,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386262.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u1i6",
+    "source": "usgs",
+    "time": "2026-10-11T03:30:17.430000+00:00",
+    "updated": "2026-10-11T03:49:32.040000+00:00",
+    "lat": -8.6161,
+    "lon": 106.526,
+    "depth_km": 10,
+    "magnitude": 5.2,
+    "mag_type": "mb",
+    "place": "180 km S of Pelabuhanratu, Indonesia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1i6",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
