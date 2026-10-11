@@ -1429,5 +1429,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026udrplv",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/386327.html",
+    "source": "csn",
+    "time": "2026-10-11T12:54:15+00:00",
+    "updated": "2026-10-11T12:54:15+00:00",
+    "lat": -20.84,
+    "lon": -69.14,
+    "depth_km": 112.0,
+    "magnitude": 2.6,
+    "mag_type": "MLv",
+    "place": "44 km al SE de Pica, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386327.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386327.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
