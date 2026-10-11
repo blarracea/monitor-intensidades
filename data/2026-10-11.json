@@ -641,27 +641,45 @@
     "keywords_matched": []
   },
   {
+    "id": "us6000u1j9",
+    "source": "usgs",
+    "time": "2026-10-11T08:02:07.656000+00:00",
+    "updated": "2026-10-11T08:18:14.040000+00:00",
+    "lat": 31.6351,
+    "lon": -104.4813,
+    "depth_km": 9.318,
+    "magnitude": 2.6,
+    "mag_type": "ml",
+    "place": "60 km S of Whites City, New Mexico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1j9",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "ci41346375",
     "source": "usgs",
     "time": "2026-10-11T08:04:03.090000+00:00",
-    "updated": "2026-10-11T08:15:13.700000+00:00",
+    "updated": "2026-10-11T08:20:21.446000+00:00",
     "lat": 33.77783203125,
     "lon": -116.921165466309,
     "depth_km": 12.3900003433228,
     "magnitude": 3.12133880345907,
     "mag_type": "ml",
     "place": "4 km E of San Jacinto, CA",
-    "cdi": 2.7,
-    "mmi": 3.075,
-    "felt_reports": 15,
+    "cdi": 3.1,
+    "mmi": 3.07,
+    "felt_reports": 34,
     "tsunami_flag": false,
     "dyfi_points": [
-      {
-        "lat": 33.732519999999994,
-        "lon": -116.9730075,
-        "intensity": 4.1,
-        "responses": 1
-      },
       {
         "lat": 33.759555,
         "lon": -116.919005,
@@ -675,10 +693,34 @@
         "responses": 1
       },
       {
-        "lat": 33.741535,
-        "lon": -117.04857750000001,
-        "intensity": 2.7,
+        "lat": 33.732519999999994,
+        "lon": -116.9730075,
+        "intensity": 3.3,
+        "responses": 3
+      },
+      {
+        "lat": 33.56096,
+        "lon": -117.2208525,
+        "intensity": 3.1,
+        "responses": 3
+      },
+      {
+        "lat": 33.74154,
+        "lon": -116.973005,
+        "intensity": 3.1,
         "responses": 1
+      },
+      {
+        "lat": 33.741535,
+        "lon": -116.9514125,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 33.768585,
+        "lon": -116.94059999999999,
+        "intensity": 3,
+        "responses": 3
       },
       {
         "lat": 33.750527500000004,
@@ -687,21 +729,9 @@
         "responses": 1
       },
       {
-        "lat": 33.768585,
-        "lon": -116.94059999999999,
-        "intensity": 2.4,
-        "responses": 2
-      },
-      {
-        "lat": 33.7234775,
-        "lon": -116.91904,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 33.56096,
-        "lon": -117.2208525,
-        "intensity": 2.2,
+        "lat": 33.741535,
+        "lon": -117.04857750000001,
+        "intensity": 2.7,
         "responses": 1
       },
       {
@@ -717,8 +747,32 @@
         "responses": 1
       },
       {
-        "lat": 33.579135,
-        "lon": -117.12391500000001,
+        "lat": 33.7234775,
+        "lon": -116.91904,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.786640000000006,
+        "lon": -116.994595,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.67821,
+        "lon": -117.2211525,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.68742,
+        "lon": -116.951445,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.786640000000006,
+        "lon": -117.00540000000001,
         "intensity": 2,
         "responses": 1
       },
@@ -729,10 +783,58 @@
         "responses": 1
       },
       {
+        "lat": 33.93056,
+        "lon": -116.69163,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 33.714487500000004,
+        "lon": -116.99459999999999,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 33.76858,
+        "lon": -116.9298,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 33.768600000000006,
         "lon": -116.9838,
         "intensity": 2,
         "responses": 2
+      },
+      {
+        "lat": 33.579135,
+        "lon": -117.12391500000001,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 33.52508,
+        "lon": -116.99461500000001,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 33.6873,
+        "lon": -117.178015,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 33.57905,
+        "lon": -117.18857,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 33.8399,
+        "lon": -116.54064,
+        "intensity": 1,
+        "responses": 1
       }
     ],
     "intensity_source": "usgs_dyfi",
@@ -747,7 +849,7 @@
     "id": "us6000u1jb",
     "source": "usgs",
     "time": "2026-10-11T08:04:54.268000+00:00",
-    "updated": "2026-10-11T08:13:58.040000+00:00",
+    "updated": "2026-10-11T08:18:34.178000+00:00",
     "lat": 31.6276,
     "lon": -104.4577,
     "depth_km": 7.704,
@@ -755,7 +857,7 @@
     "mag_type": "mwr",
     "place": "61 km S of Whites City, New Mexico",
     "cdi": null,
-    "mmi": null,
+    "mmi": 4.028,
     "felt_reports": 0,
     "tsunami_flag": false,
     "dyfi_points": [],
