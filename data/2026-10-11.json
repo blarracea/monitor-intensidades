@@ -728,7 +728,7 @@
     "id": "ci41346375",
     "source": "usgs",
     "time": "2026-10-11T08:04:03.060000+00:00",
-    "updated": "2026-10-11T17:46:37.179000+00:00",
+    "updated": "2026-10-11T20:22:09.174000+00:00",
     "lat": 33.778,
     "lon": -116.919666666667,
     "depth_km": 12.14,
@@ -737,18 +737,30 @@
     "place": "4 km E of San Jacinto, CA",
     "cdi": 2.9,
     "mmi": 3.212,
-    "felt_reports": 56,
+    "felt_reports": 57,
     "tsunami_flag": false,
     "dyfi_points": [
       {
-        "lat": 33.759555,
-        "lon": -116.919005,
+        "lat": 33.7235,
+        "lon": -116.98380499999999,
         "intensity": 3.4,
         "responses": 1
       },
       {
-        "lat": 33.7235,
-        "lon": -116.98380499999999,
+        "lat": 33.7956525,
+        "lon": -116.962185,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 33.732519999999994,
+        "lon": -117.0161875,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 33.759555,
+        "lon": -116.919005,
         "intensity": 3.4,
         "responses": 1
       },
@@ -760,19 +772,19 @@
       },
       {
         "lat": 33.732519999999994,
-        "lon": -117.0161875,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
-        "lat": 33.732519999999994,
         "lon": -116.9730075,
         "intensity": 3.3,
         "responses": 3
       },
       {
-        "lat": 33.7144825,
-        "lon": -117.01618500000001,
+        "lat": 33.79566,
+        "lon": -116.98379,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 33.741535,
+        "lon": -116.9514125,
         "intensity": 3.1,
         "responses": 1
       },
@@ -789,14 +801,8 @@
         "responses": 1
       },
       {
-        "lat": 33.741535,
-        "lon": -116.9514125,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 33.79566,
-        "lon": -116.98379,
+        "lat": 33.7144825,
+        "lon": -117.01618500000001,
         "intensity": 3.1,
         "responses": 1
       },
@@ -813,20 +819,14 @@
         "responses": 3
       },
       {
-        "lat": 33.732519999999994,
-        "lon": -116.96221249999999,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
         "lat": 33.768595000000005,
         "lon": -117.03779,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 33.750527500000004,
-        "lon": -116.90822,
+        "lat": 33.732519999999994,
+        "lon": -116.96221249999999,
         "intensity": 2.7,
         "responses": 1
       },
@@ -837,32 +837,14 @@
         "responses": 1
       },
       {
-        "lat": 33.66923,
-        "lon": -117.199555,
-        "intensity": 2.2,
+        "lat": 33.750527500000004,
+        "lon": -116.90822,
+        "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 33.804675,
-        "lon": -116.972985,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 33.696345,
-        "lon": -117.156455,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 33.786640000000006,
-        "lon": -116.994595,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 33.353605,
-        "lon": -117.15584,
+        "lat": 33.588155,
+        "lon": -117.12392750000001,
         "intensity": 2.2,
         "responses": 1
       },
@@ -873,14 +855,32 @@
         "responses": 1
       },
       {
+        "lat": 33.786640000000006,
+        "lon": -116.994595,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.696345,
+        "lon": -117.156455,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.353605,
+        "lon": -117.15584,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
         "lat": 33.67821,
         "lon": -117.2211525,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 33.588155,
-        "lon": -117.12392750000001,
+        "lat": 33.804675,
+        "lon": -116.972985,
         "intensity": 2.2,
         "responses": 1
       },
@@ -891,9 +891,9 @@
         "responses": 1
       },
       {
-        "lat": 33.723485,
-        "lon": -116.929835,
-        "intensity": 2,
+        "lat": 33.66923,
+        "lon": -117.199555,
+        "intensity": 2.2,
         "responses": 1
       },
       {
@@ -903,8 +903,20 @@
         "responses": 1
       },
       {
-        "lat": 33.93056,
-        "lon": -116.69163,
+        "lat": 33.723485,
+        "lon": -116.929835,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 33.768600000000006,
+        "lon": -116.9838,
+        "intensity": 2,
+        "responses": 2
+      },
+      {
+        "lat": 33.624265,
+        "lon": -117.080855,
         "intensity": 2,
         "responses": 1
       },
@@ -921,32 +933,8 @@
         "responses": 1
       },
       {
-        "lat": 33.714487500000004,
-        "lon": -116.99459999999999,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 33.72349,
-        "lon": -116.94063,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 34.018119999999996,
-        "lon": -117.86104,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
         "lat": 33.52508,
         "lon": -116.99461500000001,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 33.579135,
-        "lon": -117.12391500000001,
         "intensity": 2,
         "responses": 1
       },
@@ -957,8 +945,26 @@
         "responses": 1
       },
       {
-        "lat": 33.624265,
-        "lon": -117.080855,
+        "lat": 33.72349,
+        "lon": -116.94063,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 33.93056,
+        "lon": -116.69163,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 33.579135,
+        "lon": -117.12391500000001,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 33.714487500000004,
+        "lon": -116.99459999999999,
         "intensity": 2,
         "responses": 1
       },
@@ -969,26 +975,14 @@
         "responses": 1
       },
       {
-        "lat": 33.768600000000006,
-        "lon": -116.9838,
+        "lat": 34.018119999999996,
+        "lon": -117.86104,
         "intensity": 2,
-        "responses": 2
-      },
-      {
-        "lat": 34.1146025,
-        "lon": -118.187295,
-        "intensity": 1,
         "responses": 1
       },
       {
-        "lat": 33.75958,
-        "lon": -116.9838,
-        "intensity": 1,
-        "responses": 1
-      },
-      {
-        "lat": 33.218,
-        "lon": -117.31657,
+        "lat": 33.57905,
+        "lon": -117.18857,
         "intensity": 1,
         "responses": 1
       },
@@ -999,8 +993,20 @@
         "responses": 1
       },
       {
-        "lat": 33.57905,
-        "lon": -117.18857,
+        "lat": 33.75958,
+        "lon": -116.9838,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 34.1146025,
+        "lon": -118.187295,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 33.218,
+        "lon": -117.31657,
         "intensity": 1,
         "responses": 1
       },
@@ -2118,6 +2124,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386397.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386397.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/386402.html",
+    "source": "csn",
+    "time": "2026-10-11T20:16:59+00:00",
+    "updated": "2026-10-11T20:16:59+00:00",
+    "lat": -23.51,
+    "lon": -70.93,
+    "depth_km": 10.0,
+    "magnitude": 2.9,
+    "mag_type": "MLv",
+    "place": "56 km al O de Antofagasta, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386402.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386402.html",
     "relevant": false,
     "keywords_matched": []
   }
