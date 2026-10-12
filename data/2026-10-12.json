@@ -1046,5 +1046,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386537.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u1re",
+    "source": "usgs",
+    "time": "2026-10-12T11:07:27.400000+00:00",
+    "updated": "2026-10-12T11:34:47.040000+00:00",
+    "lat": 7.4832,
+    "lon": -80.646,
+    "depth_km": 10,
+    "magnitude": 4.3,
+    "mag_type": "mb",
+    "place": "6 km NNW of El Cortezo, Panama",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1re",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
