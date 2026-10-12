@@ -1825,14 +1825,14 @@
   {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/386598.html",
     "source": "csn",
-    "time": "2026-10-12T18:17:19+00:00",
-    "updated": "2026-10-12T18:17:19+00:00",
-    "lat": -33.69,
-    "lon": -71.72,
-    "depth_km": 41.0,
+    "time": "2026-10-12T18:17:18+00:00",
+    "updated": "2026-10-12T18:17:18+00:00",
+    "lat": -33.7,
+    "lon": -71.75,
+    "depth_km": 46.0,
     "magnitude": 4.8,
     "mag_type": "MLv",
-    "place": "16 km al SO de San Antonio, Chile",
+    "place": "19 km al SO de San Antonio, Chile",
     "cdi": null,
     "mmi": null,
     "felt_reports": null,
@@ -1844,6 +1844,14 @@
         "intensity": 5,
         "responses": null,
         "comuna": "Casablanca",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -33.0472,
+        "lon": -71.6127,
+        "intensity": 5,
+        "responses": null,
+        "comuna": "Valparaíso",
         "region": "Valparaíso"
       },
       {
@@ -1863,11 +1871,99 @@
         "region": "Valparaíso"
       },
       {
+        "lat": -33.5928,
+        "lon": -71.6128,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "San Antonio",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -32.750687,
+        "lon": -70.7252688,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "San Felipe",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -33.0246,
+        "lon": -71.5518,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Viña del Mar",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -33.0852808,
+        "lon": -70.9293877,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Tiltil",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.4022289,
+        "lon": -71.1293733,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Curacaví",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.6855134,
+        "lon": -71.2145796,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Melipilla",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.5241,
+        "lon": -70.5978,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "La Florida",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.4765918,
+        "lon": -70.5418308,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Peñalolen",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.6644388,
+        "lon": -70.9302778,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Talagante",
+        "region": "Metropolitana de Santiago"
+      },
+      {
         "lat": -33.4489,
         "lon": -70.6693,
         "intensity": 3,
         "responses": null,
         "comuna": "Santiago",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.5922859,
+        "lon": -70.7045838,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "San Bernardo",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.6678197,
+        "lon": -71.0272362,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "El Monte",
         "region": "Metropolitana de Santiago"
       },
       {
@@ -1916,6 +2012,38 @@
         "intensity": 3,
         "responses": null,
         "comuna": "Navidad",
+        "region": "Libertador Bernardo O'Higgins"
+      },
+      {
+        "lat": -34.2917304,
+        "lon": -71.3098439,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Las Cabras",
+        "region": "Libertador Bernardo O'Higgins"
+      },
+      {
+        "lat": -34.3959163,
+        "lon": -71.1694264,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Peumo",
+        "region": "Libertador Bernardo O'Higgins"
+      },
+      {
+        "lat": -34.4392675,
+        "lon": -71.07679,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "San Vicente de Tagua Tagua",
+        "region": "Libertador Bernardo O'Higgins"
+      },
+      {
+        "lat": -34.3668668,
+        "lon": -71.6421489,
+        "intensity": 2,
+        "responses": null,
+        "comuna": "Marchihue",
         "region": "Libertador Bernardo O'Higgins"
       }
     ],
