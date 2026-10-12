@@ -1070,5 +1070,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1re",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/386543.html",
+    "source": "csn",
+    "time": "2026-10-12T11:35:41+00:00",
+    "updated": "2026-10-12T11:35:41+00:00",
+    "lat": -32.25,
+    "lon": -71.12,
+    "depth_km": 85.0,
+    "magnitude": 3.2,
+    "mag_type": "MLv",
+    "place": "18 km al O de Petorca, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386543.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386543.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
