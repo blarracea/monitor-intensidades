@@ -1557,5 +1557,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386566.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "nc75448351",
+    "source": "usgs",
+    "time": "2026-10-12T15:21:56.130000+00:00",
+    "updated": "2026-10-12T15:23:58.947000+00:00",
+    "lat": 40.2890014648438,
+    "lon": -124.62483215332,
+    "depth_km": 0.730000019073486,
+    "magnitude": 3.43,
+    "mag_type": "ml",
+    "place": "29 km W of Petrolia, CA",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75448351",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
