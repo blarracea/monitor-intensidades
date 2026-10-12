@@ -152,13 +152,14 @@
     "source": "La Tercera",
     "published": "2026-10-11T16:26:12+00:00",
     "keywords_matched": [
+      "sismo",
       "temblor",
       "temblo"
     ],
     "chile": true,
-    "place": null,
-    "lat": null,
-    "lon": null
+    "place": "valparaiso",
+    "lat": -33.0472,
+    "lon": -71.6127
   },
   {
     "title": "Temblor en Chile hoy 11 de octubre: Epicentro del sismo según CSN - RPP Noticias",
@@ -2030,9 +2031,10 @@
     "source": "La Tercera",
     "published": "2026-10-09T19:20:09+00:00",
     "keywords_matched": [
-      "terremoto"
+      "terremoto",
+      "tsunami"
     ],
-    "chile": false,
+    "chile": true,
     "place": null,
     "lat": null,
     "lon": null
