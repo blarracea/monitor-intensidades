@@ -442,21 +442,33 @@
     "id": "us6000u1pf",
     "source": "usgs",
     "time": "2026-10-12T04:15:02.936000+00:00",
-    "updated": "2026-10-12T05:09:52.072000+00:00",
+    "updated": "2026-10-12T05:57:02.852000+00:00",
     "lat": 7.5974,
     "lon": -80.5351,
     "depth_km": 10,
     "magnitude": 4.2,
     "mag_type": "mb",
     "place": "8 km SSE of Llano de Piedra, Panama",
-    "cdi": 2,
+    "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 2,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
       {
+        "lat": 8.164475,
+        "lon": -80.632335,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
         "lat": 8.24577,
         "lon": -80.5233025,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 7.7208175,
+        "lon": -80.2881425,
         "intensity": 2,
         "responses": 1
       }
@@ -580,8 +592,27 @@
     "mmi": null,
     "felt_reports": 3,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 35.0536025,
+        "lon": -97.94181,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 34.917045,
+        "lon": -97.801255,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 35.044492500000004,
+        "lon": -97.93096249999999,
+        "intensity": 2.5,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "snam_url": null,
