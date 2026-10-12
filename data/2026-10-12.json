@@ -1821,5 +1821,70 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ufxqfk",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/386598.html",
+    "source": "csn",
+    "time": "2026-10-12T18:17:19+00:00",
+    "updated": "2026-10-12T18:17:19+00:00",
+    "lat": -33.69,
+    "lon": -71.72,
+    "depth_km": 41.0,
+    "magnitude": 4.8,
+    "mag_type": "MLv",
+    "place": "16 km al SO de San Antonio, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": -33.3205864,
+        "lon": -71.4100762,
+        "intensity": 5,
+        "responses": null,
+        "comuna": "Casablanca",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -33.0498135,
+        "lon": -71.4415282,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Quilpué",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -32.8811,
+        "lon": -71.2492,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Quillota",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -33.4489,
+        "lon": -70.6693,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Santiago",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -34.1701,
+        "lon": -70.7444,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Rancagua",
+        "region": "Libertador Bernardo O'Higgins"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-las-regiones-metropolitana-y-de-ohiggins-2026-10-12-15-21-35",
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386598.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386598.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
