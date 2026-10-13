@@ -1180,5 +1180,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386749.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "pt26286001",
+    "source": "usgs",
+    "time": "2026-10-13T12:23:07+00:00",
+    "updated": "2026-10-13T12:34:03.010000+00:00",
+    "lat": -0.196,
+    "lon": -19.231,
+    "depth_km": 10,
+    "magnitude": 6.8,
+    "mag_type": "Mi",
+    "place": "central Mid-Atlantic Ridge",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt26286001",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
