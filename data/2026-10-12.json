@@ -2409,7 +2409,7 @@
     "id": "us6000u1wn",
     "source": "usgs",
     "time": "2026-10-12T23:20:36.003000+00:00",
-    "updated": "2026-10-13T03:04:22.370000+00:00",
+    "updated": "2026-10-13T03:47:45.020000+00:00",
     "lat": 7.6896,
     "lon": -81.4896,
     "depth_km": 11,
@@ -2418,7 +2418,7 @@
     "place": "17 km W of Río Grande, Panama",
     "cdi": 5.4,
     "mmi": 7.401,
-    "felt_reports": 62,
+    "felt_reports": 64,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2488,8 +2488,8 @@
         "responses": 1
       },
       {
-        "lat": 9.01189,
-        "lon": -79.51258,
+        "lat": 8.23607,
+        "lon": -81.86708,
         "intensity": 3.8,
         "responses": 1
       },
@@ -2500,8 +2500,8 @@
         "responses": 1
       },
       {
-        "lat": 8.23607,
-        "lon": -81.86708,
+        "lat": 9.01189,
+        "lon": -79.51258,
         "intensity": 3.8,
         "responses": 1
       },
@@ -2509,6 +2509,24 @@
         "lat": 9.6218575,
         "lon": -84.6355175,
         "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 8.841275,
+        "lon": -79.84966750000001,
+        "intensity": 3.6,
+        "responses": 1
+      },
+      {
+        "lat": 9.44579,
+        "lon": -82.51655,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 9.65262,
+        "lon": -82.75435999999999,
+        "intensity": 3.4,
         "responses": 1
       },
       {
@@ -2524,8 +2542,8 @@
         "responses": 1
       },
       {
-        "lat": 9.293035,
-        "lon": -82.2701075,
+        "lat": 8.98484,
+        "lon": -79.53088,
         "intensity": 3.4,
         "responses": 1
       },
@@ -2542,21 +2560,15 @@
         "responses": 1
       },
       {
-        "lat": 9.65262,
-        "lon": -82.75435999999999,
+        "lat": 9.293035,
+        "lon": -82.2701075,
         "intensity": 3.4,
         "responses": 1
       },
       {
-        "lat": 8.98484,
-        "lon": -79.53088,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
-        "lat": 9.44579,
-        "lon": -82.51655,
-        "intensity": 3.4,
+        "lat": 8.99388,
+        "lon": -79.5308425,
+        "intensity": 3.1,
         "responses": 1
       },
       {
@@ -2564,6 +2576,12 @@
         "lon": -82.2429575,
         "intensity": 3.1,
         "responses": 2
+      },
+      {
+        "lat": 7.99235,
+        "lon": -80.4056375,
+        "intensity": 3.1,
+        "responses": 1
       },
       {
         "lat": 9.04787,
@@ -2578,38 +2596,14 @@
         "responses": 2
       },
       {
-        "lat": 8.99388,
-        "lon": -79.5308425,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 7.99235,
-        "lon": -80.4056375,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
         "lat": 8.966755,
         "lon": -79.53095250000001,
-        "intensity": 3,
-        "responses": 4
+        "intensity": 2.9,
+        "responses": 5
       },
       {
-        "lat": 8.9582625,
-        "lon": -79.67649750000001,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 9.00285,
-        "lon": -79.5126175,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 8.740875,
-        "lon": -82.4226975,
+        "lat": 8.8772475,
+        "lon": -79.7859,
         "intensity": 2.7,
         "responses": 1
       },
@@ -2620,14 +2614,20 @@
         "responses": 1
       },
       {
+        "lat": 8.740875,
+        "lon": -82.4226975,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": 8.30618,
         "lon": -82.59358,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 8.7678275,
-        "lon": -82.468245,
+        "lat": 8.9582625,
+        "lon": -79.67649750000001,
         "intensity": 2.7,
         "responses": 1
       },
@@ -2638,8 +2638,14 @@
         "responses": 1
       },
       {
-        "lat": 8.8772475,
-        "lon": -79.7859,
+        "lat": 8.7678275,
+        "lon": -82.468245,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 9.00285,
+        "lon": -79.5126175,
         "intensity": 2.7,
         "responses": 1
       },
@@ -2650,12 +2656,6 @@
         "responses": 3
       },
       {
-        "lat": 9.0477975,
-        "lon": -79.44876,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
         "lat": 8.7417725,
         "lon": -79.84088,
         "intensity": 2.2,
@@ -2664,6 +2664,12 @@
       {
         "lat": 8.9700975,
         "lon": -83.523705,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 9.0477975,
+        "lon": -79.44876,
         "intensity": 2.2,
         "responses": 1
       },
@@ -2680,26 +2686,14 @@
         "responses": 1
       },
       {
-        "lat": 8.9937325,
-        "lon": -79.494465,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 8.877305,
-        "lon": -79.80409,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 8.9494425,
-        "lon": -79.74019,
+        "lat": 8.97576,
+        "lon": -79.5218225,
         "intensity": 2,
         "responses": 2
       },
       {
-        "lat": 8.8124,
-        "lon": -82.622955,
+        "lat": 8.877305,
+        "lon": -79.80409,
         "intensity": 2,
         "responses": 1
       },
@@ -2710,10 +2704,16 @@
         "responses": 1
       },
       {
-        "lat": 8.97576,
-        "lon": -79.5218225,
+        "lat": 9.338505,
+        "lon": -79.802555,
         "intensity": 2,
-        "responses": 2
+        "responses": 1
+      },
+      {
+        "lat": 8.8124,
+        "lon": -82.622955,
+        "intensity": 2,
+        "responses": 1
       },
       {
         "lat": 8.99377,
@@ -2722,8 +2722,14 @@
         "responses": 2
       },
       {
-        "lat": 9.338505,
-        "lon": -79.802555,
+        "lat": 8.9494425,
+        "lon": -79.74019,
+        "intensity": 2,
+        "responses": 2
+      },
+      {
+        "lat": 8.9937325,
+        "lon": -79.494465,
         "intensity": 2,
         "responses": 1
       }
@@ -2812,7 +2818,7 @@
     "id": "us6000u1ww",
     "source": "usgs",
     "time": "2026-10-12T23:36:46.150000+00:00",
-    "updated": "2026-10-13T01:42:31.960000+00:00",
+    "updated": "2026-10-13T03:49:29.764000+00:00",
     "lat": 7.7328,
     "lon": -81.4934,
     "depth_km": 10,
@@ -2821,7 +2827,7 @@
     "place": "17 km W of Río Grande, Panama",
     "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 4,
+    "felt_reports": 5,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2840,6 +2846,12 @@
         "lat": 8.5978425,
         "lon": -80.132105,
         "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 8.6244225,
+        "lon": -79.91394,
+        "intensity": 2,
         "responses": 1
       }
     ],
