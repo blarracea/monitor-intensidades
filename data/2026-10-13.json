@@ -1890,5 +1890,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386804.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "hv75055482",
+    "source": "usgs",
+    "time": "2026-10-13T19:27:58.210000+00:00",
+    "updated": "2026-10-13T19:31:29.140000+00:00",
+    "lat": 19.3131675720215,
+    "lon": -155.007171630859,
+    "depth_km": 33.7000007629395,
+    "magnitude": 2.7,
+    "mag_type": "ml",
+    "place": "19 km SSW of Leilani Estates, Hawaii",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75055482",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
