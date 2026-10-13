@@ -210,11 +210,11 @@
     "time": "2026-10-13T01:44:25+00:00",
     "updated": "2026-10-13T01:44:25+00:00",
     "lat": -36.26,
-    "lon": -73.13,
-    "depth_km": 26.0,
+    "lon": -73.15,
+    "depth_km": 25.0,
     "magnitude": 4.2,
     "mag_type": "MLv",
-    "place": "33 km al O de Cobquecura, Chile",
+    "place": "35 km al O de Cobquecura, Chile",
     "cdi": null,
     "mmi": null,
     "felt_reports": null,
@@ -237,6 +237,22 @@
         "region": "Biobío"
       },
       {
+        "lat": -36.7927608,
+        "lon": -73.0943414,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Hualpén",
+        "region": "Biobío"
+      },
+      {
+        "lat": -36.8414183,
+        "lon": -73.1039909,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "San Pedro de la Paz",
+        "region": "Biobío"
+      },
+      {
         "lat": -36.9292478,
         "lon": -73.0237115,
         "intensity": 3,
@@ -245,11 +261,27 @@
         "region": "Biobío"
       },
       {
-        "lat": -36.7927608,
-        "lon": -73.0943414,
+        "lat": -37.0333,
+        "lon": -73.15,
         "intensity": 3,
         "responses": null,
-        "comuna": "Hualpén",
+        "comuna": "Coronel",
+        "region": "Biobío"
+      },
+      {
+        "lat": -36.7385838,
+        "lon": -72.9937749,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Penco",
+        "region": "Biobío"
+      },
+      {
+        "lat": -36.8253041,
+        "lon": -72.6614469,
+        "intensity": 2,
+        "responses": null,
+        "comuna": "Florida",
         "region": "Biobío"
       }
     ],
