@@ -3036,5 +3036,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1wz",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u1zs",
+    "source": "usgs",
+    "time": "2026-10-12T23:47:24.658000+00:00",
+    "updated": "2026-10-13T20:40:30.040000+00:00",
+    "lat": -5.7318,
+    "lon": 102.2066,
+    "depth_km": 10,
+    "magnitude": 4.4,
+    "mag_type": "mb",
+    "place": "213 km S of Bengkulu, Indonesia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1zs",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
