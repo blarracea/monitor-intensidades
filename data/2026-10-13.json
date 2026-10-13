@@ -1763,5 +1763,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386795.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "nc75448936",
+    "source": "usgs",
+    "time": "2026-10-13T18:28:09.450000+00:00",
+    "updated": "2026-10-13T18:29:46.128000+00:00",
+    "lat": 35.7796669006348,
+    "lon": -121.46183013916,
+    "depth_km": -0.319999992847443,
+    "magnitude": 2.57,
+    "mag_type": "md",
+    "place": "28 km SSE of Lopez Point, CA",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75448936",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
