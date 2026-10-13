@@ -227,15 +227,38 @@
         "responses": null,
         "comuna": "Concepción",
         "region": "Biobío"
+      },
+      {
+        "lat": -36.7167,
+        "lon": -73.1167,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Talcahuano",
+        "region": "Biobío"
+      },
+      {
+        "lat": -36.9292478,
+        "lon": -73.0237115,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Chiguayante",
+        "region": "Biobío"
+      },
+      {
+        "lat": -36.7927608,
+        "lon": -73.0943414,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Hualpén",
+        "region": "Biobío"
       }
     ],
     "intensity_source": "csn",
-    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-del-biobio-2026-10-12-22-48-36",
+    "senapred_url": "https://www.senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-del-biobio-2026-10-12-22-48-36",
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386667.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386667.html",
     "relevant": false,
-    "keywords_matched": [],
-    "senapred_match_time": "2026-10-12T22:48:36-03:00"
+    "keywords_matched": []
   }
 ]
