@@ -1132,5 +1132,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386747.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "pr71536588",
+    "source": "usgs",
+    "time": "2026-10-13T11:41:02.180000+00:00",
+    "updated": "2026-10-13T12:22:47.680000+00:00",
+    "lat": 19.118,
+    "lon": -68.4885,
+    "depth_km": 21.94,
+    "magnitude": 3.37,
+    "mag_type": "md",
+    "place": "54 km NNE of Otra Banda, Dominican Republic",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71536588",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
