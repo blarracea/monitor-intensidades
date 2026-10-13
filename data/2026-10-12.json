@@ -2820,5 +2820,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1ww",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u1x0",
+    "source": "usgs",
+    "time": "2026-10-12T23:43:52.181000+00:00",
+    "updated": "2026-10-13T01:56:48.040000+00:00",
+    "lat": -6.3101,
+    "lon": 130.3681,
+    "depth_km": 130.231,
+    "magnitude": 4.1,
+    "mag_type": "mb",
+    "place": "274 km WSW of Tual, Indonesia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u1x0",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
