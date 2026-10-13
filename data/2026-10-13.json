@@ -2179,7 +2179,7 @@
     "id": "us6000u25y",
     "source": "usgs",
     "time": "2026-10-13T22:39:00.351000+00:00",
-    "updated": "2026-10-13T22:55:16.426000+00:00",
+    "updated": "2026-10-13T22:59:11.055000+00:00",
     "lat": 32.3686,
     "lon": -104.4718,
     "depth_km": 10,
@@ -2188,10 +2188,77 @@
     "place": "23 km NNW of Whites City, New Mexico",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 10,
+    "felt_reports": 14,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 32.367975,
+        "lon": -104.208095,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 32.422225,
+        "lon": -104.2288925,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 32.394965,
+        "lon": -104.197225,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 32.43156,
+        "lon": -104.281995,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 32.376995,
+        "lon": -104.208015,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 32.37706,
+        "lon": -104.21864500000001,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 32.36817,
+        "lon": -104.23998,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 32.413205,
+        "lon": -104.2289675,
+        "intensity": 3,
+        "responses": 4
+      },
+      {
+        "lat": 32.42242,
+        "lon": -104.2607975,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 32.35915,
+        "lon": -104.240055,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 32.467330000000004,
+        "lon": -104.22851,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "snam_url": null,
