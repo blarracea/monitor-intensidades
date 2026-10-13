@@ -1451,5 +1451,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u21s",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/386769.html",
+    "source": "csn",
+    "time": "2026-10-13T15:14:34+00:00",
+    "updated": "2026-10-13T15:14:34+00:00",
+    "lat": -23.92,
+    "lon": -67.46,
+    "depth_km": 229.0,
+    "magnitude": 2.8,
+    "mag_type": "MLv",
+    "place": "57 km al SE de Socaire, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386769.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386769.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
