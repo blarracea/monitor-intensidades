@@ -820,5 +820,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386728.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026uhbeyn",
+    "source": "usgs",
+    "time": "2026-10-13T08:28:51.613000+00:00",
+    "updated": "2026-10-13T08:30:30.688000+00:00",
+    "lat": 62.305,
+    "lon": -151.376,
+    "depth_km": 96.2,
+    "magnitude": 3,
+    "mag_type": "ml",
+    "place": "35 km N of Skwentna, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uhbeyn",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
