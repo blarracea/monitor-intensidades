@@ -1011,7 +1011,7 @@
     "id": "uw714119552",
     "source": "usgs",
     "time": "2026-10-14T09:00:04.330000+00:00",
-    "updated": "2026-10-14T12:52:46.469000+00:00",
+    "updated": "2026-10-14T13:10:17.218000+00:00",
     "lat": 47.4199981689453,
     "lon": -121.852165222168,
     "depth_km": 16.9899997711182,
@@ -1020,20 +1020,20 @@
     "place": "6 km WSW of Wilderness Rim, Washington",
     "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 49,
+    "felt_reports": 50,
     "tsunami_flag": false,
     "dyfi_points": [
-      {
-        "lat": 47.500347500000004,
-        "lon": -121.77178,
-        "intensity": 3.4,
-        "responses": 1
-      },
       {
         "lat": 47.44623,
         "lon": -121.75977499999999,
         "intensity": 3.4,
         "responses": 2
+      },
+      {
+        "lat": 47.500347500000004,
+        "lon": -121.77178,
+        "intensity": 3.4,
+        "responses": 1
       },
       {
         "lat": 47.4729275,
@@ -1054,12 +1054,6 @@
         "responses": 4
       },
       {
-        "lat": 47.5366125,
-        "lon": -121.7975075,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
         "lat": 47.45537,
         "lon": -121.772825,
         "intensity": 3.1,
@@ -1072,6 +1066,12 @@
         "responses": 1
       },
       {
+        "lat": 47.5366125,
+        "lon": -121.7975075,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
         "lat": 47.50049,
         "lon": -121.7850525,
         "intensity": 2.9,
@@ -1080,18 +1080,18 @@
       {
         "lat": 47.4823575,
         "lon": -121.7722,
-        "intensity": 2.8,
-        "responses": 4
-      },
-      {
-        "lat": 47.4820675,
-        "lon": -121.7456575,
         "intensity": 2.7,
-        "responses": 1
+        "responses": 5
       },
       {
         "lat": 47.5181975,
         "lon": -121.7580775,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 47.4820675,
+        "lon": -121.7456575,
         "intensity": 2.7,
         "responses": 1
       },
@@ -1108,14 +1108,14 @@
         "responses": 1
       },
       {
-        "lat": 47.5361875,
-        "lon": -121.757655,
+        "lat": 47.481775,
+        "lon": -121.719115,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 47.481775,
-        "lon": -121.719115,
+        "lat": 47.5361875,
+        "lon": -121.757655,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1132,26 +1132,8 @@
         "responses": 2
       },
       {
-        "lat": 47.4826375,
-        "lon": -121.79874,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 47.4825,
-        "lon": -121.78547,
-        "intensity": 2,
-        "responses": 2
-      },
-      {
         "lat": 47.472327500000006,
         "lon": -121.6795325,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 47.499314999999996,
-        "lon": -121.67885749999999,
         "intensity": 2,
         "responses": 1
       },
@@ -1168,6 +1150,24 @@
         "responses": 1
       },
       {
+        "lat": 47.499314999999996,
+        "lon": -121.67885749999999,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 47.4825,
+        "lon": -121.78547,
+        "intensity": 2,
+        "responses": 2
+      },
+      {
+        "lat": 47.4826375,
+        "lon": -121.79874,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 48.4330825,
         "lon": -123.35825249999999,
         "intensity": 1,
@@ -1179,7 +1179,7 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714119552",
-    "relevant": false,
+    "relevant": true,
     "keywords_matched": []
   },
   {
