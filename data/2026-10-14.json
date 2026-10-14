@@ -542,7 +542,7 @@
     "id": "aka2026uioapb",
     "source": "usgs",
     "time": "2026-10-14T03:53:48.898000+00:00",
-    "updated": "2026-10-14T04:04:04.982000+00:00",
+    "updated": "2026-10-14T04:50:32.550000+00:00",
     "lat": 60.996,
     "lon": -151.068,
     "depth_km": 65.6,
@@ -551,7 +551,7 @@
     "place": "8 km SSE of Tyonek, Alaska",
     "cdi": 2.2,
     "mmi": null,
-    "felt_reports": 3,
+    "felt_reports": 4,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -565,6 +565,12 @@
         "lon": -149.9075375,
         "intensity": 2,
         "responses": 2
+      },
+      {
+        "lat": 61.14453,
+        "lon": -149.963185,
+        "intensity": 1,
+        "responses": 1
       }
     ],
     "intensity_source": "usgs_dyfi",
@@ -620,6 +626,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386878.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386878.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/386880.html",
+    "source": "csn",
+    "time": "2026-10-14T04:38:01+00:00",
+    "updated": "2026-10-14T04:38:01+00:00",
+    "lat": -31.66,
+    "lon": -71.61,
+    "depth_km": 37.0,
+    "magnitude": 2.5,
+    "mag_type": "MLv",
+    "place": "29 km al N de Los Vilos, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386880.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386880.html",
     "relevant": false,
     "keywords_matched": []
   }
