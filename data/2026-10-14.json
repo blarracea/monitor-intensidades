@@ -103,14 +103,56 @@
     "mmi": null,
     "felt_reports": null,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
-    "senapred_url": null,
+    "dyfi_points": [
+      {
+        "lat": -28.5708,
+        "lon": -70.7581,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Vallenar",
+        "region": "Atacama"
+      },
+      {
+        "lat": -29.5,
+        "lon": -71.15,
+        "intensity": 5,
+        "responses": null,
+        "comuna": "La Higuera",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -29.9533,
+        "lon": -71.3436,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Coquimbo",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -29.9027,
+        "lon": -71.2519,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "La Serena",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.0167,
+        "lon": -70.6833,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Paiguano",
+        "region": "Coquimbo"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-mediana-intensidad-en-la-region-de-coquimbo-2026-10-13-21-36-11",
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386843.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386843.html",
     "relevant": false,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "senapred_match_time": "2026-10-13T21:36:11-03:00"
   },
   {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/386844.html",
@@ -746,6 +788,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386898.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386898.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/386900.html",
+    "source": "csn",
+    "time": "2026-10-14T06:45:17+00:00",
+    "updated": "2026-10-14T06:45:17+00:00",
+    "lat": -24.03,
+    "lon": -67.5,
+    "depth_km": 204.0,
+    "magnitude": 3.3,
+    "mag_type": "MLv",
+    "place": "63 km al SE de Socaire, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386900.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386900.html",
     "relevant": false,
     "keywords_matched": []
   }
