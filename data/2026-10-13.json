@@ -2108,7 +2108,7 @@
     "id": "us6000u25i",
     "source": "usgs",
     "time": "2026-10-13T21:24:21.135000+00:00",
-    "updated": "2026-10-14T00:28:05.318000+00:00",
+    "updated": "2026-10-14T12:13:38.223000+00:00",
     "lat": 6.7888,
     "lon": -73.0065,
     "depth_km": 162.209,
@@ -2117,7 +2117,7 @@
     "place": "5 km NW of Cepitá, Colombia",
     "cdi": 3.6,
     "mmi": null,
-    "felt_reports": 8,
+    "felt_reports": 9,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2133,20 +2133,26 @@
         "responses": 1
       },
       {
+        "lat": 7.784485,
+        "lon": -72.19399,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
         "lat": 6.433445,
         "lon": -73.123835,
         "intensity": 2.9,
         "responses": 1
       },
       {
-        "lat": 6.264705,
-        "lon": -75.565005,
+        "lat": 4.7355125,
+        "lon": -74.057725,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 4.7355125,
-        "lon": -74.057725,
+        "lat": 6.264705,
+        "lon": -75.565005,
         "intensity": 2.2,
         "responses": 1
       },
