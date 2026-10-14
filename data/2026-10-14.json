@@ -1011,7 +1011,7 @@
     "id": "uw714119552",
     "source": "usgs",
     "time": "2026-10-14T09:00:04.270000+00:00",
-    "updated": "2026-10-14T16:21:10.341000+00:00",
+    "updated": "2026-10-14T16:58:58.742000+00:00",
     "lat": 47.4221666666667,
     "lon": -121.825,
     "depth_km": 19.08,
@@ -1020,14 +1020,14 @@
     "place": "5 km WSW of Wilderness Rim, Washington",
     "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 62,
+    "felt_reports": 63,
     "tsunami_flag": false,
     "dyfi_points": [
       {
-        "lat": 47.4642225,
-        "lon": -121.75935,
+        "lat": 47.45537,
+        "lon": -121.772825,
         "intensity": 3.1,
-        "responses": 1
+        "responses": 2
       },
       {
         "lat": 47.5366125,
@@ -1036,14 +1036,14 @@
         "responses": 1
       },
       {
-        "lat": 47.45537,
-        "lon": -121.772825,
-        "intensity": 3.1,
-        "responses": 2
-      },
-      {
         "lat": 47.481625,
         "lon": -121.70584500000001,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 47.4642225,
+        "lon": -121.75935,
         "intensity": 3.1,
         "responses": 1
       },
@@ -1054,14 +1054,14 @@
         "responses": 7
       },
       {
-        "lat": 47.5181975,
-        "lon": -121.7580775,
+        "lat": 47.4820675,
+        "lon": -121.7456575,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 47.4820675,
-        "lon": -121.7456575,
+        "lat": 47.5181975,
+        "lon": -121.7580775,
         "intensity": 2.7,
         "responses": 1
       },
@@ -1084,14 +1084,14 @@
         "responses": 4
       },
       {
-        "lat": 47.4640775,
-        "lon": -121.7460825,
+        "lat": 47.5093425,
+        "lon": -121.7715675,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 47.5361875,
-        "lon": -121.757655,
+        "lat": 47.4640775,
+        "lon": -121.7460825,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1102,40 +1102,16 @@
         "responses": 1
       },
       {
-        "lat": 47.5093425,
-        "lon": -121.7715675,
+        "lat": 47.5361875,
+        "lon": -121.757655,
         "intensity": 2.2,
         "responses": 1
       },
       {
         "lat": 47.4463725,
         "lon": -121.773035,
-        "intensity": 2.1,
-        "responses": 8
-      },
-      {
-        "lat": 47.454935,
-        "lon": -121.733035,
-        "intensity": 2,
-        "responses": 2
-      },
-      {
-        "lat": 47.472327500000006,
-        "lon": -121.6795325,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 47.491352500000005,
-        "lon": -121.77199,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 47.4825,
-        "lon": -121.78547,
-        "intensity": 2,
-        "responses": 2
+        "intensity": 2.2,
+        "responses": 9
       },
       {
         "lat": 47.4550825,
@@ -1144,8 +1120,8 @@
         "responses": 2
       },
       {
-        "lat": 47.4826375,
-        "lon": -121.79874,
+        "lat": 47.491352500000005,
+        "lon": -121.77199,
         "intensity": 2,
         "responses": 1
       },
@@ -1156,10 +1132,34 @@
         "responses": 1
       },
       {
+        "lat": 47.4825,
+        "lon": -121.78547,
+        "intensity": 2,
+        "responses": 2
+      },
+      {
+        "lat": 47.472327500000006,
+        "lon": -121.6795325,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 47.519165,
         "lon": -121.8510375,
         "intensity": 2,
         "responses": 1
+      },
+      {
+        "lat": 47.4826375,
+        "lon": -121.79874,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 47.454935,
+        "lon": -121.733035,
+        "intensity": 2,
+        "responses": 2
       },
       {
         "lat": 48.4330825,
@@ -1788,7 +1788,7 @@
     "id": "aka2026ujmjdz",
     "source": "usgs",
     "time": "2026-10-14T16:02:44.832000+00:00",
-    "updated": "2026-10-14T16:06:50.065000+00:00",
+    "updated": "2026-10-14T16:50:45.040000+00:00",
     "lat": 59.945,
     "lon": -152.983,
     "depth_km": 111.1,
