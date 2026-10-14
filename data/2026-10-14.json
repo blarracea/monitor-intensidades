@@ -493,20 +493,33 @@
   {
     "id": "aka2026uioapb",
     "source": "usgs",
-    "time": "2026-10-14T03:53:48.926000+00:00",
-    "updated": "2026-10-14T03:58:00.444000+00:00",
-    "lat": 60.995,
-    "lon": -151.072,
-    "depth_km": 65.4,
+    "time": "2026-10-14T03:53:48.898000+00:00",
+    "updated": "2026-10-14T04:04:04.982000+00:00",
+    "lat": 60.996,
+    "lon": -151.068,
+    "depth_km": 65.6,
     "magnitude": 3.2,
     "mag_type": "ml",
     "place": "8 km SSE of Tyonek, Alaska",
-    "cdi": null,
+    "cdi": 2.2,
     "mmi": null,
-    "felt_reports": 0,
+    "felt_reports": 3,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 61.1359675,
+        "lon": -149.9438025,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 61.145735,
+        "lon": -149.9075375,
+        "intensity": 2,
+        "responses": 2
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "snam_url": null,
