@@ -1187,5 +1187,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u28d",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/386921.html",
+    "source": "csn",
+    "time": "2026-10-14T09:28:39+00:00",
+    "updated": "2026-10-14T09:28:39+00:00",
+    "lat": -28.64,
+    "lon": -71.37,
+    "depth_km": 27.0,
+    "magnitude": 2.7,
+    "mag_type": "MLv",
+    "place": "24 km al SO de Huasco, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386921.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386921.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
