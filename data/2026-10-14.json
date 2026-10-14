@@ -1576,7 +1576,7 @@
     "id": "nc75449266",
     "source": "usgs",
     "time": "2026-10-14T13:56:12.400000+00:00",
-    "updated": "2026-10-14T14:22:26.031000+00:00",
+    "updated": "2026-10-14T14:49:42.040000+00:00",
     "lat": 40.6769981384277,
     "lon": -123.889335632324,
     "depth_km": 4.44000005722046,
@@ -1608,5 +1608,39 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75449266",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/386962.html",
+    "source": "csn",
+    "time": "2026-10-14T14:42:04+00:00",
+    "updated": "2026-10-14T14:42:04+00:00",
+    "lat": -29.13,
+    "lon": -71.11,
+    "depth_km": 35.0,
+    "magnitude": 4.1,
+    "mag_type": "MLv",
+    "place": "37 km al E de Punta de Choros, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": -28.5708,
+        "lon": -70.7581,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Vallenar",
+        "region": "Atacama"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-atacama-2026-10-14-11-47-38",
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386962.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386962.html",
+    "relevant": false,
+    "keywords_matched": [],
+    "senapred_match_time": "2026-10-14T11:47:38-03:00"
   }
 ]
