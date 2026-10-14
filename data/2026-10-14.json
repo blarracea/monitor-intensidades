@@ -1011,7 +1011,7 @@
     "id": "uw714119552",
     "source": "usgs",
     "time": "2026-10-14T09:00:04.330000+00:00",
-    "updated": "2026-10-14T15:00:19.725000+00:00",
+    "updated": "2026-10-14T15:22:35.751000+00:00",
     "lat": 47.4199981689453,
     "lon": -121.852165222168,
     "depth_km": 16.9899997711182,
@@ -1020,20 +1020,20 @@
     "place": "6 km WSW of Wilderness Rim, Washington",
     "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 58,
+    "felt_reports": 60,
     "tsunami_flag": false,
     "dyfi_points": [
-      {
-        "lat": 47.44623,
-        "lon": -121.75977499999999,
-        "intensity": 3.4,
-        "responses": 2
-      },
       {
         "lat": 47.500347500000004,
         "lon": -121.77178,
         "intensity": 3.4,
         "responses": 1
+      },
+      {
+        "lat": 47.44623,
+        "lon": -121.75977499999999,
+        "intensity": 3.4,
+        "responses": 2
       },
       {
         "lat": 47.4729275,
@@ -1060,16 +1060,16 @@
         "responses": 1
       },
       {
-        "lat": 47.45537,
-        "lon": -121.772825,
-        "intensity": 3.1,
-        "responses": 2
-      },
-      {
         "lat": 47.5366125,
         "lon": -121.7975075,
         "intensity": 3.1,
         "responses": 1
+      },
+      {
+        "lat": 47.45537,
+        "lon": -121.772825,
+        "intensity": 3.1,
+        "responses": 2
       },
       {
         "lat": 47.491495,
@@ -1108,14 +1108,14 @@
         "responses": 4
       },
       {
-        "lat": 47.4640775,
-        "lon": -121.7460825,
+        "lat": 47.5361875,
+        "lon": -121.757655,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 47.5361875,
-        "lon": -121.757655,
+        "lat": 47.5093425,
+        "lon": -121.7715675,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1126,38 +1126,14 @@
         "responses": 1
       },
       {
-        "lat": 47.454935,
-        "lon": -121.733035,
-        "intensity": 2,
-        "responses": 2
-      },
-      {
-        "lat": 47.4826375,
-        "lon": -121.79874,
-        "intensity": 2,
+        "lat": 47.4640775,
+        "lon": -121.7460825,
+        "intensity": 2.2,
         "responses": 1
       },
       {
         "lat": 47.472327500000006,
         "lon": -121.6795325,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 47.4463725,
-        "lon": -121.773035,
-        "intensity": 2,
-        "responses": 7
-      },
-      {
-        "lat": 47.4550825,
-        "lon": -121.7462975,
-        "intensity": 2,
-        "responses": 2
-      },
-      {
-        "lat": 47.499314999999996,
-        "lon": -121.67885749999999,
         "intensity": 2,
         "responses": 1
       },
@@ -1168,10 +1144,46 @@
         "responses": 1
       },
       {
+        "lat": 47.4550825,
+        "lon": -121.7462975,
+        "intensity": 2,
+        "responses": 2
+      },
+      {
+        "lat": 47.4826375,
+        "lon": -121.79874,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 47.454935,
+        "lon": -121.733035,
+        "intensity": 2,
+        "responses": 2
+      },
+      {
+        "lat": 47.499314999999996,
+        "lon": -121.67885749999999,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 47.4825,
         "lon": -121.78547,
         "intensity": 2,
         "responses": 2
+      },
+      {
+        "lat": 47.491352500000005,
+        "lon": -121.77199,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 47.4463725,
+        "lon": -121.773035,
+        "intensity": 2,
+        "responses": 7
       },
       {
         "lat": 48.4330825,
@@ -1576,7 +1588,7 @@
     "id": "nc75449266",
     "source": "usgs",
     "time": "2026-10-14T13:56:12.400000+00:00",
-    "updated": "2026-10-14T15:15:41.920000+00:00",
+    "updated": "2026-10-14T15:24:01.251000+00:00",
     "lat": 40.6769981384277,
     "lon": -123.889335632324,
     "depth_km": 4.44000005722046,
@@ -1585,12 +1597,18 @@
     "place": "23 km NE of Hydesville, CA",
     "cdi": 2.2,
     "mmi": null,
-    "felt_reports": 3,
+    "felt_reports": 4,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 40.86667,
         "lon": -124.06204,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 40.57789,
+        "lon": -124.11653,
         "intensity": 2.2,
         "responses": 1
       },
