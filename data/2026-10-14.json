@@ -303,5 +303,63 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386864.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/386867.html",
+    "source": "csn",
+    "time": "2026-10-14T03:11:07+00:00",
+    "updated": "2026-10-14T03:11:07+00:00",
+    "lat": -20.35,
+    "lon": -70.45,
+    "depth_km": 20.0,
+    "magnitude": 5.4,
+    "mag_type": "MLv",
+    "place": "35 km al SO de Iquique, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386867.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386867.html",
+    "relevant": true,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/386868.html",
+    "source": "csn",
+    "time": "2026-10-14T03:11:09+00:00",
+    "updated": "2026-10-14T03:11:09+00:00",
+    "lat": -20.33,
+    "lon": -70.29,
+    "depth_km": 46.0,
+    "magnitude": 5.2,
+    "mag_type": "Mlv",
+    "place": "19 km al SO de Iquique, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": -20.2133,
+        "lon": -70.1503,
+        "intensity": 5,
+        "responses": null,
+        "comuna": "Iquique",
+        "region": "Tarapacá"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-mediana-intensidad-en-la-region-de-tarapaca-2026-10-14-00-15-21",
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386868.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386868.html",
+    "relevant": true,
+    "keywords_matched": [],
+    "senapred_match_time": "2026-10-14T00:15:21-03:00"
   }
 ]
