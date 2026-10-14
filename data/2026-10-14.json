@@ -1024,16 +1024,16 @@
     "tsunami_flag": false,
     "dyfi_points": [
       {
-        "lat": 47.44623,
-        "lon": -121.75977499999999,
-        "intensity": 3.4,
-        "responses": 2
-      },
-      {
         "lat": 47.500347500000004,
         "lon": -121.77178,
         "intensity": 3.4,
         "responses": 1
+      },
+      {
+        "lat": 47.44623,
+        "lon": -121.75977499999999,
+        "intensity": 3.4,
+        "responses": 2
       },
       {
         "lat": 47.4729275,
@@ -1042,16 +1042,16 @@
         "responses": 1
       },
       {
+        "lat": 47.4822125,
+        "lon": -121.75892999999999,
+        "intensity": 3.3,
+        "responses": 2
+      },
+      {
         "lat": 47.491495,
         "lon": -121.78526,
         "intensity": 3.2,
         "responses": 4
-      },
-      {
-        "lat": 47.45537,
-        "lon": -121.772825,
-        "intensity": 3.1,
-        "responses": 2
       },
       {
         "lat": 47.4642225,
@@ -1060,14 +1060,14 @@
         "responses": 1
       },
       {
-        "lat": 47.5366125,
-        "lon": -121.7975075,
+        "lat": 47.45537,
+        "lon": -121.772825,
         "intensity": 3.1,
-        "responses": 1
+        "responses": 2
       },
       {
-        "lat": 47.4822125,
-        "lon": -121.75892999999999,
+        "lat": 47.5366125,
+        "lon": -121.7975075,
         "intensity": 3.1,
         "responses": 1
       },
@@ -1126,20 +1126,8 @@
         "responses": 5
       },
       {
-        "lat": 47.472327500000006,
-        "lon": -121.6795325,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
         "lat": 47.4826375,
         "lon": -121.79874,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 47.519165,
-        "lon": -121.8510375,
         "intensity": 2,
         "responses": 1
       },
@@ -1156,14 +1144,26 @@
         "responses": 2
       },
       {
+        "lat": 47.472327500000006,
+        "lon": -121.6795325,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 47.499314999999996,
+        "lon": -121.67885749999999,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 47.4550825,
         "lon": -121.7462975,
         "intensity": 2,
         "responses": 2
       },
       {
-        "lat": 47.499314999999996,
-        "lon": -121.67885749999999,
+        "lat": 47.519165,
+        "lon": -121.8510375,
         "intensity": 2,
         "responses": 1
       },
