@@ -2191,25 +2191,19 @@
   {
     "id": "us6000u25y",
     "source": "usgs",
-    "time": "2026-10-13T22:39:00.351000+00:00",
-    "updated": "2026-10-13T23:58:05.626000+00:00",
-    "lat": 32.3686,
-    "lon": -104.4718,
+    "time": "2026-10-13T22:39:00.232000+00:00",
+    "updated": "2026-10-14T00:47:42.277000+00:00",
+    "lat": 32.3762,
+    "lon": -104.478,
     "depth_km": 10,
-    "magnitude": 3.7,
+    "magnitude": 3.6,
     "mag_type": "ml",
-    "place": "23 km NNW of Whites City, New Mexico",
+    "place": "23 km WSW of Carlsbad, New Mexico",
     "cdi": 3.1,
     "mmi": null,
     "felt_reports": 28,
     "tsunami_flag": false,
     "dyfi_points": [
-      {
-        "lat": 32.43118,
-        "lon": -104.21818,
-        "intensity": 3.8,
-        "responses": 1
-      },
       {
         "lat": 32.367975,
         "lon": -104.208095,
@@ -2217,14 +2211,14 @@
         "responses": 1
       },
       {
-        "lat": 32.458307500000004,
-        "lon": -104.228585,
-        "intensity": 3.4,
+        "lat": 32.43118,
+        "lon": -104.21818,
+        "intensity": 3.8,
         "responses": 1
       },
       {
-        "lat": 32.413335000000004,
-        "lon": -104.2502375,
+        "lat": 32.458307500000004,
+        "lon": -104.228585,
         "intensity": 3.4,
         "responses": 1
       },
@@ -2241,20 +2235,20 @@
         "responses": 1
       },
       {
+        "lat": 32.413335000000004,
+        "lon": -104.2502375,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
         "lat": 32.37706,
         "lon": -104.21864500000001,
         "intensity": 3.2,
         "responses": 3
       },
       {
-        "lat": 32.376995,
-        "lon": -104.208015,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 32.41314,
-        "lon": -104.218335,
+        "lat": 32.43156,
+        "lon": -104.281995,
         "intensity": 3.1,
         "responses": 1
       },
@@ -2265,8 +2259,8 @@
         "responses": 1
       },
       {
-        "lat": 32.36817,
-        "lon": -104.23998,
+        "lat": 32.41314,
+        "lon": -104.218335,
         "intensity": 3.1,
         "responses": 1
       },
@@ -2277,8 +2271,14 @@
         "responses": 3
       },
       {
-        "lat": 32.43156,
-        "lon": -104.281995,
+        "lat": 32.376995,
+        "lon": -104.208015,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 32.36817,
+        "lon": -104.23998,
         "intensity": 3.1,
         "responses": 1
       },
