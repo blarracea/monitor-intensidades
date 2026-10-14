@@ -4,23 +4,64 @@
     "source": "csn",
     "time": "2026-10-14T00:30:49+00:00",
     "updated": "2026-10-14T00:30:49+00:00",
-    "lat": -29.28,
-    "lon": -71.7,
-    "depth_km": 38.0,
-    "magnitude": 4.8,
+    "lat": -29.29,
+    "lon": -71.67,
+    "depth_km": 48.0,
+    "magnitude": 5.1,
     "mag_type": "MLv",
-    "place": "23 km al O de Punta de Choros, Chile",
+    "place": "21 km al O de Punta de Choros, Chile",
     "cdi": null,
     "mmi": null,
     "felt_reports": null,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
-    "senapred_url": null,
+    "dyfi_points": [
+      {
+        "lat": -28.5708,
+        "lon": -70.7581,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Vallenar",
+        "region": "Atacama"
+      },
+      {
+        "lat": -29.5,
+        "lon": -71.15,
+        "intensity": 5,
+        "responses": null,
+        "comuna": "La Higuera",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -29.9533,
+        "lon": -71.3436,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Coquimbo",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -29.9027,
+        "lon": -71.2519,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "La Serena",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.0167,
+        "lon": -70.6833,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Paiguano",
+        "region": "Coquimbo"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-mediana-intensidad-en-la-region-de-coquimbo-2026-10-13-21-36-11",
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386840.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386840.html",
-    "relevant": false,
+    "relevant": true,
     "keywords_matched": []
   }
 ]
