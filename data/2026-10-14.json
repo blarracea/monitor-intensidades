@@ -1319,5 +1319,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386930.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "hv75056017",
+    "source": "usgs",
+    "time": "2026-10-14T10:56:22.080000+00:00",
+    "updated": "2026-10-14T10:59:49.520000+00:00",
+    "lat": 19.3986663818359,
+    "lon": -155.244506835938,
+    "depth_km": 37.560001373291,
+    "magnitude": 2.8,
+    "mag_type": "md",
+    "place": "5 km SSW of Volcano, Hawaii",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75056017",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
