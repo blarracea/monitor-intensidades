@@ -1348,7 +1348,7 @@
     "id": "us6000u28y",
     "source": "usgs",
     "time": "2026-10-14T10:49:47.588000+00:00",
-    "updated": "2026-10-14T11:06:01.040000+00:00",
+    "updated": "2026-10-14T16:40:16.256000+00:00",
     "lat": -20.9899,
     "lon": -178.7711,
     "depth_km": 585.07,
@@ -1356,7 +1356,7 @@
     "mag_type": "mww",
     "place": "Fiji region",
     "cdi": null,
-    "mmi": null,
+    "mmi": 0,
     "felt_reports": 0,
     "tsunami_flag": false,
     "dyfi_points": [],
@@ -1612,7 +1612,7 @@
     "id": "nc75449266",
     "source": "usgs",
     "time": "2026-10-14T13:56:12.400000+00:00",
-    "updated": "2026-10-14T15:24:01.251000+00:00",
+    "updated": "2026-10-14T16:39:30.980000+00:00",
     "lat": 40.6769981384277,
     "lon": -123.889335632324,
     "depth_km": 4.44000005722046,
@@ -1621,7 +1621,7 @@
     "place": "23 km NE of Hydesville, CA",
     "cdi": 2.2,
     "mmi": null,
-    "felt_reports": 4,
+    "felt_reports": 5,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1639,6 +1639,12 @@
       {
         "lat": 40.8853225,
         "lon": -123.99112,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 40.533515,
+        "lon": -124.044955,
         "intensity": 2,
         "responses": 1
       },
