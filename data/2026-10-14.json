@@ -1619,7 +1619,7 @@
     "id": "nc75449266",
     "source": "usgs",
     "time": "2026-10-14T13:56:12.400000+00:00",
-    "updated": "2026-10-14T16:39:30.980000+00:00",
+    "updated": "2026-10-14T18:02:15.192000+00:00",
     "lat": 40.6769981384277,
     "lon": -123.889335632324,
     "depth_km": 4.44000005722046,
@@ -1628,7 +1628,7 @@
     "place": "23 km NE of Hydesville, CA",
     "cdi": 2.2,
     "mmi": null,
-    "felt_reports": 5,
+    "felt_reports": 6,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1644,20 +1644,26 @@
         "responses": 1
       },
       {
-        "lat": 40.8853225,
-        "lon": -123.99112,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
         "lat": 40.533515,
         "lon": -124.044955,
         "intensity": 2,
         "responses": 1
       },
       {
+        "lat": 40.8853225,
+        "lon": -123.99112,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 41.064255,
         "lon": -124.12472,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 40.766445,
+        "lon": -124.17892499999999,
         "intensity": 1,
         "responses": 1
       }
@@ -1836,6 +1842,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386978.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386978.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/386994.html",
+    "source": "csn",
+    "time": "2026-10-14T17:56:38+00:00",
+    "updated": "2026-10-14T17:56:38+00:00",
+    "lat": -25.06,
+    "lon": -70.79,
+    "depth_km": 42.0,
+    "magnitude": 3.4,
+    "mag_type": "MLv",
+    "place": "33 km al O de Paposo, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386994.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/386994.html",
     "relevant": false,
     "keywords_matched": []
   }
