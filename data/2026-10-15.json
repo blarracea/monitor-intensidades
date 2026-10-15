@@ -1533,7 +1533,7 @@
     "id": "nc75449796",
     "source": "usgs",
     "time": "2026-10-15T10:37:57.870000+00:00",
-    "updated": "2026-10-15T15:02:09.188000+00:00",
+    "updated": "2026-10-15T20:23:03.264000+00:00",
     "lat": 40.4165000915527,
     "lon": -125.14949798584,
     "depth_km": 10.6599998474121,
@@ -1542,13 +1542,19 @@
     "place": "74 km W of Petrolia, CA",
     "cdi": 2.2,
     "mmi": null,
-    "felt_reports": 2,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 40.7847,
         "lon": -124.155545,
         "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 40.595555,
+        "lon": -124.1522825,
+        "intensity": 2,
         "responses": 1
       }
     ],
