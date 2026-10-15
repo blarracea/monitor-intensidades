@@ -147,7 +147,7 @@
     "id": "uw714120202",
     "source": "usgs",
     "time": "2026-10-15T01:09:22.670000+00:00",
-    "updated": "2026-10-15T17:11:56.031000+00:00",
+    "updated": "2026-10-15T19:35:59.486000+00:00",
     "lat": 47.4208333333333,
     "lon": -121.823666666667,
     "depth_km": 19.53,
@@ -156,20 +156,20 @@
     "place": "5 km SW of Wilderness Rim, Washington",
     "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 39,
+    "felt_reports": 40,
     "tsunami_flag": false,
     "dyfi_points": [
-      {
-        "lat": 47.47336,
-        "lon": -121.77241000000001,
-        "intensity": 3.1,
-        "responses": 1
-      },
       {
         "lat": 47.4642225,
         "lon": -121.75935,
         "intensity": 3.1,
         "responses": 2
+      },
+      {
+        "lat": 47.47336,
+        "lon": -121.77241000000001,
+        "intensity": 3.1,
+        "responses": 1
       },
       {
         "lat": 47.4463725,
@@ -178,14 +178,8 @@
         "responses": 6
       },
       {
-        "lat": 47.500347500000004,
-        "lon": -121.77178,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 47.4640775,
-        "lon": -121.7460825,
+        "lat": 47.4822125,
+        "lon": -121.75892999999999,
         "intensity": 2.7,
         "responses": 2
       },
@@ -196,27 +190,27 @@
         "responses": 1
       },
       {
-        "lat": 47.49121,
-        "lon": -121.7587175,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 47.4822125,
-        "lon": -121.75892999999999,
-        "intensity": 2.7,
-        "responses": 2
-      },
-      {
         "lat": 47.44833,
         "lon": -121.971965,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 47.4373775,
-        "lon": -121.773245,
-        "intensity": 2.5,
+        "lat": 47.49121,
+        "lon": -121.7587175,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 47.4640775,
+        "lon": -121.7460825,
+        "intensity": 2.7,
+        "responses": 2
+      },
+      {
+        "lat": 47.500347500000004,
+        "lon": -121.77178,
+        "intensity": 2.7,
         "responses": 1
       },
       {
@@ -226,16 +220,16 @@
         "responses": 1
       },
       {
+        "lat": 47.4373775,
+        "lon": -121.773245,
+        "intensity": 2.5,
+        "responses": 1
+      },
+      {
         "lat": 47.50049,
         "lon": -121.7850525,
         "intensity": 2.5,
         "responses": 2
-      },
-      {
-        "lat": 47.4459375,
-        "lon": -121.73325,
-        "intensity": 2.2,
-        "responses": 1
       },
       {
         "lat": 47.19762,
@@ -250,20 +244,26 @@
         "responses": 1
       },
       {
+        "lat": 47.4459375,
+        "lon": -121.73325,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
         "lat": 47.528295,
         "lon": -121.86412250000001,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 47.491495,
-        "lon": -121.78526,
-        "intensity": 2,
-        "responses": 1
+        "lat": 47.4735,
+        "lon": -121.7856775,
+        "intensity": 2.2,
+        "responses": 2
       },
       {
-        "lat": 47.214529999999996,
-        "lon": -121.9897,
+        "lat": 47.491495,
+        "lon": -121.78526,
         "intensity": 2,
         "responses": 1
       },
@@ -280,14 +280,20 @@
         "responses": 2
       },
       {
-        "lat": 48.4330825,
-        "lon": -123.35825249999999,
-        "intensity": 1,
+        "lat": 47.214529999999996,
+        "lon": -121.9897,
+        "intensity": 2,
         "responses": 1
       },
       {
         "lat": 47.5390925,
         "lon": -122.0632075,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 48.4330825,
+        "lon": -123.35825249999999,
         "intensity": 1,
         "responses": 1
       }
@@ -2938,6 +2944,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387218.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387218.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "aka2026ulpmpu",
+    "source": "usgs",
+    "time": "2026-10-15T19:35:47.254000+00:00",
+    "updated": "2026-10-15T19:38:29.859000+00:00",
+    "lat": 60.017,
+    "lon": -152.868,
+    "depth_km": 111.1,
+    "magnitude": 2.6,
+    "mag_type": "ml",
+    "place": "63 km W of Happy Valley, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ulpmpu",
     "relevant": false,
     "keywords_matched": []
   }
