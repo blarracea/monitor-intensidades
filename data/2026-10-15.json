@@ -1167,5 +1167,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2ev",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "nc75449686",
+    "source": "usgs",
+    "time": "2026-10-15T06:06:33.510000+00:00",
+    "updated": "2026-10-15T06:08:36.544000+00:00",
+    "lat": 38.8146667480469,
+    "lon": -122.817497253418,
+    "depth_km": 2.50999999046326,
+    "magnitude": 3.05,
+    "mag_type": "ml",
+    "place": "7 km NW of The Geysers, CA",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75449686",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
