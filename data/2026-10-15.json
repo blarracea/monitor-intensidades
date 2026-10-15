@@ -48,6 +48,30 @@
     "keywords_matched": []
   },
   {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/387043.html",
+    "source": "csn",
+    "time": "2026-10-15T00:27:33+00:00",
+    "updated": "2026-10-15T00:27:33+00:00",
+    "lat": -32.85,
+    "lon": -70.7,
+    "depth_km": 73.0,
+    "magnitude": 3.0,
+    "mag_type": "MLv",
+    "place": "9 km al O de Los Andes, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387043.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387043.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/387047.html",
     "source": "csn",
     "time": "2026-10-15T00:32:04+00:00",
@@ -123,7 +147,7 @@
     "id": "uw714120202",
     "source": "usgs",
     "time": "2026-10-15T01:09:22.750000+00:00",
-    "updated": "2026-10-15T01:48:00.295000+00:00",
+    "updated": "2026-10-15T01:51:41.507000+00:00",
     "lat": 47.4208335876465,
     "lon": -121.861503601074,
     "depth_km": 16.9400005340576,
@@ -132,15 +156,9 @@
     "place": "7 km WSW of Wilderness Rim, Washington",
     "cdi": 2.8,
     "mmi": null,
-    "felt_reports": 28,
+    "felt_reports": 29,
     "tsunami_flag": false,
     "dyfi_points": [
-      {
-        "lat": 47.4822125,
-        "lon": -121.75892999999999,
-        "intensity": 3.1,
-        "responses": 1
-      },
       {
         "lat": 47.4463725,
         "lon": -121.773035,
@@ -150,6 +168,12 @@
       {
         "lat": 47.47336,
         "lon": -121.77241000000001,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 47.4822125,
+        "lon": -121.75892999999999,
         "intensity": 3.1,
         "responses": 1
       },
@@ -172,6 +196,18 @@
         "responses": 1
       },
       {
+        "lat": 47.500347500000004,
+        "lon": -121.77178,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 47.49121,
+        "lon": -121.7587175,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": 47.44833,
         "lon": -121.971965,
         "intensity": 2.7,
@@ -180,12 +216,6 @@
       {
         "lat": 47.4547875,
         "lon": -121.7197725,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 47.500347500000004,
-        "lon": -121.77178,
         "intensity": 2.7,
         "responses": 1
       },
@@ -202,14 +232,8 @@
         "responses": 1
       },
       {
-        "lat": 47.528295,
-        "lon": -121.86412250000001,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 47.4459375,
-        "lon": -121.73325,
+        "lat": 47.50049,
+        "lon": -121.7850525,
         "intensity": 2.2,
         "responses": 1
       },
@@ -220,8 +244,14 @@
         "responses": 1
       },
       {
-        "lat": 47.50049,
-        "lon": -121.7850525,
+        "lat": 47.528295,
+        "lon": -121.86412250000001,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 47.4459375,
+        "lon": -121.73325,
         "intensity": 2.2,
         "responses": 1
       },
