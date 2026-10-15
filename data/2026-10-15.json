@@ -2769,19 +2769,26 @@
     "id": "aka2026ulmeki",
     "source": "usgs",
     "time": "2026-10-15T17:56:32.715000+00:00",
-    "updated": "2026-10-15T17:59:50.593000+00:00",
+    "updated": "2026-10-15T18:13:05.178000+00:00",
     "lat": 60.273,
     "lon": -151.023,
     "depth_km": 54.5,
     "magnitude": 2.5,
     "mag_type": "ml",
     "place": "15 km ESE of Kasilof, Alaska",
-    "cdi": null,
+    "cdi": 1,
     "mmi": null,
-    "felt_reports": 0,
+    "felt_reports": 1,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 61.14453,
+        "lon": -149.963185,
+        "intensity": 1,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "snam_url": null,
@@ -2793,7 +2800,7 @@
     "id": "nc75449961",
     "source": "usgs",
     "time": "2026-10-15T17:57:32.790000+00:00",
-    "updated": "2026-10-15T18:10:15.094000+00:00",
+    "updated": "2026-10-15T18:12:22.541000+00:00",
     "lat": 36.988166809082,
     "lon": -121.460502624512,
     "depth_km": 5.13000011444092,
@@ -2804,8 +2811,15 @@
     "mmi": null,
     "felt_reports": 1,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 37.7271875,
+        "lon": -120.963145,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "snam_url": null,
