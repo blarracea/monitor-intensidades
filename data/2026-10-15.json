@@ -1330,12 +1330,12 @@
     "source": "csn",
     "time": "2026-10-15T08:13:38+00:00",
     "updated": "2026-10-15T08:13:38+00:00",
-    "lat": -21.35,
-    "lon": -68.76,
-    "depth_km": 121.0,
-    "magnitude": 2.5,
+    "lat": -21.36,
+    "lon": -68.8,
+    "depth_km": 128.0,
+    "magnitude": 2.6,
     "mag_type": "MLv",
-    "place": "54 km al O de Ollagüe, Chile",
+    "place": "58 km al O de Ollagüe, Chile",
     "cdi": null,
     "mmi": null,
     "felt_reports": null,
@@ -1376,14 +1376,14 @@
   {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/387123.html",
     "source": "csn",
-    "time": "2026-10-15T08:45:07+00:00",
-    "updated": "2026-10-15T08:45:07+00:00",
-    "lat": -39.2,
-    "lon": -72.31,
-    "depth_km": 86.0,
+    "time": "2026-10-15T08:45:06+00:00",
+    "updated": "2026-10-15T08:45:06+00:00",
+    "lat": -39.22,
+    "lon": -72.32,
+    "depth_km": 93.0,
     "magnitude": 2.6,
     "mag_type": "MLv",
-    "place": "12 km al NO de Villarrica, Chile",
+    "place": "11 km al NO de Villarrica, Chile",
     "cdi": null,
     "mmi": null,
     "felt_reports": null,
@@ -1568,19 +1568,37 @@
   {
     "id": "aka2026ukynnb",
     "source": "usgs",
-    "time": "2026-10-15T11:07:01.416000+00:00",
-    "updated": "2026-10-15T11:14:29.721000+00:00",
-    "lat": 64.229,
-    "lon": -152.703,
-    "depth_km": 0.8,
+    "time": "2026-10-15T11:07:01.800000+00:00",
+    "updated": "2026-10-15T11:19:52.938000+00:00",
+    "lat": 64.22,
+    "lon": -152.746,
+    "depth_km": 4.5,
     "magnitude": 5.6,
     "mag_type": "ml",
     "place": "43 km NNW of Lake Minchumina, Alaska",
-    "cdi": 3.1,
+    "cdi": 3.4,
     "mmi": 7.049,
-    "felt_reports": 3,
+    "felt_reports": 24,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 64.8363175,
+        "lon": -147.8747125,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 62.948845000000006,
+        "lon": -155.57238,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 64.8456475,
+        "lon": -147.8117575,
+        "intensity": 3.1,
+        "responses": 2
+      },
       {
         "lat": 64.863475,
         "lon": -147.8333975,
@@ -1588,14 +1606,110 @@
         "responses": 1
       },
       {
-        "lat": 64.8456475,
-        "lon": -147.8117575,
+        "lat": 64.8474075,
+        "lon": -147.368995,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 61.6375025,
+        "lon": -149.5760125,
+        "intensity": 2.9,
+        "responses": 1
+      },
+      {
+        "lat": 63.880120000000005,
+        "lon": -149.18876749999998,
         "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 64.86402749999999,
+        "lon": -147.727915,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 64.82019,
+        "lon": -147.4739475,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 64.8370075,
+        "lon": -147.7482625,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 64.826825,
+        "lon": -147.9586925,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 64.9261575,
+        "lon": -147.8564925,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 64.854505,
+        "lon": -147.83311750000001,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 64.846185,
+        "lon": -147.7063475,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 63.856425,
+        "lon": -148.96309,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 63.382104999999996,
+        "lon": -148.8505825,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 64.808745,
+        "lon": -147.9791075,
+        "intensity": 2.2,
         "responses": 1
       },
       {
         "lat": 63.8827725,
         "lon": -149.0056625,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.513332500000004,
+        "lon": -149.94183,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.7651725,
+        "lon": -149.927945,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 64.828245,
+        "lon": -147.70587749999999,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 63.7218875,
+        "lon": -148.953755,
         "intensity": 2,
         "responses": 1
       }
