@@ -1468,5 +1468,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387129.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "nn00925799",
+    "source": "usgs",
+    "time": "2026-10-15T09:34:04.533000+00:00",
+    "updated": "2026-10-15T09:36:20.255000+00:00",
+    "lat": 39.3443,
+    "lon": -119.016,
+    "depth_km": 11.3042,
+    "magnitude": 2.75,
+    "mag_type": "ml",
+    "place": "19 km ESE of Silver Springs, Nevada",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925799",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
