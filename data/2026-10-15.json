@@ -1111,7 +1111,7 @@
     "id": "us6000u2ev",
     "source": "usgs",
     "time": "2026-10-15T05:25:31.942000+00:00",
-    "updated": "2026-10-15T05:57:13.132000+00:00",
+    "updated": "2026-10-15T06:30:19.685000+00:00",
     "lat": -38.5478,
     "lon": 175.3814,
     "depth_km": 286.008,
@@ -1120,7 +1120,7 @@
     "place": "43 km SSE of Otorohanga, New Zealand",
     "cdi": 2.7,
     "mmi": 2.606,
-    "felt_reports": 7,
+    "felt_reports": 8,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1130,8 +1130,8 @@
         "responses": 1
       },
       {
-        "lat": -40.8992525,
-        "lon": 174.99956500000002,
+        "lat": -40.3494975,
+        "lon": 175.59286,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1142,14 +1142,20 @@
         "responses": 1
       },
       {
-        "lat": -40.757575,
-        "lon": 175.145975,
+        "lat": -40.8992525,
+        "lon": 174.99956500000002,
         "intensity": 2.2,
         "responses": 1
       },
       {
         "lat": -40.3583625,
         "lon": 175.58089999999999,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": -40.757575,
+        "lon": 175.145975,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1172,7 +1178,7 @@
     "id": "nc75449686",
     "source": "usgs",
     "time": "2026-10-15T06:06:33.510000+00:00",
-    "updated": "2026-10-15T06:22:23.658000+00:00",
+    "updated": "2026-10-15T06:32:22.719000+00:00",
     "lat": 38.8146667480469,
     "lon": -122.817497253418,
     "depth_km": 2.50999999046326,
@@ -1196,6 +1202,30 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75449686",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "aka2026ukphfq",
+    "source": "usgs",
+    "time": "2026-10-15T06:29:56.874000+00:00",
+    "updated": "2026-10-15T06:31:07.651000+00:00",
+    "lat": 55.289,
+    "lon": -159.196,
+    "depth_km": 14.3,
+    "magnitude": 2.7,
+    "mag_type": "ml",
+    "place": "69 km S of Perryville, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ukphfq",
     "relevant": false,
     "keywords_matched": []
   }
