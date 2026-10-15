@@ -3343,5 +3343,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387247.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "nn00925810",
+    "source": "usgs",
+    "time": "2026-10-15T22:55:32.270000+00:00",
+    "updated": "2026-10-15T22:58:42.702000+00:00",
+    "lat": 38.9762,
+    "lon": -115.2819,
+    "depth_km": 7.2632,
+    "magnitude": 3.48,
+    "mag_type": "ml",
+    "place": "20 km WNW of Preston, Nevada",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00925810",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
