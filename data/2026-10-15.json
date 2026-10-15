@@ -147,7 +147,7 @@
     "id": "uw714120202",
     "source": "usgs",
     "time": "2026-10-15T01:09:22.750000+00:00",
-    "updated": "2026-10-15T05:42:26.234000+00:00",
+    "updated": "2026-10-15T07:21:02.984000+00:00",
     "lat": 47.4208335876465,
     "lon": -121.861503601074,
     "depth_km": 16.9400005340576,
@@ -156,7 +156,7 @@
     "place": "7 km WSW of Wilderness Rim, Washington",
     "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 36,
+    "felt_reports": 37,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -184,24 +184,6 @@
         "responses": 6
       },
       {
-        "lat": 47.500347500000004,
-        "lon": -121.77178,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 47.4547875,
-        "lon": -121.7197725,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 47.4822125,
-        "lon": -121.75892999999999,
-        "intensity": 2.7,
-        "responses": 2
-      },
-      {
         "lat": 47.44833,
         "lon": -121.971965,
         "intensity": 2.7,
@@ -214,15 +196,27 @@
         "responses": 1
       },
       {
-        "lat": 47.4640775,
-        "lon": -121.7460825,
+        "lat": 47.4822125,
+        "lon": -121.75892999999999,
+        "intensity": 2.7,
+        "responses": 2
+      },
+      {
+        "lat": 47.4547875,
+        "lon": -121.7197725,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 47.4373775,
-        "lon": -121.773245,
-        "intensity": 2.5,
+        "lat": 47.500347500000004,
+        "lon": -121.77178,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 47.4640775,
+        "lon": -121.7460825,
+        "intensity": 2.7,
         "responses": 1
       },
       {
@@ -232,16 +226,16 @@
         "responses": 1
       },
       {
+        "lat": 47.4373775,
+        "lon": -121.773245,
+        "intensity": 2.5,
+        "responses": 1
+      },
+      {
         "lat": 47.50049,
         "lon": -121.7850525,
         "intensity": 2.5,
         "responses": 2
-      },
-      {
-        "lat": 47.4459375,
-        "lon": -121.73325,
-        "intensity": 2.2,
-        "responses": 1
       },
       {
         "lat": 47.528295,
@@ -256,22 +250,34 @@
         "responses": 1
       },
       {
+        "lat": 47.19762,
+        "lon": -122.122045,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 47.4459375,
+        "lon": -121.73325,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
         "lat": 47.491495,
         "lon": -121.78526,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 47.4823575,
-        "lon": -121.7722,
-        "intensity": 2,
-        "responses": 2
-      },
-      {
         "lat": 47.4825,
         "lon": -121.78547,
         "intensity": 2,
         "responses": 3
+      },
+      {
+        "lat": 47.4823575,
+        "lon": -121.7722,
+        "intensity": 2,
+        "responses": 2
       },
       {
         "lat": 47.5390925,
@@ -1256,6 +1262,30 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ukpsgx",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "pr71536793",
+    "source": "usgs",
+    "time": "2026-10-15T06:53:33.360000+00:00",
+    "updated": "2026-10-15T07:24:21.540000+00:00",
+    "lat": 17.9621666666667,
+    "lon": -66.8843333333333,
+    "depth_km": 15.74,
+    "magnitude": 2.66,
+    "mag_type": "md",
+    "place": "1 km SSE of Maria Antonia, Puerto Rico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71536793",
     "relevant": false,
     "keywords_matched": []
   }
