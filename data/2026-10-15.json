@@ -147,7 +147,7 @@
     "id": "uw714120202",
     "source": "usgs",
     "time": "2026-10-15T01:09:22.670000+00:00",
-    "updated": "2026-10-15T13:32:28.068000+00:00",
+    "updated": "2026-10-15T14:23:12.194000+00:00",
     "lat": 47.4208333333333,
     "lon": -121.823666666667,
     "depth_km": 19.53,
@@ -156,7 +156,7 @@
     "place": "5 km SW of Wilderness Rim, Washington",
     "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 37,
+    "felt_reports": 38,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -178,8 +178,26 @@
         "responses": 6
       },
       {
+        "lat": 47.4640775,
+        "lon": -121.7460825,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 47.4822125,
+        "lon": -121.75892999999999,
+        "intensity": 2.7,
+        "responses": 2
+      },
+      {
         "lat": 47.44833,
         "lon": -121.971965,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 47.4547875,
+        "lon": -121.7197725,
         "intensity": 2.7,
         "responses": 1
       },
@@ -194,24 +212,6 @@
         "lon": -121.77178,
         "intensity": 2.7,
         "responses": 1
-      },
-      {
-        "lat": 47.4640775,
-        "lon": -121.7460825,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 47.4547875,
-        "lon": -121.7197725,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 47.4822125,
-        "lon": -121.75892999999999,
-        "intensity": 2.7,
-        "responses": 2
       },
       {
         "lat": 47.4457925,
@@ -232,12 +232,6 @@
         "responses": 2
       },
       {
-        "lat": 47.4459375,
-        "lon": -121.73325,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
         "lat": 47.19762,
         "lon": -122.122045,
         "intensity": 2.2,
@@ -256,22 +250,34 @@
         "responses": 1
       },
       {
+        "lat": 47.4459375,
+        "lon": -121.73325,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
         "lat": 47.491495,
         "lon": -121.78526,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 47.4823575,
-        "lon": -121.7722,
+        "lat": 47.214529999999996,
+        "lon": -121.9897,
         "intensity": 2,
-        "responses": 2
+        "responses": 1
       },
       {
         "lat": 47.4825,
         "lon": -121.78547,
         "intensity": 2,
         "responses": 3
+      },
+      {
+        "lat": 47.4823575,
+        "lon": -121.7722,
+        "intensity": 2,
+        "responses": 2
       },
       {
         "lat": 47.5390925,
