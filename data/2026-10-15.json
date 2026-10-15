@@ -3082,14 +3082,14 @@
   {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/387230.html",
     "source": "csn",
-    "time": "2026-10-15T20:25:21+00:00",
-    "updated": "2026-10-15T20:25:21+00:00",
+    "time": "2026-10-15T20:25:19+00:00",
+    "updated": "2026-10-15T20:25:19+00:00",
     "lat": -20.07,
-    "lon": -69.77,
-    "depth_km": 40.0,
-    "magnitude": 4.5,
-    "mag_type": "MLv",
-    "place": "20 km al N de Pozo Almonte, Chile",
+    "lon": -69.7,
+    "depth_km": 76.0,
+    "magnitude": 4.4,
+    "mag_type": "Mw",
+    "place": "23 km al NE de Pozo Almonte, Chile",
     "cdi": null,
     "mmi": null,
     "felt_reports": null,
@@ -3118,7 +3118,6 @@
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387230.html",
     "relevant": false,
-    "keywords_matched": [],
-    "senapred_match_time": "2026-10-15T17:29:55-03:00"
+    "keywords_matched": []
   }
 ]
