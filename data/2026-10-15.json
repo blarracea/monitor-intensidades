@@ -1568,20 +1568,39 @@
   {
     "id": "aka2026ukynnb",
     "source": "usgs",
-    "time": "2026-10-15T11:07:01.758000+00:00",
-    "updated": "2026-10-15T11:10:00.215000+00:00",
-    "lat": 64.226,
-    "lon": -152.747,
-    "depth_km": 5.9,
-    "magnitude": 5.5,
+    "time": "2026-10-15T11:07:01.416000+00:00",
+    "updated": "2026-10-15T11:14:29.721000+00:00",
+    "lat": 64.229,
+    "lon": -152.703,
+    "depth_km": 0.8,
+    "magnitude": 5.6,
     "mag_type": "ml",
     "place": "43 km NNW of Lake Minchumina, Alaska",
-    "cdi": null,
-    "mmi": 6.125,
-    "felt_reports": 0,
+    "cdi": 3.1,
+    "mmi": 7.049,
+    "felt_reports": 3,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 64.863475,
+        "lon": -147.8333975,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 64.8456475,
+        "lon": -147.8117575,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 63.8827725,
+        "lon": -149.0056625,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "snam_url": null,
