@@ -147,7 +147,7 @@
     "id": "uw714120202",
     "source": "usgs",
     "time": "2026-10-15T01:09:22.750000+00:00",
-    "updated": "2026-10-15T02:58:34.967000+00:00",
+    "updated": "2026-10-15T05:42:26.234000+00:00",
     "lat": 47.4208335876465,
     "lon": -121.861503601074,
     "depth_km": 16.9400005340576,
@@ -156,7 +156,7 @@
     "place": "7 km WSW of Wilderness Rim, Washington",
     "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 35,
+    "felt_reports": 36,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -184,14 +184,14 @@
         "responses": 6
       },
       {
-        "lat": 47.44833,
-        "lon": -121.971965,
+        "lat": 47.500347500000004,
+        "lon": -121.77178,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 47.49121,
-        "lon": -121.7587175,
+        "lat": 47.4547875,
+        "lon": -121.7197725,
         "intensity": 2.7,
         "responses": 1
       },
@@ -202,14 +202,14 @@
         "responses": 2
       },
       {
-        "lat": 47.4547875,
-        "lon": -121.7197725,
+        "lat": 47.44833,
+        "lon": -121.971965,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 47.500347500000004,
-        "lon": -121.77178,
+        "lat": 47.49121,
+        "lon": -121.7587175,
         "intensity": 2.7,
         "responses": 1
       },
@@ -238,6 +238,12 @@
         "responses": 2
       },
       {
+        "lat": 47.4459375,
+        "lon": -121.73325,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
         "lat": 47.528295,
         "lon": -121.86412250000001,
         "intensity": 2.2,
@@ -246,12 +252,6 @@
       {
         "lat": 47.4820675,
         "lon": -121.7456575,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 47.4459375,
-        "lon": -121.73325,
         "intensity": 2.2,
         "responses": 1
       },
@@ -272,6 +272,12 @@
         "lon": -121.78547,
         "intensity": 2,
         "responses": 3
+      },
+      {
+        "lat": 47.5390925,
+        "lon": -122.0632075,
+        "intensity": 1,
+        "responses": 1
       },
       {
         "lat": 48.4330825,
@@ -1099,6 +1105,30 @@
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387086.html",
     "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000u2ev",
+    "source": "usgs",
+    "time": "2026-10-15T05:25:31.942000+00:00",
+    "updated": "2026-10-15T05:44:43.476000+00:00",
+    "lat": -38.5478,
+    "lon": 175.3814,
+    "depth_km": 286.008,
+    "magnitude": 5.3,
+    "mag_type": "mww",
+    "place": "43 km SSE of Otorohanga, New Zealand",
+    "cdi": 2.7,
+    "mmi": 2.752,
+    "felt_reports": 1,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2ev",
+    "relevant": true,
     "keywords_matched": []
   }
 ]
