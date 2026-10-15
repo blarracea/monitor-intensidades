@@ -3415,5 +3415,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387249.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026ulxhxz",
+    "source": "usgs",
+    "time": "2026-10-15T23:30:20.010000+00:00",
+    "updated": "2026-10-15T23:34:05.499000+00:00",
+    "lat": 62.79,
+    "lon": -148.391,
+    "depth_km": 51.9,
+    "magnitude": 2.9,
+    "mag_type": "ml",
+    "place": "72 km SSE of Cantwell, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ulxhxz",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
