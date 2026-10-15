@@ -521,7 +521,7 @@
     "id": "ci41347743",
     "source": "usgs",
     "time": "2026-10-15T03:30:57.550000+00:00",
-    "updated": "2026-10-15T03:48:57.572000+00:00",
+    "updated": "2026-10-15T03:52:32.878000+00:00",
     "lat": 33.8088340759277,
     "lon": -116.964500427246,
     "depth_km": 13.1999998092651,
@@ -530,12 +530,12 @@
     "place": "3 km N of San Jacinto, CA",
     "cdi": 2.4,
     "mmi": 2.771,
-    "felt_reports": 45,
+    "felt_reports": 57,
     "tsunami_flag": false,
     "dyfi_points": [
       {
-        "lat": 33.624265,
-        "lon": -117.080855,
+        "lat": 33.732515,
+        "lon": -116.9514175,
         "intensity": 3.1,
         "responses": 1
       },
@@ -546,8 +546,8 @@
         "responses": 1
       },
       {
-        "lat": 33.732515,
-        "lon": -116.9514175,
+        "lat": 33.624265,
+        "lon": -117.080855,
         "intensity": 3.1,
         "responses": 1
       },
@@ -564,6 +564,18 @@
         "responses": 2
       },
       {
+        "lat": 33.68721,
+        "lon": -117.231965,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 33.7143575,
+        "lon": -117.178075,
+        "intensity": 2.7,
+        "responses": 2
+      },
+      {
         "lat": 33.75957,
         "lon": -117.0485875,
         "intensity": 2.7,
@@ -574,6 +586,12 @@
         "lon": -117.1349175,
         "intensity": 2.5,
         "responses": 3
+      },
+      {
+        "lat": 33.68742,
+        "lon": -116.951445,
+        "intensity": 2.5,
+        "responses": 2
       },
       {
         "lat": 33.786635000000004,
@@ -588,26 +606,32 @@
         "responses": 2
       },
       {
-        "lat": 33.669245000000004,
-        "lon": -117.18876499999999,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 33.723502499999995,
-        "lon": -117.005395,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
         "lat": 33.723485,
         "lon": -116.929835,
         "intensity": 2.2,
         "responses": 2
       },
       {
+        "lat": 33.669245000000004,
+        "lon": -117.18876499999999,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.7143725,
+        "lon": -117.1672825,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
         "lat": 33.7144825,
         "lon": -117.01618500000001,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.669275,
+        "lon": -117.16719499999999,
         "intensity": 2.2,
         "responses": 1
       },
@@ -618,20 +642,8 @@
         "responses": 1
       },
       {
-        "lat": 33.68742,
-        "lon": -116.951445,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 33.723375000000004,
-        "lon": -117.1780925,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 33.75056,
-        "lon": -116.9838,
+        "lat": 33.615245,
+        "lon": -117.08084500000001,
         "intensity": 2.2,
         "responses": 1
       },
@@ -648,38 +660,38 @@
         "responses": 1
       },
       {
+        "lat": 33.75056,
+        "lon": -116.9838,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.723375000000004,
+        "lon": -117.1780925,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
         "lat": 33.606205,
         "lon": -117.113175,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 33.7143725,
-        "lon": -117.1672825,
+        "lat": 33.723502499999995,
+        "lon": -117.005395,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 33.6873,
-        "lon": -117.178015,
-        "intensity": 2,
+        "lat": 33.795649999999995,
+        "lon": -116.9513825,
+        "intensity": 2.1,
         "responses": 1
       },
       {
-        "lat": 33.362610000000004,
-        "lon": -117.166605,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 33.7505575,
-        "lon": -116.962205,
-        "intensity": 2,
-        "responses": 2
-      },
-      {
-        "lat": 33.786625,
-        "lon": -116.940585,
+        "lat": 33.714487500000004,
+        "lon": -116.99459999999999,
         "intensity": 2,
         "responses": 1
       },
@@ -690,34 +702,28 @@
         "responses": 2
       },
       {
-        "lat": 33.7235,
-        "lon": -117.0269775,
-        "intensity": 2,
-        "responses": 2
-      },
-      {
-        "lat": 33.70527,
-        "lon": -117.22122,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
         "lat": 33.696415,
         "lon": -117.09171,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 33.74154,
-        "lon": -116.96221,
+        "lat": 33.714435,
+        "lon": -117.11331999999999,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 33.71446,
-        "lon": -116.91905,
+        "lat": 33.723502499999995,
+        "lon": -116.99459999999999,
         "intensity": 2,
         "responses": 1
+      },
+      {
+        "lat": 33.7235,
+        "lon": -117.0269775,
+        "intensity": 2,
+        "responses": 2
       },
       {
         "lat": 33.78663,
@@ -732,6 +738,54 @@
         "responses": 1
       },
       {
+        "lat": 33.7505575,
+        "lon": -116.962205,
+        "intensity": 2,
+        "responses": 2
+      },
+      {
+        "lat": 33.362610000000004,
+        "lon": -117.166605,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 33.71446,
+        "lon": -116.91905,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 33.786625,
+        "lon": -116.940585,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 33.70527,
+        "lon": -117.22122,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 33.6873,
+        "lon": -117.178015,
+        "intensity": 2,
+        "responses": 2
+      },
+      {
+        "lat": 33.74154,
+        "lon": -116.96221,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 33.66015,
+        "lon": -117.2318925,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
         "lat": 33.7310175,
         "lon": -116.3900975,
         "intensity": 1,
@@ -743,7 +797,31 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41347743",
-    "relevant": false,
+    "relevant": true,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000u2ec",
+    "source": "usgs",
+    "time": "2026-10-15T03:36:29.038000+00:00",
+    "updated": "2026-10-15T03:54:46.040000+00:00",
+    "lat": -13.409,
+    "lon": -172.0686,
+    "depth_km": 13.211,
+    "magnitude": 5.1,
+    "mag_type": "mb",
+    "place": "36 km E of Safotu, Samoa",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2ec",
+    "relevant": true,
     "keywords_matched": []
   },
   {
