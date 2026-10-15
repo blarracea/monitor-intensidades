@@ -521,19 +521,38 @@
     "id": "ci41347743",
     "source": "usgs",
     "time": "2026-10-15T03:30:57.550000+00:00",
-    "updated": "2026-10-15T03:34:41.394000+00:00",
+    "updated": "2026-10-15T03:36:33.081000+00:00",
     "lat": 33.8088340759277,
     "lon": -116.964500427246,
     "depth_km": 13.1999998092651,
     "magnitude": 2.95263779141459,
     "mag_type": "ml",
     "place": "3 km N of San Jacinto, CA",
-    "cdi": null,
+    "cdi": 2.9,
     "mmi": 2.771,
-    "felt_reports": 0,
+    "felt_reports": 3,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 33.705439999999996,
+        "lon": -117.08093,
+        "intensity": 2.9,
+        "responses": 1
+      },
+      {
+        "lat": 33.786635000000004,
+        "lon": -116.96218999999999,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 33.7234775,
+        "lon": -116.91904,
+        "intensity": 2.7,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "snam_url": null,
