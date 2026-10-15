@@ -146,36 +146,30 @@
   {
     "id": "uw714120202",
     "source": "usgs",
-    "time": "2026-10-15T01:09:22.750000+00:00",
-    "updated": "2026-10-15T07:21:02.984000+00:00",
-    "lat": 47.4208335876465,
-    "lon": -121.861503601074,
-    "depth_km": 16.9400005340576,
-    "magnitude": 2.72188603878021,
+    "time": "2026-10-15T01:09:22.670000+00:00",
+    "updated": "2026-10-15T13:32:28.068000+00:00",
+    "lat": 47.4208333333333,
+    "lon": -121.823666666667,
+    "depth_km": 19.53,
+    "magnitude": 2.65,
     "mag_type": "ml",
-    "place": "7 km WSW of Wilderness Rim, Washington",
+    "place": "5 km SW of Wilderness Rim, Washington",
     "cdi": 2.7,
     "mmi": null,
     "felt_reports": 37,
     "tsunami_flag": false,
     "dyfi_points": [
       {
-        "lat": 47.47336,
-        "lon": -121.77241000000001,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 47.53742,
-        "lon": -121.8772125,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
         "lat": 47.4642225,
         "lon": -121.75935,
         "intensity": 3.1,
         "responses": 2
+      },
+      {
+        "lat": 47.47336,
+        "lon": -121.77241000000001,
+        "intensity": 3.1,
+        "responses": 1
       },
       {
         "lat": 47.4463725,
@@ -196,18 +190,6 @@
         "responses": 1
       },
       {
-        "lat": 47.4822125,
-        "lon": -121.75892999999999,
-        "intensity": 2.7,
-        "responses": 2
-      },
-      {
-        "lat": 47.4547875,
-        "lon": -121.7197725,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
         "lat": 47.500347500000004,
         "lon": -121.77178,
         "intensity": 2.7,
@@ -218,6 +200,18 @@
         "lon": -121.7460825,
         "intensity": 2.7,
         "responses": 1
+      },
+      {
+        "lat": 47.4547875,
+        "lon": -121.7197725,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 47.4822125,
+        "lon": -121.75892999999999,
+        "intensity": 2.7,
+        "responses": 2
       },
       {
         "lat": 47.4457925,
@@ -238,14 +232,8 @@
         "responses": 2
       },
       {
-        "lat": 47.528295,
-        "lon": -121.86412250000001,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 47.4820675,
-        "lon": -121.7456575,
+        "lat": 47.4459375,
+        "lon": -121.73325,
         "intensity": 2.2,
         "responses": 1
       },
@@ -256,8 +244,14 @@
         "responses": 1
       },
       {
-        "lat": 47.4459375,
-        "lon": -121.73325,
+        "lat": 47.4820675,
+        "lon": -121.7456575,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 47.528295,
+        "lon": -121.86412250000001,
         "intensity": 2.2,
         "responses": 1
       },
@@ -268,16 +262,16 @@
         "responses": 1
       },
       {
-        "lat": 47.4825,
-        "lon": -121.78547,
-        "intensity": 2,
-        "responses": 3
-      },
-      {
         "lat": 47.4823575,
         "lon": -121.7722,
         "intensity": 2,
         "responses": 2
+      },
+      {
+        "lat": 47.4825,
+        "lon": -121.78547,
+        "intensity": 2,
+        "responses": 3
       },
       {
         "lat": 47.5390925,
@@ -1593,7 +1587,7 @@
     "id": "aka2026ukynnb",
     "source": "usgs",
     "time": "2026-10-15T11:07:01.800000+00:00",
-    "updated": "2026-10-15T12:24:59.593000+00:00",
+    "updated": "2026-10-15T13:47:04.864000+00:00",
     "lat": 64.22,
     "lon": -152.746,
     "depth_km": 4.5,
@@ -1602,13 +1596,19 @@
     "place": "43 km NNW of Lake Minchumina, Alaska",
     "cdi": 5.5,
     "mmi": 7.049,
-    "felt_reports": 72,
+    "felt_reports": 79,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 64.8443475,
         "lon": -148.02257,
         "intensity": 4.1,
+        "responses": 1
+      },
+      {
+        "lat": 64.8998125,
+        "lon": -147.75001,
+        "intensity": 3.8,
         "responses": 1
       },
       {
@@ -1626,12 +1626,6 @@
       {
         "lat": 64.837215,
         "lon": -147.70611250000002,
-        "intensity": 3.8,
-        "responses": 1
-      },
-      {
-        "lat": 64.8998125,
-        "lon": -147.75001,
         "intensity": 3.8,
         "responses": 1
       },
@@ -1678,62 +1672,14 @@
         "responses": 3
       },
       {
-        "lat": 63.62532,
-        "lon": -148.785665,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 64.742805,
-        "lon": -156.8677575,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 64.8172875,
-        "lon": -148.0426075,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 64.91706500000001,
-        "lon": -147.8773425,
-        "intensity": 3.1,
-        "responses": 2
-      },
-      {
-        "lat": 64.8474075,
-        "lon": -147.368995,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 64.8903925,
-        "lon": -147.83423,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
         "lat": 64.8456475,
         "lon": -147.8117575,
         "intensity": 3.1,
-        "responses": 2
+        "responses": 3
       },
       {
-        "lat": 64.863475,
-        "lon": -147.8333975,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 64.88092,
-        "lon": -147.9183925,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 64.8912425,
-        "lon": -147.6652875,
+        "lat": 62.9574525,
+        "lon": -155.5928625,
         "intensity": 3.1,
         "responses": 1
       },
@@ -1744,8 +1690,56 @@
         "responses": 1
       },
       {
-        "lat": 62.9574525,
-        "lon": -155.5928625,
+        "lat": 64.8903925,
+        "lon": -147.83423,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 64.742805,
+        "lon": -156.8677575,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 64.91706500000001,
+        "lon": -147.8773425,
+        "intensity": 3.1,
+        "responses": 2
+      },
+      {
+        "lat": 64.88092,
+        "lon": -147.9183925,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 64.8474075,
+        "lon": -147.368995,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 63.62532,
+        "lon": -148.785665,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 64.8912425,
+        "lon": -147.6652875,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 64.8172875,
+        "lon": -148.0426075,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 64.863475,
+        "lon": -147.8333975,
         "intensity": 3.1,
         "responses": 1
       },
@@ -1786,26 +1780,32 @@
         "responses": 1
       },
       {
-        "lat": 64.9096225,
-        "lon": -147.5600675,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
         "lat": 64.826825,
         "lon": -147.9586925,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 64.9261575,
-        "lon": -147.8564925,
+        "lat": 64.82019,
+        "lon": -147.4739475,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 64.82019,
-        "lon": -147.4739475,
+        "lat": 64.9096225,
+        "lon": -147.5600675,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 63.7216125,
+        "lon": -148.9739875,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 64.9261575,
+        "lon": -147.8564925,
         "intensity": 2.7,
         "responses": 1
       },
@@ -1828,8 +1828,38 @@
         "responses": 1
       },
       {
+        "lat": 63.8552975,
+        "lon": -149.0444,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 64.88165000000001,
+        "lon": -147.7917325,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 64.87421499999999,
+        "lon": -147.4115775,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
         "lat": 63.382104999999996,
         "lon": -148.8505825,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 64.855055,
+        "lon": -147.72767249999998,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 64.855155,
+        "lon": -147.7065825,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1846,50 +1876,14 @@
         "responses": 1
       },
       {
-        "lat": 64.87421499999999,
-        "lon": -147.4115775,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 64.855155,
-        "lon": -147.7065825,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 63.8552975,
-        "lon": -149.0444,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 64.872325,
-        "lon": -147.8547775,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 62.321385,
-        "lon": -150.037335,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 64.82770500000001,
-        "lon": -147.81122,
-        "intensity": 2,
-        "responses": 2
-      },
-      {
         "lat": 61.7651725,
         "lon": -149.927945,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 64.828245,
-        "lon": -147.70587749999999,
+        "lat": 64.9352525,
+        "lon": -147.835625,
         "intensity": 2,
         "responses": 1
       },
@@ -1900,14 +1894,26 @@
         "responses": 1
       },
       {
-        "lat": 64.908995,
-        "lon": -147.70799499999998,
+        "lat": 64.90809250000001,
+        "lon": -147.87705,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 64.90809250000001,
-        "lon": -147.87705,
+        "lat": 64.828245,
+        "lon": -147.70587749999999,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 64.82770500000001,
+        "lon": -147.81122,
+        "intensity": 2,
+        "responses": 2
+      },
+      {
+        "lat": 64.581395,
+        "lon": -149.119595,
         "intensity": 2,
         "responses": 1
       },
@@ -1918,14 +1924,38 @@
         "responses": 1
       },
       {
-        "lat": 61.513332500000004,
-        "lon": -149.94183,
+        "lat": 64.91681,
+        "lon": -147.9196175,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 64.581395,
-        "lon": -149.119595,
+        "lat": 62.321385,
+        "lon": -150.037335,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 64.908995,
+        "lon": -147.70799499999998,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 64.943455,
+        "lon": -147.9628575,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 64.872325,
+        "lon": -147.8547775,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.513332500000004,
+        "lon": -149.94183,
         "intensity": 2,
         "responses": 1
       }
@@ -2031,6 +2061,174 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ulaxcs",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/387142.html",
+    "source": "csn",
+    "time": "2026-10-15T12:35:45+00:00",
+    "updated": "2026-10-15T12:35:45+00:00",
+    "lat": -23.06,
+    "lon": -69.58,
+    "depth_km": 89.0,
+    "magnitude": 2.8,
+    "mag_type": "MLv",
+    "place": "32 km al SO de Sierra Gorda, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387142.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387142.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/387146.html",
+    "source": "csn",
+    "time": "2026-10-15T12:48:34+00:00",
+    "updated": "2026-10-15T12:48:34+00:00",
+    "lat": -32.31,
+    "lon": -71.81,
+    "depth_km": 25.0,
+    "magnitude": 3.1,
+    "mag_type": "MLv",
+    "place": "32 km al SO de Pichidangui, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387146.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387146.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "aka2026ulcmta",
+    "source": "usgs",
+    "time": "2026-10-15T13:05:45.094000+00:00",
+    "updated": "2026-10-15T13:42:23.895000+00:00",
+    "lat": 64.194,
+    "lon": -152.746,
+    "depth_km": 8.2,
+    "magnitude": 3,
+    "mag_type": "ml",
+    "place": "40 km NNW of Lake Minchumina, Alaska",
+    "cdi": 1,
+    "mmi": null,
+    "felt_reports": 1,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ulcmta",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000u2hp",
+    "source": "usgs",
+    "time": "2026-10-15T13:06:51.678000+00:00",
+    "updated": "2026-10-15T13:27:08.040000+00:00",
+    "lat": -13.8878,
+    "lon": 166.0921,
+    "depth_km": 10,
+    "magnitude": 5.2,
+    "mag_type": "mb",
+    "place": "157 km W of Sola, Vanuatu",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2hp",
+    "relevant": true,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000u2hv",
+    "source": "usgs",
+    "time": "2026-10-15T13:29:31.862000+00:00",
+    "updated": "2026-10-15T13:52:47.040000+00:00",
+    "lat": -15.0429,
+    "lon": -173.4439,
+    "depth_km": 10,
+    "magnitude": 5.2,
+    "mag_type": "mb",
+    "place": "107 km NNE of Hihifo, Tonga",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2hv",
+    "relevant": true,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/387152.html",
+    "source": "csn",
+    "time": "2026-10-15T13:29:49+00:00",
+    "updated": "2026-10-15T13:29:49+00:00",
+    "lat": -24.32,
+    "lon": -68.04,
+    "depth_km": 139.0,
+    "magnitude": 3.6,
+    "mag_type": "MLv",
+    "place": "82 km al S de Socaire, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387152.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387152.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "aka2026ulejvq",
+    "source": "usgs",
+    "time": "2026-10-15T14:02:45.435000+00:00",
+    "updated": "2026-10-15T14:05:30.017000+00:00",
+    "lat": 64.16,
+    "lon": -148,
+    "depth_km": 107.8,
+    "magnitude": 2.9,
+    "mag_type": "ml",
+    "place": "56 km ENE of Ferry, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026ulejvq",
     "relevant": false,
     "keywords_matched": []
   }
