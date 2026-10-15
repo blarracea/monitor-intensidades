@@ -118,5 +118,36 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387052.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "uw714120202",
+    "source": "usgs",
+    "time": "2026-10-15T01:09:22.750000+00:00",
+    "updated": "2026-10-15T01:14:35.686000+00:00",
+    "lat": 47.4208335876465,
+    "lon": -121.861503601074,
+    "depth_km": 16.9400005340576,
+    "magnitude": 2.72188603878021,
+    "mag_type": "ml",
+    "place": "7 km WSW of Wilderness Rim, Washington",
+    "cdi": 2,
+    "mmi": null,
+    "felt_reports": 1,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 47.4463725,
+        "lon": -121.773035,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714120202",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
