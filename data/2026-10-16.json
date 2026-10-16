@@ -1132,5 +1132,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387332.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u2q5",
+    "source": "usgs",
+    "time": "2026-10-16T14:09:54.288000+00:00",
+    "updated": "2026-10-16T14:32:55.040000+00:00",
+    "lat": -49.8826,
+    "lon": 163.4041,
+    "depth_km": 10,
+    "magnitude": 5,
+    "mag_type": "mb",
+    "place": "Auckland Islands, New Zealand region",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2q5",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
