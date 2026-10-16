@@ -713,18 +713,24 @@
     "id": "us6000u2pb",
     "source": "usgs",
     "time": "2026-10-16T10:46:48.569000+00:00",
-    "updated": "2026-10-16T11:23:00.700000+00:00",
+    "updated": "2026-10-16T11:31:40.101000+00:00",
     "lat": 51.4534,
     "lon": -115.4536,
     "depth_km": 8.336,
     "magnitude": 4,
     "mag_type": "mb",
     "place": "31 km NNE of Banff, Canada",
-    "cdi": 2.4,
+    "cdi": 2.7,
     "mmi": 3.782,
-    "felt_reports": 3,
+    "felt_reports": 4,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 50.1862925,
+        "lon": -114.8777575,
+        "intensity": 2.7,
+        "responses": 1
+      },
       {
         "lat": 51.093345,
         "lon": -115.350625,
