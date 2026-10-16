@@ -612,5 +612,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387303.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u2p2",
+    "source": "usgs",
+    "time": "2026-10-16T09:13:44.909000+00:00",
+    "updated": "2026-10-16T09:34:45.040000+00:00",
+    "lat": 7.8392,
+    "lon": 126.799,
+    "depth_km": 73.712,
+    "magnitude": 4.9,
+    "mag_type": "mb",
+    "place": "31 km ENE of Kinablangan, Philippines",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2p2",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
