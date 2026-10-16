@@ -1171,7 +1171,7 @@
     "id": "us6000u2ev",
     "source": "usgs",
     "time": "2026-10-15T05:25:31.942000+00:00",
-    "updated": "2026-10-15T07:31:42.327000+00:00",
+    "updated": "2026-10-16T05:03:15.312000+00:00",
     "lat": -38.5478,
     "lon": 175.3814,
     "depth_km": 286.008,
@@ -1180,25 +1180,19 @@
     "place": "43 km SSE of Otorohanga, New Zealand",
     "cdi": 2.7,
     "mmi": 2.606,
-    "felt_reports": 8,
+    "felt_reports": 9,
     "tsunami_flag": false,
     "dyfi_points": [
       {
-        "lat": -41.12218,
-        "lon": 174.873695,
+        "lat": -36.8032625,
+        "lon": 174.707695,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": -40.3494975,
-        "lon": 175.59286,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": -41.29177,
-        "lon": 173.9964575,
-        "intensity": 2.2,
+        "lat": -41.12218,
+        "lon": 174.873695,
+        "intensity": 2.7,
         "responses": 1
       },
       {
@@ -1216,6 +1210,18 @@
       {
         "lat": -40.757575,
         "lon": 175.145975,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": -41.29177,
+        "lon": 173.9964575,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": -40.3494975,
+        "lon": 175.59286,
         "intensity": 2.2,
         "responses": 1
       },
