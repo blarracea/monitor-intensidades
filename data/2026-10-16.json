@@ -870,7 +870,7 @@
     "id": "us6000u2pb",
     "source": "usgs",
     "time": "2026-10-16T10:46:48.569000+00:00",
-    "updated": "2026-10-16T23:18:13.440000+00:00",
+    "updated": "2026-10-16T23:24:53.634000+00:00",
     "lat": 51.4534,
     "lon": -115.4536,
     "depth_km": 8.336,
@@ -879,7 +879,7 @@
     "place": "31 km NNE of Banff, Canada",
     "cdi": 3.8,
     "mmi": 3.782,
-    "felt_reports": 27,
+    "felt_reports": 28,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -931,14 +931,20 @@
         "responses": 3
       },
       {
-        "lat": 51.039785,
-        "lon": -113.9884575,
+        "lat": 51.080304999999996,
+        "lon": -114.19455500000001,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 51.080304999999996,
-        "lon": -114.19455500000001,
+        "lat": 51.0469525,
+        "lon": -115.2524,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 51.039785,
+        "lon": -113.9884575,
         "intensity": 2.2,
         "responses": 1
       },
@@ -947,6 +953,24 @@
         "lon": -115.56224,
         "intensity": 2,
         "responses": 1
+      },
+      {
+        "lat": 51.186065,
+        "lon": -115.56196,
+        "intensity": 2,
+        "responses": 2
+      },
+      {
+        "lat": 51.186415,
+        "lon": -115.59056749999999,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 51.084357499999996,
+        "lon": -115.350945,
+        "intensity": 2,
+        "responses": 2
       },
       {
         "lat": 51.12091,
@@ -961,38 +985,20 @@
         "responses": 1
       },
       {
-        "lat": 51.186065,
-        "lon": -115.56196,
-        "intensity": 2,
-        "responses": 2
-      },
-      {
-        "lat": 51.084357499999996,
-        "lon": -115.350945,
-        "intensity": 2,
-        "responses": 2
-      },
-      {
         "lat": 51.06556,
         "lon": -115.29452,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 51.186415,
-        "lon": -115.59056749999999,
-        "intensity": 2,
+        "lat": 48.5230025,
+        "lon": -123.3724325,
+        "intensity": 1,
         "responses": 1
       },
       {
         "lat": 51.16844,
         "lon": -115.591115,
-        "intensity": 1,
-        "responses": 1
-      },
-      {
-        "lat": 48.5230025,
-        "lon": -123.3724325,
         "intensity": 1,
         "responses": 1
       },
@@ -3431,6 +3437,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387388.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387388.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000u2w9",
+    "source": "usgs",
+    "time": "2026-10-16T21:30:26.101000+00:00",
+    "updated": "2026-10-16T23:21:33.040000+00:00",
+    "lat": 27.7264,
+    "lon": 57.3327,
+    "depth_km": 10,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "70 km NNE of Mīnāb, Iran",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2w9",
     "relevant": false,
     "keywords_matched": []
   },
