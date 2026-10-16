@@ -492,5 +492,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026umluqb",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/387296.html",
+    "source": "csn",
+    "time": "2026-10-16T07:08:50+00:00",
+    "updated": "2026-10-16T07:08:50+00:00",
+    "lat": -23.84,
+    "lon": -66.93,
+    "depth_km": 235.0,
+    "magnitude": 3.7,
+    "mag_type": "MLv",
+    "place": "76 km al NO de San Antonio de los Cobres, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387296.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387296.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
