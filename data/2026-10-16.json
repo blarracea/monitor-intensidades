@@ -744,7 +744,7 @@
     "id": "us6000u2pb",
     "source": "usgs",
     "time": "2026-10-16T10:46:48.569000+00:00",
-    "updated": "2026-10-16T12:51:29.740000+00:00",
+    "updated": "2026-10-16T12:59:28.248000+00:00",
     "lat": 51.4534,
     "lon": -115.4536,
     "depth_km": 8.336,
@@ -753,7 +753,7 @@
     "place": "31 km NNE of Banff, Canada",
     "cdi": 3.8,
     "mmi": 3.782,
-    "felt_reports": 10,
+    "felt_reports": 11,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -787,15 +787,21 @@
         "responses": 1
       },
       {
+        "lat": 51.084154999999996,
+        "lon": -115.33667249999999,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
         "lat": 51.084559999999996,
         "lon": -115.365215,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 51.084154999999996,
-        "lon": -115.33667249999999,
-        "intensity": 2.2,
+        "lat": 51.186415,
+        "lon": -115.59056749999999,
+        "intensity": 2,
         "responses": 1
       },
       {
@@ -805,14 +811,14 @@
         "responses": 1
       },
       {
-        "lat": 51.04506,
-        "lon": -114.225225,
+        "lat": 51.16844,
+        "lon": -115.591115,
         "intensity": 1,
         "responses": 1
       },
       {
-        "lat": 51.16844,
-        "lon": -115.591115,
+        "lat": 51.04506,
+        "lon": -114.225225,
         "intensity": 1,
         "responses": 1
       }
