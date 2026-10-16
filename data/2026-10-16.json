@@ -516,5 +516,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387296.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026umnrna",
+    "source": "usgs",
+    "time": "2026-10-16T07:41:09.356000+00:00",
+    "updated": "2026-10-16T07:44:55.905000+00:00",
+    "lat": 60.999,
+    "lon": -148.825,
+    "depth_km": 14.5,
+    "magnitude": 2.5,
+    "mag_type": "ml",
+    "place": "19 km ENE of Girdwood, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026umnrna",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
