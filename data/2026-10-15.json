@@ -2146,13 +2146,13 @@
   {
     "id": "us6000u2gd",
     "source": "usgs",
-    "time": "2026-10-15T11:16:43.490000+00:00",
-    "updated": "2026-10-15T11:53:42.040000+00:00",
-    "lat": 0.7509,
-    "lon": -85.429,
+    "time": "2026-10-15T11:16:43.668000+00:00",
+    "updated": "2026-10-16T14:17:54.040000+00:00",
+    "lat": 0.9022,
+    "lon": -85.3587,
     "depth_km": 10,
-    "magnitude": 4.8,
-    "mag_type": "mb",
+    "magnitude": 5.4,
+    "mag_type": "mww",
     "place": "off the coast of Ecuador",
     "cdi": null,
     "mmi": null,
@@ -2164,7 +2164,7 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2gd",
-    "relevant": false,
+    "relevant": true,
     "keywords_matched": []
   },
   {
