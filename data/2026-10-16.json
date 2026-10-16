@@ -732,5 +732,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026umulqe",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026umurxi",
+    "source": "usgs",
+    "time": "2026-10-16T11:11:30.488000+00:00",
+    "updated": "2026-10-16T11:15:40.150000+00:00",
+    "lat": 67.374,
+    "lon": -145.31,
+    "depth_km": 6.7,
+    "magnitude": 2.6,
+    "mag_type": "ml",
+    "place": "62 km NE of Venetie, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026umurxi",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
