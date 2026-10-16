@@ -1704,18 +1704,24 @@
     "id": "nc75449266",
     "source": "usgs",
     "time": "2026-10-14T13:56:12.400000+00:00",
-    "updated": "2026-10-14T23:58:38.988000+00:00",
+    "updated": "2026-10-16T19:50:45.437000+00:00",
     "lat": 40.6769981384277,
     "lon": -123.889335632324,
     "depth_km": 4.44000005722046,
     "magnitude": 2.99,
     "mag_type": "md",
     "place": "23 km NE of Hydesville, CA",
-    "cdi": 2.2,
+    "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 7,
+    "felt_reports": 8,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 40.670272499999996,
+        "lon": -123.84595,
+        "intensity": 3.1,
+        "responses": 1
+      },
       {
         "lat": 40.86667,
         "lon": -124.06204,
@@ -1741,6 +1747,12 @@
         "responses": 1
       },
       {
+        "lat": 41.064255,
+        "lon": -124.12472,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
         "lat": 40.766445,
         "lon": -124.17892499999999,
         "intensity": 1,
@@ -1749,12 +1761,6 @@
       {
         "lat": 40.5956725,
         "lon": -124.140465,
-        "intensity": 1,
-        "responses": 1
-      },
-      {
-        "lat": 41.064255,
-        "lon": -124.12472,
         "intensity": 1,
         "responses": 1
       }
