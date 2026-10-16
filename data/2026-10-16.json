@@ -1180,5 +1180,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387336.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026unbzcp",
+    "source": "usgs",
+    "time": "2026-10-16T14:49:42.657000+00:00",
+    "updated": "2026-10-16T14:54:54.129000+00:00",
+    "lat": 61.476,
+    "lon": -149.788,
+    "depth_km": 28.5,
+    "magnitude": 3.6,
+    "mag_type": "ml",
+    "place": "3 km WNW of Knik, Alaska",
+    "cdi": null,
+    "mmi": 3.616,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026unbzcp",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
