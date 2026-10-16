@@ -444,5 +444,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387288.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026umlmsg",
+    "source": "usgs",
+    "time": "2026-10-16T06:35:39.710000+00:00",
+    "updated": "2026-10-16T06:39:21.131000+00:00",
+    "lat": 57.659,
+    "lon": -155.79,
+    "depth_km": 3.6,
+    "magnitude": 3.2,
+    "mag_type": "ml",
+    "place": "80 km W of Karluk, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026umlmsg",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
