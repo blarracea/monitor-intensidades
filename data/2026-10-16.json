@@ -645,6 +645,30 @@
     "keywords_matched": []
   },
   {
+    "id": "us6000u2nz",
+    "source": "usgs",
+    "time": "2026-10-16T09:01:08.413000+00:00",
+    "updated": "2026-10-16T12:35:14.040000+00:00",
+    "lat": -22.2174,
+    "lon": -179.6426,
+    "depth_km": 593.722,
+    "magnitude": 4.4,
+    "mag_type": "mb",
+    "place": "south of the Fiji Islands",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2nz",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "us6000u2p5",
     "source": "usgs",
     "time": "2026-10-16T09:04:28.861000+00:00",
@@ -720,7 +744,7 @@
     "id": "us6000u2pb",
     "source": "usgs",
     "time": "2026-10-16T10:46:48.569000+00:00",
-    "updated": "2026-10-16T12:27:20.354000+00:00",
+    "updated": "2026-10-16T12:30:57.203000+00:00",
     "lat": 51.4534,
     "lon": -115.4536,
     "depth_km": 8.336,
@@ -729,7 +753,7 @@
     "place": "31 km NNE of Banff, Canada",
     "cdi": 3.8,
     "mmi": 3.782,
-    "felt_reports": 9,
+    "felt_reports": 10,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -772,6 +796,12 @@
         "lat": 51.084154999999996,
         "lon": -115.33667249999999,
         "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 51.061305000000004,
+        "lon": -114.152885,
+        "intensity": 2,
         "responses": 1
       },
       {
