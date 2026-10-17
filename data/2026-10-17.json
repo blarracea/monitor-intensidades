@@ -914,5 +914,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2yx",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u2yz",
+    "source": "usgs",
+    "time": "2026-10-17T07:40:02.596000+00:00",
+    "updated": "2026-10-17T07:58:10.040000+00:00",
+    "lat": -13.3461,
+    "lon": 167.0474,
+    "depth_km": 145.265,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "80 km NW of Sola, Vanuatu",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2yz",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
