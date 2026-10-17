@@ -1149,5 +1149,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387484.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026uoopfk",
+    "source": "usgs",
+    "time": "2026-10-17T10:07:45.535000+00:00",
+    "updated": "2026-10-17T10:11:20.322000+00:00",
+    "lat": 62.924,
+    "lon": -150.815,
+    "depth_km": 111.4,
+    "magnitude": 2.5,
+    "mag_type": "ml",
+    "place": "47 km N of Petersville, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uoopfk",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
