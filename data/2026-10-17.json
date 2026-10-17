@@ -794,5 +794,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2ys",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "tx2026ulazjd",
+    "source": "usgs",
+    "time": "2026-10-17T07:05:54.449000+00:00",
+    "updated": "2026-10-17T07:24:47.511000+00:00",
+    "lat": 31.547,
+    "lon": -104.135,
+    "depth_km": 8.4326,
+    "magnitude": 3,
+    "mag_type": "ml",
+    "place": "41 km NW of Toyah, Texas",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026ulazjd",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
