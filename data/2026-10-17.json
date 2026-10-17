@@ -22,5 +22,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387408.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u2x1",
+    "source": "usgs",
+    "time": "2026-10-17T00:23:41.073000+00:00",
+    "updated": "2026-10-17T00:46:37.040000+00:00",
+    "lat": 32.3538,
+    "lon": -104.462,
+    "depth_km": 4.209,
+    "magnitude": 2.7,
+    "mag_type": "ml",
+    "place": "21 km NNW of Whites City, New Mexico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2x1",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
