@@ -1805,7 +1805,7 @@
     "id": "uu80160531",
     "source": "usgs",
     "time": "2026-10-17T19:30:56.270000+00:00",
-    "updated": "2026-10-17T19:59:04.838000+00:00",
+    "updated": "2026-10-17T21:40:52.499000+00:00",
     "lat": 40.7485,
     "lon": -111.5965,
     "depth_km": 8.38,
@@ -1814,7 +1814,7 @@
     "place": "1 km ENE of Summit Park, Utah",
     "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 3,
+    "felt_reports": 4,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1832,6 +1832,12 @@
       {
         "lat": 40.715050000000005,
         "lon": -111.8820375,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 40.762085,
+        "lon": -111.5627675,
         "intensity": 2,
         "responses": 1
       }
@@ -1961,6 +1967,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387558.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387558.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "nc75451211",
+    "source": "usgs",
+    "time": "2026-10-17T21:43:02.290000+00:00",
+    "updated": "2026-10-17T21:44:40.177000+00:00",
+    "lat": 40.2726669311523,
+    "lon": -124.488334655762,
+    "depth_km": 7.34999990463257,
+    "magnitude": 2.59,
+    "mag_type": "md",
+    "place": "18 km WSW of Petrolia, CA",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75451211",
     "relevant": false,
     "keywords_matched": []
   }
