@@ -360,5 +360,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387433.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u2xs",
+    "source": "usgs",
+    "time": "2026-10-17T04:19:05.244000+00:00",
+    "updated": "2026-10-17T04:33:19.040000+00:00",
+    "lat": -16.0441,
+    "lon": -177.7283,
+    "depth_km": 439.394,
+    "magnitude": 4.8,
+    "mag_type": "mb",
+    "place": "196 km SSE of Alo, Wallis and Futuna",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2xs",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
