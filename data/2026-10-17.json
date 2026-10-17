@@ -1228,5 +1228,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387489.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u2zv",
+    "source": "usgs",
+    "time": "2026-10-17T11:32:25.645000+00:00",
+    "updated": "2026-10-17T12:17:54.040000+00:00",
+    "lat": -37.2587,
+    "lon": 177.3673,
+    "depth_km": 133.382,
+    "magnitude": 4.3,
+    "mag_type": "mb",
+    "place": "83 km N of Opotiki, New Zealand",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2zv",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
