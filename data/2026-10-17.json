@@ -281,7 +281,7 @@
     "id": "uw714121212",
     "source": "usgs",
     "time": "2026-10-17T03:37:39.030000+00:00",
-    "updated": "2026-10-17T06:21:06.120000+00:00",
+    "updated": "2026-10-17T08:11:59.125000+00:00",
     "lat": 47.9208333333333,
     "lon": -124.130166666667,
     "depth_km": 40.46,
@@ -290,18 +290,18 @@
     "place": "19 km E of Forks, Washington",
     "cdi": 2.2,
     "mmi": 1.84,
-    "felt_reports": 14,
+    "felt_reports": 15,
     "tsunami_flag": false,
     "dyfi_points": [
       {
-        "lat": 48.4330825,
-        "lon": -123.35825249999999,
+        "lat": 47.857065,
+        "lon": -122.57888,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 47.857065,
-        "lon": -122.57888,
+        "lat": 47.46774,
+        "lon": -123.855895,
         "intensity": 2.2,
         "responses": 1
       },
@@ -312,21 +312,21 @@
         "responses": 1
       },
       {
-        "lat": 47.0479425,
-        "lon": -122.874925,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
         "lat": 47.89328,
         "lon": -122.6454775,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 47.929455000000004,
-        "lon": -122.71216749999999,
-        "intensity": 2,
+        "lat": 48.4330825,
+        "lon": -123.35825249999999,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 47.0479425,
+        "lon": -122.874925,
+        "intensity": 2.2,
         "responses": 1
       },
       {
@@ -336,8 +336,14 @@
         "responses": 1
       },
       {
-        "lat": 48.07322,
-        "lon": -123.35575,
+        "lat": 47.929455000000004,
+        "lon": -122.71216749999999,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 47.6671425,
+        "lon": -122.367285,
         "intensity": 1,
         "responses": 1
       },
@@ -348,26 +354,26 @@
         "responses": 1
       },
       {
-        "lat": 47.0389875,
-        "lon": -122.92759749999999,
-        "intensity": 1,
-        "responses": 1
-      },
-      {
-        "lat": 47.6671425,
-        "lon": -122.367285,
-        "intensity": 1,
-        "responses": 1
-      },
-      {
         "lat": 47.639845,
         "lon": -122.314365,
         "intensity": 1,
         "responses": 1
       },
       {
+        "lat": 47.0389875,
+        "lon": -122.92759749999999,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
         "lat": 48.307175,
         "lon": -122.656105,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 48.07322,
+        "lon": -123.35575,
         "intensity": 1,
         "responses": 1
       }
