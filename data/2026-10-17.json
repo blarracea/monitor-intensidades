@@ -944,5 +944,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2yz",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026uokwxx",
+    "source": "usgs",
+    "time": "2026-10-17T08:16:42.940000+00:00",
+    "updated": "2026-10-17T08:20:30.717000+00:00",
+    "lat": 62.849,
+    "lon": -150.506,
+    "depth_km": 93.2,
+    "magnitude": 3.8,
+    "mag_type": "ml",
+    "place": "41 km NNE of Petersville, Alaska",
+    "cdi": null,
+    "mmi": 2.315,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uokwxx",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
