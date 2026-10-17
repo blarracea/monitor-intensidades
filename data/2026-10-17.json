@@ -1812,7 +1812,7 @@
     "id": "uu80160531",
     "source": "usgs",
     "time": "2026-10-17T19:30:56.270000+00:00",
-    "updated": "2026-10-17T21:40:52.499000+00:00",
+    "updated": "2026-10-17T23:15:07.133000+00:00",
     "lat": 40.7485,
     "lon": -111.5965,
     "depth_km": 8.38,
@@ -1821,7 +1821,7 @@
     "place": "1 km ENE of Summit Park, Utah",
     "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 4,
+    "felt_reports": 5,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1834,6 +1834,12 @@
         "lat": 40.7619075,
         "lon": -111.59831,
         "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 40.744015,
+        "lon": -111.57446,
+        "intensity": 2,
         "responses": 1
       },
       {
