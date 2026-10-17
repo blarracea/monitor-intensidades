@@ -2048,5 +2048,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387562.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u326",
+    "source": "usgs",
+    "time": "2026-10-17T22:11:42.595000+00:00",
+    "updated": "2026-10-17T22:21:03.040000+00:00",
+    "lat": 32.1505,
+    "lon": -101.8549,
+    "depth_km": 5,
+    "magnitude": 3.1,
+    "mag_type": "mb_lg",
+    "place": "6 km WNW of Stanton, Texas",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u326",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
