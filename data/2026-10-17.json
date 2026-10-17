@@ -1464,6 +1464,37 @@
     "keywords_matched": []
   },
   {
+    "id": "us6000u30p",
+    "source": "usgs",
+    "time": "2026-10-17T16:24:16.531000+00:00",
+    "updated": "2026-10-17T16:48:55.236000+00:00",
+    "lat": 7.5057,
+    "lon": -80.3846,
+    "depth_km": 10,
+    "magnitude": 4.3,
+    "mag_type": "mb",
+    "place": "3 km NE of Flores, Panama",
+    "cdi": 3.4,
+    "mmi": null,
+    "felt_reports": 1,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 7.684425,
+        "lon": -80.170335,
+        "intensity": 3.4,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u30p",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "aka2026upboqb",
     "source": "usgs",
     "time": "2026-10-17T16:36:25.807000+00:00",
@@ -1484,6 +1515,30 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026upboqb",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "aka2026upbssm",
+    "source": "usgs",
+    "time": "2026-10-17T16:41:36.132000+00:00",
+    "updated": "2026-10-17T16:44:19.798000+00:00",
+    "lat": 57.306,
+    "lon": -154.908,
+    "depth_km": 53.4,
+    "magnitude": 2.5,
+    "mag_type": "ml",
+    "place": "39 km SW of Karluk, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026upbssm",
     "relevant": false,
     "keywords_matched": []
   }
