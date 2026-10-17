@@ -1595,5 +1595,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026upbssm",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u30x",
+    "source": "usgs",
+    "time": "2026-10-17T16:52:45.164000+00:00",
+    "updated": "2026-10-17T18:26:00.040000+00:00",
+    "lat": -21.1752,
+    "lon": -67.2144,
+    "depth_km": 189.462,
+    "magnitude": 4.6,
+    "mag_type": "mb",
+    "place": "88 km SSW of Uyuni, Bolivia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u30x",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
