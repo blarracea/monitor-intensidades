@@ -3672,7 +3672,7 @@
     "id": "us6000u2wn",
     "source": "usgs",
     "time": "2026-10-16T22:41:03.562000+00:00",
-    "updated": "2026-10-16T23:43:45.097000+00:00",
+    "updated": "2026-10-17T07:39:59.302000+00:00",
     "lat": 7.6127,
     "lon": -80.9354,
     "depth_km": 10,
@@ -3681,13 +3681,19 @@
     "place": "12 km SSE of Tebario, Panama",
     "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 2,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 8.5978425,
         "lon": -80.132105,
         "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 8.579125,
+        "lon": -79.88681249999999,
+        "intensity": 2,
         "responses": 1
       },
       {
