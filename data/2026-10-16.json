@@ -3776,18 +3776,24 @@
     "id": "us6000u2ww",
     "source": "usgs",
     "time": "2026-10-16T23:57:50.544000+00:00",
-    "updated": "2026-10-17T05:19:20.335000+00:00",
+    "updated": "2026-10-17T05:41:58.831000+00:00",
     "lat": 38.305,
     "lon": 20.6863,
     "depth_km": 10,
     "magnitude": 4.6,
     "mag_type": "mb",
     "place": "6 km NNE of Sámi, Greece",
-    "cdi": 3.4,
+    "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 2,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 38.24896,
+        "lon": 20.639995,
+        "intensity": 3.8,
+        "responses": 1
+      },
       {
         "lat": 38.627355,
         "lon": 20.603645,
