@@ -202,19 +202,38 @@
     "id": "uw714121212",
     "source": "usgs",
     "time": "2026-10-17T03:37:39.130000+00:00",
-    "updated": "2026-10-17T03:44:36.848000+00:00",
+    "updated": "2026-10-17T03:48:56.285000+00:00",
     "lat": 47.9143333435059,
     "lon": -124.129837036133,
     "depth_km": 38.9900016784668,
     "magnitude": 3.27076458930969,
     "mag_type": "ml",
     "place": "19 km ESE of Forks, Washington",
-    "cdi": 1,
-    "mmi": null,
-    "felt_reports": 1,
+    "cdi": 3,
+    "mmi": 1.955,
+    "felt_reports": 3,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 48.4044625,
+        "lon": -123.709355,
+        "intensity": 3,
+        "responses": 1
+      },
+      {
+        "lat": 48.307175,
+        "lon": -122.656105,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 47.6671425,
+        "lon": -122.367285,
+        "intensity": 1,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "snam_url": null,
