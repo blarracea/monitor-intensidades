@@ -281,7 +281,7 @@
     "id": "uw714121212",
     "source": "usgs",
     "time": "2026-10-17T03:37:39.030000+00:00",
-    "updated": "2026-10-17T15:49:17.198000+00:00",
+    "updated": "2026-10-17T16:14:30.686000+00:00",
     "lat": 47.9208333333333,
     "lon": -124.130166666667,
     "depth_km": 40.46,
@@ -290,7 +290,7 @@
     "place": "19 km E of Forks, Washington",
     "cdi": 2.2,
     "mmi": 1.84,
-    "felt_reports": 16,
+    "felt_reports": 17,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -302,12 +302,6 @@
       {
         "lat": 47.0479425,
         "lon": -122.874925,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 48.450514999999996,
-        "lon": -123.5071375,
         "intensity": 2.2,
         "responses": 1
       },
@@ -324,15 +318,15 @@
         "responses": 1
       },
       {
-        "lat": 47.89328,
-        "lon": -122.6454775,
+        "lat": 48.450514999999996,
+        "lon": -123.5071375,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 47.929455000000004,
-        "lon": -122.71216749999999,
-        "intensity": 2,
+        "lat": 47.89328,
+        "lon": -122.6454775,
+        "intensity": 2.2,
         "responses": 1
       },
       {
@@ -342,14 +336,32 @@
         "responses": 1
       },
       {
+        "lat": 47.929455000000004,
+        "lon": -122.71216749999999,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 47.6671425,
+        "lon": -122.367285,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
         "lat": 47.469052500000004,
         "lon": -122.34313,
         "intensity": 1,
         "responses": 1
       },
       {
-        "lat": 47.6671425,
-        "lon": -122.367285,
+        "lat": 47.639845,
+        "lon": -122.314365,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 48.07322,
+        "lon": -123.35575,
         "intensity": 1,
         "responses": 1
       },
@@ -366,14 +378,8 @@
         "responses": 1
       },
       {
-        "lat": 48.07322,
-        "lon": -123.35575,
-        "intensity": 1,
-        "responses": 1
-      },
-      {
-        "lat": 47.639845,
-        "lon": -122.314365,
+        "lat": 47.245225,
+        "lon": -123.41624,
         "intensity": 1,
         "responses": 1
       },
