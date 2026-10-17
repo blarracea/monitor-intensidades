@@ -1467,7 +1467,7 @@
     "id": "us6000u30p",
     "source": "usgs",
     "time": "2026-10-17T16:24:16.531000+00:00",
-    "updated": "2026-10-17T16:48:55.236000+00:00",
+    "updated": "2026-10-17T16:57:04.854000+00:00",
     "lat": 7.5057,
     "lon": -80.3846,
     "depth_km": 10,
@@ -1476,12 +1476,18 @@
     "place": "3 km NE of Flores, Panama",
     "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 7.684425,
         "lon": -80.170335,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 7.9562325,
+        "lon": -80.4510575,
         "intensity": 3.4,
         "responses": 1
       }
