@@ -46,5 +46,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2x1",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u2x7",
+    "source": "usgs",
+    "time": "2026-10-17T01:03:00.020000+00:00",
+    "updated": "2026-10-17T01:18:02.040000+00:00",
+    "lat": 14.0576,
+    "lon": -93.2479,
+    "depth_km": 10,
+    "magnitude": 4.9,
+    "mag_type": "mb",
+    "place": "115 km SW of Puerto Madero, Mexico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2x7",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
