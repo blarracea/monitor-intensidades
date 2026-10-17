@@ -281,7 +281,7 @@
     "id": "uw714121212",
     "source": "usgs",
     "time": "2026-10-17T03:37:39.030000+00:00",
-    "updated": "2026-10-17T16:29:14.244000+00:00",
+    "updated": "2026-10-17T19:24:23.946000+00:00",
     "lat": 47.9208333333333,
     "lon": -124.130166666667,
     "depth_km": 40.46,
@@ -290,12 +290,12 @@
     "place": "19 km E of Forks, Washington",
     "cdi": 2.2,
     "mmi": 1.84,
-    "felt_reports": 18,
+    "felt_reports": 19,
     "tsunami_flag": false,
     "dyfi_points": [
       {
-        "lat": 48.450514999999996,
-        "lon": -123.5071375,
+        "lat": 47.46774,
+        "lon": -123.855895,
         "intensity": 2.2,
         "responses": 1
       },
@@ -312,32 +312,32 @@
         "responses": 1
       },
       {
-        "lat": 47.0479425,
-        "lon": -122.874925,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 47.46774,
-        "lon": -123.855895,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
         "lat": 47.89328,
         "lon": -122.6454775,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 47.929455000000004,
-        "lon": -122.71216749999999,
-        "intensity": 2,
+        "lat": 47.0479425,
+        "lon": -122.874925,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 48.450514999999996,
+        "lon": -123.5071375,
+        "intensity": 2.2,
         "responses": 1
       },
       {
         "lat": 47.9572725,
         "lon": -124.399745,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 47.929455000000004,
+        "lon": -122.71216749999999,
         "intensity": 2,
         "responses": 1
       },
@@ -348,20 +348,20 @@
         "responses": 1
       },
       {
+        "lat": 47.639845,
+        "lon": -122.314365,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
         "lat": 47.245225,
         "lon": -123.41624,
         "intensity": 1,
         "responses": 1
       },
       {
-        "lat": 48.307175,
-        "lon": -122.656105,
-        "intensity": 1,
-        "responses": 1
-      },
-      {
-        "lat": 47.469052500000004,
-        "lon": -122.34313,
+        "lat": 47.0389875,
+        "lon": -122.92759749999999,
         "intensity": 1,
         "responses": 1
       },
@@ -372,26 +372,32 @@
         "responses": 1
       },
       {
-        "lat": 48.04595,
-        "lon": -123.436065,
-        "intensity": 1,
-        "responses": 1
-      },
-      {
-        "lat": 47.639845,
-        "lon": -122.314365,
-        "intensity": 1,
-        "responses": 1
-      },
-      {
         "lat": 47.6671425,
         "lon": -122.367285,
         "intensity": 1,
         "responses": 1
       },
       {
-        "lat": 47.0389875,
-        "lon": -122.92759749999999,
+        "lat": 48.04595,
+        "lon": -123.436065,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 48.307175,
+        "lon": -122.656105,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 47.907492500000004,
+        "lon": -122.0030525,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 47.469052500000004,
+        "lon": -122.34313,
         "intensity": 1,
         "responses": 1
       }
@@ -1647,16 +1653,59 @@
   {
     "id": "aka2026upgumy",
     "source": "usgs",
-    "time": "2026-10-17T19:14:06.982000+00:00",
-    "updated": "2026-10-17T19:19:00.347000+00:00",
-    "lat": 59.498,
+    "time": "2026-10-17T19:14:06.997000+00:00",
+    "updated": "2026-10-17T19:25:22.519000+00:00",
+    "lat": 59.499,
     "lon": -150.368,
-    "depth_km": 26.8,
+    "depth_km": 26.9,
     "magnitude": 3.8,
     "mag_type": "ml",
     "place": "49 km ESE of Halibut Cove, Alaska",
+    "cdi": 3.8,
+    "mmi": 3.144,
+    "felt_reports": 4,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 60.532485,
+        "lon": -150.93157250000002,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 60.0303075,
+        "lon": -151.69894499999998,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.1551025,
+        "lon": -149.88980750000002,
+        "intensity": 1,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026upgumy",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "aka2026uphcnz",
+    "source": "usgs",
+    "time": "2026-10-17T19:23:28.103000+00:00",
+    "updated": "2026-10-17T19:25:09.993000+00:00",
+    "lat": 59.523,
+    "lon": -150.408,
+    "depth_km": 26.6,
+    "magnitude": 3.2,
+    "mag_type": "ml",
+    "place": "46 km E of Halibut Cove, Alaska",
     "cdi": null,
-    "mmi": 3.277,
+    "mmi": null,
     "felt_reports": 0,
     "tsunami_flag": false,
     "dyfi_points": [],
@@ -1664,7 +1713,7 @@
     "senapred_url": null,
     "csn_informe_url": null,
     "snam_url": null,
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026upgumy",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uphcnz",
     "relevant": false,
     "keywords_matched": []
   }
