@@ -890,5 +890,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2yw",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u2yx",
+    "source": "usgs",
+    "time": "2026-10-17T07:25:13.879000+00:00",
+    "updated": "2026-10-17T07:41:57.040000+00:00",
+    "lat": 3.6157,
+    "lon": -76.3781,
+    "depth_km": 154.394,
+    "magnitude": 4.4,
+    "mag_type": "mb",
+    "place": "10 km SW of El Cerrito, Colombia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2yx",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
