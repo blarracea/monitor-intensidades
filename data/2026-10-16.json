@@ -3698,5 +3698,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2wr",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u2ww",
+    "source": "usgs",
+    "time": "2026-10-16T23:57:50.544000+00:00",
+    "updated": "2026-10-17T00:32:21.040000+00:00",
+    "lat": 38.305,
+    "lon": 20.6863,
+    "depth_km": 10,
+    "magnitude": 4.6,
+    "mag_type": "mb",
+    "place": "6 km NNE of Sámi, Greece",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2ww",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
