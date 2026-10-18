@@ -809,5 +809,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71537138",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/387658.html",
+    "source": "csn",
+    "time": "2026-10-18T12:09:29+00:00",
+    "updated": "2026-10-18T12:09:29+00:00",
+    "lat": -31.34,
+    "lon": -71.62,
+    "depth_km": 32.0,
+    "magnitude": 3.1,
+    "mag_type": "MLv",
+    "place": "17 km al O de Canela Baja, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387658.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387658.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
