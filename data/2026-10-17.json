@@ -178,18 +178,24 @@
     "id": "us6000u2y4",
     "source": "usgs",
     "time": "2026-10-17T03:03:19.932000+00:00",
-    "updated": "2026-10-17T05:38:39.563000+00:00",
+    "updated": "2026-10-18T15:20:35.561000+00:00",
     "lat": -38.3279,
     "lon": 146.0022,
     "depth_km": 10,
     "magnitude": 3.1,
     "mag_type": "ml",
     "place": "14 km SSW of Yarragon, Australia",
-    "cdi": 2,
+    "cdi": 2.2,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": -38.17503,
+        "lon": 146.252185,
+        "intensity": 2.2,
+        "responses": 1
+      },
       {
         "lat": -38.41712,
         "lon": 146.0778725,
