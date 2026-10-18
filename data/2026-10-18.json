@@ -94,5 +94,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387583.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "ok2026ujzg",
+    "source": "usgs",
+    "time": "2026-10-18T01:41:24.808000+00:00",
+    "updated": "2026-10-18T01:42:49.217000+00:00",
+    "lat": 34.44470978,
+    "lon": -97.52202606,
+    "depth_km": 2.27417469,
+    "magnitude": 2.83,
+    "mag_type": "ml",
+    "place": "1 km WSW of Ratliff City, Oklahoma",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026ujzg",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
