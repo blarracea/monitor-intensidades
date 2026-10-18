@@ -1339,5 +1339,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u37h",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "hv75060536",
+    "source": "usgs",
+    "time": "2026-10-18T20:19:51.090000+00:00",
+    "updated": "2026-10-18T20:23:24.980000+00:00",
+    "lat": 19.1801662445068,
+    "lon": -155.697662353516,
+    "depth_km": -0.319999992847443,
+    "magnitude": 2.88,
+    "mag_type": "ml",
+    "place": "14 km NNE of Hawaiian Ocean View, Hawaii",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75060536",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
