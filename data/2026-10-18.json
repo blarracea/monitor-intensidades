@@ -1604,5 +1604,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u38b",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u38g",
+    "source": "usgs",
+    "time": "2026-10-18T22:31:43.284000+00:00",
+    "updated": "2026-10-18T22:48:48.040000+00:00",
+    "lat": -5.4373,
+    "lon": 152.6748,
+    "depth_km": 10,
+    "magnitude": 5.1,
+    "mag_type": "mww",
+    "place": "129 km SSE of Kokopo, Papua New Guinea",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u38g",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
