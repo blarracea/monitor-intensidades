@@ -1045,5 +1045,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u36d",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/387686.html",
+    "source": "csn",
+    "time": "2026-10-18T16:57:25+00:00",
+    "updated": "2026-10-18T16:57:25+00:00",
+    "lat": -22.97,
+    "lon": -68.97,
+    "depth_km": 76.0,
+    "magnitude": 2.5,
+    "mag_type": "MLv",
+    "place": "36 km al E de Sierra Gorda, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387686.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387686.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
