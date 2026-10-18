@@ -1013,18 +1013,24 @@
     "id": "us6000u36d",
     "source": "usgs",
     "time": "2026-10-18T15:35:47.580000+00:00",
-    "updated": "2026-10-18T15:57:25.295000+00:00",
+    "updated": "2026-10-18T16:21:24.252000+00:00",
     "lat": 17.2531,
     "lon": -63.0065,
     "depth_km": 149.951,
     "magnitude": 4.7,
     "mag_type": "mb",
     "place": "20 km SW of Sandy Point Town, Saint Kitts and Nevis",
-    "cdi": 2,
+    "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 18.047987499999998,
+        "lon": -63.1275525,
+        "intensity": 2.7,
+        "responses": 1
+      },
       {
         "lat": 18.038980000000002,
         "lon": -63.0614075,
