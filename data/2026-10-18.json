@@ -209,5 +209,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387603.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026upynvp",
+    "source": "usgs",
+    "time": "2026-10-18T04:05:46.635000+00:00",
+    "updated": "2026-10-18T04:10:20.324000+00:00",
+    "lat": 57.73,
+    "lon": -153.987,
+    "depth_km": 28.7,
+    "magnitude": 2.8,
+    "mag_type": "ml",
+    "place": "21 km N of Larsen Bay, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026upynvp",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
