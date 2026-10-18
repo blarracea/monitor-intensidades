@@ -1315,5 +1315,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026unvjfb",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u37h",
+    "source": "usgs",
+    "time": "2026-10-18T19:32:28.734000+00:00",
+    "updated": "2026-10-18T20:13:00.040000+00:00",
+    "lat": -21.541,
+    "lon": -174.2956,
+    "depth_km": 10,
+    "magnitude": 5.2,
+    "mag_type": "mb",
+    "place": "71 km ESE of ‘Ohonua, Tonga",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u37h",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
