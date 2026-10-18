@@ -521,5 +521,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387627.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026uqfuye",
+    "source": "usgs",
+    "time": "2026-10-18T07:43:42.577000+00:00",
+    "updated": "2026-10-18T07:57:21.007000+00:00",
+    "lat": 53.771,
+    "lon": -165.083,
+    "depth_km": 50.4,
+    "magnitude": 2.8,
+    "mag_type": "ml",
+    "place": "60 km SE of Akutan, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uqfuye",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
