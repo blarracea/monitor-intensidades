@@ -1368,16 +1368,16 @@
     "id": "hv75060536",
     "source": "usgs",
     "time": "2026-10-18T20:19:51.090000+00:00",
-    "updated": "2026-10-18T20:56:57.855000+00:00",
+    "updated": "2026-10-18T21:09:10.813000+00:00",
     "lat": 19.1801662445068,
     "lon": -155.697662353516,
     "depth_km": -0.319999992847443,
     "magnitude": 2.88,
     "mag_type": "ml",
     "place": "14 km NNE of Hawaiian Ocean View, Hawaii",
-    "cdi": 2.5,
+    "cdi": 2,
     "mmi": null,
-    "felt_reports": 3,
+    "felt_reports": 4,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1395,6 +1395,12 @@
       {
         "lat": 19.068820000000002,
         "lon": -155.6179325,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 19.094105,
+        "lon": -155.7418075,
         "intensity": 2,
         "responses": 1
       }
@@ -1452,6 +1458,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387716.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387716.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/387720.html",
+    "source": "csn",
+    "time": "2026-10-18T21:04:45+00:00",
+    "updated": "2026-10-18T21:04:45+00:00",
+    "lat": -19.31,
+    "lon": -70.12,
+    "depth_km": 47.0,
+    "magnitude": 2.5,
+    "mag_type": "MLv",
+    "place": "18 km al S de Cuya, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387720.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387720.html",
     "relevant": false,
     "keywords_matched": []
   }
