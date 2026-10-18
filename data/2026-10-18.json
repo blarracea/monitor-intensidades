@@ -641,5 +641,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uqglix",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u34h",
+    "source": "usgs",
+    "time": "2026-10-18T08:02:43.165000+00:00",
+    "updated": "2026-10-18T08:22:30.040000+00:00",
+    "lat": 53.1507,
+    "lon": -167.005,
+    "depth_km": 39.8,
+    "magnitude": 3.8,
+    "mag_type": "mb",
+    "place": "86 km SSW of Unalaska, Alaska",
+    "cdi": null,
+    "mmi": 2.72,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u34h",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
