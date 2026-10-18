@@ -1171,5 +1171,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387702.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "hv75060496",
+    "source": "usgs",
+    "time": "2026-10-18T18:28:37.630000+00:00",
+    "updated": "2026-10-18T18:32:13.860000+00:00",
+    "lat": 19.1778335571289,
+    "lon": -155.502838134766,
+    "depth_km": 29.7199993133545,
+    "magnitude": 2.67,
+    "mag_type": "md",
+    "place": "3 km SW of Pāhala, Hawaii",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75060496",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
