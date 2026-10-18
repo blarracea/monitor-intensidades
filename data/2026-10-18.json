@@ -1267,5 +1267,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026unuutp",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "tx2026unvjfb",
+    "source": "usgs",
+    "time": "2026-10-18T19:30:02.981000+00:00",
+    "updated": "2026-10-18T19:38:20.726000+00:00",
+    "lat": 31.66,
+    "lon": -104.428,
+    "depth_km": 6.6125,
+    "magnitude": 2.9,
+    "mag_type": "ml",
+    "place": "57 km S of Whites City, New Mexico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026unvjfb",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
