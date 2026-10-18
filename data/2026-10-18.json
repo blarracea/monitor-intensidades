@@ -1368,7 +1368,7 @@
     "id": "hv75060536",
     "source": "usgs",
     "time": "2026-10-18T20:19:51.090000+00:00",
-    "updated": "2026-10-18T20:49:14.040000+00:00",
+    "updated": "2026-10-18T20:56:57.855000+00:00",
     "lat": 19.1801662445068,
     "lon": -155.697662353516,
     "depth_km": -0.319999992847443,
@@ -1377,7 +1377,7 @@
     "place": "14 km NNE of Hawaiian Ocean View, Hawaii",
     "cdi": 2.5,
     "mmi": null,
-    "felt_reports": 2,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1391,6 +1391,12 @@
         "lon": -155.742255,
         "intensity": 2.2,
         "responses": 1
+      },
+      {
+        "lat": 19.068820000000002,
+        "lon": -155.6179325,
+        "intensity": 2,
+        "responses": 1
       }
     ],
     "intensity_source": "usgs_dyfi",
@@ -1398,6 +1404,30 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75060536",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000u37s",
+    "source": "usgs",
+    "time": "2026-10-18T20:24:09.032000+00:00",
+    "updated": "2026-10-18T20:56:55.040000+00:00",
+    "lat": -7.3545,
+    "lon": 128.6566,
+    "depth_km": 142.589,
+    "magnitude": 4.4,
+    "mag_type": "mb",
+    "place": "223 km NE of Lospalos, Timor Leste",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u37s",
     "relevant": false,
     "keywords_matched": []
   },
