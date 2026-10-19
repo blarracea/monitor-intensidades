@@ -1080,5 +1080,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ce",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u3ch",
+    "source": "usgs",
+    "time": "2026-10-19T12:06:01.884000+00:00",
+    "updated": "2026-10-19T12:22:21.040000+00:00",
+    "lat": -8.1042,
+    "lon": 120.378,
+    "depth_km": 10,
+    "magnitude": 4.8,
+    "mag_type": "mb",
+    "place": "56 km N of Ruteng, Indonesia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ch",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
