@@ -653,5 +653,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3bk",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u3bs",
+    "source": "usgs",
+    "time": "2026-10-19T08:51:57.571000+00:00",
+    "updated": "2026-10-19T09:17:50.040000+00:00",
+    "lat": 45.481,
+    "lon": 26.2168,
+    "depth_km": 124.754,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "2 km W of Lunca Jariștei, Romania",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3bs",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
