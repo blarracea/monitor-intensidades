@@ -610,7 +610,7 @@
     "id": "us6000u3bi",
     "source": "usgs",
     "time": "2026-10-19T08:12:38.235000+00:00",
-    "updated": "2026-10-19T08:37:31.402000+00:00",
+    "updated": "2026-10-19T10:15:26.201000+00:00",
     "lat": -14.1387,
     "lon": 165.6383,
     "depth_km": 10,
@@ -658,7 +658,7 @@
     "id": "us6000u3bs",
     "source": "usgs",
     "time": "2026-10-19T08:51:57.571000+00:00",
-    "updated": "2026-10-19T09:50:16.119000+00:00",
+    "updated": "2026-10-19T10:13:17.515000+00:00",
     "lat": 45.481,
     "lon": 26.2168,
     "depth_km": 124.754,
@@ -667,13 +667,19 @@
     "place": "2 km W of Lunca Jariștei, Romania",
     "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 6,
+    "felt_reports": 7,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 47.145425,
         "lon": 27.600105,
         "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 45.653557500000005,
+        "lon": 25.607435,
+        "intensity": 2.5,
         "responses": 1
       },
       {
@@ -695,14 +701,14 @@
         "responses": 1
       },
       {
-        "lat": 47.327375,
-        "lon": 17.468294999999998,
+        "lat": 44.43426,
+        "lon": 26.10161,
         "intensity": 1,
         "responses": 1
       },
       {
-        "lat": 44.43426,
-        "lon": 26.10161,
+        "lat": 47.327375,
+        "lon": 17.468294999999998,
         "intensity": 1,
         "responses": 1
       }
@@ -784,6 +790,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387816.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387816.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000u3c1",
+    "source": "usgs",
+    "time": "2026-10-19T09:45:56.107000+00:00",
+    "updated": "2026-10-19T10:13:09.040000+00:00",
+    "lat": -8.1064,
+    "lon": 120.1872,
+    "depth_km": 10,
+    "magnitude": 4.9,
+    "mag_type": "mb",
+    "place": "54 km NE of Labuan Bajo, Indonesia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3c1",
     "relevant": false,
     "keywords_matched": []
   }
