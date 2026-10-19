@@ -1118,7 +1118,7 @@
     "id": "us6000u2pl",
     "source": "usgs",
     "time": "2026-10-16T11:57:19.839000+00:00",
-    "updated": "2026-10-17T22:21:51.342000+00:00",
+    "updated": "2026-10-19T06:03:51.280000+00:00",
     "lat": 12.328,
     "lon": 144.1189,
     "depth_km": 10,
@@ -1127,13 +1127,19 @@
     "place": "119 km SSW of Merizo Village, Guam",
     "cdi": 2.2,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 13.4263675,
         "lon": 144.64962,
         "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 13.272945,
+        "lon": 144.6695525,
+        "intensity": 2,
         "responses": 1
       }
     ],
