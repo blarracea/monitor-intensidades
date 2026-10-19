@@ -363,7 +363,7 @@
     "id": "us6000u3a4",
     "source": "usgs",
     "time": "2026-10-19T05:08:40.403000+00:00",
-    "updated": "2026-10-19T13:23:37.040000+00:00",
+    "updated": "2026-10-19T16:31:22.465000+00:00",
     "lat": 51.5152,
     "lon": -168.422,
     "depth_km": 10,
@@ -371,7 +371,7 @@
     "mag_type": "mb",
     "place": "161 km S of Nikolski, Alaska",
     "cdi": null,
-    "mmi": 1.339,
+    "mmi": 1.308,
     "felt_reports": 0,
     "tsunami_flag": false,
     "dyfi_points": [],
@@ -778,18 +778,24 @@
     "id": "us6000u3bs",
     "source": "usgs",
     "time": "2026-10-19T08:51:57.571000+00:00",
-    "updated": "2026-10-19T15:01:13.247000+00:00",
+    "updated": "2026-10-19T16:24:09.301000+00:00",
     "lat": 45.481,
     "lon": 26.2168,
     "depth_km": 124.754,
     "magnitude": 4.5,
     "mag_type": "mb",
     "place": "2 km W of Lunca Jariștei, Romania",
-    "cdi": 2.9,
+    "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 17,
+    "felt_reports": 18,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 46.571025,
+        "lon": 26.915175,
+        "intensity": 3.4,
+        "responses": 1
+      },
       {
         "lat": 47.154489999999996,
         "lon": 27.587015,
@@ -803,18 +809,6 @@
         "responses": 1
       },
       {
-        "lat": 47.190614999999994,
-        "lon": 27.561014999999998,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 47.145425,
-        "lon": 27.600105,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
         "lat": 47.024294999999995,
         "lon": 28.83576,
         "intensity": 2.7,
@@ -823,6 +817,18 @@
       {
         "lat": 46.853615000000005,
         "lon": 28.816815,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 47.190614999999994,
+        "lon": 27.561014999999998,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 47.145425,
+        "lon": 27.600105,
         "intensity": 2.7,
         "responses": 1
       },
@@ -845,8 +851,14 @@
         "responses": 1
       },
       {
-        "lat": 44.4338525,
-        "lon": 26.051355,
+        "lat": 46.922005,
+        "lon": 26.9277575,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 47.2564275,
+        "lon": 28.3150775,
         "intensity": 2,
         "responses": 1
       },
@@ -857,22 +869,16 @@
         "responses": 1
       },
       {
+        "lat": 44.4338525,
+        "lon": 26.051355,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 44.43426,
         "lon": 26.10161,
         "intensity": 2,
         "responses": 2
-      },
-      {
-        "lat": 47.2564275,
-        "lon": 28.3150775,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 46.922005,
-        "lon": 26.9277575,
-        "intensity": 2,
-        "responses": 1
       },
       {
         "lat": 47.327375,
@@ -1346,6 +1352,37 @@
     "keywords_matched": []
   },
   {
+    "id": "us6000u3cu",
+    "source": "usgs",
+    "time": "2026-10-19T14:47:45.038000+00:00",
+    "updated": "2026-10-19T16:19:13.990000+00:00",
+    "lat": 14.4536,
+    "lon": -91.373,
+    "depth_km": 109.709,
+    "magnitude": 4.6,
+    "mag_type": "mb",
+    "place": "5 km E of San José El Ídolo, Guatemala",
+    "cdi": 2.2,
+    "mmi": null,
+    "felt_reports": 1,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 14.84309,
+        "lon": -91.517595,
+        "intensity": 2.2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3cu",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/387846.html",
     "source": "csn",
     "time": "2026-10-19T15:18:22+00:00",
@@ -1390,6 +1427,78 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3d2",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/387855.html",
+    "source": "csn",
+    "time": "2026-10-19T16:00:29+00:00",
+    "updated": "2026-10-19T16:00:29+00:00",
+    "lat": -24.09,
+    "lon": -67.22,
+    "depth_km": 196.0,
+    "magnitude": 3.0,
+    "mag_type": "MLv",
+    "place": "88 km al SE de Socaire, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387855.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387855.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/387860.html",
+    "source": "csn",
+    "time": "2026-10-19T16:08:31+00:00",
+    "updated": "2026-10-19T16:08:31+00:00",
+    "lat": -23.65,
+    "lon": -66.82,
+    "depth_km": 229.0,
+    "magnitude": 3.6,
+    "mag_type": "MLv",
+    "place": "82 km al NO de San Antonio de los Cobres, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387860.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387860.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000u3db",
+    "source": "usgs",
+    "time": "2026-10-19T16:13:53.665000+00:00",
+    "updated": "2026-10-19T16:29:35.040000+00:00",
+    "lat": -23.5497,
+    "lon": 179.8713,
+    "depth_km": 536.111,
+    "magnitude": 4.6,
+    "mag_type": "mb",
+    "place": "south of the Fiji Islands",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3db",
     "relevant": false,
     "keywords_matched": []
   }
