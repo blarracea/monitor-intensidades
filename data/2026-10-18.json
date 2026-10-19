@@ -1700,5 +1700,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387737.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u38u",
+    "source": "usgs",
+    "time": "2026-10-18T23:30:43.709000+00:00",
+    "updated": "2026-10-19T00:00:34.040000+00:00",
+    "lat": -28.3596,
+    "lon": -179.9252,
+    "depth_km": 444.195,
+    "magnitude": 4.4,
+    "mag_type": "mb",
+    "place": "Kermadec Islands region",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u38u",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
