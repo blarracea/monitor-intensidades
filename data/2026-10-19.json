@@ -1104,5 +1104,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ch",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/387831.html",
+    "source": "csn",
+    "time": "2026-10-19T12:42:52+00:00",
+    "updated": "2026-10-19T12:42:52+00:00",
+    "lat": -24.24,
+    "lon": -67.14,
+    "depth_km": 197.0,
+    "magnitude": 3.1,
+    "mag_type": "MLv",
+    "place": "84 km al O de San Antonio de los Cobres, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387831.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/387831.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
