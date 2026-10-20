@@ -1651,7 +1651,7 @@
     "id": "us6000u3p1",
     "source": "usgs",
     "time": "2026-10-20T18:07:18.131000+00:00",
-    "updated": "2026-10-20T18:36:45.111000+00:00",
+    "updated": "2026-10-20T18:46:31.146000+00:00",
     "lat": 37.9575,
     "lon": -26.2588,
     "depth_km": 10,
@@ -1660,13 +1660,25 @@
     "place": "39 km W of Mosteiros, Portugal",
     "cdi": 4.2,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 37.829049999999995,
         "lon": -25.82389,
         "intensity": 4.2,
+        "responses": 1
+      },
+      {
+        "lat": 37.8186,
+        "lon": -25.68772,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 37.76362,
+        "lon": -25.60922,
+        "intensity": 3.1,
         "responses": 1
       }
     ],
