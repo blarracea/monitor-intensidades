@@ -1598,5 +1598,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3nl",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/388082.html",
+    "source": "csn",
+    "time": "2026-10-20T17:20:40+00:00",
+    "updated": "2026-10-20T17:20:40+00:00",
+    "lat": -22.7,
+    "lon": -66.81,
+    "depth_km": 296.0,
+    "magnitude": 3.6,
+    "mag_type": "MLv",
+    "place": "145 km al E de San Pedro de Atacama, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388082.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388082.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
