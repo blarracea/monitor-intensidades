@@ -1729,7 +1729,7 @@
     "id": "us6000u3p1",
     "source": "usgs",
     "time": "2026-10-20T18:07:18.131000+00:00",
-    "updated": "2026-10-20T21:14:55.469000+00:00",
+    "updated": "2026-10-20T22:39:58.636000+00:00",
     "lat": 37.9575,
     "lon": -26.2588,
     "depth_km": 10,
@@ -1738,7 +1738,7 @@
     "place": "39 km W of Mosteiros, Portugal",
     "cdi": 4.6,
     "mmi": null,
-    "felt_reports": 8,
+    "felt_reports": 9,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1757,6 +1757,12 @@
         "lat": 37.829049999999995,
         "lon": -25.82389,
         "intensity": 4.2,
+        "responses": 1
+      },
+      {
+        "lat": 37.74613,
+        "lon": -25.65495,
+        "intensity": 3.8,
         "responses": 1
       },
       {
@@ -2059,6 +2065,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388140.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388140.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/388141.html",
+    "source": "csn",
+    "time": "2026-10-20T22:35:52+00:00",
+    "updated": "2026-10-20T22:35:52+00:00",
+    "lat": -21.03,
+    "lon": -68.13,
+    "depth_km": 161.0,
+    "magnitude": 3.3,
+    "mag_type": "MLv",
+    "place": "25 km al NE de Ollagüe, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388141.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388141.html",
     "relevant": false,
     "keywords_matched": []
   }
