@@ -2139,5 +2139,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uvcbqu",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u3qu",
+    "source": "usgs",
+    "time": "2026-10-20T22:51:44.847000+00:00",
+    "updated": "2026-10-20T23:15:24.040000+00:00",
+    "lat": 7.597,
+    "lon": -80.6274,
+    "depth_km": 10,
+    "magnitude": 4.3,
+    "mag_type": "mb",
+    "place": "6 km SE of Pitaloza Arriba, Panama",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3qu",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
