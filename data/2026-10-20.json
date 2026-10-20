@@ -1042,7 +1042,7 @@
     "id": "us6000u3lf",
     "source": "usgs",
     "time": "2026-10-20T10:40:40.968000+00:00",
-    "updated": "2026-10-20T18:24:01.040000+00:00",
+    "updated": "2026-10-20T21:49:24.748000+00:00",
     "lat": 54.6088,
     "lon": -160.3291,
     "depth_km": 35,
@@ -1051,7 +1051,7 @@
     "place": "81 km S of Sand Point, Alaska",
     "cdi": 3.3,
     "mmi": null,
-    "felt_reports": 3,
+    "felt_reports": 4,
     "tsunami_flag": true,
     "dyfi_points": [
       {
@@ -1064,6 +1064,12 @@
         "lat": 55.209585,
         "lon": -162.7132925,
         "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 55.20031,
+        "lon": -162.69810999999999,
+        "intensity": 2.2,
         "responses": 1
       },
       {
