@@ -1018,18 +1018,24 @@
     "id": "us6000u3lf",
     "source": "usgs",
     "time": "2026-10-20T10:40:40.968000+00:00",
-    "updated": "2026-10-20T17:04:58.959000+00:00",
+    "updated": "2026-10-20T17:23:07.423000+00:00",
     "lat": 54.6088,
     "lon": -160.3291,
     "depth_km": 35,
     "magnitude": 5,
     "mag_type": "mwr",
     "place": "81 km S of Sand Point, Alaska",
-    "cdi": 3.1,
+    "cdi": 3.3,
     "mmi": null,
-    "felt_reports": 2,
+    "felt_reports": 3,
     "tsunami_flag": true,
     "dyfi_points": [
+      {
+        "lat": 55.35691,
+        "lon": -160.4748275,
+        "intensity": 3.3,
+        "responses": 1
+      },
       {
         "lat": 55.209585,
         "lon": -162.7132925,
@@ -1567,6 +1573,30 @@
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75061376",
     "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000u3nl",
+    "source": "usgs",
+    "time": "2026-10-20T17:05:48.338000+00:00",
+    "updated": "2026-10-20T17:23:26.040000+00:00",
+    "lat": 6.3226,
+    "lon": -82.5693,
+    "depth_km": 10,
+    "magnitude": 5.4,
+    "mag_type": "mww",
+    "place": "192 km S of Burica, Panama",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3nl",
+    "relevant": true,
     "keywords_matched": []
   }
 ]
