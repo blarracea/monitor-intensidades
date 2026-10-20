@@ -1723,7 +1723,7 @@
     "id": "us6000u3p1",
     "source": "usgs",
     "time": "2026-10-20T18:07:18.131000+00:00",
-    "updated": "2026-10-20T20:16:34.114000+00:00",
+    "updated": "2026-10-20T20:59:54.498000+00:00",
     "lat": 37.9575,
     "lon": -26.2588,
     "depth_km": 10,
@@ -1732,7 +1732,7 @@
     "place": "39 km W of Mosteiros, Portugal",
     "cdi": 4.6,
     "mmi": null,
-    "felt_reports": 6,
+    "felt_reports": 7,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1769,6 +1769,12 @@
         "lat": 37.768775,
         "lon": -25.313940000000002,
         "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 37.75809,
+        "lon": -25.2006725,
+        "intensity": 2.2,
         "responses": 1
       }
     ],
@@ -1969,6 +1975,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388124.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388124.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000u3pz",
+    "source": "usgs",
+    "time": "2026-10-20T20:46:54.391000+00:00",
+    "updated": "2026-10-20T20:58:40.040000+00:00",
+    "lat": 28.8955,
+    "lon": -98.9727,
+    "depth_km": 5,
+    "magnitude": 2.6,
+    "mag_type": "mb_lg",
+    "place": "11 km E of Pearsall, Texas",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3pz",
     "relevant": false,
     "keywords_matched": []
   }
