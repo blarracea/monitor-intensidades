@@ -2211,5 +2211,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3r3",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "pr71537338",
+    "source": "usgs",
+    "time": "2026-10-20T23:54:40.270000+00:00",
+    "updated": "2026-10-21T00:08:37.930000+00:00",
+    "lat": 17.769,
+    "lon": -66.8013333333333,
+    "depth_km": 14.22,
+    "magnitude": 2.57,
+    "mag_type": "md",
+    "place": "24 km SSE of Maria Antonia, Puerto Rico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71537338",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
