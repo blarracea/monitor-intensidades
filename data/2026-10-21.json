@@ -1718,5 +1718,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uwtlhl",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u3y1",
+    "source": "usgs",
+    "time": "2026-10-21T20:34:49.393000+00:00",
+    "updated": "2026-10-21T20:54:58.040000+00:00",
+    "lat": -19.7211,
+    "lon": 14.5987,
+    "depth_km": 4.904,
+    "magnitude": 4.8,
+    "mag_type": "mb",
+    "place": "81 km NNW of Khorixas, Namibia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3y1",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
