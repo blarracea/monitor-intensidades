@@ -305,5 +305,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3s1",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "tx2026usbxno",
+    "source": "usgs",
+    "time": "2026-10-21T03:05:15.733000+00:00",
+    "updated": "2026-10-21T03:19:50.299000+00:00",
+    "lat": 31.66,
+    "lon": -104.456,
+    "depth_km": 6.4075,
+    "magnitude": 2.6,
+    "mag_type": "ml",
+    "place": "57 km S of Whites City, New Mexico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026usbxno",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
