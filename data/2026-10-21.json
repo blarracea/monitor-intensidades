@@ -96,6 +96,43 @@
     "keywords_matched": []
   },
   {
+    "id": "us6000u3rn",
+    "source": "usgs",
+    "time": "2026-10-21T01:04:29.196000+00:00",
+    "updated": "2026-10-21T01:48:33.424000+00:00",
+    "lat": 35.7245,
+    "lon": 139.9836,
+    "depth_km": 90.274,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "2 km N of Honchō, Japan",
+    "cdi": 2.5,
+    "mmi": null,
+    "felt_reports": 4,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 35.719265,
+        "lon": 139.7783,
+        "intensity": 2.5,
+        "responses": 3
+      },
+      {
+        "lat": 35.95169,
+        "lon": 139.59733,
+        "intensity": 2.2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3rn",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "us6000u3rr",
     "source": "usgs",
     "time": "2026-10-21T01:20:02.961000+00:00",
