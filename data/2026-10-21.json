@@ -1966,5 +1966,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3yp",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/388306.html",
+    "source": "csn",
+    "time": "2026-10-21T22:12:11+00:00",
+    "updated": "2026-10-21T22:12:11+00:00",
+    "lat": -20.65,
+    "lon": -68.91,
+    "depth_km": 105.0,
+    "magnitude": 2.9,
+    "mag_type": "MLv",
+    "place": "33 km al NO de Mina Collahuasi, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388306.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388306.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
