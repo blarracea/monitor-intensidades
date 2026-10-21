@@ -1918,5 +1918,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388303.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u3yj",
+    "source": "usgs",
+    "time": "2026-10-21T21:38:55.441000+00:00",
+    "updated": "2026-10-21T21:51:49.040000+00:00",
+    "lat": 56.8137,
+    "lon": -34.1689,
+    "depth_km": 10,
+    "magnitude": 5.3,
+    "mag_type": "mww",
+    "place": "Reykjanes Ridge",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3yj",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
