@@ -179,5 +179,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388161.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026uvijkv",
+    "source": "usgs",
+    "time": "2026-10-21T01:58:43.631000+00:00",
+    "updated": "2026-10-21T02:00:29.682000+00:00",
+    "lat": 66.082,
+    "lon": -148.981,
+    "depth_km": 9.8,
+    "magnitude": 2.7,
+    "mag_type": "ml",
+    "place": "9 km NNE of Stevens Village, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uvijkv",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
