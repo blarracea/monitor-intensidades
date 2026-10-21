@@ -203,5 +203,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uvijkv",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/388164.html",
+    "source": "csn",
+    "time": "2026-10-21T02:01:30+00:00",
+    "updated": "2026-10-21T02:01:30+00:00",
+    "lat": -25.34,
+    "lon": -70.34,
+    "depth_km": 51.0,
+    "magnitude": 2.9,
+    "mag_type": "MLv",
+    "place": "17 km al NE de Taltal, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388164.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388164.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
