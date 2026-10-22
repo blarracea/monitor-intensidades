@@ -715,5 +715,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388372.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u41z",
+    "source": "usgs",
+    "time": "2026-10-22T08:06:35.200000+00:00",
+    "updated": "2026-10-22T08:21:51.040000+00:00",
+    "lat": 13.8474,
+    "lon": 145.2184,
+    "depth_km": 99.23,
+    "magnitude": 4.6,
+    "mag_type": "mb",
+    "place": "49 km NE of Yigo Village, Guam",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u41z",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
