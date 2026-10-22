@@ -40,6 +40,11 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
+    # Tope de la corrida entera: la mas larga normal dura ~3 min. Sin esto, un
+    # paso colgado bloqueaba el grupo de concurrencia hasta 40 minutos
+    # (auditoria 22-10-2026: 20 de 100 corridas canceladas, la mayoria colgadas
+    # en "Instalar Chromium").
+    timeout-minutes: 10
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -52,16 +57,39 @@ jobs:
       - name: Instalar dependencias
         run: pip install -r backend/requirements.txt
 
+      # Chromium solo sirve para leer los reportes de SENAPRED. Si la descarga/
+      # apt se cuelga o falla, la corrida NO debe perderse: sigue sin Chromium
+      # (collect.py ya atrapa los errores de Playwright) y trae igual los sismos
+      # de Chile, USGS, noticias y redes. Un intento por paso con tope de tiempo,
+      # y se reintenta una vez.
       - name: Instalar Chromium (Playwright, para leer el reporte de SENAPRED)
-        run: python -m playwright install --with-deps chromium
+        timeout-minutes: 5
+        continue-on-error: true
+        run: |
+          for attempt in 1 2; do
+            if timeout 150 python -m playwright install --with-deps chromium; then
+              exit 0
+            fi
+            echo "Chromium: intento $attempt fallo o se colgo."
+            sleep 5
+          done
+          echo "::warning::No se pudo instalar Chromium, esta corrida sigue sin leer reportes de SENAPRED."
+          exit 1
 
       - name: Recolectar sismos
+        timeout-minutes: 7
         env:
           BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
           BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
           MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
         run: python backend/collect.py
 
+      # Dos corridas pueden terminar casi a la vez (o chocar con un commit
+      # manual) y tocar los mismos archivos de data/: el "pull --rebase" daba
+      # conflicto y la corrida fallaba (auditoria 22-10-2026). Como cada corrida
+      # reescribe el estado completo, ante un conflicto gana la version de esta
+      # corrida (-X theirs en un rebase = el commit que se re-aplica) y se
+      # reintenta el push varias veces.
       - name: Commit y push si hay cambios
         run: |
           git config user.name "sismos-bot"
@@ -69,8 +97,15 @@ jobs:
           git add data/
           if git diff --cached --quiet; then
             echo "Sin cambios nuevos."
-          else
-            git commit -m "Actualiza datos de sismos $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git pull --rebase origin master
-            git push
+            exit 0
           fi
+          git commit -m "Actualiza datos de sismos $(date -u +'%Y-%m-%d %H:%M UTC')"
+          for attempt in 1 2 3 4; do
+            if git pull --rebase -X theirs origin master && git push; then
+              exit 0
+            fi
+            echo "Push fallo (intento $attempt), se reintenta."
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 4))
+          done
+          exit 1

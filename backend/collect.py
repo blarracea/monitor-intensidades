@@ -36,6 +36,7 @@ proyecto (ver sources/bluesky.py y sources/mastodon.py) en
 data/live_mentions.json, para el panel "Redes en vivo" del dashboard.
 """
 import math
+import os
 from datetime import datetime, timedelta, timezone
 
 import requests
@@ -83,6 +84,12 @@ def _max_intensity_distance_km(magnitude):
 # (que es la de publicacion, no la del sismo): un reporte de un M4.4 se pego
 # tambien a dos sismos M2.5/2.9 de 4-5 horas despues (auditoria 23-09-2026).
 SENAPRED_MATCH_MAX_MINUTES = 20
+# El reporte de SENAPRED se publica DESPUES del sismo (3-6 min en los casos bien
+# asociados): uno fechado antes del sismo no puede describirlo. Con una ventana
+# simetrica (abs) un sismo que ocurre minutos despues del reporte de otro se le
+# pegaba (auditoria 22-10-2026: un M3.1 en Quintero 9 min despues del reporte
+# de un M5.2, y un M4.9 en Punta de Choros 37 s despues del de un M5.1).
+SENAPRED_REPORT_MAX_EARLY_MINUTES = 1
 # Un reporte de SENAPRED que NO enlazo el CSN (cruce por hora, adivinado) solo
 # es creible si la comuna reportada mas cercana esta cerca del epicentro. En
 # los 13 sismos bien asociados esa distancia va de 16 a 46 km; el falso positivo
@@ -111,6 +118,9 @@ BBOX = {
 }
 MIN_MAGNITUDE = 2.5
 LOOKBACK_DAYS = 3  # se reconsulta para capturar revisiones de magnitud y DYFI que llegan tarde
+# Tras tantas fallas de DYFI seguidas en una corrida se deja de intentar con
+# USGS (lento o caido): cada intento puede tardar su timeout completo.
+MAX_DYFI_FAILURES = 3
 RELEVANT_MAGNITUDE = 5.0
 RELEVANT_FELT_REPORTS = 50
 
@@ -294,6 +304,49 @@ def collect_chile_events():
     return events
 
 
+def _report_lag_minutes(event_time, report_time):
+    """Minutos entre el sismo y su reporte (positivo = reporte posterior)."""
+    return (report_time - event_time).total_seconds() / 60
+
+
+def _report_time_is_plausible(lag_minutes):
+    return -SENAPRED_REPORT_MAX_EARLY_MINUTES <= lag_minutes <= SENAPRED_MATCH_MAX_MINUTES
+
+
+def enforce_single_report_owner(events):
+    """
+    Red de seguridad final: un reporte de SENAPRED describe UN sismo. Si varios
+    eventos terminaron con el mismo reporte, el que lo enlazo el CSN
+    directamente (sin senapred_match_time) es el dueno; los que lo recibieron
+    por cruce de hora lo pierden. Si ninguno lo enlazo directo, queda el de hora
+    mas cercana. Dos listados del CSN del MISMO sismo (a 1-3 s) que lo enlazan
+    los dos directo se respetan: el CSN mismo los asocia.
+    Devuelve cuantos eventos perdieron un reporte que no era suyo.
+    """
+    by_url = {}
+    for e in events:
+        if e.get("intensity_source") == "csn" and e.get("senapred_url"):
+            by_url.setdefault(e["senapred_url"], []).append(e)
+
+    stripped = 0
+    for url, owners in by_url.items():
+        if len(owners) < 2:
+            continue
+        direct = [e for e in owners if not e.get("senapred_match_time")]
+        if direct:
+            keep = direct
+        else:
+            keep = [min(owners, key=lambda e: abs(_report_lag_minutes(datetime.fromisoformat(e["time"]), datetime.fromisoformat(e["senapred_match_time"]))))]
+        for e in owners:
+            if e not in keep:
+                e["intensity_source"] = None
+                e["dyfi_points"] = []
+                e["senapred_url"] = None
+                e.pop("senapred_match_time", None)
+                stripped += 1
+    return stripped
+
+
 def enrich_with_senapred_archive(events):
     """
     Segunda pasada de intensidad para sismos chilenos sin resolver todavia
@@ -327,7 +380,7 @@ def enrich_with_senapred_archive(events):
                 c
                 for c in candidates
                 if c["local_time"] is not None
-                and abs((usgs_time - c["local_time"]).total_seconds()) <= SENAPRED_MATCH_MAX_MINUTES * 60
+                and _report_time_is_plausible(_report_lag_minutes(usgs_time, c["local_time"]))
             ),
             key=lambda c: abs((usgs_time - c["local_time"]).total_seconds()),
         )
@@ -466,9 +519,8 @@ def preserve_existing_csn_data(events):
             continue  # otro sismo ya es el dueno de ese reporte
         if match_time is not None:
             event_time = datetime.fromisoformat(event["time"])
-            minutes_off = abs((event_time - datetime.fromisoformat(match_time)).total_seconds()) / 60
-            if minutes_off > SENAPRED_MATCH_MAX_MINUTES:
-                continue  # la hora del evento se reviso y el match guardado ya no es cercano -- no se preserva
+            if not _report_time_is_plausible(_report_lag_minutes(event_time, datetime.fromisoformat(match_time))):
+                continue  # la hora del evento se reviso y el match guardado ya no es plausible -- no se preserva
 
         max_distance_km = _max_intensity_distance_km(event["magnitude"])
         valid_points = [
@@ -501,6 +553,14 @@ def enrich_with_snam(events):
     -- no tiene sentido hacerlo si de entrada la magnitud propia esta muy
     por debajo de lo que el SNAM podria haber publicado.
     """
+    # Desde los runners de GitHub Actions snamchile.cl SIEMPRE devuelve un
+    # CAPTCHA (ver sources/snam.py): intentarlo solo gastaba Chromium y 30 s de
+    # espera en cada corrida, alargandola (y las corridas largas se cancelan
+    # entre si, ver collect.yml). Se salta en Actions; corriendo collect.py a
+    # mano en tu computador sigue funcionando.
+    if os.environ.get("GITHUB_ACTIONS"):
+        return
+
     candidates = [
         e for e in events if e["magnitude"] is not None and e["magnitude"] >= SNAM_CANDIDATE_MIN_MAGNITUDE
     ]
@@ -543,25 +603,50 @@ def main():
     now = datetime.now(timezone.utc)
     start = now - timedelta(days=LOOKBACK_DAYS)
 
-    raw_events = usgs.fetch_events(start, now, MIN_MAGNITUDE, BBOX)
+    # USGS es una fuente SECUNDARIA (solo el resto del mundo): si no responde,
+    # la corrida sigue con Chile (CSN), noticias y redes. Antes cualquier
+    # timeout/502 de USGS tumbaba TODA la recoleccion -- auditoria 22-10-2026:
+    # 247 corridas fallidas en 10 dias (108 de 288 el 20-10), casi todas por
+    # "earthquake.usgs.gov: Read timed out". Los eventos de USGS ya guardados
+    # no se pierden: upsert_events solo reemplaza los que llegan en esta corrida.
+    try:
+        raw_events = usgs.fetch_events(start, now, MIN_MAGNITUDE, BBOX)
+    except Exception as exc:
+        print(f"Aviso: no se pudo consultar USGS ({exc}); esta corrida solo trae Chile y menciones.")
+        raw_events = []
 
     # Chile ya no sale de USGS -- ver collect_chile_events(). Se descartan
     # aca los eventos de USGS que caen en Chile para no duplicar el mismo
     # sismo dos veces (uno por cada fuente).
     events = []
+    dyfi_failures = 0
     for feature in raw_events:
         props = feature["properties"]
         place = props.get("place") or ""
         if is_chile_event(place):
             continue
         has_dyfi = props.get("felt") or "dyfi" in (props.get("types") or "")
-        dyfi_points = usgs.fetch_dyfi_points(props.get("detail")) if has_dyfi else []
+        dyfi_points = []
+        if has_dyfi:
+            if dyfi_failures >= MAX_DYFI_FAILURES:
+                continue  # USGS esta lento: se deja el evento como estaba guardado
+            try:
+                dyfi_points = usgs.fetch_dyfi_points(props.get("detail"))
+            except Exception as exc:
+                # Se OMITE el evento (no se guarda con puntos vacios): asi no
+                # se pisa la intensidad DYFI que ya tenia guardada.
+                dyfi_failures += 1
+                print(f"Aviso: no se pudo leer DYFI de {props.get('detail')} ({exc}).")
+                continue
         events.append(build_event_record(feature, dyfi_points))
 
     events.extend(collect_chile_events())
 
     enrich_with_senapred_archive(events)
     preserve_existing_csn_data(events)
+    stripped = enforce_single_report_owner(events)
+    if stripped:
+        print(f"Aviso: {stripped} evento(s) perdieron un reporte de SENAPRED que era de otro sismo.")
     enrich_with_snam(events)
 
     storage.upsert_events(events)

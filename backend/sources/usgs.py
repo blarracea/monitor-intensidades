@@ -8,10 +8,17 @@ alimenta el heatmap del dashboard (no la magnitud Richter del epicentro).
 
 No requiere API key. Documentacion: https://earthquake.usgs.gov/fdsnws/event/1/
 """
+import time
+
 import requests
 
 FEED_URL = "https://earthquake.usgs.gov/fdsnws/event/1/query"
-REQUEST_TIMEOUT = 30
+REQUEST_TIMEOUT = 20
+# USGS responde con timeouts y 502/503 de forma intermitente desde los runners
+# de GitHub Actions (auditoria 22-10-2026) -- se reintenta con espera antes de
+# rendirse. 3 intentos x 20 s + esperas = <90 s en el peor caso.
+MAX_ATTEMPTS = 3
+RETRY_PAUSE_SECONDS = (3, 8)
 
 # Orden de preferencia de las grillas DYFI que publica USGS (mas fina primero).
 _GEO_FILE_PREFERENCE = [
@@ -19,6 +26,23 @@ _GEO_FILE_PREFERENCE = [
     "dyfi_geo_10km.geojson",
     "dyfi_geo_dyfi.geojson",
 ]
+
+
+def _get(url, **kwargs):
+    """requests.get con reintentos para errores transitorios (timeout, conexion,
+    5xx). Un 4xx no se reintenta: no se va a arreglar solo."""
+    last_exc = None
+    for attempt in range(MAX_ATTEMPTS):
+        try:
+            response = requests.get(url, timeout=REQUEST_TIMEOUT, **kwargs)
+            if response.status_code < 500:
+                return response
+            last_exc = requests.HTTPError(f"{response.status_code} Server Error for url: {url}", response=response)
+        except (requests.Timeout, requests.ConnectionError) as exc:
+            last_exc = exc
+        if attempt < MAX_ATTEMPTS - 1:
+            time.sleep(RETRY_PAUSE_SECONDS[min(attempt, len(RETRY_PAUSE_SECONDS) - 1)])
+    raise last_exc
 
 
 def fetch_events(start_time, end_time, min_magnitude, bbox):
@@ -34,7 +58,7 @@ def fetch_events(start_time, end_time, min_magnitude, bbox):
         "maxlongitude": bbox["maxlongitude"],
         "orderby": "time",
     }
-    response = requests.get(FEED_URL, params=params, timeout=REQUEST_TIMEOUT)
+    response = _get(FEED_URL, params=params)
     response.raise_for_status()
     return response.json().get("features", [])
 
@@ -48,7 +72,7 @@ def fetch_dyfi_points(detail_url):
     if not detail_url:
         return []
 
-    response = requests.get(detail_url, timeout=REQUEST_TIMEOUT)
+    response = _get(detail_url)
     if response.status_code != 200:
         return []
 
@@ -61,7 +85,7 @@ def fetch_dyfi_points(detail_url):
     if not geo_file:
         return []
 
-    geo_response = requests.get(geo_file["url"], timeout=REQUEST_TIMEOUT)
+    geo_response = _get(geo_file["url"])
     if geo_response.status_code != 200:
         return []
 
