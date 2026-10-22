@@ -1016,5 +1016,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uxvwcs",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u42q",
+    "source": "usgs",
+    "time": "2026-10-22T10:57:52.259000+00:00",
+    "updated": "2026-10-22T11:31:57.040000+00:00",
+    "lat": -2.8037,
+    "lon": 102.1272,
+    "depth_km": 135.261,
+    "magnitude": 4.9,
+    "mag_type": "mb",
+    "place": "85 km NNW of Curup, Indonesia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u42q",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
