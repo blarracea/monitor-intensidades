@@ -1474,5 +1474,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026uyfanq",
+    "source": "usgs",
+    "time": "2026-10-22T15:19:57.039000+00:00",
+    "updated": "2026-10-22T15:21:46.850000+00:00",
+    "lat": 58.648,
+    "lon": -155.169,
+    "depth_km": 136.4,
+    "magnitude": 2.6,
+    "mag_type": "ml",
+    "place": "86 km SSE of Igiugig, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uyfanq",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
