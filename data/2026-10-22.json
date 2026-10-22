@@ -1184,7 +1184,7 @@
     "id": "uw714124012",
     "source": "usgs",
     "time": "2026-10-22T14:25:19.320000+00:00",
-    "updated": "2026-10-22T15:11:53.077000+00:00",
+    "updated": "2026-10-22T15:17:11.820000+00:00",
     "lat": 45.8846666666667,
     "lon": -122.856833333333,
     "depth_km": 23.45,
@@ -1193,7 +1193,7 @@
     "place": "3 km W of Columbia City, Oregon",
     "cdi": 3,
     "mmi": null,
-    "felt_reports": 49,
+    "felt_reports": 51,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1299,6 +1299,12 @@
         "responses": 1
       },
       {
+        "lat": 46.039665,
+        "lon": -122.696285,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": 45.9226625,
         "lon": -122.696925,
         "intensity": 2.7,
@@ -1308,7 +1314,7 @@
         "lat": 45.904785000000004,
         "lon": -122.748595,
         "intensity": 2.3,
-        "responses": 4
+        "responses": 5
       },
       {
         "lat": 45.859885000000006,
@@ -1442,14 +1448,14 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714124012",
-    "relevant": false,
+    "relevant": true,
     "keywords_matched": []
   },
   {
     "id": "us6000u43g",
     "source": "usgs",
     "time": "2026-10-22T14:33:39.014000+00:00",
-    "updated": "2026-10-22T15:07:59.142000+00:00",
+    "updated": "2026-10-22T15:20:10.771000+00:00",
     "lat": 32.3357,
     "lon": 93.7138,
     "depth_km": 10,
