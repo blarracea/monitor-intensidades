@@ -449,7 +449,7 @@
     "id": "nc75453266",
     "source": "usgs",
     "time": "2026-10-22T04:18:34.430000+00:00",
-    "updated": "2026-10-22T04:47:33.372000+00:00",
+    "updated": "2026-10-22T04:51:02.446000+00:00",
     "lat": 37.1699981689453,
     "lon": -121.229667663574,
     "depth_km": -0.699999988079071,
@@ -458,9 +458,15 @@
     "place": "23 km WSW of Gustine, CA",
     "cdi": 1,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 37.49958,
+        "lon": -120.83361,
+        "intensity": 1,
+        "responses": 1
+      },
       {
         "lat": 37.4264775,
         "lon": -120.7792175,
