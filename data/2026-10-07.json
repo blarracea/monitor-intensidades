@@ -722,24 +722,14 @@
     "mmi": null,
     "felt_reports": null,
     "tsunami_flag": false,
-    "dyfi_points": [
-      {
-        "lat": -29.9533,
-        "lon": -71.3436,
-        "intensity": 3,
-        "responses": null,
-        "comuna": "Coquimbo",
-        "region": "Coquimbo"
-      }
-    ],
-    "intensity_source": "csn",
-    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-coquimbo-2026-10-07-06-13-23",
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385704.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/385704.html",
     "relevant": false,
-    "keywords_matched": [],
-    "senapred_match_time": "2026-10-07T06:13:23-03:00"
+    "keywords_matched": []
   },
   {
     "id": "us6000u0qs",
