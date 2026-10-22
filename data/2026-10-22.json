@@ -823,7 +823,7 @@
     "id": "us6000u41z",
     "source": "usgs",
     "time": "2026-10-22T08:06:35.200000+00:00",
-    "updated": "2026-10-22T11:43:58.496000+00:00",
+    "updated": "2026-10-22T23:48:39.940000+00:00",
     "lat": 13.8474,
     "lon": 145.2184,
     "depth_km": 99.23,
@@ -832,18 +832,18 @@
     "place": "49 km NE of Yigo Village, Guam",
     "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 10,
+    "felt_reports": 11,
     "tsunami_flag": false,
     "dyfi_points": [
       {
-        "lat": 13.51806,
-        "lon": 144.796475,
+        "lat": 13.4997425,
+        "lon": 144.7689425,
         "intensity": 3.4,
         "responses": 1
       },
       {
-        "lat": 13.4997425,
-        "lon": 144.7689425,
+        "lat": 13.51806,
+        "lon": 144.796475,
         "intensity": 3.4,
         "responses": 1
       },
@@ -866,14 +866,20 @@
         "responses": 1
       },
       {
-        "lat": 13.5090225,
-        "lon": 144.7965575,
+        "lat": 13.4999875,
+        "lon": 144.7966425,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 13.4999875,
-        "lon": 144.7966425,
+        "lat": 13.508939999999999,
+        "lon": 144.787325,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 13.5090225,
+        "lon": 144.7965575,
         "intensity": 2.2,
         "responses": 1
       },
