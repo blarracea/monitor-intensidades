@@ -1769,5 +1769,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u459",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u45f",
+    "source": "usgs",
+    "time": "2026-10-22T17:21:26.780000+00:00",
+    "updated": "2026-10-22T17:38:20.040000+00:00",
+    "lat": 44.035,
+    "lon": 147.0825,
+    "depth_km": 76.309,
+    "magnitude": 4.8,
+    "mag_type": "mb",
+    "place": "39 km NE of Shikotan, Russia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u45f",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
