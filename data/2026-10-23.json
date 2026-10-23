@@ -701,5 +701,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75453736",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/388508.html",
+    "source": "csn",
+    "time": "2026-10-23T05:58:46+00:00",
+    "updated": "2026-10-23T05:58:46+00:00",
+    "lat": -24.02,
+    "lon": -67.43,
+    "depth_km": 214.0,
+    "magnitude": 3.4,
+    "mag_type": "MLv",
+    "place": "67 km al SE de Socaire, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388508.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388508.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
