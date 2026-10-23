@@ -917,5 +917,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388518.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026uzkyen",
+    "source": "usgs",
+    "time": "2026-10-23T07:14:13.832000+00:00",
+    "updated": "2026-10-23T07:18:28.806000+00:00",
+    "lat": 60.118,
+    "lon": -152.869,
+    "depth_km": 123,
+    "magnitude": 2.7,
+    "mag_type": "ml",
+    "place": "66 km WNW of Happy Valley, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026uzkyen",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
