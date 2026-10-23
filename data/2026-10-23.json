@@ -262,5 +262,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u49a",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/388479.html",
+    "source": "csn",
+    "time": "2026-10-23T02:39:43+00:00",
+    "updated": "2026-10-23T02:39:43+00:00",
+    "lat": -20.81,
+    "lon": -69.98,
+    "depth_km": 42.0,
+    "magnitude": 2.6,
+    "mag_type": "MLv",
+    "place": "23 km al E de Patache, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388479.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388479.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
