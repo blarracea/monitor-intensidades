@@ -1696,5 +1696,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388579.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u4f5",
+    "source": "usgs",
+    "time": "2026-10-23T17:06:25.116000+00:00",
+    "updated": "2026-10-23T17:30:26.040000+00:00",
+    "lat": 25.9295,
+    "lon": 95.6545,
+    "depth_km": 116.703,
+    "magnitude": 4.6,
+    "mag_type": "mb",
+    "place": "91 km ESE of Tuensang, India",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4f5",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
