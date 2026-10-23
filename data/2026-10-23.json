@@ -1338,5 +1338,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4bv",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u4bw",
+    "source": "usgs",
+    "time": "2026-10-23T12:24:24.746000+00:00",
+    "updated": "2026-10-23T12:49:19.040000+00:00",
+    "lat": -7.3421,
+    "lon": 128.4666,
+    "depth_km": 128.107,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "207 km NE of Lospalos, Timor Leste",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4bw",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
