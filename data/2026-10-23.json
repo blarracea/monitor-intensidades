@@ -1561,18 +1561,24 @@
     "id": "hv75062811",
     "source": "usgs",
     "time": "2026-10-23T15:52:30.580000+00:00",
-    "updated": "2026-10-23T16:05:52.706000+00:00",
+    "updated": "2026-10-23T17:25:21.470000+00:00",
     "lat": 19.1671657562256,
     "lon": -155.496337890625,
     "depth_km": 27.6499996185303,
     "magnitude": 3.13,
     "mag_type": "ml",
     "place": "4 km SSW of Pāhala, Hawaii",
-    "cdi": 2.2,
+    "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 5,
+    "felt_reports": 6,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 19.426245,
+        "lon": -155.22381000000001,
+        "intensity": 2.7,
+        "responses": 1
+      },
       {
         "lat": 19.1971925,
         "lon": -155.4773825,
@@ -1580,14 +1586,14 @@
         "responses": 1
       },
       {
-        "lat": 19.139525,
-        "lon": -155.723555,
+        "lat": 19.068820000000002,
+        "lon": -155.6179325,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 19.068820000000002,
-        "lon": -155.6179325,
+        "lat": 19.139525,
+        "lon": -155.723555,
         "intensity": 2,
         "responses": 1
       },
