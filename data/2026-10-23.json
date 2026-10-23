@@ -22,5 +22,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388467.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "pr71537488",
+    "source": "usgs",
+    "time": "2026-10-23T00:13:35.620000+00:00",
+    "updated": "2026-10-23T00:53:08.310000+00:00",
+    "lat": 18.9505,
+    "lon": -67.785,
+    "depth_km": 32.5,
+    "magnitude": 3.23,
+    "mag_type": "md",
+    "place": "77 km ENE of Punta Cana, Dominican Republic",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71537488",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
