@@ -2072,9 +2072,50 @@
     "mmi": null,
     "felt_reports": null,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
-    "senapred_url": null,
+    "dyfi_points": [
+      {
+        "lat": -34.1701,
+        "lon": -70.7444,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Rancagua",
+        "region": "Libertador Bernardo O'Higgins"
+      },
+      {
+        "lat": -34.2917304,
+        "lon": -71.3098439,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Las Cabras",
+        "region": "Libertador Bernardo O'Higgins"
+      },
+      {
+        "lat": -34.0377,
+        "lon": -70.6565422,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Codegua",
+        "region": "Libertador Bernardo O'Higgins"
+      },
+      {
+        "lat": -34.0644743,
+        "lon": -70.7262983,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Graneros",
+        "region": "Libertador Bernardo O'Higgins"
+      },
+      {
+        "lat": -34.182453,
+        "lon": -70.6511584,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Machalí",
+        "region": "Libertador Bernardo O'Higgins"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-ohiggins-2026-10-23-18-06-34",
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388619.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388619.html",
