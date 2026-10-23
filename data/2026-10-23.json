@@ -1169,7 +1169,7 @@
     "id": "us6000u4bk",
     "source": "usgs",
     "time": "2026-10-23T10:19:16.729000+00:00",
-    "updated": "2026-10-23T12:25:14.721000+00:00",
+    "updated": "2026-10-23T14:18:53.342000+00:00",
     "lat": 38.7199,
     "lon": 14.152,
     "depth_km": 10,
@@ -1178,7 +1178,7 @@
     "place": "61 km WNW of Leni, Italy",
     "cdi": 4.6,
     "mmi": 3.791,
-    "felt_reports": 6,
+    "felt_reports": 7,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1206,14 +1206,20 @@
         "responses": 1
       },
       {
-        "lat": 37.9824625,
-        "lon": 13.8442175,
-        "intensity": 2,
+        "lat": 38.1209375,
+        "lon": 13.36291,
+        "intensity": 2.7,
         "responses": 1
       },
       {
         "lat": 38.111932499999995,
         "lon": 13.363109999999999,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 37.9824625,
+        "lon": 13.8442175,
         "intensity": 2,
         "responses": 1
       }
@@ -1416,6 +1422,30 @@
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388560.html",
     "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000u4dc",
+    "source": "usgs",
+    "time": "2026-10-23T13:55:36.149000+00:00",
+    "updated": "2026-10-23T14:15:39.040000+00:00",
+    "lat": 38.7787,
+    "lon": 14.315,
+    "depth_km": 10,
+    "magnitude": 5.2,
+    "mag_type": "mww",
+    "place": "50 km WNW of Malfa, Italy",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4dc",
+    "relevant": true,
     "keywords_matched": []
   }
 ]
