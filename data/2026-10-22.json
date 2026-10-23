@@ -1725,7 +1725,7 @@
     "id": "us6000u43g",
     "source": "usgs",
     "time": "2026-10-22T14:33:40.353000+00:00",
-    "updated": "2026-10-22T18:57:19.152000+00:00",
+    "updated": "2026-10-23T00:01:37.671000+00:00",
     "lat": 32.3805,
     "lon": 93.7797,
     "depth_km": 18,
@@ -1734,7 +1734,7 @@
     "place": "191 km ENE of Nagqu, China",
     "cdi": 7.4,
     "mmi": 8.202,
-    "felt_reports": 4,
+    "felt_reports": 5,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1747,6 +1747,12 @@
         "lat": 27.369505,
         "lon": 95.320415,
         "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 27.903095,
+        "lon": 86.7205525,
+        "intensity": 2,
         "responses": 1
       },
       {
