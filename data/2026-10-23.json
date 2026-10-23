@@ -1133,5 +1133,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388541.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u4bg",
+    "source": "usgs",
+    "time": "2026-10-23T09:51:39.628000+00:00",
+    "updated": "2026-10-23T10:11:08.040000+00:00",
+    "lat": 38.7219,
+    "lon": 14.2527,
+    "depth_km": 10,
+    "magnitude": 4.9,
+    "mag_type": "mb",
+    "place": "53 km WNW of Leni, Italy",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4bg",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
