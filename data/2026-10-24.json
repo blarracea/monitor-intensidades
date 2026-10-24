@@ -306,5 +306,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388662.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u4ji",
+    "source": "usgs",
+    "time": "2026-10-24T03:08:45.463000+00:00",
+    "updated": "2026-10-24T03:25:12.040000+00:00",
+    "lat": -14.1211,
+    "lon": 165.8052,
+    "depth_km": 10,
+    "magnitude": 5.1,
+    "mag_type": "mb",
+    "place": "170 km NW of Port-Olry, Vanuatu",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4ji",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
