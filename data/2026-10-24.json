@@ -1789,5 +1789,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388731.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026vbyigb",
+    "source": "usgs",
+    "time": "2026-10-24T15:54:24.778000+00:00",
+    "updated": "2026-10-24T15:58:02.656000+00:00",
+    "lat": 69.02,
+    "lon": -144.492,
+    "depth_km": 1.7,
+    "magnitude": 2.7,
+    "mag_type": "ml",
+    "place": "108 km NNE of Arctic Village, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vbyigb",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
