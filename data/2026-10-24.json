@@ -1453,5 +1453,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388701.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026vbnefc",
+    "source": "usgs",
+    "time": "2026-10-24T10:20:27.579000+00:00",
+    "updated": "2026-10-24T10:22:15.862000+00:00",
+    "lat": 64.393,
+    "lon": -149.799,
+    "depth_km": 12.8,
+    "magnitude": 2.5,
+    "mag_type": "ml",
+    "place": "30 km W of Anderson, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vbnefc",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
