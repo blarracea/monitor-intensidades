@@ -1981,5 +1981,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388745.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u4ng",
+    "source": "usgs",
+    "time": "2026-10-24T17:49:46.312000+00:00",
+    "updated": "2026-10-24T18:09:46.040000+00:00",
+    "lat": 41.8193,
+    "lon": -126.6544,
+    "depth_km": 10,
+    "magnitude": 2.8,
+    "mag_type": "ml",
+    "place": "193 km WSW of Pistol River, Oregon",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4ng",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
