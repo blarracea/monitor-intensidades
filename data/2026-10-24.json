@@ -70,5 +70,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388645.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026vaummo",
+    "source": "usgs",
+    "time": "2026-10-24T01:00:16.244000+00:00",
+    "updated": "2026-10-24T01:04:02.341000+00:00",
+    "lat": 59.021,
+    "lon": -142.658,
+    "depth_km": 7.5,
+    "magnitude": 3.3,
+    "mag_type": "ml",
+    "place": "177 km WSW of Yakutat, Alaska",
+    "cdi": null,
+    "mmi": 1,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vaummo",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
