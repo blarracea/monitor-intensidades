@@ -1213,5 +1213,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4ld",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u4lg",
+    "source": "usgs",
+    "time": "2026-10-24T08:39:53.139000+00:00",
+    "updated": "2026-10-24T08:56:04.040000+00:00",
+    "lat": 32.5629,
+    "lon": 94.048,
+    "depth_km": 10,
+    "magnitude": 5.3,
+    "mag_type": "mb",
+    "place": "223 km ENE of Nagqu, China",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4lg",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
