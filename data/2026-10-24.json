@@ -432,5 +432,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4jr",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u4ju",
+    "source": "usgs",
+    "time": "2026-10-24T04:05:36.800000+00:00",
+    "updated": "2026-10-24T04:19:06.040000+00:00",
+    "lat": -13.9084,
+    "lon": 165.5627,
+    "depth_km": 10,
+    "magnitude": 5.7,
+    "mag_type": "mb",
+    "place": "205 km NW of Port-Olry, Vanuatu",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4ju",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
