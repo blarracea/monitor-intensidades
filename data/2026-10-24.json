@@ -171,7 +171,7 @@
     "id": "us6000u4j2",
     "source": "usgs",
     "time": "2026-10-24T02:31:28.641000+00:00",
-    "updated": "2026-10-24T03:02:48.605000+00:00",
+    "updated": "2026-10-24T03:41:08.036000+00:00",
     "lat": -14.0558,
     "lon": 165.5455,
     "depth_km": 10,
@@ -180,9 +180,15 @@
     "place": "197 km WNW of Port-Olry, Vanuatu",
     "cdi": 2.2,
     "mmi": 5.051,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": true,
     "dyfi_points": [
+      {
+        "lat": -13.712679999999999,
+        "lon": 167.63042000000002,
+        "intensity": 2.2,
+        "responses": 1
+      },
       {
         "lat": -15.5152175,
         "lon": 167.176785,
@@ -353,6 +359,30 @@
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4jl",
     "relevant": true,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/388666.html",
+    "source": "csn",
+    "time": "2026-10-24T03:34:31+00:00",
+    "updated": "2026-10-24T03:34:31+00:00",
+    "lat": -21.13,
+    "lon": -69.03,
+    "depth_km": 114.0,
+    "magnitude": 3.0,
+    "mag_type": "MLv",
+    "place": "51 km al SO de Mina Collahuasi, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388666.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388666.html",
+    "relevant": false,
     "keywords_matched": []
   }
 ]
