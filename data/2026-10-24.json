@@ -2293,5 +2293,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388765.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u4p1",
+    "source": "usgs",
+    "time": "2026-10-24T19:34:13.223000+00:00",
+    "updated": "2026-10-24T19:52:24.040000+00:00",
+    "lat": 28.7603,
+    "lon": 88.3994,
+    "depth_km": 10,
+    "magnitude": 4.3,
+    "mag_type": "mb",
+    "place": "71 km SW of Rikaze, China",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4p1",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
