@@ -1597,5 +1597,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4m6",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u4m9",
+    "source": "usgs",
+    "time": "2026-10-24T11:48:08.678000+00:00",
+    "updated": "2026-10-24T12:10:33.040000+00:00",
+    "lat": 19.805,
+    "lon": 122.0872,
+    "depth_km": 10,
+    "magnitude": 4.7,
+    "mag_type": "mb",
+    "place": "72 km S of Basco, Philippines",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4m9",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
