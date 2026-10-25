@@ -1506,7 +1506,7 @@
     "id": "us6000u4dc",
     "source": "usgs",
     "time": "2026-10-23T13:55:36.149000+00:00",
-    "updated": "2026-10-23T14:22:44.737000+00:00",
+    "updated": "2026-10-25T08:22:59.569000+00:00",
     "lat": 38.7787,
     "lon": 14.315,
     "depth_km": 10,
@@ -1515,12 +1515,18 @@
     "place": "50 km WNW of Malfa, Italy",
     "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 37.3030075,
         "lon": 14.83638,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 38.111932499999995,
+        "lon": 13.363109999999999,
         "intensity": 2.7,
         "responses": 1
       }
