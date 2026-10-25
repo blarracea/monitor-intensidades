@@ -1434,18 +1434,24 @@
     "id": "uw714127632",
     "source": "usgs",
     "time": "2026-10-25T14:15:20.440000+00:00",
-    "updated": "2026-10-25T16:03:04.123000+00:00",
+    "updated": "2026-10-25T16:07:09.559000+00:00",
     "lat": 48.311,
     "lon": -120.6805,
     "depth_km": 2.87,
     "magnitude": 2.55,
     "mag_type": "ml",
     "place": "41 km WSW of Winthrop, Washington",
-    "cdi": 2.9,
+    "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 2,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 48.31087,
+        "lon": -120.65995,
+        "intensity": 3.8,
+        "responses": 1
+      },
       {
         "lat": 48.357435,
         "lon": -120.7388225,
