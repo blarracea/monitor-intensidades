@@ -1429,5 +1429,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714127632",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/388896.html",
+    "source": "csn",
+    "time": "2026-10-25T14:50:25+00:00",
+    "updated": "2026-10-25T14:50:25+00:00",
+    "lat": -21.86,
+    "lon": -68.72,
+    "depth_km": 117.0,
+    "magnitude": 3.0,
+    "mag_type": "MLv",
+    "place": "71 km al N de Calama, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388896.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388896.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
