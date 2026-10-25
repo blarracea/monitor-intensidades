@@ -2612,5 +2612,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4qp",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u4qq",
+    "source": "usgs",
+    "time": "2026-10-24T23:59:36.599000+00:00",
+    "updated": "2026-10-25T00:18:09.040000+00:00",
+    "lat": 31.8226,
+    "lon": 131.873,
+    "depth_km": 10,
+    "magnitude": 5.3,
+    "mag_type": "mb",
+    "place": "44 km ESE of Miyazaki, Japan",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4qq",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
