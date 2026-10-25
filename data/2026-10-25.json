@@ -532,7 +532,7 @@
     "id": "us6000u4sm",
     "source": "usgs",
     "time": "2026-10-25T05:15:44.196000+00:00",
-    "updated": "2026-10-25T06:53:51.356000+00:00",
+    "updated": "2026-10-25T12:48:50.434000+00:00",
     "lat": 37.6512,
     "lon": 21.0112,
     "depth_km": 10,
@@ -541,7 +541,7 @@
     "place": "17 km SE of Ambelókipoi, Greece",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 5,
+    "felt_reports": 6,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -565,6 +565,12 @@
       {
         "lat": 37.843725,
         "lon": 20.7783625,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 38.17631,
+        "lon": 20.49193,
         "intensity": 2,
         "responses": 1
       }
