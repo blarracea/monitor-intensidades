@@ -1296,5 +1296,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4ty",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/388880.html",
+    "source": "csn",
+    "time": "2026-10-25T11:50:18+00:00",
+    "updated": "2026-10-25T11:50:18+00:00",
+    "lat": -20.03,
+    "lon": -69.21,
+    "depth_km": 93.0,
+    "magnitude": 2.9,
+    "mag_type": "MLv",
+    "place": "52 km al N de Pica, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388880.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388880.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
