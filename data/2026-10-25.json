@@ -197,5 +197,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388805.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u4rr",
+    "source": "usgs",
+    "time": "2026-10-25T02:36:32.787000+00:00",
+    "updated": "2026-10-25T02:52:20.040000+00:00",
+    "lat": 27.6872,
+    "lon": 139.7389,
+    "depth_km": 498.883,
+    "magnitude": 4.8,
+    "mag_type": "mb",
+    "place": "Bonin Islands, Japan region",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4rr",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
