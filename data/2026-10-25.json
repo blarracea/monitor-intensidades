@@ -1545,5 +1545,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388902.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "pr71537653",
+    "source": "usgs",
+    "time": "2026-10-25T16:10:40.700000+00:00",
+    "updated": "2026-10-25T16:33:12.960000+00:00",
+    "lat": 18.1705,
+    "lon": -64.4578333333333,
+    "depth_km": 120.96,
+    "magnitude": 3.06,
+    "mag_type": "md",
+    "place": "39 km ESE of Cruz Bay, U.S. Virgin Islands",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71537653",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
