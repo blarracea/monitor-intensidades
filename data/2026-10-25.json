@@ -744,5 +744,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4t4",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026vdeazf",
+    "source": "usgs",
+    "time": "2026-10-25T07:46:12.035000+00:00",
+    "updated": "2026-10-25T07:50:27.896000+00:00",
+    "lat": 60.482,
+    "lon": -151.915,
+    "depth_km": 80.5,
+    "magnitude": 2.9,
+    "mag_type": "ml",
+    "place": "35 km WNW of Kalifornsky, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vdeazf",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
