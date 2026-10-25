@@ -720,5 +720,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vdcuns",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u4t4",
+    "source": "usgs",
+    "time": "2026-10-25T07:11:49.640000+00:00",
+    "updated": "2026-10-25T07:36:58.040000+00:00",
+    "lat": -16.0676,
+    "lon": -74.747,
+    "depth_km": 26.454,
+    "magnitude": 4.6,
+    "mag_type": "mb",
+    "place": "50 km SW of Atiquipa, Peru",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4t4",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
