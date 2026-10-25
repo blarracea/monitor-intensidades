@@ -1248,5 +1248,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388874.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u4ty",
+    "source": "usgs",
+    "time": "2026-10-25T11:25:57.400000+00:00",
+    "updated": "2026-10-25T11:43:09.040000+00:00",
+    "lat": 32.3692,
+    "lon": 94.0041,
+    "depth_km": 10,
+    "magnitude": 5.8,
+    "mag_type": "mb",
+    "place": "209 km ENE of Nagqu, China",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4ty",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
