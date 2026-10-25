@@ -2720,18 +2720,24 @@
     "id": "us6000u4qq",
     "source": "usgs",
     "time": "2026-10-24T23:59:36.599000+00:00",
-    "updated": "2026-10-25T01:04:12.040000+00:00",
+    "updated": "2026-10-25T23:19:46.153000+00:00",
     "lat": 31.8226,
     "lon": 131.873,
     "depth_km": 10,
     "magnitude": 5.3,
     "mag_type": "mb",
     "place": "44 km ESE of Miyazaki, Japan",
-    "cdi": 2,
+    "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 2,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 33.28352,
+        "lon": 131.496565,
+        "intensity": 3.1,
+        "responses": 1
+      },
       {
         "lat": 31.585124999999998,
         "lon": 130.554535,
