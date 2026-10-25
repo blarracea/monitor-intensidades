@@ -1217,7 +1217,7 @@
     "id": "us6000u4bk",
     "source": "usgs",
     "time": "2026-10-23T10:19:16.729000+00:00",
-    "updated": "2026-10-24T10:25:48.390000+00:00",
+    "updated": "2026-10-25T16:36:28.513000+00:00",
     "lat": 38.7199,
     "lon": 14.152,
     "depth_km": 10,
@@ -1226,13 +1226,25 @@
     "place": "61 km WNW of Leni, Italy",
     "cdi": 4.6,
     "mmi": 3.791,
-    "felt_reports": 9,
+    "felt_reports": 10,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 38.150365,
         "lon": 14.9600475,
         "intensity": 4.6,
+        "responses": 1
+      },
+      {
+        "lat": 38.16534,
+        "lon": 13.31626,
+        "intensity": 4.3,
+        "responses": 1
+      },
+      {
+        "lat": 38.159105,
+        "lon": 14.7431675,
+        "intensity": 3.1,
         "responses": 1
       },
       {
@@ -1244,12 +1256,6 @@
       {
         "lat": 37.1000425,
         "lon": 13.9365325,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 38.159105,
-        "lon": 14.7431675,
         "intensity": 3.1,
         "responses": 1
       },
