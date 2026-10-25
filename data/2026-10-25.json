@@ -227,5 +227,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4rr",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u4ru",
+    "source": "usgs",
+    "time": "2026-10-25T02:47:49.856000+00:00",
+    "updated": "2026-10-25T03:02:07.040000+00:00",
+    "lat": 27.8771,
+    "lon": 139.7294,
+    "depth_km": 499.81,
+    "magnitude": 4.2,
+    "mag_type": "mb",
+    "place": "Bonin Islands, Japan region",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4ru",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
