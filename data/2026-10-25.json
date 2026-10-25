@@ -94,5 +94,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vcsqhs",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u4r9",
+    "source": "usgs",
+    "time": "2026-10-25T02:09:23.818000+00:00",
+    "updated": "2026-10-25T02:24:25.040000+00:00",
+    "lat": 27.7953,
+    "lon": 139.6184,
+    "depth_km": 492.376,
+    "magnitude": 6.5,
+    "mag_type": "mww",
+    "place": "Bonin Islands, Japan region",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4r9",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
