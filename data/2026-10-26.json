@@ -1760,7 +1760,7 @@
     "id": "us7000ttci",
     "source": "usgs",
     "time": "2026-10-26T21:18:11.526000+00:00",
-    "updated": "2026-10-26T21:59:34.844000+00:00",
+    "updated": "2026-10-26T22:12:59.274000+00:00",
     "lat": -36.4594,
     "lon": 138.5321,
     "depth_km": 10,
@@ -1769,7 +1769,7 @@
     "place": "98 km S of Encounter Bay, Australia",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 2,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1782,6 +1782,12 @@
         "lat": -35.07552,
         "lon": 138.866735,
         "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": -35.048294999999996,
+        "lon": 138.85648,
+        "intensity": 2,
         "responses": 1
       }
     ],
