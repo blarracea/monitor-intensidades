@@ -1523,6 +1523,30 @@
     "keywords_matched": []
   },
   {
+    "id": "us6000u4ue",
+    "source": "usgs",
+    "time": "2026-10-25T13:54:24.782000+00:00",
+    "updated": "2026-10-26T14:36:33.040000+00:00",
+    "lat": -24.6285,
+    "lon": 179.9035,
+    "depth_km": 513.913,
+    "magnitude": 4.6,
+    "mag_type": "mb",
+    "place": "south of the Fiji Islands",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4ue",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "uw714127632",
     "source": "usgs",
     "time": "2026-10-25T14:15:20.440000+00:00",
@@ -2104,7 +2128,7 @@
     "id": "tx2026vasgst",
     "source": "usgs",
     "time": "2026-10-25T19:54:29.501000+00:00",
-    "updated": "2026-10-26T13:39:01.001000+00:00",
+    "updated": "2026-10-26T14:34:31.296000+00:00",
     "lat": 29.447,
     "lon": -97.026,
     "depth_km": 2.6605,
@@ -2113,7 +2137,7 @@
     "place": "8 km W of Hallettsville, Texas",
     "cdi": 2.8,
     "mmi": null,
-    "felt_reports": 4,
+    "felt_reports": 5,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2126,6 +2150,12 @@
         "lat": 29.41329,
         "lon": -96.96434500000001,
         "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 29.43085,
+        "lon": -96.933075,
+        "intensity": 2,
         "responses": 1
       },
       {
