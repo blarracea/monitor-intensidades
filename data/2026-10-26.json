@@ -1418,5 +1418,47 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389116.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/389118.html",
+    "source": "csn",
+    "time": "2026-10-26T20:20:25+00:00",
+    "updated": "2026-10-26T20:20:25+00:00",
+    "lat": -29.97,
+    "lon": -71.27,
+    "depth_km": 61.0,
+    "magnitude": 4.1,
+    "mag_type": "MLv",
+    "place": "8 km al S de La Serena, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": -29.9533,
+        "lon": -71.3436,
+        "intensity": 5,
+        "responses": null,
+        "comuna": "Coquimbo",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -29.9027,
+        "lon": -71.2519,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "La Serena",
+        "region": "Coquimbo"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-mediana-intensidad-en-la-region-de-coquimbo-2026-10-26-17-24-22",
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389118.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389118.html",
+    "relevant": false,
+    "keywords_matched": [],
+    "senapred_match_time": "2026-10-26T17:24:22-03:00"
   }
 ]
