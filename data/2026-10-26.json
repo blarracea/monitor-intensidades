@@ -970,21 +970,33 @@
     "id": "nc75455061",
     "source": "usgs",
     "time": "2026-10-26T13:10:33.190000+00:00",
-    "updated": "2026-10-26T13:14:58.870000+00:00",
+    "updated": "2026-10-26T13:18:12.401000+00:00",
     "lat": 36.8626670837402,
     "lon": -121.605003356934,
     "depth_km": 4.82999992370605,
     "magnitude": 2.5,
     "mag_type": "md",
     "place": "4 km SE of Aromas, CA",
-    "cdi": 2,
+    "cdi": 2.2,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
       {
+        "lat": 36.843395,
+        "lon": -121.53635,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
         "lat": 36.88978,
         "lon": -121.64768000000001,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 36.8709725,
+        "lon": -121.5807025,
         "intensity": 2,
         "responses": 1
       }
