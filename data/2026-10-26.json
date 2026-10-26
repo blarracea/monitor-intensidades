@@ -1635,5 +1635,63 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttc5",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/389124.html",
+    "source": "csn",
+    "time": "2026-10-26T20:52:11+00:00",
+    "updated": "2026-10-26T20:52:11+00:00",
+    "lat": -32.26,
+    "lon": -71.24,
+    "depth_km": 48.0,
+    "magnitude": 4.4,
+    "mag_type": "MLv",
+    "place": "21 km al N de La Ligua, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": -32.4496375,
+        "lon": -71.2316695,
+        "intensity": 5,
+        "responses": null,
+        "comuna": "La Ligua",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -32.5528294,
+        "lon": -71.4588181,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Zapallar",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -32.8811,
+        "lon": -71.2492,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Quillota",
+        "region": "Valparaíso"
+      },
+      {
+        "lat": -33.0472,
+        "lon": -71.6127,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Valparaíso",
+        "region": "Valparaíso"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-mediana-intensidad-en-la-region-de-valparaiso-2026-10-26-17-57-57",
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389124.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389124.html",
+    "relevant": false,
+    "keywords_matched": [],
+    "senapred_match_time": "2026-10-26T17:57:57-03:00"
   }
 ]
