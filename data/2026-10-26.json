@@ -1760,7 +1760,7 @@
     "id": "us7000ttci",
     "source": "usgs",
     "time": "2026-10-26T21:18:11.526000+00:00",
-    "updated": "2026-10-26T22:50:52.482000+00:00",
+    "updated": "2026-10-26T23:45:20.033000+00:00",
     "lat": -36.4594,
     "lon": 138.5321,
     "depth_km": 10,
@@ -1769,7 +1769,7 @@
     "place": "98 km S of Encounter Bay, Australia",
     "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 18,
+    "felt_reports": 19,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2079,6 +2079,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389157.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389157.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/389161.html",
+    "source": "csn",
+    "time": "2026-10-26T23:39:52+00:00",
+    "updated": "2026-10-26T23:39:52+00:00",
+    "lat": -21.06,
+    "lon": -69.1,
+    "depth_km": 112.0,
+    "magnitude": 2.7,
+    "mag_type": "MLv",
+    "place": "53 km al SO de Mina Collahuasi, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389161.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389161.html",
     "relevant": false,
     "keywords_matched": []
   }
