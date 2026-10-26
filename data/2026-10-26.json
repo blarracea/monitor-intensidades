@@ -1337,9 +1337,26 @@
     "mmi": null,
     "felt_reports": null,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
-    "senapred_url": null,
+    "dyfi_points": [
+      {
+        "lat": -20.2716,
+        "lon": -70.1,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Alto Hospicio",
+        "region": "Tarapacá"
+      },
+      {
+        "lat": -20.2133,
+        "lon": -70.1503,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Iquique",
+        "region": "Tarapacá"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-tarapaca-2026-10-26-16-40-29",
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389111.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389111.html",
