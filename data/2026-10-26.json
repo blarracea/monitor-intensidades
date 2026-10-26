@@ -1760,7 +1760,7 @@
     "id": "us7000ttci",
     "source": "usgs",
     "time": "2026-10-26T21:18:11.526000+00:00",
-    "updated": "2026-10-26T22:43:21.882000+00:00",
+    "updated": "2026-10-26T22:47:56.331000+00:00",
     "lat": -36.4594,
     "lon": 138.5321,
     "depth_km": 10,
@@ -1769,13 +1769,25 @@
     "place": "98 km S of Encounter Bay, Australia",
     "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 14,
+    "felt_reports": 17,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": -35.535455,
         "lon": 138.8766775,
         "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": -35.016765,
+        "lon": 138.616225,
+        "intensity": 3.3,
+        "responses": 1
+      },
+      {
+        "lat": -34.84317,
+        "lon": 138.50097,
+        "intensity": 3.1,
         "responses": 1
       },
       {
@@ -1797,12 +1809,6 @@
         "responses": 1
       },
       {
-        "lat": -34.84317,
-        "lon": 138.50097,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
         "lat": -35.070605,
         "lon": 138.6036975,
         "intensity": 2.9,
@@ -1815,20 +1821,32 @@
         "responses": 1
       },
       {
+        "lat": -35.281985,
+        "lon": 138.817355,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": -35.46996,
         "lon": 138.3054175,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": -35.07552,
-        "lon": 138.866735,
+        "lat": -34.84685,
+        "lon": 138.68675000000002,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": -34.84685,
-        "lon": 138.68675000000002,
+        "lat": -35.3799,
+        "lon": 140.1577525,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": -35.07552,
+        "lon": 138.866735,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1839,14 +1857,14 @@
         "responses": 1
       },
       {
-        "lat": -34.9262375,
-        "lon": 138.59696000000002,
+        "lat": -35.1181875,
+        "lon": 139.28257,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": -35.1181875,
-        "lon": 139.28257,
+        "lat": -34.9262375,
+        "lon": 138.59696000000002,
         "intensity": 2,
         "responses": 1
       }
@@ -1952,6 +1970,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389141.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389141.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000ttd1",
+    "source": "usgs",
+    "time": "2026-10-26T22:33:48.680000+00:00",
+    "updated": "2026-10-26T22:49:39.040000+00:00",
+    "lat": -12.4943,
+    "lon": 46.0676,
+    "depth_km": 10,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "91 km ENE of Pamandzi, Mayotte",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttd1",
     "relevant": false,
     "keywords_matched": []
   }
