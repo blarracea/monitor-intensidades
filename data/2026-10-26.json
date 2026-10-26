@@ -1484,11 +1484,27 @@
     "tsunami_flag": false,
     "dyfi_points": [
       {
+        "lat": -28.9667,
+        "lon": -70.5333,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Alto del Carmen",
+        "region": "Atacama"
+      },
+      {
         "lat": -29.9533,
         "lon": -71.3436,
         "intensity": 5,
         "responses": null,
         "comuna": "Coquimbo",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.6947,
+        "lon": -70.96,
+        "intensity": 5,
+        "responses": null,
+        "comuna": "Monte Patria",
         "region": "Coquimbo"
       },
       {
@@ -1498,6 +1514,22 @@
         "responses": null,
         "comuna": "La Serena",
         "region": "Coquimbo"
+      },
+      {
+        "lat": -30.2333,
+        "lon": -71.0833,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Andacollo",
+        "region": "Coquimbo"
+      },
+      {
+        "lat": -30.0167,
+        "lon": -70.6833,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Paiguano",
+        "region": "Coquimbo"
       }
     ],
     "intensity_source": "csn",
@@ -1506,8 +1538,7 @@
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389118.html",
     "relevant": false,
-    "keywords_matched": [],
-    "senapred_match_time": "2026-10-26T17:24:22-03:00"
+    "keywords_matched": []
   },
   {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/389120.html",
