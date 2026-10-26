@@ -238,5 +238,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/388993.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000u4xv",
+    "source": "usgs",
+    "time": "2026-10-26T04:12:25.224000+00:00",
+    "updated": "2026-10-26T04:28:24.040000+00:00",
+    "lat": 40.5558,
+    "lon": 141.9305,
+    "depth_km": 59.573,
+    "magnitude": 4.2,
+    "mag_type": "mb",
+    "place": "37 km E of Hachinohe, Japan",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4xv",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
