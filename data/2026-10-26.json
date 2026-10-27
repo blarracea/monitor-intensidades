@@ -1784,7 +1784,7 @@
     "id": "us7000ttci",
     "source": "usgs",
     "time": "2026-10-26T21:18:11.526000+00:00",
-    "updated": "2026-10-27T00:15:37.745000+00:00",
+    "updated": "2026-10-27T00:40:57.528000+00:00",
     "lat": -36.4594,
     "lon": 138.5321,
     "depth_km": 10,
@@ -1793,7 +1793,7 @@
     "place": "98 km S of Encounter Bay, Australia",
     "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 24,
+    "felt_reports": 25,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1845,12 +1845,6 @@
         "responses": 2
       },
       {
-        "lat": -35.281985,
-        "lon": 138.817355,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
         "lat": -35.46996,
         "lon": 138.3054175,
         "intensity": 2.7,
@@ -1860,6 +1854,24 @@
         "lat": -34.998745,
         "lon": 138.6167475,
         "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -35.281985,
+        "lon": 138.817355,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -34.9045,
+        "lon": 138.8821125,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": -34.84685,
+        "lon": 138.68675000000002,
+        "intensity": 2.2,
         "responses": 1
       },
       {
@@ -1881,14 +1893,14 @@
         "responses": 1
       },
       {
-        "lat": -34.84685,
-        "lon": 138.68675000000002,
-        "intensity": 2.2,
+        "lat": -35.048294999999996,
+        "lon": 138.85648,
+        "intensity": 2,
         "responses": 1
       },
       {
-        "lat": -35.048294999999996,
-        "lon": 138.85648,
+        "lat": -34.9262375,
+        "lon": 138.59696000000002,
         "intensity": 2,
         "responses": 1
       },
@@ -1897,12 +1909,6 @@
         "lon": 138.5932675,
         "intensity": 2,
         "responses": 2
-      },
-      {
-        "lat": -34.9262375,
-        "lon": 138.59696000000002,
-        "intensity": 2,
-        "responses": 1
       },
       {
         "lat": -34.96335,
