@@ -286,5 +286,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389191.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tteg",
+    "source": "usgs",
+    "time": "2026-10-27T03:55:23.686000+00:00",
+    "updated": "2026-10-27T04:06:33.040000+00:00",
+    "lat": -2.7707,
+    "lon": -78.8864,
+    "depth_km": 75.447,
+    "magnitude": 4.1,
+    "mag_type": "mb",
+    "place": "5 km SW of Azogues, Ecuador",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tteg",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
