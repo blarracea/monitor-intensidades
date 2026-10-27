@@ -1107,16 +1107,16 @@
     "id": "us7000ttg9",
     "source": "usgs",
     "time": "2026-10-27T12:52:52.994000+00:00",
-    "updated": "2026-10-27T21:08:31.441000+00:00",
+    "updated": "2026-10-27T21:20:06.977000+00:00",
     "lat": -38.3668,
     "lon": 145.8855,
     "depth_km": 10,
     "magnitude": 3.5,
     "mag_type": "mb",
     "place": "9 km NE of Korumburra, Australia",
-    "cdi": 2.6,
+    "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 11,
+    "felt_reports": 12,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1126,9 +1126,9 @@
         "responses": 1
       },
       {
-        "lat": -38.12664,
-        "lon": 145.8419475,
-        "intensity": 2.2,
+        "lat": -38.479135,
+        "lon": 145.950975,
+        "intensity": 2.7,
         "responses": 1
       },
       {
@@ -1140,6 +1140,12 @@
       {
         "lat": -37.755745000000005,
         "lon": 145.0531675,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": -38.12664,
+        "lon": 145.8419475,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1162,8 +1168,8 @@
         "responses": 1
       },
       {
-        "lat": -38.145525,
-        "lon": 145.932945,
+        "lat": -37.9334175,
+        "lon": 145.4922425,
         "intensity": 2,
         "responses": 1
       },
@@ -1174,14 +1180,14 @@
         "responses": 1
       },
       {
-        "lat": -37.9334175,
-        "lon": 145.4922425,
+        "lat": -37.7091725,
+        "lon": 144.9636375,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": -37.7091725,
-        "lon": 144.9636375,
+        "lat": -38.145525,
+        "lon": 145.932945,
         "intensity": 2,
         "responses": 1
       }
@@ -1939,6 +1945,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389327.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389327.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/389329.html",
+    "source": "csn",
+    "time": "2026-10-27T21:09:06+00:00",
+    "updated": "2026-10-27T21:09:06+00:00",
+    "lat": -19.95,
+    "lon": -69.05,
+    "depth_km": 102.0,
+    "magnitude": 2.5,
+    "mag_type": "MLv",
+    "place": "67 km al NE de Pica, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389329.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389329.html",
     "relevant": false,
     "keywords_matched": []
   }
