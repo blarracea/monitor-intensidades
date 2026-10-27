@@ -574,5 +574,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vgyfgb",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000ttfb",
+    "source": "usgs",
+    "time": "2026-10-27T08:55:23.352000+00:00",
+    "updated": "2026-10-27T09:09:22.040000+00:00",
+    "lat": -13.8962,
+    "lon": 165.6262,
+    "depth_km": 10,
+    "magnitude": 5.8,
+    "mag_type": "mww",
+    "place": "200 km NW of Port-Olry, Vanuatu",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttfb",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
