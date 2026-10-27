@@ -1421,7 +1421,7 @@
     "id": "aka2026vhpcrg",
     "source": "usgs",
     "time": "2026-10-27T17:16:31.164000+00:00",
-    "updated": "2026-10-27T17:48:03.674000+00:00",
+    "updated": "2026-10-27T17:52:50.508000+00:00",
     "lat": 62.156,
     "lon": -149.535,
     "depth_km": 14.5,
@@ -1430,20 +1430,20 @@
     "place": "16 km E of Susitna North, Alaska",
     "cdi": 3.1,
     "mmi": 3.549,
-    "felt_reports": 11,
+    "felt_reports": 12,
     "tsunami_flag": false,
     "dyfi_points": [
-      {
-        "lat": 61.217465000000004,
-        "lon": -149.9141575,
-        "intensity": 3.1,
-        "responses": 1
-      },
       {
         "lat": 62.322607500000004,
         "lon": -150.09515,
         "intensity": 3.1,
         "responses": 2
+      },
+      {
+        "lat": 61.217465000000004,
+        "lon": -149.9141575,
+        "intensity": 3.1,
+        "responses": 1
       },
       {
         "lat": 62.105835,
@@ -1476,6 +1476,12 @@
         "responses": 1
       },
       {
+        "lat": 61.110662500000004,
+        "lon": -149.86718,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 62.186099999999996,
         "lon": -150.0121475,
         "intensity": 2,
@@ -1488,9 +1494,9 @@
         "responses": 1
       },
       {
-        "lat": 61.110662500000004,
-        "lon": -149.86718,
-        "intensity": 2,
+        "lat": 61.1551025,
+        "lon": -149.88980750000002,
+        "intensity": 1,
         "responses": 1
       }
     ],
