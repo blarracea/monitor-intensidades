@@ -238,5 +238,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71537723",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/389190.html",
+    "source": "csn",
+    "time": "2026-10-27T03:35:47+00:00",
+    "updated": "2026-10-27T03:35:47+00:00",
+    "lat": -24.05,
+    "lon": -67.41,
+    "depth_km": 195.0,
+    "magnitude": 3.1,
+    "mag_type": "MLv",
+    "place": "71 km al SE de Socaire, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389190.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389190.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
