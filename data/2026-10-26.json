@@ -1784,7 +1784,7 @@
     "id": "us7000ttci",
     "source": "usgs",
     "time": "2026-10-26T21:18:11.526000+00:00",
-    "updated": "2026-10-27T01:04:17.722000+00:00",
+    "updated": "2026-10-27T01:22:14.526000+00:00",
     "lat": -36.4594,
     "lon": 138.5321,
     "depth_km": 10,
@@ -1793,13 +1793,19 @@
     "place": "98 km S of Encounter Bay, Australia",
     "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 26,
+    "felt_reports": 27,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": -35.26612,
         "lon": 138.46606,
         "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": -34.694285,
+        "lon": 138.72375,
+        "intensity": 3.6,
         "responses": 1
       },
       {
@@ -1815,12 +1821,6 @@
         "responses": 1
       },
       {
-        "lat": -34.84317,
-        "lon": 138.50097,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
         "lat": -35.660565,
         "lon": 137.63469750000002,
         "intensity": 3.1,
@@ -1829,6 +1829,12 @@
       {
         "lat": -34.88667,
         "lon": 138.89351,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": -34.84317,
+        "lon": 138.50097,
         "intensity": 3.1,
         "responses": 1
       },
@@ -1845,12 +1851,6 @@
         "responses": 2
       },
       {
-        "lat": -35.281985,
-        "lon": 138.817355,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
         "lat": -35.46996,
         "lon": 138.3054175,
         "intensity": 2.7,
@@ -1863,14 +1863,20 @@
         "responses": 1
       },
       {
+        "lat": -35.281985,
+        "lon": 138.817355,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": -35.07552,
         "lon": 138.866735,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": -34.84685,
-        "lon": 138.68675000000002,
+        "lat": -35.105765,
+        "lon": 138.5587875,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1881,14 +1887,14 @@
         "responses": 1
       },
       {
-        "lat": -35.3799,
-        "lon": 140.1577525,
+        "lat": -34.84685,
+        "lon": 138.68675000000002,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": -35.105765,
-        "lon": 138.5587875,
+        "lat": -35.3799,
+        "lon": 140.1577525,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1905,24 +1911,6 @@
         "responses": 1
       },
       {
-        "lat": -35.052369999999996,
-        "lon": 138.5932675,
-        "intensity": 2,
-        "responses": 2
-      },
-      {
-        "lat": -34.6045825,
-        "lon": 138.74801,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": -35.0084,
-        "lon": 138.64934,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
         "lat": -35.1181875,
         "lon": 139.28257,
         "intensity": 2,
@@ -1933,6 +1921,24 @@
         "lon": 138.65062749999998,
         "intensity": 2,
         "responses": 1
+      },
+      {
+        "lat": -35.0084,
+        "lon": 138.64934,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": -34.6045825,
+        "lon": 138.74801,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": -35.052369999999996,
+        "lon": 138.5932675,
+        "intensity": 2,
+        "responses": 2
       },
       {
         "lat": -35.006665,
