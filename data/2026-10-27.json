@@ -1107,7 +1107,7 @@
     "id": "us7000ttg9",
     "source": "usgs",
     "time": "2026-10-27T12:52:52.994000+00:00",
-    "updated": "2026-10-27T21:20:06.977000+00:00",
+    "updated": "2026-10-27T21:37:56.739000+00:00",
     "lat": -38.3668,
     "lon": 145.8855,
     "depth_km": 10,
@@ -1116,7 +1116,7 @@
     "place": "9 km NE of Korumburra, Australia",
     "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 12,
+    "felt_reports": 13,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1132,14 +1132,14 @@
         "responses": 1
       },
       {
-        "lat": -38.0491825,
-        "lon": 145.387305,
+        "lat": -37.755745000000005,
+        "lon": 145.0531675,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": -37.755745000000005,
-        "lon": 145.0531675,
+        "lat": -38.0491825,
+        "lon": 145.387305,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1162,14 +1162,14 @@
         "responses": 1
       },
       {
-        "lat": -38.036105,
-        "lon": 145.11413,
+        "lat": -37.7091725,
+        "lon": 144.9636375,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": -37.9334175,
-        "lon": 145.4922425,
+        "lat": -38.036105,
+        "lon": 145.11413,
         "intensity": 2,
         "responses": 1
       },
@@ -1177,11 +1177,11 @@
         "lat": -37.82743,
         "lon": 145.02856,
         "intensity": 2,
-        "responses": 1
+        "responses": 2
       },
       {
-        "lat": -37.7091725,
-        "lon": 144.9636375,
+        "lat": -37.9334175,
+        "lon": 145.4922425,
         "intensity": 2,
         "responses": 1
       },
