@@ -1675,7 +1675,7 @@
     "id": "nc75455701",
     "source": "usgs",
     "time": "2026-10-27T19:38:01.610000+00:00",
-    "updated": "2026-10-27T20:00:51.601000+00:00",
+    "updated": "2026-10-27T20:07:20.068000+00:00",
     "lat": 37.3110008239746,
     "lon": -121.678337097168,
     "depth_km": 6.76999998092651,
@@ -1684,7 +1684,7 @@
     "place": "14 km E of Seven Trees, CA",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 4,
+    "felt_reports": 5,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1697,6 +1697,12 @@
         "lat": 37.361095,
         "lon": -121.89898500000001,
         "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 37.27054,
+        "lon": -121.85519,
+        "intensity": 2.2,
         "responses": 1
       },
       {
