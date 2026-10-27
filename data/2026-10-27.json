@@ -22,5 +22,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389165.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000ttdt",
+    "source": "usgs",
+    "time": "2026-10-27T00:25:08.167000+00:00",
+    "updated": "2026-10-27T00:57:45.040000+00:00",
+    "lat": 37.3869,
+    "lon": 141.625,
+    "depth_km": 48.93,
+    "magnitude": 4.8,
+    "mag_type": "mb",
+    "place": "54 km E of Tomioka, Japan",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttdt",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
