@@ -1163,5 +1163,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389265.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000ttgh",
+    "source": "usgs",
+    "time": "2026-10-27T14:43:09.497000+00:00",
+    "updated": "2026-10-27T15:12:35.040000+00:00",
+    "lat": -9.3662,
+    "lon": 110.2973,
+    "depth_km": 20.614,
+    "magnitude": 4.9,
+    "mag_type": "mb",
+    "place": "156 km S of Pundong, Indonesia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttgh",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
