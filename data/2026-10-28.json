@@ -1918,7 +1918,7 @@
     "id": "us7000ttpe",
     "source": "usgs",
     "time": "2026-10-28T15:07:52.050000+00:00",
-    "updated": "2026-10-28T15:45:33.885000+00:00",
+    "updated": "2026-10-28T15:48:33.831000+00:00",
     "lat": 35.7015,
     "lon": 140.7059,
     "depth_km": 41.356,
@@ -1927,9 +1927,15 @@
     "place": "5 km ESE of Asahi, Japan",
     "cdi": 3.4,
     "mmi": 4.775,
-    "felt_reports": 20,
+    "felt_reports": 25,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 35.6407025,
+        "lon": 140.0666625,
+        "intensity": 3.4,
+        "responses": 1
+      },
       {
         "lat": 35.71025,
         "lon": 139.7784375,
@@ -1937,26 +1943,44 @@
         "responses": 1
       },
       {
-        "lat": 35.708955,
-        "lon": 139.6568625,
-        "intensity": 2.7,
+        "lat": 35.6856925,
+        "lon": 140.05509,
+        "intensity": 3.1,
         "responses": 1
       },
       {
-        "lat": 35.573745,
-        "lon": 139.659125,
-        "intensity": 2.7,
+        "lat": 35.4473025,
+        "lon": 139.63918999999999,
+        "intensity": 3.1,
         "responses": 1
       },
       {
-        "lat": 35.6737375,
-        "lon": 139.7347975,
-        "intensity": 2.7,
+        "lat": 35.773575,
+        "lon": 139.799595,
+        "intensity": 3.1,
         "responses": 1
       },
       {
-        "lat": 35.6458575,
-        "lon": 139.65792249999998,
+        "lat": 35.8979925,
+        "lon": 139.6315175,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 35.674525,
+        "lon": 139.81213,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 36.082775,
+        "lon": 140.105895,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 35.751915,
+        "lon": 139.479185,
         "intensity": 2.7,
         "responses": 1
       },
@@ -1967,8 +1991,20 @@
         "responses": 1
       },
       {
+        "lat": 35.6737375,
+        "lon": 139.7347975,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": 35.66437,
         "lon": 139.70180249999999,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 35.57021,
+        "lon": 139.372285,
         "intensity": 2.7,
         "responses": 1
       },
@@ -1979,8 +2015,20 @@
         "responses": 1
       },
       {
-        "lat": 35.751915,
-        "lon": 139.479185,
+        "lat": 35.708955,
+        "lon": 139.6568625,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 35.6458575,
+        "lon": 139.65792249999998,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 35.573745,
+        "lon": 139.659125,
         "intensity": 2.7,
         "responses": 1
       },
@@ -1991,14 +2039,8 @@
         "responses": 1
       },
       {
-        "lat": 35.647149999999996,
-        "lon": 139.7794,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 35.2327325,
-        "lon": 139.10435,
+        "lat": 35.5653325,
+        "lon": 139.714435,
         "intensity": 2.2,
         "responses": 1
       },
@@ -2011,6 +2053,18 @@
       {
         "lat": 35.635022500000005,
         "lon": 139.503495,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 35.647149999999996,
+        "lon": 139.7794,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 35.2327325,
+        "lon": 139.10435,
         "intensity": 2.2,
         "responses": 1
       },
