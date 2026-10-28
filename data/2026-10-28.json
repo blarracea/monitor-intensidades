@@ -1226,18 +1226,24 @@
     "id": "pr2026301000",
     "source": "usgs",
     "time": "2026-10-28T09:44:00.460000+00:00",
-    "updated": "2026-10-28T10:43:37.681000+00:00",
+    "updated": "2026-10-28T10:46:29.893000+00:00",
     "lat": 17.9548,
     "lon": -65.3388,
     "depth_km": 25,
     "magnitude": 4.07,
     "mag_type": "md",
     "place": "21 km SE of Esperanza, Puerto Rico",
-    "cdi": 2.7,
+    "cdi": 4.1,
     "mmi": null,
     "felt_reports": 5,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 18.123035,
+        "lon": -65.4334925,
+        "intensity": 4.1,
+        "responses": 1
+      },
       {
         "lat": 18.356630000000003,
         "lon": -64.71776,
