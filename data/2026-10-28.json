@@ -1456,7 +1456,7 @@
     "id": "nc75458907",
     "source": "usgs",
     "time": "2026-10-28T12:01:11.490000+00:00",
-    "updated": "2026-10-28T17:00:51.546000+00:00",
+    "updated": "2026-10-28T17:35:45.085000+00:00",
     "lat": 39.5008333333333,
     "lon": -122.952166666667,
     "depth_km": 11.59,
@@ -1465,7 +1465,7 @@
     "place": "10 km N of Lake Pillsbury, CA",
     "cdi": 3.8,
     "mmi": 3.67,
-    "felt_reports": 8,
+    "felt_reports": 9,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1487,14 +1487,20 @@
         "responses": 1
       },
       {
+        "lat": 39.429955,
+        "lon": -123.13361499999999,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
         "lat": 38.11202,
         "lon": -122.2642325,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 39.429955,
-        "lon": -123.13361499999999,
+        "lat": 38.74102,
+        "lon": -121.24529749999999,
         "intensity": 2.2,
         "responses": 1
       },
