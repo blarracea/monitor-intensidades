@@ -1456,7 +1456,7 @@
     "id": "nc75458907",
     "source": "usgs",
     "time": "2026-10-28T12:01:11.490000+00:00",
-    "updated": "2026-10-28T16:24:21.306000+00:00",
+    "updated": "2026-10-28T16:58:47.354000+00:00",
     "lat": 39.5008333333333,
     "lon": -122.952166666667,
     "depth_km": 11.59,
@@ -1465,7 +1465,7 @@
     "place": "10 km N of Lake Pillsbury, CA",
     "cdi": 3.8,
     "mmi": 3.67,
-    "felt_reports": 7,
+    "felt_reports": 8,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1475,26 +1475,26 @@
         "responses": 1
       },
       {
-        "lat": 38.113585,
-        "lon": -122.58362,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
         "lat": 39.303725,
         "lon": -123.191365,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 39.429955,
-        "lon": -123.13361499999999,
-        "intensity": 2.2,
+        "lat": 38.113585,
+        "lon": -122.58362,
+        "intensity": 2.7,
         "responses": 1
       },
       {
         "lat": 38.11202,
         "lon": -122.2642325,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 39.429955,
+        "lon": -123.13361499999999,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1507,6 +1507,12 @@
       {
         "lat": 38.567080000000004,
         "lon": -121.73161,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 38.230935,
+        "lon": -122.6400825,
         "intensity": 1,
         "responses": 1
       }
@@ -2254,6 +2260,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389480.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389480.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/389483.html",
+    "source": "csn",
+    "time": "2026-10-28T16:51:24+00:00",
+    "updated": "2026-10-28T16:51:24+00:00",
+    "lat": -21.12,
+    "lon": -70.03,
+    "depth_km": 63.0,
+    "magnitude": 3.1,
+    "mag_type": "MLv",
+    "place": "38 km al SE de Patache, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389483.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389483.html",
     "relevant": false,
     "keywords_matched": []
   }
