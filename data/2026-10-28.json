@@ -1918,7 +1918,7 @@
     "id": "us7000ttpe",
     "source": "usgs",
     "time": "2026-10-28T15:07:52.050000+00:00",
-    "updated": "2026-10-28T15:28:42.804000+00:00",
+    "updated": "2026-10-28T15:34:39.451000+00:00",
     "lat": 35.7015,
     "lon": 140.7059,
     "depth_km": 41.356,
@@ -1927,12 +1927,12 @@
     "place": "5 km ESE of Asahi, Japan",
     "cdi": 2.7,
     "mmi": 4.775,
-    "felt_reports": 3,
+    "felt_reports": 9,
     "tsunami_flag": false,
     "dyfi_points": [
       {
-        "lat": 35.66437,
-        "lon": 139.70180249999999,
+        "lat": 35.751915,
+        "lon": 139.479185,
         "intensity": 2.7,
         "responses": 1
       },
@@ -1943,9 +1943,45 @@
         "responses": 1
       },
       {
+        "lat": 35.66437,
+        "lon": 139.70180249999999,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 35.6196525,
+        "lon": 139.73565,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 35.573745,
+        "lon": 139.659125,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 35.7193775,
+        "lon": 139.789355,
+        "intensity": 2.5,
+        "responses": 1
+      },
+      {
+        "lat": 35.619060000000005,
+        "lon": 139.680455,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
         "lat": 35.2327325,
         "lon": 139.10435,
         "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 36.495755,
+        "lon": 139.900195,
+        "intensity": 2,
         "responses": 1
       }
     ],
