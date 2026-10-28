@@ -1482,5 +1482,47 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389449.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/389451.html",
+    "source": "csn",
+    "time": "2026-10-28T12:52:12+00:00",
+    "updated": "2026-10-28T12:52:12+00:00",
+    "lat": -33.94,
+    "lon": -71.29,
+    "depth_km": 25.0,
+    "magnitude": 4.2,
+    "mag_type": "MLv",
+    "place": "29 km al S de Melipilla, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": -34.1701,
+        "lon": -70.7444,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Rancagua",
+        "region": "Libertador Bernardo O'Higgins"
+      },
+      {
+        "lat": -34.5845,
+        "lon": -70.988,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "San Fernando",
+        "region": "Libertador Bernardo O'Higgins"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-ohiggins-2026-10-28-09-55-25",
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389451.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389451.html",
+    "relevant": false,
+    "keywords_matched": [],
+    "senapred_match_time": "2026-10-28T09:55:25-03:00"
   }
 ]
