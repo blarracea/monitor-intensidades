@@ -1426,7 +1426,7 @@
     "id": "nc75458907",
     "source": "usgs",
     "time": "2026-10-28T12:01:11.470000+00:00",
-    "updated": "2026-10-28T13:05:47.068000+00:00",
+    "updated": "2026-10-28T13:21:31.145000+00:00",
     "lat": 39.5004997253418,
     "lon": -122.951835632324,
     "depth_km": 10.5900001525879,
@@ -1435,7 +1435,7 @@
     "place": "10 km N of Lake Pillsbury, CA",
     "cdi": 3.8,
     "mmi": 3.67,
-    "felt_reports": 3,
+    "felt_reports": 4,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1448,6 +1448,12 @@
         "lat": 39.429955,
         "lon": -123.13361499999999,
         "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 39.32185,
+        "lon": -123.11020500000001,
+        "intensity": 2,
         "responses": 1
       },
       {
@@ -1486,6 +1492,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389449.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389449.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000ttnq",
+    "source": "usgs",
+    "time": "2026-10-28T12:14:49.242000+00:00",
+    "updated": "2026-10-28T13:22:20.040000+00:00",
+    "lat": 5.6073,
+    "lon": 125.4182,
+    "depth_km": 10,
+    "magnitude": 4.9,
+    "mag_type": "mb",
+    "place": "1 km WSW of Butulan, Philippines",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttnq",
     "relevant": false,
     "keywords_matched": []
   },
