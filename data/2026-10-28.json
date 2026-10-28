@@ -1484,21 +1484,101 @@
     "keywords_matched": []
   },
   {
+    "id": "us7000ttnt",
+    "source": "usgs",
+    "time": "2026-10-28T12:35:23.786000+00:00",
+    "updated": "2026-10-28T12:56:53.040000+00:00",
+    "lat": -16.541,
+    "lon": -173.2355,
+    "depth_km": 10,
+    "magnitude": 4.9,
+    "mag_type": "mb",
+    "place": "88 km SE of Hihifo, Tonga",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttnt",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/389451.html",
     "source": "csn",
     "time": "2026-10-28T12:52:12+00:00",
     "updated": "2026-10-28T12:52:12+00:00",
-    "lat": -33.94,
-    "lon": -71.29,
-    "depth_km": 25.0,
-    "magnitude": 4.2,
+    "lat": -33.89,
+    "lon": -71.32,
+    "depth_km": 49.0,
+    "magnitude": 4.1,
     "mag_type": "MLv",
-    "place": "29 km al S de Melipilla, Chile",
+    "place": "25 km al SO de Melipilla, Chile",
     "cdi": null,
     "mmi": null,
     "felt_reports": null,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": -33.611,
+        "lon": -70.5756,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Puente Alto",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.4022289,
+        "lon": -71.1293733,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Curacaví",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.5159823,
+        "lon": -71.1200324,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "María Pinto",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.5346265,
+        "lon": -70.6644024,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "La Cisterna",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.5241,
+        "lon": -70.5978,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "La Florida",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.6058638,
+        "lon": -70.8785306,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Peñaflor",
+        "region": "Metropolitana de Santiago"
+      },
+      {
+        "lat": -33.3600426,
+        "lon": -70.7118564,
+        "intensity": 2,
+        "responses": null,
+        "comuna": "Quilicura",
+        "region": "Metropolitana de Santiago"
+      },
       {
         "lat": -34.1701,
         "lon": -70.7444,
@@ -1522,7 +1602,6 @@
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389451.html",
     "relevant": false,
-    "keywords_matched": [],
-    "senapred_match_time": "2026-10-28T09:55:25-03:00"
+    "keywords_matched": []
   }
 ]
