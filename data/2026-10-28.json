@@ -568,7 +568,7 @@
     "id": "us7000ttlc",
     "source": "usgs",
     "time": "2026-10-28T01:11:54.979000+00:00",
-    "updated": "2026-10-28T03:07:44.285000+00:00",
+    "updated": "2026-10-28T09:44:47.188000+00:00",
     "lat": 5.6079,
     "lon": 125.3054,
     "depth_km": 45.941,
@@ -577,7 +577,7 @@
     "place": "6 km NW of Balangonan, Philippines",
     "cdi": 4.3,
     "mmi": null,
-    "felt_reports": 4,
+    "felt_reports": 5,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -596,6 +596,12 @@
         "lat": 7.080814999999999,
         "lon": 125.6206275,
         "intensity": 2.9,
+        "responses": 1
+      },
+      {
+        "lat": 6.215745,
+        "lon": 125.0650875,
+        "intensity": 2.7,
         "responses": 1
       }
     ],
