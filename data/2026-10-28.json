@@ -1456,7 +1456,7 @@
     "id": "nc75458907",
     "source": "usgs",
     "time": "2026-10-28T12:01:11.490000+00:00",
-    "updated": "2026-10-28T19:08:52.821000+00:00",
+    "updated": "2026-10-28T20:12:05.476000+00:00",
     "lat": 39.5008333333333,
     "lon": -122.952166666667,
     "depth_km": 11.59,
@@ -1465,7 +1465,7 @@
     "place": "10 km N of Lake Pillsbury, CA",
     "cdi": 3.8,
     "mmi": 3.646,
-    "felt_reports": 10,
+    "felt_reports": 11,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1493,6 +1493,12 @@
         "responses": 1
       },
       {
+        "lat": 38.0475625,
+        "lon": -121.27338,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
         "lat": 38.74102,
         "lon": -121.24529749999999,
         "intensity": 2.2,
@@ -1511,14 +1517,14 @@
         "responses": 1
       },
       {
-        "lat": 39.4293825,
-        "lon": -123.38923249999999,
+        "lat": 38.567080000000004,
+        "lon": -121.73161,
         "intensity": 1,
         "responses": 1
       },
       {
-        "lat": 38.567080000000004,
-        "lon": -121.73161,
+        "lat": 39.4293825,
+        "lon": -123.38923249999999,
         "intensity": 1,
         "responses": 1
       },
@@ -2543,6 +2549,30 @@
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389515.html",
     "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000tttl",
+    "source": "usgs",
+    "time": "2026-10-28T19:56:47.711000+00:00",
+    "updated": "2026-10-28T20:12:21.040000+00:00",
+    "lat": 2.4277,
+    "lon": 126.7587,
+    "depth_km": 35,
+    "magnitude": 5.3,
+    "mag_type": "mb",
+    "place": "159 km WNW of Tobelo, Indonesia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tttl",
+    "relevant": true,
     "keywords_matched": []
   }
 ]
