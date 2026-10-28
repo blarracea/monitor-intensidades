@@ -1455,11 +1455,11 @@
   {
     "id": "nc75458907",
     "source": "usgs",
-    "time": "2026-10-28T12:01:11.470000+00:00",
-    "updated": "2026-10-28T16:11:23.394000+00:00",
-    "lat": 39.5004997253418,
-    "lon": -122.951835632324,
-    "depth_km": 10.5900001525879,
+    "time": "2026-10-28T12:01:11.490000+00:00",
+    "updated": "2026-10-28T16:24:21.306000+00:00",
+    "lat": 39.5008333333333,
+    "lon": -122.952166666667,
+    "depth_km": 11.59,
     "magnitude": 4.01,
     "mag_type": "mw",
     "place": "10 km N of Lake Pillsbury, CA",
@@ -1475,26 +1475,26 @@
         "responses": 1
       },
       {
-        "lat": 39.303725,
-        "lon": -123.191365,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
         "lat": 38.113585,
         "lon": -122.58362,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 38.11202,
-        "lon": -122.2642325,
-        "intensity": 2.2,
+        "lat": 39.303725,
+        "lon": -123.191365,
+        "intensity": 2.7,
         "responses": 1
       },
       {
         "lat": 39.429955,
         "lon": -123.13361499999999,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 38.11202,
+        "lon": -122.2642325,
         "intensity": 2.2,
         "responses": 1
       },
@@ -2176,6 +2176,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389476.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389476.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000ttpk",
+    "source": "usgs",
+    "time": "2026-10-28T15:40:55.130000+00:00",
+    "updated": "2026-10-28T16:23:14.040000+00:00",
+    "lat": 44.2394,
+    "lon": 82.8042,
+    "depth_km": 10,
+    "magnitude": 4.7,
+    "mag_type": "mb",
+    "place": "81 km ENE of Mazha, China",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttpk",
     "relevant": false,
     "keywords_matched": []
   },
