@@ -1426,7 +1426,7 @@
     "id": "nc75458907",
     "source": "usgs",
     "time": "2026-10-28T12:01:11.470000+00:00",
-    "updated": "2026-10-28T12:45:29.554000+00:00",
+    "updated": "2026-10-28T13:01:21.999000+00:00",
     "lat": 39.5004997253418,
     "lon": -122.951835632324,
     "depth_km": 10.5900001525879,
@@ -1435,13 +1435,19 @@
     "place": "10 km N of Lake Pillsbury, CA",
     "cdi": 3.8,
     "mmi": 3.682,
-    "felt_reports": 2,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 39.402995000000004,
         "lon": -122.95934249999999,
         "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 39.429955,
+        "lon": -123.13361499999999,
+        "intensity": 2.2,
         "responses": 1
       },
       {
@@ -1505,6 +1511,30 @@
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttnt",
     "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000ttnz",
+    "source": "usgs",
+    "time": "2026-10-28T12:47:08.927000+00:00",
+    "updated": "2026-10-28T13:02:12.040000+00:00",
+    "lat": 58.2153,
+    "lon": -32.3348,
+    "depth_km": 10,
+    "magnitude": 5,
+    "mag_type": "mb",
+    "place": "Reykjanes Ridge",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttnz",
+    "relevant": true,
     "keywords_matched": []
   },
   {
@@ -1588,11 +1618,99 @@
         "region": "Libertador Bernardo O'Higgins"
       },
       {
+        "lat": -34.2917304,
+        "lon": -71.3098439,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Las Cabras",
+        "region": "Libertador Bernardo O'Higgins"
+      },
+      {
+        "lat": -33.9468525,
+        "lon": -70.5981024,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Mostazal",
+        "region": "Libertador Bernardo O'Higgins"
+      },
+      {
+        "lat": -34.4392675,
+        "lon": -71.07679,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "San Vicente de Tagua Tagua",
+        "region": "Libertador Bernardo O'Higgins"
+      },
+      {
         "lat": -34.5845,
         "lon": -70.988,
         "intensity": 3,
         "responses": null,
         "comuna": "San Fernando",
+        "region": "Libertador Bernardo O'Higgins"
+      },
+      {
+        "lat": -34.0377,
+        "lon": -70.6565422,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Codegua",
+        "region": "Libertador Bernardo O'Higgins"
+      },
+      {
+        "lat": -34.0644743,
+        "lon": -70.7262983,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Graneros",
+        "region": "Libertador Bernardo O'Higgins"
+      },
+      {
+        "lat": -34.182453,
+        "lon": -70.6511584,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Machalí",
+        "region": "Libertador Bernardo O'Higgins"
+      },
+      {
+        "lat": -34.3584097,
+        "lon": -71.282715,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Pichidegua",
+        "region": "Libertador Bernardo O'Higgins"
+      },
+      {
+        "lat": -34.1154229,
+        "lon": -71.7296864,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Litueche",
+        "region": "Libertador Bernardo O'Higgins"
+      },
+      {
+        "lat": -34.4780273,
+        "lon": -71.4793203,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Peralillo",
+        "region": "Libertador Bernardo O'Higgins"
+      },
+      {
+        "lat": -34.6385927,
+        "lon": -71.1173651,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Placilla",
+        "region": "Libertador Bernardo O'Higgins"
+      },
+      {
+        "lat": -34.6403243,
+        "lon": -71.3661297,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Santa Cruz",
         "region": "Libertador Bernardo O'Higgins"
       }
     ],
