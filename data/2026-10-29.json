@@ -2204,5 +2204,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389659.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "nc75459352",
+    "source": "usgs",
+    "time": "2026-10-29T12:14:04.550000+00:00",
+    "updated": "2026-10-29T12:15:38.889000+00:00",
+    "lat": 36.9845008850098,
+    "lon": -120.110168457031,
+    "depth_km": 11.9899997711182,
+    "magnitude": 2.6,
+    "mag_type": "md",
+    "place": "5 km WNW of Madera, CA",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75459352",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
