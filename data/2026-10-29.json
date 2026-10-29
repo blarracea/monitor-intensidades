@@ -1538,5 +1538,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vkgavi",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/389595.html",
+    "source": "csn",
+    "time": "2026-10-29T04:03:27+00:00",
+    "updated": "2026-10-29T04:03:27+00:00",
+    "lat": -24.02,
+    "lon": -67.35,
+    "depth_km": 210.0,
+    "magnitude": 3.2,
+    "mag_type": "MLv",
+    "place": "73 km al SE de Socaire, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389595.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389595.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
