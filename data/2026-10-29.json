@@ -2685,5 +2685,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu2j",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/389712.html",
+    "source": "csn",
+    "time": "2026-10-29T18:59:07+00:00",
+    "updated": "2026-10-29T18:59:07+00:00",
+    "lat": -32.16,
+    "lon": -72.21,
+    "depth_km": 36.0,
+    "magnitude": 3.5,
+    "mag_type": "MLv",
+    "place": "65 km al O de Pichidangui, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389712.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389712.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
