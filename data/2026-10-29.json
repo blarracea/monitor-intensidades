@@ -2305,19 +2305,32 @@
     "id": "us7000ttyw",
     "source": "usgs",
     "time": "2026-10-29T13:42:57.953000+00:00",
-    "updated": "2026-10-29T14:05:25.040000+00:00",
+    "updated": "2026-10-29T14:19:48.265000+00:00",
     "lat": 7.5923,
     "lon": -80.6309,
     "depth_km": 10,
     "magnitude": 4.7,
     "mag_type": "mb",
     "place": "6 km SE of Pitaloza Arriba, Panama",
-    "cdi": null,
+    "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 0,
+    "felt_reports": 2,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 8.236754999999999,
+        "lon": -80.55054750000001,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 9.003137500000001,
+        "lon": -79.58537749999999,
+        "intensity": 2.7,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "snam_url": null,
