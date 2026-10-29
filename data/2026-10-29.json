@@ -1319,23 +1319,23 @@
     "id": "us7000ttvy",
     "source": "usgs",
     "time": "2026-10-29T02:18:21.049000+00:00",
-    "updated": "2026-10-29T02:46:21.496000+00:00",
+    "updated": "2026-10-29T02:51:21.130000+00:00",
     "lat": 12.9476,
     "lon": 144.5819,
     "depth_km": 70.237,
     "magnitude": 4.8,
     "mag_type": "mb",
     "place": "36 km SSW of Merizo Village, Guam",
-    "cdi": 3.8,
+    "cdi": 4.2,
     "mmi": null,
-    "felt_reports": 4,
+    "felt_reports": 6,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 13.26391,
         "lon": 144.6696375,
-        "intensity": 3.8,
-        "responses": 1
+        "intensity": 4.2,
+        "responses": 2
       },
       {
         "lat": 13.47247,
@@ -1354,6 +1354,12 @@
         "lon": 144.76021500000002,
         "intensity": 2.7,
         "responses": 1
+      },
+      {
+        "lat": 13.499905,
+        "lon": 144.7874075,
+        "intensity": 2.2,
+        "responses": 1
       }
     ],
     "intensity_source": "usgs_dyfi",
@@ -1361,6 +1367,30 @@
     "csn_informe_url": null,
     "snam_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttvy",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/389581.html",
+    "source": "csn",
+    "time": "2026-10-29T02:42:34+00:00",
+    "updated": "2026-10-29T02:42:34+00:00",
+    "lat": -22.81,
+    "lon": -67.02,
+    "depth_km": 249.0,
+    "magnitude": 2.8,
+    "mag_type": "MLv",
+    "place": "122 km al E de San Pedro de Atacama, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389581.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389581.html",
     "relevant": false,
     "keywords_matched": []
   }
