@@ -1464,18 +1464,24 @@
     "id": "us7000ttw3",
     "source": "usgs",
     "time": "2026-10-29T03:19:05.288000+00:00",
-    "updated": "2026-10-29T06:03:44.581000+00:00",
+    "updated": "2026-10-29T07:41:36.352000+00:00",
     "lat": 8.3638,
     "lon": 127.4204,
     "depth_km": 10,
     "magnitude": 5.8,
     "mag_type": "mww",
     "place": "110 km ENE of Barcelona, Philippines",
-    "cdi": 2.7,
+    "cdi": 3.1,
     "mmi": 3.662,
-    "felt_reports": 2,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 8.45074,
+        "lon": 124.62141,
+        "intensity": 3.1,
+        "responses": 1
+      },
       {
         "lat": 8.48679,
         "lon": 124.64881,
