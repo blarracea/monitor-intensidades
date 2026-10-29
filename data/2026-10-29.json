@@ -24,22 +24,131 @@
     "keywords_matched": []
   },
   {
-    "id": "nc75459182",
+    "id": "us7000ttvf",
     "source": "usgs",
-    "time": "2026-10-29T00:17:27.670000+00:00",
-    "updated": "2026-10-29T00:19:02.763000+00:00",
-    "lat": 37.6258316040039,
-    "lon": -122.46849822998,
-    "depth_km": 6.53000020980835,
-    "magnitude": 2.73,
-    "mag_type": "md",
-    "place": "2 km NE of Pacifica, CA",
+    "time": "2026-10-29T00:08:20.933000+00:00",
+    "updated": "2026-10-29T00:23:20.040000+00:00",
+    "lat": -15.1213,
+    "lon": 168.0994,
+    "depth_km": 10,
+    "magnitude": 5.4,
+    "mag_type": "mww",
+    "place": "109 km ENE of Luganville, Vanuatu",
     "cdi": null,
     "mmi": null,
     "felt_reports": 0,
     "tsunami_flag": false,
     "dyfi_points": [],
     "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ttvf",
+    "relevant": true,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/389563.html",
+    "source": "csn",
+    "time": "2026-10-29T00:15:56+00:00",
+    "updated": "2026-10-29T00:15:56+00:00",
+    "lat": -23.84,
+    "lon": -67.11,
+    "depth_km": 227.0,
+    "magnitude": 3.3,
+    "mag_type": "MLv",
+    "place": "84 km al E de Socaire, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389563.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389563.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "nc75459182",
+    "source": "usgs",
+    "time": "2026-10-29T00:17:27.670000+00:00",
+    "updated": "2026-10-29T00:24:19.450000+00:00",
+    "lat": 37.6258316040039,
+    "lon": -122.46849822998,
+    "depth_km": 6.53000020980835,
+    "magnitude": 2.73,
+    "mag_type": "md",
+    "place": "2 km NE of Pacifica, CA",
+    "cdi": 3.4,
+    "mmi": null,
+    "felt_reports": 10,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 37.716517499999995,
+        "lon": -122.4610475,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 37.7437075,
+        "lon": -122.4949025,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 37.590532499999995,
+        "lon": -122.507265,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 37.75262,
+        "lon": -122.472135,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 37.7164625,
+        "lon": -122.4497,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 37.69854,
+        "lon": -122.47252,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 37.6804125,
+        "lon": -122.44996499999999,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 37.734595,
+        "lon": -122.472265,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 37.63545,
+        "lon": -122.472965,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 37.6532125,
+        "lon": -122.4161575,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "snam_url": null,
