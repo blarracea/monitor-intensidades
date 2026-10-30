@@ -251,5 +251,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu5q",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/389784.html",
+    "source": "csn",
+    "time": "2026-10-30T03:21:10+00:00",
+    "updated": "2026-10-30T03:21:10+00:00",
+    "lat": -22.27,
+    "lon": -67.69,
+    "depth_km": 248.0,
+    "magnitude": 2.9,
+    "mag_type": "MLv",
+    "place": "89 km al NE de San Pedro de Atacama, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389784.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389784.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
