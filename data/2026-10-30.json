@@ -1839,6 +1839,30 @@
     "keywords_matched": []
   },
   {
+    "id": "us7000tudk",
+    "source": "usgs",
+    "time": "2026-10-30T18:01:10.672000+00:00",
+    "updated": "2026-10-30T19:32:35.040000+00:00",
+    "lat": 65.0985,
+    "lon": 155.7595,
+    "depth_km": 10,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "236 km ESE of Zyryanka, Russia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tudk",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/389936.html",
     "source": "csn",
     "time": "2026-10-30T18:31:18+00:00",
@@ -1866,7 +1890,7 @@
     "id": "aka2026vngzyw",
     "source": "usgs",
     "time": "2026-10-30T19:11:23.943000+00:00",
-    "updated": "2026-10-30T19:30:15.884000+00:00",
+    "updated": "2026-10-30T19:33:53.018000+00:00",
     "lat": 61.833,
     "lon": -147.003,
     "depth_km": 19.1,
@@ -1875,7 +1899,7 @@
     "place": "14 km SE of Eureka Roadhouse, Alaska",
     "cdi": 3.6,
     "mmi": 3.992,
-    "felt_reports": 42,
+    "felt_reports": 44,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1891,26 +1915,8 @@
         "responses": 1
       },
       {
-        "lat": 61.35087,
-        "lon": -149.5337075,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
         "lat": 61.193305,
         "lon": -149.7816225,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 61.18547,
-        "lon": -149.7251025,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 61.1102675,
-        "lon": -149.88571249999998,
         "intensity": 3.1,
         "responses": 1
       },
@@ -1921,21 +1927,21 @@
         "responses": 1
       },
       {
-        "lat": 61.6079,
-        "lon": -149.2152225,
-        "intensity": 2.7,
+        "lat": 61.1102675,
+        "lon": -149.88571249999998,
+        "intensity": 3.1,
         "responses": 1
       },
       {
-        "lat": 61.79446,
-        "lon": -147.730145,
-        "intensity": 2.7,
+        "lat": 61.35087,
+        "lon": -149.5337075,
+        "intensity": 3.1,
         "responses": 1
       },
       {
-        "lat": 61.2392725,
-        "lon": -149.7297575,
-        "intensity": 2.7,
+        "lat": 61.18547,
+        "lon": -149.7251025,
+        "intensity": 3.1,
         "responses": 1
       },
       {
@@ -1947,6 +1953,30 @@
       {
         "lat": 61.618359999999996,
         "lon": -149.1216475,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 61.2392725,
+        "lon": -149.7297575,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 61.6079,
+        "lon": -149.2152225,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 61.11844,
+        "lon": -149.9236,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 61.79446,
+        "lon": -147.730145,
         "intensity": 2.7,
         "responses": 1
       },
@@ -1963,14 +1993,14 @@
         "responses": 3
       },
       {
-        "lat": 61.20111,
-        "lon": -149.838165,
+        "lat": 61.3408425,
+        "lon": -149.588995,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 61.61687,
-        "lon": -149.21586250000001,
+        "lat": 61.1893575,
+        "lon": -149.9673975,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1987,26 +2017,26 @@
         "responses": 1
       },
       {
-        "lat": 61.182,
-        "lon": -149.89227499999998,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
         "lat": 61.549555,
         "lon": -149.47459500000002,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 61.1893575,
-        "lon": -149.9673975,
+        "lat": 61.20111,
+        "lon": -149.838165,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 61.3408425,
-        "lon": -149.588995,
+        "lat": 61.182,
+        "lon": -149.89227499999998,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 61.61687,
+        "lon": -149.21586250000001,
         "intensity": 2.2,
         "responses": 1
       },
@@ -2017,14 +2047,26 @@
         "responses": 1
       },
       {
-        "lat": 61.1387325,
-        "lon": -149.8139825,
+        "lat": 61.121185,
+        "lon": -149.79384499999998,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 61.1905675,
-        "lon": -149.91167000000002,
+        "lat": 61.33258,
+        "lon": -149.550925,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.15589,
+        "lon": -149.85269499999998,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.305675,
+        "lon": -149.54874,
         "intensity": 2,
         "responses": 1
       },
@@ -2041,32 +2083,8 @@
         "responses": 1
       },
       {
-        "lat": 61.305675,
-        "lon": -149.54874,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 61.33258,
-        "lon": -149.550925,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 61.4067275,
-        "lon": -149.4258025,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
         "lat": 61.0763475,
         "lon": -149.7898925,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 61.406055,
-        "lon": -149.4632275,
         "intensity": 2,
         "responses": 1
       },
@@ -2077,26 +2095,38 @@
         "responses": 1
       },
       {
-        "lat": 61.15589,
-        "lon": -149.85269499999998,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
         "lat": 61.297399999999996,
         "lon": -149.5107175,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 61.121185,
-        "lon": -149.79384499999998,
+        "lat": 61.1905675,
+        "lon": -149.91167000000002,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.1387325,
+        "lon": -149.8139825,
+        "intensity": 2,
+        "responses": 2
+      },
+      {
+        "lat": 61.4067275,
+        "lon": -149.4258025,
         "intensity": 2,
         "responses": 1
       },
       {
         "lat": 62.0994325,
         "lon": -146.2242175,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.406055,
+        "lon": -149.4632275,
         "intensity": 2,
         "responses": 1
       },
@@ -2142,6 +2172,54 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389942.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389942.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/389943.html",
+    "source": "csn",
+    "time": "2026-10-30T19:29:30+00:00",
+    "updated": "2026-10-30T19:29:30+00:00",
+    "lat": -21.57,
+    "lon": -68.62,
+    "depth_km": 136.0,
+    "magnitude": 2.6,
+    "mag_type": "MLv",
+    "place": "54 km al SO de Ollagüe, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389943.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389943.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "aka2026vnhpxc",
+    "source": "usgs",
+    "time": "2026-10-30T19:29:40.455000+00:00",
+    "updated": "2026-10-30T19:34:22.532000+00:00",
+    "lat": 60.069,
+    "lon": -152.846,
+    "depth_km": 117.4,
+    "magnitude": 2.5,
+    "mag_type": "ml",
+    "place": "63 km WNW of Happy Valley, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vnhpxc",
     "relevant": false,
     "keywords_matched": []
   }
