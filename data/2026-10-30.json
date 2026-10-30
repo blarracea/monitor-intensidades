@@ -1398,5 +1398,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75459817",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "nc75459827",
+    "source": "usgs",
+    "time": "2026-10-30T13:56:44.490000+00:00",
+    "updated": "2026-10-30T13:58:17.184000+00:00",
+    "lat": 40.2994995117188,
+    "lon": -124.625831604004,
+    "depth_km": 12.8599996566772,
+    "magnitude": 2.9,
+    "mag_type": "md",
+    "place": "29 km W of Petrolia, CA",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75459827",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
