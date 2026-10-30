@@ -28,12 +28,12 @@
     "source": "csn",
     "time": "2026-10-30T00:46:40+00:00",
     "updated": "2026-10-30T00:46:40+00:00",
-    "lat": -31.79,
-    "lon": -71.98,
-    "depth_km": 28.0,
+    "lat": -31.78,
+    "lon": -71.92,
+    "depth_km": 19.0,
     "magnitude": 2.6,
     "mag_type": "MLv",
-    "place": "46 km al O de Los Vilos, Chile",
+    "place": "42 km al O de Los Vilos, Chile",
     "cdi": null,
     "mmi": null,
     "felt_reports": null,
@@ -62,8 +62,21 @@
     "mmi": 2.521,
     "felt_reports": 3,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 59.6510025,
+        "lon": -151.50073,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 59.7987875,
+        "lon": -151.119795,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "snam_url": null,
