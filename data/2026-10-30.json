@@ -46,5 +46,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389752.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026vlwuan",
+    "source": "usgs",
+    "time": "2026-10-30T01:05:02.322000+00:00",
+    "updated": "2026-10-30T01:10:00.655000+00:00",
+    "lat": 59.807,
+    "lon": -150.774,
+    "depth_km": 57.9,
+    "magnitude": 3.5,
+    "mag_type": "ml",
+    "place": "11 km ESE of Fox River, Alaska",
+    "cdi": null,
+    "mmi": 2.521,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vlwuan",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
