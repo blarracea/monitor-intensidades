@@ -1866,7 +1866,7 @@
     "id": "aka2026vngzyw",
     "source": "usgs",
     "time": "2026-10-30T19:11:23.145000+00:00",
-    "updated": "2026-10-30T19:19:41.313000+00:00",
+    "updated": "2026-10-30T19:25:23.851000+00:00",
     "lat": 61.827,
     "lon": -147.004,
     "depth_km": 12.6,
@@ -1875,7 +1875,7 @@
     "place": "15 km SE of Eureka Roadhouse, Alaska",
     "cdi": 3.4,
     "mmi": 4.503,
-    "felt_reports": 13,
+    "felt_reports": 34,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1885,26 +1885,56 @@
         "responses": 1
       },
       {
+        "lat": 61.18547,
+        "lon": -149.7251025,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 61.323260000000005,
+        "lon": -149.5688575,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 61.79446,
+        "lon": -147.730145,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 61.9848575,
+        "lon": -146.87596000000002,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": 61.31534,
         "lon": -149.51215249999998,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 61.2622075,
-        "lon": -149.47060249999998,
+        "lat": 61.2392725,
+        "lon": -149.7297575,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 61.618359999999996,
+        "lon": -149.1216475,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 61.20111,
+        "lon": -149.838165,
         "intensity": 2.2,
         "responses": 1
       },
       {
         "lat": 61.61687,
         "lon": -149.21586250000001,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 61.20111,
-        "lon": -149.838165,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1921,14 +1951,20 @@
         "responses": 1
       },
       {
-        "lat": 61.121185,
-        "lon": -149.79384499999998,
-        "intensity": 2,
+        "lat": 61.2622075,
+        "lon": -149.47060249999998,
+        "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 61.297399999999996,
-        "lon": -149.5107175,
+        "lat": 61.549555,
+        "lon": -149.47459500000002,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 61.1387325,
+        "lon": -149.8139825,
         "intensity": 2,
         "responses": 1
       },
@@ -1939,8 +1975,14 @@
         "responses": 1
       },
       {
-        "lat": 61.0763475,
-        "lon": -149.7898925,
+        "lat": 61.15589,
+        "lon": -149.85269499999998,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.297399999999996,
+        "lon": -149.5107175,
         "intensity": 2,
         "responses": 1
       },
@@ -1948,6 +1990,48 @@
         "lat": 61.1905675,
         "lon": -149.91167000000002,
         "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.0763475,
+        "lon": -149.7898925,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.130565000000004,
+        "lon": -146.35948000000002,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.193685,
+        "lon": -149.76304249999998,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.121185,
+        "lon": -149.79384499999998,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.305675,
+        "lon": -149.54874,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.406055,
+        "lon": -149.4632275,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.711664999999996,
+        "lon": -148.8821025,
+        "intensity": 1,
         "responses": 1
       }
     ],
