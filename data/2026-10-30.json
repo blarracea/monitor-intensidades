@@ -1693,5 +1693,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tu93",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026vnecvk",
+    "source": "usgs",
+    "time": "2026-10-30T17:44:44.994000+00:00",
+    "updated": "2026-10-30T17:47:32.814000+00:00",
+    "lat": 59.719,
+    "lon": -152.607,
+    "depth_km": 91.7,
+    "magnitude": 2.5,
+    "mag_type": "ml",
+    "place": "44 km W of Anchor Point, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vnecvk",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
