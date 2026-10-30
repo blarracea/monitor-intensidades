@@ -1163,5 +1163,47 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389884.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/389886.html",
+    "source": "csn",
+    "time": "2026-10-30T12:57:47+00:00",
+    "updated": "2026-10-30T12:57:47+00:00",
+    "lat": -20.13,
+    "lon": -70.0,
+    "depth_km": 49.0,
+    "magnitude": 3.9,
+    "mag_type": "MLv",
+    "place": "19 km al NE de Iquique, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": -20.2716,
+        "lon": -70.1,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Alto Hospicio",
+        "region": "Tarapaca"
+      },
+      {
+        "lat": -20.2133,
+        "lon": -70.1503,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Iquique",
+        "region": "Tarapaca"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-tarapaca-2026-10-30-10-01-10",
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389886.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/389886.html",
+    "relevant": false,
+    "keywords_matched": [],
+    "senapred_match_time": "2026-10-30T10:01:10-03:00"
   }
 ]
