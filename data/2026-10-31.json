@@ -1193,5 +1193,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75460382",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/390102.html",
+    "source": "csn",
+    "time": "2026-10-31T17:05:40+00:00",
+    "updated": "2026-10-31T17:05:40+00:00",
+    "lat": -29.93,
+    "lon": -71.44,
+    "depth_km": 69.0,
+    "magnitude": 2.8,
+    "mag_type": "MLv",
+    "place": "18 km al O de La Serena, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/10/390102.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/390102.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
