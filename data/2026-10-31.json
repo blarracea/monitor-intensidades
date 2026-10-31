@@ -1145,5 +1145,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vovsfh",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tujf",
+    "source": "usgs",
+    "time": "2026-10-31T15:50:18.909000+00:00",
+    "updated": "2026-10-31T16:09:15.196000+00:00",
+    "lat": 7.5692,
+    "lon": -80.2547,
+    "depth_km": 10,
+    "magnitude": 5.2,
+    "mag_type": "mww",
+    "place": "4 km S of Bajo Corral, Panama",
+    "cdi": 4.8,
+    "mmi": null,
+    "felt_reports": 3,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tujf",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
