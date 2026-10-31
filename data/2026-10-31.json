@@ -291,18 +291,30 @@
     "id": "uu80162166",
     "source": "usgs",
     "time": "2026-10-31T04:44:15.520000+00:00",
-    "updated": "2026-10-31T05:02:39.024000+00:00",
+    "updated": "2026-10-31T05:06:22.399000+00:00",
     "lat": 38.2876666666667,
     "lon": -112.2915,
     "depth_km": 5.71,
     "magnitude": 3.31,
     "mag_type": "ml",
     "place": "8 km NW of Junction, Utah",
-    "cdi": 2,
-    "mmi": null,
-    "felt_reports": 1,
+    "cdi": 3.1,
+    "mmi": 3.043,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 38.20751,
+        "lon": -112.182165,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 38.2432025,
+        "lon": -112.217025,
+        "intensity": 2.2,
+        "responses": 1
+      },
       {
         "lat": 38.450195,
         "lon": -112.2434125,
