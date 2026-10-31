@@ -593,5 +593,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/390041.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tuhe",
+    "source": "usgs",
+    "time": "2026-10-31T07:37:26.189000+00:00",
+    "updated": "2026-10-31T08:18:45.040000+00:00",
+    "lat": 38.3161,
+    "lon": -112.3258,
+    "depth_km": 7.806,
+    "magnitude": 2.5,
+    "mag_type": "ml",
+    "place": "12 km NW of Junction, Utah",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuhe",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
