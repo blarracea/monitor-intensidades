@@ -1241,5 +1241,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/10/390104.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tujw",
+    "source": "usgs",
+    "time": "2026-10-31T17:16:16.500000+00:00",
+    "updated": "2026-10-31T17:43:11.040000+00:00",
+    "lat": 27.6403,
+    "lon": 53.5875,
+    "depth_km": 10,
+    "magnitude": 4.3,
+    "mag_type": "mb",
+    "place": "54 km W of Gerāsh, Iran",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tujw",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
