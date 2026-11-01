@@ -511,5 +511,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390200.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tumy",
+    "source": "usgs",
+    "time": "2026-11-01T05:31:54.598000+00:00",
+    "updated": "2026-11-01T05:47:27.040000+00:00",
+    "lat": -23.6386,
+    "lon": -66.6315,
+    "depth_km": 202.07,
+    "magnitude": 4.8,
+    "mag_type": "mww",
+    "place": "71 km NNW of San Antonio de los Cobres, Argentina",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tumy",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
