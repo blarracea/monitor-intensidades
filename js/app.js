@@ -148,6 +148,100 @@
       .replace(/>/g, "&gt;");
   const _safeUrlDetail = (url) => (typeof url === "string" && /^https?:\/\//i.test(url) ? url : "#");
 
+  // --- "¿Lo sentiste?": respuestas de las personas a un sismo chileno ---
+  // El resumen (cuantas personas lo sintieron y con que fuerza) es lo que
+  // aporta voz de personas reales al dashboard -- ver reports-worker/ y
+  // js/reports.js. Solo para sismos del CSN (Chile). El servidor solo acepta
+  // respuestas hasta REPORT_WINDOW_HOURS horas despues del sismo; en modo
+  // demostracion (sin servidor) se deja responder cualquier sismo para poder
+  // probarlo.
+  const reportBox = document.getElementById("report-box");
+  const REPORT_WINDOW_HOURS = 24;
+  let reportRequestId = 0;
+
+  const reportSummaryHtml = (summary) => {
+    if (!summary || summary.total === 0) {
+      return '<p class="report-empty">Todavía nadie ha respondido para este sismo.</p>';
+    }
+    const max = Math.max(1, ...SismosApp.LEVELS.map((l) => summary.by_level[l.value] || 0));
+    const rows = SismosApp.LEVELS.map((level) => {
+      const n = summary.by_level[level.value] || 0;
+      const width = Math.round((n / max) * 100);
+      return `<div class="report-row"><span class="report-row-label">${_escapeHtmlDetail(level.label)}</span>
+        <span class="report-row-bar"><span style="width:${width}%"></span></span>
+        <span class="report-row-n">${n}</span></div>`;
+    }).join("");
+    const comunas = (summary.top_comunas || [])
+      .map((c) => `${_escapeHtmlDetail(c.comuna)} (${Number(c.n)})`)
+      .join(", ");
+    return `
+      <p class="report-total"><strong>${Number(summary.total)}</strong> ${summary.total === 1 ? "persona respondió" : "personas respondieron"}:
+        ${Number(summary.felt)} ${summary.felt === 1 ? "lo sintió" : "lo sintieron"}, ${Number(summary.not_felt)} no.</p>
+      ${rows}
+      ${comunas ? `<p class="report-comunas">Desde: ${comunas}</p>` : ""}`;
+  };
+
+  const renderReportBox = async (event) => {
+    const requestId = ++reportRequestId;
+    if (event.source !== "csn") {
+      reportBox.classList.add("hidden");
+      return;
+    }
+    const demo = SismosApp.reports.isDemo();
+    const ageHours = (Date.now() - new Date(event.time).getTime()) / 3600000;
+    const canAnswer = demo || ageHours <= REPORT_WINDOW_HOURS;
+    const mine = SismosApp.reports.myAnswer(event.id);
+
+    const options = SismosApp.LEVELS.map(
+      (l) => `<button type="button" class="report-choice${mine && mine.intensity === l.value ? " is-selected" : ""}" data-level="${l.value}">${_escapeHtmlDetail(l.label)}</button>`
+    ).join("");
+    const comunaOptions = SismosApp.COMUNAS.map(
+      (c) => `<option value="${_escapeAttrDetail(c)}"${mine && mine.comuna === c ? " selected" : ""}>${_escapeHtmlDetail(c)}</option>`
+    ).join("");
+
+    reportBox.innerHTML = `
+      <h3>¿Lo sentiste?</h3>
+      ${demo ? '<p class="report-demo">Modo demostración: tu respuesta se guarda solo en este navegador.</p>' : ""}
+      ${
+        canAnswer
+          ? `<div class="report-choices">${options}</div>
+             <label class="report-comuna">¿Dónde estabas? (opcional)
+               <select id="report-comuna"><option value="">—</option>${comunaOptions}</select></label>
+             <p id="report-message" class="report-message">${mine ? "Ya respondiste. Puedes cambiar tu respuesta." : ""}</p>`
+          : `<p class="report-closed">Las respuestas se reciben hasta ${REPORT_WINDOW_HOURS} h después del sismo.</p>`
+      }
+      <div id="report-summary" class="report-summary"><p class="report-empty">Cargando respuestas…</p></div>`;
+    reportBox.classList.remove("hidden");
+
+    const summaryEl = reportBox.querySelector("#report-summary");
+    const showSummary = (summary) => {
+      if (requestId === reportRequestId) summaryEl.innerHTML = reportSummaryHtml(summary);
+    };
+    SismosApp.reports
+      .summary(event.id)
+      .then(showSummary)
+      .catch(() => {
+        if (requestId === reportRequestId) summaryEl.innerHTML = '<p class="report-empty">No se pudieron cargar las respuestas.</p>';
+      });
+
+    reportBox.querySelectorAll(".report-choice").forEach((button) => {
+      button.addEventListener("click", async () => {
+        const message = reportBox.querySelector("#report-message");
+        message.textContent = "Enviando…";
+        try {
+          const comuna = reportBox.querySelector("#report-comuna").value;
+          const summary = await SismosApp.reports.submit(event, Number(button.dataset.level), comuna);
+          if (requestId !== reportRequestId) return;
+          reportBox.querySelectorAll(".report-choice").forEach((b) => b.classList.toggle("is-selected", b === button));
+          message.textContent = "¡Gracias! Tu respuesta quedó registrada.";
+          showSummary(summary);
+        } catch (err) {
+          if (requestId === reportRequestId) message.textContent = err.message;
+        }
+      });
+    });
+  };
+
   const showEventDetail = (event) => {
     highlightEvent(event);
     const eventDate = new Date(event.time);
@@ -217,6 +311,7 @@
     }
 
     showTrace(event);
+    renderReportBox(event);
   };
 
   const focusEvent = (event) => {
