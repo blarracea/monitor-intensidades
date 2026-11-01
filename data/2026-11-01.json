@@ -1855,5 +1855,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuqk",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/390284.html",
+    "source": "csn",
+    "time": "2026-11-01T17:49:41+00:00",
+    "updated": "2026-11-01T17:49:41+00:00",
+    "lat": -23.99,
+    "lon": -67.44,
+    "depth_km": 219.0,
+    "magnitude": 3.9,
+    "mag_type": "MLv",
+    "place": "64 km al SE de Socaire, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390284.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390284.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
