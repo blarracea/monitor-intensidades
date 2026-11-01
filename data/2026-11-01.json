@@ -799,5 +799,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390214.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tunh",
+    "source": "usgs",
+    "time": "2026-11-01T07:55:18.998000+00:00",
+    "updated": "2026-11-01T08:03:54.040000+00:00",
+    "lat": 37.0038,
+    "lon": -104.9525,
+    "depth_km": 9.248,
+    "magnitude": 3.7,
+    "mag_type": "mwr",
+    "place": "17 km SSW of Weston, Colorado",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tunh",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
