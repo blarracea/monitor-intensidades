@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 .venv/
 .claude/scheduled_tasks.lock
+
+# Codigo del recolector (repo privado), clonado por el workflow
+_backend/

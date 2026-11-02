@@ -1,38 +1,41 @@
 name: Recolectar datos de sismos
 
-# El self-encadenado (un job que se queda corriendo horas y se re-dispara
-# solo) quedo descartado: aunque funcionaba, factura como "en ejecucion"
-# TODO el tiempo que el job esta vivo, incluido el tiempo dormido entre
-# recolecciones.
+# COPIA DE REFERENCIA. El archivo que se ejecuta de verdad vive en el repo PUBLICO
+# (blarracea/monitor-intensidades, .github/workflows/collect.yml): este repo (privado)
+# tiene GitHub Actions deshabilitado a proposito -- en un repo privado el plan gratis da
+# ~2.000 min/mes y este recolector gasta ~17.000 -- mientras que en un repo publico los
+# minutos son gratis. Si se cambia uno, cambiar el otro.
 #
-# El minuto de GitHub Actions no es la restriccion (el repo es publico:
-# minutos ilimitados y gratis, sin tope mensual, para cualquier plan de
-# cuenta). El problema real es otro: GitHub trata "schedule" como
-# best-effort y NO garantiza el horario -- bajo carga de la plataforma
-# (sobre todo en la hora en punto) descarta o atrasa la mayoria de los
-# disparos de un cron frecuente. Se midio en varias cadencias (cada 5, 15
-# y 20 min) y en la practica el workflow terminaba corriendo cada 1-2.5
-# horas en vez de la cadencia configurada -- no es algo que se arregle
-# eligiendo mejor el numero del cron.
+# Como funciona: el repo publico solo tiene el sitio y los datos (data/). El codigo del
+# recolector esta en el repo privado blarracea/monitor-intensidades-backend; este
+# workflow lo clona con una deploy key de SOLO LECTURA (secreto BACKEND_DEPLOY_KEY) en
+# _backend/, lo ejecuta apuntando a data/ del repo publico (SISMOS_DATA_DIR) y commitea
+# unicamente data/. El registro de las corridas del repo publico es PUBLICO: por eso los
+# errores se imprimen sin las lineas de codigo fuente que Python agrega a un traceback.
 #
-# Por eso la cadencia real (cada 5 min) la maneja un servicio externo
-# (cron-job.org) que llama a la API de GitHub para disparar
-# `workflow_dispatch` de este workflow. El `schedule` de aca abajo queda
-# solo como respaldo poco frecuente (cada hora, en minuto no redondo para
-# no competir con la carga de la hora en punto) por si el servicio externo
-# falla o se desconfigura.
+# --- Por que la cadencia la maneja un servicio externo ---
+# El self-encadenado (un job que se queda corriendo horas y se re-dispara solo) quedo
+# descartado: factura como "en ejecucion" TODO el tiempo que el job esta vivo. El
+# `schedule` de GitHub es best-effort y NO garantiza el horario: bajo carga descarta o
+# atrasa la mayoria de los disparos de un cron frecuente (se midio: en la practica corria
+# cada 1-2.5 horas). Por eso la cadencia real (cada 5 min) la maneja cron-job.org, que
+# llama a la API de GitHub para disparar `workflow_dispatch`. El `schedule` de abajo
+# queda solo como respaldo (cada hora, en minuto no redondo).
 on:
   schedule:
     - cron: "37 * * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Probar sin guardar: no hace commit ni push de data/"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
 
-# cancel-in-progress: true porque el disparo externo va cada 5 min -- si
-# una corrida nueva llega antes de que termine la anterior, se cancela la
-# vieja en vez de encolarse (cada corrida solo trae el estado mas
-# reciente, no hace falta conservar corridas viejas en cola).
+# cancel-in-progress: true porque el disparo externo va cada 5 min -- si una corrida nueva
+# llega antes de que termine la anterior, se cancela la vieja en vez de encolarse.
 concurrency:
   group: collect-sismos
   cancel-in-progress: true
@@ -40,14 +43,20 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    # Tope de la corrida entera: la mas larga normal dura ~3 min. Sin esto, un
-    # paso colgado bloqueaba el grupo de concurrencia hasta 40 minutos
-    # (auditoria 22-10-2026: 20 de 100 corridas canceladas, la mayoria colgadas
-    # en "Instalar Chromium").
+    # Tope de la corrida entera: la mas larga normal dura ~3 min. Sin esto, un paso colgado
+    # bloqueaba el grupo de concurrencia hasta 40 minutos.
     timeout-minutes: 10
     steps:
-      - name: Checkout
+      - name: Checkout (sitio y datos, repo publico)
         uses: actions/checkout@v4
+
+      - name: Checkout del codigo del recolector (repo privado)
+        uses: actions/checkout@v4
+        with:
+          repository: blarracea/monitor-intensidades-backend
+          ssh-key: ${{ secrets.BACKEND_DEPLOY_KEY }}
+          path: _backend
+          persist-credentials: false
 
       - name: Configurar Python
         uses: actions/setup-python@v5
@@ -55,13 +64,12 @@ jobs:
           python-version: "3.12"
 
       - name: Instalar dependencias
-        run: pip install -r backend/requirements.txt
+        run: pip install -r _backend/backend/requirements.txt
 
-      # Chromium solo sirve para leer los reportes de SENAPRED. Si la descarga/
-      # apt se cuelga o falla, la corrida NO debe perderse: sigue sin Chromium
-      # (collect.py ya atrapa los errores de Playwright) y trae igual los sismos
-      # de Chile, USGS, noticias y redes. Un intento por paso con tope de tiempo,
-      # y se reintenta una vez.
+      # Chromium solo sirve para leer los reportes de SENAPRED. Si la descarga/apt se cuelga
+      # o falla, la corrida NO debe perderse: sigue sin Chromium (collect.py atrapa los
+      # errores de Playwright) y trae igual los sismos de Chile, USGS, noticias y redes.
+      # Un intento por paso con tope de tiempo, y se reintenta una vez.
       - name: Instalar Chromium (Playwright, para leer el reporte de SENAPRED)
         timeout-minutes: 5
         continue-on-error: true
@@ -82,15 +90,21 @@ jobs:
           BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
           BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
           MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
-        run: python backend/collect.py
+          SISMOS_DATA_DIR: ${{ github.workspace }}/data
+        run: |
+          status=0
+          python _backend/backend/collect.py 2> "$RUNNER_TEMP/collect.err" || status=$?
+          # Registro publico: se quitan las lineas de codigo fuente (sangradas) del traceback.
+          grep -vE '^[[:space:]]{4,}' "$RUNNER_TEMP/collect.err" >&2 || true
+          exit $status
 
-      # Dos corridas pueden terminar casi a la vez (o chocar con un commit
-      # manual) y tocar los mismos archivos de data/: el "pull --rebase" daba
-      # conflicto y la corrida fallaba (auditoria 22-10-2026). Como cada corrida
-      # reescribe el estado completo, ante un conflicto gana la version de esta
-      # corrida (-X theirs en un rebase = el commit que se re-aplica) y se
-      # reintenta el push varias veces.
+      # Dos corridas pueden terminar casi a la vez (o chocar con un commit manual) y tocar
+      # los mismos archivos de data/: el "pull --rebase" daba conflicto y la corrida fallaba.
+      # Como cada corrida reescribe el estado completo, ante un conflicto gana la version de
+      # esta corrida (-X theirs en un rebase = el commit que se re-aplica) y se reintenta el
+      # push varias veces.
       - name: Commit y push si hay cambios
+        if: ${{ !inputs.dry_run }}
         run: |
           git config user.name "sismos-bot"
           git config user.email "actions@users.noreply.github.com"
@@ -109,3 +123,9 @@ jobs:
             sleep $((attempt * 4))
           done
           exit 1
+
+      - name: Resumen de la prueba (dry_run)
+        if: ${{ inputs.dry_run }}
+        run: |
+          echo "dry_run: no se guardo nada. Archivos de data/ que habrian cambiado:"
+          git status --short data/ | head -20
