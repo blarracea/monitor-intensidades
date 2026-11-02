@@ -47,17 +47,12 @@ body {
   white-space: nowrap;
 }
 
-/* Logo de la institucion que auspicia/opera el dashboard -- esquina
-   izquierda de la fila azul, primer elemento del flex. */
-.header-logo {
-  height: 2.5rem;
-  flex-shrink: 0;
-}
-
 /* Lupa que abre/cierra el desplegable de "Sismos por dia" (#search-panel,
    mas abajo) -- vive en el header para no ocupar espacio permanente en
-   ningun panel del dashboard. */
+   ningun panel del dashboard. margin-left:auto la deja a la derecha aunque
+   sea el unico elemento en flujo (el titulo esta fuera del flujo, ver arriba). */
 .search-toggle {
+  margin-left: auto;
   font: inherit;
   font-size: 1.1rem;
   width: 2.3rem;
@@ -849,10 +844,6 @@ h2.live-feed-title {
     font-size: 1.175rem; /* 18,8 px (antes 16,8: +2 px) */
     white-space: normal;
     line-height: 1.25;
-  }
-
-  .header-logo {
-    height: 2rem;
   }
 }
 
