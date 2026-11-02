@@ -1246,5 +1246,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vskbeg",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "se60628871",
+    "source": "usgs",
+    "time": "2026-11-02T13:54:35.780000+00:00",
+    "updated": "2026-11-02T14:09:15.940000+00:00",
+    "lat": 35.5405,
+    "lon": -85.5311666666667,
+    "depth_km": 15.79,
+    "magnitude": 2.54,
+    "mag_type": "md",
+    "place": "13 km NE of Beersheba Springs, Tennessee",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/se60628871",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
