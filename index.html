@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Monitor Intensidades</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-<link rel="stylesheet" href="css/style.css?v=71" />
+<link rel="stylesheet" href="css/style.css?v=p2" />
 </head>
 <body>
   <header class="app-header">
@@ -100,6 +100,7 @@
           <h2>Detalle del evento</h2>
           <p id="event-detail-placeholder" class="event-detail-placeholder">Hace click en un sismo del Mapa de Calor para ver el detalle.</p>
           <dl id="event-detail-body"></dl>
+          <div id="report-box" class="report-box hidden"></div>
         </section>
 
         <section class="panel week-chart-panel">
@@ -117,11 +118,13 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+  <script src="js/config.js?v=p3"></script>
   <script src="js/data-loader.js?v=68"></script>
   <script src="js/map.js?v=56"></script>
   <script src="js/heatmap.js?v=56"></script>
   <script src="js/social-layer.js?v=70"></script>
   <script src="js/live-feed.js?v=70"></script>
-  <script src="js/app.js?v=70"></script>
+  <script src="js/reports.js?v=p2"></script>
+  <script src="js/app.js?v=p2"></script>
 </body>
 </html>
