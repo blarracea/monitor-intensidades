@@ -1078,5 +1078,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390408.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026vsfdph",
+    "source": "usgs",
+    "time": "2026-11-02T11:13:54.536000+00:00",
+    "updated": "2026-11-02T11:15:11.417000+00:00",
+    "lat": 61.606,
+    "lon": -154.179,
+    "depth_km": 5,
+    "magnitude": 2.5,
+    "mag_type": "ml",
+    "place": "72 km ENE of Lime Village, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vsfdph",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
