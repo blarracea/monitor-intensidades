@@ -1486,5 +1486,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75461397",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tuxg",
+    "source": "usgs",
+    "time": "2026-11-02T15:28:13.954000+00:00",
+    "updated": "2026-11-02T15:48:47.040000+00:00",
+    "lat": -10.1699,
+    "lon": -78.5994,
+    "depth_km": 67.239,
+    "magnitude": 5.1,
+    "mag_type": "mb",
+    "place": "50 km WSW of Huarmey, Peru",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tuxg",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
