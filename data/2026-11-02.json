@@ -1222,5 +1222,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41571168",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026vskbeg",
+    "source": "usgs",
+    "time": "2026-11-02T13:40:53.803000+00:00",
+    "updated": "2026-11-02T13:45:32.526000+00:00",
+    "lat": 59.322,
+    "lon": -153.447,
+    "depth_km": 108.9,
+    "magnitude": 3.1,
+    "mag_type": "ml",
+    "place": "63 km SE of Pedro Bay, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vskbeg",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
