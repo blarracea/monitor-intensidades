@@ -286,5 +286,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75461147",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "nc75461187",
+    "source": "usgs",
+    "time": "2026-11-02T03:27:58.910000+00:00",
+    "updated": "2026-11-02T03:29:35.267000+00:00",
+    "lat": 36.9938316345215,
+    "lon": -121.462997436523,
+    "depth_km": 5.61999988555908,
+    "magnitude": 2.51,
+    "mag_type": "md",
+    "place": "9 km E of Gilroy, CA",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75461187",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
