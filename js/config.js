@@ -7,5 +7,5 @@
  */
 window.SISMOS_CONFIG = {
   reportsApi: "https://lo-sentiste.b-larracea.workers.dev",
-  turnstileSiteKey: "",
+  turnstileSiteKey: "0x4AAAAAAFwAWrK7kaU25pYw",
 };

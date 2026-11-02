@@ -158,6 +158,7 @@
   const reportBox = document.getElementById("report-box");
   const REPORT_WINDOW_HOURS = 24;
   let reportRequestId = 0;
+  let reportTurnstile = null;
 
   const reportSummaryHtml = (summary) => {
     if (!summary || summary.total === 0) {
@@ -183,6 +184,10 @@
 
   const renderReportBox = async (event) => {
     const requestId = ++reportRequestId;
+    if (reportTurnstile) {
+      reportTurnstile.remove();
+      reportTurnstile = null;
+    }
     if (event.source !== "csn") {
       reportBox.classList.add("hidden");
       return;
@@ -207,6 +212,7 @@
           ? `<div class="report-choices">${options}</div>
              <label class="report-comuna">¿Dónde estabas? (opcional)
                <select id="report-comuna"><option value="">—</option>${comunaOptions}</select></label>
+             <div id="report-turnstile"></div>
              <p id="report-message" class="report-message">${mine ? "Ya respondiste. Puedes cambiar tu respuesta." : ""}</p>`
           : `<p class="report-closed">Las respuestas se reciben hasta ${REPORT_WINDOW_HOURS} h después del sismo.</p>`
       }
@@ -224,13 +230,23 @@
         if (requestId === reportRequestId) summaryEl.innerHTML = '<p class="report-empty">No se pudieron cargar las respuestas.</p>';
       });
 
+    const turnstileHost = reportBox.querySelector("#report-turnstile");
+    const turnstile = turnstileHost ? SismosApp.reports.mountTurnstile(turnstileHost) : null;
+    reportTurnstile = turnstile;
+
     reportBox.querySelectorAll(".report-choice").forEach((button) => {
       button.addEventListener("click", async () => {
         const message = reportBox.querySelector("#report-message");
         message.textContent = "Enviando…";
         try {
           const comuna = reportBox.querySelector("#report-comuna").value;
-          const summary = await SismosApp.reports.submit(event, Number(button.dataset.level), comuna);
+          const token = turnstile ? await turnstile.token() : null;
+          let summary;
+          try {
+            summary = await SismosApp.reports.submit(event, Number(button.dataset.level), comuna, token);
+          } finally {
+            if (turnstile) turnstile.reset(); // el token sirve para un solo envio
+          }
           if (requestId !== reportRequestId) return;
           reportBox.querySelectorAll(".report-choice").forEach((b) => b.classList.toggle("is-selected", b === button));
           message.textContent = "¡Gracias! Tu respuesta quedó registrada.";

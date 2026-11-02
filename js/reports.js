@@ -76,8 +76,72 @@ SismosApp.reports = (function () {
     return summary;
   };
 
+  // Turnstile (anti-robots de Cloudflare): se carga solo cuando hace falta y en modo
+  // "interaction-only", asi casi nadie ve un desafio. Cada token sirve para UN envio.
+  const siteKey = () => (window.SISMOS_CONFIG || {}).turnstileSiteKey || "";
+  let turnstileScript = null;
+  const loadTurnstile = () => {
+    if (!turnstileScript) {
+      turnstileScript = new Promise((resolve, reject) => {
+        const script = document.createElement("script");
+        script.src = "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";
+        script.async = true;
+        script.onload = () => resolve(window.turnstile);
+        script.onerror = () => {
+          turnstileScript = null;
+          reject(new Error("No se pudo cargar la verificación anti-robots"));
+        };
+        document.head.appendChild(script);
+      });
+    }
+    return turnstileScript;
+  };
+
   return {
     isDemo,
+
+    // Pone el widget anti-robots en `container`. Devuelve null si no hace falta (demo o
+    // sin clave), o { token(), reset(), remove() }.
+    mountTurnstile(container) {
+      if (isDemo() || !siteKey()) return null;
+      let token = "";
+      let widgetId = null;
+      let waiters = [];
+      const settle = (fn) => waiters.splice(0).forEach(fn);
+      const ready = loadTurnstile().then((turnstile) => {
+        widgetId = turnstile.render(container, {
+          sitekey: siteKey(),
+          appearance: "interaction-only",
+          callback: (value) => {
+            token = value;
+            settle((w) => w.resolve(value));
+          },
+          "expired-callback": () => {
+            token = "";
+          },
+          "error-callback": () => settle((w) => w.reject(new Error("La verificación anti-robots falló. Recarga la página."))),
+        });
+      });
+      return {
+        async token() {
+          await ready;
+          if (token) return token;
+          return new Promise((resolve, reject) => {
+            waiters.push({ resolve, reject });
+            setTimeout(() => reject(new Error("La verificación tarda demasiado. Intenta de nuevo.")), 20000);
+          });
+        },
+        reset() {
+          token = "";
+          if (widgetId !== null && window.turnstile) window.turnstile.reset(widgetId);
+        },
+        remove() {
+          ready.then(() => {
+            if (widgetId !== null && window.turnstile) window.turnstile.remove(widgetId);
+          }).catch(() => {});
+        },
+      };
+    },
 
     // Lo que esta persona ya respondio para este sismo (o null).
     myAnswer(eventId) {
