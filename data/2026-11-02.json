@@ -1870,5 +1870,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390495.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026vswaye",
+    "source": "usgs",
+    "time": "2026-11-02T19:40:23.363000+00:00",
+    "updated": "2026-11-02T19:44:33.578000+00:00",
+    "lat": 60.178,
+    "lon": -152.572,
+    "depth_km": 111.8,
+    "magnitude": 2.7,
+    "mag_type": "ml",
+    "place": "52 km WNW of Ninilchik, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vswaye",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
