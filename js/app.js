@@ -148,10 +148,11 @@
       .replace(/>/g, "&gt;");
   const _safeUrlDetail = (url) => (typeof url === "string" && /^https?:\/\//i.test(url) ? url : "#");
 
-  // --- "¿Lo sentiste?": respuestas de las personas a un sismo chileno ---
+  // --- "¿Lo sentiste?": respuestas de las personas a un sismo ---
   // El resumen (cuantas personas lo sintieron y con que fuerza) es lo que
   // aporta voz de personas reales al dashboard -- ver reports-worker/ y
-  // js/reports.js. Solo para sismos del CSN (Chile). El servidor solo acepta
+  // js/reports.js. Aparece en TODO sismo que se pueda abrir en el detalle
+  // (con o sin reporte SENAPRED, de Chile o de la region). El servidor solo acepta
   // respuestas hasta REPORT_WINDOW_HOURS horas despues del sismo; en modo
   // demostracion (sin servidor) se deja responder cualquier sismo para poder
   // probarlo.
@@ -187,10 +188,6 @@
     if (reportTurnstile) {
       reportTurnstile.remove();
       reportTurnstile = null;
-    }
-    if (event.source !== "csn") {
-      reportBox.classList.add("hidden");
-      return;
     }
     const demo = SismosApp.reports.isDemo();
     const ageHours = (Date.now() - new Date(event.time).getTime()) / 3600000;
