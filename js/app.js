@@ -213,7 +213,8 @@
              <label class="report-comuna">¿Dónde estabas? (opcional)
                <select id="report-comuna"><option value="">—</option>${comunaOptions}</select></label>
              <div id="report-turnstile"></div>
-             <p id="report-message" class="report-message">${mine ? "Ya respondiste. Puedes cambiar tu respuesta." : ""}</p>`
+             <p id="report-message" class="report-message">${mine ? "Ya respondiste. Puedes cambiar tu respuesta." : ""}</p>
+             ${demo ? "" : '<p class="report-privacy">Tu respuesta es anónima: no guardamos tu IP ni tu nombre, solo un código irreversible para contar una respuesta por persona y sismo. Protegido con Cloudflare Turnstile.</p>'}`
           : `<p class="report-closed">Las respuestas se reciben hasta ${REPORT_WINDOW_HOURS} h después del sismo.</p>`
       }
       <div id="report-summary" class="report-summary"><p class="report-empty">Cargando respuestas…</p></div>`;
