@@ -334,5 +334,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75461187",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/390351.html",
+    "source": "csn",
+    "time": "2026-11-02T03:37:43+00:00",
+    "updated": "2026-11-02T03:37:43+00:00",
+    "lat": -24.05,
+    "lon": -67.27,
+    "depth_km": 187.0,
+    "magnitude": 3.9,
+    "mag_type": "MLv",
+    "place": "81 km al SE de Socaire, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390351.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390351.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
