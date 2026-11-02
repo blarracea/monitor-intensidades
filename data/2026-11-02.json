@@ -958,5 +958,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75461312",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/390401.html",
+    "source": "csn",
+    "time": "2026-11-02T09:50:32+00:00",
+    "updated": "2026-11-02T09:50:32+00:00",
+    "lat": -19.2,
+    "lon": -69.41,
+    "depth_km": 94.0,
+    "magnitude": 2.9,
+    "mag_type": "MLv",
+    "place": "13 km al N de Camiña, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390401.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390401.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
