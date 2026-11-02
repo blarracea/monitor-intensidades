@@ -6,6 +6,6 @@
  * turnstileSiteKey: clave publica de Cloudflare Turnstile (opcional, anti-spam).
  */
 window.SISMOS_CONFIG = {
-  reportsApi: "",
+  reportsApi: "https://lo-sentiste.b-larracea.workers.dev",
   turnstileSiteKey: "",
 };
