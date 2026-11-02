@@ -1966,5 +1966,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390502.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "nc75461642",
+    "source": "usgs",
+    "time": "2026-11-02T20:34:16.470000+00:00",
+    "updated": "2026-11-02T20:35:50.990000+00:00",
+    "lat": 38.9206657409668,
+    "lon": -122.521667480469,
+    "depth_km": 0.930000007152557,
+    "magnitude": 2.51,
+    "mag_type": "md",
+    "place": "8 km E of Lower Lake, CA",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75461642",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
