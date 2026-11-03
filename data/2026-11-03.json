@@ -876,7 +876,7 @@
     "id": "us7000tv4i",
     "source": "usgs",
     "time": "2026-11-03T09:13:14.972000+00:00",
-    "updated": "2026-11-03T16:18:00.507000+00:00",
+    "updated": "2026-11-03T16:21:19.934000+00:00",
     "lat": 3.7386,
     "lon": -75.7198,
     "depth_km": 10,
@@ -885,7 +885,7 @@
     "place": "24 km NNW of Rioblanco, Colombia",
     "cdi": 4.8,
     "mmi": 6.334,
-    "felt_reports": 118,
+    "felt_reports": 119,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1746,6 +1746,30 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390649.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390649.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/390651.html",
+    "source": "csn",
+    "time": "2026-11-03T16:12:41+00:00",
+    "updated": "2026-11-03T16:12:41+00:00",
+    "lat": -23.62,
+    "lon": -66.52,
+    "depth_km": 84.0,
+    "magnitude": 3.2,
+    "mag_type": "MLv",
+    "place": "70 km al N de San Antonio de los Cobres, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390651.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390651.html",
     "relevant": false,
     "keywords_matched": []
   }
