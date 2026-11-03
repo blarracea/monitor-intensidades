@@ -895,5 +895,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tv4i",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/390603.html",
+    "source": "csn",
+    "time": "2026-11-03T10:10:23+00:00",
+    "updated": "2026-11-03T10:10:23+00:00",
+    "lat": -23.96,
+    "lon": -67.51,
+    "depth_km": 225.0,
+    "magnitude": 3.5,
+    "mag_type": "MLv",
+    "place": "56 km al SE de Socaire, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390603.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390603.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
