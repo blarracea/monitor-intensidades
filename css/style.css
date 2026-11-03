@@ -885,6 +885,28 @@ h2.live-feed-title {
   #social-feed-body {
     max-height: 340px;
   }
+
+  /* El "flex: 3 1 0; min-height: 140px" de ".stack-column .week-chart-panel"
+     (mas arriba) esta pensado para la columna de escritorio, de alto fijo.
+     En mobile ".stack-column" pasa a "display:contents" pero el selector
+     sigue aplicando igual (el descendiente sigue siendo hijo en el DOM) --
+     y como ".panel" tiene overflow-y:auto, ese min-height fijo gana sobre
+     el alto real del contenido y corta las letras de los dias (D L M M J V
+     S) por debajo del borde. Se vuelve a un alto segun contenido, igual
+     que el resto de las tarjetas apiladas en mobile, y se le da un poco
+     mas de aire interno para que el grafico no se vea apretado. */
+  .stack-column .week-chart-panel {
+    flex: none;
+    min-height: 0;
+  }
+
+  .week-chart {
+    margin-top: 0.4rem;
+  }
+
+  .week-chart-track {
+    height: 68px;
+  }
 }
 
 /*
