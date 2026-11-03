@@ -262,6 +262,10 @@
 
   const showEventDetail = (event) => {
     highlightEvent(event);
+    // El panel scrollea por dentro cuando no entra (ver .stack-column .event-detail): al
+    // elegir otro sismo vuelve arriba en vez de quedar a la mitad del anterior.
+    const detailPanel = document.getElementById("event-detail");
+    if (detailPanel) detailPanel.scrollTop = 0;
     const eventDate = new Date(event.time);
     const timeFormat = {
       hour12: false,

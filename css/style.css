@@ -142,8 +142,13 @@ body {
      entren los 5 sin scroll; si el contenido llegara a necesitar mas
      (ej. la fuente ocupa dos lineas), el "auto" del flex-basis igual deja
      crecer el cuadro en vez de cortarlo. */
-  flex: 0 0 auto;
+  flex: 0 1 auto;
   min-height: 280px;
+  /* Al elegir un sismo el detalle crece (suma el recuadro "¿Lo sentiste?") y empujaba
+     el resumen semanal fuera de la pantalla, dejandolo cortado a la mitad. Ahora el
+     detalle es el que cede: si no entra, se achica (nunca bajo 280px) y scrollea por
+     dentro; el resumen semanal (flex:0 0 auto, mas abajo) siempre se ve entero. */
+  overflow-y: auto;
 }
 
 /* Alinea el texto de "Detalle del evento" con el de Mapa de Calor /
@@ -169,6 +174,15 @@ body {
      tienen alto fijo/segun contenido. */
   flex: 1 1 auto;
   min-height: 90px;
+}
+
+/* En pantallas de escritorio bajas el cuadro vacio "Proximamente" le quita al detalle
+   del evento ~100px que necesita para mostrar el recuadro "¿Lo sentiste?" sin scroll
+   interno; como aun no tiene contenido, se oculta (en celular se apila aparte). */
+@media (min-width: 901px) and (max-height: 900px) {
+  .stack-column .placeholder-panel {
+    display: none;
+  }
 }
 
 .map-wrap {
