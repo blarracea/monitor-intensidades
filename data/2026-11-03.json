@@ -262,5 +262,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390546.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026vtkchh",
+    "source": "usgs",
+    "time": "2026-11-03T02:41:55.440000+00:00",
+    "updated": "2026-11-03T02:44:52.282000+00:00",
+    "lat": 60.71,
+    "lon": -151.509,
+    "depth_km": 78.9,
+    "magnitude": 2.8,
+    "mag_type": "ml",
+    "place": "12 km W of Nikiski, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vtkchh",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
