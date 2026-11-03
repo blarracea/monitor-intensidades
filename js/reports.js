@@ -97,8 +97,18 @@ SismosApp.reports = (function () {
     return turnstileScript;
   };
 
+  // Sismos en los que se puede responder: los de Chile (CSN) y los de Peru y Argentina,
+  // que vienen de USGS y llevan el pais al final de la referencia ("42 km SW of Tacna,
+  // Peru"). Es solo para mostrar el recuadro: el servidor aplica la misma regla sobre
+  // sus propios datos. Bolivia tambien limita con Chile; para sumarla, agregarla aca y
+  // en NEIGHBOR_COUNTRY_PATTERN del servidor.
+  const NEIGHBOR_COUNTRY_PATTERN = /\b(Peru|Perú|Argentina)\b/i;
+  const isReportable = (event) =>
+    event.source === "csn" || (event.source === "usgs" && NEIGHBOR_COUNTRY_PATTERN.test(String(event.place || "")));
+
   return {
     isDemo,
+    isReportable,
 
     // Pone el widget anti-robots en `container`. Devuelve null si no hace falta (demo o
     // sin clave), o { token(), reset(), remove() }.

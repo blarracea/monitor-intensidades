@@ -148,15 +148,16 @@
       .replace(/>/g, "&gt;");
   const _safeUrlDetail = (url) => (typeof url === "string" && /^https?:\/\//i.test(url) ? url : "#");
 
-  // --- "¿Lo sentiste?": respuestas de las personas a un sismo chileno ---
+  // --- "¿Lo sentiste?": respuestas de las personas a un sismo ---
   // El resumen (cuantas personas lo sintieron y con que fuerza) es lo que
-  // aporta voz de personas reales al dashboard -- ver reports-worker/ y
-  // js/reports.js. Solo para sismos del CSN (Chile). El servidor solo acepta
-  // respuestas hasta REPORT_WINDOW_HOURS horas despues del sismo; en modo
-  // demostracion (sin servidor) se deja responder cualquier sismo para poder
-  // probarlo.
+  // aporta voz de personas reales al dashboard -- ver el servidor (repo privado)
+  // y js/reports.js. Aparece en sismos de Chile y de Peru y Argentina (a veces
+  // se sienten en Chile sismos que ocurren alla; ver SismosApp.reports.isReportable).
+  // El servidor solo acepta respuestas hasta REPORT_WINDOW_HOURS horas despues del
+  // sismo (debe coincidir con su REPORT_WINDOW_HOURS: 7 dias); en modo demostracion
+  // (sin servidor) se deja responder cualquier sismo para poder probarlo.
   const reportBox = document.getElementById("report-box");
-  const REPORT_WINDOW_HOURS = 24;
+  const REPORT_WINDOW_HOURS = 24 * 7;
   let reportRequestId = 0;
   let reportTurnstile = null;
 
@@ -188,7 +189,7 @@
       reportTurnstile.remove();
       reportTurnstile = null;
     }
-    if (event.source !== "csn") {
+    if (!SismosApp.reports.isReportable(event)) {
       reportBox.classList.add("hidden");
       return;
     }
@@ -215,7 +216,7 @@
              <div id="report-turnstile"></div>
              <p id="report-message" class="report-message">${mine ? "Ya respondiste. Puedes cambiar tu respuesta." : ""}</p>
              ${demo ? "" : '<p class="report-privacy">Tu respuesta es anónima: no guardamos tu IP ni tu nombre, solo un código irreversible para contar una respuesta por persona y sismo. Protegido con Cloudflare Turnstile.</p>'}`
-          : `<p class="report-closed">Las respuestas se reciben hasta ${REPORT_WINDOW_HOURS} h después del sismo.</p>`
+          : `<p class="report-closed">Las respuestas se reciben hasta ${REPORT_WINDOW_HOURS / 24} días después del sismo.</p>`
       }
       <div id="report-summary" class="report-summary"><p class="report-empty">Cargando respuestas…</p></div>`;
     reportBox.classList.remove("hidden");
