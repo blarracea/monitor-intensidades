@@ -163,18 +163,24 @@ body {
 }
 
 .stack-column .week-chart-panel {
-  /* Pegado a Detalle del evento (gap normal, sin space-between) -- el
-     espacio libre de mas abajo lo ocupa .placeholder-panel. */
-  flex: 0 0 auto;
+  /* Pegado a Detalle del evento. Se lleva el espacio que sobra (el grafico crece hacia
+     abajo); "Proximamente" queda bajo, con alto acotado. */
+  flex: 1 6 auto;
   min-height: 140px;
+}
+@media (min-width: 901px) {
+  .stack-column .week-chart-track {
+    height: auto;
+    flex: 1 1 0;
+    min-height: 28px;
+    max-height: 110px;
+  }
 }
 
 .stack-column .placeholder-panel {
-  /* Se lleva todo el espacio que sobra despues de los otros dos (flex-basis 0: solo crece
-     con lo que sobra), y en pantallas bajas se achica hasta 56px para que el detalle del
-     evento tenga el mayor alto posible. Siempre se ve (esquina inferior derecha). */
-  flex: 1 1 0;
-  min-height: 56px;
+  /* Alto acotado; en pantallas bajas se achica para darle espacio al detalle del evento. */
+  flex: 0 400 72px;
+  min-height: 28px;
 }
 
 /* Pantallas de escritorio bajas: ajustes para que el detalle del evento (con el recuadro
@@ -201,10 +207,6 @@ body {
     gap: 0.5rem;
   }
 
-  /* Con .stack-column delante para ganarle a las reglas base, que se declaran mas abajo. */
-  .stack-column .week-chart-track {
-    height: 28px;
-  }
 
   .stack-column .week-chart-subtitle {
     margin-bottom: 0.4rem;
