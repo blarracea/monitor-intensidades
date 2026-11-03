@@ -787,9 +787,10 @@ h2.live-feed-title {
  * si desaparece (flex/gap/padding ya no aplican) pero sus hijos quedan
  * como hijos directos de .app-main, que es el que ahora ordena todo con
  * flexbox + la propiedad "order" -- asi no hace falta reordenar el HTML
- * para lograr el orden pedido (mapa, detalle del evento, sismos por dia,
- * proximamente, redes en vivo, menciones en medios -- el mismo orden de
- * arriba a abajo que en escritorio).
+ * para lograr el orden pedido (mapa, detalle del evento, redes en vivo,
+ * menciones en medios, resumen semanal y, al final, proximamente -- a
+ * pedido, el resumen semanal y proximamente van abajo de las menciones en
+ * medios; en escritorio siguen en la columna de la derecha).
  */
 @media (max-width: 900px) {
   .app-main {
@@ -828,10 +829,10 @@ h2.live-feed-title {
   }
 
   .event-detail { order: 2; }
-  .week-chart-panel { order: 3; }
-  .placeholder-panel { order: 4; }
-  .live-feed.panel { order: 5; }
-  .social-feed.panel { order: 6; }
+  .live-feed.panel { order: 3; }
+  .social-feed.panel { order: 4; }
+  .week-chart-panel { order: 5; }
+  .placeholder-panel { order: 6; }
 
   /* En el layout de escritorio estos dos van pegados al mapa y entre si,
      de alto completo (sin borde ni esquinas redondeadas de ese lado) --
