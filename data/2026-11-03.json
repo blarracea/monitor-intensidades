@@ -118,5 +118,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vtfvls",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/390540.html",
+    "source": "csn",
+    "time": "2026-11-03T01:20:27+00:00",
+    "updated": "2026-11-03T01:20:27+00:00",
+    "lat": -23.42,
+    "lon": -69.3,
+    "depth_km": 74.0,
+    "magnitude": 2.7,
+    "mag_type": "MLv",
+    "place": "56 km al E de Baquedano, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390540.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390540.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
