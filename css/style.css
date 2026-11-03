@@ -163,11 +163,17 @@ body {
 }
 
 .stack-column .week-chart-panel {
-  /* Pegado a Detalle del evento. Se lleva el espacio que sobra (el grafico crece hacia
-     abajo); "Proximamente" queda bajo, con alto acotado. */
-  flex: 1 6 auto;
+  /* Sin sismo seleccionado, Resumen semana y Proximamente se reparten el espacio que sobra
+     en proporcion 3 : 2 (el grafico crece hacia abajo). */
+  flex: 3 1 0;
   min-height: 140px;
 }
+
+.stack-column .placeholder-panel {
+  flex: 2 1 0;
+  min-height: 90px;
+}
+
 @media (min-width: 901px) {
   .stack-column .week-chart-track {
     height: auto;
@@ -175,12 +181,21 @@ body {
     min-height: 28px;
     max-height: 110px;
   }
-}
 
-.stack-column .placeholder-panel {
-  /* Alto acotado; en pantallas bajas se achica para darle espacio al detalle del evento. */
-  flex: 0 400 72px;
-  min-height: 28px;
+  /* Con un sismo seleccionado el detalle necesita el espacio (recuadro "¿Lo sentiste?" y su
+     resumen): Proximamente se oculta y Resumen semana vuelve a su alto de siempre. */
+  .stack-column:has(#event-detail-placeholder.hidden) .placeholder-panel {
+    display: none;
+  }
+
+  .stack-column:has(#event-detail-placeholder.hidden) .week-chart-panel {
+    flex: 0 0 auto;
+  }
+
+  .stack-column:has(#event-detail-placeholder.hidden) .week-chart-track {
+    flex: 0 0 auto;
+    height: 52px;
+  }
 }
 
 /* Pantallas de escritorio bajas: ajustes para que el detalle del evento (con el recuadro
@@ -201,25 +216,13 @@ body {
     margin-top: 0;
   }
 
-  /* Un poco menos de aire entre los paneles de la columna y un grafico semanal mas bajo,
-     para que el detalle (con las respuestas ya cargadas) tenga el mayor alto posible. */
+  /* Un poco menos de aire entre los paneles y un grafico semanal mas bajo. */
   .stack-column {
-    gap: 0.5rem;
+    gap: 0.75rem;
   }
 
-
-  .stack-column .week-chart-subtitle {
-    margin-bottom: 0.4rem;
-  }
-
-  .stack-column .week-chart-panel {
-    min-height: 0;
-    padding: 0.6rem 1rem;
-  }
-
-  .stack-column .placeholder-panel {
-    min-height: 28px;
-    padding: 0.3rem 1rem;
+  .stack-column:has(#event-detail-placeholder.hidden) .week-chart-track {
+    height: 44px;
   }
 }
 
