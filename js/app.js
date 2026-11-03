@@ -552,11 +552,35 @@
     socialFeedBody.scrollTop = 0;
   };
 
+  // Deja el panel "Detalle del evento" como al cargar la pagina (sin sismo elegido): texto de
+  // ayuda, sin recuadro "¿Lo sentiste?" y sin lo que marcaba el sismo en el mapa. Antes
+  // "Volver a en vivo" solo restablecia las redes y las noticias, y el detalle quedaba pegado.
+  const clearEventDetail = () => {
+    detailBody.innerHTML = "";
+    detailPlaceholder.classList.remove("hidden");
+    reportRequestId++; // descarta respuestas del recuadro que sigan en camino
+    if (reportTurnstile) {
+      reportTurnstile.remove();
+      reportTurnstile = null;
+    }
+    reportBox.classList.add("hidden");
+    reportBox.innerHTML = "";
+    if (selectionMarker) {
+      map.removeLayer(selectionMarker);
+      selectionMarker = null;
+    }
+    if (selectedEventHeatLayer) {
+      map.removeLayer(selectedEventHeatLayer);
+      selectedEventHeatLayer = null;
+    }
+  };
+
   const clearTrace = () => {
     traceEvent = null;
     traceRequestId++;
     liveTraceBanner.classList.add("hidden");
     mediaTraceBanner.classList.add("hidden");
+    clearEventDetail();
     refreshLiveFeed();
     refreshSocialFeed();
   };
