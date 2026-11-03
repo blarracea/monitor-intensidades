@@ -955,6 +955,27 @@ h2.live-feed-title {
   background: var(--color-header-bg);
 }
 
+/* Celular: seis botones en una fila quedan demasiado angostos y el texto ("Leve",
+   "Moderado", "Fuerte") se sale del recuadro. Se acomodan en 2 filas de 3 columnas iguales,
+   botones del mismo alto, texto centrado y un alto comodo para tocar con el dedo. */
+@media (max-width: 600px) {
+  .report-choices {
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr; /* las dos filas del mismo alto */
+    gap: 0.4rem;
+  }
+
+  .report-choice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.5rem;
+    padding: 0.35rem 0.3rem;
+    font-size: 0.8rem;
+    line-height: 1.2;
+  }
+}
+
 /* "¿Donde estabas? (opcional)" y el selector en la misma linea. */
 .report-comuna {
   display: flex;
