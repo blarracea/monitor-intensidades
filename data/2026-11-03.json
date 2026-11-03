@@ -1183,5 +1183,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390631.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tv5i",
+    "source": "usgs",
+    "time": "2026-11-03T13:34:06.139000+00:00",
+    "updated": "2026-11-03T13:52:00.040000+00:00",
+    "lat": -58.8399,
+    "lon": -26.4744,
+    "depth_km": 143.595,
+    "magnitude": 4.9,
+    "mag_type": "mb",
+    "place": "South Sandwich Islands region",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tv5i",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
