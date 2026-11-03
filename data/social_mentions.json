@@ -55,6 +55,19 @@
     "lon": null
   },
   {
+    "title": "Terremoto leve mag. 3.2 - El Loa, Antofagasta, Chile, Tuesday 3 Nov 2026 a las 01:46 (GMT -3) - Volcano Discovery",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNem1OSUJhOVNpdjNBRGNwbzRiX0liXy1OTjJNT1JfdUNRdlAzOTlWVUg4LWh0TThtaXN0emZuTlk2THlxVjh3UlBBa3VKb3N3Vm5uTFBnTjZ5LVlkYkhRZk5RMmsxUzQzT3JraXRtdWxDNTZRUGhQekZyUUpmX1ZmUVdOM0ZDMm91RUMxVTU1NlVyWWJTTmpqNS12MzVrRTQtOGtxUWZuNGVuUTQ?oc=5",
+    "source": "Volcano Discovery",
+    "published": "2026-11-03T05:58:56+00:00",
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "chile": true,
+    "place": "antofagasta",
+    "lat": -23.6509,
+    "lon": -70.3975
+  },
+  {
     "title": "Terremoto leve mag. 3.2 - Offshore Atacama, Chile, Tuesday 3 Nov 2026 a las 05:05 (Tiempo Universal) - justo ahora - Volcano Discovery",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTlNORVV6czJsVklpMnpIb0czQ3JONlZpTkFodmtELTl2anU2TUNYLWRXc2RlczBlMHpQbEhkTklLRW1WN0E4U004bWVBb3VTYTNmV2tpQ3NOTzc2Y1J1WkZEc2ZReWRZdmk5OHhwaS1MX2xubDNEdEFBZ3RtcTRjTWJ4aHppWGN6akRwS1JtbG5JNWd4Y3Fld0FwRmNqZFE1Y3BpNWV5VkpYWjZ3UmlKTFcyRmQ?oc=5",
     "source": "Volcano Discovery",
@@ -79,19 +92,6 @@
     "place": "la serena",
     "lat": -29.9027,
     "lon": -71.2519
-  },
-  {
-    "title": "Terremoto leve mag. 3.2 - Argentina, Tuesday 3 Nov 2026 a las 01:46 (GMT -3) - Volcano Discovery",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNem1OSUJhOVNpdjNBRGNwbzRiX0liXy1OTjJNT1JfdUNRdlAzOTlWVUg4LWh0TThtaXN0emZuTlk2THlxVjh3UlBBa3VKb3N3Vm5uTFBnTjZ5LVlkYkhRZk5RMmsxUzQzT3JraXRtdWxDNTZRUGhQekZyUUpmX1ZmUVdOM0ZDMm91RUMxVTU1NlVyWWJTTmpqNS12MzVrRTQtOGtxUWZuNGVuUTQ?oc=5",
-    "source": "Volcano Discovery",
-    "published": "2026-11-03T04:57:29+00:00",
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "chile": false,
-    "place": null,
-    "lat": null,
-    "lon": null
   },
   {
     "title": "Sismo débil mag. 2.9 - Océano Pacífico Sur, 186 km al noroeste de Concepción, Concepcion, Biobío, Chile, Tuesday 3 Nov 2026 a las 03:33 (Tiempo Universal) - Volcano Discovery",
@@ -1876,21 +1876,6 @@
     "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNOFMzRi1DZ2djUjA5eFZOYkJDZ2JuUjgtakQxVHVuWG0xeU4zSV9CejU2RUxicHFNOU84dC1ucWdxRmlPODIyR1lFUTZqanRXWnUzRUR0WmFOMGZXbjBtenBFQXB2UmxlSmpvSGVjM3p6cGpteVpkdnU2ZTJERERHTFI0Y1FocEVwak53cVQyZTNkbjZNQXFWVUFWZnE4NklpMHVoTVNLZTF0MkpmY1pYaTJRV0hyS0RWMHFNRURVN2o0SUF2am9JR0Z1aVZwZE05UzJMU3BfUE9UamxrMV9MV01EZUJZVVNQRzVnSzNfczAtb2toU3I0S19mUWdZY1FRamUyZGRCdHB0ZHM?oc=5",
     "source": "El Comercio Perú",
     "published": "2026-10-31T11:02:33+00:00",
-    "keywords_matched": [
-      "sismo",
-      "temblor",
-      "temblo"
-    ],
-    "chile": true,
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "Temblor se registra en la zona centro-norte: Revisa el epicentro y magnitud del sismo - Meganoticias",
-    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPS09JTlh2ZW5OY0RsdmYteTkwak1WR2p1Tng0UmF1SGdHcDM3REJOUkxXSDRyMTZLNWp6emhSSVFWSlVEZlFUWTRUa2F0aEhSV1NMZG1ucGJKejNZMTNUMGJUeHZYMW5PcHYyaWFJQmZQTlo1V0JoeVFuakJMSU1oMDQ5a0ZkdUlvNW9lVm9wNC15NnVyX1RDTnJSOVVDX2VPa185M0VtTDU4SlhST2dtd0R1MU5tSHBfWWc3emt4Z2VyWjZKR01HdHVwMnR5a3RkNDR2SzNQUGfSAd4BQVVfeXFMTXR0ekxTaUFoQXN3bHBPaHBOZVVRMjVkT09vdG5IR1RwZnVTWE9ZaUlLWV9DQ3gwQzZXQ25RR0ZKNE1RTl9sVDRFVXlwenlqLVpzRGlWZENlclhwYWpmQWVKRjNjZmNOR0loTlJzcXU0cEJ3MVo2clM2SW9PSmd1V1BIR2tqcTRTOUpXdEItT0lkZ0ZBY2owcmwzUXZzaXgzWUp4bGZLa19rUEVBMXhJZFZrTE4yS21Wc2JXcGJ2cDFacllIMjNBVC1SdmZSd3hkQjdERzJZOWN4ZF9TNUh3?oc=5",
-    "source": "Meganoticias",
-    "published": "2026-10-31T10:57:00+00:00",
     "keywords_matched": [
       "sismo",
       "temblor",
