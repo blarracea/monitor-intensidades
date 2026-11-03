@@ -1135,5 +1135,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vudyyh",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/390628.html",
+    "source": "csn",
+    "time": "2026-11-03T13:16:36+00:00",
+    "updated": "2026-11-03T13:16:36+00:00",
+    "lat": -34.71,
+    "lon": -71.76,
+    "depth_km": 44.0,
+    "magnitude": 2.7,
+    "mag_type": "MLv",
+    "place": "29 km al NE de Vichuquén, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390628.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390628.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
