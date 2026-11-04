@@ -1,0 +1,25 @@
+name = "lo-sentiste"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+# Conserva las variables que existan en el panel y no esten aqui (los secretos no se tocan).
+keep_vars = true
+# Sin direcciones extra de "vista previa" por version: el servidor solo se llega por la URL principal.
+preview_urls = false
+
+# Rellenar con el id que entrega `npx wrangler d1 create lo-sentiste-db`
+[[d1_databases]]
+binding = "DB"
+database_name = "lo-sentiste"
+database_id = "b45a21dd-262d-4e19-bba2-9ceffc42706f"
+
+# Debe coincidir con lo que corre en produccion (antes algunas de estas variables solo
+# existian en el panel de Cloudflare). Un `wrangler deploy` reemplaza lo del panel por esto.
+# REPORT_WINDOW_HOURS: 7 dias; tiene que coincidir con REPORT_WINDOW_HOURS de js/app.js (sitio).
+[vars]
+SITE_URL = "https://reportasismo.cl"
+ALLOWED_ORIGINS = "https://blarracea.github.io,https://reportasismo.cl,https://www.reportasismo.cl,http://localhost:8000,http://localhost:8001"
+REPORT_WINDOW_HOURS = "168"
+
+# Secretos (NO van aqui; se cargan con `npx wrangler secret put NOMBRE`):
+#   VOTER_SALT        texto largo al azar: sal del hash de cada persona
+#   TURNSTILE_SECRET  (opcional) clave secreta de Cloudflare Turnstile

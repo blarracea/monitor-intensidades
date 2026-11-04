@@ -5,8 +5,6 @@ mundo en un mapa, con un heatmap de **intensidad percibida (escala de
 Mercalli Modificada)** — qué tan fuerte lo sintió la gente en cada zona, no
 la magnitud Richter del epicentro.
 
-> **Nota:** el código del recolector (`backend/`) y del servidor de «¿Lo sentiste?» vive en un repositorio privado. Este repositorio contiene el sitio, los datos (`data/`) y los flujos de GitHub Actions que los actualizan; esos flujos descargan el código privado al ejecutarse.
-
 ## Cómo funciona
 
 - **Backend (`backend/`)**: un script Python (`collect.py`) que arma el
