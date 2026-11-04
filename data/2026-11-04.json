@@ -1399,9 +1399,9 @@
     "lat": -29.43,
     "lon": -70.86,
     "depth_km": 66.0,
-    "magnitude": 3.6,
+    "magnitude": 3.8,
     "mag_type": "MLv",
-    "place": "34 km al E de La Higuera, Chile",
+    "place": "35 km al E de La Higuera, Chile",
     "cdi": null,
     "mmi": null,
     "felt_reports": null,
@@ -1417,12 +1417,11 @@
       }
     ],
     "intensity_source": "csn",
-    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-coquimbo-2026-11-04-15-55-48",
+    "senapred_url": "https://www.senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-coquimbo-2026-11-04-15-55-48",
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390834.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390834.html",
     "relevant": false,
-    "keywords_matched": [],
-    "senapred_match_time": "2026-11-04T15:55:48-03:00"
+    "keywords_matched": []
   }
 ]
