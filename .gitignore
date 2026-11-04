@@ -3,5 +3,6 @@ __pycache__/
 .venv/
 .claude/scheduled_tasks.lock
 
-# Codigo del recolector (repo privado), clonado por el workflow
-_backend/
+# Cache y dependencias locales de wrangler/node (reports-worker/)
+.wrangler/
+node_modules/
