@@ -1631,5 +1631,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw3k",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/390852.html",
+    "source": "csn",
+    "time": "2026-11-04T21:02:00+00:00",
+    "updated": "2026-11-04T21:02:00+00:00",
+    "lat": -19.89,
+    "lon": -70.21,
+    "depth_km": 46.0,
+    "magnitude": 2.6,
+    "mag_type": "MLv",
+    "place": "32 km al S de Pisagua, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390852.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390852.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
