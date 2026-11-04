@@ -967,22 +967,31 @@ h2.live-feed-title {
   border-radius: 4px;
 }
 
-/* La escala cualitativa completa (de "No lo senti" a "Muy fuerte o con danos") va en UNA
-   sola fila horizontal: 6 columnas con ancho proporcional al largo de cada texto, y el
-   texto puede partirse en dos lineas dentro del boton si la columna es angosta. */
+/* La escala cualitativa completa (de "No lo senti" a "Muy fuerte o con danos") va en 2
+   filas de 3 columnas iguales -- una sola fila con 6 columnas de ancho proporcional se
+   veia bien solo cuando el panel tenia todo el ancho de pantalla para si (celular), pero
+   "Detalle del evento" normalmente es una columna angosta (una de cuatro, junto a Mapa de
+   Calor/Redes en vivo/Menciones en medios en escritorio): ahi el texto ("Leve", "Moderado",
+   "Fuerte") quedaba cortado igual que en celular, el ancho de ventana no es lo que importa.
+   Con 2x3 parejo y botones de altura fija entra comodo en cualquier ancho de columna. */
 .report-choices {
   display: grid;
-  grid-template-columns: 1.05fr 0.9fr 0.55fr 1fr 0.75fr 2fr;
-  gap: 0.25rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 0.4rem;
   margin: 0.3rem 0;
 }
 
 .report-choice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   min-width: 0;
-  padding: 0.3rem 0.15rem;
+  min-height: 2.5rem;
+  padding: 0.35rem 0.3rem;
   font: inherit;
-  font-size: 0.68rem;
-  line-height: 1.15;
+  font-size: 0.76rem;
+  line-height: 1.2;
   text-align: center;
   color: var(--color-header-bg);
   background: #fff;
@@ -996,27 +1005,6 @@ h2.live-feed-title {
 .report-choice.is-selected {
   color: #fff;
   background: var(--color-header-bg);
-}
-
-/* Celular: seis botones en una fila quedan demasiado angostos y el texto ("Leve",
-   "Moderado", "Fuerte") se sale del recuadro. Se acomodan en 2 filas de 3 columnas iguales,
-   botones del mismo alto, texto centrado y un alto comodo para tocar con el dedo. */
-@media (max-width: 600px) {
-  .report-choices {
-    grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 1fr; /* las dos filas del mismo alto */
-    gap: 0.4rem;
-  }
-
-  .report-choice {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 2.5rem;
-    padding: 0.35rem 0.3rem;
-    font-size: 0.8rem;
-    line-height: 1.2;
-  }
 }
 
 /* "¿Donde estabas? (opcional)" y el selector en la misma linea. */
