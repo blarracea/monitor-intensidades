@@ -60,8 +60,8 @@ def fetch_recent_events():
     response.raise_for_status()
     # sismologia.cl no declara charset en el header Content-Type -- sin
     # esto, requests cae al default de HTTP (ISO-8859-1) para decodificar
-    # .text, y el sitio en realidad es UTF-8: cualquier tilde/"n"/"u" salia
-    # mal ("OllaguAe" en vez de "Ollague"). No se notaba porque ese texto
+    # .text, y el sitio en realidad es UTF-8: cualquier tilde/"ñ"/"ü" salia
+    # mal ("OllagÃ¼e" en vez de "Ollagüe"). No se notaba porque ese texto
     # antes solo se usaba para el cruce con USGS (numeros, no el string),
     # nunca se mostraba tal cual en el dashboard.
     response.encoding = "utf-8"
@@ -275,7 +275,7 @@ def _parse_intensity_text(text):
     i = 0
     while i < len(lines):
         line = lines[i]
-        region_match = re.match(r"^Regi[oo]n:\s*(.+)$", line)
+        region_match = re.match(r"^Regi[oó]n:\s*(.+)$", line)
         if region_match:
             region = region_match.group(1).strip()
             i += 1
@@ -302,8 +302,8 @@ def _parse_intensity_text(text):
 def _strip_format_chars(text):
     """
     SENAPRED inserta guiones invisibles (soft hyphen, categoria Unicode "Cf")
-    en nombres largos como sugerencia de corte de linea -- ej. "Rio Hurtado"
-    en vez de quedar partido mal. Se quitan para no romper el nombre.
+    en nombres largos como sugerencia de corte de linea -- ej. "Ri\xado
+    Hurtado" en vez de "Rio Hurtado". Se quitan para no romper el nombre.
     """
     return "".join(c for c in text if unicodedata.category(c) != "Cf")
 
