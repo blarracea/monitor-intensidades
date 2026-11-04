@@ -70,5 +70,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026vozb",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026vvdefx",
+    "source": "usgs",
+    "time": "2026-11-04T01:13:32.738000+00:00",
+    "updated": "2026-11-04T01:15:15.656000+00:00",
+    "lat": 64.052,
+    "lon": -148.833,
+    "depth_km": 5,
+    "magnitude": 2.7,
+    "mag_type": "ml",
+    "place": "14 km ENE of Ferry, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vvdefx",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
