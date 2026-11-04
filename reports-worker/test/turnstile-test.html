@@ -1,0 +1,54 @@
+<!doctype html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Prueba de Turnstile</title>
+<!--
+  Prueba MANUAL del anti-robots, para abrir en un navegador normal (no en uno incrustado
+  o automatizado, que Turnstile suele rechazar). Se sirve con la carpeta del proyecto, ej.
+  `py -m http.server 8001`, y se abre en http://localhost:8001/reports-worker/test/turnstile-test.html
+  (localhost debe estar en los dominios del widget de Cloudflare).
+  Manda un reporte a un sismo que NO existe: el servidor revisa primero el token y despues
+  responde 404, asi se prueba el anti-robots sin guardar nada en la base.
+-->
+<body style="font: 16px system-ui; max-width: 36rem; margin: 2rem auto; padding: 0 1rem">
+  <h1>Prueba de Turnstile</h1>
+  <p>1. Marca la casilla si aparece. 2. Mira el resultado abajo.</p>
+  <div id="widget"></div>
+  <pre id="out" style="white-space: pre-wrap">cargando…</pre>
+  <script src="../../js/config.js"></script>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"></script>
+  <script>
+    const out = document.getElementById("out");
+    const log = (text) => (out.textContent += "\n" + text);
+    const cfg = window.SISMOS_CONFIG;
+    out.textContent = "servidor: " + cfg.reportsApi + "\nclave pública: " + cfg.turnstileSiteKey;
+    window.addEventListener("load", () => {
+      turnstile.render("#widget", {
+        sitekey: cfg.turnstileSiteKey,
+        callback: async (token) => {
+          log("token recibido (" + token.length + " caracteres). Enviando al servidor…");
+          const response = await fetch(cfg.reportsApi + "/reports", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              event_id: "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/999999999.html",
+              event_day: "2026-11-01",
+              intensity: 1,
+              turnstile_token: token,
+            }),
+          });
+          const data = await response.json().catch(() => ({}));
+          log("respuesta " + response.status + ": " + JSON.stringify(data));
+          log(
+            response.status === 404
+              ? "RESULTADO: OK. El servidor aceptó el token (y rechazó el sismo de prueba, como se espera)."
+              : response.status === 403
+                ? "RESULTADO: FALLA. El servidor rechazó el token."
+                : "RESULTADO: revisar la respuesta de arriba."
+          );
+        },
+        "error-callback": (code) => log("ERROR de Turnstile: " + code),
+      });
+    });
+  </script>
+</body>
