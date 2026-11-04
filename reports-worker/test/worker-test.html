@@ -1,0 +1,198 @@
+<!doctype html>
+<meta charset="utf-8" />
+<title>Pruebas del servidor de reportes</title>
+<!--
+  Pruebas de reports-worker/src/index.js SIN instalar nada: se abren en el navegador
+  (sirviendo la carpeta del proyecto, ej. `py -m http.server 8001`) en
+  /reports-worker/test/worker-test.html. Usan una base de datos simulada en memoria
+  y los datos reales del dashboard. El SQL se valida aparte contra SQLite real
+  (ver sql-test.py) -- esta pagina prueba la logica, no el motor de la base.
+-->
+<pre id="out">ejecutando…</pre>
+<script type="module">
+  import worker, { handleSubmit, handleSummary } from "../src/index.js";
+
+  // --- D1 simulada: solo las 4 consultas que usa el servidor ---
+  function fakeDb() {
+    const rows = [];
+    return {
+      rows,
+      prepare(sql) {
+        let args = [];
+        const stmt = {
+          bind(...a) { args = a; return stmt; },
+          async first() {
+            if (/COUNT\(\*\) AS n FROM reports WHERE voter_hash/.test(sql)) {
+              const [voter, since] = args;
+              return { n: rows.filter((r) => r.voter_hash === voter && r.created_at >= since).length };
+            }
+            throw new Error("first() no simulado: " + sql);
+          },
+          async run() {
+            if (/INSERT INTO reports/.test(sql)) {
+              const [event_id, voter_hash, intensity, comuna, created_at] = args;
+              const existing = rows.find((r) => r.event_id === event_id && r.voter_hash === voter_hash);
+              if (existing) Object.assign(existing, { intensity, comuna, created_at });
+              else rows.push({ event_id, voter_hash, intensity, comuna, created_at });
+              return {};
+            }
+            throw new Error("run() no simulado: " + sql);
+          },
+          async all() {
+            const [eventId] = args;
+            const mine = rows.filter((r) => r.event_id === eventId);
+            if (/GROUP BY intensity/.test(sql)) {
+              const m = {};
+              mine.forEach((r) => (m[r.intensity] = (m[r.intensity] || 0) + 1));
+              return { results: Object.entries(m).map(([intensity, n]) => ({ intensity: Number(intensity), n })) };
+            }
+            if (/GROUP BY comuna/.test(sql)) {
+              const m = {};
+              mine.filter((r) => r.comuna && r.intensity > 0).forEach((r) => (m[r.comuna] = (m[r.comuna] || 0) + 1));
+              return { results: Object.entries(m).map(([comuna, n]) => ({ comuna, n })).sort((a, b) => b.n - a.n).slice(0, 5) };
+            }
+            throw new Error("all() no simulado: " + sql);
+          },
+        };
+        return stmt;
+      },
+    };
+  }
+
+  const site = location.origin;
+  const days = await (await fetch(`${site}/data/index.json`)).json();
+  const today = days.days[days.days.length - 1];
+  const todayEvents = (await (await fetch(`${site}/data/${today}.json`)).json()).filter((e) => e.source === "csn");
+  const latest = todayEvents[todayEvents.length - 1];
+  const now = new Date(new Date(latest.time).getTime() + 30 * 60000); // "ahora" = 30 min despues del ultimo sismo chileno
+  // un sismo chileno de hace muchos dias (el primer dia que tenga alguno del CSN)
+  let old = null;
+  for (const d of days.days) {
+    old = (await (await fetch(`${site}/data/${d}.json`)).json()).find((e) => e.source === "csn");
+    if (old) break;
+  }
+
+  const fakeRequest = (url, method, origin) => ({ url, method, headers: { get: (n) => (n.toLowerCase() === "origin" ? origin : null) } });
+  const env = (extra = {}) => ({ DB: fakeDb(), SITE_URL: site, VOTER_SALT: "sal", ...extra });
+  const req = (body, ip = "1.1.1.1", origin = "http://localhost:8001") =>
+    new Request("http://worker/reports", { method: "POST", headers: { "Content-Type": "application/json", "CF-Connecting-IP": ip, Origin: origin }, body: JSON.stringify(body) });
+  const ok = (b) => ({ event_id: latest.id, event_day: latest.time.slice(0, 10), intensity: 3, ...b });
+  const call = async (e, body, ip, fetchImpl = fetch, when = now) => {
+    const r = await handleSubmit(req(body, ip), e, fetchImpl, when);
+    return { status: r.status, data: await r.json(), headers: r.headers };
+  };
+
+  const results = [];
+  const check = (name, cond, detail = "") => results.push(`${cond ? "OK  " : "FALLA"} ${name}${detail ? "  -> " + detail : ""}`);
+
+  // 1) camino feliz
+  let e = env();
+  let r = await call(e, ok({ comuna: "Iquique" }));
+  check("reporte valido responde 200 y cuenta 1", r.status === 200 && r.data.total === 1 && r.data.felt === 1 && r.data.by_level[3] === 1, JSON.stringify(r.data));
+  // 2) misma persona cambia respuesta: sigue contando 1
+  r = await call(e, ok({ intensity: 5 }));
+  check("misma persona cambia su respuesta (sigue siendo 1)", r.status === 200 && r.data.total === 1 && r.data.by_level[5] === 1 && r.data.by_level[3] === 0);
+  // 3) otra persona suma
+  r = await call(e, ok({ intensity: 0 }), "2.2.2.2");
+  check("otra persona suma (total 2, 1 no lo sintio)", r.data.total === 2 && r.data.not_felt === 1 && r.data.felt === 1);
+  // 4) comuna: solo de la lista conocida
+  r = await call(e, ok({ comuna: "Arica" }), "3.3.3.3");
+  const comunas = r.data.top_comunas.map((c) => c.comuna);
+  check("comuna de la lista se acepta", comunas.includes("Arica"), JSON.stringify(comunas));
+  check("comuna con HTML se rechaza (400)", (await call(env(), ok({ comuna: "<b>Arica</b>" }))).status === 400);
+  check("comuna inventada se rechaza (400)", (await call(env(), ok({ comuna: "Narnia" }))).status === 400);
+  check("comuna con tilde de la lista se acepta (Viña del Mar)", (await call(env(), ok({ comuna: "Viña del Mar" }))).status === 200);
+  // 5) validaciones
+  check("id de sismo invalido -> 400", (await call(env(), ok({ event_id: "csn:http://x" }))).status === 400);
+  check("id con inyeccion -> 400", (await call(env(), ok({ event_id: "csn:https://www.sismologia.cl/sismicidad/informes/2026/10/1.html' OR 1=1 --" }))).status === 400);
+  check("nivel 9 -> 400", (await call(env(), ok({ intensity: 9 }))).status === 400);
+  check("nivel '3' (texto) -> 400", (await call(env(), ok({ intensity: "3" }))).status === 400);
+    check("dia mal formado -> 400", (await call(env(), ok({ event_day: "../../etc" }))).status === 400);
+  check("JSON roto -> 400", (await handleSubmit(new Request("http://w/reports", { method: "POST", body: "{no" }), env(), fetch, now)).status === 400);
+  check("sismo inexistente en el dashboard -> 404", (await call(env(), ok({ event_id: "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/999999999.html" }))).status === 404);
+  // 5b) paises vecinos habilitados (Peru y Argentina, via USGS). El pais sale de la referencia
+  // que USGS publica en los datos del dashboard; cualquier otro pais se rechaza.
+  const usgsAll = (await Promise.all(days.days.slice(-7).map((d) => fetch(`${site}/data/${d}.json`).then((x) => x.json())))).flat().filter((e) => e.source === "usgs");
+  const peru = usgsAll.filter((e) => /\bPeru\b/i.test(e.place || "")).pop();
+  const argentina = usgsAll.filter((e) => /\bArgentina\b/i.test(e.place || "")).pop();
+  const otroPais = usgsAll.filter((e) => !/\b(Peru|Argentina|Chile)\b/i.test(e.place || "")).pop();
+  const after = (e, hours) => new Date(new Date(e.time).getTime() + hours * 3600000);
+  const bodyOf = (e) => ({ event_id: e.id, event_day: e.time.slice(0, 10), intensity: 3 });
+  for (const [nombre, ev] of [["Peru", peru], ["Argentina", argentina]]) {
+    if (!ev) { check(`hay un sismo de ${nombre} en los ultimos 7 dias para probar`, false, "sin datos en ese rango"); continue; }
+    r = await call(env(), bodyOf(ev), "1.1.1.1", fetch, after(ev, 30));
+    check(`sismo de ${nombre} (${ev.place}) se acepta`, r.status === 200 && r.data.total === 1 && r.data.event_id === ev.id, JSON.stringify(r.data));
+    r = await call(env(), bodyOf(ev), "1.1.1.1", fetch, after(ev, 24 * 7 + 2));
+    check(`sismo de ${nombre} de hace mas de 7 dias -> 422`, r.status === 422, r.data.error);
+  }
+  if (otroPais) {
+    r = await call(env(), bodyOf(otroPais), "1.1.1.1", fetch, after(otroPais, 30));
+    check(`sismo de otro pais (${otroPais.place}) -> 404`, r.status === 404, r.data.error);
+  } else {
+    check("hay un sismo de otro pais para probar que se rechaza", false, "sin datos en ese rango");
+  }
+  check("id de USGS con formato valido pero inexistente -> 404", (await call(env(), ok({ event_id: "us9999zzzz" }))).status === 404);
+  check("id de USGS con mayusculas -> 400", (await call(env(), ok({ event_id: "US6000ABCD" }))).status === 400);
+  check("id con comilla/inyeccion estilo USGS -> 400", (await call(env(), ok({ event_id: "us6000'; DROP TABLE reports;--" }))).status === 400);
+  check("id demasiado largo -> 400", (await call(env(), ok({ event_id: "us" + "a".repeat(40) }))).status === 400);
+  // 6) ventana de tiempo: 7 dias (antes 24 h)
+  const afterLatest = (hours) => new Date(new Date(latest.time).getTime() + hours * 3600000);
+  r = await call(env(), ok(), "1.1.1.1", fetch, afterLatest(25));
+  check("25 h despues del sismo -> se acepta (ventana de 7 dias)", r.status === 200, r.data.error);
+  r = await call(env(), ok(), "1.1.1.1", fetch, afterLatest(24 * 6 + 20));
+  check("6 dias y 20 h despues -> se acepta", r.status === 200, r.data.error);
+  r = await call(env(), ok(), "1.1.1.1", fetch, afterLatest(24 * 7 + 1));
+  check("7 dias y 1 h despues -> 422", r.status === 422, r.data.error);
+  r = await call(env(), ok(), "1.1.1.1", fetch, afterLatest(24 * 8));
+  check("8 dias despues -> 422 con el mensaje en dias", r.status === 422 && /7 dias/.test(r.data.error), r.data.error);
+  const before = new Date(new Date(latest.time).getTime() - 3600000);
+  check("antes de que ocurra el sismo -> 422", (await call(env(), ok(), "1.1.1.1", fetch, before)).status === 422);
+  r = await call(env(), { event_id: old.id, event_day: old.time.slice(0, 10), intensity: 2 }, "1.1.1.1", fetch, now);
+  check("sismo de hace semanas (primer dia guardado) -> 422", r.status === 422, r.data.error);
+  // 7) tope por hora: 20 reportes de una misma persona; el 21 se rechaza
+  e = env();
+  const many = todayEvents.slice(-25);
+  let accepted = 0, blocked = 0;
+  for (const ev of many) {
+    const rr = await call(e, { event_id: ev.id, event_day: ev.time.slice(0, 10), intensity: 1 }, "9.9.9.9", fetch, new Date(new Date(ev.time).getTime() + 10 * 60000));
+    // el tope usa la hora simulada: se acumulan solo los de la misma hora
+    if (rr.status === 200) accepted++; if (rr.status === 429) blocked++;
+  }
+  // todos los "ahora" simulados son distintos: se repite con un mismo "ahora" para medir el tope real
+  e = env();
+  accepted = 0; blocked = 0;
+  const sameNow = new Date(new Date(many[many.length - 1].time).getTime() + 10 * 60000);
+  const recentOnes = many.filter((ev) => (sameNow - new Date(ev.time)) / 3600000 <= 24);
+  for (const ev of recentOnes) {
+    const rr = await call(e, { event_id: ev.id, event_day: ev.time.slice(0, 10), intensity: 1 }, "9.9.9.9", fetch, sameNow);
+    if (rr.status === 200) accepted++;
+    if (rr.status === 429) blocked++;
+  }
+  check(`tope: acepta 20 y rechaza el resto (acepto ${accepted}, bloqueo ${blocked}, de ${recentOnes.length})`, recentOnes.length > 20 ? accepted === 20 && blocked === recentOnes.length - 20 : accepted === recentOnes.length, "");
+  // 8) Turnstile
+  const tsFail = async (url) => (String(url).includes("turnstile") ? new Response(JSON.stringify({ success: false })) : fetch(url));
+  const tsOk = async (url) => (String(url).includes("turnstile") ? new Response(JSON.stringify({ success: true })) : fetch(url));
+  check("con Turnstile activo y sin token -> 403", (await call(env({ TURNSTILE_SECRET: "s" }), ok(), "1.1.1.1", tsOk)).status === 403);
+  check("con Turnstile activo y token rechazado -> 403", (await call(env({ TURNSTILE_SECRET: "s" }), ok({ turnstile_token: "x" }), "1.1.1.1", tsFail)).status === 403);
+  check("con Turnstile activo y token valido -> 200", (await call(env({ TURNSTILE_SECRET: "s" }), ok({ turnstile_token: "x" }), "1.1.1.1", tsOk)).status === 200);
+  // 9) resumen (GET) y CORS
+  e = env();
+  await call(e, ok({ intensity: 2 }));
+  const g = await handleSummary(fakeRequest(`http://w/reports?event_id=${encodeURIComponent(latest.id)}`, "GET", "http://localhost:8001"), e);
+  const gd = await g.json();
+  check("GET resumen devuelve totales y NO reportes individuales", g.status === 200 && gd.total === 1 && !("voter_hash" in gd) && !JSON.stringify(gd).includes("voter"), JSON.stringify(gd));
+  check("CORS permite el origen del dashboard", g.headers.get("Access-Control-Allow-Origin") === "http://localhost:8001");
+  const bad = await handleSummary(fakeRequest(`http://w/reports?event_id=x`, "GET", "https://sitio-malo.example"), e);
+  check("CORS NO permite un origen ajeno", bad.headers.get("Access-Control-Allow-Origin") === null && bad.status === 400);
+  const opt = await worker.fetch(fakeRequest("http://w/reports", "OPTIONS", "https://blarracea.github.io"), e);
+  check("preflight OPTIONS 204 para GitHub Pages", opt.status === 204 && opt.headers.get("Access-Control-Allow-Origin") === "https://blarracea.github.io");
+  const nf = await worker.fetch(fakeRequest("http://w/otra-cosa", "GET", null), e);
+  check("ruta desconocida -> 404", nf.status === 404);
+  // 10) la IP nunca se guarda
+  const db = fakeDb();
+  await call({ DB: db, SITE_URL: site, VOTER_SALT: "sal" }, ok(), "203.0.113.77");
+  check("la IP no queda guardada (solo un hash de 64 caracteres)", db.rows.length === 1 && !JSON.stringify(db.rows).includes("203.0.113.77") && /^[0-9a-f]{64}$/.test(db.rows[0].voter_hash));
+
+  document.getElementById("out").textContent = results.join("\n") + `\n\n${results.filter((x) => x.startsWith("OK")).length}/${results.length} pruebas OK  (sismo de prueba: ${latest.place}, ${latest.time})`;
+  window.__done = true;
+</script>
