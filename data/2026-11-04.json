@@ -1607,5 +1607,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vwonln",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tw3k",
+    "source": "usgs",
+    "time": "2026-11-04T19:55:26.313000+00:00",
+    "updated": "2026-11-04T20:26:42.040000+00:00",
+    "lat": 12.6311,
+    "lon": -87.1544,
+    "depth_km": 159.022,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "2 km W of Chinandega, Nicaragua",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw3k",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
