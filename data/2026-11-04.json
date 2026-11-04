@@ -1246,5 +1246,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tvyl",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/390814.html",
+    "source": "csn",
+    "time": "2026-11-04T17:11:37+00:00",
+    "updated": "2026-11-04T17:11:37+00:00",
+    "lat": -35.08,
+    "lon": -71.32,
+    "depth_km": 72.0,
+    "magnitude": 2.6,
+    "mag_type": "MLv",
+    "place": "13 km al SO de Curicó, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390814.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/390814.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
