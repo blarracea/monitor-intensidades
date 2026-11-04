@@ -1076,3 +1076,41 @@ h2.live-feed-title {
 }
 
 .report-row-n { text-align: right; }
+
+/* Cuadro de contacto (antes "Proximamente"): se muestra bajo Resumen semana y se oculta al
+   seleccionar un sismo (ver .stack-column:has(#event-detail-placeholder.hidden)). */
+.stack-column .contact-panel {
+  min-height: auto; /* nunca recortar el texto de contacto */
+  flex: 2 1 0;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border-style: solid;
+}
+
+.contact-panel h2 {
+  margin: 0 0 0.35rem;
+  padding-bottom: 0.25rem;
+  font-size: 0.95rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  font-style: normal;
+  font-size: 0.82rem;
+  color: var(--color-text);
+  overflow-wrap: anywhere;
+}
+
+.contact-info a {
+  color: var(--color-header-bg);
+}
+
+/* Celular/tablet: los paneles van apilados, asi que el cuadro de contacto mide lo que mide su texto. */
+@media (max-width: 900px) {
+  .stack-column .contact-panel {
+    flex: 0 0 auto;
+  }
+}
