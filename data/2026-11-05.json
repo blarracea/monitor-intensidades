@@ -1390,5 +1390,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391006.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026vypwpu",
+    "source": "usgs",
+    "time": "2026-11-05T22:33:58.481000+00:00",
+    "updated": "2026-11-05T22:35:25.833000+00:00",
+    "lat": 62.486,
+    "lon": -148.25,
+    "depth_km": 47.3,
+    "magnitude": 2.7,
+    "mag_type": "ml",
+    "place": "77 km N of Chickaloon, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vypwpu",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
