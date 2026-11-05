@@ -862,5 +862,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw8p",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tw8r",
+    "source": "usgs",
+    "time": "2026-11-05T17:21:45.897000+00:00",
+    "updated": "2026-11-05T17:38:27.040000+00:00",
+    "lat": -21.1692,
+    "lon": -178.6458,
+    "depth_km": 540.789,
+    "magnitude": 6.1,
+    "mag_type": "mww",
+    "place": "Fiji region",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tw8r",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
