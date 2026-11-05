@@ -1847,5 +1847,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75068576",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "pr71538513",
+    "source": "usgs",
+    "time": "2026-11-04T23:55:50.740000+00:00",
+    "updated": "2026-11-05T02:17:36.290000+00:00",
+    "lat": 19.4543333333333,
+    "lon": -66.9053333333333,
+    "depth_km": 26.44,
+    "magnitude": 3.23,
+    "mag_type": "md",
+    "place": "106 km N of Isabela, Puerto Rico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71538513",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
