@@ -912,6 +912,48 @@
     "keywords_matched": []
   },
   {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/391102.html",
+    "source": "csn",
+    "time": "2026-11-06T11:09:37+00:00",
+    "updated": "2026-11-06T11:09:37+00:00",
+    "lat": -27.33,
+    "lon": -71.03,
+    "depth_km": 57.0,
+    "magnitude": 3.3,
+    "mag_type": "MLv",
+    "place": "36 km al SO de Caldera, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": -27.3668,
+        "lon": -70.3323,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Copiapó",
+        "region": "Atacama"
+      },
+      {
+        "lat": -27.4680505,
+        "lon": -70.2649307,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Tierra Amarilla",
+        "region": "Atacama"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-atacama-2026-11-06-08-14-04",
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391102.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391102.html",
+    "relevant": false,
+    "keywords_matched": [],
+    "senapred_match_time": "2026-11-06T08:14:04-03:00"
+  },
+  {
     "id": "aka2026vzpdzj",
     "source": "usgs",
     "time": "2026-11-06T11:11:37.479000+00:00",
