@@ -1,5 +1,19 @@
 [
   {
+    "title": "IGP advierte terremoto de magnitud 8 en el sur y riesgo de tsunami de hasta 15 metros - radio uno 93.7",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSmZuNzhDNVlfN0VfT3Zod2Z3LU1XbTNBOVZleE13RHRQWGRGUURjRUZITWpfV2xrcFE4X2ZQQlZidF82OXBkQmVXYzJzTmJ4R0xlQnhoSVNHTmozVGNhZTVvU192X1VGZW1NSEN5dG5RZVViZzBfcldoMXpFdi1CTmFJTkRhbldNMXhtOTUxVlVwUkpWek56TURKNVZxRTJLWk1wZktQblhUWkIwb1dWZ1QwTlBqMC05WGRWc0Rzdw?oc=5",
+    "source": "radio uno 93.7",
+    "published": "2026-11-06T15:16:10+00:00",
+    "keywords_matched": [
+      "terremoto",
+      "tsunami"
+    ],
+    "chile": false,
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "title": "Sismo débil mag. 2.9 - 166 km al este de Antofagasta, Antofagasta, Chile, Friday 6 Nov 2026 a las 11:27 (Hora Santiago) - Volcano Discovery",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbzNPYTFlaC14ZHJYTldDVDFtb2duZGZsT3lSczhWQjFJSWVrVHNNYlotSmdLYXdyS0c1cUxmeURGaXBJUkJTTzhzUXdTTEhkWjhfUXo2MkhwNVBjM3Yxajk2QWdyVm5qVWdKcGZpUk5Ld21WZkd3MnBOX3U3QU1vZmpJY2RyTzVNSHlFQkVLeVg2UlZpNDhKOEFibk5scVd1QXJVVjRzM0oxTXRrbVE?oc=5",
     "source": "Volcano Discovery",
@@ -330,7 +344,7 @@
     "lon": null
   },
   {
-    "title": "Terremoto leve mag. 3.7 - Offshore Tarapaca, Chile, Thursday 5 Nov 2026 a las 22:09 (GMT -5) - Volcano Discovery",
+    "title": "Terremoto leve mag. 3.7 - Océano Pacífico Sur, 43 km al oeste de Iquique, Iquique, Tarapacá, Chile, Thursday 5 Nov 2026 a las 22:09 (GMT -5) - Volcano Discovery",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOaEh1RnRfa3dIdTFPazJiekNneXg1WlliTkFuTTFlODdlNzhuQk9hNkdwVDdsWE9SbWFqYTJpekxpSU4zYlFSQTBJMzdJSDJYRF9vLVBiWnh6bXFmYmZzYU52Zk93TGk5OTdjd0R6a3lOaTR6bk5kbGd6b2VIVlFHNkxOMnktWUl0enhIQ2R0WTdCcGllMGhEb1VubVdKcFVWVXN1Rk9XUDZGcHFPVUFhcVB3cWwwQQ?oc=5",
     "source": "Volcano Discovery",
     "published": "2026-11-06T03:15:29+00:00",
@@ -338,9 +352,9 @@
       "terremoto"
     ],
     "chile": true,
-    "place": null,
-    "lat": null,
-    "lon": null
+    "place": "iquique",
+    "lat": -20.2133,
+    "lon": -70.1503
   },
   {
     "title": "Terremoto leve mag. 3.5 - 229 km al sureste de Calama, El Loa, Antofagasta, Chile, Thursday 5 Nov 2026 a las 23:24 (Hora Santiago) - Volcano Discovery",
@@ -1864,18 +1878,5 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "title": "Terremoto moderado mag. 4.0 - 38 km al sur de Linares, Linares, Maule, Chile, Tuesday 3 Nov 2026 a las 12:11 (Hora Santiago) - Volcano Discovery",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTnZZM093UnY2Nkw2UV9wWXZ3bllWWGtnM1V2SW5UaVVyVXlFNmJGYWJyN3JHRzBiQkZwNXFpdDVGS0d3NVhJdlFZU2VWWDBkbEpjV09HVU55ZkpoQ09zYXppZEhnV3Z1ZG1JMnJLaFh5SnJrSDhjX2RMaVZsSWJ1ZHpsRW9TZTJ3cWV1YW1zeF9SNFlCVVM2Y1V1eHdiWFItS2xaQy1n?oc=5",
-    "source": "Volcano Discovery",
-    "published": "2026-11-03T15:19:49+00:00",
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "chile": true,
-    "place": "santiago",
-    "lat": -33.4489,
-    "lon": -70.6693
   }
 ]

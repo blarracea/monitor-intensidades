@@ -1239,5 +1239,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391128.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026vzxiyp",
+    "source": "usgs",
+    "time": "2026-11-06T15:17:17.070000+00:00",
+    "updated": "2026-11-06T15:20:16.491000+00:00",
+    "lat": 61.569,
+    "lon": -150.017,
+    "depth_km": 14.9,
+    "magnitude": 2.8,
+    "mag_type": "ml",
+    "place": "6 km NNW of Big Lake, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vzxiyp",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
