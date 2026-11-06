@@ -574,5 +574,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71538583",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026vzftyy",
+    "source": "usgs",
+    "time": "2026-11-06T06:30:13.250000+00:00",
+    "updated": "2026-11-06T06:34:45.986000+00:00",
+    "lat": 57.967,
+    "lon": -154.924,
+    "depth_km": 90.4,
+    "magnitude": 3,
+    "mag_type": "ml",
+    "place": "52 km NNW of Karluk, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026vzftyy",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
