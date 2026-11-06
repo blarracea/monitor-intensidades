@@ -1767,5 +1767,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wamrab",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/391195.html",
+    "source": "csn",
+    "time": "2026-11-06T23:05:00+00:00",
+    "updated": "2026-11-06T23:05:00+00:00",
+    "lat": -20.09,
+    "lon": -69.41,
+    "depth_km": 86.0,
+    "magnitude": 3.5,
+    "mag_type": "MLv",
+    "place": "44 km al NE de Pozo Almonte, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391195.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391195.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
