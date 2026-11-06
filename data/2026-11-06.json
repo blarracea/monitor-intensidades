@@ -790,5 +790,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twfu",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "pr71538593",
+    "source": "usgs",
+    "time": "2026-11-06T09:16:59.530000+00:00",
+    "updated": "2026-11-06T09:46:00.860000+00:00",
+    "lat": 18.6703333333333,
+    "lon": -64.998,
+    "depth_km": 44.19,
+    "magnitude": 2.9,
+    "mag_type": "md",
+    "place": "37 km N of Charlotte Amalie, U.S. Virgin Islands",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71538593",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
