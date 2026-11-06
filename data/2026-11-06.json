@@ -1431,5 +1431,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391157.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000twkp",
+    "source": "usgs",
+    "time": "2026-11-06T17:53:25.873000+00:00",
+    "updated": "2026-11-06T18:16:30.040000+00:00",
+    "lat": -18.0741,
+    "lon": -178.191,
+    "depth_km": 567.218,
+    "magnitude": 4.3,
+    "mag_type": "mb",
+    "place": "263 km E of Levuka, Fiji",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twkp",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
