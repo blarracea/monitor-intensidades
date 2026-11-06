@@ -166,5 +166,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391028.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tweb",
+    "source": "usgs",
+    "time": "2026-11-06T01:37:39.847000+00:00",
+    "updated": "2026-11-06T01:53:40.040000+00:00",
+    "lat": -19.3647,
+    "lon": 168.7529,
+    "depth_km": 83.271,
+    "magnitude": 4.6,
+    "mag_type": "mb",
+    "place": "58 km WNW of Isangel, Vanuatu",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tweb",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
