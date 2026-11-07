@@ -70,5 +70,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80163296",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000twpl",
+    "source": "usgs",
+    "time": "2026-11-07T01:18:03.617000+00:00",
+    "updated": "2026-11-07T01:34:51.040000+00:00",
+    "lat": 43.275,
+    "lon": -110.7175,
+    "depth_km": 5,
+    "magnitude": 2.7,
+    "mag_type": "ml",
+    "place": "5 km E of Hoback, Wyoming",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twpl",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
