@@ -1582,5 +1582,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twu1",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/391369.html",
+    "source": "csn",
+    "time": "2026-11-07T21:24:51+00:00",
+    "updated": "2026-11-07T21:24:51+00:00",
+    "lat": -40.05,
+    "lon": -73.67,
+    "depth_km": 31.0,
+    "magnitude": 2.9,
+    "mag_type": "ML",
+    "place": "45 km al SO de Valdivia, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391369.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391369.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
