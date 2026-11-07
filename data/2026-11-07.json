@@ -286,5 +286,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391242.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000twqe",
+    "source": "usgs",
+    "time": "2026-11-07T05:36:55.416000+00:00",
+    "updated": "2026-11-07T06:24:19.040000+00:00",
+    "lat": -9.8421,
+    "lon": -75.7965,
+    "depth_km": 108.793,
+    "magnitude": 4.3,
+    "mag_type": "mb",
+    "place": "37 km E of Churubamba, Peru",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twqe",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
