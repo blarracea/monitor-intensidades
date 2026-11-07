@@ -260,6 +260,33 @@ SismosApp.addEventMarkers = function (map, events, onSelect) {
   return layer;
 };
 
+// Capa de reportes ciudadanos ("¿Lo sentiste?"): un circulo por comuna con el color promedio de las
+// respuestas en la misma escala de la barra de colores, con borde punteado para distinguirlo del
+// dato oficial. `summary.comunas` viene del servidor (conteo por nivel de cada comuna).
+SismosApp.buildCitizenLayer = function (summary) {
+  const palette = _getPalette();
+  const layer = L.layerGroup();
+  (summary.comunas || []).forEach((entry) => {
+    const coords = (SismosApp.COMUNA_COORDS || {})[entry.comuna];
+    const result = SismosApp.comunaMercalli(entry.by_level);
+    if (!coords || !result) return;
+    const idx = Math.min(255, Math.max(0, Math.floor((result.value / 12) * 255))) * 4;
+    const color = `rgb(${palette[idx]}, ${palette[idx + 1]}, ${palette[idx + 2]})`;
+    const roman = SismosApp.ROMANS[Math.min(12, Math.max(1, Math.round(result.value)))];
+    L.circleMarker(coords, {
+      radius: 15,
+      color: '#111',
+      weight: 2.5,
+      dashArray: '4 3',
+      fillColor: color,
+      fillOpacity: 0.8,
+    })
+      .bindTooltip(`Reporte ciudadano · ${entry.comuna} · aprox. ${roman} · ${result.n} ${result.n === 1 ? "respuesta" : "respuestas"}`)
+      .addTo(layer);
+  });
+  return layer;
+};
+
 // Puntos azules para sismos M5.0+ que NO tienen reporte de intensidad
 // (ni CSN/SENAPRED ni DYFI de USGS) -- a pedido: un sismo grande se puede
 // percibir sin que nadie llegue a reportarlo formalmente, y antes esos

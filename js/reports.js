@@ -17,6 +17,26 @@ SismosApp.LEVELS = [
   { value: 5, label: "Muy fuerte o con daños" },
 ];
 
+// Equivalencia de cada nivel con la escala de Mercalli (I a XII, la misma de la barra de colores
+// del mapa): cada categoria abarca un tramo de numeros romanos y su color es el promedio del tramo.
+// 'No lo senti' (0) no tiene color: cuenta como respuesta, pero no entra al promedio. Es una
+// aproximacion (la gente suele sobrestimar), por eso estas zonas llevan borde punteado en el mapa.
+SismosApp.LEVEL_MERCALLI = { 1: [2, 3], 2: [4, 5], 3: [6, 7], 4: [8, 9], 5: [10, 12] };
+
+SismosApp.ROMANS = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII'];
+
+// Intensidad promedio (0-12) de una comuna a partir de su conteo por nivel; null si nadie la sintio.
+SismosApp.comunaMercalli = (byLevel) => {
+  let sum = 0;
+  let n = 0;
+  for (const [level, [lo, hi]] of Object.entries(SismosApp.LEVEL_MERCALLI)) {
+    const count = Number((byLevel || {})[level] || 0);
+    sum += count * ((lo + hi) / 2);
+    n += count;
+  }
+  return n ? { value: sum / n, n } : null;
+};
+
 // Comunas para el campo opcional (las mismas del set base del backend).
 SismosApp.COMUNAS = [
   "Alto del Carmen", "Alto Hospicio", "Ancud", "Andacollo", "Angol", "Antofagasta", "Arica", "Calama", "Castro",

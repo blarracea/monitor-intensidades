@@ -161,6 +161,47 @@
   let reportRequestId = 0;
   let reportTurnstile = null;
 
+  // Reportes ciudadanos en el mapa: al elegir un sismo, las respuestas de "¿Lo sentiste?" con comuna
+  // se pintan como circulos de borde punteado (ver SismosApp.buildCitizenLayer). Un interruptor
+  // (esquina superior derecha del mapa) permite ocultarlos; solo aparece si hay algo que mostrar.
+  let citizenLayer = null;
+  let citizenControl = null;
+  let citizenVisible = true;
+
+  const removeCitizenLayer = () => {
+    if (citizenLayer) {
+      map.removeLayer(citizenLayer);
+      citizenLayer = null;
+    }
+    if (citizenControl) {
+      map.removeControl(citizenControl);
+      citizenControl = null;
+    }
+  };
+
+  const showCitizenLayer = (summary) => {
+    removeCitizenLayer();
+    const layer = SismosApp.buildCitizenLayer(summary);
+    if (layer.getLayers().length === 0) return;
+    citizenLayer = layer;
+    if (citizenVisible) layer.addTo(map);
+    citizenControl = L.control({ position: "topright" });
+    citizenControl.onAdd = () => {
+      const box = L.DomUtil.create("label", "citizen-toggle leaflet-bar");
+      box.title = "Colores promedio de lo que reportaron las personas (borde punteado), no son datos oficiales";
+      box.innerHTML = `<input type="checkbox"${citizenVisible ? " checked" : ""} /> <span class="citizen-toggle-dot"></span> Reportes ciudadanos`;
+      L.DomEvent.disableClickPropagation(box);
+      box.querySelector("input").addEventListener("change", (e) => {
+        citizenVisible = e.target.checked;
+        if (!citizenLayer) return;
+        if (citizenVisible) citizenLayer.addTo(map);
+        else map.removeLayer(citizenLayer);
+      });
+      return box;
+    };
+    citizenControl.addTo(map);
+  };
+
   const reportSummaryHtml = (summary) => {
     if (!summary || summary.total === 0) {
       return '<p class="report-empty">Todavía nadie ha respondido para este sismo.</p>';
@@ -185,6 +226,7 @@
 
   const renderReportBox = async (event) => {
     const requestId = ++reportRequestId;
+    removeCitizenLayer();
     if (reportTurnstile) {
       reportTurnstile.remove();
       reportTurnstile = null;
@@ -223,7 +265,9 @@
 
     const summaryEl = reportBox.querySelector("#report-summary");
     const showSummary = (summary) => {
-      if (requestId === reportRequestId) summaryEl.innerHTML = reportSummaryHtml(summary);
+      if (requestId !== reportRequestId) return;
+      summaryEl.innerHTML = reportSummaryHtml(summary);
+      if (summary) showCitizenLayer(summary);
     };
     SismosApp.reports
       .summary(event.id)
@@ -569,6 +613,7 @@
     }
     reportBox.classList.add("hidden");
     reportBox.innerHTML = "";
+    removeCitizenLayer();
     if (selectionMarker) {
       map.removeLayer(selectionMarker);
       selectionMarker = null;

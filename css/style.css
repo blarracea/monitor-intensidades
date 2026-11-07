@@ -1102,3 +1102,25 @@ h2.live-feed-title {
     flex: 0 0 auto;
   }
 }
+
+/* Interruptor "Reportes ciudadanos" del mapa (aparece al elegir un sismo con respuestas por comuna). */
+.citizen-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 10px 10px 0 0;
+  padding: 0.3rem 0.55rem;
+  background: #fff;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.citizen-toggle-dot {
+  width: 0.85rem;
+  height: 0.85rem;
+  border-radius: 50%;
+  border: 2px dashed #111;
+  background: #f7b500;
+}
