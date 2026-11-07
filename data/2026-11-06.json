@@ -1815,5 +1815,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391195.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000twp3",
+    "source": "usgs",
+    "time": "2026-11-06T23:15:45.408000+00:00",
+    "updated": "2026-11-07T00:16:09.040000+00:00",
+    "lat": 44.5682,
+    "lon": 148.1062,
+    "depth_km": 78.827,
+    "magnitude": 4.4,
+    "mag_type": "mb",
+    "place": "75 km SSE of Kuril’sk, Russia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twp3",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
