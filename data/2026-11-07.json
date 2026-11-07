@@ -430,5 +430,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391272.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026wbexmo",
+    "source": "usgs",
+    "time": "2026-11-07T08:03:36.087000+00:00",
+    "updated": "2026-11-07T08:05:06.330000+00:00",
+    "lat": 61.106,
+    "lon": -151.163,
+    "depth_km": 72.1,
+    "magnitude": 2.7,
+    "mag_type": "ml",
+    "place": "4 km NNW of Tyonek, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wbexmo",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
