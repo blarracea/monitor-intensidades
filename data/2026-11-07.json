@@ -646,5 +646,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391293.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000twrq",
+    "source": "usgs",
+    "time": "2026-11-07T11:07:43.355000+00:00",
+    "updated": "2026-11-07T11:23:18.040000+00:00",
+    "lat": 36.1884,
+    "lon": 141.4404,
+    "depth_km": 31.748,
+    "magnitude": 5.5,
+    "mag_type": "mww",
+    "place": "74 km NE of Hasaki, Japan",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twrq",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
