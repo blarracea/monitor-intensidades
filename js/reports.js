@@ -37,16 +37,17 @@ SismosApp.comunaMercalli = (byLevel) => {
   return n ? { value: sum / n, n } : null;
 };
 
-// Comunas para el campo opcional (las mismas del set base del backend).
-SismosApp.COMUNAS = [
-  "Alto del Carmen", "Alto Hospicio", "Ancud", "Andacollo", "Angol", "Antofagasta", "Arica", "Calama", "Castro",
-  "Chillán", "Concepción", "Copiapó", "Coquimbo", "Coronel", "Coyhaique", "Curicó", "Illapel", "Iquique",
-  "La Florida", "La Higuera", "La Serena", "Las Condes", "Linares", "Los Andes", "Los Ángeles", "Maipú",
-  "Monte Patria", "Osorno", "Ovalle", "Paihuano", "Puente Alto", "Puerto Montt", "Puerto Natales", "Puerto Varas",
-  "Punitaqui", "Punta Arenas", "Quillota", "Rancagua", "Rengo", "Río Hurtado", "San Antonio", "San Fernando",
-  "Santiago", "Talca", "Talcahuano", "Temuco", "Tocopilla", "Tongoy", "Valdivia", "Vallenar", "Valparaíso",
-  "Vicuña", "Villarrica", "Viña del Mar",
-];
+// Comunas para el campo opcional: todas las de js/comunas-coords.js (la misma lista que acepta el
+// servidor). El campo de la pagina es un buscador: se escribe y se elige de la lista.
+SismosApp.COMUNAS = Object.keys(SismosApp.COMUNA_COORDS || {}).sort((x, y) => x.localeCompare(y, 'es'));
+
+const _plain = (text) => String(text).normalize('NFD').replace(/[̀-ͯ]/g, '').trim().toLowerCase();
+
+// Nombre oficial de la comuna que escribio la persona (sin importar mayusculas ni tildes), o null.
+SismosApp.matchComuna = (text) => {
+  const wanted = _plain(text);
+  return SismosApp.COMUNAS.find((c) => _plain(c) === wanted) || null;
+};
 
 SismosApp.reports = (function () {
   const DEMO_KEY = "sismos_demo_reports_v1"; // { [event_id]: {intensity, comuna} }

@@ -243,9 +243,7 @@
     const options = SismosApp.LEVELS.map(
       (l) => `<button type="button" class="report-choice${mine && mine.intensity === l.value ? " is-selected" : ""}" data-level="${l.value}">${_escapeHtmlDetail(l.label)}</button>`
     ).join("");
-    const comunaOptions = SismosApp.COMUNAS.map(
-      (c) => `<option value="${_escapeAttrDetail(c)}"${mine && mine.comuna === c ? " selected" : ""}>${_escapeHtmlDetail(c)}</option>`
-    ).join("");
+    const comunaOptions = SismosApp.COMUNAS.map((c) => `<option value="${_escapeAttrDetail(c)}"></option>`).join("");
 
     reportBox.innerHTML = `
       <h3>¿Lo sentiste?</h3>
@@ -254,7 +252,8 @@
         canAnswer
           ? `<div class="report-choices">${options}</div>
              <label class="report-comuna">¿Dónde estabas? (opcional)
-               <select id="report-comuna"><option value="">—</option>${comunaOptions}</select></label>
+               <input id="report-comuna" type="text" list="report-comuna-list" placeholder="Escribe y elige tu comuna" autocomplete="off" value="${mine && mine.comuna ? _escapeAttrDetail(mine.comuna) : ""}" />
+               <datalist id="report-comuna-list">${comunaOptions}</datalist></label>
              <div id="report-turnstile"></div>
              <p id="report-message" class="report-message">${mine ? "Ya respondiste. Puedes cambiar tu respuesta." : ""}</p>
              ${demo ? "" : '<p class="report-privacy">Tu respuesta es anónima: no guardamos tu IP ni tu nombre, solo un código irreversible para contar una respuesta por persona y sismo. Protegido con Cloudflare Turnstile.</p>'}`
@@ -285,7 +284,12 @@
         const message = reportBox.querySelector("#report-message");
         message.textContent = "Enviando…";
         try {
-          const comuna = reportBox.querySelector("#report-comuna").value;
+          const typed = reportBox.querySelector("#report-comuna").value.trim();
+          const comuna = typed ? SismosApp.matchComuna(typed) : "";
+          if (typed && !comuna) {
+            message.textContent = "Elige una comuna de la lista (escribe las primeras letras) o deja el campo vacío.";
+            return;
+          }
           const token = turnstile ? await turnstile.token() : null;
           let summary;
           try {

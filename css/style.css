@@ -1017,7 +1017,7 @@ h2.live-feed-title {
   color: var(--color-text-muted);
 }
 
-.report-comuna select {
+.report-comuna input {
   display: block;
   flex: 1 1 auto;
   min-width: 0;
