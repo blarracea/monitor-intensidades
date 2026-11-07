@@ -94,5 +94,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twpl",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/391215.html",
+    "source": "csn",
+    "time": "2026-11-07T01:54:32+00:00",
+    "updated": "2026-11-07T01:54:32+00:00",
+    "lat": -21.14,
+    "lon": -70.32,
+    "depth_km": 33.0,
+    "magnitude": 3.2,
+    "mag_type": "MLv",
+    "place": "38 km al S de Patache, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391215.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391215.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
