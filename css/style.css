@@ -1037,25 +1037,28 @@ h2.live-feed-title {
 }
 
 /* Boton que hace efectivo el envio -- antes se mandaba solo con elegir una
-   opcion, sin dar tiempo a escribir la comuna. Solido (no outline, a
-   diferencia de .report-choice) para que se note que es la accion final. */
+   opcion, sin dar tiempo a escribir la comuna. Mismo estilo "outline" que
+   .report-choice (a proposito, no solido): un bloque solido a todo el ancho
+   con el azul oscuro del sitio le ganaba protagonismo a todo lo demas en el
+   recuadro. Se sigue reconociendo como boton; el relleno al pasar el mouse
+   (igual que .report-choice:hover) basta para que se note que es clickeable. */
 .report-submit {
   display: block;
   width: 100%;
   margin: 0.5rem 0 0.3rem;
-  padding: 0.45rem;
+  padding: 0.4rem;
   font: inherit;
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   font-weight: 700;
-  color: #fff;
-  background: var(--color-header-bg);
+  color: var(--color-header-bg);
+  background: #fff;
   border: 1px solid var(--color-header-bg);
   border-radius: 6px;
   cursor: pointer;
 }
 
 .report-submit:hover {
-  background: var(--color-header-bg-2);
+  background: #eef3f7;
 }
 
 .report-total {
