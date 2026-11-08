@@ -967,6 +967,17 @@ h2.live-feed-title {
   color: var(--color-text-muted);
 }
 
+/* Link chico a privacidad.html: que diga que se guarda y por que, sin volver
+   a meter el parrafo largo que antes iba aca (ver PR que lo saco). */
+.report-privacy-link {
+  margin: 0.3rem 0 0;
+  font-size: 0.68rem;
+}
+
+.report-privacy-link a {
+  color: var(--color-text-muted);
+}
+
 .report-demo {
   padding: 0.3rem 0.5rem;
   background: #fff3d6;
@@ -1219,4 +1230,60 @@ h2.live-feed-title {
   border-radius: 50%;
   border: 2px dashed #111;
   background: #f7b500;
+}
+
+/* --- Pagina de privacidad/fuentes (privacidad.html) -- pagina de texto simple,
+   no el layout de grilla del dashboard, asi que usa su propio contenedor angosto
+   centrado en vez de .app-main. */
+.doc-page {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem 1rem 3rem;
+}
+
+.doc-card {
+  max-width: 640px;
+  width: 100%;
+  line-height: 1.5;
+}
+
+.doc-back {
+  margin: 0 0 1rem;
+  font-size: 0.85rem;
+}
+
+.doc-back a {
+  color: var(--color-header-bg);
+}
+
+.doc-card h2 {
+  margin: 0 0 0.5rem;
+  color: var(--color-header-bg);
+}
+
+.doc-card h3 {
+  margin: 1.5rem 0 0.4rem;
+  color: var(--color-header-bg);
+  font-size: 1rem;
+}
+
+.doc-intro {
+  color: var(--color-text-muted);
+}
+
+.doc-card ul {
+  margin: 0.3rem 0;
+  padding-left: 1.3rem;
+}
+
+.doc-card li {
+  margin: 0.3rem 0;
+}
+
+.doc-contact {
+  font-style: normal;
+}
+
+.doc-contact a {
+  color: var(--color-header-bg);
 }
