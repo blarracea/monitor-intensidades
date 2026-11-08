@@ -1008,9 +1008,14 @@ h2.live-feed-title {
 
 .report-choice:hover { background: #eef3f7; }
 
+/* Antes relleno solido (fondo azul oscuro, texto blanco): junto con el resto
+   de las mejoras a este recuadro, era el elemento que mas saltaba a la vista
+   en toda la pagina. Un tinte claro (el mismo que .report-choice:hover) mas
+   texto en negrita distingue la opcion elegida sin ese golpe de color. */
 .report-choice.is-selected {
-  color: #fff;
-  background: var(--color-header-bg);
+  color: var(--color-header-bg);
+  background: #dbe7f3;
+  font-weight: 700;
 }
 
 /* "¿Donde estabas?" y el selector en la misma linea. */
