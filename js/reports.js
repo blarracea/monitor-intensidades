@@ -93,10 +93,15 @@ SismosApp.reports = (function () {
     felt: 0,
     not_felt: 0,
     by_level: { 0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 },
+    comunas: [],
     top_comunas: [],
   });
 
   // En demo el "resumen" es solo la respuesta de esta persona (no hay nadie mas).
+  // "comunas" (con el desglose por nivel) es lo que SismosApp.buildCitizenLayer usa para
+  // pintar el circulo de la comuna en el mapa -- mismo campo que el servidor real (ver
+  // summarize() en reports-worker/src/index.js), para que el modo demostracion tambien
+  // la muestre.
   const demoSummary = (eventId) => {
     const mine = readJson(DEMO_KEY)[eventId];
     const summary = emptySummary(eventId);
@@ -105,7 +110,12 @@ SismosApp.reports = (function () {
       summary.by_level[mine.intensity] = 1;
       if (mine.intensity > 0) {
         summary.felt = 1;
-        if (mine.comuna) summary.top_comunas = [{ comuna: mine.comuna, n: 1 }];
+        if (mine.comuna) {
+          const by_level = { 0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
+          by_level[mine.intensity] = 1;
+          summary.comunas = [{ comuna: mine.comuna, n: 1, by_level }];
+          summary.top_comunas = [{ comuna: mine.comuna, n: 1 }];
+        }
       } else {
         summary.not_felt = 1;
       }

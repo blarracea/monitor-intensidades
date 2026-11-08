@@ -158,8 +158,13 @@ export async function handleSummary(request, env) {
 
 async function summarize(eventId, env) {
   const byLevel = await env.DB.prepare("SELECT intensity, COUNT(*) AS n FROM reports WHERE event_id = ? GROUP BY intensity").bind(eventId).all();
-  const byComuna = await env.DB.prepare(
-    "SELECT comuna, COUNT(*) AS n FROM reports WHERE event_id = ? AND comuna IS NOT NULL AND intensity > 0 GROUP BY comuna ORDER BY n DESC LIMIT 5"
+  // Por comuna Y nivel (no solo el total por comuna): el frontend necesita el desglose
+  // por nivel de cada comuna para pintar el circulo de intensidad promedio en el mapa
+  // (SismosApp.buildCitizenLayer, via SismosApp.comunaMercalli) -- antes esta funcion
+  // solo devolvia el total "top_comunas" (para el texto "Desde: ..."), asi que esa capa
+  // del mapa nunca tenia datos que leer y no se pintaba nada, con o sin comuna elegida.
+  const byComunaLevel = await env.DB.prepare(
+    "SELECT comuna, intensity, COUNT(*) AS n FROM reports WHERE event_id = ? AND comuna IS NOT NULL AND intensity > 0 GROUP BY comuna, intensity"
   )
     .bind(eventId)
     .all();
@@ -167,13 +172,24 @@ async function summarize(eventId, env) {
   const levels = { 0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 };
   for (const row of byLevel.results || []) levels[row.intensity] = row.n;
   const total = Object.values(levels).reduce((a, b) => a + b, 0);
+
+  const byComuna = new Map();
+  for (const row of byComunaLevel.results || []) {
+    if (!byComuna.has(row.comuna)) byComuna.set(row.comuna, { comuna: row.comuna, n: 0, by_level: { 0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0 } });
+    const entry = byComuna.get(row.comuna);
+    entry.by_level[row.intensity] = row.n;
+    entry.n += row.n;
+  }
+  const comunas = [...byComuna.values()].sort((a, b) => b.n - a.n);
+
   return {
     event_id: eventId,
     total,
     felt: total - levels[0],
     not_felt: levels[0],
     by_level: levels,
-    top_comunas: (byComuna.results || []).map((r) => ({ comuna: r.comuna, n: r.n })),
+    comunas,
+    top_comunas: comunas.slice(0, 5).map((c) => ({ comuna: c.comuna, n: c.n })),
   };
 }
 
