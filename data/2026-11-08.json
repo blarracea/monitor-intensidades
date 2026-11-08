@@ -550,5 +550,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391429.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000twwc",
+    "source": "usgs",
+    "time": "2026-11-08T06:30:19.447000+00:00",
+    "updated": "2026-11-08T06:39:09.040000+00:00",
+    "lat": 19.2047,
+    "lon": -67.8523,
+    "depth_km": 30.424,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "90 km NE of Punta Cana, Dominican Republic",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twwc",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
