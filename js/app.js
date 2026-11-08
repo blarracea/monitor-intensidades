@@ -251,12 +251,11 @@
       ${
         canAnswer
           ? `<div class="report-choices">${options}</div>
-             <label class="report-comuna">¿Dónde estabas? (opcional)
+             <label class="report-comuna">¿Dónde estabas?
                <input id="report-comuna" type="text" list="report-comuna-list" placeholder="Escribe y elige tu comuna" autocomplete="off" value="${mine && mine.comuna ? _escapeAttrDetail(mine.comuna) : ""}" />
                <datalist id="report-comuna-list">${comunaOptions}</datalist></label>
              <div id="report-turnstile"></div>
-             <p id="report-message" class="report-message">${mine ? "Ya respondiste. Puedes cambiar tu respuesta." : ""}</p>
-             ${demo ? "" : '<p class="report-privacy">Tu respuesta es anónima: no guardamos tu IP ni tu nombre, solo un código irreversible para contar una respuesta por persona y sismo. Protegido con Cloudflare Turnstile.</p>'}`
+             <p id="report-message" class="report-message">${mine ? "Ya respondiste. Puedes cambiar tu respuesta." : ""}</p>`
           : `<p class="report-closed">Las respuestas se reciben hasta ${REPORT_WINDOW_HOURS / 24} días después del sismo.</p>`
       }
       <div id="report-summary" class="report-summary"><p class="report-empty">Cargando respuestas…</p></div>`;
@@ -308,13 +307,10 @@
     });
   };
 
-  // Profundidad del foco: cuanto mas superficial, mas se siente en la superficie para una misma
-  // magnitud. Clasificacion habitual: superficial (< 70 km), intermedio (70-300) y profundo (> 300).
   const depthLabel = (km) => {
     if (km == null || Number.isNaN(Number(km))) return "-";
     const depth = Number(km);
-    const kind = depth < 70 ? "superficial" : depth <= 300 ? "intermedio" : "profundo";
-    return `${_escapeHtmlDetail(String(Math.round(depth * 10) / 10).replace(".", ","))} km (${kind})`;
+    return `${_escapeHtmlDetail(String(Math.round(depth * 10) / 10).replace(".", ","))} km`;
   };
 
   const showEventDetail = (event) => {
