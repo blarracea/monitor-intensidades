@@ -243,7 +243,6 @@
     const options = SismosApp.LEVELS.map(
       (l) => `<button type="button" class="report-choice${mine && mine.intensity === l.value ? " is-selected" : ""}" data-level="${l.value}">${_escapeHtmlDetail(l.label)}</button>`
     ).join("");
-    const comunaOptions = SismosApp.COMUNAS.map((c) => `<option value="${_escapeAttrDetail(c)}"></option>`).join("");
 
     reportBox.innerHTML = `
       <h3>¿Lo sentiste?</h3>
@@ -252,8 +251,10 @@
         canAnswer
           ? `<div class="report-choices">${options}</div>
              <label class="report-comuna">¿Dónde estabas?
-               <input id="report-comuna" type="text" list="report-comuna-list" placeholder="Escribe y elige tu comuna" autocomplete="off" value="${mine && mine.comuna ? _escapeAttrDetail(mine.comuna) : ""}" />
-               <datalist id="report-comuna-list">${comunaOptions}</datalist></label>
+               <span class="report-comuna-field">
+                 <input id="report-comuna" type="text" placeholder="Escribe y elige tu comuna" autocomplete="off" value="${mine && mine.comuna ? _escapeAttrDetail(mine.comuna) : ""}" />
+                 <ul id="report-comuna-suggestions" class="report-comuna-suggestions hidden"></ul>
+               </span></label>
              <div id="report-turnstile"></div>
              <button type="button" id="report-submit" class="report-submit">Enviar</button>
              <p id="report-message" class="report-message">${mine ? "Ya respondiste. Puedes cambiar tu respuesta." : ""}</p>`
@@ -278,6 +279,46 @@
     const turnstileHost = reportBox.querySelector("#report-turnstile");
     const turnstile = turnstileHost ? SismosApp.reports.mountTurnstile(turnstileHost) : null;
     reportTurnstile = turnstile;
+
+    // Buscador de comuna con lista propia (no <datalist> nativo): dentro de un panel con
+    // scroll (.event-detail tiene overflow-y:auto) el desplegable nativo del navegador
+    // queda mal posicionado y los clicks no caen sobre la sugerencia -- reportado por el
+    // usuario ("elegir una comuna de la lista no funciona bien"). Con una lista propia
+    // (absolute, ancla al input) el click siempre cae donde se ve.
+    const comunaInput = reportBox.querySelector("#report-comuna");
+    const comunaList = reportBox.querySelector("#report-comuna-suggestions");
+    if (comunaInput && comunaList) {
+      const renderSuggestions = () => {
+        const matches = SismosApp.filterComunas(comunaInput.value);
+        if (!matches.length) {
+          comunaList.innerHTML = "";
+          comunaList.classList.add("hidden");
+          return;
+        }
+        comunaList.innerHTML = matches
+          .map((c) => `<li data-comuna="${_escapeAttrDetail(c)}">${_escapeHtmlDetail(c)}</li>`)
+          .join("");
+        comunaList.classList.remove("hidden");
+      };
+      comunaInput.addEventListener("input", renderSuggestions);
+      comunaInput.addEventListener("focus", renderSuggestions);
+      // mousedown (no click) dispara ANTES que el blur del input, asi el valor se
+      // alcanza a copiar antes de que la lista se cierre.
+      comunaList.addEventListener("mousedown", (e) => {
+        const li = e.target.closest("li");
+        if (!li) return;
+        e.preventDefault();
+        comunaInput.value = li.dataset.comuna;
+        comunaList.innerHTML = "";
+        comunaList.classList.add("hidden");
+      });
+      comunaInput.addEventListener("blur", () => {
+        setTimeout(() => comunaList.classList.add("hidden"), 150);
+      });
+      comunaInput.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") comunaList.classList.add("hidden");
+      });
+    }
 
     // Elegir una opcion solo la marca -- el envio real queda a cargo del boton
     // "Enviar" (antes se mandaba al toque, sin dar tiempo a completar la comuna).
