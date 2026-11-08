@@ -308,6 +308,15 @@
     });
   };
 
+  // Profundidad del foco: cuanto mas superficial, mas se siente en la superficie para una misma
+  // magnitud. Clasificacion habitual: superficial (< 70 km), intermedio (70-300) y profundo (> 300).
+  const depthLabel = (km) => {
+    if (km == null || Number.isNaN(Number(km))) return "-";
+    const depth = Number(km);
+    const kind = depth < 70 ? "superficial" : depth <= 300 ? "intermedio" : "profundo";
+    return `${_escapeHtmlDetail(String(Math.round(depth * 10) / 10).replace(".", ","))} km (${kind})`;
+  };
+
   const showEventDetail = (event) => {
     highlightEvent(event);
     // El panel scrollea por dentro cuando no entra (ver .stack-column .event-detail): al
@@ -353,6 +362,7 @@
     detailBody.innerHTML = `
       <dt>Referencia geográfica</dt><dd>${_escapeHtmlDetail(event.place || "-")}</dd>
       <dt>Magnitud</dt><dd>${_escapeHtmlDetail(event.magnitude ?? "-")} ${_escapeHtmlDetail(event.mag_type || "")}</dd>
+      <dt>Profundidad</dt><dd>${depthLabel(event.depth_km)}</dd>
       <dt>Hora (UTC)</dt><dd>${utcTime}</dd>
       <dt>Hora (Chile)</dt><dd>${chileTime}</dd>
       <dt>Fuente</dt><dd>${fuenteLinks}</dd>
