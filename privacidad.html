@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Privacidad y fuentes — Monitor Intensidades</title>
+<link rel="stylesheet" href="css/style.css?v=p43" />
+</head>
+<body>
+  <header class="app-header">
+    <h1>Monitor Intensidades</h1>
+  </header>
+
+  <main class="doc-page">
+    <div class="panel doc-card">
+      <p class="doc-back"><a href="index.html">← Volver al mapa</a></p>
+      <h2>Privacidad y fuentes de datos</h2>
+      <p class="doc-intro">
+        Esta página resume qué datos guarda el sitio cuando respondés
+        "¿Lo sentiste?" y de dónde sale la información que se muestra en
+        el mapa, los paneles y los reportes.
+      </p>
+
+      <h3>"¿Lo sentiste?" — qué se guarda</h3>
+      <ul>
+        <li>El nivel que elegiste (de "No lo sentí" a "Muy fuerte o con daños") y, si la escribiste, la comuna.</li>
+        <li>
+          Un <strong>hash</strong> (una huella irreversible, no la dirección en sí) de tu IP, calculado junto con una
+          clave secreta que solo tiene el servidor. Sirve únicamente para contar una respuesta por persona y por
+          sismo — <strong>nunca se guarda tu IP real ni tu nombre</strong>.
+        </li>
+        <li>La hora en que respondiste.</li>
+      </ul>
+      <p>
+        El formulario está protegido con <a href="https://www.cloudflare.com/products/turnstile/" target="_blank" rel="noopener">Cloudflare Turnstile</a>
+        (verificación anti-robots) para evitar respuestas automatizadas o falsas — no te identifica como persona, solo confirma que no sos un bot.
+      </p>
+      <p>
+        El servidor solo entrega <strong>totales agregados</strong> (cuántas personas eligieron cada nivel, las
+        comunas con más respuestas): nunca se muestran ni se comparten respuestas individuales de nadie.
+      </p>
+      <p>
+        Los reportes no se borran automáticamente, igual que los datos de sismos — pero como el hash de tu IP no se
+        puede revertir a la dirección original, no queda nada que te identifique.
+      </p>
+
+      <h3>Fuentes de datos que usa el sitio</h3>
+      <p>Todo lo que se muestra enlaza de vuelta a su fuente original:</p>
+      <ul>
+        <li><strong>CSN</strong> (Centro Sismológico Nacional, Universidad de Chile) y <strong>SENAPRED</strong>: catálogo de sismos e intensidad percibida en Chile.</li>
+        <li><strong>USGS</strong> (Servicio Geológico de EE. UU.): catálogo de sismos e intensidad percibida ("Did You Feel It?") para el resto del mundo.</li>
+        <li><strong>SNAM/SHOA</strong> (Servicio Hidrográfico y Oceanográfico de la Armada): confirmación de magnitud y referencia para sismos M≥5.0, cuando está disponible.</li>
+        <li><strong>Google News</strong> (RSS): menciones de cada sismo en medios chilenos.</li>
+        <li><strong>Bluesky</strong> y <strong>Mastodon</strong>: publicaciones públicas con palabras clave del proyecto, vía las APIs oficiales de cada red.</li>
+      </ul>
+      <p>
+        El sitio es gratuito, sin publicidad y sin fines de lucro — recolecta y muestra esta información pública
+        por interés en la difusión sísmica, no la vende ni la usa con otro propósito.
+      </p>
+
+      <h3>Contacto</h3>
+      <address class="doc-contact">
+        <a href="mailto:contacto@reportasismo.cl">contacto@reportasismo.cl</a>
+      </address>
+    </div>
+  </main>
+</body>
+</html>

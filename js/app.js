@@ -258,7 +258,8 @@
                </span></label>
              <div id="report-turnstile"></div>
              <button type="button" id="report-submit" class="report-submit">Enviar</button>
-             <p id="report-message" class="report-message">${mine ? "Ya respondiste. Puedes cambiar tu respuesta." : ""}</p>`
+             <p id="report-message" class="report-message">${mine ? "Ya respondiste. Puedes cambiar tu respuesta." : ""}</p>
+             ${demo ? "" : '<p class="report-privacy-link"><a href="privacidad.html" target="_blank" rel="noopener">Privacidad</a></p>'}`
           : `<p class="report-closed">Las respuestas se reciben hasta ${REPORT_WINDOW_HOURS / 24} días después del sismo.</p>`
       }
       <div id="report-summary" class="report-summary"><p class="report-empty">Cargando respuestas…</p></div>`;
