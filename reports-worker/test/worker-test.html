@@ -41,15 +41,23 @@
           async all() {
             const [eventId] = args;
             const mine = rows.filter((r) => r.event_id === eventId);
+            if (/GROUP BY comuna, intensity/.test(sql)) {
+              const m = {};
+              mine.filter((r) => r.comuna && r.intensity > 0).forEach((r) => {
+                const key = `${r.comuna}\u0000${r.intensity}`;
+                m[key] = (m[key] || 0) + 1;
+              });
+              return {
+                results: Object.entries(m).map(([key, n]) => {
+                  const [comuna, intensity] = key.split("\u0000");
+                  return { comuna, intensity: Number(intensity), n };
+                }),
+              };
+            }
             if (/GROUP BY intensity/.test(sql)) {
               const m = {};
               mine.forEach((r) => (m[r.intensity] = (m[r.intensity] || 0) + 1));
               return { results: Object.entries(m).map(([intensity, n]) => ({ intensity: Number(intensity), n })) };
-            }
-            if (/GROUP BY comuna/.test(sql)) {
-              const m = {};
-              mine.filter((r) => r.comuna && r.intensity > 0).forEach((r) => (m[r.comuna] = (m[r.comuna] || 0) + 1));
-              return { results: Object.entries(m).map(([comuna, n]) => ({ comuna, n })).sort((a, b) => b.n - a.n).slice(0, 5) };
             }
             throw new Error("all() no simulado: " + sql);
           },
@@ -99,6 +107,12 @@
   r = await call(e, ok({ comuna: "Arica" }), "3.3.3.3");
   const comunas = r.data.top_comunas.map((c) => c.comuna);
   check("comuna de la lista se acepta", comunas.includes("Arica"), JSON.stringify(comunas));
+  // r.data.comunas (desglose por nivel) es lo que SismosApp.buildCitizenLayer usa para
+  // pintar el circulo de cada comuna en el mapa -- sin esto (el bug que reporto el
+  // usuario: "no me aparecio nada en el mapa de calor" al enviar un reporte), la capa
+  // de reportes ciudadanos nunca tenia datos que leer, con o sin comuna elegida.
+  const arica = (r.data.comunas || []).find((c) => c.comuna === "Arica");
+  check("el resumen trae el desglose por nivel de Arica (para pintarla en el mapa)", !!arica && arica.by_level && arica.by_level[3] === 1, JSON.stringify(arica));
   check("comuna con HTML se rechaza (400)", (await call(env(), ok({ comuna: "<b>Arica</b>" }))).status === 400);
   check("comuna inventada se rechaza (400)", (await call(env(), ok({ comuna: "Narnia" }))).status === 400);
   check("comuna con tilde de la lista se acepta (Viña del Mar)", (await call(env(), ok({ comuna: "Viña del Mar" }))).status === 200);

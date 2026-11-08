@@ -16,7 +16,10 @@ source = (root / "src" / "index.js").read_text(encoding="utf-8")
 QUERIES = {
     "count": "SELECT COUNT(*) AS n FROM reports WHERE voter_hash = ? AND created_at >= ?",
     "by_level": "SELECT intensity, COUNT(*) AS n FROM reports WHERE event_id = ? GROUP BY intensity",
-    "by_comuna": "SELECT comuna, COUNT(*) AS n FROM reports WHERE event_id = ? AND comuna IS NOT NULL AND intensity > 0 GROUP BY comuna ORDER BY n DESC LIMIT 5",
+    # Por comuna Y nivel (no solo el total): el frontend arma el promedio Mercalli de cada
+    # comuna a partir de este desglose (SismosApp.comunaMercalli, via buildCitizenLayer) --
+    # antes la consulta solo traia el total por comuna y esa capa del mapa quedaba sin datos.
+    "by_comuna_level": "SELECT comuna, intensity, COUNT(*) AS n FROM reports WHERE event_id = ? AND comuna IS NOT NULL AND intensity > 0 GROUP BY comuna, intensity",
 }
 UPSERT = """INSERT INTO reports (event_id, voter_hash, intensity, comuna, created_at) VALUES (?, ?, ?, ?, ?)
      ON CONFLICT(event_id, voter_hash) DO UPDATE SET intensity = excluded.intensity, comuna = excluded.comuna, created_at = excluded.created_at"""
@@ -37,8 +40,14 @@ n_rows = db.execute("SELECT COUNT(*) FROM reports").fetchone()[0]
 assert n_rows == 4, f"upsert duplico filas: {n_rows}"
 by_level = dict(db.execute(QUERIES["by_level"], (ev,)).fetchall())
 assert by_level == {0: 1, 4: 2, 5: 1}, by_level
-top = db.execute(QUERIES["by_comuna"], (ev,)).fetchall()
-assert dict(top) == {"Arica": 2, "Iquique": 1}, top  # 'b' (no lo sintio) no cuenta
+
+by_comuna_level = db.execute(QUERIES["by_comuna_level"], (ev,)).fetchall()
+comunas = {}
+for comuna, intensity, n in by_comuna_level:
+    comunas.setdefault(comuna, {})[intensity] = n
+assert comunas == {"Arica": {4: 1, 5: 1}, "Iquique": {4: 1}}, comunas  # 'b' (no lo sintio) no cuenta
+totals = {comuna: sum(levels.values()) for comuna, levels in comunas.items()}
+assert totals == {"Arica": 2, "Iquique": 1}, totals
 assert db.execute(QUERIES["count"], ("a", "2026-11-01T09:00:00Z")).fetchone()[0] == 1
 assert db.execute(QUERIES["count"], ("a", "2026-11-01T11:00:00Z")).fetchone()[0] == 0
 
