@@ -1020,6 +1020,7 @@ h2.live-feed-title {
   gap: 0.4rem;
   margin: 0.3rem 0;
   font-size: 0.74rem;
+  font-weight: 700;
   color: var(--color-header-bg);
 }
 
@@ -1032,6 +1033,7 @@ h2.live-feed-title {
   padding: 0.1rem 0.2rem;
   font: inherit;
   font-size: 0.78rem;
+  font-weight: 400;
 }
 
 .report-total {
