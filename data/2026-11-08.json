@@ -886,5 +886,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391459.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000twx5",
+    "source": "usgs",
+    "time": "2026-11-08T10:34:25.714000+00:00",
+    "updated": "2026-11-08T10:39:26.040000+00:00",
+    "lat": 37.0823,
+    "lon": -104.9914,
+    "depth_km": 5,
+    "magnitude": 3.4,
+    "mag_type": "ml",
+    "place": "8 km SSE of Stonewall Gap, Colorado",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twx5",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
