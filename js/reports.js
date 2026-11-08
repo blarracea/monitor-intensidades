@@ -49,6 +49,22 @@ SismosApp.matchComuna = (text) => {
   return SismosApp.COMUNAS.find((c) => _plain(c) === wanted) || null;
 };
 
+// Comunas que calzan con lo escrito, para la lista de sugerencias del buscador (ver
+// js/app.js) -- primero las que EMPIEZAN con el texto, despues las que lo contienen en
+// cualquier parte (ej. "erena" encuentra "La Serena"), sin importar mayusculas ni tildes.
+SismosApp.filterComunas = (text, limit = 8) => {
+  const wanted = _plain(text);
+  if (!wanted) return [];
+  const starts = [];
+  const contains = [];
+  for (const c of SismosApp.COMUNAS) {
+    const plain = _plain(c);
+    if (plain.startsWith(wanted)) starts.push(c);
+    else if (plain.includes(wanted)) contains.push(c);
+  }
+  return [...starts, ...contains].slice(0, limit);
+};
+
 SismosApp.reports = (function () {
   const DEMO_KEY = "sismos_demo_reports_v1"; // { [event_id]: {intensity, comuna} }
   const MY_KEY = "sismos_my_reports_v1"; // lo que ESTE navegador ya respondio (modo real)

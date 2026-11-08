@@ -1029,16 +1029,57 @@ h2.live-feed-title {
   color: var(--color-header-bg);
 }
 
-.report-comuna input {
-  display: block;
+.report-comuna-field {
+  position: relative;
   flex: 1 1 auto;
   min-width: 0;
-  width: auto;
+}
+
+.report-comuna input {
+  display: block;
+  width: 100%;
   margin-top: 0;
   padding: 0.1rem 0.2rem;
   font: inherit;
   font-size: 0.78rem;
   font-weight: 400;
+}
+
+/* Lista de sugerencias propia (no <datalist> nativo -- ver el comentario en js/app.js
+   sobre por que: el desplegable del navegador queda mal posicionado dentro de un panel
+   con scroll, y los clicks no caian sobre la sugerencia). Ancla justo debajo del input,
+   mismo ancho. A diferencia del datalist nativo (que escapa del recorte por ser UI del
+   navegador), esta lista es un elemento normal: si el input queda cerca del borde
+   inferior visible de .event-detail (que tiene overflow-y:auto), el panel puede recortar
+   parte de la lista -- hace falta bajar un poco el scroll del panel para verla entera.
+   Es un costo aceptado: a cambio, cualquier sugerencia que SI se vea es clickeable de
+   verdad, que es justo lo que el datalist nativo no garantizaba. */
+.report-comuna-suggestions {
+  position: absolute;
+  z-index: 5;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin: 2px 0 0;
+  padding: 0.2rem 0;
+  list-style: none;
+  max-height: 10rem;
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid var(--color-header-bg);
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(10, 46, 77, 0.2);
+  font-weight: 400;
+}
+
+.report-comuna-suggestions li {
+  padding: 0.3rem 0.5rem;
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+
+.report-comuna-suggestions li:hover {
+  background: #eef3f7;
 }
 
 /* Boton que hace efectivo el envio -- antes se mandaba solo con elegir una
