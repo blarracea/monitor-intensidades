@@ -838,5 +838,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75068467",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000twx1",
+    "source": "usgs",
+    "time": "2026-11-08T09:23:35.700000+00:00",
+    "updated": "2026-11-08T09:52:58.040000+00:00",
+    "lat": 39.8647,
+    "lon": 143.5257,
+    "depth_km": 10,
+    "magnitude": 4.7,
+    "mag_type": "mb",
+    "place": "137 km E of Miyako, Japan",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twx1",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
