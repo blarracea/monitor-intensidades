@@ -1735,5 +1735,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twz2",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/391527.html",
+    "source": "csn",
+    "time": "2026-11-08T20:42:14+00:00",
+    "updated": "2026-11-08T20:42:14+00:00",
+    "lat": -20.73,
+    "lon": -69.26,
+    "depth_km": 86.0,
+    "magnitude": 3.0,
+    "mag_type": "MLv",
+    "place": "27 km al S de Pica, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391527.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391527.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
