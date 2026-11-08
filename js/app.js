@@ -253,6 +253,7 @@
              <label class="report-comuna">¿Dónde estabas?
                <span class="report-comuna-field">
                  <input id="report-comuna" type="text" placeholder="Escribe y elige tu comuna" autocomplete="off" value="${mine && mine.comuna ? _escapeAttrDetail(mine.comuna) : ""}" />
+                 <button type="button" id="report-comuna-toggle" class="report-comuna-toggle" aria-label="Mostrar todas las comunas">▾</button>
                  <ul id="report-comuna-suggestions" class="report-comuna-suggestions hidden"></ul>
                </span></label>
              <div id="report-turnstile"></div>
@@ -287,18 +288,26 @@
     // (absolute, ancla al input) el click siempre cae donde se ve.
     const comunaInput = reportBox.querySelector("#report-comuna");
     const comunaList = reportBox.querySelector("#report-comuna-suggestions");
+    const comunaToggle = reportBox.querySelector("#report-comuna-toggle");
     if (comunaInput && comunaList) {
+      const fillList = (comunas) => {
+        comunaList.innerHTML = comunas
+          .map((c) => `<li data-comuna="${_escapeAttrDetail(c)}">${_escapeHtmlDetail(c)}</li>`)
+          .join("");
+        comunaList.classList.remove("hidden");
+      };
+      // Mientras se escribe: filtra. Campo vacio (recien enfocado, o la flechita de
+      // abrir todo -- a pedido, "ambas" formas de elegir): la lista completa, para
+      // recorrerla con el mouse en vez de tener que escribir algo primero.
       const renderSuggestions = () => {
-        const matches = SismosApp.filterComunas(comunaInput.value);
+        const typed = comunaInput.value.trim();
+        const matches = typed ? SismosApp.filterComunas(typed) : SismosApp.COMUNAS;
         if (!matches.length) {
           comunaList.innerHTML = "";
           comunaList.classList.add("hidden");
           return;
         }
-        comunaList.innerHTML = matches
-          .map((c) => `<li data-comuna="${_escapeAttrDetail(c)}">${_escapeHtmlDetail(c)}</li>`)
-          .join("");
-        comunaList.classList.remove("hidden");
+        fillList(matches);
       };
       comunaInput.addEventListener("input", renderSuggestions);
       comunaInput.addEventListener("focus", renderSuggestions);
@@ -318,6 +327,19 @@
       comunaInput.addEventListener("keydown", (e) => {
         if (e.key === "Escape") comunaList.classList.add("hidden");
       });
+      if (comunaToggle) {
+        // mousedown + preventDefault: no le saca el foco al input (si se lo sacara,
+        // el blur de arriba cerraria la lista antes de que este handler alcance a abrirla).
+        comunaToggle.addEventListener("mousedown", (e) => {
+          e.preventDefault();
+          if (!comunaList.classList.contains("hidden")) {
+            comunaList.classList.add("hidden");
+            return;
+          }
+          renderSuggestions();
+          comunaInput.focus();
+        });
+      }
     }
 
     // Elegir una opcion solo la marca -- el envio real queda a cargo del boton

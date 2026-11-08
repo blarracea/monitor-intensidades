@@ -1039,10 +1039,27 @@ h2.live-feed-title {
   display: block;
   width: 100%;
   margin-top: 0;
-  padding: 0.1rem 0.2rem;
+  padding: 0.1rem 1.3rem 0.1rem 0.2rem;
   font: inherit;
   font-size: 0.78rem;
   font-weight: 400;
+}
+
+/* Flechita para desplegar la lista completa con el mouse, sin tener que escribir nada
+   primero -- a pedido, ademas de filtrar al tipear (las "dos formas" de elegir). */
+.report-comuna-toggle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 1.2rem;
+  padding: 0;
+  font-size: 0.7rem;
+  line-height: 1;
+  color: var(--color-header-bg);
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 /* Lista de sugerencias propia (no <datalist> nativo -- ver el comentario en js/app.js
