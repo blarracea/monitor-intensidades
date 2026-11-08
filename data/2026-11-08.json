@@ -1399,5 +1399,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391492.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "hv75068552",
+    "source": "usgs",
+    "time": "2026-11-08T15:33:24.810000+00:00",
+    "updated": "2026-11-08T15:36:47.480000+00:00",
+    "lat": 19.3120002746582,
+    "lon": -155.839492797852,
+    "depth_km": 14.1499996185303,
+    "magnitude": 2.58,
+    "mag_type": "ml",
+    "place": "16 km S of Honaunau-Napoopoo, Hawaii",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75068552",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
