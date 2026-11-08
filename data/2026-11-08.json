@@ -1495,5 +1495,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391499.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000twyd",
+    "source": "usgs",
+    "time": "2026-11-08T16:45:12.938000+00:00",
+    "updated": "2026-11-08T17:04:06.040000+00:00",
+    "lat": 2.5497,
+    "lon": 128.6755,
+    "depth_km": 224.59,
+    "magnitude": 4.6,
+    "mag_type": "mb",
+    "place": "117 km NE of Tobelo, Indonesia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twyd",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
