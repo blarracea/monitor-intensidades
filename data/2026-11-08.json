@@ -598,5 +598,29 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391432.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "pr71538773",
+    "source": "usgs",
+    "time": "2026-11-08T07:17:31.580000+00:00",
+    "updated": "2026-11-08T07:50:34.490000+00:00",
+    "lat": 17.9926666666667,
+    "lon": -67.0536666666667,
+    "depth_km": 6.62,
+    "magnitude": 2.91,
+    "mag_type": "md",
+    "place": "2 km NNW of La Parguera, Puerto Rico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "snam_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71538773",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
