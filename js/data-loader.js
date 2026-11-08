@@ -80,12 +80,15 @@ SismosApp.loadRecentEvents = async function (days) {
  * Trazabilidad por sismo: publicaciones (Redes en vivo) y noticias (Menciones
  * en medios) archivadas alrededor de un sismo -- ver storage.archive_mentions
  * en el backend. Se muestran solo las que hablan de Chile (campo `chile`) y
- * se publicaron desde 5 minutos antes hasta 6 horas despues de la hora del
- * sismo. Los archivos son por dia UTC (igual que los de sismos), asi que una
- * ventana de 6 h puede tocar 2 archivos.
+ * se publicaron desde 5 minutos antes hasta 2 horas despues de la hora del
+ * sismo (antes 6 h: a esa distancia empezaban a aparecer publicaciones de
+ * OTRO sismo posterior que nada tiene que ver con el elegido, ver reporte del
+ * usuario). Los archivos son por dia UTC (igual que los de sismos), asi que
+ * una ventana de 2 h casi siempre toca 1 solo archivo (2 si el sismo ocurre
+ * cerca de medianoche UTC).
  */
 const TRACE_BEFORE_MS = 5 * 60 * 1000;
-const TRACE_AFTER_MS = 6 * 60 * 60 * 1000;
+const TRACE_AFTER_MS = 2 * 60 * 60 * 1000;
 const TRACE_MAX_ITEMS = 100;
 
 async function _loadArchiveDay(kind, day) {

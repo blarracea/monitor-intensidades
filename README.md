@@ -78,7 +78,7 @@ que se publicó en torno a **ese** sismo — con un aviso arriba y un botón
 - Publicaciones y noticias **sobre Chile** (campo `chile`, calculado al
   archivar: el texto nombra Chile o un lugar chileno conocido, la cuenta es
   chilena, o la noticia viene de un medio chileno), desde 5 minutos antes
-  hasta 6 horas después del sismo (`TRACE_BEFORE_MS`/`TRACE_AFTER_MS` en
+  hasta 2 horas después del sismo (`TRACE_BEFORE_MS`/`TRACE_AFTER_MS` en
   `js/data-loader.js`), en orden cronológico, hasta 100 por panel.
 - El archivo (`data/archive/live/` y `data/archive/media/`, un archivo por día
   UTC, un ítem por línea) **parte el día en que se empezó a guardar** —
