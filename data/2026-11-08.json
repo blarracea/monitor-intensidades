@@ -574,5 +574,29 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twwc",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/391432.html",
+    "source": "csn",
+    "time": "2026-11-08T07:02:50+00:00",
+    "updated": "2026-11-08T07:02:50+00:00",
+    "lat": -23.82,
+    "lon": -67.19,
+    "depth_km": 238.0,
+    "magnitude": 4.2,
+    "mag_type": "MLv",
+    "place": "76 km al E de Socaire, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391432.html",
+    "snam_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391432.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
