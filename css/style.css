@@ -612,7 +612,7 @@ h2.social-feed-title {
   padding: 0.5rem;
   margin-bottom: 0.4rem;
   border: 1px solid var(--color-border);
-  border-left: 3px solid #8e44ad;
+  border-left: 3px solid var(--color-header-bg);
   border-radius: 4px;
   text-decoration: none;
   color: inherit;
@@ -636,7 +636,7 @@ h2.social-feed-title {
 }
 
 .social-card-place {
-  color: #8e44ad;
+  color: var(--color-header-bg);
   font-weight: 600;
 }
 
