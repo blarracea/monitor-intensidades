@@ -1037,11 +1037,11 @@
     "time": "2026-11-08T11:58:31+00:00",
     "updated": "2026-11-08T11:58:31+00:00",
     "lat": -19.65,
-    "lon": -70.06,
-    "depth_km": 64.0,
-    "magnitude": 5.1,
-    "mag_type": "MLv",
-    "place": "17 km al E de Pisagua, Chile",
+    "lon": -70.07,
+    "depth_km": 65.0,
+    "magnitude": 4.9,
+    "mag_type": "Mw",
+    "place": "16 km al E de Pisagua, Chile",
     "cdi": null,
     "mmi": null,
     "felt_reports": null,
@@ -1157,7 +1157,7 @@
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391473.html",
     "snam_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391473.html",
-    "relevant": true,
+    "relevant": false,
     "keywords_matched": []
   }
 ]
