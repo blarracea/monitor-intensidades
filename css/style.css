@@ -1013,14 +1013,14 @@ h2.live-feed-title {
   background: var(--color-header-bg);
 }
 
-/* "¿Donde estabas? (opcional)" y el selector en la misma linea. */
+/* "¿Donde estabas?" y el selector en la misma linea. */
 .report-comuna {
   display: flex;
   align-items: center;
   gap: 0.4rem;
   margin: 0.3rem 0;
   font-size: 0.74rem;
-  color: var(--color-text-muted);
+  color: var(--color-header-bg);
 }
 
 .report-comuna input {
