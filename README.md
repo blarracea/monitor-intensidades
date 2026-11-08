@@ -47,7 +47,6 @@ la magnitud Richter del epicentro.
 | USGS (catálogo global + DYFI) | ✅ Implementada — catálogo para todo sismo fuera de Chile, sin límite geográfico, con "Did You Feel It?" (DYFI) como intensidad percibida cuando el sismo tiene reporte ciudadano. Ver `backend/sources/usgs.py` |
 | Menciones en medios (RSS) | ✅ Implementada — Google News RSS filtrado por palabras clave (agrega Emol, La Tercera, BioBioChile, Infobae y otros). Es un proxy de "dónde se habla del sismo", no intensidad verificada. Ver `backend/sources/social.py` |
 | Redes en vivo (Bluesky + Mastodon) | ✅ Implementada — posts públicos con las palabras clave del proyecto, en cualquier parte del mundo. Bluesky necesita `BLUESKY_HANDLE`/`BLUESKY_APP_PASSWORD` (secrets de GitHub Actions). Mastodon busca por texto libre (cualquier post público, con o sin hashtag) si está configurado `MASTODON_ACCESS_TOKEN` — sin ese token cae a buscar solo por hashtag exacto (`#sismo`), mucho más limitado. Ninguna de las dos rompe el resto de la recolección si falta su credencial, simplemente se saltan. Ver `backend/sources/bluesky.py` y `backend/sources/mastodon.py` |
-| SNAM/SHOA (segunda fuente para M≥5.0) | ⚠️ Implementada, pero **no funciona desde GitHub Actions** — el SHOA (Servicio Hidrográfico y Oceanográfico de la Armada, el mismo organismo detrás del SNAM) confirma o revisa la referencia geográfica y la magnitud del CSN/USGS ~10 min después de la primera publicación, para cualquier sismo M≥5.0. El sitio (`snamchile.cl`) está detrás de un WAF de AWS que le muestra un CAPTCHA real (no un desafío resoluble por script) a las IPs de los runners de GitHub Actions — confirmado en producción, no hay forma automática de resolverlo. En la práctica solo trae datos corriendo `collect.py` a mano desde una IP normal; desde GitHub Actions falla en silencio sin romper el resto de la recolección. Ver `backend/sources/snam.py` y `enrich_with_snam()` en `backend/collect.py` |
 
 ### Cómo se arma el mapa de calor
 
@@ -104,20 +103,6 @@ que se publicó en torno a **ese** sismo — con un aviso arriba y un botón
 - Solo se archiva lo que el dashboard ya muestra (autor, texto, enlace, fecha).
   Son publicaciones de terceros: si alguien borra la suya, el archivo la sigue
   conservando.
-
-### Cruce con SNAM/SHOA
-
-Para sismos M≥5.0, `enrich_with_snam()` cruza cada evento ya recolectado
-(por cercanía de hora + distancia de epicentro, nunca por magnitud, que es
-justamente el dato que puede diferir) contra la tabla de eventos de
-`snamchile.cl`. Si hay match, se **actualizan** `place` y `magnitude` del
-evento con los valores que publicó el SHOA, y se agrega el link "SNAM" en
-"Fuente" del detalle (`snam_url`, apunta al boletín específico). El
-candidato se preselecciona con un margen bajo el umbral real (ver
-`SNAM_CANDIDATE_MIN_MAGNITUDE` en `collect.py`) porque el SNAM publica
-según *su propia* estimación de magnitud, que puede ser más alta que la
-nuestra para el mismo sismo (caso real: un sismo que el CSN informó en 4.8
-salió publicado por el SNAM en 5.2).
 
 ## Correrlo en tu computador
 
@@ -197,9 +182,6 @@ y abre `http://localhost:8000` en el navegador.
 - **Umbral para marcar un evento como "relevante"** (resalte visual, círculo
   rojo en el mapa): constantes `RELEVANT_MAGNITUDE` y `RELEVANT_FELT_REPORTS`
   en `backend/collect.py`.
-- **Cruce con SNAM/SHOA**: constantes `SNAM_MATCH_MAX_MINUTES`,
-  `SNAM_MATCH_MAX_DISTANCE_KM` y `SNAM_CANDIDATE_MIN_MAGNITUDE` en
-  `backend/collect.py` (ver "Cruce con SNAM/SHOA" más arriba).
 - **Umbral del resumen semanal**: constante `WEEK_CHART_MIN_MAGNITUDE` en
   `js/app.js`.
 - **Umbral del punto azul** (sismo grande sin reporte de intensidad):
