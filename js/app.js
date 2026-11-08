@@ -255,6 +255,7 @@
                <input id="report-comuna" type="text" list="report-comuna-list" placeholder="Escribe y elige tu comuna" autocomplete="off" value="${mine && mine.comuna ? _escapeAttrDetail(mine.comuna) : ""}" />
                <datalist id="report-comuna-list">${comunaOptions}</datalist></label>
              <div id="report-turnstile"></div>
+             <button type="button" id="report-submit" class="report-submit">Enviar</button>
              <p id="report-message" class="report-message">${mine ? "Ya respondiste. Puedes cambiar tu respuesta." : ""}</p>`
           : `<p class="report-closed">Las respuestas se reciben hasta ${REPORT_WINDOW_HOURS / 24} días después del sismo.</p>`
       }
@@ -278,9 +279,25 @@
     const turnstile = turnstileHost ? SismosApp.reports.mountTurnstile(turnstileHost) : null;
     reportTurnstile = turnstile;
 
+    // Elegir una opcion solo la marca -- el envio real queda a cargo del boton
+    // "Enviar" (antes se mandaba al toque, sin dar tiempo a completar la comuna).
     reportBox.querySelectorAll(".report-choice").forEach((button) => {
-      button.addEventListener("click", async () => {
+      button.addEventListener("click", () => {
+        reportBox.querySelectorAll(".report-choice").forEach((b) => b.classList.toggle("is-selected", b === button));
         const message = reportBox.querySelector("#report-message");
+        if (message && !mine) message.textContent = "";
+      });
+    });
+
+    const submitButton = reportBox.querySelector("#report-submit");
+    if (submitButton) {
+      submitButton.addEventListener("click", async () => {
+        const message = reportBox.querySelector("#report-message");
+        const selected = reportBox.querySelector(".report-choice.is-selected");
+        if (!selected) {
+          message.textContent = "Elige una opción antes de enviar.";
+          return;
+        }
         message.textContent = "Enviando…";
         try {
           const typed = reportBox.querySelector("#report-comuna").value.trim();
@@ -292,19 +309,18 @@
           const token = turnstile ? await turnstile.token() : null;
           let summary;
           try {
-            summary = await SismosApp.reports.submit(event, Number(button.dataset.level), comuna, token);
+            summary = await SismosApp.reports.submit(event, Number(selected.dataset.level), comuna, token);
           } finally {
             if (turnstile) turnstile.reset(); // el token sirve para un solo envio
           }
           if (requestId !== reportRequestId) return;
-          reportBox.querySelectorAll(".report-choice").forEach((b) => b.classList.toggle("is-selected", b === button));
           message.textContent = "¡Gracias! Tu respuesta quedó registrada.";
           showSummary(summary);
         } catch (err) {
           if (requestId === reportRequestId) message.textContent = err.message;
         }
       });
-    });
+    }
   };
 
   const depthLabel = (km) => {
