@@ -343,5 +343,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026waxmhq",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/391573.html",
+    "source": "csn",
+    "time": "2026-11-09T02:54:02+00:00",
+    "updated": "2026-11-09T02:54:02+00:00",
+    "lat": -19.43,
+    "lon": -69.27,
+    "depth_km": 92.0,
+    "magnitude": 2.7,
+    "mag_type": "MLv",
+    "place": "21 km al SE de Camiña, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391573.html",
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391573.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
