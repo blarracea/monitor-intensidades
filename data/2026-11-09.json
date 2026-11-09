@@ -159,5 +159,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx0f",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/391557.html",
+    "source": "csn",
+    "time": "2026-11-09T01:00:59+00:00",
+    "updated": "2026-11-09T01:00:59+00:00",
+    "lat": -21.11,
+    "lon": -68.56,
+    "depth_km": 136.0,
+    "magnitude": 2.6,
+    "mag_type": "MLv",
+    "place": "34 km al S de Mina Collahuasi, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391557.html",
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391557.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
