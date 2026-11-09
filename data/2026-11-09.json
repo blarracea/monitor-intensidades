@@ -136,5 +136,28 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391556.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tx0f",
+    "source": "usgs",
+    "time": "2026-11-09T00:46:59.721000+00:00",
+    "updated": "2026-11-09T01:03:16.040000+00:00",
+    "lat": -23.6266,
+    "lon": 179.1054,
+    "depth_km": 538.416,
+    "magnitude": 5.3,
+    "mag_type": "mb",
+    "place": "south of the Fiji Islands",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx0f",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
