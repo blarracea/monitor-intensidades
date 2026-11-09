@@ -164,6 +164,7 @@
   // Reportes ciudadanos en el mapa: al elegir un sismo, las respuestas de "¿Lo sentiste?" con comuna
   // se pintan como circulos de borde punteado (ver SismosApp.buildCitizenLayer). Un interruptor
   // (esquina superior derecha del mapa) permite ocultarlos; solo aparece si hay algo que mostrar.
+  const MAP_HINT = "Tip: indica tu comuna para verte en el mapa.";
   let citizenLayer = null;
   let citizenControl = null;
   let citizenVisible = true;
@@ -319,6 +320,8 @@
         if (!li) return;
         e.preventDefault();
         comunaInput.value = li.dataset.comuna;
+        const hintMessage = reportBox.querySelector("#report-message");
+        if (hintMessage && hintMessage.textContent === MAP_HINT) hintMessage.textContent = "";
         comunaList.innerHTML = "";
         comunaList.classList.add("hidden");
       });
@@ -349,7 +352,11 @@
       button.addEventListener("click", () => {
         reportBox.querySelectorAll(".report-choice").forEach((b) => b.classList.toggle("is-selected", b === button));
         const message = reportBox.querySelector("#report-message");
-        if (message && !mine) message.textContent = "";
+        const comunaEmpty = !reportBox.querySelector("#report-comuna").value.trim();
+        // Sin comuna la respuesta cuenta en la estadistica pero no se dibuja en el mapa (se pinta por comuna).
+        if (message && !mine) {
+          message.textContent = comunaEmpty && Number(button.dataset.level) > 0 ? MAP_HINT : "";
+        }
       });
     });
 
@@ -378,7 +385,7 @@
             if (turnstile) turnstile.reset(); // el token sirve para un solo envio
           }
           if (requestId !== reportRequestId) return;
-          message.textContent = "¡Gracias! Tu respuesta quedó registrada.";
+          message.textContent = !comuna && Number(selected.dataset.level) > 0 ? "¡Gracias! Indica tu comuna y reenvía para verte en el mapa." : "¡Gracias! Tu respuesta quedó registrada.";
           showSummary(summary);
         } catch (err) {
           if (requestId === reportRequestId) message.textContent = err.message;
