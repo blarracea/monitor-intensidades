@@ -987,5 +987,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx34",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tx38",
+    "source": "usgs",
+    "time": "2026-11-09T10:23:53.528000+00:00",
+    "updated": "2026-11-09T10:36:09.040000+00:00",
+    "lat": -4.9495,
+    "lon": -75.0002,
+    "depth_km": 11.49,
+    "magnitude": 5.3,
+    "mag_type": "mb",
+    "place": "80 km ENE of Lagunas, Peru",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx38",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
