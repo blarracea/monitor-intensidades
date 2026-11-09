@@ -1288,25 +1288,6 @@ h2.live-feed-title {
   color: var(--color-header-bg);
 }
 
-/* Fila "Enviar" + enlace a Privacidad en la misma linea (antes el enlace ocupaba una linea aparte). */
-.report-send-row {
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-  margin: 0.5rem 0 0.3rem;
-}
-
-.report-send-row .report-submit {
-  width: auto;
-  flex: 1 1 auto;
-  margin: 0;
-}
-
-.report-send-row .report-privacy-link {
-  margin: 0;
-  white-space: nowrap;
-}
-
 /* Escritorio bajo: el recuadro "¿Lo sentiste?" (con mensaje y resumen cargados) entra sin scroll. */
 @media (min-width: 901px) and (max-height: 900px) {
   .event-detail dd,
@@ -1321,11 +1302,8 @@ h2.live-feed-title {
     margin-bottom: 0.15rem;
   }
 
-  .report-send-row {
+  .report-submit {
     margin: 0.3rem 0 0.15rem;
-  }
-
-  .report-send-row .report-submit {
     padding: 0.3rem;
   }
 

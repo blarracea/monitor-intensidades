@@ -258,10 +258,7 @@
                  <ul id="report-comuna-suggestions" class="report-comuna-suggestions hidden"></ul>
                </span></label>
              <div id="report-turnstile"></div>
-             <div class="report-send-row">
-               <button type="button" id="report-submit" class="report-submit">Enviar</button>
-               ${demo ? "" : '<a class="report-privacy-link" href="privacidad.html" target="_blank" rel="noopener">Privacidad</a>'}
-             </div>
+             <button type="button" id="report-submit" class="report-submit">Enviar</button>
              <p id="report-message" class="report-message">${mine ? "Ya respondiste. Puedes cambiar tu respuesta." : ""}</p>`
           : `<p class="report-closed">Las respuestas se reciben hasta ${REPORT_WINDOW_HOURS / 24} días después del sismo.</p>`
       }
