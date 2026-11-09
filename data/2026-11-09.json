@@ -803,5 +803,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx2g",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026wexuhj",
+    "source": "usgs",
+    "time": "2026-11-09T08:28:35.149000+00:00",
+    "updated": "2026-11-09T08:30:07.638000+00:00",
+    "lat": 62.927,
+    "lon": -150.713,
+    "depth_km": 114.3,
+    "magnitude": 3.5,
+    "mag_type": "ml",
+    "place": "48 km N of Petersville, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wexuhj",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
