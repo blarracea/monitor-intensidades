@@ -780,5 +780,28 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391600.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tx2g",
+    "source": "usgs",
+    "time": "2026-11-09T07:04:13.845000+00:00",
+    "updated": "2026-11-09T07:25:53.040000+00:00",
+    "lat": 55.8343,
+    "lon": 160.9753,
+    "depth_km": 154.988,
+    "magnitude": 4.6,
+    "mag_type": "mb",
+    "place": "54 km S of Klyuchi, Russia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx2g",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
