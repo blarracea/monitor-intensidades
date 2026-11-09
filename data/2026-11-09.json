@@ -320,5 +320,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx0x",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "tx2026waxmhq",
+    "source": "usgs",
+    "time": "2026-11-09T02:28:10.020000+00:00",
+    "updated": "2026-11-09T02:48:23.024000+00:00",
+    "lat": 28.876,
+    "lon": -98.938,
+    "depth_km": 7.1535,
+    "magnitude": 2.8,
+    "mag_type": "ml",
+    "place": "15 km E of Pearsall, Texas",
+    "cdi": 2.2,
+    "mmi": null,
+    "felt_reports": 1,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026waxmhq",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
