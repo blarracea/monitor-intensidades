@@ -1838,5 +1838,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx6l",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/391695.html",
+    "source": "csn",
+    "time": "2026-11-09T19:42:43+00:00",
+    "updated": "2026-11-09T19:42:43+00:00",
+    "lat": -31.76,
+    "lon": -71.48,
+    "depth_km": 57.0,
+    "magnitude": 2.9,
+    "mag_type": "MLv",
+    "place": "17 km al N de Los Vilos, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391695.html",
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391695.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
