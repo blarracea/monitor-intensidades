@@ -1997,5 +1997,28 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391390.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000twuw",
+    "source": "usgs",
+    "time": "2026-11-07T23:58:08.562000+00:00",
+    "updated": "2026-11-09T04:03:41.040000+00:00",
+    "lat": 39.3576,
+    "lon": 73.2495,
+    "depth_km": 10,
+    "magnitude": 4.4,
+    "mag_type": "mb",
+    "place": "87 km ESE of Kyzyl-Eshme, Kyrgyzstan",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000twuw",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
