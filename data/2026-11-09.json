@@ -113,5 +113,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75464202",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/391556.html",
+    "source": "csn",
+    "time": "2026-11-09T00:44:39+00:00",
+    "updated": "2026-11-09T00:44:39+00:00",
+    "lat": -24.31,
+    "lon": -67.2,
+    "depth_km": 169.0,
+    "magnitude": 3.4,
+    "mag_type": "MLv",
+    "place": "90 km al O de San Antonio de los Cobres, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391556.html",
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391556.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
