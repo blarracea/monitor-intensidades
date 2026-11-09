@@ -49,7 +49,7 @@
     "id": "tx2026watmya",
     "source": "usgs",
     "time": "2026-11-09T00:28:15.138000+00:00",
-    "updated": "2026-11-09T00:46:36.198000+00:00",
+    "updated": "2026-11-09T04:22:43.040000+00:00",
     "lat": 32.341,
     "lon": -101.071,
     "depth_km": 7.2998,
@@ -434,6 +434,29 @@
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx16",
     "relevant": true,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/391578.html",
+    "source": "csn",
+    "time": "2026-11-09T04:13:19+00:00",
+    "updated": "2026-11-09T04:13:19+00:00",
+    "lat": -33.19,
+    "lon": -70.85,
+    "depth_km": 71.0,
+    "magnitude": 2.9,
+    "mag_type": "MLv",
+    "place": "16 km al O de Colina, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391578.html",
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391578.html",
+    "relevant": false,
     "keywords_matched": []
   }
 ]
