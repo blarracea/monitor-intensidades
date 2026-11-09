@@ -1033,5 +1033,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx38",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "hv75068782",
+    "source": "usgs",
+    "time": "2026-11-09T11:39:10.090000+00:00",
+    "updated": "2026-11-09T11:44:08.930000+00:00",
+    "lat": 19.1958332061768,
+    "lon": -155.498504638672,
+    "depth_km": 29.6900005340576,
+    "magnitude": 2.98,
+    "mag_type": "md",
+    "place": "2 km WSW of Pāhala, Hawaii",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75068782",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
