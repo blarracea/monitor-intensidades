@@ -1654,5 +1654,28 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391675.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026wfpvmd",
+    "source": "usgs",
+    "time": "2026-11-09T17:29:42.213000+00:00",
+    "updated": "2026-11-09T17:33:35.711000+00:00",
+    "lat": 60.645,
+    "lon": -151.297,
+    "depth_km": 70.8,
+    "magnitude": 2.6,
+    "mag_type": "ml",
+    "place": "3 km NNE of Salamatof, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wfpvmd",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
