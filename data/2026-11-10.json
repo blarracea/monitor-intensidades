@@ -44,5 +44,28 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391729.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026wgggss",
+    "source": "usgs",
+    "time": "2026-11-10T01:42:25.930000+00:00",
+    "updated": "2026-11-10T01:44:28.912000+00:00",
+    "lat": 62.988,
+    "lon": -156.183,
+    "depth_km": 145.2,
+    "magnitude": 2.8,
+    "mag_type": "ml",
+    "place": "6 km W of Takotna, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wgggss",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
