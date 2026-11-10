@@ -895,5 +895,28 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391808.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026wheyys",
+    "source": "usgs",
+    "time": "2026-11-10T14:03:11.153000+00:00",
+    "updated": "2026-11-10T14:05:26.401000+00:00",
+    "lat": 63.124,
+    "lon": -151.475,
+    "depth_km": 1.2,
+    "magnitude": 2.6,
+    "mag_type": "ml",
+    "place": "48 km SSE of Denali National Park, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wheyys",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
