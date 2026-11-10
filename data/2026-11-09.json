@@ -2072,12 +2072,12 @@
   {
     "id": "us7000tx7v",
     "source": "usgs",
-    "time": "2026-11-09T23:45:21.429000+00:00",
-    "updated": "2026-11-10T00:04:59.040000+00:00",
-    "lat": -24.4824,
-    "lon": -177.2803,
-    "depth_km": 126.01,
-    "magnitude": 5,
+    "time": "2026-11-09T23:45:26.548000+00:00",
+    "updated": "2026-11-10T01:10:25.040000+00:00",
+    "lat": -24.5715,
+    "lon": -177.3757,
+    "depth_km": 175.527,
+    "magnitude": 4.9,
     "mag_type": "mb",
     "place": "south of the Fiji Islands",
     "cdi": null,
@@ -2089,7 +2089,7 @@
     "senapred_url": null,
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx7v",
-    "relevant": true,
+    "relevant": false,
     "keywords_matched": []
   }
 ]
