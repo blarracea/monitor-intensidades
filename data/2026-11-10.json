@@ -665,5 +665,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ew1794296580",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "uw714136981",
+    "source": "usgs",
+    "time": "2026-11-10T07:42:53.040000+00:00",
+    "updated": "2026-11-10T07:51:15.808000+00:00",
+    "lat": 45.2543334960938,
+    "lon": -117.018669128418,
+    "depth_km": 20.8199996948242,
+    "magnitude": 4.58303475379944,
+    "mag_type": "ml",
+    "place": "19 km SE of Joseph, Oregon",
+    "cdi": 2.7,
+    "mmi": null,
+    "felt_reports": 5,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714136981",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
