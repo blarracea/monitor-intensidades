@@ -228,5 +228,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx8s",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/391749.html",
+    "source": "csn",
+    "time": "2026-11-10T03:54:05+00:00",
+    "updated": "2026-11-10T03:54:05+00:00",
+    "lat": -21.91,
+    "lon": -68.55,
+    "depth_km": 107.0,
+    "magnitude": 3.5,
+    "mag_type": "MLv",
+    "place": "73 km al NE de Calama, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391749.html",
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391749.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
