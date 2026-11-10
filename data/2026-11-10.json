@@ -159,5 +159,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tx8i",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "pr71538933",
+    "source": "usgs",
+    "time": "2026-11-10T02:15:33.390000+00:00",
+    "updated": "2026-11-10T03:28:10.460000+00:00",
+    "lat": 18.8905,
+    "lon": -65.0016666666667,
+    "depth_km": 21.89,
+    "magnitude": 3.07,
+    "mag_type": "md",
+    "place": "61 km N of Charlotte Amalie, U.S. Virgin Islands",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71538933",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
