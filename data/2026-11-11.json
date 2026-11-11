@@ -757,5 +757,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wiqmvw",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/391946.html",
+    "source": "csn",
+    "time": "2026-11-11T10:07:23+00:00",
+    "updated": "2026-11-11T10:07:23+00:00",
+    "lat": -22.29,
+    "lon": -68.66,
+    "depth_km": 116.0,
+    "magnitude": 3.6,
+    "mag_type": "MLv",
+    "place": "34 km al NE de Calama, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391946.html",
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391946.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
