@@ -1911,5 +1911,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txpa",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000txpk",
+    "source": "usgs",
+    "time": "2026-11-11T23:00:22.433000+00:00",
+    "updated": "2026-11-11T23:16:16.040000+00:00",
+    "lat": 27.8692,
+    "lon": 87.8857,
+    "depth_km": 10,
+    "magnitude": 4.6,
+    "mag_type": "mb",
+    "place": "73 km NNW of Gyalshing, India",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txpk",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
