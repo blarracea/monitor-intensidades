@@ -481,5 +481,28 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391914.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000txhi",
+    "source": "usgs",
+    "time": "2026-11-11T06:21:45.383000+00:00",
+    "updated": "2026-11-11T06:38:53.040000+00:00",
+    "lat": -62.4284,
+    "lon": 155.0206,
+    "depth_km": 10,
+    "magnitude": 5.1,
+    "mag_type": "mww",
+    "place": "Balleny Islands region",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txhi",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
