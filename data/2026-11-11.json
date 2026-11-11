@@ -1378,5 +1378,28 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392004.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000txm8",
+    "source": "usgs",
+    "time": "2026-11-11T17:38:23.985000+00:00",
+    "updated": "2026-11-11T17:58:04.040000+00:00",
+    "lat": -6.3016,
+    "lon": 154.7371,
+    "depth_km": 71.547,
+    "magnitude": 5.1,
+    "mag_type": "mww",
+    "place": "82 km W of Panguna, Papua New Guinea",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txm8",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
