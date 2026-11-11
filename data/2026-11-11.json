@@ -1401,5 +1401,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txm8",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/392011.html",
+    "source": "csn",
+    "time": "2026-11-11T18:22:48+00:00",
+    "updated": "2026-11-11T18:22:48+00:00",
+    "lat": -20.83,
+    "lon": -69.15,
+    "depth_km": 111.0,
+    "magnitude": 3.1,
+    "mag_type": "MLv",
+    "place": "42 km al SE de Pica, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392011.html",
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392011.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
