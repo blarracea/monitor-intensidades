@@ -504,5 +504,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txhi",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/391920.html",
+    "source": "csn",
+    "time": "2026-11-11T06:57:29+00:00",
+    "updated": "2026-11-11T06:57:29+00:00",
+    "lat": -33.25,
+    "lon": -72.22,
+    "depth_km": 10.0,
+    "magnitude": 4.4,
+    "mag_type": "M",
+    "place": "56 km al O de El Tabo, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391920.html",
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/391920.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
