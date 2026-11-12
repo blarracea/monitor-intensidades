@@ -1980,5 +1980,28 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txpl",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000txpu",
+    "source": "usgs",
+    "time": "2026-11-11T23:59:40.557000+00:00",
+    "updated": "2026-11-12T00:39:04.040000+00:00",
+    "lat": 53.5338,
+    "lon": -164.7435,
+    "depth_km": 36.874,
+    "magnitude": 3.9,
+    "mag_type": "mb",
+    "place": "95 km SE of Akutan, Alaska",
+    "cdi": null,
+    "mmi": 2.237,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txpu",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
