@@ -19,10 +19,10 @@ SismosApp.initMap = function () {
   }).addTo(map);
 
   // Encuadre inicial por bounds (no un centro+zoom fijo): asi Leaflet calcula el zoom que de verdad
-  // corresponde al tamano real del contenedor. Encuadre elegido por el usuario (copiado de una captura
-  // del mapa): de Colombia al sur de Chile, con solo un tramo del Pacifico y de Argentina. Quien quiera
+  // corresponde al tamano real del contenedor. Encuadre elegido por el usuario (calculado desde una captura
+  // del mapa): toda Sudamerica, con un tramo del Pacifico y del Atlantico. Quien quiera
   // ver mas (Pacifico, Japon, Asia) puede alejar el zoom a mano; minZoom se deja bajo (1) para eso.
-  const initialBounds = L.latLngBounds([15.5, -105], [-58, -52]);
+  const initialBounds = L.latLngBounds([18, -121], [-71, -47]);
 
   // El contenedor #map recien termina su layout de CSS flex un instante
   // despues de crear el mapa (mismo problema que el heatmap en app.js) --
