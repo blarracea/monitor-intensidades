@@ -1573,5 +1573,30 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392216.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000txwp",
+    "source": "usgs",
+    "time": "2026-11-12T22:04:06.729000+00:00",
+    "updated": "2026-11-12T22:19:23.040000+00:00",
+    "lat": -1.5882,
+    "lon": 149.8877,
+    "depth_km": 10,
+    "magnitude": 5.8,
+    "mag_type": "mww",
+    "place": "148 km NW of Kavieng, Papua New Guinea",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wffd",
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txwp",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
