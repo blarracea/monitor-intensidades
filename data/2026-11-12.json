@@ -598,5 +598,30 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392113.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "uw714138021",
+    "source": "usgs",
+    "time": "2026-11-12T08:18:29+00:00",
+    "updated": "2026-11-12T08:21:10.170000+00:00",
+    "lat": 46.2084999084473,
+    "lon": -124.104331970215,
+    "depth_km": 8.03999996185303,
+    "magnitude": 3.14031291007996,
+    "mag_type": "ml",
+    "place": "11 km W of Hammond, Oregon",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714138021",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
