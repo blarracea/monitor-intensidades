@@ -439,12 +439,12 @@
     }
     const fuenteLinks = fuenteParts.join(" · ");
     detailBody.innerHTML = `
-      <dt>Referencia geográfica</dt><dd>${_escapeHtmlDetail(event.place || "-")}</dd>
+      <dt>Hora (Chile)</dt><dd>${chileTime}</dd>
+      <dt>Hora (UTC)</dt><dd>${utcTime}</dd>
       <dt>Magnitud</dt><dd>${_escapeHtmlDetail(event.magnitude ?? "-")} ${_escapeHtmlDetail(event.mag_type || "")}</dd>
       <dt>Profundidad</dt><dd>${depthLabel(event.depth_km)}</dd>
-      <dt>Hora (UTC)</dt><dd>${utcTime}</dd>
-      <dt>Hora (Chile)</dt><dd>${chileTime}</dd>
       <dt>Fuente</dt><dd>${fuenteLinks}</dd>
+      <dt>Referencia geográfica</dt><dd>${_escapeHtmlDetail(event.place || "-")}</dd>
     `;
     detailPlaceholder.classList.add("hidden");
 
