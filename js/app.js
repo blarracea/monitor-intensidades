@@ -437,6 +437,14 @@
     if (event.senapred_url) {
       fuenteParts.push(`<a href="${_escapeAttrDetail(_safeUrlDetail(event.senapred_url))}" target="_blank" rel="noopener">SENAPRED</a>`);
     }
+    // GFZ (GEOFON, Alemania) y PTWC (NOAA, boletines de tsunami): fuentes adicionales, aparecen solo
+    // cuando ellos tambien registraron el sismo (el PTWC solo emite boletin para los importantes).
+    if (event.gfz_url) {
+      fuenteParts.push(`<a href="${_escapeAttrDetail(_safeUrlDetail(event.gfz_url))}" target="_blank" rel="noopener">GFZ</a>`);
+    }
+    if (event.ptwc_url) {
+      fuenteParts.push(`<a href="${_escapeAttrDetail(_safeUrlDetail(event.ptwc_url))}" target="_blank" rel="noopener">PTWC</a>`);
+    }
     const fuenteLinks = fuenteParts.join(" · ");
     detailBody.innerHTML = `
       <dt>Hora (Chile)</dt><dd>${chileTime}</dd>
