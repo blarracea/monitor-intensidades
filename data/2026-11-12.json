@@ -548,5 +548,30 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wkhhbr",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026wkhjxi",
+    "source": "usgs",
+    "time": "2026-11-12T06:14:36.292000+00:00",
+    "updated": "2026-11-12T06:18:02.236000+00:00",
+    "lat": 60.404,
+    "lon": -152.493,
+    "depth_km": 103.4,
+    "magnitude": 2.5,
+    "mag_type": "ml",
+    "place": "60 km NW of Ninilchik, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wkhjxi",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
