@@ -998,5 +998,30 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wkvgod",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/392153.html",
+    "source": "csn",
+    "time": "2026-11-12T13:12:01+00:00",
+    "updated": "2026-11-12T13:12:01+00:00",
+    "lat": -18.31,
+    "lon": -71.46,
+    "depth_km": 24.0,
+    "magnitude": 2.8,
+    "mag_type": "MLv",
+    "place": "76 km al S de Ilo, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392153.html",
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392153.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
