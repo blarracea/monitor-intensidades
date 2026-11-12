@@ -18,20 +18,11 @@ SismosApp.initMap = function () {
     maxZoom: 18,
   }).addTo(map);
 
-  // Encuadre inicial por bounds (no un centro+zoom fijo): asi Leaflet
-  // calcula el zoom que de verdad corresponde al tamano real del
-  // contenedor -- un numero de zoom fijo dejaba de calzar cada vez que el
-  // mapa cambiaba de ancho. Ensanchado hacia el oeste a pedido para que el
-  // Oceano Pacifico se vea aun mas protagonico (llega a la longitud de
-  // Hawai, ~-160) -- el contenedor es angosto y alto, asi que el mismo
-  // zoom que ensancha el eje oeste-este tambien estira de mas el eje
-  // norte-sur. Se probo ensanchar hasta la longitud de Japon (~-235) pero
-  // eso obliga a un zoom tan alejado que el mapa termina mostrando casi
-  // todo el mundo de polo a polo, y Japon queda igual como una franja
-  // casi imperceptible pegada al borde -- el usuario prefirio este punto
-  // medio. Quien quiera llegar mas lejos (Japon, Asia) puede alejar el
-  // zoom a mano; minZoom se deja bajo (1) para permitirlo.
-  const initialBounds = L.latLngBounds([8, -160], [-56, -55]);
+  // Encuadre inicial por bounds (no un centro+zoom fijo): asi Leaflet calcula el zoom que de verdad
+  // corresponde al tamano real del contenedor. Encuadre elegido por el usuario (copiado de una captura
+  // del mapa): de Colombia al sur de Chile, con solo un tramo del Pacifico y de Argentina. Quien quiera
+  // ver mas (Pacifico, Japon, Asia) puede alejar el zoom a mano; minZoom se deja bajo (1) para eso.
+  const initialBounds = L.latLngBounds([15.5, -105], [-58, -52]);
 
   // El contenedor #map recien termina su layout de CSS flex un instante
   // despues de crear el mapa (mismo problema que el heatmap en app.js) --
