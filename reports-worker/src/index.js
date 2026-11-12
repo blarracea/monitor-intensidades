@@ -36,15 +36,69 @@ const isReportable = (event) =>
 const DAY_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
 const MAX_REPORTS_PER_HOUR = 20;
 // Solo se aceptan comunas de esta lista (la misma del formulario): asi no entra
-// texto libre y los totales por comuna no se ensucian ni se pueden falsificar.
+// texto libre y los totales por comuna no se ensucian ni se pueden falsificar. Es la misma lista
+// que js/comunas-coords.js del sitio (comunas de Chile, basada en Wikidata): mantener ambas iguales.
 const COMUNAS = new Set([
-  "Alto del Carmen", "Alto Hospicio", "Ancud", "Andacollo", "Angol", "Antofagasta", "Arica", "Calama", "Castro",
-  "Chillán", "Concepción", "Copiapó", "Coquimbo", "Coronel", "Coyhaique", "Curicó", "Illapel", "Iquique",
-  "La Florida", "La Higuera", "La Serena", "Las Condes", "Linares", "Los Andes", "Los Ángeles", "Maipú",
-  "Monte Patria", "Osorno", "Ovalle", "Paihuano", "Puente Alto", "Puerto Montt", "Puerto Natales", "Puerto Varas",
-  "Punitaqui", "Punta Arenas", "Quillota", "Rancagua", "Rengo", "Río Hurtado", "San Antonio", "San Fernando",
-  "Santiago", "Talca", "Talcahuano", "Temuco", "Tocopilla", "Tongoy", "Valdivia", "Vallenar", "Valparaíso",
-  "Vicuña", "Villarrica", "Viña del Mar",
+  "Aguas Blancas", "Algarrobo", "Alhué", "Alto Biobío", "Alto del Carmen", "Alto Hospicio",
+  "Ancud", "Andacollo", "Angol", "Antártica", "Antofagasta", "Antuco",
+  "Arauco", "Arica", "Auquinco", "Aysén", "Buin", "Bulnes",
+  "Cabildo", "Cabo de Hornos", "Cabrero", "Calama", "Calbuco", "Caldera",
+  "Calera de Tango", "Calle Larga", "Camiña", "Canela", "Cañete", "Carahue",
+  "Cartagena", "Casablanca", "Castro", "Catemu", "Cauquenes", "Cerrillos",
+  "Cerro Navia", "Chaitén", "Chanco", "Chañaral", "Chépica", "Chiguayante",
+  "Chile Chico", "Chillán", "Chillán Viejo", "Chimbarongo", "Cholchol", "Chonchi",
+  "Cisnes", "Cobquecura", "Cochamó", "Cochrane", "Codegua", "Coelemu",
+  "Coihueco", "Coinco", "Colbún", "Colchane", "Colina", "Collipulli",
+  "Coltauco", "Combarbalá", "Comuna de Camarones", "Concepción", "Conchalí", "Concón",
+  "Constitución", "Contulmo", "Copiapó", "Coquimbo", "Coronel", "Corral",
+  "Coyhaique", "Cunco", "Curacautín", "Curacaví", "Curaco de Vélez", "Curanilahue",
+  "Curarrehue", "Curepto", "Curicó", "Dalcahue", "Diego de Almagro", "Doñihue",
+  "El Algarrobito", "El Bosque", "El Carmen", "El Monte", "El Quisco", "El Tabo",
+  "Empedrado", "Ercilla", "Estación Central", "Florida", "Freire", "Freirina",
+  "Fresia", "Frutillar", "Futaleufú", "Futrono", "Galvarino", "General Lagos",
+  "Gorbea", "Graneros", "Guaitecas", "Hijuelas", "Hualaihué", "Hualañé",
+  "Hualpén", "Hualqui", "Huara", "Huasco", "Huechuraba", "Illapel",
+  "Independencia", "Iquique", "Isla de Maipo", "Isla de Pascua", "Juan Fernández", "La Calera",
+  "La Cisterna", "La Cruz", "La Estrella", "La Florida", "La Granja", "La Higuera",
+  "La Ligua", "La Pintana", "La Reina", "La Serena", "La Unión", "Lago Ranco",
+  "Lago Verde", "Laguna Blanca", "Laja", "Lampa", "Lanco", "Las Cabras",
+  "Las Condes", "Lautaro", "Lebu", "Licantén", "Limache", "Linares",
+  "Litueche", "Llanquihue", "Llay-Llay", "Lo Barnechea", "Lo Espejo", "Lo Prado",
+  "Lolol", "Loncoche", "Longaví", "Longotoma", "Lonquimay", "Los Álamos",
+  "Los Andes", "Los Ángeles", "Los Lagos", "Los Muermos", "Los Sauces", "Los Vilos",
+  "Lota", "Lumaco", "Machalí", "Macul", "Máfil", "Maipú",
+  "Malloa", "Marchigüe", "María Elena", "María Pinto", "Mariquina", "Maule",
+  "Maullín", "Mejillones", "Melipeuco", "Melipilla", "Molina", "Monte Patria",
+  "Mostazal", "Mulchén", "Nacimiento", "Nancagua", "Natales", "Navidad",
+  "Negreiros", "Negrete", "Ninhue", "Nogales", "Nueva Imperial", "Ñiquén",
+  "Ñuñoa", "O'Higgins", "Olivar", "Ollagüe", "Olmué", "Osorno",
+  "Ovalle", "Padre Hurtado", "Padre Las Casas", "Paihuano", "Paillaco", "Paine",
+  "Palca", "Palena", "Palmilla", "Panguipulli", "Panquehue", "Papudo",
+  "Paredones", "Parral", "Pedro Aguirre Cerda", "Pelarco", "Pelluhue", "Pemuco",
+  "Pencahue", "Penco", "Peñaflor", "Peñalolén", "Peralillo", "Perquenco",
+  "Petorca", "Peumo", "Pica", "Pichidegua", "Pichilemu", "Pinto",
+  "Pirque", "Pitrufquén", "Placilla", "Portezuelo", "Porvenir", "Pozo Almonte",
+  "Primavera", "Providencia", "Puchuncaví", "Pucón", "Pudahuel", "Puente Alto",
+  "Puerto Montt", "Puerto Natales", "Puerto Octay", "Puerto Varas", "Pumanque", "Punitaqui",
+  "Punta Arenas", "Puqueldón", "Purén", "Purranque", "Putaendo", "Putre",
+  "Puyehue", "Queilén", "Quellón", "Quemchi", "Quilaco", "Quilicura",
+  "Quilleco", "Quillón", "Quillota", "Quilpué", "Quinchao", "Quinta de Tilcoco",
+  "Quinta Normal", "Quintero", "Quirihue", "Rancagua", "Ránquil", "Rauco",
+  "Recoleta", "Renaico", "Renca", "Rengo", "Requínoa", "Retiro",
+  "Rinconada", "Río Bueno", "Río Claro", "Río Hurtado", "Río Ibáñez", "Río Negro",
+  "Río Verde", "Romeral", "Saavedra", "Sagrada Familia", "Salamanca", "Sama",
+  "San Antonio", "San Bernardo", "San Carlos", "San Clemente", "San Esteban", "San Fabián",
+  "San Felipe", "San Fernando", "San Gregorio", "San Ignacio", "San Javier", "San Joaquín",
+  "San José de Maipo", "San Juan de la Costa", "San Miguel", "San Nicolás", "San Pablo", "San Pedro",
+  "San Pedro de Atacama", "San Pedro de la Paz", "San Rafael", "San Ramón", "San Rosendo", "San Vicente de Tagua Tagua",
+  "Santa Bárbara", "Santa Cruz", "Santa Juana", "Santa María", "Santiago", "Santo Domingo",
+  "Sierra Gorda", "Tacna", "Talagante", "Talca", "Talcahuano", "Taltal",
+  "Tarata", "Temuco", "Teno", "Teodoro Schmidt", "Tierra Amarilla", "Tiltil",
+  "Timaukel", "Tirúa", "Tocopilla", "Toltén", "Tomé", "Tongoy",
+  "Torres del Paine", "Tortel", "Traiguén", "Treguaco", "Tucapel", "Valdivia",
+  "Vallenar", "Valparaíso", "Vichuquén", "Victoria", "Vicuña", "Vilcún",
+  "Villa Alegre", "Villa Alemana", "Villarrica", "Viña del Mar", "Vitacura", "Yerbas Buenas",
+  "Yumbel", "Yungay", "Zapallar",
 ]);
 
 function config(env) {
@@ -87,8 +141,11 @@ async function voterHash(request, env) {
 // Busca el sismo en los datos publicos del dashboard (el mismo archivo que lee
 // la pagina) para saber su hora REAL -- nunca se confia en la hora que manda el
 // navegador.
-async function findPublishedEvent(eventId, day, env, fetchImpl) {
-  const response = await fetchImpl(`${config(env).siteUrl}/data/${day}.json`);
+async function findPublishedEvent(eventId, day, env, fetchImpl, now = new Date()) {
+  // GitHub Pages guarda cada archivo ~10 min en cache: sin el parametro `t`, un sismo recien
+  // publicado (justo cuando la gente quiere responder) podria no aparecer todavia y se
+  // rechazaria el reporte con "Ese sismo no existe en el dashboard".
+  const response = await fetchImpl(`${config(env).siteUrl}/data/${day}.json?t=${now.getTime()}`);
   if (!response.ok) return null;
   const events = await response.json();
   return events.find((e) => e.id === eventId && isReportable(e)) || null;
@@ -126,7 +183,7 @@ export async function handleSubmit(request, env, fetchImpl = fetch, now = new Da
 
   if (!(await verifyTurnstile(token, request, env, fetchImpl))) return json({ error: "No se pudo verificar que eres una persona" }, 403, request, env);
 
-  const event = await findPublishedEvent(eventId, day, env, fetchImpl);
+  const event = await findPublishedEvent(eventId, day, env, fetchImpl, now);
   if (!event) return json({ error: "Ese sismo no existe en el dashboard" }, 404, request, env);
   const ageHours = (now - new Date(event.time)) / 3600000;
   if (ageHours < 0 || ageHours > config(env).windowHours) {
