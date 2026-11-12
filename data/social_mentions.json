@@ -164,6 +164,21 @@
     "lon": null
   },
   {
+    "title": "¿Preocupación por últimos temblores en Chile? Revisa si anuncian un terremoto - El Observatodo",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVjJzQXdTcThxeF9OQ0RmTVdQZXhFdkszWkZRemdOaGJRY3otdWRTUnlmMFVJaUFUYVVSbk9WTElXUmo3eUhfYW9XUE9MUGRaVm4zbE9nLU1LdzZ3cE50ME1MNWtqQklWM2VLS2FwdEVMUXNOQWVQMWRyZDdUTDVRMGluVWZQQW9VZnJ4MFhyZmc3b2p1SG1Xblo4bTFja0tsUEcwTV9VZVpyWFNCNFU1emV0bWxqcklSZkZVSWFn?oc=5",
+    "source": "El Observatodo",
+    "published": "2026-11-11T20:48:34+00:00",
+    "keywords_matched": [
+      "terremoto",
+      "temblor",
+      "temblo"
+    ],
+    "chile": true,
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "title": "Temblor en Ancud, Puerto Montt y más comunas: ¿Existe riesgo de tsunami en Chile? ¿Cuál fue la magnitud? - El Repuertero",
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNLXJWSVRtZ1cwVmNKVU9PU2FhR28wdkhCQXd1Sk1WanRLLWdGSEx3RlF2a0ZRZERTZDdUTTJ3YmVJRV9JMWZUQlducENGcUVjSl9aUi1MUmVCcEY2UXlxcU5kSVBFYmp4UTdiMFRCLTk5TVdBT2RLdGFhaXlQZXNFX1FKc01DZTJKbDlxaldpdkw2c01jUDMtRnRIcFdWZ3NRM2tnaXNGaU1vdE1ZUC1KTWNLa2pYQ0loZnVQUldKNkoxc2t3VVZF?oc=5",
     "source": "El Repuertero",
@@ -190,21 +205,6 @@
     "place": "iquique",
     "lat": -20.2133,
     "lon": -70.1503
-  },
-  {
-    "title": "¿Preocupación por últimos temblores en Chile? Revisa si anuncian un terremoto - El Observatodo",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVjJzQXdTcThxeF9OQ0RmTVdQZXhFdkszWkZRemdOaGJRY3otdWRTUnlmMFVJaUFUYVVSbk9WTElXUmo3eUhfYW9XUE9MUGRaVm4zbE9nLU1LdzZ3cE50ME1MNWtqQklWM2VLS2FwdEVMUXNOQWVQMWRyZDdUTDVRMGluVWZQQW9VZnJ4MFhyZmc3b2p1SG1Xblo4bTFja0tsUEcwTV9VZVpyWFNCNFU1emV0bWxqcklSZkZVSWFn?oc=5",
-    "source": "El Observatodo",
-    "published": "2026-11-11T20:44:24+00:00",
-    "keywords_matched": [
-      "terremoto",
-      "temblor",
-      "temblo"
-    ],
-    "chile": true,
-    "place": null,
-    "lat": null,
-    "lon": null
   },
   {
     "title": "Significativo sismo de magnitud 5.1 sacude la zona de Maullin (Provincia de Llanquihue, Los Lagos) - Volcano Discovery",
@@ -338,9 +338,9 @@
       "temblo"
     ],
     "chile": true,
-    "place": null,
-    "lat": null,
-    "lon": null
+    "place": "antofagasta",
+    "lat": -23.6509,
+    "lon": -70.3975
   },
   {
     "title": "Temblor se registra en la zona sur de Chile hoy: revisa acá la magnitud y el epicentro del sismo - ADN Radio",
