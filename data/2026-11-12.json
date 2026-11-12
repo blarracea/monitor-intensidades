@@ -348,5 +348,30 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wkdeju",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/392095.html",
+    "source": "csn",
+    "time": "2026-11-12T04:11:43+00:00",
+    "updated": "2026-11-12T04:11:43+00:00",
+    "lat": -28.27,
+    "lon": -69.19,
+    "depth_km": 105.0,
+    "magnitude": 2.5,
+    "mag_type": "MLv",
+    "place": "137 km al E de Alto del Carmen, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392095.html",
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392095.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
