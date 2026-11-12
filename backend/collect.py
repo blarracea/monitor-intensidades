@@ -42,7 +42,7 @@ from datetime import datetime, timedelta, timezone
 import comuna_coords
 import keywords
 import storage
-from sources import bluesky, csn, mastodon, social, usgs
+from sources import bluesky, csn, gfz, mastodon, ptwc, social, usgs
 
 # Un reporte de intensidad para UN sismo no deberia tener comunas
 # arbitrariamente lejos del epicentro -- si una comuna geocodifica asi de
@@ -107,6 +107,16 @@ BBOX = {
     "minlongitude": -180,
     "maxlongitude": 180,
 }
+# GFZ (GEOFON) y PTWC son fuentes adicionales: solo agregan su enlace en "Fuente" cuando tambien
+# registraron el sismo. Cada catalogo calcula el sismo por su cuenta, asi que la hora y el epicentro
+# difieren un poco. GFZ da hora con segundos; el PTWC solo al minuto (y a veces solo la hora de emision
+# del boletin, que sale hasta ~90 min despues del sismo).
+GFZ_MATCH_MAX_SECONDS = 90
+GFZ_MATCH_MAX_DISTANCE_KM = 150
+PTWC_MATCH_MAX_SECONDS = 180
+PTWC_MATCH_MAX_DISTANCE_KM = 250
+PTWC_ISSUE_WINDOW_MINUTES = 90
+
 MIN_MAGNITUDE = 2.5
 LOOKBACK_DAYS = 3  # se reconsulta para capturar revisiones de magnitud y DYFI que llegan tarde
 # Tras tantas fallas de DYFI seguidas en una corrida se deja de intentar con
@@ -148,6 +158,8 @@ def build_event_record(feature, dyfi_points):
         "intensity_source": "usgs_dyfi" if dyfi_points else None,
         "senapred_url": None,
         "csn_informe_url": None,
+        "gfz_url": None,
+        "ptwc_url": None,
         "url": props.get("url"),
         "relevant": is_relevant,
         "keywords_matched": keywords.matched_keywords(place),
@@ -262,6 +274,8 @@ def collect_chile_events():
             "intensity_source": None,
             "senapred_url": None,
             "csn_informe_url": item["csn_url"],
+            "gfz_url": None,
+            "ptwc_url": None,
             "url": item["csn_url"],
             "relevant": bool(detail["magnitude"] is not None and detail["magnitude"] >= RELEVANT_MAGNITUDE),
             "keywords_matched": keywords.matched_keywords(place),
@@ -522,6 +536,78 @@ def preserve_existing_csn_data(events):
             event["senapred_match_time"] = match_time
 
 
+def enrich_with_gfz(events):
+    """Agrega gfz_url a los sismos que GFZ (GEOFON) tambien registro (cruce por hora y epicentro)."""
+    if not events:
+        return
+    now = datetime.now(timezone.utc)
+    try:
+        gfz_events = gfz.fetch_events(now - timedelta(days=LOOKBACK_DAYS + 1), now, MIN_MAGNITUDE)
+    except Exception as exc:
+        print(f"Aviso: no se pudo consultar GFZ ({exc}).")
+        return
+
+    for event in events:
+        if event.get("lat") is None or event.get("lon") is None:
+            continue
+        event_time = datetime.fromisoformat(event["time"])
+        nearby = sorted(
+            (
+                g
+                for g in gfz_events
+                if abs((event_time - g["time"]).total_seconds()) <= GFZ_MATCH_MAX_SECONDS
+                and _haversine_km(event["lat"], event["lon"], g["lat"], g["lon"]) <= GFZ_MATCH_MAX_DISTANCE_KM
+            ),
+            key=lambda g: abs((event_time - g["time"]).total_seconds()),
+        )
+        if nearby:
+            event["gfz_url"] = nearby[0]["url"]
+
+
+def _ptwc_matches(event, event_time, bulletin):
+    if bulletin.get("origin_time"):
+        origin = datetime.fromisoformat(bulletin["origin_time"])
+        # La hora de origen del boletin es al minuto: se compara con tolerancia.
+        if abs((event_time - origin).total_seconds()) > PTWC_MATCH_MAX_SECONDS:
+            return None
+        gap = abs((event_time - origin).total_seconds())
+    else:
+        issued = datetime.fromisoformat(bulletin["issue_time"].replace("Z", "+00:00"))
+        minutes_before_issue = (issued - event_time).total_seconds() / 60
+        if not 0 <= minutes_before_issue <= PTWC_ISSUE_WINDOW_MINUTES:
+            return None
+        gap = minutes_before_issue * 60
+    if _haversine_km(event["lat"], event["lon"], bulletin["lat"], bulletin["lon"]) > PTWC_MATCH_MAX_DISTANCE_KM:
+        return None
+    return gap
+
+
+def enrich_with_ptwc(events):
+    """
+    Guarda los boletines nuevos del PTWC/NTWC (tsunami.gov; ver sources/ptwc.py: el feed solo trae el
+    ultimo, por eso se acumulan en data/ptwc_bulletins.json) y agrega ptwc_url a los sismos que
+    tuvieron boletin. El PTWC no emite boletin para cada sismo, solo para los importantes.
+    """
+    try:
+        known = {b["event_key"]: b["number"] for b in storage.load_ptwc_bulletins()}
+        bulletins = storage.save_ptwc_bulletins(ptwc.fetch_new_bulletins(known))
+    except Exception as exc:
+        print(f"Aviso: no se pudo actualizar PTWC ({exc}).")
+        return
+
+    for event in events:
+        if event.get("lat") is None or event.get("lon") is None:
+            continue
+        event_time = datetime.fromisoformat(event["time"])
+        scored = []
+        for bulletin in bulletins:
+            gap = _ptwc_matches(event, event_time, bulletin)
+            if gap is not None:
+                scored.append((gap, bulletin))
+        if scored:
+            event["ptwc_url"] = min(scored, key=lambda item: item[0])[1]["url"]
+
+
 def main():
     now = datetime.now(timezone.utc)
     start = now - timedelta(days=LOOKBACK_DAYS)
@@ -570,6 +656,13 @@ def main():
     stripped = enforce_single_report_owner(events)
     if stripped:
         print(f"Aviso: {stripped} evento(s) perdieron un reporte de SENAPRED que era de otro sismo.")
+
+    # Fuentes adicionales (solo agregan enlaces): un error inesperado aca no debe tumbar la recoleccion.
+    for extra_source in (enrich_with_gfz, enrich_with_ptwc):
+        try:
+            extra_source(events)
+        except Exception as exc:
+            print(f"Aviso: {extra_source.__name__} fallo ({exc}).")
 
     storage.upsert_events(events)
     storage.update_index()

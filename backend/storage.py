@@ -255,3 +255,45 @@ def archive_mentions(kind, mentions):
         meta[days_key] = sorted(known_days)
         _save_archive_meta(meta)
     return added
+
+
+PTWC_FILE = DATA_DIR / "ptwc_bulletins.json"
+PTWC_RETENTION_DAYS = 30
+
+
+def load_ptwc_bulletins():
+    """Boletines del PTWC/NTWC ya guardados: [{event_key, number, url, origin_time, ...}]."""
+    if not PTWC_FILE.exists():
+        return []
+    with PTWC_FILE.open("r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def save_ptwc_bulletins(new_bulletins):
+    """
+    Mezcla los boletines nuevos con los guardados (por sismo, event_key) y se queda con el de numero
+    mas alto de cada uno -- el mas reciente. El feed de tsunami.gov solo muestra el ultimo boletin,
+    asi que este archivo es el unico historial. Se recorta a los ultimos PTWC_RETENTION_DAYS dias.
+    """
+    merged = {b["event_key"]: b for b in load_ptwc_bulletins()}
+    for bulletin in new_bulletins:
+        current = merged.get(bulletin["event_key"])
+        if current is None or bulletin["number"] >= current["number"]:
+            merged[bulletin["event_key"]] = bulletin
+
+    cutoff = datetime.now(timezone.utc) - timedelta(days=PTWC_RETENTION_DAYS)
+    kept = []
+    for bulletin in merged.values():
+        stamp = bulletin.get("origin_time") or bulletin.get("issue_time")
+        try:
+            if stamp and datetime.fromisoformat(stamp.replace("Z", "+00:00")) < cutoff:
+                continue
+        except ValueError:
+            pass
+        kept.append(bulletin)
+    kept.sort(key=lambda b: b.get("origin_time") or b.get("issue_time") or "", reverse=True)
+
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    with PTWC_FILE.open("w", encoding="utf-8") as f:
+        json.dump(kept, f, ensure_ascii=False, indent=2)
+    return kept
