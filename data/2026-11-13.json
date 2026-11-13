@@ -1198,5 +1198,30 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926957",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "nn00926962",
+    "source": "usgs",
+    "time": "2026-11-13T15:34:30.646000+00:00",
+    "updated": "2026-11-13T15:38:57.530000+00:00",
+    "lat": 38.9589,
+    "lon": -115.2913,
+    "depth_km": 0.0541,
+    "magnitude": 3.45,
+    "mag_type": "ml",
+    "place": "20 km WNW of Preston, Nevada",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00926962",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
