@@ -773,5 +773,30 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txyr",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026wmkmus",
+    "source": "usgs",
+    "time": "2026-11-13T09:47:19.063000+00:00",
+    "updated": "2026-11-13T09:50:05.670000+00:00",
+    "lat": 60.659,
+    "lon": -151.138,
+    "depth_km": 63.2,
+    "magnitude": 3.3,
+    "mag_type": "ml",
+    "place": "8 km ESE of Nikiski, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wmkmus",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
