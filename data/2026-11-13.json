@@ -223,5 +223,30 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392254.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000txxy",
+    "source": "usgs",
+    "time": "2026-11-13T02:55:03.370000+00:00",
+    "updated": "2026-11-13T03:06:41.040000+00:00",
+    "lat": 18.8925,
+    "lon": 145.6025,
+    "depth_km": 219.572,
+    "magnitude": 4.9,
+    "mag_type": "mb",
+    "place": "Pagan region, Northern Mariana Islands",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wfot",
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txxy",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
