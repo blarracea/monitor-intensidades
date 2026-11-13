@@ -23,5 +23,30 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392235.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000txx9",
+    "source": "usgs",
+    "time": "2026-11-13T00:05:04.104000+00:00",
+    "updated": "2026-11-13T00:20:00.040000+00:00",
+    "lat": 34.6967,
+    "lon": 24.8798,
+    "depth_km": 43.358,
+    "magnitude": 5.1,
+    "mag_type": "mb",
+    "place": "39 km S of Moíres, Greece",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wfjd",
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txx9",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
