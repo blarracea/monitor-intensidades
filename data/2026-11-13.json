@@ -748,5 +748,30 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txyq",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000txyr",
+    "source": "usgs",
+    "time": "2026-11-13T08:01:57.936000+00:00",
+    "updated": "2026-11-13T08:37:22.040000+00:00",
+    "lat": 7.7821,
+    "lon": -81.4943,
+    "depth_km": 10,
+    "magnitude": 4.6,
+    "mag_type": "mb",
+    "place": "18 km WNW of Río Grande, Panama",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txyr",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
