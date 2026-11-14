@@ -2189,5 +2189,30 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41362079",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000ty9l",
+    "source": "usgs",
+    "time": "2026-11-14T16:04:21.572000+00:00",
+    "updated": "2026-11-14T16:24:10.040000+00:00",
+    "lat": 8.406,
+    "lon": 126.2174,
+    "depth_km": 147.186,
+    "magnitude": 4.9,
+    "mag_type": "mb",
+    "place": "7 km SE of Tagbina, Philippines",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wikh",
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9l",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
