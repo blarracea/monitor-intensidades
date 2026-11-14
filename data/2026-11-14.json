@@ -2438,5 +2438,30 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9z",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/392541.html",
+    "source": "csn",
+    "time": "2026-11-14T18:50:16+00:00",
+    "updated": "2026-11-14T18:50:16+00:00",
+    "lat": -21.1,
+    "lon": -69.01,
+    "depth_km": 116.0,
+    "magnitude": 2.8,
+    "mag_type": "MLv",
+    "place": "48 km al SO de Mina Collahuasi, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392541.html",
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392541.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
