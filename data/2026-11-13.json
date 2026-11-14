@@ -1458,7 +1458,7 @@
     "id": "us7000ty16",
     "source": "usgs",
     "time": "2026-11-13T16:35:58.400000+00:00",
-    "updated": "2026-11-13T21:27:56.765000+00:00",
+    "updated": "2026-11-14T04:34:00.038000+00:00",
     "lat": 18.5286,
     "lon": -69.0533,
     "depth_km": 136.742,
@@ -1467,10 +1467,155 @@
     "place": "10 km SW of Guaymate, Dominican Republic",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 26,
+    "felt_reports": 28,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 18.488565,
+        "lon": -69.94248999999999,
+        "intensity": 3.4,
+        "responses": 2
+      },
+      {
+        "lat": 18.634705,
+        "lon": -68.445385,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 18.553125,
+        "lon": -68.3698375,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 18.461455,
+        "lon": -69.94234,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 19.4859275,
+        "lon": -70.7198125,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 18.4706775,
+        "lon": -69.90451,
+        "intensity": 2.7,
+        "responses": 2
+      },
+      {
+        "lat": 18.427612500000002,
+        "lon": -68.8911,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 18.373345,
+        "lon": -68.83433500000001,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 18.8146,
+        "lon": -69.7924525,
+        "intensity": 2.6,
+        "responses": 1
+      },
+      {
+        "lat": 18.497555,
+        "lon": -69.95201,
+        "intensity": 2.6,
+        "responses": 1
+      },
+      {
+        "lat": 19.397295,
+        "lon": -70.52846,
+        "intensity": 2.5,
+        "responses": 1
+      },
+      {
+        "lat": 19.321675,
+        "lon": -69.50929,
+        "intensity": 2.5,
+        "responses": 1
+      },
+      {
+        "lat": 18.4705375,
+        "lon": -69.93292,
+        "intensity": 2.4,
+        "responses": 2
+      },
+      {
+        "lat": 18.52512,
+        "lon": -69.857425,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 19.476985,
+        "lon": -70.7101925,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 18.580365,
+        "lon": -68.407645,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 18.452325000000002,
+        "lon": -69.96123,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 19.3000225,
+        "lon": -70.251585,
+        "intensity": 2,
+        "responses": 2
+      },
+      {
+        "lat": 18.281295,
+        "lon": -66.970885,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 18.4523725,
+        "lon": -69.95176000000001,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 18.4434275,
+        "lon": -69.93277,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 18.5067775,
+        "lon": -69.91417,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 18.470395,
+        "lon": -69.96133,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 18.425065,
+        "lon": -69.98948,
+        "intensity": 1,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wgpw",
