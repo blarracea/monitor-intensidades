@@ -2382,5 +2382,30 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392530.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000ty9z",
+    "source": "usgs",
+    "time": "2026-11-14T18:04:01.078000+00:00",
+    "updated": "2026-11-14T18:18:57.040000+00:00",
+    "lat": -22.2364,
+    "lon": -63.653,
+    "depth_km": 506.268,
+    "magnitude": 4.7,
+    "mag_type": "mb",
+    "place": "24 km S of Yacuiba, Bolivia",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wiog",
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9z",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
