@@ -962,5 +962,30 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392463.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026wobqvm",
+    "source": "usgs",
+    "time": "2026-11-14T07:21:19.785000+00:00",
+    "updated": "2026-11-14T07:24:27.453000+00:00",
+    "lat": 59.852,
+    "lon": -148.534,
+    "depth_km": 14.4,
+    "magnitude": 2.7,
+    "mag_type": "ml",
+    "place": "37 km SW of Chenega, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wobqvm",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
