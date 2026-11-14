@@ -862,5 +862,30 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392458.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026woawtk",
+    "source": "usgs",
+    "time": "2026-11-14T06:58:06.258000+00:00",
+    "updated": "2026-11-14T07:00:07.161000+00:00",
+    "lat": 63.333,
+    "lon": -151.742,
+    "depth_km": 18.3,
+    "magnitude": 2.7,
+    "mag_type": "ml",
+    "place": "23 km S of Denali National Park, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026woawtk",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
