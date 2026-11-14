@@ -2461,18 +2461,30 @@
     "id": "us7000ty9x",
     "source": "usgs",
     "time": "2026-11-14T17:51:29.113000+00:00",
-    "updated": "2026-11-14T19:26:53.944000+00:00",
+    "updated": "2026-11-14T20:36:11.411000+00:00",
     "lat": -40.0345,
     "lon": 176.3623,
     "depth_km": 27.863,
     "magnitude": 4.3,
     "mag_type": "mb",
     "place": "29 km NE of Dannevirke, New Zealand",
-    "cdi": 2.2,
+    "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": -40.138957500000004,
+        "lon": 176.1841425,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": -40.11248,
+        "lon": 176.26659750000002,
+        "intensity": 2.7,
+        "responses": 1
+      },
       {
         "lat": -40.3323225,
         "lon": 175.66384499999998,
