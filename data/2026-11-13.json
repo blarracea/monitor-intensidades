@@ -2335,5 +2335,30 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392399.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000ty5b",
+    "source": "usgs",
+    "time": "2026-11-13T23:58:23.875000+00:00",
+    "updated": "2026-11-14T22:42:50.040000+00:00",
+    "lat": 7.8529,
+    "lon": 126.6692,
+    "depth_km": 10,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "22 km NE of Kinablangan, Philippines",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty5b",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
