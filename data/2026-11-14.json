@@ -623,5 +623,30 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wnumui",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026wnvaqb",
+    "source": "usgs",
+    "time": "2026-11-14T04:02:43.244000+00:00",
+    "updated": "2026-11-14T04:05:51.133000+00:00",
+    "lat": 61.892,
+    "lon": -151.528,
+    "depth_km": 84.4,
+    "magnitude": 2.5,
+    "mag_type": "ml",
+    "place": "12 km SSW of Skwentna, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wnvaqb",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
