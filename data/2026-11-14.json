@@ -148,5 +148,30 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392403.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "tx2026wjzfmm",
+    "source": "usgs",
+    "time": "2026-11-14T01:00:51.839000+00:00",
+    "updated": "2026-11-14T01:10:40.543000+00:00",
+    "lat": 28.525,
+    "lon": -98.384,
+    "depth_km": 8.0252,
+    "magnitude": 2.6,
+    "mag_type": "ml",
+    "place": "17 km ENE of Tilden, Texas",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026wjzfmm",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
