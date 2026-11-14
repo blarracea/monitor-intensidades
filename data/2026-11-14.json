@@ -1187,5 +1187,30 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392474.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "uw714139181",
+    "source": "usgs",
+    "time": "2026-11-14T08:30:07.550000+00:00",
+    "updated": "2026-11-14T08:35:02.750000+00:00",
+    "lat": 48.5094985961914,
+    "lon": -119.913665771484,
+    "depth_km": -0.560000002384186,
+    "magnitude": 3.52097463607788,
+    "mag_type": "ml",
+    "place": "13 km WSW of Conconully, Washington",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714139181",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
