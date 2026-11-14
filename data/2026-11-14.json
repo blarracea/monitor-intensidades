@@ -1217,7 +1217,7 @@
     "id": "uw714139181",
     "source": "usgs",
     "time": "2026-11-14T08:30:07.400000+00:00",
-    "updated": "2026-11-14T09:36:10.533000+00:00",
+    "updated": "2026-11-14T09:45:44.937000+00:00",
     "lat": 48.4878333333333,
     "lon": -119.918166666667,
     "depth_km": 8.91,
@@ -1226,7 +1226,7 @@
     "place": "14 km WSW of Conconully, Washington",
     "cdi": 3.4,
     "mmi": 3.16,
-    "felt_reports": 54,
+    "felt_reports": 57,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1248,14 +1248,14 @@
         "responses": 1
       },
       {
-        "lat": 48.462045,
-        "lon": -120.179505,
+        "lat": 48.518565,
+        "lon": -119.71527,
         "intensity": 3.4,
         "responses": 1
       },
       {
-        "lat": 48.518565,
-        "lon": -119.71527,
+        "lat": 48.462045,
+        "lon": -120.179505,
         "intensity": 3.4,
         "responses": 1
       },
@@ -1266,14 +1266,14 @@
         "responses": 1
       },
       {
-        "lat": 48.370855,
-        "lon": -120.1305325,
+        "lat": 48.3618675,
+        "lon": -120.13103749999999,
         "intensity": 3.3,
         "responses": 2
       },
       {
-        "lat": 48.3618675,
-        "lon": -120.13103749999999,
+        "lat": 48.370855,
+        "lon": -120.1305325,
         "intensity": 3.3,
         "responses": 2
       },
@@ -1284,14 +1284,20 @@
         "responses": 12
       },
       {
-        "lat": 48.53426,
-        "lon": -120.189045,
+        "lat": 48.47103,
+        "lon": -120.1790075,
         "intensity": 3.1,
-        "responses": 1
+        "responses": 4
       },
       {
         "lat": 48.359125,
         "lon": -120.02318,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 48.53426,
+        "lon": -120.189045,
         "intensity": 3.1,
         "responses": 1
       },
@@ -1302,20 +1308,8 @@
         "responses": 1
       },
       {
-        "lat": 48.47103,
-        "lon": -120.1790075,
-        "intensity": 3.1,
-        "responses": 4
-      },
-      {
         "lat": 48.367670000000004,
         "lon": -119.62621250000001,
-        "intensity": 2.9,
-        "responses": 1
-      },
-      {
-        "lat": 48.55223,
-        "lon": -120.1880475,
         "intensity": 2.9,
         "responses": 1
       },
@@ -1326,20 +1320,26 @@
         "responses": 1
       },
       {
+        "lat": 48.55223,
+        "lon": -120.1880475,
+        "intensity": 2.9,
+        "responses": 1
+      },
+      {
         "lat": 48.5535425,
         "lon": -119.7578,
         "intensity": 2.9,
         "responses": 2
       },
       {
-        "lat": 48.459365,
-        "lon": -119.549775,
+        "lat": 48.1931225,
+        "lon": -119.77876499999999,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 48.12483,
-        "lon": -120.0098725,
+        "lat": 48.3328675,
+        "lon": -120.0516975,
         "intensity": 2.7,
         "responses": 1
       },
@@ -1350,26 +1350,20 @@
         "responses": 1
       },
       {
-        "lat": 48.62829,
-        "lon": -119.6397175,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
         "lat": 48.38815,
         "lon": -120.10254,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 48.45339,
-        "lon": -120.19351499999999,
+        "lat": 48.62829,
+        "lon": -119.6397175,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 48.1931225,
-        "lon": -119.77876499999999,
+        "lat": 48.459365,
+        "lon": -119.549775,
         "intensity": 2.7,
         "responses": 1
       },
@@ -1382,6 +1376,18 @@
       {
         "lat": 48.1244775,
         "lon": -119.996455,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 48.12483,
+        "lon": -120.0098725,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 48.45339,
+        "lon": -120.19351499999999,
         "intensity": 2.7,
         "responses": 1
       },
@@ -1422,9 +1428,9 @@
         "responses": 1
       },
       {
-        "lat": 48.4254375,
-        "lon": -120.1545,
-        "intensity": 2.1,
+        "lat": 48.434087500000004,
+        "lon": -120.1404925,
+        "intensity": 2.2,
         "responses": 1
       },
       {
@@ -1434,8 +1440,20 @@
         "responses": 1
       },
       {
+        "lat": 48.4254375,
+        "lon": -120.1545,
+        "intensity": 2.1,
+        "responses": 1
+      },
+      {
         "lat": 48.071957499999996,
         "lon": -119.94677,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 47.667215,
+        "lon": -122.380605,
         "intensity": 2,
         "responses": 1
       }
@@ -1453,7 +1471,7 @@
     "id": "us7000ty84",
     "source": "usgs",
     "time": "2026-11-14T09:26:13.073000+00:00",
-    "updated": "2026-11-14T09:41:58.040000+00:00",
+    "updated": "2026-11-14T09:48:57.409000+00:00",
     "lat": 30.122,
     "lon": -42.6346,
     "depth_km": 10,
@@ -1461,7 +1479,7 @@
     "mag_type": "mww",
     "place": "northern Mid-Atlantic Ridge",
     "cdi": null,
-    "mmi": null,
+    "mmi": 0,
     "felt_reports": 0,
     "tsunami_flag": false,
     "dyfi_points": [],
