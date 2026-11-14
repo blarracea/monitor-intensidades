@@ -1496,7 +1496,7 @@
     "id": "us7000ty84",
     "source": "usgs",
     "time": "2026-11-14T09:26:13.073000+00:00",
-    "updated": "2026-11-14T11:30:03.493000+00:00",
+    "updated": "2026-11-14T11:32:21.086000+00:00",
     "lat": 30.122,
     "lon": -42.6346,
     "depth_km": 10,
@@ -1590,19 +1590,50 @@
     "id": "ci41361927",
     "source": "usgs",
     "time": "2026-11-14T11:09:27.970000+00:00",
-    "updated": "2026-11-14T11:24:39.040000+00:00",
+    "updated": "2026-11-14T11:31:27.318000+00:00",
     "lat": 32.815,
     "lon": -115.4635,
     "depth_km": 11.63,
     "magnitude": 3.09,
     "mag_type": "ml",
     "place": "8 km W of Holtville, CA",
-    "cdi": null,
+    "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 0,
+    "felt_reports": 5,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 32.957544999999996,
+        "lon": -115.5609475,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 32.802575000000004,
+        "lon": -115.424615,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 32.85721,
+        "lon": -115.4663925,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 32.82264,
+        "lon": -115.59517,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 32.73173,
+        "lon": -115.5325725,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "gfz_url": null,
@@ -1615,19 +1646,50 @@
     "id": "ci41361935",
     "source": "usgs",
     "time": "2026-11-14T11:12:55.140000+00:00",
-    "updated": "2026-11-14T11:15:13.022000+00:00",
+    "updated": "2026-11-14T11:35:14.558000+00:00",
     "lat": 32.81217,
     "lon": -115.46616,
     "depth_km": 16.18,
     "magnitude": 3.26,
     "mag_type": "ml",
     "place": "8 km W of Holtville, CA",
-    "cdi": null,
+    "cdi": 2.5,
     "mmi": null,
-    "felt_reports": 0,
+    "felt_reports": 6,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 32.802575000000004,
+        "lon": -115.424615,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 32.7934225,
+        "lon": -115.4141,
+        "intensity": 2.2,
+        "responses": 2
+      },
+      {
+        "lat": 32.85721,
+        "lon": -115.4663925,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 32.867490000000004,
+        "lon": -115.5730925,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 32.82264,
+        "lon": -115.59517,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "gfz_url": null,
