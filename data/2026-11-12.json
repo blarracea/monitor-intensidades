@@ -1773,5 +1773,30 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392227.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000txx4",
+    "source": "usgs",
+    "time": "2026-11-12T23:46:47.427000+00:00",
+    "updated": "2026-11-14T05:22:19.040000+00:00",
+    "lat": 44.0917,
+    "lon": -128.9794,
+    "depth_km": 10,
+    "magnitude": 3.5,
+    "mag_type": "ml",
+    "place": "off the coast of Oregon",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txx4",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
