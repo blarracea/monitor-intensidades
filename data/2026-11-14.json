@@ -1192,22 +1192,70 @@
     "id": "uw714139181",
     "source": "usgs",
     "time": "2026-11-14T08:30:07.510000+00:00",
-    "updated": "2026-11-14T08:41:48.040000+00:00",
+    "updated": "2026-11-14T08:48:40.200000+00:00",
     "lat": 48.4883333333333,
     "lon": -119.911166666667,
     "depth_km": 8.4,
     "magnitude": 3.29,
     "mag_type": "ml",
     "place": "14 km WSW of Conconully, Washington",
-    "cdi": 3.1,
+    "cdi": 3.4,
     "mmi": 3.058,
-    "felt_reports": 4,
+    "felt_reports": 22,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 48.3238825,
+        "lon": -120.05221499999999,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 48.47103,
+        "lon": -120.1790075,
+        "intensity": 3.1,
+        "responses": 3
+      },
+      {
+        "lat": 48.370855,
+        "lon": -120.1305325,
+        "intensity": 3.1,
+        "responses": 1
+      },
       {
         "lat": 48.3432225,
         "lon": -120.1050925,
         "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 48.3615325,
+        "lon": -120.117555,
+        "intensity": 3,
+        "responses": 6
+      },
+      {
+        "lat": 48.55223,
+        "lon": -120.1880475,
+        "intensity": 2.9,
+        "responses": 1
+      },
+      {
+        "lat": 48.367670000000004,
+        "lon": -119.62621250000001,
+        "intensity": 2.9,
+        "responses": 1
+      },
+      {
+        "lat": 48.5535425,
+        "lon": -119.7578,
+        "intensity": 2.9,
+        "responses": 2
+      },
+      {
+        "lat": 48.45339,
+        "lon": -120.19351499999999,
+        "intensity": 2.7,
         "responses": 1
       },
       {
@@ -1217,10 +1265,28 @@
         "responses": 1
       },
       {
-        "lat": 48.3615325,
-        "lon": -120.117555,
-        "intensity": 2.6,
-        "responses": 2
+        "lat": 48.459365,
+        "lon": -119.549775,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 48.38815,
+        "lon": -120.10254,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 48.31087,
+        "lon": -120.65995,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 48.371525,
+        "lon": -120.157505,
+        "intensity": 2,
+        "responses": 1
       }
     ],
     "intensity_source": "usgs_dyfi",
