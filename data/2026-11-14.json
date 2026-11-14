@@ -1448,5 +1448,30 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714139181",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000ty84",
+    "source": "usgs",
+    "time": "2026-11-14T09:26:13.073000+00:00",
+    "updated": "2026-11-14T09:41:58.040000+00:00",
+    "lat": 30.122,
+    "lon": -42.6346,
+    "depth_km": 10,
+    "magnitude": 5.5,
+    "mag_type": "mww",
+    "place": "northern Mid-Atlantic Ridge",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026whxd",
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty84",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
