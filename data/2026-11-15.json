@@ -3698,5 +3698,30 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wqwoem",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "nn00927024",
+    "source": "usgs",
+    "time": "2026-11-15T19:58:06.017000+00:00",
+    "updated": "2026-11-15T20:00:35.539000+00:00",
+    "lat": 39.3238,
+    "lon": -119.0378,
+    "depth_km": 1.6914,
+    "magnitude": 2.89,
+    "mag_type": "ml",
+    "place": "19 km ESE of Silver Springs, Nevada",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00927024",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
