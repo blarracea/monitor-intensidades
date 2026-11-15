@@ -3854,5 +3854,30 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392757.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026wqyzpo",
+    "source": "usgs",
+    "time": "2026-11-15T21:00:29.551000+00:00",
+    "updated": "2026-11-15T21:02:49.003000+00:00",
+    "lat": 56.758,
+    "lon": -156.995,
+    "depth_km": 69.6,
+    "magnitude": 2.5,
+    "mag_type": "ml",
+    "place": "87 km SSE of Ugashik, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wqyzpo",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
