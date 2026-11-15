@@ -1752,7 +1752,7 @@
     "id": "aka2026wptmlc",
     "source": "usgs",
     "time": "2026-11-15T05:15:40.008000+00:00",
-    "updated": "2026-11-15T05:55:21.093000+00:00",
+    "updated": "2026-11-15T06:12:59.751000+00:00",
     "lat": 60.073,
     "lon": -147.799,
     "depth_km": 14.4,
@@ -1761,18 +1761,18 @@
     "place": "11 km E of Chenega, Alaska",
     "cdi": 3.4,
     "mmi": 3.623,
-    "felt_reports": 19,
+    "felt_reports": 21,
     "tsunami_flag": false,
     "dyfi_points": [
       {
-        "lat": 60.771429999999995,
-        "lon": -148.67982,
+        "lat": 60.158545000000004,
+        "lon": -149.4053,
         "intensity": 3.4,
         "responses": 1
       },
       {
-        "lat": 60.158545000000004,
-        "lon": -149.4053,
+        "lat": 60.771429999999995,
+        "lon": -148.67982,
         "intensity": 3.4,
         "responses": 1
       },
@@ -1781,6 +1781,18 @@
         "lon": -149.449885,
         "intensity": 3.1,
         "responses": 1
+      },
+      {
+        "lat": 61.1897625,
+        "lon": -149.9488225,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 60.10406,
+        "lon": -149.43731,
+        "intensity": 2.7,
+        "responses": 4
       },
       {
         "lat": 60.97213,
@@ -1795,10 +1807,10 @@
         "responses": 1
       },
       {
-        "lat": 60.10406,
-        "lon": -149.43731,
-        "intensity": 2.7,
-        "responses": 4
+        "lat": 61.173035,
+        "lon": -149.8914525,
+        "intensity": 2.2,
+        "responses": 1
       },
       {
         "lat": 60.19508,
@@ -1813,9 +1825,27 @@
         "responses": 1
       },
       {
-        "lat": 61.173035,
-        "lon": -149.8914525,
-        "intensity": 2.2,
+        "lat": 61.1477,
+        "lon": -149.8147825,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.191362500000004,
+        "lon": -149.87452000000002,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 60.13064,
+        "lon": -149.457285,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 61.1309125,
+        "lon": -149.7575525,
+        "intensity": 2,
         "responses": 1
       },
       {
@@ -1827,24 +1857,6 @@
       {
         "lat": 61.193685,
         "lon": -149.76304249999998,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 60.13064,
-        "lon": -149.457285,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 61.1477,
-        "lon": -149.8147825,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 61.1309125,
-        "lon": -149.7575525,
         "intensity": 2,
         "responses": 1
       }
