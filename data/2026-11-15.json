@@ -2931,7 +2931,7 @@
     "id": "us7000tyek",
     "source": "usgs",
     "time": "2026-11-15T13:41:35.701000+00:00",
-    "updated": "2026-11-15T15:48:50.137000+00:00",
+    "updated": "2026-11-15T19:01:03.507000+00:00",
     "lat": 9.7595,
     "lon": 126.2,
     "depth_km": 9.971,
@@ -2940,7 +2940,7 @@
     "place": "9 km E of Union, Philippines",
     "cdi": 4.6,
     "mmi": 6.399,
-    "felt_reports": 12,
+    "felt_reports": 13,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2974,20 +2974,26 @@
         "responses": 1
       },
       {
-        "lat": 11.1608725,
-        "lon": 124.9916675,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
         "lat": 9.807995,
         "lon": 126.16048,
         "intensity": 2,
         "responses": 1
       },
       {
+        "lat": 11.1608725,
+        "lon": 124.9916675,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 10.24396,
         "lon": 123.81722500000001,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 10.04883,
+        "lon": 125.03009,
         "intensity": 2,
         "responses": 1
       },
