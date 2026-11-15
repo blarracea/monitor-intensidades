@@ -78,7 +78,7 @@
     "id": "uu80164656",
     "source": "usgs",
     "time": "2026-11-15T01:40:03.330000+00:00",
-    "updated": "2026-11-15T19:42:09.042000+00:00",
+    "updated": "2026-11-15T20:25:20.878000+00:00",
     "lat": 41.1915,
     "lon": -111.660166666667,
     "depth_km": 5.43,
@@ -87,7 +87,7 @@
     "place": "11 km SE of Huntsville, Utah",
     "cdi": 3.4,
     "mmi": 3.591,
-    "felt_reports": 375,
+    "felt_reports": 376,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2731,7 +2731,7 @@
     "id": "ok2026wjws",
     "source": "usgs",
     "time": "2026-11-15T11:29:08.070000+00:00",
-    "updated": "2026-11-15T14:29:49.404000+00:00",
+    "updated": "2026-11-15T20:20:53.830000+00:00",
     "lat": 35.61283333,
     "lon": -98.04283333,
     "depth_km": 6.34,
@@ -2740,9 +2740,15 @@
     "place": "6 km E of Calumet, Oklahoma",
     "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 5,
+    "felt_reports": 6,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 34.151825,
+        "lon": -97.17222749999999,
+        "intensity": 2.7,
+        "responses": 1
+      },
       {
         "lat": 35.57817,
         "lon": -98.1446475,
@@ -2750,9 +2756,9 @@
         "responses": 1
       },
       {
-        "lat": 34.151825,
-        "lon": -97.17222749999999,
-        "intensity": 2.7,
+        "lat": 36.0943325,
+        "lon": -96.02885,
+        "intensity": 2.2,
         "responses": 1
       },
       {
@@ -2762,14 +2768,14 @@
         "responses": 1
       },
       {
-        "lat": 35.667125,
-        "lon": -97.9890175,
+        "lat": 35.4092175,
+        "lon": -99.4019975,
         "intensity": 1,
         "responses": 1
       },
       {
-        "lat": 35.4092175,
-        "lon": -99.4019975,
+        "lat": 35.667125,
+        "lon": -97.9890175,
         "intensity": 1,
         "responses": 1
       }
@@ -3728,7 +3734,7 @@
     "id": "nn00927024",
     "source": "usgs",
     "time": "2026-11-15T19:58:06.017000+00:00",
-    "updated": "2026-11-15T20:06:34.150000+00:00",
+    "updated": "2026-11-15T20:23:40.592000+00:00",
     "lat": 39.3238,
     "lon": -119.0378,
     "depth_km": 1.6914,
@@ -3737,9 +3743,15 @@
     "place": "19 km ESE of Silver Springs, Nevada",
     "cdi": 2.2,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 39.408985,
+        "lon": -119.2126625,
+        "intensity": 2.2,
+        "responses": 1
+      },
       {
         "lat": 39.33651,
         "lon": -119.2335775,
