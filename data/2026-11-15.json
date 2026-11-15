@@ -2671,7 +2671,7 @@
     "id": "ok2026wjws",
     "source": "usgs",
     "time": "2026-11-15T11:29:08.070000+00:00",
-    "updated": "2026-11-15T13:26:17.757000+00:00",
+    "updated": "2026-11-15T14:29:49.404000+00:00",
     "lat": 35.61283333,
     "lon": -98.04283333,
     "depth_km": 6.34,
@@ -2680,9 +2680,15 @@
     "place": "6 km E of Calumet, Oklahoma",
     "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 4,
+    "felt_reports": 5,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 35.57817,
+        "lon": -98.1446475,
+        "intensity": 2.7,
+        "responses": 1
+      },
       {
         "lat": 34.151825,
         "lon": -97.17222749999999,
@@ -2690,9 +2696,9 @@
         "responses": 1
       },
       {
-        "lat": 35.57817,
-        "lon": -98.1446475,
-        "intensity": 2.7,
+        "lat": 35.573372500000005,
+        "lon": -97.62602749999999,
+        "intensity": 2,
         "responses": 1
       },
       {
