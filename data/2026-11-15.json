@@ -1458,7 +1458,7 @@
     "id": "ok2026wjiy",
     "source": "usgs",
     "time": "2026-11-15T04:32:14.160000+00:00",
-    "updated": "2026-11-15T05:34:26.916000+00:00",
+    "updated": "2026-11-15T05:53:49.581000+00:00",
     "lat": 35.61016667,
     "lon": -98.047,
     "depth_km": 6.77,
@@ -1467,7 +1467,7 @@
     "place": "6 km E of Calumet, Oklahoma",
     "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 31,
+    "felt_reports": 33,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1489,14 +1489,14 @@
         "responses": 2
       },
       {
-        "lat": 35.522505,
-        "lon": -97.9467175,
-        "intensity": 3.4,
-        "responses": 2
-      },
-      {
         "lat": 35.46495,
         "lon": -97.60583,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 35.613215,
+        "lon": -98.011775,
         "intensity": 3.4,
         "responses": 1
       },
@@ -1507,10 +1507,10 @@
         "responses": 1
       },
       {
-        "lat": 35.51865,
-        "lon": -97.57182,
+        "lat": 35.522505,
+        "lon": -97.9467175,
         "intensity": 3.4,
-        "responses": 1
+        "responses": 2
       },
       {
         "lat": 35.502115,
@@ -1519,9 +1519,15 @@
         "responses": 1
       },
       {
-        "lat": 35.613215,
-        "lon": -98.011775,
+        "lat": 35.51865,
+        "lon": -97.57182,
         "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 35.5317125,
+        "lon": -97.96866,
+        "intensity": 3.1,
         "responses": 1
       },
       {
@@ -1533,18 +1539,6 @@
       {
         "lat": 35.49121,
         "lon": -97.539235,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 35.51101,
-        "lon": -97.6932475,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 35.5736225,
-        "lon": -97.64809,
         "intensity": 2.7,
         "responses": 1
       },
@@ -1561,32 +1555,32 @@
         "responses": 1
       },
       {
+        "lat": 35.5736225,
+        "lon": -97.64809,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 35.51101,
+        "lon": -97.6932475,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": 35.59604,
         "lon": -98.12237999999999,
         "intensity": 2.4,
         "responses": 2
       },
       {
-        "lat": 35.652775,
-        "lon": -97.48107,
+        "lat": 35.53152,
+        "lon": -97.9466025,
         "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 35.5644825,
-        "lon": -97.63721,
-        "intensity": 2.2,
-        "responses": 1
+        "responses": 3
       },
       {
         "lat": 35.6355625,
         "lon": -97.5476575,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 35.4909425,
-        "lon": -97.5171925,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1597,15 +1591,27 @@
         "responses": 1
       },
       {
-        "lat": 35.53152,
-        "lon": -97.9466025,
+        "lat": 35.513295,
+        "lon": -97.924785,
         "intensity": 2.2,
-        "responses": 3
+        "responses": 1
       },
       {
-        "lat": 35.210547500000004,
-        "lon": -97.44541,
-        "intensity": 2,
+        "lat": 35.5644825,
+        "lon": -97.63721,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 35.4909425,
+        "lon": -97.5171925,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 35.652775,
+        "lon": -97.48107,
+        "intensity": 2.2,
         "responses": 1
       },
       {
@@ -1615,14 +1621,20 @@
         "responses": 1
       },
       {
-        "lat": 35.600412500000004,
-        "lon": -97.625565,
-        "intensity": 1,
+        "lat": 35.210547500000004,
+        "lon": -97.44541,
+        "intensity": 2,
         "responses": 1
       },
       {
         "lat": 35.6698625,
         "lon": -99.60219000000001,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 35.600412500000004,
+        "lon": -97.625565,
         "intensity": 1,
         "responses": 1
       }
@@ -1690,7 +1702,7 @@
     "id": "aka2026wptmlc",
     "source": "usgs",
     "time": "2026-11-15T05:15:40.008000+00:00",
-    "updated": "2026-11-15T05:46:32.749000+00:00",
+    "updated": "2026-11-15T05:55:21.093000+00:00",
     "lat": 60.073,
     "lon": -147.799,
     "depth_km": 14.4,
@@ -1699,7 +1711,7 @@
     "place": "11 km E of Chenega, Alaska",
     "cdi": 3.4,
     "mmi": 3.623,
-    "felt_reports": 16,
+    "felt_reports": 19,
     "tsunami_flag": false,
     "dyfi_points": [
       {
