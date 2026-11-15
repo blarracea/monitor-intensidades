@@ -1861,7 +1861,7 @@
     "id": "aka2026wptmlc",
     "source": "usgs",
     "time": "2026-11-15T05:15:40.008000+00:00",
-    "updated": "2026-11-15T06:12:59.751000+00:00",
+    "updated": "2026-11-15T15:21:28.237000+00:00",
     "lat": 60.073,
     "lon": -147.799,
     "depth_km": 14.4,
@@ -1870,7 +1870,7 @@
     "place": "11 km E of Chenega, Alaska",
     "cdi": 3.4,
     "mmi": 3.623,
-    "felt_reports": 21,
+    "felt_reports": 24,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1892,16 +1892,22 @@
         "responses": 1
       },
       {
+        "lat": 60.10406,
+        "lon": -149.43731,
+        "intensity": 2.7,
+        "responses": 5
+      },
+      {
         "lat": 61.1897625,
         "lon": -149.9488225,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 60.10406,
-        "lon": -149.43731,
+        "lat": 61.112975,
+        "lon": -149.7559875,
         "intensity": 2.7,
-        "responses": 4
+        "responses": 1
       },
       {
         "lat": 60.97213,
@@ -1910,9 +1916,15 @@
         "responses": 1
       },
       {
-        "lat": 61.112975,
-        "lon": -149.7559875,
-        "intensity": 2.7,
+        "lat": 61.0763475,
+        "lon": -149.7898925,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 61.049445,
+        "lon": -149.7875275,
+        "intensity": 2.2,
         "responses": 1
       },
       {
@@ -1928,32 +1940,14 @@
         "responses": 1
       },
       {
-        "lat": 61.0763475,
-        "lon": -149.7898925,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 61.1477,
-        "lon": -149.8147825,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
         "lat": 61.191362500000004,
         "lon": -149.87452000000002,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 60.13064,
-        "lon": -149.457285,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 61.1309125,
-        "lon": -149.7575525,
+        "lat": 61.1477,
+        "lon": -149.8147825,
         "intensity": 2,
         "responses": 1
       },
@@ -1964,10 +1958,22 @@
         "responses": 1
       },
       {
+        "lat": 61.1309125,
+        "lon": -149.7575525,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 60.13064,
+        "lon": -149.457285,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 61.193685,
         "lon": -149.76304249999998,
         "intensity": 2,
-        "responses": 1
+        "responses": 2
       }
     ],
     "intensity_source": "usgs_dyfi",
