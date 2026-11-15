@@ -1641,19 +1641,50 @@
     "id": "aka2026wptmlc",
     "source": "usgs",
     "time": "2026-11-15T05:15:40.408000+00:00",
-    "updated": "2026-11-15T05:19:46.831000+00:00",
+    "updated": "2026-11-15T05:23:29.154000+00:00",
     "lat": 60.086,
     "lon": -147.811,
     "depth_km": 14.7,
     "magnitude": 3.9,
     "mag_type": "ml",
     "place": "11 km E of Chenega, Alaska",
-    "cdi": null,
-    "mmi": 3.567,
-    "felt_reports": 0,
+    "cdi": 3.1,
+    "mmi": 3.691,
+    "felt_reports": 6,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 60.10406,
+        "lon": -149.43731,
+        "intensity": 3.1,
+        "responses": 2
+      },
+      {
+        "lat": 60.97213,
+        "lon": -149.096925,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 61.173035,
+        "lon": -149.8914525,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 60.19508,
+        "lon": -149.3718875,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 60.13064,
+        "lon": -149.457285,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "gfz_url": null,
