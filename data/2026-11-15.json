@@ -1569,7 +1569,7 @@
     "id": "ok2026wjiy",
     "source": "usgs",
     "time": "2026-11-15T04:32:14.160000+00:00",
-    "updated": "2026-11-15T06:15:41.961000+00:00",
+    "updated": "2026-11-15T11:35:35.302000+00:00",
     "lat": 35.61016667,
     "lon": -98.047,
     "depth_km": 6.77,
@@ -1578,7 +1578,7 @@
     "place": "6 km E of Calumet, Oklahoma",
     "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 36,
+    "felt_reports": 38,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1612,20 +1612,8 @@
         "responses": 2
       },
       {
-        "lat": 35.51865,
-        "lon": -97.57182,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
         "lat": 35.5281775,
         "lon": -97.6157675,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
-        "lat": 35.502115,
-        "lon": -97.7044175,
         "intensity": 3.4,
         "responses": 1
       },
@@ -1636,9 +1624,15 @@
         "responses": 1
       },
       {
-        "lat": 35.55547,
-        "lon": -97.637365,
-        "intensity": 3.1,
+        "lat": 35.51865,
+        "lon": -97.57182,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 35.502115,
+        "lon": -97.7044175,
+        "intensity": 3.4,
         "responses": 1
       },
       {
@@ -1648,26 +1642,20 @@
         "responses": 1
       },
       {
-        "lat": 35.21069,
-        "lon": -97.456395,
-        "intensity": 2.7,
+        "lat": 35.55547,
+        "lon": -97.637365,
+        "intensity": 3.1,
         "responses": 1
+      },
+      {
+        "lat": 35.59604,
+        "lon": -98.12237999999999,
+        "intensity": 2.8,
+        "responses": 3
       },
       {
         "lat": 35.49121,
         "lon": -97.539235,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 35.59076,
-        "lon": -97.57054,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 35.51101,
-        "lon": -97.6932475,
         "intensity": 2.7,
         "responses": 1
       },
@@ -1678,44 +1666,38 @@
         "responses": 1
       },
       {
+        "lat": 35.51101,
+        "lon": -97.6932475,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": 35.5736225,
         "lon": -97.64809,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 35.59604,
-        "lon": -98.12237999999999,
-        "intensity": 2.4,
-        "responses": 2
+        "lat": 35.21069,
+        "lon": -97.456395,
+        "intensity": 2.7,
+        "responses": 1
       },
       {
-        "lat": 35.53152,
-        "lon": -97.9466025,
+        "lat": 35.59076,
+        "lon": -97.57054,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 35.652775,
+        "lon": -97.48107,
         "intensity": 2.2,
-        "responses": 3
+        "responses": 1
       },
       {
         "lat": 35.5115925,
         "lon": -97.74837500000001,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 35.6355625,
-        "lon": -97.5476575,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 35.513295,
-        "lon": -97.924785,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 35.4909425,
-        "lon": -97.5171925,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1726,16 +1708,34 @@
         "responses": 1
       },
       {
-        "lat": 35.652775,
-        "lon": -97.48107,
+        "lat": 35.53152,
+        "lon": -97.9466025,
+        "intensity": 2.2,
+        "responses": 3
+      },
+      {
+        "lat": 35.513295,
+        "lon": -97.924785,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 35.5744625,
-        "lon": -97.725325,
-        "intensity": 2,
+        "lat": 35.6355625,
+        "lon": -97.5476575,
+        "intensity": 2.2,
         "responses": 1
+      },
+      {
+        "lat": 35.4909425,
+        "lon": -97.5171925,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 35.6174025,
+        "lon": -97.5369425,
+        "intensity": 2,
+        "responses": 2
       },
       {
         "lat": 35.210547500000004,
@@ -1744,15 +1744,9 @@
         "responses": 1
       },
       {
-        "lat": 35.6174025,
-        "lon": -97.5369425,
+        "lat": 35.5744625,
+        "lon": -97.725325,
         "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 35.6698625,
-        "lon": -99.60219000000001,
-        "intensity": 1,
         "responses": 1
       },
       {
@@ -1764,6 +1758,12 @@
       {
         "lat": 35.600412500000004,
         "lon": -97.625565,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 35.6698625,
+        "lon": -99.60219000000001,
         "intensity": 1,
         "responses": 1
       }
@@ -2632,8 +2632,8 @@
     "lat": -20.6,
     "lon": -70.23,
     "depth_km": 37.0,
-    "magnitude": 4.6,
-    "mag_type": "MLv",
+    "magnitude": 4.4,
+    "mag_type": "Mw",
     "place": "23 km al N de Patache, Chile",
     "cdi": null,
     "mmi": null,
@@ -2652,20 +2652,33 @@
   {
     "id": "ok2026wjws",
     "source": "usgs",
-    "time": "2026-11-15T11:29:07.981000+00:00",
-    "updated": "2026-11-15T11:33:22.040000+00:00",
-    "lat": 35.60971832,
-    "lon": -98.03757477,
-    "depth_km": 4.418019772,
-    "magnitude": 3.18,
+    "time": "2026-11-15T11:29:08.611000+00:00",
+    "updated": "2026-11-15T11:39:22.201000+00:00",
+    "lat": 35.62510681,
+    "lon": -98.03107452,
+    "depth_km": 1.657231808,
+    "magnitude": 3.2,
     "mag_type": "ml",
-    "place": "7 km E of Calumet, Oklahoma",
-    "cdi": null,
+    "place": "8 km ENE of Calumet, Oklahoma",
+    "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 0,
+    "felt_reports": 2,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 35.57817,
+        "lon": -98.1446475,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 35.4092175,
+        "lon": -99.4019975,
+        "intensity": 1,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "gfz_url": null,
