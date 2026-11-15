@@ -1403,7 +1403,7 @@
     "id": "ok2026wjiy",
     "source": "usgs",
     "time": "2026-11-15T04:32:14.567000+00:00",
-    "updated": "2026-11-15T04:41:24.112000+00:00",
+    "updated": "2026-11-15T04:45:45.063000+00:00",
     "lat": 35.61790085,
     "lon": -98.03940582,
     "depth_km": 2.156694651,
@@ -1412,13 +1412,25 @@
     "place": "7 km ENE of Calumet, Oklahoma",
     "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 9,
+    "felt_reports": 17,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 35.617670000000004,
+        "lon": -97.55902,
+        "intensity": 4,
+        "responses": 1
+      },
       {
         "lat": 35.6451,
         "lon": -97.5916625,
         "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 35.51865,
+        "lon": -97.57182,
+        "intensity": 3.4,
         "responses": 1
       },
       {
@@ -1434,9 +1446,33 @@
         "responses": 1
       },
       {
+        "lat": 35.55547,
+        "lon": -97.637365,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
         "lat": 35.472915,
         "lon": -97.517525,
         "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 35.51101,
+        "lon": -97.6932475,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 35.5644825,
+        "lon": -97.63721,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 35.5115925,
+        "lon": -97.74837500000001,
+        "intensity": 2.2,
         "responses": 1
       },
       {
@@ -1446,8 +1482,8 @@
         "responses": 2
       },
       {
-        "lat": 35.652775,
-        "lon": -97.48107,
+        "lat": 35.4909425,
+        "lon": -97.5171925,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1458,9 +1494,21 @@
         "responses": 1
       },
       {
-        "lat": 35.4909425,
-        "lon": -97.5171925,
+        "lat": 35.652775,
+        "lon": -97.48107,
         "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 35.59604,
+        "lon": -98.12237999999999,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 35.210547500000004,
+        "lon": -97.44541,
+        "intensity": 2,
         "responses": 1
       }
     ],
