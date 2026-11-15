@@ -2907,7 +2907,7 @@
     "id": "us7000tyek",
     "source": "usgs",
     "time": "2026-11-15T13:41:35.701000+00:00",
-    "updated": "2026-11-15T15:44:46.417000+00:00",
+    "updated": "2026-11-15T15:48:50.137000+00:00",
     "lat": 9.7595,
     "lon": 126.2,
     "depth_km": 9.971,
@@ -3195,5 +3195,40 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392702.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/392705.html",
+    "source": "csn",
+    "time": "2026-11-15T15:44:45+00:00",
+    "updated": "2026-11-15T15:44:45+00:00",
+    "lat": -33.16,
+    "lon": -71.47,
+    "depth_km": 17.0,
+    "magnitude": 3.3,
+    "mag_type": "ML",
+    "place": "18 km al SE de Valparaíso, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": -33.0472,
+        "lon": -71.6127,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Valparaíso",
+        "region": "Valparaíso"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-valparaiso-2026-11-15-12-49-08",
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392705.html",
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392705.html",
+    "relevant": false,
+    "keywords_matched": [],
+    "senapred_match_time": "2026-11-15T12:49:08-03:00"
   }
 ]
