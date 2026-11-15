@@ -2871,7 +2871,7 @@
     "id": "us7000tyek",
     "source": "usgs",
     "time": "2026-11-15T13:41:35.701000+00:00",
-    "updated": "2026-11-15T14:10:03.115000+00:00",
+    "updated": "2026-11-15T14:24:28.601000+00:00",
     "lat": 9.7595,
     "lon": 126.2,
     "depth_km": 9.971,
@@ -2880,7 +2880,7 @@
     "place": "9 km E of Union, Philippines",
     "cdi": 4.6,
     "mmi": 6.399,
-    "felt_reports": 9,
+    "felt_reports": 11,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2908,14 +2908,20 @@
         "responses": 1
       },
       {
+        "lat": 9.807995,
+        "lon": 126.16048,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 11.1608725,
         "lon": 124.9916675,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 9.807995,
-        "lon": 126.16048,
+        "lat": 10.24396,
+        "lon": 123.81722500000001,
         "intensity": 2,
         "responses": 1
       },
@@ -2926,9 +2932,9 @@
         "responses": 1
       },
       {
-        "lat": 10.24396,
-        "lon": 123.81722500000001,
-        "intensity": 2,
+        "lat": 11.2059425,
+        "lon": 125.010285,
+        "intensity": 1,
         "responses": 1
       }
     ],
@@ -3013,6 +3019,56 @@
     "gfz_url": null,
     "ptwc_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392696.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/392700.html",
+    "source": "csn",
+    "time": "2026-11-15T14:14:50+00:00",
+    "updated": "2026-11-15T14:14:50+00:00",
+    "lat": -22.35,
+    "lon": -68.69,
+    "depth_km": 76.0,
+    "magnitude": 2.8,
+    "mag_type": "MLv",
+    "place": "29 km al NE de Calama, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392700.html",
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392700.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "aka2026wqlqvn",
+    "source": "usgs",
+    "time": "2026-11-15T14:20:30.226000+00:00",
+    "updated": "2026-11-15T14:25:06.615000+00:00",
+    "lat": 62.973,
+    "lon": -148.187,
+    "depth_km": 68.3,
+    "magnitude": 2.6,
+    "mag_type": "ml",
+    "place": "60 km SE of Cantwell, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wqlqvn",
     "relevant": false,
     "keywords_matched": []
   }
