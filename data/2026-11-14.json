@@ -1866,7 +1866,7 @@
     "id": "ci41361951",
     "source": "usgs",
     "time": "2026-11-14T11:13:58.480000+00:00",
-    "updated": "2026-11-14T17:30:36.771000+00:00",
+    "updated": "2026-11-15T07:05:18.284000+00:00",
     "lat": 32.80067,
     "lon": -115.451,
     "depth_km": 10.97,
@@ -1875,12 +1875,18 @@
     "place": "7 km W of Holtville, CA",
     "cdi": 2.2,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 32.8221575,
         "lon": -115.552455,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 32.78645,
+        "lon": -115.585065,
         "intensity": 2.2,
         "responses": 1
       }
