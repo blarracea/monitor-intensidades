@@ -3197,7 +3197,7 @@
     "id": "us7000tyet",
     "source": "usgs",
     "time": "2026-11-15T14:29:56.330000+00:00",
-    "updated": "2026-11-15T23:06:52.862000+00:00",
+    "updated": "2026-11-16T03:01:48.550000+00:00",
     "lat": 36.2595,
     "lon": -106.8072,
     "depth_km": 9.921,
@@ -3206,9 +3206,15 @@
     "place": "3 km N of Capulin, New Mexico",
     "cdi": 2.2,
     "mmi": null,
-    "felt_reports": 4,
+    "felt_reports": 5,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 36.1642625,
+        "lon": -106.6954875,
+        "intensity": 2.2,
+        "responses": 1
+      },
       {
         "lat": 35.93699,
         "lon": -106.080915,
@@ -3216,9 +3222,9 @@
         "responses": 1
       },
       {
-        "lat": 36.1642625,
-        "lon": -106.6954875,
-        "intensity": 2.2,
+        "lat": 35.079215,
+        "lon": -106.21207,
+        "intensity": 2,
         "responses": 1
       },
       {
