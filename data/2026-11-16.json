@@ -898,5 +898,30 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392885.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026wsdusl",
+    "source": "usgs",
+    "time": "2026-11-16T12:24:19.280000+00:00",
+    "updated": "2026-11-16T12:25:55.038000+00:00",
+    "lat": 59.474,
+    "lon": -139.042,
+    "depth_km": 14.3,
+    "magnitude": 2.8,
+    "mag_type": "ml",
+    "place": "39 km ESE of Yakutat, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wsdusl",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
