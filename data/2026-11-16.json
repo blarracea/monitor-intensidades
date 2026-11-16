@@ -298,5 +298,30 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392809.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us7000tyhr",
+    "source": "usgs",
+    "time": "2026-11-16T04:24:11.517000+00:00",
+    "updated": "2026-11-16T04:32:22.040000+00:00",
+    "lat": 37.1847,
+    "lon": 136.9792,
+    "depth_km": 286.099,
+    "magnitude": 5.4,
+    "mag_type": "mww",
+    "place": "8 km SE of Anamizu, Japan",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wlef",
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyhr",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
