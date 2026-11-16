@@ -1458,7 +1458,7 @@
     "id": "us7000ty16",
     "source": "usgs",
     "time": "2026-11-13T16:35:58.400000+00:00",
-    "updated": "2026-11-14T04:34:00.038000+00:00",
+    "updated": "2026-11-16T14:29:09.223000+00:00",
     "lat": 18.5286,
     "lon": -69.0533,
     "depth_km": 136.742,
@@ -1467,7 +1467,7 @@
     "place": "10 km SW of Guaymate, Dominican Republic",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 28,
+    "felt_reports": 29,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1475,6 +1475,12 @@
         "lon": -69.94248999999999,
         "intensity": 3.4,
         "responses": 2
+      },
+      {
+        "lat": 18.461455,
+        "lon": -69.94234,
+        "intensity": 3.1,
+        "responses": 1
       },
       {
         "lat": 18.634705,
@@ -1489,14 +1495,14 @@
         "responses": 1
       },
       {
-        "lat": 18.461455,
-        "lon": -69.94234,
-        "intensity": 3.1,
+        "lat": 19.4859275,
+        "lon": -70.7198125,
+        "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 19.4859275,
-        "lon": -70.7198125,
+        "lat": 18.427612500000002,
+        "lon": -68.8911,
         "intensity": 2.7,
         "responses": 1
       },
@@ -1505,12 +1511,6 @@
         "lon": -69.90451,
         "intensity": 2.7,
         "responses": 2
-      },
-      {
-        "lat": 18.427612500000002,
-        "lon": -68.8911,
-        "intensity": 2.7,
-        "responses": 1
       },
       {
         "lat": 18.373345,
@@ -1561,32 +1561,20 @@
         "responses": 1
       },
       {
-        "lat": 18.580365,
-        "lon": -68.407645,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
         "lat": 18.452325000000002,
         "lon": -69.96123,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 19.3000225,
-        "lon": -70.251585,
-        "intensity": 2,
-        "responses": 2
-      },
-      {
-        "lat": 18.281295,
-        "lon": -66.970885,
+        "lat": 18.580365,
+        "lon": -68.407645,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 18.4523725,
-        "lon": -69.95176000000001,
+        "lat": 18.281295,
+        "lon": -66.970885,
         "intensity": 2,
         "responses": 1
       },
@@ -1597,8 +1585,20 @@
         "responses": 1
       },
       {
-        "lat": 18.5067775,
-        "lon": -69.91417,
+        "lat": 19.3000225,
+        "lon": -70.251585,
+        "intensity": 2,
+        "responses": 2
+      },
+      {
+        "lat": 18.4523725,
+        "lon": -69.95176000000001,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 18.425065,
+        "lon": -69.98948,
         "intensity": 1,
         "responses": 1
       },
@@ -1609,8 +1609,14 @@
         "responses": 1
       },
       {
-        "lat": 18.425065,
-        "lon": -69.98948,
+        "lat": 18.688845,
+        "lon": -68.416755,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 18.5067775,
+        "lon": -69.91417,
         "intensity": 1,
         "responses": 1
       }
