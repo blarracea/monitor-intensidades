@@ -523,5 +523,30 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wrsbwy",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/392839.html",
+    "source": "csn",
+    "time": "2026-11-16T06:38:25+00:00",
+    "updated": "2026-11-16T06:38:25+00:00",
+    "lat": -36.65,
+    "lon": -70.93,
+    "depth_km": 165.0,
+    "magnitude": 2.8,
+    "mag_type": "MLv",
+    "place": "57 km al E de San Fabián, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392839.html",
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/392839.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
