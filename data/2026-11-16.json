@@ -1712,6 +1712,31 @@
     "keywords_matched": []
   },
   {
+    "id": "us7000tym8",
+    "source": "usgs",
+    "time": "2026-11-16T19:26:34.776000+00:00",
+    "updated": "2026-11-16T22:31:25.040000+00:00",
+    "lat": -14.9779,
+    "lon": -75.8684,
+    "depth_km": 10,
+    "magnitude": 4.7,
+    "mag_type": "mb",
+    "place": "77 km WSW of Changuillo, Peru",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tym8",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/392972.html",
     "source": "csn",
     "time": "2026-11-16T19:51:57+00:00",
@@ -1789,14 +1814,14 @@
   {
     "id": "us7000tymu",
     "source": "usgs",
-    "time": "2026-11-16T21:11:17.168000+00:00",
-    "updated": "2026-11-16T22:21:11.697000+00:00",
-    "lat": -6.0288,
-    "lon": 131.4461,
-    "depth_km": 35,
+    "time": "2026-11-16T21:11:20.515000+00:00",
+    "updated": "2026-11-16T22:34:48.478000+00:00",
+    "lat": -6.0804,
+    "lon": 131.4868,
+    "depth_km": 68,
     "magnitude": 6.6,
     "mag_type": "mww",
-    "place": "151 km WSW of Tual, Indonesia",
+    "place": "148 km WSW of Tual, Indonesia",
     "cdi": 3.4,
     "mmi": 4.918,
     "felt_reports": 10,
@@ -1827,14 +1852,8 @@
         "responses": 1
       },
       {
-        "lat": -12.3819875,
-        "lon": 130.8625625,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": -12.45442,
-        "lon": 130.8446825,
+        "lat": -12.5352475,
+        "lon": 130.918855,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1845,8 +1864,14 @@
         "responses": 1
       },
       {
-        "lat": -12.5352475,
-        "lon": 130.918855,
+        "lat": -12.3819875,
+        "lon": 130.8625625,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": -12.45442,
+        "lon": 130.8446825,
         "intensity": 2.2,
         "responses": 1
       }
@@ -1864,7 +1889,7 @@
     "id": "nc75467222",
     "source": "usgs",
     "time": "2026-11-16T21:17:19.700000+00:00",
-    "updated": "2026-11-16T22:29:30.855000+00:00",
+    "updated": "2026-11-16T22:32:23.677000+00:00",
     "lat": 36.1066665649414,
     "lon": -121.709663391113,
     "depth_km": 10.6000003814697,
@@ -1939,6 +1964,31 @@
     "gfz_url": null,
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyns",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/393000.html",
+    "source": "csn",
+    "time": "2026-11-16T22:26:02+00:00",
+    "updated": "2026-11-16T22:26:02+00:00",
+    "lat": -18.69,
+    "lon": -70.87,
+    "depth_km": 31.0,
+    "magnitude": 3.1,
+    "mag_type": "MLv",
+    "place": "63 km al O de Arica, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393000.html",
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393000.html",
     "relevant": false,
     "keywords_matched": []
   }
