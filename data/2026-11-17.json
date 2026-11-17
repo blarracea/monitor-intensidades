@@ -1765,7 +1765,7 @@
     "id": "us7000tytu",
     "source": "usgs",
     "time": "2026-11-17T18:02:32.376000+00:00",
-    "updated": "2026-11-17T19:09:10.410000+00:00",
+    "updated": "2026-11-17T19:23:55.607000+00:00",
     "lat": 7.7396,
     "lon": -80.565,
     "depth_km": 10,
@@ -1774,13 +1774,19 @@
     "place": "1 km NW of Macaracas, Panama",
     "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 8.67055,
         "lon": -80.30463,
         "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 8.966755,
+        "lon": -79.53095250000001,
+        "intensity": 3.1,
         "responses": 1
       }
     ],
@@ -1840,6 +1846,31 @@
     "gfz_url": null,
     "ptwc_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393141.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/393146.html",
+    "source": "csn",
+    "time": "2026-11-17T19:02:10+00:00",
+    "updated": "2026-11-17T19:02:10+00:00",
+    "lat": -33.07,
+    "lon": -72.1,
+    "depth_km": 19.0,
+    "magnitude": 2.5,
+    "mag_type": "MLv",
+    "place": "45 km al O de Valparaíso, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393146.html",
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393146.html",
     "relevant": false,
     "keywords_matched": []
   },
