@@ -765,7 +765,7 @@
     "id": "us7000tyrv",
     "source": "usgs",
     "time": "2026-11-17T10:30:48.773000+00:00",
-    "updated": "2026-11-17T11:12:45.798000+00:00",
+    "updated": "2026-11-17T11:19:02.804000+00:00",
     "lat": -43.0226,
     "lon": 171.805,
     "depth_km": 14.237,
@@ -774,7 +774,7 @@
     "place": "43 km NW of Oxford, New Zealand",
     "cdi": 3.8,
     "mmi": 5.471,
-    "felt_reports": 27,
+    "felt_reports": 29,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -784,14 +784,14 @@
         "responses": 1
       },
       {
-        "lat": -43.4997175,
-        "lon": 172.5647125,
+        "lat": -43.580725,
+        "lon": 172.56681,
         "intensity": 4.1,
         "responses": 1
       },
       {
-        "lat": -43.580725,
-        "lon": 172.56681,
+        "lat": -43.4997175,
+        "lon": 172.5647125,
         "intensity": 4.1,
         "responses": 1
       },
@@ -802,14 +802,14 @@
         "responses": 2
       },
       {
-        "lat": -43.51668,
-        "lon": 172.639385,
+        "lat": -43.534324999999995,
+        "lon": 172.66462,
         "intensity": 3.4,
         "responses": 1
       },
       {
-        "lat": -43.534324999999995,
-        "lon": 172.66462,
+        "lat": -43.51668,
+        "lon": 172.639385,
         "intensity": 3.4,
         "responses": 1
       },
@@ -817,6 +817,12 @@
         "lat": -43.517725,
         "lon": 172.56518,
         "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": -43.49868,
+        "lon": 172.63889999999998,
+        "intensity": 3.1,
         "responses": 1
       },
       {
@@ -832,20 +838,20 @@
         "responses": 2
       },
       {
-        "lat": -43.508205000000004,
-        "lon": 172.602045,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": -43.49868,
-        "lon": 172.63889999999998,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
         "lat": -43.227395,
         "lon": 172.71781,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": -43.54368,
+        "lon": 172.6401175,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": -43.508205000000004,
+        "lon": 172.602045,
         "intensity": 3.1,
         "responses": 1
       },
@@ -862,20 +868,14 @@
         "responses": 1
       },
       {
-        "lat": -43.56151,
-        "lon": 172.652985,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
         "lat": -43.52568,
         "lon": 172.63963,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": -43.54539,
-        "lon": 172.51638,
+        "lat": -43.56151,
+        "lon": 172.652985,
         "intensity": 2.7,
         "responses": 1
       },
@@ -895,6 +895,18 @@
         "lat": -43.5262075,
         "lon": 172.602525,
         "intensity": 2.7,
+        "responses": 2
+      },
+      {
+        "lat": -43.54539,
+        "lon": 172.51638,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -43.51686,
+        "lon": 172.6270175,
+        "intensity": 2.2,
         "responses": 1
       },
       {
@@ -906,12 +918,6 @@
       {
         "lat": -42.43862,
         "lon": 171.2127725,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": -43.51686,
-        "lon": 172.6270175,
         "intensity": 2.2,
         "responses": 1
       },
