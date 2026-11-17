@@ -436,5 +436,30 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75071322",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "nn00927068",
+    "source": "usgs",
+    "time": "2026-11-17T06:32:04.852000+00:00",
+    "updated": "2026-11-17T06:34:09.895000+00:00",
+    "lat": 39.392,
+    "lon": -119.1027,
+    "depth_km": 13.3344,
+    "magnitude": 2.97,
+    "mag_type": "ml",
+    "place": "10 km ESE of Silver Springs, Nevada",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00927068",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
