@@ -765,16 +765,16 @@
     "id": "us7000tyrv",
     "source": "usgs",
     "time": "2026-11-17T10:30:48.773000+00:00",
-    "updated": "2026-11-17T10:59:20.190000+00:00",
+    "updated": "2026-11-17T11:02:07.381000+00:00",
     "lat": -43.0226,
     "lon": 171.805,
     "depth_km": 14.237,
     "magnitude": 4.9,
     "mag_type": "mb",
     "place": "43 km NW of Oxford, New Zealand",
-    "cdi": 4,
+    "cdi": 3.7,
     "mmi": 5.471,
-    "felt_reports": 15,
+    "felt_reports": 19,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -802,6 +802,12 @@
         "responses": 1
       },
       {
+        "lat": -43.517725,
+        "lon": 172.56518,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
         "lat": -43.51668,
         "lon": 172.639385,
         "intensity": 3.4,
@@ -810,6 +816,12 @@
       {
         "lat": -43.561685,
         "lon": 172.6406075,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": -43.508205000000004,
+        "lon": 172.602045,
         "intensity": 3.1,
         "responses": 1
       },
@@ -832,20 +844,32 @@
         "responses": 1
       },
       {
-        "lat": -43.54539,
-        "lon": 172.51638,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
         "lat": -43.535725,
         "lon": 172.5656425,
         "intensity": 2.7,
         "responses": 1
       },
       {
+        "lat": -43.535555,
+        "lon": 172.578015,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -43.56151,
+        "lon": 172.652985,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": -43.5262075,
         "lon": 172.602525,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -43.54539,
+        "lon": 172.51638,
         "intensity": 2.7,
         "responses": 1
       },
@@ -868,6 +892,31 @@
     "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wnlu",
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyrv",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000tyrw",
+    "source": "usgs",
+    "time": "2026-11-17T10:32:58.639000+00:00",
+    "updated": "2026-11-17T11:02:25.040000+00:00",
+    "lat": 40.6353,
+    "lon": 143.7461,
+    "depth_km": 26.644,
+    "magnitude": 4.9,
+    "mag_type": "mb",
+    "place": "173 km ENE of Noda, Japan",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wnlw",
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyrw",
     "relevant": false,
     "keywords_matched": []
   }
