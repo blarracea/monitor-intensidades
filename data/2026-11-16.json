@@ -1383,7 +1383,7 @@
     "id": "us7000tykh",
     "source": "usgs",
     "time": "2026-11-16T16:16:45.265000+00:00",
-    "updated": "2026-11-16T23:36:41.283000+00:00",
+    "updated": "2026-11-17T04:22:55.228000+00:00",
     "lat": -15.0306,
     "lon": -76.0259,
     "depth_km": 10,
@@ -1392,13 +1392,19 @@
     "place": "95 km WSW of Changuillo, Peru",
     "cdi": 4,
     "mmi": 4.138,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": -14.710685,
         "lon": -75.84994,
         "intensity": 4,
+        "responses": 1
+      },
+      {
+        "lat": -12.1367875,
+        "lon": -77.02619,
+        "intensity": 2.7,
         "responses": 1
       }
     ],
