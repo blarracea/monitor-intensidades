@@ -1379,5 +1379,30 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026wqnbjo",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/393107.html",
+    "source": "csn",
+    "time": "2026-11-17T15:00:18+00:00",
+    "updated": "2026-11-17T15:00:18+00:00",
+    "lat": -21.45,
+    "lon": -67.24,
+    "depth_km": 278.0,
+    "magnitude": 4.0,
+    "mag_type": "MLv",
+    "place": "107 km al E de Ollagüe, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393107.html",
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393107.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
