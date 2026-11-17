@@ -466,16 +466,16 @@
     "id": "nn00927068",
     "source": "usgs",
     "time": "2026-11-17T06:32:05.466000+00:00",
-    "updated": "2026-11-17T07:08:45.659000+00:00",
+    "updated": "2026-11-17T07:52:42.033000+00:00",
     "lat": 39.3807,
     "lon": -119.0993,
     "depth_km": 12.0393,
     "magnitude": 3.01,
     "mag_type": "ml",
     "place": "11 km ESE of Silver Springs, Nevada",
-    "cdi": 2.6,
+    "cdi": 2.7,
     "mmi": 3.116,
-    "felt_reports": 10,
+    "felt_reports": 11,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -485,15 +485,15 @@
         "responses": 1
       },
       {
-        "lat": 39.319162500000004,
-        "lon": -119.1982275,
-        "intensity": 2.7,
+        "lat": 39.37297,
+        "lon": -119.2115225,
+        "intensity": 3.1,
         "responses": 1
       },
       {
-        "lat": 39.45993,
-        "lon": -118.87722,
-        "intensity": 2.2,
+        "lat": 39.319162500000004,
+        "lon": -119.1982275,
+        "intensity": 2.7,
         "responses": 1
       },
       {
@@ -503,16 +503,22 @@
         "responses": 1
       },
       {
-        "lat": 39.4177675,
-        "lon": -119.2245525,
-        "intensity": 2.2,
-        "responses": 2
-      },
-      {
         "lat": 39.606395,
         "lon": -119.253875,
         "intensity": 2.2,
         "responses": 1
+      },
+      {
+        "lat": 39.45993,
+        "lon": -118.87722,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 39.4177675,
+        "lon": -119.2245525,
+        "intensity": 2.2,
+        "responses": 2
       },
       {
         "lat": 39.33651,
