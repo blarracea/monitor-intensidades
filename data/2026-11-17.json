@@ -411,5 +411,30 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wtkxeh",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "hv75071322",
+    "source": "usgs",
+    "time": "2026-11-17T05:59:36.540000+00:00",
+    "updated": "2026-11-17T06:03:06.970000+00:00",
+    "lat": 19.1730003356934,
+    "lon": -155.287506103516,
+    "depth_km": 40.6100006103516,
+    "magnitude": 2.68,
+    "mag_type": "md",
+    "place": "20 km E of Pāhala, Hawaii",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75071322",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
