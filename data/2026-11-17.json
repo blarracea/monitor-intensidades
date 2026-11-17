@@ -682,8 +682,15 @@
     "mmi": 3.947,
     "felt_reports": 1,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 31.697119999999998,
+        "lon": -106.208215,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "gfz_url": null,
@@ -1402,6 +1409,31 @@
     "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wnul",
     "ptwc_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393107.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/393112.html",
+    "source": "csn",
+    "time": "2026-11-17T15:36:45+00:00",
+    "updated": "2026-11-17T15:36:45+00:00",
+    "lat": -33.04,
+    "lon": -72.1,
+    "depth_km": 24.0,
+    "magnitude": 2.6,
+    "mag_type": "MLv",
+    "place": "46 km al O de Valparaíso, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393112.html",
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393112.html",
     "relevant": false,
     "keywords_matched": []
   }
