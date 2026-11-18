@@ -1325,3 +1325,9 @@ h2.live-feed-title {
     margin: 0.1rem 0;
   }
 }
+
+/* Fuente sin enlace (p. ej. "PTWC (sin boletin)"): se ve apagada para no confundirla con un enlace. */
+.source-none {
+  color: var(--color-text-muted);
+  cursor: help;
+}
