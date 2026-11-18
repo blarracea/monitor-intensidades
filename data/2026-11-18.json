@@ -3110,5 +3110,30 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393320.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "mb90213063",
+    "source": "usgs",
+    "time": "2026-11-18T16:33:28.130000+00:00",
+    "updated": "2026-11-18T16:54:57.270000+00:00",
+    "lat": 47.2936666666667,
+    "lon": -113.517,
+    "depth_km": 11.55,
+    "magnitude": 2.84,
+    "mag_type": "ml",
+    "place": "12 km N of Seeley Lake, Montana",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/mb90213063",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
