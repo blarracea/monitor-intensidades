@@ -38,27 +38,21 @@ body {
   display: flex;
   align-items: center;
   flex-shrink: 0;
-  background: #0f2a4a;
-  border-radius: 8px;
-  height: 36px;
-  padding-right: 0.8rem;
+  gap: 0.5rem;
 }
 .brand-icon {
   display: block;
-  width: 34px;
-  height: 34px;
-  overflow: hidden;
+  width: 36px;
+  height: 36px;
   line-height: 0;
-  border-radius: 8px 0 0 8px;
 }
 .brand-icon img {
   display: block;
-  height: 34px;
-  width: auto;
-  max-width: none;
+  width: 36px;
+  height: 36px;
 }
 .brand-name {
-  font-size: 1.35rem;
+  font-size: 1.1rem;
   font-weight: 600;
   letter-spacing: 0.01em;
   color: #fff;
@@ -975,9 +969,10 @@ h2.live-feed-title {
   .brand-name {
     display: none;
   }
-  .brand-logo {
-    padding-right: 0;
-    background: none;
+  .brand-icon,
+  .brand-icon img {
+    width: 32px;
+    height: 32px;
   }
 
   .app-header h1 {
