@@ -33,6 +33,18 @@ body {
   position: relative;
 }
 
+/* Logo a la izquierda del header (la imagen trae su propio fondo oscuro). */
+.brand-logo {
+  display: block;
+  flex-shrink: 0;
+  line-height: 0;
+}
+.brand-logo img {
+  display: block;
+  height: 34px;
+  width: auto;
+}
+
 /* Centrado real en la fila completa (no en el espacio libre entre logo y
    lupa): si el logo y el boton no miden exactamente lo mismo, centrar por
    flexbox normal descuadra el titulo hacia un lado. Sacandolo del flujo y
@@ -932,6 +944,14 @@ h2.live-feed-title {
   .app-header {
     padding: 0.75rem 1rem;
     min-height: 3.6rem;
+  }
+
+  /* En celular solo cabe el icono (los primeros ~34 px del logo): el titulo
+     centrado ocupa el resto de la fila. */
+  .brand-logo {
+    width: 34px;
+    overflow: hidden;
+    border-radius: 7px;
   }
 
   .app-header h1 {
