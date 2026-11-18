@@ -442,8 +442,14 @@
     if (event.gfz_url) {
       fuenteParts.push(`<a href="${_escapeAttrDetail(_safeUrlDetail(event.gfz_url))}" target="_blank" rel="noopener">GFZ</a>`);
     }
+    // PTWC: con boletin, enlaza a el. En sismos de Chile se muestra siempre (el PTWC solo emite boletin
+    // de los grandes): sin boletin enlaza a la portada de tsunami.gov, donde estan todos sus mensajes.
     if (event.ptwc_url) {
       fuenteParts.push(`<a href="${_escapeAttrDetail(_safeUrlDetail(event.ptwc_url))}" target="_blank" rel="noopener">PTWC</a>`);
+    } else if (event.source === "csn") {
+      fuenteParts.push(
+        `<a href="https://www.tsunami.gov/" target="_blank" rel="noopener" title="El PTWC no emitió un boletín para este sismo: abre tsunami.gov">PTWC</a>`
+      );
     }
     const fuenteLinks = fuenteParts.join(" · ");
     detailBody.innerHTML = `
