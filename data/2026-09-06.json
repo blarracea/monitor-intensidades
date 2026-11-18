@@ -45,7 +45,9 @@
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000telw",
     "relevant": false,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "gfz_url": null,
+    "ptwc_url": null
   },
   {
     "id": "us7000teme",
@@ -68,7 +70,9 @@
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000teme",
     "relevant": false,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026rlkr",
+    "ptwc_url": null
   },
   {
     "id": "us7000tenr",
@@ -98,7 +102,9 @@
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tenr",
     "relevant": false,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "gfz_url": null,
+    "ptwc_url": null
   },
   {
     "id": "us7000tep0",
@@ -130,7 +136,9 @@
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tep0",
     "relevant": false,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026rlxw",
+    "ptwc_url": null
   },
   {
     "id": "us7000tes0",
@@ -160,6 +168,8 @@
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tes0",
     "relevant": false,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "gfz_url": null,
+    "ptwc_url": null
   }
 ]

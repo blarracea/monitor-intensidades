@@ -20,7 +20,9 @@
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te8p",
     "relevant": false,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026rhzf",
+    "ptwc_url": null
   },
   {
     "id": "us7000tefw",
@@ -43,6 +45,8 @@
     "csn_informe_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tefw",
     "relevant": true,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026rjgo",
+    "ptwc_url": null
   }
 ]
