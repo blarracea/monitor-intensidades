@@ -1145,20 +1145,26 @@
         "responses": 1
       },
       {
-        "lat": 13.490625,
-        "lon": 144.7597925,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
         "lat": 13.5090225,
         "lon": 144.7965575,
         "intensity": 2.7,
         "responses": 1
       },
       {
+        "lat": 13.490625,
+        "lon": 144.7597925,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": 13.26391,
         "lon": 144.6696375,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 13.499905,
+        "lon": 144.7874075,
         "intensity": 2,
         "responses": 1
       },
@@ -1257,14 +1263,14 @@
     "id": "us7000tywm",
     "source": "usgs",
     "time": "2026-11-18T02:46:17.296000+00:00",
-    "updated": "2026-11-18T03:01:52.040000+00:00",
+    "updated": "2026-11-18T03:07:33.357000+00:00",
     "lat": 17.7532,
     "lon": -68.5496,
     "depth_km": 43.172,
     "magnitude": 4.4,
     "mag_type": "mb",
     "place": "69 km S of Boca de Yuma, Dominican Republic",
-    "cdi": null,
+    "cdi": 1,
     "mmi": null,
     "felt_reports": 0,
     "tsunami_flag": false,
