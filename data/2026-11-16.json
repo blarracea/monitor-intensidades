@@ -1927,16 +1927,16 @@
   {
     "id": "us7000tymu",
     "source": "usgs",
-    "time": "2026-11-16T21:11:20.515000+00:00",
-    "updated": "2026-11-17T21:18:55.780000+00:00",
-    "lat": -6.0804,
+    "time": "2026-11-16T21:11:20.376000+00:00",
+    "updated": "2026-11-18T00:35:05.367000+00:00",
+    "lat": -6.0602,
     "lon": 131.4868,
     "depth_km": 68,
     "magnitude": 6.6,
     "mag_type": "mww",
     "place": "148 km WSW of Tual, Indonesia",
     "cdi": 3.4,
-    "mmi": 5.355,
+    "mmi": 5.288,
     "felt_reports": 10,
     "tsunami_flag": false,
     "dyfi_points": [
@@ -1965,12 +1965,6 @@
         "responses": 1
       },
       {
-        "lat": -12.5352475,
-        "lon": 130.918855,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
         "lat": -12.1932475,
         "lon": 136.695835,
         "intensity": 2.2,
@@ -1985,6 +1979,12 @@
       {
         "lat": -12.45442,
         "lon": 130.8446825,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": -12.5352475,
+        "lon": 130.918855,
         "intensity": 2.2,
         "responses": 1
       }
