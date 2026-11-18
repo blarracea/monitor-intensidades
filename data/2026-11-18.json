@@ -78,7 +78,7 @@
     "id": "us7000tyw8",
     "source": "usgs",
     "time": "2026-11-18T00:48:56.322000+00:00",
-    "updated": "2026-11-18T02:32:12.846000+00:00",
+    "updated": "2026-11-18T02:38:11.828000+00:00",
     "lat": 45.6796,
     "lon": 26.4891,
     "depth_km": 130.755,
@@ -87,7 +87,7 @@
     "place": "16 km W of Nereju Mic, Romania",
     "cdi": 4.3,
     "mmi": null,
-    "felt_reports": 314,
+    "felt_reports": 315,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -97,26 +97,8 @@
         "responses": 2
       },
       {
-        "lat": 45.70592,
-        "lon": 27.507435,
-        "intensity": 4.3,
-        "responses": 1
-      },
-      {
-        "lat": 44.93737,
-        "lon": 25.97973,
-        "intensity": 4.3,
-        "responses": 1
-      },
-      {
-        "lat": 45.932055,
-        "lon": 27.04514,
-        "intensity": 4.3,
-        "responses": 1
-      },
-      {
-        "lat": 45.123675000000006,
-        "lon": 25.709395,
+        "lat": 45.373995,
+        "lon": 27.057467499999998,
         "intensity": 4.3,
         "responses": 1
       },
@@ -127,8 +109,26 @@
         "responses": 1
       },
       {
-        "lat": 45.373995,
-        "lon": 27.057467499999998,
+        "lat": 44.93737,
+        "lon": 25.97973,
+        "intensity": 4.3,
+        "responses": 1
+      },
+      {
+        "lat": 45.123675000000006,
+        "lon": 25.709395,
+        "intensity": 4.3,
+        "responses": 1
+      },
+      {
+        "lat": 45.70592,
+        "lon": 27.507435,
+        "intensity": 4.3,
+        "responses": 1
+      },
+      {
+        "lat": 45.932055,
+        "lon": 27.04514,
         "intensity": 4.3,
         "responses": 1
       },
@@ -139,20 +139,32 @@
         "responses": 1
       },
       {
-        "lat": 44.533845,
-        "lon": 26.175597500000002,
-        "intensity": 4.2,
-        "responses": 2
-      },
-      {
         "lat": 44.488465,
         "lon": 26.1259275,
         "intensity": 4.2,
         "responses": 1
       },
       {
+        "lat": 44.533845,
+        "lon": 26.175597500000002,
+        "intensity": 4.2,
+        "responses": 2
+      },
+      {
         "lat": 44.51547,
         "lon": 26.125525,
+        "intensity": 4.1,
+        "responses": 1
+      },
+      {
+        "lat": 44.8497625,
+        "lon": 24.8549975,
+        "intensity": 4.1,
+        "responses": 1
+      },
+      {
+        "lat": 45.66224,
+        "lon": 25.581542499999998,
         "intensity": 4.1,
         "responses": 1
       },
@@ -169,26 +181,8 @@
         "responses": 1
       },
       {
-        "lat": 44.8497625,
-        "lon": 24.8549975,
-        "intensity": 4.1,
-        "responses": 1
-      },
-      {
-        "lat": 45.07683,
-        "lon": 26.828477499999998,
-        "intensity": 4.1,
-        "responses": 1
-      },
-      {
-        "lat": 44.515275,
-        "lon": 26.1003625,
-        "intensity": 4.1,
-        "responses": 1
-      },
-      {
-        "lat": 45.66224,
-        "lon": 25.581542499999998,
+        "lat": 45.707854999999995,
+        "lon": 25.63178,
         "intensity": 4.1,
         "responses": 1
       },
@@ -199,8 +193,14 @@
         "responses": 1
       },
       {
-        "lat": 45.707854999999995,
-        "lon": 25.63178,
+        "lat": 44.515275,
+        "lon": 26.1003625,
+        "intensity": 4.1,
+        "responses": 1
+      },
+      {
+        "lat": 45.07683,
+        "lon": 26.828477499999998,
         "intensity": 4.1,
         "responses": 1
       },
@@ -229,14 +229,14 @@
         "responses": 9
       },
       {
-        "lat": 44.443259999999995,
-        "lon": 26.10147,
+        "lat": 46.5620275,
+        "lon": 26.915190000000003,
         "intensity": 3.9,
         "responses": 2
       },
       {
-        "lat": 46.5620275,
-        "lon": 26.915190000000003,
+        "lat": 44.443259999999995,
+        "lon": 26.10147,
         "intensity": 3.9,
         "responses": 2
       },
@@ -247,8 +247,8 @@
         "responses": 2
       },
       {
-        "lat": 44.5066575,
-        "lon": 26.150815,
+        "lat": 45.148799999999994,
+        "lon": 26.802825,
         "intensity": 3.8,
         "responses": 1
       },
@@ -259,14 +259,8 @@
         "responses": 1
       },
       {
-        "lat": 44.20104,
-        "lon": 28.63322,
-        "intensity": 3.8,
-        "responses": 1
-      },
-      {
-        "lat": 44.3715375,
-        "lon": 26.14022,
+        "lat": 45.86271,
+        "lon": 25.79546,
         "intensity": 3.8,
         "responses": 1
       },
@@ -277,68 +271,8 @@
         "responses": 1
       },
       {
-        "lat": 44.17404,
-        "lon": 28.632475,
-        "intensity": 3.8,
-        "responses": 1
-      },
-      {
-        "lat": 44.9657275,
-        "lon": 26.144075,
-        "intensity": 3.8,
-        "responses": 1
-      },
-      {
-        "lat": 44.47027,
-        "lon": 26.101055000000002,
-        "intensity": 3.8,
-        "responses": 2
-      },
-      {
-        "lat": 44.203305,
-        "lon": 27.3066275,
-        "intensity": 3.8,
-        "responses": 1
-      },
-      {
-        "lat": 45.86271,
-        "lon": 25.79546,
-        "intensity": 3.8,
-        "responses": 1
-      },
-      {
         "lat": 47.245625000000004,
         "lon": 26.71589,
-        "intensity": 3.8,
-        "responses": 1
-      },
-      {
-        "lat": 44.327565,
-        "lon": 28.5991025,
-        "intensity": 3.8,
-        "responses": 1
-      },
-      {
-        "lat": 45.148799999999994,
-        "lon": 26.802825,
-        "intensity": 3.8,
-        "responses": 1
-      },
-      {
-        "lat": 44.4613625,
-        "lon": 26.113765,
-        "intensity": 3.8,
-        "responses": 1
-      },
-      {
-        "lat": 47.14569,
-        "lon": 27.547355,
-        "intensity": 3.8,
-        "responses": 1
-      },
-      {
-        "lat": 44.37144,
-        "lon": 26.127670000000002,
         "intensity": 3.8,
         "responses": 1
       },
@@ -349,20 +283,80 @@
         "responses": 1
       },
       {
+        "lat": 44.5066575,
+        "lon": 26.150815,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
         "lat": 45.644400000000005,
         "lon": 25.5948275,
         "intensity": 3.8,
         "responses": 2
       },
       {
-        "lat": 44.424425,
-        "lon": 26.001255,
-        "intensity": 3.6,
+        "lat": 44.327565,
+        "lon": 28.5991025,
+        "intensity": 3.8,
         "responses": 1
       },
       {
-        "lat": 45.018029999999996,
-        "lon": 25.940225,
+        "lat": 44.9657275,
+        "lon": 26.144075,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 44.203305,
+        "lon": 27.3066275,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 44.37144,
+        "lon": 26.127670000000002,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 47.14569,
+        "lon": 27.547355,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 44.17404,
+        "lon": 28.632475,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 44.47027,
+        "lon": 26.101055000000002,
+        "intensity": 3.8,
+        "responses": 2
+      },
+      {
+        "lat": 44.3715375,
+        "lon": 26.14022,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 44.20104,
+        "lon": 28.63322,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 44.4613625,
+        "lon": 26.113765,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 44.3626275,
+        "lon": 26.1529,
         "intensity": 3.6,
         "responses": 1
       },
@@ -373,8 +367,14 @@
         "responses": 1
       },
       {
-        "lat": 44.3626275,
-        "lon": 26.1529,
+        "lat": 45.018029999999996,
+        "lon": 25.940225,
+        "intensity": 3.6,
+        "responses": 1
+      },
+      {
+        "lat": 44.424425,
+        "lon": 26.001255,
         "intensity": 3.6,
         "responses": 1
       },
@@ -415,86 +415,14 @@
         "responses": 3
       },
       {
-        "lat": 47.127354999999994,
-        "lon": 27.61309,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
-        "lat": 47.024505000000005,
-        "lon": 28.8226075,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
-        "lat": 44.398250000000004,
-        "lon": 26.102159999999998,
-        "intensity": 3.4,
-        "responses": 2
-      },
-      {
-        "lat": 44.42464,
-        "lon": 26.0263775,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
-        "lat": 43.911095,
-        "lon": 25.984972499999998,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
-        "lat": 45.423495,
-        "lon": 28.0162,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
-        "lat": 44.442750000000004,
-        "lon": 26.038645000000002,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
-        "lat": 45.6798925,
-        "lon": 27.186185000000002,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
         "lat": 44.426005,
         "lon": 26.20224,
         "intensity": 3.4,
         "responses": 1
       },
       {
-        "lat": 47.1454925,
-        "lon": 27.5869175,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
-        "lat": 43.838854999999995,
-        "lon": 25.96132,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
-        "lat": 44.44336,
-        "lon": 26.114035,
-        "intensity": 3.4,
-        "responses": 2
-      },
-      {
-        "lat": 46.978902500000004,
-        "lon": 28.860500000000002,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
-        "lat": 43.57031,
-        "lon": 27.848285,
+        "lat": 47.127354999999994,
+        "lon": 27.61309,
         "intensity": 3.4,
         "responses": 1
       },
@@ -505,14 +433,86 @@
         "responses": 1
       },
       {
+        "lat": 44.442750000000004,
+        "lon": 26.038645000000002,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
         "lat": 44.416545,
         "lon": 26.139565,
         "intensity": 3.4,
         "responses": 1
       },
       {
+        "lat": 45.423495,
+        "lon": 28.0162,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 47.1454925,
+        "lon": 27.5869175,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 47.024505000000005,
+        "lon": 28.8226075,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 44.44336,
+        "lon": 26.114035,
+        "intensity": 3.4,
+        "responses": 2
+      },
+      {
+        "lat": 44.398250000000004,
+        "lon": 26.102159999999998,
+        "intensity": 3.4,
+        "responses": 2
+      },
+      {
+        "lat": 46.978902500000004,
+        "lon": 28.860500000000002,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 45.6798925,
+        "lon": 27.186185000000002,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
         "lat": 47.172484999999995,
         "lon": 27.587220000000002,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 43.57031,
+        "lon": 27.848285,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 43.838854999999995,
+        "lon": 25.96132,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 44.42464,
+        "lon": 26.0263775,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 43.911095,
+        "lon": 25.984972499999998,
         "intensity": 3.4,
         "responses": 1
       },
@@ -547,14 +547,14 @@
         "responses": 1
       },
       {
-        "lat": 44.442854999999994,
-        "lon": 26.0512075,
+        "lat": 44.5415525,
+        "lon": 26.0118425,
         "intensity": 3.2,
         "responses": 2
       },
       {
-        "lat": 44.5415525,
-        "lon": 26.0118425,
+        "lat": 44.442854999999994,
+        "lon": 26.0512075,
         "intensity": 3.2,
         "responses": 2
       },
@@ -565,74 +565,14 @@
         "responses": 2
       },
       {
-        "lat": 44.461555,
-        "lon": 26.1389,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 44.505759999999995,
-        "lon": 26.03761,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 44.3269825,
-        "lon": 26.203580000000002,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
         "lat": 44.4256425,
         "lon": 26.151995,
         "intensity": 3.1,
         "responses": 1
       },
       {
-        "lat": 44.415745,
-        "lon": 26.039085,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
         "lat": 44.3978475,
         "lon": 26.0519375,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 45.708315,
-        "lon": 25.6703125,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 46.67421,
-        "lon": 28.0524725,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 47.2086175,
-        "lon": 30.8937675,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 44.21022,
-        "lon": 28.6209575,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 46.521975,
-        "lon": 29.6662425,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 44.353625,
-        "lon": 26.15303,
         "intensity": 3.1,
         "responses": 1
       },
@@ -649,8 +589,68 @@
         "responses": 2
       },
       {
+        "lat": 45.708315,
+        "lon": 25.6703125,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 46.521975,
+        "lon": 29.6662425,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 44.461555,
+        "lon": 26.1389,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 44.505759999999995,
+        "lon": 26.03761,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 44.21022,
+        "lon": 28.6209575,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 44.3269825,
+        "lon": 26.203580000000002,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
         "lat": 44.4706525,
         "lon": 26.151339999999998,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 44.415745,
+        "lon": 26.039085,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 47.2086175,
+        "lon": 30.8937675,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 44.353625,
+        "lon": 26.15303,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 46.67421,
+        "lon": 28.0524725,
         "intensity": 3.1,
         "responses": 1
       },
@@ -667,12 +667,6 @@
         "responses": 3
       },
       {
-        "lat": 44.71631,
-        "lon": 26.640162500000002,
-        "intensity": 3,
-        "responses": 1
-      },
-      {
         "lat": 44.3803475,
         "lon": 26.114985,
         "intensity": 3,
@@ -685,14 +679,20 @@
         "responses": 2
       },
       {
-        "lat": 44.433535000000006,
-        "lon": 26.013665,
-        "intensity": 2.9,
+        "lat": 44.71631,
+        "lon": 26.640162500000002,
+        "intensity": 3,
         "responses": 1
       },
       {
         "lat": 44.38015,
         "lon": 26.089885,
+        "intensity": 2.9,
+        "responses": 1
+      },
+      {
+        "lat": 44.433535000000006,
+        "lon": 26.013665,
         "intensity": 2.9,
         "responses": 1
       },
@@ -703,14 +703,8 @@
         "responses": 2
       },
       {
-        "lat": 44.54208,
-        "lon": 26.074775,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 45.987145,
-        "lon": 29.43384,
+        "lat": 45.67124,
+        "lon": 25.5813175,
         "intensity": 2.7,
         "responses": 1
       },
@@ -721,44 +715,8 @@
         "responses": 1
       },
       {
-        "lat": 45.67124,
-        "lon": 25.5813175,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
         "lat": 44.322672499999996,
         "lon": 23.7903425,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 44.4975625,
-        "lon": 26.1383725,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 44.33197,
-        "lon": 23.778242499999998,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 47.6244025,
-        "lon": 30.9969075,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 44.488745,
-        "lon": 26.163655,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 44.937815,
-        "lon": 26.03042,
         "intensity": 2.7,
         "responses": 1
       },
@@ -769,14 +727,56 @@
         "responses": 1
       },
       {
+        "lat": 44.36541,
+        "lon": 28.4620825,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 45.987145,
+        "lon": 29.43384,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 44.937815,
+        "lon": 26.03042,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 44.33197,
+        "lon": 23.778242499999998,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": 46.298085,
         "lon": 28.655515,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 44.36541,
-        "lon": 28.4620825,
+        "lat": 44.488745,
+        "lon": 26.163655,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 44.4975625,
+        "lon": 26.1383725,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 47.6244025,
+        "lon": 30.9969075,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 44.54208,
+        "lon": 26.074775,
         "intensity": 2.7,
         "responses": 1
       },
@@ -817,8 +817,8 @@
         "responses": 2
       },
       {
-        "lat": 46.467215,
-        "lon": 30.7141525,
+        "lat": 44.38935,
+        "lon": 26.11485,
         "intensity": 2.2,
         "responses": 1
       },
@@ -829,14 +829,8 @@
         "responses": 1
       },
       {
-        "lat": 43.1827875,
-        "lon": 27.89212,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 44.973704999999995,
-        "lon": 26.017135,
+        "lat": 44.56776,
+        "lon": 25.923245,
         "intensity": 2.2,
         "responses": 1
       },
@@ -847,20 +841,8 @@
         "responses": 1
       },
       {
-        "lat": 44.38935,
-        "lon": 26.11485,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
         "lat": 43.3089325,
         "lon": 21.88163,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 44.56776,
-        "lon": 25.923245,
         "intensity": 2.2,
         "responses": 1
       },
@@ -877,10 +859,22 @@
         "responses": 1
       },
       {
-        "lat": 44.433642500000005,
-        "lon": 26.026229999999998,
-        "intensity": 2.1,
-        "responses": 2
+        "lat": 44.973704999999995,
+        "lon": 26.017135,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 46.467215,
+        "lon": 30.7141525,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 43.1827875,
+        "lon": 27.89212,
+        "intensity": 2.2,
+        "responses": 1
       },
       {
         "lat": 44.18322,
@@ -889,20 +883,14 @@
         "responses": 1
       },
       {
-        "lat": 43.404669999999996,
-        "lon": 24.622655,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 44.0570075,
-        "lon": 24.39694,
-        "intensity": 2,
+        "lat": 44.433642500000005,
+        "lon": 26.026229999999998,
+        "intensity": 2.1,
         "responses": 2
       },
       {
-        "lat": 45.947035,
-        "lon": 26.1678025,
+        "lat": 44.30376,
+        "lon": 23.827057500000002,
         "intensity": 2,
         "responses": 1
       },
@@ -913,34 +901,22 @@
         "responses": 1
       },
       {
-        "lat": 44.30376,
-        "lon": 23.827057500000002,
+        "lat": 43.404669999999996,
+        "lon": 24.622655,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 47.74936,
-        "lon": 26.6597975,
+        "lat": 45.947035,
+        "lon": 26.1678025,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 45.6537125,
-        "lon": 25.620265,
+        "lat": 44.0570075,
+        "lon": 24.39694,
         "intensity": 2,
         "responses": 2
-      },
-      {
-        "lat": 44.3539875,
-        "lon": 26.203215,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 43.8478575,
-        "lon": 25.961165,
-        "intensity": 2,
-        "responses": 1
       },
       {
         "lat": 43.3547525,
@@ -949,14 +925,8 @@
         "responses": 1
       },
       {
-        "lat": 45.7506,
-        "lon": 23.924965,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 47.154354999999995,
-        "lon": 27.6134,
+        "lat": 44.442425,
+        "lon": 26.0009525,
         "intensity": 2,
         "responses": 1
       },
@@ -973,28 +943,10 @@
         "responses": 1
       },
       {
-        "lat": 45.8392975,
-        "lon": 29.60767,
+        "lat": 45.6537125,
+        "lon": 25.620265,
         "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 43.527445,
-        "lon": 26.523555,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 45.08468,
-        "lon": 26.4599625,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 47.173035,
-        "lon": 26.53153,
-        "intensity": 2,
-        "responses": 1
+        "responses": 2
       },
       {
         "lat": 44.49676,
@@ -1009,20 +961,74 @@
         "responses": 1
       },
       {
-        "lat": 45.14235,
-        "lon": 28.8888325,
+        "lat": 43.527445,
+        "lon": 26.523555,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 44.442425,
-        "lon": 26.0009525,
+        "lat": 47.74936,
+        "lon": 26.6597975,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 43.218605,
+        "lon": 27.917270000000002,
         "intensity": 2,
         "responses": 1
       },
       {
         "lat": 44.22043,
         "lon": 22.5336025,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 45.7506,
+        "lon": 23.924965,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 47.173035,
+        "lon": 26.53153,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 47.154354999999995,
+        "lon": 27.6134,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 45.8392975,
+        "lon": 29.60767,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 45.08468,
+        "lon": 26.4599625,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 44.3539875,
+        "lon": 26.203215,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 45.14235,
+        "lon": 28.8888325,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 43.8478575,
+        "lon": 25.961165,
         "intensity": 2,
         "responses": 1
       },
@@ -1096,6 +1102,31 @@
     "ptwc_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393203.html",
     "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000tywi",
+    "source": "usgs",
+    "time": "2026-11-18T02:22:56.671000+00:00",
+    "updated": "2026-11-18T02:37:08.040000+00:00",
+    "lat": 12.1387,
+    "lon": 143.8866,
+    "depth_km": 10,
+    "magnitude": 5.8,
+    "mag_type": "mww",
+    "place": "150 km SW of Merizo Village, Guam",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026worf",
+    "ptwc_url": "https://www.tsunami.gov/events/PHEB/2026/11/18/26322050/1/WEGM42/WEGM42.txt",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tywi",
+    "relevant": true,
     "keywords_matched": []
   },
   {
