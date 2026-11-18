@@ -1858,7 +1858,7 @@
     "id": "us7000tytu",
     "source": "usgs",
     "time": "2026-11-17T18:02:32.376000+00:00",
-    "updated": "2026-11-17T19:23:55.607000+00:00",
+    "updated": "2026-11-18T04:19:11.728000+00:00",
     "lat": 7.7396,
     "lon": -80.565,
     "depth_km": 10,
@@ -1867,7 +1867,7 @@
     "place": "1 km NW of Macaracas, Panama",
     "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 2,
+    "felt_reports": 5,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1880,6 +1880,12 @@
         "lat": 8.966755,
         "lon": -79.53095250000001,
         "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 9.0480225,
+        "lon": -79.50333499999999,
+        "intensity": 2,
         "responses": 1
       }
     ],
@@ -2189,6 +2195,31 @@
     "gfz_url": null,
     "ptwc_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393183.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us7000tyvt",
+    "source": "usgs",
+    "time": "2026-11-17T23:25:33.527000+00:00",
+    "updated": "2026-11-18T04:20:39.040000+00:00",
+    "lat": 13.022,
+    "lon": 57.6884,
+    "depth_km": 10,
+    "magnitude": 4.5,
+    "mag_type": "mb",
+    "place": "Owen Fracture Zone region",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wolj",
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyvt",
     "relevant": false,
     "keywords_matched": []
   },
