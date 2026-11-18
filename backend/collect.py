@@ -547,6 +547,11 @@ def enrich_with_gfz(events):
         print(f"Aviso: no se pudo consultar GFZ ({exc}).")
         return
 
+    apply_gfz(events, gfz_events)
+
+
+def apply_gfz(events, gfz_events):
+    """Cruza los sismos con los de GFZ ya descargados y agrega gfz_url a los que coinciden."""
     for event in events:
         if event.get("lat") is None or event.get("lon") is None:
             continue
@@ -595,6 +600,20 @@ def enrich_with_ptwc(events):
         print(f"Aviso: no se pudo actualizar PTWC ({exc}).")
         return
 
+    # El feed solo trae el ultimo boletin; el archivo completo (~12 MB) se baja cada 6 horas para no
+    # perder boletines que salgan seguidos y para completar la hora de origen exacta.
+    now = datetime.now(timezone.utc)
+    if now.hour % 6 == 0 and now.minute < 5:
+        try:
+            bulletins = storage.save_ptwc_bulletins(ptwc.fetch_archive(now - timedelta(days=30)))
+        except Exception as exc:
+            print(f"Aviso: no se pudo leer el archivo de PTWC ({exc}).")
+
+    apply_ptwc(events, bulletins)
+
+
+def apply_ptwc(events, bulletins):
+    """Agrega ptwc_url a los sismos que tuvieron boletin del PTWC/NTWC (cruce por hora y epicentro)."""
     for event in events:
         if event.get("lat") is None or event.get("lon") is None:
             continue

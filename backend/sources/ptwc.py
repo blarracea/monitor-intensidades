@@ -134,3 +134,70 @@ def fetch_new_bulletins(known_keys_numbers):
             # origin_time se cruza despues por la hora de emision (ver enrich_with_ptwc).
             bulletins.append({**entry, "origin_time": origin.isoformat() if origin else None})
     return bulletins
+
+
+ARCHIVE_URL = "https://www.tsunami.gov/php/prevEventresults.php"
+ARCHIVE_TIMEOUT = 90
+_ARCHIVE_ROW = re.compile(r"<tr>(.*?)</tr>", re.S)
+_ARCHIVE_CELL = re.compile(r"<td[^>]*>(.*?)</td>", re.S)
+_TAG = re.compile(r"<[^>]+>")
+
+
+def _clean(cell_html):
+    text = _TAG.sub(" ", cell_html).replace("&deg;", " ").replace("&nbsp;", " ")
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def _signed(value):
+    """'40.4 N' -> 40.4, '125.5 W' -> -125.5; None si no se entiende."""
+    match = re.match(r"([\d.]+)\s*([NSEW])", value)
+    if not match:
+        return None
+    number = float(match.group(1))
+    return -number if match.group(2) in "SW" else number
+
+
+def parse_archive(html, since):
+    """
+    Filas de la tabla "Previous Messages" de tsunami.gov (archivo completo desde 2009, ~12 MB) con hora
+    de origen UTC desde `since`. A diferencia del feed Atom (solo el ultimo boletin), aca esta el
+    historial, con hora de origen al segundo, magnitud y epicentro numericos.
+    """
+    bulletins = []
+    for row in _ARCHIVE_ROW.findall(html):
+        url_match = re.search(r'href="(/events/[A-Z]+/[^"]+\.txt)"', row)
+        cells = [_clean(c) for c in _ARCHIVE_CELL.findall(row)]
+        if not url_match or len(cells) < 8:
+            continue
+        path = _BULLETIN_PATH.search(url_match.group(1))
+        try:
+            origin = datetime.strptime(cells[1], "%m-%d-%Y %H:%M:%S").replace(tzinfo=timezone.utc)
+            issued = datetime.strptime(cells[0], "%m-%d-%Y %H:%M:%S").replace(tzinfo=timezone.utc)
+            magnitude = float(cells[2])
+        except ValueError:
+            continue
+        lat, lon = _signed(cells[4]), _signed(cells[5])
+        if not path or origin < since or lat is None or lon is None:
+            continue
+        bulletins.append(
+            {
+                "url": "https://www.tsunami.gov" + url_match.group(1),
+                "event_key": path.group(1),
+                "number": int(path.group(2)),
+                "lat": lat,
+                "lon": lon,
+                "magnitude": magnitude,
+                "issue_time": issued.isoformat(),
+                "region": cells[6],
+                "category": cells[7],
+                "origin_time": origin.isoformat(),
+            }
+        )
+    return bulletins
+
+
+def fetch_archive(since):
+    """Boletines del archivo de tsunami.gov desde `since` (descarga ~12 MB: usar poco seguido)."""
+    response = requests.get(ARCHIVE_URL, timeout=ARCHIVE_TIMEOUT)
+    response.raise_for_status()
+    return parse_archive(response.text, since)
