@@ -1,5 +1,5 @@
 """
-Completa gfz_url y ptwc_url en TODOS los dias ya guardados (la recoleccion normal solo reprocesa los
+Completa usgs_url (sismos de Chile), gfz_url y ptwc_url en TODOS los dias ya guardados (la recoleccion normal solo reprocesa los
 ultimos dias). Sirve una sola vez tras agregar GFZ (GEOFON) y PTWC, o para recuperar un hueco:
 
     SISMOS_DATA_DIR=<ruta a data/> python backend/backfill_extra_sources.py [dias_hacia_atras]
@@ -12,9 +12,12 @@ from datetime import datetime, timedelta, timezone
 
 import collect
 import storage
-from sources import gfz, ptwc
+from sources import gfz, ptwc, usgs
 
 GFZ_CHUNK_DAYS = 20
+USGS_CHUNK_DAYS = 10
+# Region donde el CSN informa sismos (incluye Isla de Pascua y el mar al oeste de Chile).
+CHILE_BBOX = {"minlatitude": -60, "maxlatitude": -15, "minlongitude": -115, "maxlongitude": -62}
 
 
 def main(days_back=120):
@@ -38,19 +41,34 @@ def main(days_back=120):
         cursor = end
     print(f"GFZ: {len(gfz_events)} sismos descargados.")
 
+    usgs_items = []
+    cursor = since
+    while cursor < now:
+        end = min(cursor + timedelta(days=USGS_CHUNK_DAYS), now)
+        try:
+            usgs_items.extend(
+                collect.usgs_items_from_features(usgs.fetch_events(cursor, end, collect.MIN_MAGNITUDE, CHILE_BBOX))
+            )
+        except Exception as exc:
+            print(f"USGS: fallo el tramo {cursor.date()} a {end.date()} ({exc}); se omite.")
+        cursor = end
+    print(f"USGS: {len(usgs_items)} sismos de la region de Chile descargados.")
+
     changed_days = 0
     for path in sorted(storage.DATA_DIR.glob("*.json")):
         if not storage._is_day_file(path):
             continue
         day = path.stem
         events = storage.load_day(day)
-        before = [(e.get("gfz_url"), e.get("ptwc_url")) for e in events]
+        before = [(e.get("usgs_url"), e.get("gfz_url"), e.get("ptwc_url")) for e in events]
         for event in events:
+            event.setdefault("usgs_url", None)
             event.setdefault("gfz_url", None)
             event.setdefault("ptwc_url", None)
+        collect.apply_usgs_to_chile(events, usgs_items)
         collect.apply_gfz(events, gfz_events)
         collect.apply_ptwc(events, bulletins)
-        after = [(e.get("gfz_url"), e.get("ptwc_url")) for e in events]
+        after = [(e.get("usgs_url"), e.get("gfz_url"), e.get("ptwc_url")) for e in events]
         if before != after:
             storage.save_day(day, events)
             changed_days += 1

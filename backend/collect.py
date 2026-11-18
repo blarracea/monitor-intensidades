@@ -111,6 +111,9 @@ BBOX = {
 # registraron el sismo. Cada catalogo calcula el sismo por su cuenta, asi que la hora y el epicentro
 # difieren un poco. GFZ da hora con segundos; el PTWC solo al minuto (y a veces solo la hora de emision
 # del boletin, que sale hasta ~90 min despues del sismo).
+# USGS (NEIC) para los sismos de Chile: el catalogo de Chile es el CSN, USGS solo aporta el enlace.
+USGS_CHILE_MATCH_MAX_SECONDS = 90
+USGS_CHILE_MATCH_MAX_DISTANCE_KM = 150
 GFZ_MATCH_MAX_SECONDS = 90
 GFZ_MATCH_MAX_DISTANCE_KM = 150
 PTWC_MATCH_MAX_SECONDS = 180
@@ -158,6 +161,7 @@ def build_event_record(feature, dyfi_points):
         "intensity_source": "usgs_dyfi" if dyfi_points else None,
         "senapred_url": None,
         "csn_informe_url": None,
+        "usgs_url": None,
         "gfz_url": None,
         "ptwc_url": None,
         "url": props.get("url"),
@@ -274,6 +278,7 @@ def collect_chile_events():
             "intensity_source": None,
             "senapred_url": None,
             "csn_informe_url": item["csn_url"],
+            "usgs_url": None,
             "gfz_url": None,
             "ptwc_url": None,
             "url": item["csn_url"],
@@ -536,6 +541,47 @@ def preserve_existing_csn_data(events):
             event["senapred_match_time"] = match_time
 
 
+def usgs_items_from_features(features):
+    """Normaliza los features GeoJSON de USGS a {time, lat, lon, url} para cruzarlos con los sismos."""
+    items = []
+    for feature in features:
+        props = feature.get("properties") or {}
+        coordinates = (feature.get("geometry") or {}).get("coordinates") or []
+        if props.get("time") is None or len(coordinates) < 2 or not props.get("url"):
+            continue
+        items.append(
+            {
+                "time": datetime.fromtimestamp(props["time"] / 1000, tz=timezone.utc),
+                "lon": coordinates[0],
+                "lat": coordinates[1],
+                "url": props["url"],
+            }
+        )
+    return items
+
+
+def apply_usgs_to_chile(events, usgs_items):
+    """
+    Agrega usgs_url a los sismos de Chile (fuente CSN) que USGS/NEIC tambien registro. Chile no sale de
+    USGS (ver collect_chile_events): este cruce por hora y epicentro solo suma el enlace en "Fuente".
+    """
+    for event in events:
+        if event.get("source") != "csn" or event.get("lat") is None or event.get("lon") is None:
+            continue
+        event_time = datetime.fromisoformat(event["time"])
+        nearby = sorted(
+            (
+                u
+                for u in usgs_items
+                if abs((event_time - u["time"]).total_seconds()) <= USGS_CHILE_MATCH_MAX_SECONDS
+                and _haversine_km(event["lat"], event["lon"], u["lat"], u["lon"]) <= USGS_CHILE_MATCH_MAX_DISTANCE_KM
+            ),
+            key=lambda u: abs((event_time - u["time"]).total_seconds()),
+        )
+        if nearby:
+            event["usgs_url"] = nearby[0]["url"]
+
+
 def enrich_with_gfz(events):
     """Agrega gfz_url a los sismos que GFZ (GEOFON) tambien registro (cruce por hora y epicentro)."""
     if not events:
@@ -677,6 +723,10 @@ def main():
         print(f"Aviso: {stripped} evento(s) perdieron un reporte de SENAPRED que era de otro sismo.")
 
     # Fuentes adicionales (solo agregan enlaces): un error inesperado aca no debe tumbar la recoleccion.
+    try:
+        apply_usgs_to_chile(events, usgs_items_from_features(raw_events))
+    except Exception as exc:
+        print(f"Aviso: no se pudo cruzar Chile con USGS ({exc}).")
     for extra_source in (enrich_with_gfz, enrich_with_ptwc):
         try:
             extra_source(events)

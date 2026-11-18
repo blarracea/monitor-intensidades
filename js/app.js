@@ -437,6 +437,10 @@
     if (event.senapred_url) {
       fuenteParts.push(`<a href="${_escapeAttrDetail(_safeUrlDetail(event.senapred_url))}" target="_blank" rel="noopener">SENAPRED</a>`);
     }
+    // Sismos de Chile (catalogo CSN): USGS/NEIC tambien los registra y se enlaza como fuente adicional.
+    if (event.source === "csn" && event.usgs_url) {
+      fuenteParts.push(`<a href="${_escapeAttrDetail(_safeUrlDetail(event.usgs_url))}" target="_blank" rel="noopener">USGS</a>`);
+    }
     // GFZ (GEOFON, Alemania) y PTWC (NOAA, boletines de tsunami): fuentes adicionales, aparecen solo
     // cuando ellos tambien registraron el sismo (el PTWC solo emite boletin para los importantes).
     if (event.gfz_url) {
