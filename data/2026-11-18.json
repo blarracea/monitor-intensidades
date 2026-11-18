@@ -78,23 +78,53 @@
     "id": "us7000tyw8",
     "source": "usgs",
     "time": "2026-11-18T00:48:56.322000+00:00",
-    "updated": "2026-11-18T01:07:56.914000+00:00",
+    "updated": "2026-11-18T01:14:41.502000+00:00",
     "lat": 45.6796,
     "lon": 26.4891,
     "depth_km": 130.755,
     "magnitude": 5.3,
     "mag_type": "mww",
     "place": "16 km W of Nereju Mic, Romania",
-    "cdi": 3.7,
+    "cdi": 4.1,
     "mmi": null,
-    "felt_reports": 3,
+    "felt_reports": 12,
     "tsunami_flag": false,
     "dyfi_points": [
       {
+        "lat": 44.8497625,
+        "lon": 24.8549975,
+        "intensity": 4.1,
+        "responses": 1
+      },
+      {
+        "lat": 45.653557500000005,
+        "lon": 25.607435,
+        "intensity": 3.6,
+        "responses": 1
+      },
+      {
         "lat": 44.43426,
         "lon": 26.10161,
-        "intensity": 3.1,
-        "responses": 2
+        "intensity": 3.3,
+        "responses": 6
+      },
+      {
+        "lat": 44.71631,
+        "lon": 26.640162500000002,
+        "intensity": 3,
+        "responses": 1
+      },
+      {
+        "lat": 45.6537125,
+        "lon": 25.620265,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 47.041645,
+        "lon": 28.875844999999998,
+        "intensity": 2.2,
+        "responses": 1
       }
     ],
     "intensity_source": "usgs_dyfi",
