@@ -35,14 +35,38 @@ body {
 
 /* Logo a la izquierda del header (la imagen trae su propio fondo oscuro). */
 .brand-logo {
-  display: block;
+  display: flex;
+  align-items: center;
   flex-shrink: 0;
-  line-height: 0;
+  background: #0f2a4a;
+  border-radius: 8px;
+  height: 36px;
+  padding-right: 0.8rem;
 }
-.brand-logo img {
+.brand-icon {
+  display: block;
+  width: 34px;
+  height: 34px;
+  overflow: hidden;
+  line-height: 0;
+  border-radius: 8px 0 0 8px;
+}
+.brand-icon img {
   display: block;
   height: 34px;
   width: auto;
+  max-width: none;
+}
+.brand-name {
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #fff;
+  line-height: 1;
+}
+.brand-name b {
+  font-weight: 800;
+  color: #f2b233;
 }
 
 /* Centrado real en la fila completa (no en el espacio libre entre logo y
@@ -948,10 +972,12 @@ h2.live-feed-title {
 
   /* En celular solo cabe el icono (los primeros ~34 px del logo): el titulo
      centrado ocupa el resto de la fila. */
+  .brand-name {
+    display: none;
+  }
   .brand-logo {
-    width: 34px;
-    overflow: hidden;
-    border-radius: 7px;
+    padding-right: 0;
+    background: none;
   }
 
   .app-header h1 {
