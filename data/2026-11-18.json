@@ -3333,16 +3333,16 @@
     "id": "us7000tz1n",
     "source": "usgs",
     "time": "2026-11-18T17:22:23.454000+00:00",
-    "updated": "2026-11-18T21:53:20.413000+00:00",
+    "updated": "2026-11-18T22:50:14.416000+00:00",
     "lat": 32.2779,
     "lon": 130.4609,
     "depth_km": 10,
     "magnitude": 5.3,
     "mag_type": "mww",
     "place": "4 km NNW of Tsunagi, Japan",
-    "cdi": 3.4,
+    "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 4,
+    "felt_reports": 5,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -3360,6 +3360,12 @@
       {
         "lat": 33.5887425,
         "lon": 130.4494375,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 31.59427,
+        "lon": 130.54414500000001,
         "intensity": 2.7,
         "responses": 1
       },
@@ -3625,19 +3631,26 @@
     "id": "us6000ubvt",
     "source": "usgs",
     "time": "2026-11-18T20:30:54.635000+00:00",
-    "updated": "2026-11-18T21:52:48.040000+00:00",
+    "updated": "2026-11-18T22:46:25.686000+00:00",
     "lat": 9.8835,
     "lon": 123.257,
     "depth_km": 10,
     "magnitude": 4.4,
     "mag_type": "mb",
     "place": "12 km SSE of Jimalalud, Philippines",
-    "cdi": null,
+    "cdi": 2.2,
     "mmi": null,
-    "felt_reports": 0,
+    "felt_reports": 1,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 9.5847075,
+        "lon": 123.132135,
+        "intensity": 2.2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "usgs_url": null,
