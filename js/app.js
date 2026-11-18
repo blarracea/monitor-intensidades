@@ -446,13 +446,11 @@
     if (event.gfz_url) {
       fuenteParts.push(`<a href="${_escapeAttrDetail(_safeUrlDetail(event.gfz_url))}" target="_blank" rel="noopener">GFZ</a>`);
     }
-    // PTWC: solo se enlaza cuando hay un boletin DE ESTE sismo. En sismos de Chile se muestra siempre,
-    // pero sin boletin (el PTWC solo emite boletin de los grandes) va como texto apagado y sin enlace: la
-    // portada de tsunami.gov muestra el ultimo mensaje de CUALQUIER sismo del mundo (p. ej. uno de Guam).
+    // PTWC: solo aparece cuando hay un boletin DE ESTE sismo (el PTWC emite boletin solo de los grandes).
+    // Sin boletin no se muestra nada: la portada de tsunami.gov muestra el ultimo mensaje de CUALQUIER
+    // sismo del mundo, y enlazarla en sismos sin boletin confundia.
     if (event.ptwc_url) {
       fuenteParts.push(`<a href="${_escapeAttrDetail(_safeUrlDetail(event.ptwc_url))}" target="_blank" rel="noopener">PTWC</a>`);
-    } else if (event.source === "csn") {
-      fuenteParts.push(`<span class="source-none" title="El PTWC no emitió un boletín de tsunami para este sismo">PTWC (sin boletín)</span>`);
     }
     const fuenteLinks = fuenteParts.join(" · ");
     detailBody.innerHTML = `
