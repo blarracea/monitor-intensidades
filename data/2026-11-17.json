@@ -206,7 +206,7 @@
     "intensity_source": null,
     "senapred_url": null,
     "csn_informe_url": null,
-    "gfz_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wmuy",
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyq5",
     "relevant": true,
@@ -281,7 +281,7 @@
     "intensity_source": null,
     "senapred_url": null,
     "csn_informe_url": null,
-    "gfz_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wmyq",
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyqi",
     "relevant": false,
@@ -456,7 +456,7 @@
     "intensity_source": null,
     "senapred_url": null,
     "csn_informe_url": null,
-    "gfz_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wncp",
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyrc",
     "relevant": false,
@@ -827,7 +827,7 @@
     "id": "us7000tyrv",
     "source": "usgs",
     "time": "2026-11-17T10:30:48.773000+00:00",
-    "updated": "2026-11-18T10:38:03.401000+00:00",
+    "updated": "2026-11-18T18:30:15.577000+00:00",
     "lat": -43.0226,
     "lon": 171.805,
     "depth_km": 14.237,
@@ -858,10 +858,10 @@
         "responses": 1
       },
       {
-        "lat": -43.497405,
-        "lon": 172.7254475,
+        "lat": -43.490375,
+        "lon": 172.5892075,
         "intensity": 3.8,
-        "responses": 1
+        "responses": 2
       },
       {
         "lat": -43.535385,
@@ -870,21 +870,9 @@
         "responses": 1
       },
       {
-        "lat": -43.490375,
-        "lon": 172.5892075,
+        "lat": -43.497405,
+        "lon": 172.7254475,
         "intensity": 3.8,
-        "responses": 2
-      },
-      {
-        "lat": -43.517725,
-        "lon": 172.56518,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
-        "lat": -43.57086,
-        "lon": 172.62847,
-        "intensity": 3.4,
         "responses": 1
       },
       {
@@ -900,15 +888,15 @@
         "responses": 1
       },
       {
-        "lat": -43.227395,
-        "lon": 172.71781,
-        "intensity": 3.1,
+        "lat": -43.57086,
+        "lon": 172.62847,
+        "intensity": 3.4,
         "responses": 1
       },
       {
-        "lat": -43.49868,
-        "lon": 172.63889999999998,
-        "intensity": 3.1,
+        "lat": -43.517725,
+        "lon": 172.56518,
+        "intensity": 3.4,
         "responses": 1
       },
       {
@@ -920,6 +908,18 @@
       {
         "lat": -43.508205000000004,
         "lon": 172.602045,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": -43.227395,
+        "lon": 172.71781,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": -43.49868,
+        "lon": 172.63889999999998,
         "intensity": 3.1,
         "responses": 1
       },
@@ -948,18 +948,6 @@
         "responses": 1
       },
       {
-        "lat": -43.52568,
-        "lon": 172.63963,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": -43.56151,
-        "lon": 172.652985,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
         "lat": -43.54539,
         "lon": 172.51638,
         "intensity": 2.7,
@@ -974,6 +962,18 @@
       {
         "lat": -43.535555,
         "lon": 172.578015,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -43.52568,
+        "lon": 172.63963,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -43.56151,
+        "lon": 172.652985,
         "intensity": 2.7,
         "responses": 1
       },
@@ -996,14 +996,14 @@
         "responses": 1
       },
       {
-        "lat": -43.591975000000005,
-        "lon": 172.39367,
+        "lat": -43.68957,
+        "lon": 172.50760250000002,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": -43.68957,
-        "lon": 172.50760250000002,
+        "lat": -43.591975000000005,
+        "lon": 172.39367,
         "intensity": 2.2,
         "responses": 1
       },
@@ -1023,7 +1023,7 @@
     "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
-    "gfz_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wnlu",
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyrv",
     "relevant": false,
@@ -1048,7 +1048,7 @@
     "intensity_source": null,
     "senapred_url": null,
     "csn_informe_url": null,
-    "gfz_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wnlw",
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyrw",
     "relevant": false,
@@ -1147,7 +1147,7 @@
     "intensity_source": null,
     "senapred_url": null,
     "csn_informe_url": null,
-    "gfz_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wnng",
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tys6",
     "relevant": false,
@@ -1247,7 +1247,7 @@
     "intensity_source": null,
     "senapred_url": null,
     "csn_informe_url": null,
-    "gfz_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wnpp",
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tysa",
     "relevant": false,
@@ -1447,7 +1447,7 @@
     "intensity_source": null,
     "senapred_url": null,
     "csn_informe_url": null,
-    "gfz_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wntj",
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tysq",
     "relevant": true,
@@ -1504,7 +1504,7 @@
     "intensity_source": null,
     "senapred_url": null,
     "csn_informe_url": null,
-    "gfz_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wnum",
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyt1",
     "relevant": false,
@@ -1529,7 +1529,7 @@
     "intensity_source": null,
     "senapred_url": null,
     "csn_informe_url": null,
-    "gfz_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wnuq",
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyss",
     "relevant": false,
@@ -1554,7 +1554,7 @@
     "intensity_source": null,
     "senapred_url": null,
     "csn_informe_url": null,
-    "gfz_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wnus",
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyst",
     "relevant": false,
@@ -1686,7 +1686,7 @@
     "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
-    "gfz_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wnvz",
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tysx",
     "relevant": false,
@@ -1736,7 +1736,7 @@
     "intensity_source": null,
     "senapred_url": null,
     "csn_informe_url": null,
-    "gfz_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wnwe",
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyt3",
     "relevant": false,
@@ -1761,7 +1761,7 @@
     "intensity_source": null,
     "senapred_url": null,
     "csn_informe_url": null,
-    "gfz_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wnwh",
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyt4",
     "relevant": false,
@@ -1786,7 +1786,7 @@
     "intensity_source": null,
     "senapred_url": null,
     "csn_informe_url": null,
-    "gfz_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wnxv",
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyt9",
     "relevant": false,
@@ -1861,7 +1861,7 @@
     "intensity_source": null,
     "senapred_url": null,
     "csn_informe_url": null,
-    "gfz_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wnyc",
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tytd",
     "relevant": false,
@@ -1930,7 +1930,7 @@
     "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
-    "gfz_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026woas",
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tytu",
     "relevant": false,
@@ -2030,7 +2030,7 @@
     "intensity_source": null,
     "senapred_url": null,
     "csn_informe_url": null,
-    "gfz_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026woch",
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyu4",
     "relevant": false,
@@ -2105,7 +2105,7 @@
     "intensity_source": null,
     "senapred_url": null,
     "csn_informe_url": null,
-    "gfz_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026woez",
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyum",
     "relevant": false,
@@ -2305,7 +2305,7 @@
     "intensity_source": null,
     "senapred_url": null,
     "csn_informe_url": null,
-    "gfz_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wolj",
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyvt",
     "relevant": false,
