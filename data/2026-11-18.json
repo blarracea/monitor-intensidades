@@ -1905,7 +1905,7 @@
     "id": "us7000tyxl",
     "source": "usgs",
     "time": "2026-11-18T04:49:11.633000+00:00",
-    "updated": "2026-11-18T06:27:13.855000+00:00",
+    "updated": "2026-11-18T09:24:25.359000+00:00",
     "lat": 33.1868,
     "lon": -3.4696,
     "depth_km": 10,
@@ -1914,13 +1914,19 @@
     "place": "95 km SSE of Tmourghout, Morocco",
     "cdi": 2,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 34.233472500000005,
         "lon": -4.0043775,
         "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 31.547449999999998,
+        "lon": -4.680315,
+        "intensity": 1,
         "responses": 1
       }
     ],
