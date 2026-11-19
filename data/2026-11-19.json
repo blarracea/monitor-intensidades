@@ -474,22 +474,22 @@
     "id": "ci41363599",
     "source": "usgs",
     "time": "2026-11-19T06:40:11.370000+00:00",
-    "updated": "2026-11-19T16:42:18.618000+00:00",
+    "updated": "2026-11-19T20:19:46.379000+00:00",
     "lat": 36.13333,
     "lon": -118.437,
     "depth_km": 4.86,
     "magnitude": 3.51,
     "mag_type": "ml",
     "place": "42 km N of Kernville, CA",
-    "cdi": 2.2,
+    "cdi": 3.8,
     "mmi": 3.512,
-    "felt_reports": 6,
+    "felt_reports": 7,
     "tsunami_flag": false,
     "dyfi_points": [
       {
-        "lat": 36.36054,
-        "lon": -118.83347499999999,
-        "intensity": 2.2,
+        "lat": 36.1034175,
+        "lon": -118.52755,
+        "intensity": 3.8,
         "responses": 1
       },
       {
@@ -499,8 +499,20 @@
         "responses": 1
       },
       {
+        "lat": 36.36054,
+        "lon": -118.83347499999999,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
         "lat": 35.788925000000006,
         "lon": -118.4440525,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 36.72971,
+        "lon": -119.7827475,
         "intensity": 2,
         "responses": 1
       },
@@ -513,12 +525,6 @@
       {
         "lat": 36.09021,
         "lon": -118.82717500000001,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 36.72971,
-        "lon": -119.7827475,
         "intensity": 2,
         "responses": 1
       }
@@ -1719,7 +1725,7 @@
     "id": "pr71539558",
     "source": "usgs",
     "time": "2026-11-19T18:19:01.020000+00:00",
-    "updated": "2026-11-19T18:42:38.840000+00:00",
+    "updated": "2026-11-19T20:15:46.040000+00:00",
     "lat": 19.493,
     "lon": -68.0318333333333,
     "depth_km": 42.33,
@@ -1920,6 +1926,32 @@
     "gfz_url": null,
     "ptwc_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393514.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/393520.html",
+    "source": "csn",
+    "time": "2026-11-19T20:13:16+00:00",
+    "updated": "2026-11-19T20:13:16+00:00",
+    "lat": -40.84,
+    "lon": -73.03,
+    "depth_km": 10.0,
+    "magnitude": 2.7,
+    "mag_type": "MLv",
+    "place": "19 km al NO de Puerto Octay, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393520.html",
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393520.html",
     "relevant": false,
     "keywords_matched": []
   }
