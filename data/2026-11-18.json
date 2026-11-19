@@ -3694,18 +3694,24 @@
     "id": "us6000ubvt",
     "source": "usgs",
     "time": "2026-11-18T20:30:54.635000+00:00",
-    "updated": "2026-11-18T22:46:25.686000+00:00",
+    "updated": "2026-11-19T15:06:46.606000+00:00",
     "lat": 9.8835,
     "lon": 123.257,
     "depth_km": 10,
     "magnitude": 4.4,
     "mag_type": "mb",
     "place": "12 km SSE of Jimalalud, Philippines",
-    "cdi": 2.2,
+    "cdi": 2.9,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 9.5937525,
+        "lon": 123.123025,
+        "intensity": 2.9,
+        "responses": 1
+      },
       {
         "lat": 9.5847075,
         "lon": 123.132135,
