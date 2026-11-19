@@ -316,7 +316,7 @@
     "id": "us6000uby4",
     "source": "usgs",
     "time": "2026-11-19T05:49:26.623000+00:00",
-    "updated": "2026-11-19T06:21:58.594000+00:00",
+    "updated": "2026-11-19T07:58:14.333000+00:00",
     "lat": -2.4019,
     "lon": -79.8204,
     "depth_km": 69.493,
@@ -325,15 +325,9 @@
     "place": "23 km SSE of Guayaquil, Ecuador",
     "cdi": 4.3,
     "mmi": null,
-    "felt_reports": 8,
+    "felt_reports": 9,
     "tsunami_flag": false,
     "dyfi_points": [
-      {
-        "lat": -2.2026225,
-        "lon": -79.93434500000001,
-        "intensity": 4.3,
-        "responses": 1
-      },
       {
         "lat": -2.175405,
         "lon": -79.82646749999999,
@@ -347,6 +341,12 @@
         "responses": 1
       },
       {
+        "lat": -2.2026225,
+        "lon": -79.93434500000001,
+        "intensity": 4.3,
+        "responses": 1
+      },
+      {
         "lat": -2.9159699999999997,
         "lon": -79.0162625,
         "intensity": 3.6,
@@ -356,6 +356,12 @@
         "lat": -2.2749449999999998,
         "lon": -79.88033999999999,
         "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": -2.1845175,
+        "lon": -79.91637499999999,
+        "intensity": 3.1,
         "responses": 1
       },
       {
