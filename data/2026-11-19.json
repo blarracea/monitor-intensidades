@@ -2266,5 +2266,31 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393540.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026wymdwx",
+    "source": "usgs",
+    "time": "2026-11-19T22:34:06.053000+00:00",
+    "updated": "2026-11-19T22:37:54.384000+00:00",
+    "lat": 69.334,
+    "lon": -144.732,
+    "depth_km": 5,
+    "magnitude": 2.9,
+    "mag_type": "ml",
+    "place": "98 km SSW of Kaktovik, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wymdwx",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
