@@ -1142,5 +1142,31 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ubz1",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/393443.html",
+    "source": "csn",
+    "time": "2026-11-19T12:00:24+00:00",
+    "updated": "2026-11-19T12:00:24+00:00",
+    "lat": -25.04,
+    "lon": -69.42,
+    "depth_km": 143.0,
+    "magnitude": 2.6,
+    "mag_type": "MLv",
+    "place": "93 km al SO de Mina La Escondida, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393443.html",
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393443.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
