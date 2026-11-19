@@ -83,5 +83,31 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ubxb",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000ubxg",
+    "source": "usgs",
+    "time": "2026-11-19T02:11:23.115000+00:00",
+    "updated": "2026-11-19T02:30:01.040000+00:00",
+    "lat": -5.5431,
+    "lon": 35.0812,
+    "depth_km": 10,
+    "magnitude": 4.9,
+    "mag_type": "mb",
+    "place": "36 km NNE of Kilimatinde, Tanzania",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ubxg",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
