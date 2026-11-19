@@ -439,5 +439,31 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41363599",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026wxgryr",
+    "source": "usgs",
+    "time": "2026-11-19T06:49:23.070000+00:00",
+    "updated": "2026-11-19T06:50:14.612000+00:00",
+    "lat": 56.836,
+    "lon": -157.07,
+    "depth_km": 5,
+    "magnitude": 4.1,
+    "mag_type": "ml",
+    "place": "77 km SSE of Ugashik, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wxgryr",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
