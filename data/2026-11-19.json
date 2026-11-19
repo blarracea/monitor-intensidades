@@ -816,7 +816,7 @@
     "id": "pr2026323000",
     "source": "usgs",
     "time": "2026-11-19T09:06:34.910000+00:00",
-    "updated": "2026-11-19T09:56:18.049000+00:00",
+    "updated": "2026-11-19T10:02:38.540000+00:00",
     "lat": 18.7751,
     "lon": -64.8918,
     "depth_km": 47,
@@ -825,12 +825,12 @@
     "place": "48 km N of Charlotte Amalie, U.S. Virgin Islands",
     "cdi": 3.5,
     "mmi": null,
-    "felt_reports": 24,
+    "felt_reports": 25,
     "tsunami_flag": false,
     "dyfi_points": [
       {
-        "lat": 18.356630000000003,
-        "lon": -64.71776,
+        "lat": 18.327730000000003,
+        "lon": -64.9066725,
         "intensity": 3.4,
         "responses": 1
       },
@@ -841,8 +841,8 @@
         "responses": 1
       },
       {
-        "lat": 18.327730000000003,
-        "lon": -64.9066725,
+        "lat": 18.356630000000003,
+        "lon": -64.71776,
         "intensity": 3.4,
         "responses": 1
       },
@@ -853,8 +853,14 @@
         "responses": 3
       },
       {
-        "lat": 18.33732,
-        "lon": -64.85002,
+        "lat": 18.3186975,
+        "lon": -64.9065775,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 18.354255000000002,
+        "lon": -64.96373,
         "intensity": 3.1,
         "responses": 1
       },
@@ -865,20 +871,20 @@
         "responses": 1
       },
       {
-        "lat": 18.327635,
-        "lon": -64.91613000000001,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
         "lat": 18.4025525,
         "lon": -64.6330325,
         "intensity": 3.1,
         "responses": 1
       },
       {
-        "lat": 18.354255000000002,
-        "lon": -64.96373,
+        "lat": 18.33732,
+        "lon": -64.85002,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 18.327635,
+        "lon": -64.91613000000001,
         "intensity": 3.1,
         "responses": 1
       },
@@ -895,8 +901,8 @@
         "responses": 2
       },
       {
-        "lat": 18.3385625,
-        "lon": -64.717585,
+        "lat": 18.3191625,
+        "lon": -64.859285,
         "intensity": 2.7,
         "responses": 1
       },
@@ -907,20 +913,20 @@
         "responses": 1
       },
       {
-        "lat": 18.3191625,
-        "lon": -64.859285,
+        "lat": 18.3385625,
+        "lon": -64.717585,
         "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 18.3471625,
-        "lon": -64.76497499999999,
-        "intensity": 2.2,
         "responses": 1
       },
       {
         "lat": 18.4493325,
         "lon": -64.4346525,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 18.3471625,
+        "lon": -64.76497499999999,
         "intensity": 2.2,
         "responses": 1
       },
