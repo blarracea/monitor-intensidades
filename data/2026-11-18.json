@@ -3365,18 +3365,24 @@
     "id": "us7000tz1n",
     "source": "usgs",
     "time": "2026-11-18T17:22:23.454000+00:00",
-    "updated": "2026-11-18T22:50:14.416000+00:00",
+    "updated": "2026-11-19T06:25:44.596000+00:00",
     "lat": 32.2779,
     "lon": 130.4609,
     "depth_km": 10,
     "magnitude": 5.3,
     "mag_type": "mww",
     "place": "4 km NNW of Tsunagi, Japan",
-    "cdi": 3.1,
+    "cdi": 5,
     "mmi": null,
-    "felt_reports": 5,
+    "felt_reports": 6,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 32.27193,
+        "lon": 130.44935,
+        "intensity": 5,
+        "responses": 1
+      },
       {
         "lat": 31.585124999999998,
         "lon": 130.554535,
@@ -3390,14 +3396,14 @@
         "responses": 1
       },
       {
-        "lat": 33.5887425,
-        "lon": 130.4494375,
+        "lat": 31.59427,
+        "lon": 130.54414500000001,
         "intensity": 2.7,
         "responses": 1
       },
       {
-        "lat": 31.59427,
-        "lon": 130.54414500000001,
+        "lat": 33.5887425,
+        "lon": 130.4494375,
         "intensity": 2.7,
         "responses": 1
       },
