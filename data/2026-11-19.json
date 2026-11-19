@@ -29,18 +29,24 @@
     "id": "us6000ubxa",
     "source": "usgs",
     "time": "2026-11-19T01:29:33.145000+00:00",
-    "updated": "2026-11-19T03:55:30.036000+00:00",
+    "updated": "2026-11-19T05:37:22.748000+00:00",
     "lat": -5.5109,
     "lon": 35.0903,
     "depth_km": 10,
     "magnitude": 4.8,
     "mag_type": "mww",
     "place": "40 km NNE of Kilimatinde, Tanzania",
-    "cdi": 2.2,
+    "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": -3.1314425,
+        "lon": 35.6675575,
+        "intensity": 2.7,
+        "responses": 1
+      },
       {
         "lat": -4.8153125,
         "lon": 34.753795,
