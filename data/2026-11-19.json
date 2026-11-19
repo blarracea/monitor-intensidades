@@ -1252,5 +1252,31 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468302",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "hv75072722",
+    "source": "usgs",
+    "time": "2026-11-19T12:53:25.020000+00:00",
+    "updated": "2026-11-19T12:56:56.860000+00:00",
+    "lat": 19.1228332519531,
+    "lon": -155.378829956055,
+    "depth_km": 29.2600002288818,
+    "magnitude": 2.53,
+    "mag_type": "md",
+    "place": "13 km SE of Pāhala, Hawaii",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75072722",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
