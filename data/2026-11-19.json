@@ -880,7 +880,7 @@
     "id": "pr2026323000",
     "source": "usgs",
     "time": "2026-11-19T09:06:34.910000+00:00",
-    "updated": "2026-11-19T18:36:25.205000+00:00",
+    "updated": "2026-11-19T18:40:53.005000+00:00",
     "lat": 18.7751,
     "lon": -64.8918,
     "depth_km": 47,
@@ -889,9 +889,15 @@
     "place": "48 km N of Charlotte Amalie, U.S. Virgin Islands",
     "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 42,
+    "felt_reports": 43,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 18.438850000000002,
+        "lon": -64.6144425,
+        "intensity": 3.8,
+        "responses": 1
+      },
       {
         "lat": 18.32883,
         "lon": -64.793165,
@@ -901,18 +907,6 @@
       {
         "lat": 18.3115425,
         "lon": -64.707855,
-        "intensity": 3.8,
-        "responses": 1
-      },
-      {
-        "lat": 18.438850000000002,
-        "lon": -64.6144425,
-        "intensity": 3.8,
-        "responses": 1
-      },
-      {
-        "lat": 18.3366675,
-        "lon": -64.91623,
         "intensity": 3.8,
         "responses": 1
       },
@@ -929,20 +923,20 @@
         "responses": 1
       },
       {
-        "lat": 18.319885,
-        "lon": -64.783615,
-        "intensity": 3.3,
-        "responses": 4
-      },
-      {
         "lat": 18.372415,
         "lon": -64.954475,
         "intensity": 3.3,
         "responses": 2
       },
       {
-        "lat": 18.4025525,
-        "lon": -64.6330325,
+        "lat": 18.319885,
+        "lon": -64.783615,
+        "intensity": 3.3,
+        "responses": 4
+      },
+      {
+        "lat": 18.327635,
+        "lon": -64.91613000000001,
         "intensity": 3.1,
         "responses": 1
       },
@@ -953,10 +947,10 @@
         "responses": 1
       },
       {
-        "lat": 18.3549225,
-        "lon": -64.89751,
+        "lat": 18.33732,
+        "lon": -64.85002,
         "intensity": 3.1,
-        "responses": 2
+        "responses": 1
       },
       {
         "lat": 18.3186975,
@@ -971,20 +965,26 @@
         "responses": 5
       },
       {
+        "lat": 18.3366675,
+        "lon": -64.91623,
+        "intensity": 3.1,
+        "responses": 2
+      },
+      {
+        "lat": 18.3549225,
+        "lon": -64.89751,
+        "intensity": 3.1,
+        "responses": 2
+      },
+      {
         "lat": 18.354255000000002,
         "lon": -64.96373,
         "intensity": 3.1,
         "responses": 1
       },
       {
-        "lat": 18.327635,
-        "lon": -64.91613000000001,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 18.33732,
-        "lon": -64.85002,
+        "lat": 18.4025525,
+        "lon": -64.6330325,
         "intensity": 3.1,
         "responses": 1
       },
@@ -993,6 +993,12 @@
         "lon": -64.7837075,
         "intensity": 3,
         "responses": 3
+      },
+      {
+        "lat": 18.45844,
+        "lon": -64.42526,
+        "intensity": 2.7,
+        "responses": 1
       },
       {
         "lat": 18.3546375,
@@ -1009,12 +1015,6 @@
       {
         "lat": 18.3637675,
         "lon": -64.91653,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 18.45844,
-        "lon": -64.42526,
         "intensity": 2.7,
         "responses": 1
       },
@@ -1049,8 +1049,8 @@
         "responses": 1
       },
       {
-        "lat": 18.3474225,
-        "lon": -64.736595,
+        "lat": 18.4667375,
+        "lon": -64.520015,
         "intensity": 2,
         "responses": 1
       },
@@ -1061,8 +1061,8 @@
         "responses": 1
       },
       {
-        "lat": 18.4667375,
-        "lon": -64.520015,
+        "lat": 18.3474225,
+        "lon": -64.736595,
         "intensity": 2,
         "responses": 1
       }
@@ -1713,6 +1713,32 @@
     "ptwc_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393498.html",
     "relevant": true,
+    "keywords_matched": []
+  },
+  {
+    "id": "pr71539558",
+    "source": "usgs",
+    "time": "2026-11-19T18:19:01.020000+00:00",
+    "updated": "2026-11-19T18:42:38.840000+00:00",
+    "lat": 19.493,
+    "lon": -68.0318333333333,
+    "depth_km": 42.33,
+    "magnitude": 3.44,
+    "mag_type": "md",
+    "place": "108 km NNE of Punta Cana, Dominican Republic",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71539558",
+    "relevant": false,
     "keywords_matched": []
   },
   {
