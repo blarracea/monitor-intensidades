@@ -92,14 +92,17 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  background: rgba(255, 255, 255, 0.12);
+  /* Borde dorado/naranja: mismo tono que "Sismo" en el logo. */
+  border: 1.5px solid #f2a33a;
+  background: rgba(242, 163, 58, 0.14);
   color: #fff;
   cursor: pointer;
+  transition: background 0.15s, box-shadow 0.15s;
 }
 
 .search-toggle:hover {
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(242, 163, 58, 0.3);
+  box-shadow: 0 0 0 3px rgba(242, 163, 58, 0.18);
 }
 
 .search-toggle.is-active {
