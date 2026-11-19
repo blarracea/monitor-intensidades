@@ -316,7 +316,7 @@
     "id": "us6000uby4",
     "source": "usgs",
     "time": "2026-11-19T05:49:26.623000+00:00",
-    "updated": "2026-11-19T10:39:48.367000+00:00",
+    "updated": "2026-11-19T10:58:59.322000+00:00",
     "lat": -2.4019,
     "lon": -79.8204,
     "depth_km": 69.493,
@@ -325,7 +325,7 @@
     "place": "23 km SSE of Guayaquil, Ecuador",
     "cdi": 4.3,
     "mmi": null,
-    "felt_reports": 12,
+    "felt_reports": 13,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -367,6 +367,12 @@
       {
         "lat": -2.1845175,
         "lon": -79.91637499999999,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": -2.0669125,
+        "lon": -79.89847499999999,
         "intensity": 3.1,
         "responses": 1
       },
@@ -1000,6 +1006,32 @@
     "gfz_url": null,
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026323000",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "us6000ubyt",
+    "source": "usgs",
+    "time": "2026-11-19T09:08:13.359000+00:00",
+    "updated": "2026-11-19T10:58:51.040000+00:00",
+    "lat": -15.3841,
+    "lon": -76.0248,
+    "depth_km": 10,
+    "magnitude": 4.7,
+    "mag_type": "mb",
+    "place": "92 km W of San Juan, Peru",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wrac",
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ubyt",
     "relevant": false,
     "keywords_matched": []
   },
