@@ -3774,7 +3774,7 @@
     "id": "ci41363495",
     "source": "usgs",
     "time": "2026-11-18T23:39:21.340000+00:00",
-    "updated": "2026-11-18T23:55:02.411000+00:00",
+    "updated": "2026-11-18T23:58:41.786000+00:00",
     "lat": 33.303,
     "lon": -116.19033,
     "depth_km": 11.6,
@@ -3783,19 +3783,31 @@
     "place": "18 km ENE of Borrego Springs, CA",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 34,
+    "felt_reports": 37,
     "tsunami_flag": false,
     "dyfi_points": [
       {
-        "lat": 33.721835,
-        "lon": -116.3577825,
+        "lat": 33.65847,
+        "lon": -116.3151125,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 33.633224999999996,
+        "lon": -117.1455575,
         "intensity": 3.1,
         "responses": 1
       },
       {
-        "lat": 33.69489,
-        "lon": -116.379565,
-        "intensity": 2.7,
+        "lat": 33.0559,
+        "lon": -116.812545,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 33.721835,
+        "lon": -116.3577825,
+        "intensity": 3.1,
         "responses": 1
       },
       {
@@ -3811,14 +3823,38 @@
         "responses": 1
       },
       {
+        "lat": 33.69489,
+        "lon": -116.379565,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 32.848545,
+        "lon": -116.9198475,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": 33.56096,
         "lon": -117.2208525,
         "intensity": 2.7,
         "responses": 2
       },
       {
-        "lat": 33.72189,
-        "lon": -116.36857499999999,
+        "lat": 33.7310725,
+        "lon": -116.4008925,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 33.218395,
+        "lon": -117.037555,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 32.830275,
+        "lon": -116.7489125,
         "intensity": 2.2,
         "responses": 1
       },
@@ -3829,38 +3865,14 @@
         "responses": 1
       },
       {
-        "lat": 33.245459999999994,
-        "lon": -116.99463,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 33.092065000000005,
-        "lon": -117.1125125,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 33.253055,
-        "lon": -116.40417500000001,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": 33.57009,
-        "lon": -117.1454525,
-        "intensity": 2.2,
-        "responses": 1
-      },
-      {
         "lat": 33.11014,
         "lon": -117.069665,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": 32.830275,
-        "lon": -116.7489125,
+        "lat": 33.73993,
+        "lon": -116.3684425,
         "intensity": 2.2,
         "responses": 1
       },
@@ -3871,14 +3883,62 @@
         "responses": 1
       },
       {
-        "lat": 33.34438,
-        "lon": -116.7259525,
+        "lat": 33.72189,
+        "lon": -116.36857499999999,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.20908,
+        "lon": -117.273615,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.092065000000005,
+        "lon": -117.1125125,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.57009,
+        "lon": -117.1454525,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.253055,
+        "lon": -116.40417500000001,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.857855,
+        "lon": -116.51892000000001,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.245459999999994,
+        "lon": -116.99463,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.533995000000004,
+        "lon": -117.156165,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.08299,
+        "lon": -116.833915,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": 33.651315,
-        "lon": -117.091665,
+        "lat": 33.515985,
+        "lon": -117.134595,
         "intensity": 2,
         "responses": 1
       },
@@ -3889,20 +3949,50 @@
         "responses": 1
       },
       {
-        "lat": 33.7216,
-        "lon": -116.31461,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
         "lat": 33.54311,
         "lon": -117.026925,
         "intensity": 2,
         "responses": 1
       },
       {
+        "lat": 33.7216,
+        "lon": -116.31461,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 33.34438,
+        "lon": -116.7259525,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 32.704235,
+        "lon": -117.02666500000001,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 33.74121,
+        "lon": -116.7139,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 33.651315,
+        "lon": -117.091665,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 33.75823,
         "lon": -116.4223,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 33.649795,
+        "lon": -116.3798875,
         "intensity": 2,
         "responses": 1
       },
@@ -3946,6 +4036,32 @@
     "gfz_url": null,
     "ptwc_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393376.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "pr71539518",
+    "source": "usgs",
+    "time": "2026-11-18T23:44:31.790000+00:00",
+    "updated": "2026-11-18T23:57:35.630000+00:00",
+    "lat": 17.9095,
+    "lon": -65.2498333333333,
+    "depth_km": 20.49,
+    "magnitude": 2.55,
+    "mag_type": "md",
+    "place": "31 km SE of Esperanza, Puerto Rico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71539518",
     "relevant": false,
     "keywords_matched": []
   }
