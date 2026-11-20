@@ -29952,5 +29952,31 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393734.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026xabinn",
+    "source": "usgs",
+    "time": "2026-11-20T19:07:26.037000+00:00",
+    "updated": "2026-11-20T19:08:54.289000+00:00",
+    "lat": 55.745,
+    "lon": -155.577,
+    "depth_km": 47.9,
+    "magnitude": 2.8,
+    "mag_type": "ml",
+    "place": "159 km SSW of Akhiok, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xabinn",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
