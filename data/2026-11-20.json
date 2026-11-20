@@ -9268,18 +9268,30 @@
     "id": "nc75468787",
     "source": "usgs",
     "time": "2026-11-20T07:14:25.490000+00:00",
-    "updated": "2026-11-20T07:47:32.153000+00:00",
+    "updated": "2026-11-20T08:11:49.411000+00:00",
     "lat": 36.5688323974609,
     "lon": -121.188667297363,
     "depth_km": 7,
     "magnitude": 3.38,
     "mag_type": "ml",
     "place": "6 km NW of Pinnacles, CA",
-    "cdi": 2.9,
+    "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 14,
+    "felt_reports": 30,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 36.974630000000005,
+        "lon": -122.02815749999999,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 36.695925,
+        "lon": -121.292895,
+        "intensity": 3.1,
+        "responses": 1
+      },
       {
         "lat": 36.918949999999995,
         "lon": -121.8492425,
@@ -9287,8 +9299,20 @@
         "responses": 1
       },
       {
+        "lat": 35.486959999999996,
+        "lon": -120.690585,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": 36.361215,
         "lon": -121.21108,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 37.0377225,
+        "lon": -122.027355,
         "intensity": 2.7,
         "responses": 1
       },
@@ -9305,8 +9329,26 @@
         "responses": 1
       },
       {
+        "lat": 36.9826725,
+        "lon": -121.9156975,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 37.343275,
         "lon": -121.92182,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 37.12409,
+        "lon": -121.643525,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 37.09693,
+        "lon": -121.632755,
         "intensity": 2,
         "responses": 1
       }
@@ -9455,7 +9497,7 @@
     "id": "nc75468862",
     "source": "usgs",
     "time": "2026-11-20T07:57:06.280000+00:00",
-    "updated": "2026-11-20T08:02:52.810000+00:00",
+    "updated": "2026-11-20T08:12:23.309000+00:00",
     "lat": 36.5728340148926,
     "lon": -121.199165344238,
     "depth_km": 5.1100001335144,
