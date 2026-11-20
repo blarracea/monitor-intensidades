@@ -570,5 +570,31 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393594.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000uc6c",
+    "source": "usgs",
+    "time": "2026-11-20T05:17:45.106000+00:00",
+    "updated": "2026-11-20T05:31:39.040000+00:00",
+    "lat": -5.219,
+    "lon": 145.2974,
+    "depth_km": 97.583,
+    "magnitude": 4.9,
+    "mag_type": "mb",
+    "place": "54 km W of Madang, Papua New Guinea",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wsnz",
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uc6c",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
