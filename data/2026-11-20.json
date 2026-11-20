@@ -653,21 +653,45 @@
     "id": "nc75468662",
     "source": "usgs",
     "time": "2026-11-20T05:53:23.950000+00:00",
-    "updated": "2026-11-20T06:12:21.498000+00:00",
+    "updated": "2026-11-20T06:22:23.567000+00:00",
     "lat": 36.5900001525879,
     "lon": -121.216499328613,
     "depth_km": 7.21000003814697,
     "magnitude": 3.11,
     "mag_type": "ml",
     "place": "9 km NW of Pinnacles, CA",
-    "cdi": 2,
+    "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 2,
+    "felt_reports": 6,
     "tsunami_flag": false,
     "dyfi_points": [
       {
+        "lat": 36.85082,
+        "lon": -121.41283250000001,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 36.434765,
+        "lon": -121.3097925,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
         "lat": 36.5681275,
         "lon": -121.18397,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 36.43508,
+        "lon": -121.3320975,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 36.4260675,
+        "lon": -121.33229,
         "intensity": 2,
         "responses": 1
       },
@@ -744,19 +768,50 @@
     "id": "nc75468687",
     "source": "usgs",
     "time": "2026-11-20T06:12:10.440000+00:00",
-    "updated": "2026-11-20T06:17:47.810000+00:00",
+    "updated": "2026-11-20T06:23:57.057000+00:00",
     "lat": 36.5923347473145,
     "lon": -121.22233581543,
     "depth_km": 6.42999982833862,
     "magnitude": 3.31,
     "mag_type": "ml",
     "place": "10 km NW of Pinnacles, CA",
-    "cdi": null,
+    "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 0,
+    "felt_reports": 5,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 36.85082,
+        "lon": -121.41283250000001,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 36.434765,
+        "lon": -121.3097925,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 37.76158,
+        "lon": -122.46072,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 36.4260675,
+        "lon": -121.33229,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 36.43508,
+        "lon": -121.3320975,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "usgs_url": null,
