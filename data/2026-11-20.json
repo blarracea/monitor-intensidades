@@ -687,5 +687,31 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468662",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/393602.html",
+    "source": "csn",
+    "time": "2026-11-20T05:55:35+00:00",
+    "updated": "2026-11-20T05:55:35+00:00",
+    "lat": -24.04,
+    "lon": -67.27,
+    "depth_km": 227.0,
+    "magnitude": 3.6,
+    "mag_type": "MLv",
+    "place": "80 km al SE de Socaire, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393602.html",
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393602.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]

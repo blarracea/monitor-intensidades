@@ -1451,23 +1451,23 @@
     "id": "tx2026wubzeh",
     "source": "usgs",
     "time": "2026-11-19T13:09:23.372000+00:00",
-    "updated": "2026-11-19T20:37:27.194000+00:00",
+    "updated": "2026-11-20T06:09:53.785000+00:00",
     "lat": 32.365,
     "lon": -101.898,
     "depth_km": 8.1787,
     "magnitude": 3.2,
     "mag_type": "ml",
     "place": "24 km SW of Ackerly, Texas",
-    "cdi": 3.8,
+    "cdi": 3.2,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 32.2914375,
         "lon": -101.92546,
-        "intensity": 3.8,
-        "responses": 1
+        "intensity": 3.2,
+        "responses": 2
       }
     ],
     "intensity_source": "usgs_dyfi",
