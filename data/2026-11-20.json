@@ -829,5 +829,31 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wzbmul",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "ew1795157360",
+    "source": "usgs",
+    "time": "2026-11-20T06:49:16+00:00",
+    "updated": "2026-11-20T06:49:26+00:00",
+    "lat": 36.5798,
+    "lon": -121.2325,
+    "depth_km": 9,
+    "magnitude": 5.4,
+    "mag_type": "mw",
+    "place": "19 km NNE of Soledad, California",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ew1795157360",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
