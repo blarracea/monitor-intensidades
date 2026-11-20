@@ -653,19 +653,32 @@
     "id": "nc75468662",
     "source": "usgs",
     "time": "2026-11-20T05:53:23.950000+00:00",
-    "updated": "2026-11-20T05:55:38.502000+00:00",
+    "updated": "2026-11-20T06:02:05.725000+00:00",
     "lat": 36.5900001525879,
     "lon": -121.216499328613,
     "depth_km": 7.21000003814697,
     "magnitude": 3.11,
     "mag_type": "ml",
     "place": "9 km NW of Pinnacles, CA",
-    "cdi": null,
+    "cdi": 2,
     "mmi": null,
-    "felt_reports": 0,
+    "felt_reports": 2,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 36.5681275,
+        "lon": -121.18397,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 36.4259125,
+        "lon": -121.32114,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "usgs_url": null,
