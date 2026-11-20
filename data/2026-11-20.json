@@ -322,7 +322,7 @@
     "id": "us6000uc5s",
     "source": "usgs",
     "time": "2026-11-20T02:57:18.070000+00:00",
-    "updated": "2026-11-20T03:33:59.102000+00:00",
+    "updated": "2026-11-20T03:41:06.388000+00:00",
     "lat": -31.4302,
     "lon": -69.1883,
     "depth_km": 113.86,
@@ -331,7 +331,7 @@
     "place": "24 km ESE of Calingasta, Argentina",
     "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 2,
+    "felt_reports": 3,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -343,6 +343,12 @@
       {
         "lat": -32.83944,
         "lon": -68.83437,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": -32.84843,
+        "lon": -68.81298,
         "intensity": 2,
         "responses": 1
       }
@@ -406,6 +412,32 @@
     "gfz_url": null,
     "ptwc_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393578.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/393580.html",
+    "source": "csn",
+    "time": "2026-11-20T03:35:24+00:00",
+    "updated": "2026-11-20T03:35:24+00:00",
+    "lat": -18.76,
+    "lon": -70.73,
+    "depth_km": 29.0,
+    "magnitude": 2.6,
+    "mag_type": "MLv",
+    "place": "53 km al SO de Arica, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393580.html",
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393580.html",
     "relevant": false,
     "keywords_matched": []
   }
