@@ -322,18 +322,24 @@
     "id": "us6000uc5s",
     "source": "usgs",
     "time": "2026-11-20T02:57:18.070000+00:00",
-    "updated": "2026-11-20T03:25:37.760000+00:00",
+    "updated": "2026-11-20T03:33:59.102000+00:00",
     "lat": -31.4302,
     "lon": -69.1883,
     "depth_km": 113.86,
     "magnitude": 4.8,
     "mag_type": "mb",
     "place": "24 km ESE of Calingasta, Argentina",
-    "cdi": 2,
+    "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": -31.5125975,
+        "lon": -68.5524,
+        "intensity": 3.4,
+        "responses": 1
+      },
       {
         "lat": -32.83944,
         "lon": -68.83437,
