@@ -860,7 +860,7 @@
     "id": "nc75468702",
     "source": "usgs",
     "time": "2026-11-20T06:49:16.530000+00:00",
-    "updated": "2026-11-20T07:05:33.440000+00:00",
+    "updated": "2026-11-20T07:09:42.526000+00:00",
     "lat": 36.5934982299805,
     "lon": -121.220664978027,
     "depth_km": 6.69999980926514,
@@ -868,7 +868,7 @@
     "mag_type": "mw",
     "place": "10 km NW of Pinnacles, CA",
     "cdi": 2.2,
-    "mmi": 6.051,
+    "mmi": 6.424,
     "felt_reports": 3,
     "tsunami_flag": true,
     "dyfi_points": [
@@ -905,7 +905,7 @@
     "id": "nc75468707",
     "source": "usgs",
     "time": "2026-11-20T06:52:33.440000+00:00",
-    "updated": "2026-11-20T06:54:42.784000+00:00",
+    "updated": "2026-11-20T07:07:24.888000+00:00",
     "lat": 36.6098327636719,
     "lon": -121.205169677734,
     "depth_km": 6.07999992370605,
@@ -957,26 +957,153 @@
     "id": "nc75468732",
     "source": "usgs",
     "time": "2026-11-20T06:57:14.030000+00:00",
-    "updated": "2026-11-20T07:00:36+00:00",
+    "updated": "2026-11-20T07:10:13.908000+00:00",
     "lat": 36.578498840332,
     "lon": -121.205001831055,
     "depth_km": 5.92000007629395,
     "magnitude": 2.53,
     "mag_type": "md",
     "place": "8 km NW of Pinnacles, CA",
-    "cdi": null,
+    "cdi": 2.2,
     "mmi": null,
-    "felt_reports": 0,
+    "felt_reports": 116,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 36.9090325,
+        "lon": -121.7595925,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 36.61229,
+        "lon": -121.83144999999999,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 36.68406,
+        "lon": -121.7967925,
+        "intensity": 2.1,
+        "responses": 2
+      },
+      {
+        "lat": 36.9914775,
+        "lon": -121.89309750000001,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 37.2427175,
+        "lon": -121.7766925,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 35.719025,
+        "lon": -120.5733725,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 37.3709125,
+        "lon": -121.98919000000001,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 37.3651025,
+        "lon": -120.4197275,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 36.9996175,
+        "lon": -121.8030725,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 37.527425,
+        "lon": -120.87806499999999,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 36.5911975,
+        "lon": -121.552305,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 37.1285575,
+        "lon": -122.116255,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 36.9748125,
+        "lon": -122.05062749999999,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 37.0377225,
+        "lon": -122.027355,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 36.9835525,
+        "lon": -122.0168075,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 37.19977,
+        "lon": -122.002745,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 36.974630000000005,
+        "lon": -122.02815749999999,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 37.0470975,
+        "lon": -122.0722175,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 37.352595,
+        "lon": -121.9555625,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 36.5946925,
+        "lon": -121.876435,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 35.603445,
+        "lon": -120.65413000000001,
+        "intensity": 1,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "usgs_url": null,
     "gfz_url": null,
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75468732",
-    "relevant": false,
+    "relevant": true,
     "keywords_matched": []
   }
 ]
