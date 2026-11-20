@@ -29756,7 +29756,7 @@
     "id": "nc75469167",
     "source": "usgs",
     "time": "2026-11-20T15:07:18.700000+00:00",
-    "updated": "2026-11-20T20:31:49.587000+00:00",
+    "updated": "2026-11-20T22:23:42.773000+00:00",
     "lat": 36.5615005493164,
     "lon": -121.178337097168,
     "depth_km": 6.73000001907349,
@@ -29765,15 +29765,9 @@
     "place": "5 km NW of Pinnacles, CA",
     "cdi": 2.2,
     "mmi": null,
-    "felt_reports": 10,
+    "felt_reports": 14,
     "tsunami_flag": false,
     "dyfi_points": [
-      {
-        "lat": 37.20735,
-        "lon": -121.844875,
-        "intensity": 2.2,
-        "responses": 1
-      },
       {
         "lat": 35.63132,
         "lon": -120.69748,
@@ -29781,9 +29775,45 @@
         "responses": 1
       },
       {
+        "lat": 37.20735,
+        "lon": -121.844875,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 36.6034925,
+        "lon": -121.85394500000001,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 37.0467375,
         "lon": -122.0272425,
         "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 36.601885,
+        "lon": -121.697445,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 37.86869,
+        "lon": -122.26666,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 37.00615,
+        "lon": -121.57819,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 37.405725,
+        "lon": -121.8531375,
+        "intensity": 1,
         "responses": 1
       },
       {
@@ -29801,18 +29831,6 @@
       {
         "lat": 36.7997875,
         "lon": -121.660475,
-        "intensity": 1,
-        "responses": 1
-      },
-      {
-        "lat": 37.405725,
-        "lon": -121.8531375,
-        "intensity": 1,
-        "responses": 1
-      },
-      {
-        "lat": 37.00615,
-        "lon": -121.57819,
         "intensity": 1,
         "responses": 1
       }
