@@ -6405,7 +6405,7 @@
     "id": "ci41364471",
     "source": "usgs",
     "time": "2026-11-21T14:09:32.280000+00:00",
-    "updated": "2026-11-21T14:19:48.024000+00:00",
+    "updated": "2026-11-21T14:24:49.040000+00:00",
     "lat": 33.65133,
     "lon": -118.26217,
     "depth_km": 11.29,
@@ -6418,15 +6418,81 @@
     "tsunami_flag": false,
     "dyfi_points": [
       {
+        "lat": 33.76314,
+        "lon": -118.16083,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
         "lat": 33.77256,
         "lon": -118.11776,
         "intensity": 2.7,
         "responses": 1
       },
       {
+        "lat": 33.7719525,
+        "lon": -118.1825475,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 33.7987975,
+        "lon": -118.20452,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.8176475,
+        "lon": -118.1183475,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.772752499999996,
+        "lon": -118.096165,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
         "lat": 33.77216,
         "lon": -118.16095,
         "intensity": 2.2,
+        "responses": 2
+      },
+      {
+        "lat": 33.7617425,
+        "lon": -118.30118,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.8449875,
+        "lon": -118.0862775,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 33.798255,
+        "lon": -118.258525,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 33.8349725,
+        "lon": -118.1942225,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 33.76334,
+        "lon": -118.139235,
+        "intensity": 2,
+        "responses": 2
+      },
+      {
+        "lat": 33.7905925,
+        "lon": -118.11799500000001,
+        "intensity": 2,
         "responses": 1
       }
     ],
