@@ -5750,19 +5750,25 @@
   {
     "id": "us6000ucij",
     "source": "usgs",
-    "time": "2026-11-21T09:42:10.314000+00:00",
-    "updated": "2026-11-21T11:17:57.347000+00:00",
-    "lat": -7.7563,
-    "lon": 127.5428,
-    "depth_km": 143.423,
+    "time": "2026-11-21T09:42:09.120000+00:00",
+    "updated": "2026-11-21T11:49:06.315000+00:00",
+    "lat": -7.7324,
+    "lon": 127.5407,
+    "depth_km": 132.055,
     "magnitude": 6.8,
     "mag_type": "mww",
-    "place": "103 km NE of Lospalos, Timor Leste",
+    "place": "105 km NE of Lospalos, Timor Leste",
     "cdi": 3.7,
     "mmi": 5.146,
     "felt_reports": 36,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": -8.554124999999999,
+        "lon": 125.566295,
+        "intensity": 3.8,
+        "responses": 1
+      },
       {
         "lat": -8.54515,
         "lon": 125.5571575,
@@ -5772,12 +5778,6 @@
       {
         "lat": -8.5540025,
         "lon": 125.58445,
-        "intensity": 3.8,
-        "responses": 1
-      },
-      {
-        "lat": -8.554124999999999,
-        "lon": 125.566295,
         "intensity": 3.8,
         "responses": 1
       },
@@ -5806,26 +5806,8 @@
         "responses": 4
       },
       {
-        "lat": -12.36372,
-        "lon": 130.890015,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": -12.38211,
-        "lon": 130.8441725,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": -12.39115,
-        "lon": 130.84423750000002,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": -12.4986275,
-        "lon": 130.982975,
+        "lat": -12.43634,
+        "lon": 130.844555,
         "intensity": 3.1,
         "responses": 1
       },
@@ -5836,8 +5818,20 @@
         "responses": 1
       },
       {
-        "lat": -12.43634,
-        "lon": 130.844555,
+        "lat": -12.38211,
+        "lon": 130.8441725,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": -12.36372,
+        "lon": 130.890015,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": -12.39115,
+        "lon": 130.84423750000002,
         "intensity": 3.1,
         "responses": 1
       },
@@ -5848,38 +5842,26 @@
         "responses": 1
       },
       {
+        "lat": -12.4986275,
+        "lon": 130.982975,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
         "lat": -12.516774999999999,
         "lon": 130.973915,
         "intensity": 2.8,
         "responses": 3
       },
       {
-        "lat": -12.3726925,
-        "lon": 130.8992725,
+        "lat": -12.4896575,
+        "lon": 130.9737125,
         "intensity": 2.7,
         "responses": 1
       },
       {
         "lat": -12.38186,
         "lon": 130.8809525,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": -12.39987,
-        "lon": 130.8902775,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": -12.38205,
-        "lon": 130.8533675,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": -12.4896575,
-        "lon": 130.9737125,
         "intensity": 2.7,
         "responses": 1
       },
@@ -5896,20 +5878,38 @@
         "responses": 1
       },
       {
+        "lat": -12.3726925,
+        "lon": 130.8992725,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -12.38205,
+        "lon": 130.8533675,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -12.39987,
+        "lon": 130.8902775,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": -12.5788375,
         "lon": 131.130805,
         "intensity": 2.2,
         "responses": 1
       },
       {
-        "lat": -12.354745,
-        "lon": 130.88075750000002,
+        "lat": -12.427367499999999,
+        "lon": 130.835295,
         "intensity": 2,
         "responses": 1
       },
       {
-        "lat": -12.427367499999999,
-        "lon": 130.835295,
+        "lat": -12.354745,
+        "lon": 130.88075750000002,
         "intensity": 2,
         "responses": 1
       },
