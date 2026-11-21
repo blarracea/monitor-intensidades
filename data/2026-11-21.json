@@ -1060,7 +1060,7 @@
     "id": "us6000uchd",
     "source": "usgs",
     "time": "2026-11-21T05:12:04.898000+00:00",
-    "updated": "2026-11-21T21:34:59.520000+00:00",
+    "updated": "2026-11-21T23:24:20.182000+00:00",
     "lat": -10.913,
     "lon": -76.0308,
     "depth_km": 110.928,
@@ -1069,7 +1069,7 @@
     "place": "0 km NE of Carhuamayo, Peru",
     "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 10,
+    "felt_reports": 11,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1081,6 +1081,12 @@
       {
         "lat": -12.127685,
         "lon": -77.035305,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": -12.0464125,
+        "lon": -77.0255075,
         "intensity": 3.1,
         "responses": 1
       },
