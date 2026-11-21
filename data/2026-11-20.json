@@ -11580,7 +11580,7 @@
     "id": "aka2026wzgrna",
     "source": "usgs",
     "time": "2026-11-20T08:48:06.974000+00:00",
-    "updated": "2026-11-20T23:42:08.024000+00:00",
+    "updated": "2026-11-21T01:26:25.787000+00:00",
     "lat": 60.787,
     "lon": -151.402,
     "depth_km": 75.7,
@@ -11589,13 +11589,19 @@
     "place": "12 km NNW of Nikiski, Alaska",
     "cdi": 2.2,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 61.185095000000004,
         "lon": -149.74367999999998,
         "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 61.17421,
+        "lon": -149.8357475,
+        "intensity": 1,
         "responses": 1
       }
     ],

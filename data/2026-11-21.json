@@ -511,5 +511,31 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75469462",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/393779.html",
+    "source": "csn",
+    "time": "2026-11-21T01:24:09+00:00",
+    "updated": "2026-11-21T01:24:09+00:00",
+    "lat": -22.25,
+    "lon": -68.67,
+    "depth_km": 105.0,
+    "magnitude": 5.0,
+    "mag_type": "MLv",
+    "place": "37 km al NE de Calama, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393779.html",
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393779.html",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
