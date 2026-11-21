@@ -1276,5 +1276,31 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393820.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "uw714140682",
+    "source": "usgs",
+    "time": "2026-11-21T07:13:12.640000+00:00",
+    "updated": "2026-11-21T07:19:14.040000+00:00",
+    "lat": 47.3390007019043,
+    "lon": -122.191497802734,
+    "depth_km": 49.75,
+    "magnitude": 3.61619985103607,
+    "mag_type": "ml",
+    "place": "1 km NNW of Lea Hill, Washington",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714140682",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
