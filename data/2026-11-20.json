@@ -11412,7 +11412,7 @@
     "id": "nc75468942",
     "source": "usgs",
     "time": "2026-11-20T08:35:27.320000+00:00",
-    "updated": "2026-11-20T12:07:21.821000+00:00",
+    "updated": "2026-11-21T01:22:57.050000+00:00",
     "lat": 36.5986671447754,
     "lon": -121.216331481934,
     "depth_km": 6.6399998664856,
@@ -11421,7 +11421,7 @@
     "place": "10 km NW of Pinnacles, CA",
     "cdi": 2.1,
     "mmi": null,
-    "felt_reports": 3,
+    "felt_reports": 5,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -11433,6 +11433,12 @@
       {
         "lat": 36.594902499999996,
         "lon": -121.8987925,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 36.7997875,
+        "lon": -121.660475,
         "intensity": 1,
         "responses": 1
       }
@@ -11451,7 +11457,7 @@
     "id": "nc75468947",
     "source": "usgs",
     "time": "2026-11-20T08:36:04.140000+00:00",
-    "updated": "2026-11-20T12:22:22.931000+00:00",
+    "updated": "2026-11-21T01:24:47.741000+00:00",
     "lat": 36.5866661071777,
     "lon": -121.231498718262,
     "depth_km": 3.07999992370605,
@@ -11460,7 +11466,7 @@
     "place": "10 km NW of Pinnacles, CA",
     "cdi": 2.2,
     "mmi": null,
-    "felt_reports": 2,
+    "felt_reports": 4,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -11473,6 +11479,12 @@
         "lat": 36.656325,
         "lon": -121.730095,
         "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 36.7997875,
+        "lon": -121.660475,
+        "intensity": 1,
         "responses": 1
       }
     ],
