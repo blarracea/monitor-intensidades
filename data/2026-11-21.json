@@ -7861,18 +7861,24 @@
     "id": "pr2026325000",
     "source": "usgs",
     "time": "2026-11-21T15:00:13.140000+00:00",
-    "updated": "2026-11-21T15:45:00.436000+00:00",
+    "updated": "2026-11-21T15:50:32.896000+00:00",
     "lat": 18.3416,
     "lon": -68.8265,
     "depth_km": 104,
     "magnitude": 4.6,
     "mag_type": "md",
     "place": "18 km ESE of La Romana, Dominican Republic",
-    "cdi": 2.8,
+    "cdi": 2.4,
     "mmi": null,
-    "felt_reports": 4,
+    "felt_reports": 7,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 18.553125,
+        "lon": -68.3698375,
+        "intensity": 3.8,
+        "responses": 1
+      },
       {
         "lat": 18.5080325,
         "lon": -68.3984225,
@@ -7880,14 +7886,20 @@
         "responses": 1
       },
       {
-        "lat": 18.462875,
-        "lon": -68.40805,
+        "lat": 18.343715,
+        "lon": -66.1946125,
         "intensity": 2,
         "responses": 1
       },
       {
         "lat": 18.281295,
         "lon": -66.970885,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 18.462875,
+        "lon": -68.40805,
         "intensity": 2,
         "responses": 1
       }
