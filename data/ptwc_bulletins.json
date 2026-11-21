@@ -3,25 +3,13 @@
     "url": "https://www.tsunami.gov/events/PAAQ/2026/11/21/tou4gr/1/WEAK53/WEAK53.txt",
     "event_key": "PAAQ/2026/11/21/tou4gr",
     "number": 1,
-    "lat": 60.312,
-    "lon": -147.791,
+    "lat": 60.3,
+    "lon": -147.8,
     "magnitude": 4.0,
-    "issue_time": "2026-11-21T04:32:57Z",
+    "issue_time": "2026-11-21T04:32:57+00:00",
     "region": "55 miles NE of Seward, Alaska",
-    "category": "Information",
-    "origin_time": "2026-11-21T04:29:00+00:00"
-  },
-  {
-    "url": "https://www.tsunami.gov/events/PHEB/2026/11/21/26325050/1/WEGM42/WEGM42.txt",
-    "event_key": "PHEB/2026/11/21/26325050",
-    "number": 1,
-    "lat": -10.98,
-    "lon": -76.319,
-    "magnitude": 6.9,
-    "issue_time": "2026-11-21T00:19:13Z",
-    "region": "CENTRAL PERU",
-    "category": "Information",
-    "origin_time": null
+    "category": "AK/BC/US West Coast Informational #1",
+    "origin_time": "2026-11-21T04:29:15+00:00"
   },
   {
     "url": "https://www.tsunami.gov/events/PAAQ/2026/11/21/totsfi/1/WEAK53/WEAK53.txt",
@@ -30,10 +18,22 @@
     "lat": -11.0,
     "lon": -76.3,
     "magnitude": 6.9,
-    "issue_time": "2026-11-21T00:18:02Z",
+    "issue_time": "2026-11-21T00:18:02+00:00",
     "region": "in central Peru",
-    "category": "Information",
-    "origin_time": "2026-11-21T00:09:00+00:00"
+    "category": "AK/BC/US West Coast Informational #1",
+    "origin_time": "2026-11-21T00:09:18+00:00"
+  },
+  {
+    "url": "https://www.tsunami.gov/events/PHEB/2026/11/21/26325050/1/WEZS42/WEZS42.txt",
+    "event_key": "PHEB/2026/11/21/26325050",
+    "number": 1,
+    "lat": -11.0,
+    "lon": -76.3,
+    "magnitude": 6.9,
+    "issue_time": "2026-11-21T00:18:27+00:00",
+    "region": "CENTRAL PERU",
+    "category": "American Samoa Informational #1",
+    "origin_time": "2026-11-21T00:09:17+00:00"
   },
   {
     "url": "https://www.tsunami.gov/events/PAAQ/2026/11/20/tost2m/1/WEAK53/WEAK53.txt",
