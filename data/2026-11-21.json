@@ -875,7 +875,7 @@
     "id": "aka2026xaubpp",
     "source": "usgs",
     "time": "2026-11-21T04:29:14.724000+00:00",
-    "updated": "2026-11-21T04:46:17.029000+00:00",
+    "updated": "2026-11-21T05:02:18.138000+00:00",
     "lat": 60.301,
     "lon": -147.79,
     "depth_km": 3.6,
@@ -884,7 +884,7 @@
     "place": "28 km NNE of Chenega, Alaska",
     "cdi": 3.4,
     "mmi": 4.399,
-    "felt_reports": 10,
+    "felt_reports": 12,
     "tsunami_flag": true,
     "dyfi_points": [
       {
@@ -894,9 +894,15 @@
         "responses": 1
       },
       {
-        "lat": 61.2622075,
-        "lon": -149.47060249999998,
-        "intensity": 2.2,
+        "lat": 60.917895,
+        "lon": -149.6284,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 60.51702,
+        "lon": -148.1019325,
+        "intensity": 2.9,
         "responses": 1
       },
       {
@@ -920,6 +926,12 @@
       {
         "lat": 61.483505,
         "lon": -149.1312475,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 61.2622075,
+        "lon": -149.47060249999998,
         "intensity": 2.2,
         "responses": 1
       },
