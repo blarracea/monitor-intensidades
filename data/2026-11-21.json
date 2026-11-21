@@ -1027,5 +1027,31 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uchd",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026xawcri",
+    "source": "usgs",
+    "time": "2026-11-21T05:30:19.465000+00:00",
+    "updated": "2026-11-21T05:33:24.912000+00:00",
+    "lat": 56.864,
+    "lon": -157.111,
+    "depth_km": 81.6,
+    "magnitude": 2.9,
+    "mag_type": "ml",
+    "place": "74 km SSE of Ugashik, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xawcri",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
