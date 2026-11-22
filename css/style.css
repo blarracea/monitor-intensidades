@@ -327,7 +327,9 @@ body {
      margen desde el borde del mapa -- este cuadro repite ese mismo ancho
      y ese mismo margen izquierdo, y arranca 10px debajo de donde termina
      el zoom (63 + 10 + 10 = 83). */
-  top: 83px;
+  /* A pedido: abajo a la izquierda (antes bajo el zoom, top:83px). */
+  top: auto;
+  bottom: 10px;
   left: 10px;
   z-index: 500;
   width: 33px;
