@@ -187,6 +187,22 @@ SismosApp.loadDay = async function (dateStr) {
     .sort((a, b) => new Date(a.time) - new Date(b.time));
 };
 
+/* Hora de la ultima recoleccion (storage.update_index() la escribe de
+   nuevo en cada corrida de collect.py, ver backend/storage.py) -- se usa
+   para el aviso chico "Datos actualizados: hace X min" bajo "Mapa de
+   Calor". Devuelve null si index.json no existe todavia o no trae el
+   campo (archivo viejo, de antes de que se agregara). */
+SismosApp.loadLastUpdated = async function () {
+  try {
+    const response = await fetch("data/index.json", { cache: "no-store" });
+    if (!response.ok) return null;
+    const index = await response.json();
+    return index.updated ? new Date(index.updated) : null;
+  } catch (err) {
+    return null;
+  }
+};
+
 /* Menciones recientes en medios (RSS) -- ver js/social-layer.js. */
 SismosApp.loadSocialMentions = async function () {
   const response = await fetch("data/social_mentions.json", { cache: "no-store" });

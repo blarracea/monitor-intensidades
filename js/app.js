@@ -13,6 +13,7 @@
   const searchPanel = document.getElementById("search-panel");
   const liveTraceBanner = document.getElementById("live-trace-banner");
   const mediaTraceBanner = document.getElementById("media-trace-banner");
+  const lastUpdatedEl = document.getElementById("last-updated");
 
   // Trazabilidad: cuando hay un sismo elegido (desde el mapa o la lupa), los
   // paneles "Redes en vivo" y "Menciones en medios" dejan de mostrar lo
@@ -115,6 +116,12 @@
   // dos veces y esa comuna se veria mas intensa de lo real mientras dure
   // seleccionada.
   let recentEventKeys = new Set();
+  // Todos los eventos de la ventana de 7 dias (sin filtrar por reporte
+  // SENAPRED) de la ultima vez que corrio refreshEvents -- se usa solo
+  // para resolver el deep link "#evento=<id>" de la URL al cargar la
+  // pagina (ver applyEventFromHash, mas abajo).
+  let lastAllEvents = [];
+
   const highlightEvent = (event) => {
     if (selectionMarker) {
       map.removeLayer(selectionMarker);
@@ -399,8 +406,20 @@
     return `${_escapeHtmlDetail(String(Math.round(depth * 10) / 10).replace(".", ","))} km`;
   };
 
+  // Deep link: #evento=<id> en la URL abre directo el detalle de ESE
+  // sismo (ver applyEventFromHash, al final del archivo) -- compartir el
+  // link de la pagina mientras hay un sismo elegido manda a quien lo abre
+  // al mismo detalle, no al mapa general. replaceState (no pushState) para
+  // no llenar el historial de "atras" con cada sismo que se mira.
+  const setEventHash = (event) => {
+    if (!event || !event.id) return;
+    const hash = `#evento=${encodeURIComponent(event.id)}`;
+    if (location.hash !== hash) history.replaceState(null, "", hash);
+  };
+
   const showEventDetail = (event) => {
     highlightEvent(event);
+    setEventHash(event);
     // El panel scrollea por dentro cuando no entra (ver .stack-column .event-detail): al
     // elegir otro sismo vuelve arriba en vez de quedar a la mitad del anterior.
     const detailPanel = document.getElementById("event-detail");
@@ -543,6 +562,22 @@
   // sí aparecieran sismos nuevos. Ahora simplemente se muestra cada vez
   // que hay datos, sin ese estado intermedio que nadie puede tocar.
 
+  // --- "Datos actualizados: hace X min" bajo el titulo del mapa ---
+  const lastUpdatedRtf = new Intl.RelativeTimeFormat("es-CL", { numeric: "auto" });
+  const relativeFromNow = (date) => {
+    const diffMin = Math.round((Date.now() - date.getTime()) / 60000);
+    if (diffMin < 1) return "hace instantes";
+    if (diffMin < 60) return lastUpdatedRtf.format(-diffMin, "minute");
+    return lastUpdatedRtf.format(-Math.round(diffMin / 60), "hour");
+  };
+
+  const refreshLastUpdated = async () => {
+    if (!lastUpdatedEl) return;
+    const updated = await SismosApp.loadLastUpdated();
+    if (!updated) return;
+    lastUpdatedEl.textContent = `Datos actualizados: ${relativeFromNow(updated)} (${SismosApp.formatChileDateTime24(updated)}, hora Chile)`;
+  };
+
   // Trae los eventos, reconstruye heatmap y marcadores. Se llama al iniciar
   // y despues cada REFRESH_INTERVAL_MS -- no toca el zoom/centro del mapa
   // ni el detalle seleccionado, solo los datos.
@@ -552,6 +587,7 @@
     try {
       allEvents = await SismosApp.loadRecentEvents(7);
       events = allEvents.filter(hasSenapredReport);
+      lastAllEvents = allEvents;
       statusEl.textContent = `${events.length} sismos con reporte de SENAPRED (ultimos 7 dias).`;
     } catch (err) {
       statusEl.textContent = err.message;
@@ -830,12 +866,30 @@
     }
   };
 
-  await Promise.all([refreshEvents(), refreshSocialFeed(), refreshLiveFeed(), refreshDayTable()]);
+  // Si la URL ya trae "#evento=<id>" (alguien abrio un link compartido),
+  // busca ese sismo en lo que acaba de cargar refreshEvents (ultimos 7
+  // dias, sin filtrar por reporte SENAPRED) y lo abre directo. Solo se
+  // intenta una vez, al cargar la pagina -- no vuelve a disparar en cada
+  // refresco de los 60s (pisaria la navegacion de quien ya esta mirando
+  // otra cosa), y no avisa nada si no lo encuentra (sismo fuera de la
+  // ventana de 7 dias, o un id viejo/invalido): el mapa general igual
+  // carga bien, el link compartido simplemente no logra enfocar nada.
+  const applyEventFromHash = () => {
+    const match = /^#evento=(.+)$/.exec(location.hash);
+    if (!match) return;
+    const id = decodeURIComponent(match[1]);
+    const event = lastAllEvents.find((e) => e.id === id);
+    if (event) focusEvent(event);
+  };
+
+  await Promise.all([refreshEvents(), refreshSocialFeed(), refreshLiveFeed(), refreshDayTable(), refreshLastUpdated()]);
+  applyEventFromHash();
 
   setInterval(() => {
     refreshEvents();
     refreshSocialFeed();
     refreshLiveFeed();
     refreshDayTable();
+    refreshLastUpdated();
   }, REFRESH_INTERVAL_MS);
 })();

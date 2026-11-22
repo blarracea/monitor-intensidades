@@ -9,6 +9,36 @@
   --color-text-muted: #5c6b78;
   --color-alert: #e74c3c;
   --color-border: #d8e0e7;
+  /* "Tinta" de titulos/links sobre un panel (--color-panel) -- separada de
+     --color-header-bg porque esa SI debe seguir siendo azul marino fijo (es
+     el fondo del header, que ya es oscuro y no cambia en modo oscuro). En
+     modo claro vale lo mismo que --color-header-bg (cero cambio visual);
+     en modo oscuro se redefine mas clara para que se siga leyendo sobre un
+     panel oscuro. */
+  --color-heading: var(--color-header-bg);
+  /* Cajas destacadas (el placeholder de "Detalle del evento" y el aviso de
+     "modo demo" en el reporte) -- tonos calidos que antes eran #fffaf0 y
+     #fff3d6 fijos; en modo oscuro pasan a su equivalente oscuro. */
+  --color-highlight-bg: #fffaf0;
+  --color-demo-bg: #fff3d6;
+}
+
+/* Modo oscuro: solo se redefinen los tokens de arriba (superficie, texto,
+   bordes y las dos cajas destacadas). --color-header-bg/-2 y --color-accent
+   quedan iguales a proposito: el header ya es oscuro con texto blanco (no
+   necesita cambiar) y el naranja de acento funciona igual de bien sobre
+   claro u oscuro. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #10171f;
+    --color-panel: #1a232c;
+    --color-text: #e4ebf1;
+    --color-text-muted: #94a6b3;
+    --color-border: #2d3a44;
+    --color-heading: #8fc1ee;
+    --color-highlight-bg: #2c2512;
+    --color-demo-bg: #332a12;
+  }
 }
 
 * { box-sizing: border-box; }
@@ -290,13 +320,28 @@ body {
 
 .map-title {
   margin: 0;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1rem 0.2rem;
   font-size: 1rem;
   text-align: center;
-  color: var(--color-header-bg);
+  color: var(--color-heading);
+  background: var(--color-panel);
+  flex-shrink: 0;
+}
+
+/* Hora de la ultima recoleccion (ver SismosApp.loadLastUpdated en
+   data-loader.js) -- comparte fondo con .map-title (misma franja visual,
+   el borde que las separaba del mapa ahora queda al final de esta) y
+   queda vacio (sin texto, altura minima) hasta que carga el primer dato. */
+.last-updated {
+  margin: 0;
+  padding: 0 1rem 0.5rem;
+  font-size: 0.75rem;
+  text-align: center;
+  color: var(--color-text-muted);
   background: var(--color-panel);
   border-bottom: 2px solid var(--color-accent);
   flex-shrink: 0;
+  min-height: 1rem;
 }
 
 /* El "position:relative" que antes tenia .map-wrap se mueve aca: el mapa
@@ -337,7 +382,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 0.3rem;
-  background: #fff;
+  background: var(--color-panel);
   border: 2px solid rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 0.4rem 0.2rem;
@@ -409,8 +454,8 @@ body {
   padding: 0.25rem 0.6rem;
   font: inherit;
   font-weight: 600;
-  color: var(--color-header-bg);
-  background: #fff;
+  color: var(--color-heading);
+  background: var(--color-panel);
   border: 1px solid var(--color-header-bg);
   border-radius: 4px;
   cursor: pointer;
@@ -439,7 +484,7 @@ body {
      con el fondo solido del titulo. */
   margin: 0;
   font-size: 1rem;
-  color: var(--color-header-bg);
+  color: var(--color-heading);
   border-bottom: 2px solid var(--color-accent);
   padding-bottom: 0.25rem;
 }
@@ -457,7 +502,7 @@ body {
   font-weight: 500;
   line-height: 1.35;
   color: var(--color-text);
-  background: #fffaf0;
+  background: var(--color-highlight-bg);
   border: 1px dashed var(--color-accent);
   border-radius: 6px;
 }
@@ -507,7 +552,7 @@ body {
 .week-chart-count {
   font-size: 0.68rem;
   font-weight: 700;
-  color: var(--color-header-bg);
+  color: var(--color-heading);
   margin-bottom: 0.25rem;
 }
 
@@ -820,7 +865,7 @@ h2.live-feed-title {
 
 .event-detail dt {
   font-weight: 600;
-  color: var(--color-header-bg);
+  color: var(--color-heading);
   margin-top: 0.5rem;
 }
 
@@ -1000,7 +1045,7 @@ h2.live-feed-title {
 .report-box h3 {
   margin: 0 0 0.25rem;
   font-size: 0.92rem;
-  color: var(--color-header-bg);
+  color: var(--color-heading);
 }
 
 .report-demo,
@@ -1026,7 +1071,7 @@ h2.live-feed-title {
 
 .report-demo {
   padding: 0.3rem 0.5rem;
-  background: #fff3d6;
+  background: var(--color-demo-bg);
   border-radius: 4px;
 }
 
@@ -1056,8 +1101,8 @@ h2.live-feed-title {
   font-size: 0.7rem;
   line-height: 1.15;
   text-align: center;
-  color: var(--color-header-bg);
-  background: #fff;
+  color: var(--color-heading);
+  background: var(--color-panel);
   border: 1px solid var(--color-header-bg);
   border-radius: 6px;
   cursor: pointer;
@@ -1070,7 +1115,7 @@ h2.live-feed-title {
    en toda la pagina. Un tinte claro (el mismo que .report-choice:hover) mas
    texto en negrita distingue la opcion elegida sin ese golpe de color. */
 .report-choice.is-selected {
-  color: var(--color-header-bg);
+  color: var(--color-heading);
   background: #dbe7f3;
   font-weight: 700;
 }
@@ -1083,7 +1128,7 @@ h2.live-feed-title {
   margin: 0.3rem 0;
   font-size: 0.74rem;
   font-weight: 700;
-  color: var(--color-header-bg);
+  color: var(--color-heading);
 }
 
 .report-comuna-field {
@@ -1113,7 +1158,7 @@ h2.live-feed-title {
   padding: 0;
   font-size: 0.7rem;
   line-height: 1;
-  color: var(--color-header-bg);
+  color: var(--color-heading);
   background: none;
   border: none;
   cursor: pointer;
@@ -1139,7 +1184,7 @@ h2.live-feed-title {
   list-style: none;
   max-height: 10rem;
   overflow-y: auto;
-  background: #fff;
+  background: var(--color-panel);
   border: 1px solid var(--color-header-bg);
   border-radius: 6px;
   box-shadow: 0 2px 6px rgba(10, 46, 77, 0.2);
@@ -1170,8 +1215,8 @@ h2.live-feed-title {
   font: inherit;
   font-size: 0.8rem;
   font-weight: 700;
-  color: var(--color-header-bg);
-  background: #fff;
+  color: var(--color-heading);
+  background: var(--color-panel);
   border: 1px solid var(--color-header-bg);
   border-radius: 6px;
   cursor: pointer;
@@ -1246,7 +1291,7 @@ h2.live-feed-title {
 }
 
 .contact-info a {
-  color: var(--color-header-bg);
+  color: var(--color-heading);
 }
 
 /* Celular/tablet: los paneles van apilados, asi que el cuadro de contacto mide lo que mide su texto. */
@@ -1263,7 +1308,7 @@ h2.live-feed-title {
   gap: 0.35rem;
   margin: 10px 10px 0 0;
   padding: 0.3rem 0.55rem;
-  background: #fff;
+  background: var(--color-panel);
   font-size: 0.72rem;
   font-weight: 600;
   color: var(--color-text);
@@ -1299,17 +1344,17 @@ h2.live-feed-title {
 }
 
 .doc-back a {
-  color: var(--color-header-bg);
+  color: var(--color-heading);
 }
 
 .doc-card h2 {
   margin: 0 0 0.5rem;
-  color: var(--color-header-bg);
+  color: var(--color-heading);
 }
 
 .doc-card h3 {
   margin: 1.5rem 0 0.4rem;
-  color: var(--color-header-bg);
+  color: var(--color-heading);
   font-size: 1rem;
 }
 
@@ -1331,7 +1376,7 @@ h2.live-feed-title {
 }
 
 .doc-contact a {
-  color: var(--color-header-bg);
+  color: var(--color-heading);
 }
 
 /* Escritorio bajo: el recuadro "¿Lo sentiste?" (con mensaje y resumen cargados) entra sin scroll. */
