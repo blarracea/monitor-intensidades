@@ -6970,7 +6970,7 @@
     "id": "us6000ucij",
     "source": "usgs",
     "time": "2026-11-21T09:42:09.120000+00:00",
-    "updated": "2026-11-22T09:50:31.773000+00:00",
+    "updated": "2026-11-22T10:46:43.086000+00:00",
     "lat": -7.7324,
     "lon": 127.5407,
     "depth_km": 132.055,
@@ -6979,12 +6979,18 @@
     "place": "105 km NE of Lospalos, Timor Leste",
     "cdi": 3.6,
     "mmi": 5.298,
-    "felt_reports": 40,
+    "felt_reports": 41,
     "tsunami_flag": false,
     "dyfi_points": [
       {
-        "lat": -8.56346,
-        "lon": 125.52096,
+        "lat": -8.54515,
+        "lon": 125.5571575,
+        "intensity": 3.8,
+        "responses": 2
+      },
+      {
+        "lat": -8.5540025,
+        "lon": 125.58445,
         "intensity": 3.8,
         "responses": 1
       },
@@ -6995,14 +7001,14 @@
         "responses": 1
       },
       {
-        "lat": -8.54515,
-        "lon": 125.5571575,
+        "lat": -8.56346,
+        "lon": 125.52096,
         "intensity": 3.8,
-        "responses": 2
+        "responses": 1
       },
       {
-        "lat": -8.5540025,
-        "lon": 125.58445,
+        "lat": -8.54521,
+        "lon": 125.54808,
         "intensity": 3.8,
         "responses": 1
       },
@@ -7043,8 +7049,8 @@
         "responses": 4
       },
       {
-        "lat": -12.39115,
-        "lon": 130.84423750000002,
+        "lat": -12.36372,
+        "lon": 130.890015,
         "intensity": 3.1,
         "responses": 1
       },
@@ -7055,20 +7061,20 @@
         "responses": 1
       },
       {
+        "lat": -8.554185,
+        "lon": 125.55722,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
         "lat": -12.4001275,
         "lon": 130.853495,
         "intensity": 3.1,
         "responses": 1
       },
       {
-        "lat": -12.43634,
-        "lon": 130.844555,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": -12.36372,
-        "lon": 130.890015,
+        "lat": -12.39115,
+        "lon": 130.84423750000002,
         "intensity": 3.1,
         "responses": 1
       },
@@ -7079,8 +7085,8 @@
         "responses": 1
       },
       {
-        "lat": -8.554185,
-        "lon": 125.55722,
+        "lat": -12.43634,
+        "lon": 130.844555,
         "intensity": 3.1,
         "responses": 1
       },
@@ -7091,26 +7097,8 @@
         "responses": 3
       },
       {
-        "lat": -8.5543625,
-        "lon": 125.52998,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
         "lat": -12.5352475,
         "lon": 130.918855,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": -12.39987,
-        "lon": 130.8902775,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": -12.38186,
-        "lon": 130.8809525,
         "intensity": 2.7,
         "responses": 1
       },
@@ -7127,8 +7115,26 @@
         "responses": 1
       },
       {
+        "lat": -12.39987,
+        "lon": 130.8902775,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": -12.445505,
         "lon": 130.82622750000002,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -12.38186,
+        "lon": 130.8809525,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": -8.5543625,
+        "lon": 125.52998,
         "intensity": 2.7,
         "responses": 1
       },
@@ -7136,12 +7142,6 @@
         "lat": -12.5788375,
         "lon": 131.130805,
         "intensity": 2.2,
-        "responses": 1
-      },
-      {
-        "lat": -12.427367499999999,
-        "lon": 130.835295,
-        "intensity": 2,
         "responses": 1
       },
       {
@@ -7153,6 +7153,12 @@
       {
         "lat": -12.354745,
         "lon": 130.88075750000002,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": -12.427367499999999,
+        "lon": 130.835295,
         "intensity": 2,
         "responses": 1
       }
@@ -7301,7 +7307,7 @@
     "id": "us6000ucly",
     "source": "usgs",
     "time": "2026-11-21T10:45:33.230000+00:00",
-    "updated": "2026-11-21T12:51:14.230000+00:00",
+    "updated": "2026-11-22T10:49:06.491000+00:00",
     "lat": 37.1958,
     "lon": 96.6398,
     "depth_km": 10,
