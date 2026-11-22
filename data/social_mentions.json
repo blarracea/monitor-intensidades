@@ -161,14 +161,13 @@
     "source": "La Tercera",
     "published": "2026-11-22T12:41:36+00:00",
     "keywords_matched": [
-      "sismo",
       "temblor",
       "temblo"
     ],
     "chile": true,
-    "place": "calama",
-    "lat": -22.4667,
-    "lon": -68.9333
+    "place": null,
+    "lat": null,
+    "lon": null
   },
   {
     "title": "Terremoto moderado mag. 4.0 - 61 km al noreste de Calama, El Loa, Antofagasta, Chile, Sunday 22 Nov 2026 a las 09:30 (Hora Santiago) - Volcano Discovery",
@@ -321,19 +320,6 @@
     "lon": null
   },
   {
-    "title": "Terremoto leve mag. 3.3 - Océano Pacífico Sur, 39 km al oeste de Valparaíso, Valparaiso, Valparaíso, Chile, Sunday 22 Nov 2026 a las 00:19 (GMT -5) - Volcano Discovery",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQajU1YzBTS3lqUHlvWlZFSmRIQlppTlpHb3VBZzhwODh3b0VVV1V4RHZmR0duUXpfaXEyVGVVcTI3WHhVSUkwWC1YMmE2b1ZrNUI3UXJyMHpsNTlTU3lsOHhteVc0TEh3ZkMwNzVwcFdYMjhyaGNmVGxtQl92MGNJU0lTUGt4aGJncTlxU3lyT1JaZzdqNDRPLWg4VGtsbmhxV1NyaGNjT3JfcFk3WE9rNWFVRzZHbVdlY3c?oc=5",
-    "source": "Volcano Discovery",
-    "published": "2026-11-22T05:29:38+00:00",
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "chile": true,
-    "place": "valparaiso",
-    "lat": -33.0472,
-    "lon": -71.6127
-  },
-  {
     "title": "Sismo débil mag. 2.7 - 67 km al noreste de Calama, El Loa, Antofagasta, Chile, Sunday 22 Nov 2026 a las 11:42 (GMT -3) - Volcano Discovery",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObzNjTmFIaHRvRXJ2TFI3S2RydWc4aV9Lb2tka3RwUWFDcjlTanY1RHRidjdCVnVnT2FvMmJGcE5SeEpwV1BLY2pWZy1HWnh4Vzhtb05UNl9Qemd3MWJ5ZUNHTGMwRl9mX2lWV3ZqWVZWRDNiMFd2by11WnFySW9SNkpLcGNqMzJKVWRKaDhwanBIM00xWWFwTll4cWdrSGJUMklOWUZkd2JqREZIa21F?oc=5",
     "source": "Volcano Discovery",
@@ -345,6 +331,19 @@
     "place": "antofagasta",
     "lat": -23.6509,
     "lon": -70.3975
+  },
+  {
+    "title": "Terremoto leve mag. 3.3 - Océano Pacífico Sur, 39 km al oeste de Valparaíso, Valparaiso, Valparaíso, Chile, Sunday 22 Nov 2026 a las 00:19 (GMT -5) - Volcano Discovery",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQajU1YzBTS3lqUHlvWlZFSmRIQlppTlpHb3VBZzhwODh3b0VVV1V4RHZmR0duUXpfaXEyVGVVcTI3WHhVSUkwWC1YMmE2b1ZrNUI3UXJyMHpsNTlTU3lsOHhteVc0TEh3ZkMwNzVwcFdYMjhyaGNmVGxtQl92MGNJU0lTUGt4aGJncTlxU3lyT1JaZzdqNDRPLWg4VGtsbmhxV1NyaGNjT3JfcFk3WE9rNWFVRzZHbVdlY3c?oc=5",
+    "source": "Volcano Discovery",
+    "published": "2026-11-22T04:29:38+00:00",
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "chile": true,
+    "place": "valparaiso",
+    "lat": -33.0472,
+    "lon": -71.6127
   },
   {
     "title": "Sismo débil mag. 2.7 - Tocopilla, 45 km al noroeste de Calama, El Loa, Antofagasta, Chile, Sunday 22 Nov 2026 a las 01:05 (GMT -3) - Volcano Discovery",
