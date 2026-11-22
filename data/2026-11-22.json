@@ -1060,19 +1060,25 @@
   {
     "id": "nm60629086",
     "source": "usgs",
-    "time": "2026-11-22T15:04:19.560000+00:00",
-    "updated": "2026-11-22T15:16:48.856000+00:00",
-    "lat": 36.0188331604004,
-    "lon": -89.5090026855469,
-    "depth_km": 6.01000022888184,
-    "magnitude": 3.11999989,
+    "time": "2026-11-22T15:04:19.510000+00:00",
+    "updated": "2026-11-22T15:24:14.495000+00:00",
+    "lat": 36.0126666666667,
+    "lon": -89.507,
+    "depth_km": 6.43,
+    "magnitude": 3.07,
     "mag_type": "md",
-    "place": "11 km W of Dyersburg, Tennessee",
+    "place": "11 km WSW of Dyersburg, Tennessee",
     "cdi": 3.6,
     "mmi": null,
-    "felt_reports": 5,
+    "felt_reports": 12,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 36.03339,
+        "lon": -89.480615,
+        "intensity": 4.1,
+        "responses": 2
+      },
       {
         "lat": 36.0608725,
         "lon": -89.45928,
@@ -1086,8 +1092,32 @@
         "responses": 1
       },
       {
+        "lat": 36.03293,
+        "lon": -89.502795,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 36.03316,
+        "lon": -89.491705,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 36.04217,
+        "lon": -89.49199,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
         "lat": 36.07011,
         "lon": -89.448465,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 36.035415,
+        "lon": -89.38081,
         "intensity": 3.1,
         "responses": 1
       },
@@ -1096,6 +1126,12 @@
         "lon": -89.4259975,
         "intensity": 2,
         "responses": 2
+      },
+      {
+        "lat": 36.0422075,
+        "lon": -90.10849,
+        "intensity": 1,
+        "responses": 1
       }
     ],
     "intensity_source": "usgs_dyfi",
