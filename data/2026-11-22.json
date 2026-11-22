@@ -2018,7 +2018,7 @@
     "id": "us6000ucuf",
     "source": "usgs",
     "time": "2026-11-22T21:35:31.763000+00:00",
-    "updated": "2026-11-22T22:22:59.117000+00:00",
+    "updated": "2026-11-22T22:47:17.919000+00:00",
     "lat": -10.8345,
     "lon": -76.0169,
     "depth_km": 117.396,
@@ -2027,7 +2027,7 @@
     "place": "9 km N of Carhuamayo, Peru",
     "cdi": 4.3,
     "mmi": 4.213,
-    "felt_reports": 11,
+    "felt_reports": 12,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2064,6 +2064,12 @@
         "lat": -12.091125,
         "lon": -77.090135,
         "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": -12.0832175,
+        "lon": -76.933945,
+        "intensity": 2,
         "responses": 1
       }
     ],
