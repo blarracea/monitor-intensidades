@@ -55,7 +55,7 @@
     "id": "us6000ucfm",
     "source": "usgs",
     "time": "2026-11-21T00:09:19.667000+00:00",
-    "updated": "2026-11-22T00:14:43.522000+00:00",
+    "updated": "2026-11-22T00:15:54.007000+00:00",
     "lat": -10.8548,
     "lon": -75.9779,
     "depth_km": 107.991,
@@ -7217,7 +7217,7 @@
     "id": "ci41364439",
     "source": "usgs",
     "time": "2026-11-21T12:41:20.670000+00:00",
-    "updated": "2026-11-21T19:56:00.647000+00:00",
+    "updated": "2026-11-22T00:16:21.620000+00:00",
     "lat": 32.40217,
     "lon": -115.21833,
     "depth_km": 7.93,
@@ -7226,13 +7226,19 @@
     "place": "6 km NNW of Delta, B.C., MX",
     "cdi": 2,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 32.6172625,
         "lon": -114.55405999999999,
         "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 34.26667,
+        "lon": -118.30891,
+        "intensity": 1,
         "responses": 1
       }
     ],
