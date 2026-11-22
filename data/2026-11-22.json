@@ -1061,16 +1061,16 @@
     "id": "nm60629086",
     "source": "usgs",
     "time": "2026-11-22T15:04:19.510000+00:00",
-    "updated": "2026-11-22T15:24:14.495000+00:00",
+    "updated": "2026-11-22T15:27:15.619000+00:00",
     "lat": 36.0126666666667,
     "lon": -89.507,
     "depth_km": 6.43,
     "magnitude": 3.07,
     "mag_type": "md",
     "place": "11 km WSW of Dyersburg, Tennessee",
-    "cdi": 3.6,
+    "cdi": 3.5,
     "mmi": null,
-    "felt_reports": 12,
+    "felt_reports": 13,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1092,20 +1092,26 @@
         "responses": 1
       },
       {
-        "lat": 36.03293,
-        "lon": -89.502795,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
         "lat": 36.03316,
         "lon": -89.491705,
         "intensity": 3.4,
         "responses": 1
       },
       {
-        "lat": 36.04217,
-        "lon": -89.49199,
+        "lat": 36.03293,
+        "lon": -89.502795,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
+        "lat": 36.0869775,
+        "lon": -89.5045075,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 36.035415,
+        "lon": -89.38081,
         "intensity": 3.1,
         "responses": 1
       },
@@ -1116,8 +1122,8 @@
         "responses": 1
       },
       {
-        "lat": 36.035415,
-        "lon": -89.38081,
+        "lat": 36.04217,
+        "lon": -89.49199,
         "intensity": 3.1,
         "responses": 1
       },
@@ -1141,6 +1147,58 @@
     "gfz_url": null,
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60629086",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/394030.html",
+    "source": "csn",
+    "time": "2026-11-22T15:19:46+00:00",
+    "updated": "2026-11-22T15:19:46+00:00",
+    "lat": -31.8,
+    "lon": -72.11,
+    "depth_km": 25.0,
+    "magnitude": 3.5,
+    "mag_type": "MLv",
+    "place": "58 km al O de Los Vilos, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394030.html",
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394030.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "aka2026xdlzci",
+    "source": "usgs",
+    "time": "2026-11-22T15:25:21.490000+00:00",
+    "updated": "2026-11-22T15:30:11.606000+00:00",
+    "lat": 60.003,
+    "lon": -152.657,
+    "depth_km": 100.5,
+    "magnitude": 3.6,
+    "mag_type": "ml",
+    "place": "52 km W of Happy Valley, Alaska",
+    "cdi": null,
+    "mmi": 1.763,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xdlzci",
     "relevant": false,
     "keywords_matched": []
   }
