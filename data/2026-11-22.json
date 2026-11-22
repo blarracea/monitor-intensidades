@@ -1519,5 +1519,31 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucth",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000uctj",
+    "source": "usgs",
+    "time": "2026-11-22T18:03:24.057000+00:00",
+    "updated": "2026-11-22T18:19:01.040000+00:00",
+    "lat": -24.8265,
+    "lon": 179.6648,
+    "depth_km": 533.96,
+    "magnitude": 4.6,
+    "mag_type": "mb",
+    "place": "south of the Fiji Islands",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uctj",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
