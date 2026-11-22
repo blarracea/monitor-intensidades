@@ -289,7 +289,7 @@
     "id": "us6000ucqu",
     "source": "usgs",
     "time": "2026-11-22T05:51:58.624000+00:00",
-    "updated": "2026-11-22T13:25:55.405000+00:00",
+    "updated": "2026-11-22T15:33:42.187000+00:00",
     "lat": -10.7957,
     "lon": -75.9635,
     "depth_km": 108.134,
@@ -298,19 +298,13 @@
     "place": "15 km NNE of Carhuamayo, Peru",
     "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 6,
+    "felt_reports": 7,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": -12.118645,
         "lon": -77.035235,
         "intensity": 3.8,
-        "responses": 1
-      },
-      {
-        "lat": -10.5794,
-        "lon": -75.379345,
-        "intensity": 3.1,
         "responses": 1
       },
       {
@@ -326,8 +320,20 @@
         "responses": 1
       },
       {
+        "lat": -10.5794,
+        "lon": -75.379345,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
         "lat": -10.6765875,
         "lon": -76.25720000000001,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": -12.137055,
+        "lon": -76.9894475,
         "intensity": 2.2,
         "responses": 1
       },
@@ -482,18 +488,24 @@
     "id": "us6000ucr4",
     "source": "usgs",
     "time": "2026-11-22T07:12:49.426000+00:00",
-    "updated": "2026-11-22T10:42:38.727000+00:00",
+    "updated": "2026-11-22T15:32:06.284000+00:00",
     "lat": 10.758,
     "lon": -70.2291,
     "depth_km": 10,
     "magnitude": 4.4,
     "mag_type": "mb",
     "place": "57 km ESE of Dabajuro, Venezuela",
-    "cdi": 1,
+    "cdi": 2.9,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 9.485230000000001,
+        "lon": -69.068325,
+        "intensity": 2.9,
+        "responses": 1
+      },
       {
         "lat": 11.68953,
         "lon": -70.19736,
@@ -1061,29 +1073,29 @@
     "id": "nm60629086",
     "source": "usgs",
     "time": "2026-11-22T15:04:19.510000+00:00",
-    "updated": "2026-11-22T15:27:15.619000+00:00",
+    "updated": "2026-11-22T15:35:03.878000+00:00",
     "lat": 36.0126666666667,
     "lon": -89.507,
     "depth_km": 6.43,
     "magnitude": 3.07,
     "mag_type": "md",
     "place": "11 km WSW of Dyersburg, Tennessee",
-    "cdi": 3.5,
+    "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 13,
+    "felt_reports": 16,
     "tsunami_flag": false,
     "dyfi_points": [
-      {
-        "lat": 36.03339,
-        "lon": -89.480615,
-        "intensity": 4.1,
-        "responses": 2
-      },
       {
         "lat": 36.0608725,
         "lon": -89.45928,
         "intensity": 3.9,
         "responses": 1
+      },
+      {
+        "lat": 36.03339,
+        "lon": -89.480615,
+        "intensity": 3.9,
+        "responses": 3
       },
       {
         "lat": 36.0424,
@@ -1104,18 +1116,6 @@
         "responses": 1
       },
       {
-        "lat": 36.0869775,
-        "lon": -89.5045075,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 36.035415,
-        "lon": -89.38081,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
         "lat": 36.07011,
         "lon": -89.448465,
         "intensity": 3.1,
@@ -1128,10 +1128,34 @@
         "responses": 1
       },
       {
+        "lat": 36.0869775,
+        "lon": -89.5045075,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 36.035415,
+        "lon": -89.38081,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 36.096445,
+        "lon": -89.4826,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
         "lat": 36.0615525,
         "lon": -89.4259975,
         "intensity": 2,
         "responses": 2
+      },
+      {
+        "lat": 36.137662500000005,
+        "lon": -89.66167999999999,
+        "intensity": 2,
+        "responses": 1
       },
       {
         "lat": 36.0422075,
@@ -1180,7 +1204,7 @@
     "id": "aka2026xdlzci",
     "source": "usgs",
     "time": "2026-11-22T15:25:21.490000+00:00",
-    "updated": "2026-11-22T15:30:11.606000+00:00",
+    "updated": "2026-11-22T15:32:32.040000+00:00",
     "lat": 60.003,
     "lon": -152.657,
     "depth_km": 100.5,
