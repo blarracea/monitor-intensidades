@@ -281,7 +281,7 @@ body {
      menciones-en-medios sean columnas de alto completo (ver .side-content
      arriba) -- ver tambien js/map.js, el centro se corrio un poco mas al
      este para compensar mostrando todavia menos oceano con este ancho. */
-  flex: 0 0 400px; /* a pedido (antes 380); la columna de la derecha (detalle/resumen/contacto) cede ese ancho */
+  flex: 0 0 500px; /* a pedido (antes 380); la columna de la derecha (detalle/resumen/contacto) cede ese ancho */
   min-width: 320px;
   height: 100%;
   display: flex;
