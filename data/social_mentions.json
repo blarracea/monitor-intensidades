@@ -15,6 +15,21 @@
     "lon": null
   },
   {
+    "title": "Temblor en Chile EN VIVO hoy, 21 de noviembre 2026: hora exacta, magnitud y dónde fue el epicentro del último sismo, según el CSN - El Comercio Perú",
+    "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOZjJvX1FwS005eDc0OUlfSzJEMHlfZTVReDAwelpCMkVZbHliQXhIMm5tMDFLS09MNzVZeF90c3MtS3NFY3dVTDlXMXBITVJ6UlphQUJuNnptNWZCMHhHbThHaGRFSjRybnU4c0p0YXdxNjl3R0duQnZ0cmUyOG1Ed2lwdVV6djQ5WnNWWS1YOXkzblFUV01wdDVPMFFQc05idUUtLWMtY3JKOUFUc2ZrQTAzX01IcTFEWUFXLVNhNURwTzlfVTF6YTVFNEZFY1BhWER6Y2lJb255ckRfNnYzN05GS1NfR0xLQ2hFSnc5eFJueXhhaDNBX3B0N1pNcFhocnBaZWQ1QlhEaVoyYnBaSTVkVlQ?oc=5",
+    "source": "El Comercio Perú",
+    "published": "2026-11-22T01:00:00+00:00",
+    "keywords_matched": [
+      "sismo",
+      "temblor",
+      "temblo"
+    ],
+    "chile": true,
+    "place": null,
+    "lat": null,
+    "lon": null
+  },
+  {
     "title": "Sismo débil mag. 2.8 - 40 km al sureste de Calama, El Loa, Antofagasta, Chile, Saturday 21 Nov 2026 a las 19:13 (GMT -3) - Volcano Discovery",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdExKclN3ZmVIWTdmVUYwRUozcHcyOW5kYVRoVWM5bUlxNXFzbHliYTJrbldXQ0ppWmh1eEhrMlkwRUN3b055SEVNTjFqbnZHcDJBMjlfWjB1ZHRMWWRkTzkxR2gzV08yd09lS2tLR19kWnNZTjE1SWEzMWhnaFR3OFFnZWxtdnV6VTdyR3M3aFFWb09lNjJHcTIyTDNUWVNQOUtwSDlNMWdGRE5Xb2Rv?oc=5",
     "source": "Volcano Discovery",
@@ -38,21 +53,6 @@
       "temblo"
     ],
     "chile": false,
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "Temblor en Chile EN VIVO hoy, 21 de noviembre 2026: hora exacta, magnitud y dónde fue el epicentro del último sismo, según el CSN - El Comercio Perú",
-    "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOZjJvX1FwS005eDc0OUlfSzJEMHlfZTVReDAwelpCMkVZbHliQXhIMm5tMDFLS09MNzVZeF90c3MtS3NFY3dVTDlXMXBITVJ6UlphQUJuNnptNWZCMHhHbThHaGRFSjRybnU4c0p0YXdxNjl3R0duQnZ0cmUyOG1Ed2lwdVV6djQ5WnNWWS1YOXkzblFUV01wdDVPMFFQc05idUUtLWMtY3JKOUFUc2ZrQTAzX01IcTFEWUFXLVNhNURwTzlfVTF6YTVFNEZFY1BhWER6Y2lJb255ckRfNnYzN05GS1NfR0xLQ2hFSnc5eFJueXhhaDNBX3B0N1pNcFhocnBaZWQ1QlhEaVoyYnBaSTVkVlQ?oc=5",
-    "source": "El Comercio Perú",
-    "published": "2026-11-21T22:03:13+00:00",
-    "keywords_matched": [
-      "sismo",
-      "temblor",
-      "temblo"
-    ],
-    "chile": true,
     "place": null,
     "lat": null,
     "lon": null
@@ -158,13 +158,15 @@
     "source": "La Tercera",
     "published": "2026-11-21T19:57:35+00:00",
     "keywords_matched": [
+      "sismo",
+      "tsunami",
       "temblor",
       "temblo"
     ],
     "chile": true,
-    "place": null,
-    "lat": null,
-    "lon": null
+    "place": "calama",
+    "lat": -22.4667,
+    "lon": -68.9333
   },
   {
     "title": "SHOA descarta posibilidad de tsunami en Chile tras sismo en San Pedro de Atacama - Teletrece",
