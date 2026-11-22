@@ -1085,7 +1085,7 @@
     "id": "nm60629086",
     "source": "usgs",
     "time": "2026-11-22T15:04:19.510000+00:00",
-    "updated": "2026-11-22T18:29:44.750000+00:00",
+    "updated": "2026-11-22T18:57:54.098000+00:00",
     "lat": 36.0126666666667,
     "lon": -89.507,
     "depth_km": 6.43,
@@ -1094,7 +1094,7 @@
     "place": "11 km WSW of Dyersburg, Tennessee",
     "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 49,
+    "felt_reports": 50,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1116,12 +1116,6 @@
         "responses": 2
       },
       {
-        "lat": 36.0424,
-        "lon": -89.4809,
-        "intensity": 3.8,
-        "responses": 1
-      },
-      {
         "lat": 36.05118,
         "lon": -89.492275,
         "intensity": 3.8,
@@ -1130,6 +1124,18 @@
       {
         "lat": 35.944,
         "lon": -89.4445675,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 35.942162499999995,
+        "lon": -89.5331825,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 36.0424,
+        "lon": -89.4809,
         "intensity": 3.8,
         "responses": 1
       },
@@ -1146,38 +1152,20 @@
         "responses": 2
       },
       {
-        "lat": 36.2347125,
-        "lon": -89.7539625,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
         "lat": 36.0340775,
         "lon": -89.447345,
         "intensity": 3.4,
         "responses": 1
       },
       {
+        "lat": 36.2347125,
+        "lon": -89.7539625,
+        "intensity": 3.4,
+        "responses": 1
+      },
+      {
         "lat": 36.07011,
         "lon": -89.448465,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 36.04217,
-        "lon": -89.49199,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 36.0869775,
-        "lon": -89.5045075,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 36.044205,
-        "lon": -89.39217,
         "intensity": 3.1,
         "responses": 1
       },
@@ -1194,6 +1182,24 @@
         "responses": 1
       },
       {
+        "lat": 36.044205,
+        "lon": -89.39217,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 36.0869775,
+        "lon": -89.5045075,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 36.04217,
+        "lon": -89.49199,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
         "lat": 36.035195,
         "lon": -89.39189999999999,
         "intensity": 2.9,
@@ -1206,10 +1212,16 @@
         "responses": 1
       },
       {
-        "lat": 36.0529925,
-        "lon": -89.403535,
+        "lat": 36.03385,
+        "lon": -89.458435,
         "intensity": 2.7,
         "responses": 2
+      },
+      {
+        "lat": 36.11969,
+        "lon": -89.2167075,
+        "intensity": 2.7,
+        "responses": 1
       },
       {
         "lat": 36.0334725,
@@ -1224,21 +1236,9 @@
         "responses": 1
       },
       {
-        "lat": 36.11969,
-        "lon": -89.2167075,
+        "lat": 36.0529925,
+        "lon": -89.403535,
         "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 36.03385,
-        "lon": -89.458435,
-        "intensity": 2.7,
-        "responses": 2
-      },
-      {
-        "lat": 36.05232,
-        "lon": -89.436815,
-        "intensity": 2.2,
         "responses": 2
       },
       {
@@ -1248,10 +1248,10 @@
         "responses": 1
       },
       {
-        "lat": 36.096445,
-        "lon": -89.4826,
+        "lat": 36.05232,
+        "lon": -89.436815,
         "intensity": 2.2,
-        "responses": 1
+        "responses": 2
       },
       {
         "lat": 35.9165225,
@@ -1263,6 +1263,18 @@
         "lat": 38.3249,
         "lon": -88.859005,
         "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 36.096445,
+        "lon": -89.4826,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 36.137662500000005,
+        "lon": -89.66167999999999,
+        "intensity": 2,
         "responses": 1
       },
       {
@@ -1284,9 +1296,15 @@
         "responses": 2
       },
       {
-        "lat": 36.137662500000005,
-        "lon": -89.66167999999999,
-        "intensity": 2,
+        "lat": 35.1797575,
+        "lon": -89.77278,
+        "intensity": 1,
+        "responses": 1
+      },
+      {
+        "lat": 36.0422075,
+        "lon": -90.10849,
+        "intensity": 1,
         "responses": 1
       },
       {
@@ -1300,18 +1318,6 @@
         "lon": -89.93601749999999,
         "intensity": 1,
         "responses": 1
-      },
-      {
-        "lat": 35.1797575,
-        "lon": -89.77278,
-        "intensity": 1,
-        "responses": 1
-      },
-      {
-        "lat": 36.0422075,
-        "lon": -90.10849,
-        "intensity": 1,
-        "responses": 1
       }
     ],
     "intensity_source": "usgs_dyfi",
@@ -1321,7 +1327,7 @@
     "gfz_url": null,
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60629086",
-    "relevant": false,
+    "relevant": true,
     "keywords_matched": []
   },
   {
