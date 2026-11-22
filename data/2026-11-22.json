@@ -208,10 +208,36 @@
     "keywords_matched": []
   },
   {
+    "id": "us6000ucqt",
+    "source": "usgs",
+    "time": "2026-11-22T05:41:09.161000+00:00",
+    "updated": "2026-11-22T06:37:25.040000+00:00",
+    "lat": 32.5266,
+    "lon": -104.6332,
+    "depth_km": 8.687,
+    "magnitude": 2.8,
+    "mag_type": "ml",
+    "place": "32 km SSE of Hope, New Mexico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucqt",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "us6000ucqu",
     "source": "usgs",
     "time": "2026-11-22T05:51:58.624000+00:00",
-    "updated": "2026-11-22T06:30:07.449000+00:00",
+    "updated": "2026-11-22T06:36:42.802000+00:00",
     "lat": -10.7957,
     "lon": -75.9635,
     "depth_km": 108.134,
@@ -220,7 +246,7 @@
     "place": "15 km NNE of Carhuamayo, Peru",
     "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 3,
+    "felt_reports": 4,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -230,14 +256,20 @@
         "responses": 1
       },
       {
-        "lat": -12.0912625,
-        "lon": -77.071765,
+        "lat": -10.5794,
+        "lon": -75.379345,
         "intensity": 3.1,
         "responses": 1
       },
       {
-        "lat": -10.5794,
-        "lon": -75.379345,
+        "lat": -10.570335,
+        "lon": -75.3976175,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": -12.0912625,
+        "lon": -77.071765,
         "intensity": 3.1,
         "responses": 1
       }
