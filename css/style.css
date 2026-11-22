@@ -70,7 +70,7 @@ body {
    ancho de los elementos de los costados. */
 .app-header h1 {
   margin: 0;
-  font-size: 1.525rem; /* 24,4 px (antes 22,4: +2 px, a pedido) */
+  font-size: 1.65rem; /* 26,4 px (antes 24,4: +2 px, a pedido) */
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
