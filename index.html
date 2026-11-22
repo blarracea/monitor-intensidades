@@ -4,15 +4,37 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Monitor Intensidades</title>
+<meta name="description" content="Sismos en Chile y Sudamérica en tiempo real: mapa de calor con intensidad Mercalli (CSN, SENAPRED, USGS, GFZ), redes en vivo, menciones en medios y reportes ciudadanos de '¿Lo sentiste?'." />
+<link rel="canonical" href="https://reportasismo.cl/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Monitor Intensidades" />
+<meta property="og:title" content="Monitor Intensidades — ReportaSismo" />
+<meta property="og:description" content="Sismos en Chile y Sudamérica en tiempo real: mapa de calor con intensidad Mercalli, redes en vivo, menciones en medios y reportes ciudadanos." />
+<meta property="og:url" content="https://reportasismo.cl/" />
+<meta property="og:image" content="https://reportasismo.cl/img/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:locale" content="es_CL" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Monitor Intensidades — ReportaSismo" />
+<meta name="twitter:description" content="Sismos en Chile y Sudamérica en tiempo real: mapa de calor con intensidad Mercalli, redes en vivo, menciones en medios y reportes ciudadanos." />
+<meta name="twitter:image" content="https://reportasismo.cl/img/og-image.png" />
+<meta name="theme-color" content="#0a2e4d" />
+<link rel="manifest" href="manifest.json" />
 <link rel="icon" type="image/svg+xml" href="img/logo-icon.svg?v=1" />
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-<link rel="stylesheet" href="css/style.css?v=p48" />
+<link rel="stylesheet" href="css/style.css?v=p49" />
 </head>
 <body>
   <header class="app-header">
     <span class="brand-logo"><span class="brand-icon"><img src="img/logo-icon.svg" alt="" width="36" height="36" /></span><span class="brand-name">Reporta<b>Sismo</b></span></span>
     <h1>Monitor Intensidades</h1>
-    <button type="button" id="search-toggle" class="search-toggle" aria-label="Buscar sismo por fecha" title="Buscar sismo por fecha">🔍</button>
+    <button type="button" id="search-toggle" class="search-toggle" aria-label="Buscar sismo por fecha" title="Buscar sismo por fecha">
+      <svg class="search-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+        <path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M10.5 3a7.5 7.5 0 1 0 0 15 7.5 7.5 0 0 0 0-15Zm10.5 18-5.5-5.5" />
+      </svg>
+    </button>
   </header>
 
   <!-- Antes era el panel fijo "Sismos por dia" en la columna de la
@@ -39,6 +61,7 @@
   <main class="app-main">
     <div class="map-wrap">
       <h2 class="map-title">Mapa de Calor</h2>
+      <p id="last-updated" class="last-updated" aria-live="polite"></p>
 
       <div class="map-canvas">
         <div id="map"></div>
@@ -126,13 +149,26 @@
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
   <script src="js/config.js?v=p3"></script>
-  <script src="js/data-loader.js?v=69"></script>
+  <script src="js/data-loader.js?v=70"></script>
   <script src="js/map.js?v=p59"></script>
   <script src="js/heatmap.js?v=p57"></script>
   <script src="js/social-layer.js?v=70"></script>
   <script src="js/live-feed.js?v=70"></script>
   <script src="js/comunas-coords.js?v=p2"></script>
   <script src="js/reports.js?v=p7"></script>
-  <script src="js/app.js?v=p21"></script>
+  <script src="js/app.js?v=p22"></script>
+
+  <!--
+    Cloudflare Web Analytics (opcional, desactivado): no usa cookies, no
+    junta huella digital entre sitios, y es gratis -- encaja con lo que ya
+    dice privacidad.html. Para activarlo:
+      1. dash.cloudflare.com -> Analytics & Logs -> Web Analytics -> Add a site
+      2. Pega "reportasismo.cl", copia el token que te da (el valor de
+         data-cf-beacon, algo como {"token": "xxxxxxxx"})
+      3. Descomenta la linea de abajo y reemplaza TU-TOKEN-AQUI por ese valor
+    No requiere nada del lado del Worker ni de GitHub Actions -- es un
+    script que corre solo en el navegador de quien visita la pagina.
+  -->
+  <!-- <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "TU-TOKEN-AQUI"}'></script> -->
 </body>
 </html>
