@@ -543,5 +543,31 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucrb",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/393988.html",
+    "source": "csn",
+    "time": "2026-11-22T08:51:54+00:00",
+    "updated": "2026-11-22T08:51:54+00:00",
+    "lat": -32.14,
+    "lon": -71.4,
+    "depth_km": 52.0,
+    "magnitude": 2.7,
+    "mag_type": "MLv",
+    "place": "12 km al E de Pichidangui, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393988.html",
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/393988.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
