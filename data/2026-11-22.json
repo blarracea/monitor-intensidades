@@ -289,7 +289,7 @@
     "id": "us6000ucqu",
     "source": "usgs",
     "time": "2026-11-22T05:51:58.624000+00:00",
-    "updated": "2026-11-22T15:33:42.187000+00:00",
+    "updated": "2026-11-22T15:50:27.298000+00:00",
     "lat": -10.7957,
     "lon": -75.9635,
     "depth_km": 108.134,
@@ -298,7 +298,7 @@
     "place": "15 km NNE of Carhuamayo, Peru",
     "cdi": 3.8,
     "mmi": null,
-    "felt_reports": 7,
+    "felt_reports": 9,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -308,10 +308,10 @@
         "responses": 1
       },
       {
-        "lat": -10.570335,
-        "lon": -75.3976175,
-        "intensity": 3.1,
-        "responses": 1
+        "lat": -9.9261175,
+        "lon": -76.24511000000001,
+        "intensity": 3.8,
+        "responses": 2
       },
       {
         "lat": -12.0912625,
@@ -322,6 +322,12 @@
       {
         "lat": -10.5794,
         "lon": -75.379345,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": -10.570335,
+        "lon": -75.3976175,
         "intensity": 3.1,
         "responses": 1
       },
@@ -1073,7 +1079,7 @@
     "id": "nm60629086",
     "source": "usgs",
     "time": "2026-11-22T15:04:19.510000+00:00",
-    "updated": "2026-11-22T15:44:52.187000+00:00",
+    "updated": "2026-11-22T15:48:42.759000+00:00",
     "lat": 36.0126666666667,
     "lon": -89.507,
     "depth_km": 6.43,
@@ -1082,7 +1088,7 @@
     "place": "11 km WSW of Dyersburg, Tennessee",
     "cdi": 3.6,
     "mmi": null,
-    "felt_reports": 21,
+    "felt_reports": 25,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -1098,16 +1104,16 @@
         "responses": 4
       },
       {
-        "lat": 36.03316,
-        "lon": -89.491705,
-        "intensity": 3.9,
-        "responses": 2
-      },
-      {
         "lat": 36.0608725,
         "lon": -89.45928,
         "intensity": 3.9,
         "responses": 1
+      },
+      {
+        "lat": 36.03316,
+        "lon": -89.491705,
+        "intensity": 3.9,
+        "responses": 2
       },
       {
         "lat": 36.0424,
@@ -1118,12 +1124,18 @@
       {
         "lat": 36.03293,
         "lon": -89.502795,
-        "intensity": 3.4,
+        "intensity": 3.6,
+        "responses": 2
+      },
+      {
+        "lat": 36.07011,
+        "lon": -89.448465,
+        "intensity": 3.1,
         "responses": 1
       },
       {
-        "lat": 36.0869775,
-        "lon": -89.5045075,
+        "lat": 35.881835,
+        "lon": -89.39835,
         "intensity": 3.1,
         "responses": 1
       },
@@ -1140,8 +1152,8 @@
         "responses": 1
       },
       {
-        "lat": 36.07011,
-        "lon": -89.448465,
+        "lat": 36.0869775,
+        "lon": -89.5045075,
         "intensity": 3.1,
         "responses": 1
       },
@@ -1149,12 +1161,12 @@
         "lat": 36.035415,
         "lon": -89.38081,
         "intensity": 3.1,
-        "responses": 1
+        "responses": 2
       },
       {
-        "lat": 35.881835,
-        "lon": -89.39835,
-        "intensity": 3.1,
+        "lat": 36.035195,
+        "lon": -89.39189999999999,
+        "intensity": 2.9,
         "responses": 1
       },
       {
@@ -1164,8 +1176,8 @@
         "responses": 1
       },
       {
-        "lat": 36.137662500000005,
-        "lon": -89.66167999999999,
+        "lat": 36.05232,
+        "lon": -89.436815,
         "intensity": 2,
         "responses": 1
       },
@@ -1174,6 +1186,12 @@
         "lon": -89.4259975,
         "intensity": 2,
         "responses": 2
+      },
+      {
+        "lat": 36.137662500000005,
+        "lon": -89.66167999999999,
+        "intensity": 2,
+        "responses": 1
       },
       {
         "lat": 36.0422075,
