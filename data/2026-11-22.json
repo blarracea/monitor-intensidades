@@ -2018,7 +2018,7 @@
     "id": "us6000ucuf",
     "source": "usgs",
     "time": "2026-11-22T21:35:31.763000+00:00",
-    "updated": "2026-11-22T23:04:09.874000+00:00",
+    "updated": "2026-11-22T23:10:42.563000+00:00",
     "lat": -10.8345,
     "lon": -76.0169,
     "depth_km": 117.396,
@@ -2027,7 +2027,7 @@
     "place": "9 km N of Carhuamayo, Peru",
     "cdi": 4.3,
     "mmi": 4.213,
-    "felt_reports": 14,
+    "felt_reports": 15,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -2049,16 +2049,16 @@
         "responses": 2
       },
       {
-        "lat": -12.1277525,
-        "lon": -77.02611999999999,
-        "intensity": 3.4,
-        "responses": 2
-      },
-      {
         "lat": -12.118645,
         "lon": -77.035235,
         "intensity": 3.3,
         "responses": 2
+      },
+      {
+        "lat": -12.1277525,
+        "lon": -77.02611999999999,
+        "intensity": 3.2,
+        "responses": 3
       },
       {
         "lat": -12.14596,
@@ -2138,6 +2138,32 @@
     "gfz_url": null,
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucuk",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/394088.html",
+    "source": "csn",
+    "time": "2026-11-22T23:03:21+00:00",
+    "updated": "2026-11-22T23:03:21+00:00",
+    "lat": -26.17,
+    "lon": -69.05,
+    "depth_km": 102.0,
+    "magnitude": 3.1,
+    "mag_type": "MLv",
+    "place": "58 km al E de El Salvador, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394088.html",
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394088.html",
     "relevant": false,
     "keywords_matched": []
   }
