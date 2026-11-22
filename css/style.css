@@ -290,28 +290,41 @@ body {
 
 .map-title {
   margin: 0;
-  padding: 0.5rem 1rem 0.2rem;
+  padding: 0.5rem 1rem;
   font-size: 1rem;
   text-align: center;
   color: var(--color-header-bg);
   background: var(--color-panel);
+  border-bottom: 2px solid var(--color-accent);
   flex-shrink: 0;
 }
 
 /* Hora de la ultima recoleccion (ver SismosApp.loadLastUpdated en
-   data-loader.js) -- comparte fondo con .map-title (misma franja visual,
-   el borde que las separaba del mapa ahora queda al final de esta) y
-   queda vacio (sin texto, altura minima) hasta que carga el primer dato. */
+   data-loader.js) -- flota DENTRO de .map-canvas (no es hermano de
+   .map-title en el flujo) a proposito: .map-canvas es lo unico que mide
+   fitBounds() en map.js para calcular el zoom inicial, y agregar una fila
+   mas arriba de altura variable (vacia hasta que carga el primer dato,
+   despues con texto) corria ese calculo cada vez -- el mapa no quedaba
+   encuadrado donde el usuario lo dejo. Mismo problema que resuelve
+   position:absolute en .map-legend-overlay, aca abajo. */
 .last-updated {
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 500;
   margin: 0;
-  padding: 0 1rem 0.5rem;
-  font-size: 0.75rem;
+  padding: 0.15rem 0.6rem;
+  font-size: 0.7rem;
   text-align: center;
   color: var(--color-text-muted);
   background: var(--color-panel);
-  border-bottom: 2px solid var(--color-accent);
-  flex-shrink: 0;
-  min-height: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(10, 46, 77, 0.25);
+}
+
+.last-updated:empty {
+  display: none;
 }
 
 /* El "position:relative" que antes tenia .map-wrap se mueve aca: el mapa
