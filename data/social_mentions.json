@@ -700,6 +700,19 @@
     "lon": null
   },
   {
+    "title": "Terremoto leve mag. 3.9 - Océano Pacífico Sur, 63 km al oeste de Vallenar, Huasco, Atacama, Chile, Saturday 21 Nov 2026 a las 05:40 (Hora Santiago) - Volcano Discovery",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUWJlcFB6SXpTLXRjZXFUZXpmRG1FbkV3amxudmcyMGtNMXY1SDVnQnBIb3Y5Z0stOTFCb3RDQmljNmc1SlJuRnFwU3lkblRXOXJxQXVtY1hJWDBsdEJGNUpPeC1CMjRkQ2w1VnpIenh1VlBEWl9NY0ZzWHVzM2MwWGhYM1pxakh6Wm9ld19kUUFMV2NHTl92d0ZnRXhMS0RqSHB4VE9SclotcElFNjkxd3ZjazR5QQ?oc=5",
+    "source": "Volcano Discovery",
+    "published": "2026-11-21T09:51:46+00:00",
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "chile": true,
+    "place": "vallenar",
+    "lat": -28.5708,
+    "lon": -70.7581
+  },
+  {
     "title": "Sismo débil mag. 2.9 - 71 km al suroeste de Vallenar, Huasco, Atacama, Chile, Saturday 21 Nov 2026 a las 18:09 (GMT -3) - Volcano Discovery",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWE5LUTBPaEU2RXBUYWVSTFNPOUtpaHVWR1d3cXNPeG9UZEItMUt0eFhKRmNnQm95SXJqdGRBM0d1Z0Y5T3RKU2lFbjN2MXp5ZzNEM3ptSjJTUDBxR1JMVGJjcXZnTndTakhkZzlVTll6N25ZMkFYaW51eTh2QWQ1dFhpbUFER2Vack5HVHgxcFhJR1VjNHYtQnZnY2g0bGpHd3BsZDBtUWFTUQ?oc=5",
     "source": "Volcano Discovery",
@@ -739,19 +752,6 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "title": "Terremoto moderado mag. 4.0 - Offshore Atacama, Chile, Saturday 21 Nov 2026 a las 05:40 (Hora Santiago) - Volcano Discovery",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUWJlcFB6SXpTLXRjZXFUZXpmRG1FbkV3amxudmcyMGtNMXY1SDVnQnBIb3Y5Z0stOTFCb3RDQmljNmc1SlJuRnFwU3lkblRXOXJxQXVtY1hJWDBsdEJGNUpPeC1CMjRkQ2w1VnpIenh1VlBEWl9NY0ZzWHVzM2MwWGhYM1pxakh6Wm9ld19kUUFMV2NHTl92d0ZnRXhMS0RqSHB4VE9SclotcElFNjkxd3ZjazR5QQ?oc=5",
-    "source": "Volcano Discovery",
-    "published": "2026-11-21T08:39:46+00:00",
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "chile": true,
-    "place": "santiago",
-    "lat": -33.4489,
-    "lon": -70.6693
   },
   {
     "title": "Sismo débil mag. 2.7 - 64 km al este de Calama, El Loa, Antofagasta, Chile, Saturday 21 Nov 2026 a las 03:56 (GMT -3) - Volcano Discovery",
@@ -3085,20 +3085,6 @@
     "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxPU0d1VzZTX3lPYXZIaDF0WG83eFBzOG1VeV94QVVNUUhwZ0pVLThnMXZic1ZUcGR6czZNaEVtNnNDY3RGbXR6SmdwN3ZNMTZyTWV6anR0TFIxbzJnUHhYM05IQWJWa1RPY3lvZzBXYlVZZGwxRVlaeDIxdk16eDg3U0xPZHIxcDRNS1d5MWh2SUdjQ3VRN0UyY3NJaGhyOHpfalZRQTlxRDg3djNNQUtLX0RGT1FyZXdsVXZtQlEtS1V2d0JWUTcxVktaMlhfNFpabV9EM19rTjI1UDJrY3lpZjJEX2xBd1F6ZmRJWnNzN3VVdGo2RVFUYTBid2E5c0RHTkt2WUt6cUQzVHRwVHZNMnNtcXZoeGFXaXhXMmg4QndEQVo4MDY2ZTJaWWh3enBJRlpLN2k3TdIBywJBVV95cUxQVGVfNF9XT3lGVDdaMmpJcldwdVAxRDl6ZTREejNDLWFTcUh2c3hSNTV6dXF3OUVJMk8tVmMydV8wbVdOUGRXS25FYWhNcExxcnB1RGJiUHRrMTZfUXBrT1RoQmFCeDlJdjBUZ3NxQjM1SVhTbmFPcVA1R3ladHhaV1Jmc1BTM29ZakltdnF5RzA0NWF6N0FMWDUtS2E1NWhzanhDdXU5a1hldmhZakxlUGlZSDFHMjIyRkJ2OGtGZHBuN0g3bUZlbkVLemNxY2hPREVtdDV5bHE0OG9MNDVaQkxPeURVeWZ6cGdkRFo3TzE2STE5bVc4eDV1VkU0OGZPNmNmT1AyQ3YzcnM3Ym1iMHRjMEdrT1UxXzByeFVaR2ZoZnhUcmQ2RjhUWVBTOU9pSFdpczlGV3ZxYWozMHBod0huOE4yemlDYklV?oc=5",
     "source": "El Comercio Perú",
     "published": "2026-11-19T02:44:07+00:00",
-    "keywords_matched": [
-      "temblor",
-      "temblo"
-    ],
-    "chile": true,
-    "place": null,
-    "lat": null,
-    "lon": null
-  },
-  {
-    "title": "Temblor se registra en el norte del país: revisa la magnitud y el epicentro - Radio Agricultura",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTm5GYzZhQVRJTzhLNEo5dDd3N096N29wMlRhWDJ2TWlBWWZhbUlzYU1mQmNfTG9qUmVJSWFQRWdwRjRBcFF2TWZGclc2ZTdRUkVwSEFHalFiR0V5ZXplX283ZldGSUlsS2lpcnRGcUpDWmlFN0pjVzliNDR3UUlsTHBpRER5U05EWkNWU3U3YU4zMkNpMGJydjdjaGdQa3MzNnhrR3VmZ1ByZkRkQ3dzTHVXR0JGNU9hN2ZxSW1Cd042amlmSXhsM2tsNlhJZFhrYmc?oc=5",
-    "source": "Radio Agricultura",
-    "published": "2026-11-19T01:19:57+00:00",
     "keywords_matched": [
       "temblor",
       "temblo"
