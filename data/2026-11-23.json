@@ -278,5 +278,31 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75470917",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "pt26327000",
+    "source": "usgs",
+    "time": "2026-11-23T02:40:57+00:00",
+    "updated": "2026-11-23T02:49:59.578000+00:00",
+    "lat": -13.546,
+    "lon": 172.279,
+    "depth_km": 614.4,
+    "magnitude": 6.5,
+    "mag_type": "Mi",
+    "place": "Vanuatu region",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": true,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wxvi",
+    "ptwc_url": "https://www.tsunami.gov/events/PAAQ/2026/11/23/toxos9/1/WEAK53/WEAK53.txt",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pt26327000",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
