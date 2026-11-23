@@ -281,11 +281,25 @@ body {
      menciones-en-medios sean columnas de alto completo (ver .side-content
      arriba) -- ver tambien js/map.js, el centro se corrio un poco mas al
      este para compensar mostrando todavia menos oceano con este ancho. */
-  flex: 0 0 500px; /* a pedido (antes 380); la columna de la derecha (detalle/resumen/contacto) cede ese ancho */
+  flex: 0 0 500px; /* originalmente 380; ver @media (min-width: 1500px) mas abajo para pantallas anchas */
   min-width: 320px;
   height: 100%;
   display: flex;
   flex-direction: column;
+}
+
+/* A pedido, el mapa crece a 600px (antes 500 en toda resolucion de
+   escritorio) pero SOLO en pantallas con espacio de sobra: con
+   redes-en-vivo/menciones-en-medios fijas en 300px cada una, 600+600=1200px
+   le dejan a la columna derecha (detalle/resumen/contacto, min-width 220px)
+   apenas ~220px en una laptop de 1366px -- se probo y el texto se corta
+   (el mail y el telefono de Contacto se parten mal). Arriba de 1500px de
+   ancho de ventana esa columna ya tiene >=300px de sobra, asi que ahi si
+   se ve comodo. */
+@media (min-width: 1500px) {
+  .map-wrap {
+    flex: 0 0 600px;
+  }
 }
 
 .map-title {
