@@ -4222,19 +4222,38 @@
     "id": "ci41365335",
     "source": "usgs",
     "time": "2026-11-23T11:57:49.080000+00:00",
-    "updated": "2026-11-23T12:00:04.959000+00:00",
+    "updated": "2026-11-23T12:03:41.945000+00:00",
     "lat": 33.53333,
     "lon": -118.032,
     "depth_km": 11.75,
     "magnitude": 3.24,
     "mag_type": "ml",
     "place": "13 km SW of Newport Beach, CA",
-    "cdi": null,
-    "mmi": null,
-    "felt_reports": 0,
+    "cdi": 2.2,
+    "mmi": 2.727,
+    "felt_reports": 3,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 33.71071,
+        "lon": -117.96587500000001,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.61215,
+        "lon": -117.878545,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 33.656345,
+        "lon": -117.9976225,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "usgs_url": null,
