@@ -1,27 +1,27 @@
 [
   {
-    "url": "https://www.tsunami.gov/events/PHEB/2026/11/23/26327000/1/WEGM42/WEGM42.txt",
-    "event_key": "PHEB/2026/11/23/26327000",
-    "number": 1,
-    "lat": -13.546,
-    "lon": 172.279,
-    "magnitude": 6.5,
-    "issue_time": "2026-11-23T02:49:16Z",
-    "region": "VANUATU REGION",
-    "category": "Information",
-    "origin_time": null
-  },
-  {
     "url": "https://www.tsunami.gov/events/PAAQ/2026/11/23/toxos9/1/WEAK53/WEAK53.txt",
     "event_key": "PAAQ/2026/11/23/toxos9",
     "number": 1,
     "lat": -13.5,
     "lon": 172.3,
     "magnitude": 6.5,
-    "issue_time": "2026-11-23T02:49:25Z",
+    "issue_time": "2026-11-23T02:49:25+00:00",
     "region": "in the Vanuatu Islands region",
-    "category": "Information",
+    "category": "AK/BC/US West Coast Informational #1",
     "origin_time": "2026-11-23T02:41:00+00:00"
+  },
+  {
+    "url": "https://www.tsunami.gov/events/PHEB/2026/11/23/26327000/1/WEZS42/WEZS42.txt",
+    "event_key": "PHEB/2026/11/23/26327000",
+    "number": 1,
+    "lat": -13.5,
+    "lon": 172.3,
+    "magnitude": 6.5,
+    "issue_time": "2026-11-23T02:48:55+00:00",
+    "region": "VANUATU REGION",
+    "category": "American Samoa Informational #1",
+    "origin_time": "2026-11-23T02:40:57+00:00"
   },
   {
     "url": "https://www.tsunami.gov/events/PHEB/2026/11/21/26325053/1/WECA42/WECA42.txt",
