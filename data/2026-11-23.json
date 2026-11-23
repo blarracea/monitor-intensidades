@@ -140,7 +140,7 @@
     "id": "ok2026wxsb",
     "source": "usgs",
     "time": "2026-11-23T01:02:04.085000+00:00",
-    "updated": "2026-11-23T01:09:15.974000+00:00",
+    "updated": "2026-11-23T01:15:27.067000+00:00",
     "lat": 35.61839676,
     "lon": -98.00106049,
     "depth_km": 2.108497858,
@@ -149,9 +149,15 @@
     "place": "10 km NNW of El Reno, Oklahoma",
     "cdi": 2.2,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 35.605055,
+        "lon": -98.12228,
+        "intensity": 2.2,
+        "responses": 1
+      },
       {
         "lat": 35.60411,
         "lon": -98.0008475,
