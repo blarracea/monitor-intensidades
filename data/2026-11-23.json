@@ -3560,7 +3560,7 @@
     "id": "nm60629111",
     "source": "usgs",
     "time": "2026-11-23T06:47:16.960000+00:00",
-    "updated": "2026-11-23T22:03:11.392000+00:00",
+    "updated": "2026-11-23T22:40:20.778000+00:00",
     "lat": 33.271,
     "lon": -90.606,
     "depth_km": 0.04,
@@ -3569,7 +3569,7 @@
     "place": "1 km NW of Isola, Mississippi",
     "cdi": 4.7,
     "mmi": 3.69,
-    "felt_reports": 40,
+    "felt_reports": 41,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -3597,14 +3597,20 @@
         "responses": 4
       },
       {
-        "lat": 33.25818,
-        "lon": -90.5900025,
+        "lat": 33.4488725,
+        "lon": -90.6600325,
         "intensity": 3.8,
-        "responses": 1
+        "responses": 2
       },
       {
         "lat": 33.166155,
         "lon": -90.4960375,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
+        "lat": 33.25818,
+        "lon": -90.5900025,
         "intensity": 3.8,
         "responses": 1
       },
@@ -3615,15 +3621,15 @@
         "responses": 1
       },
       {
-        "lat": 33.4488725,
-        "lon": -90.6600325,
-        "intensity": 3.8,
-        "responses": 2
-      },
-      {
         "lat": 33.391655,
         "lon": -90.5003325,
         "intensity": 3.6,
+        "responses": 1
+      },
+      {
+        "lat": 33.192975000000004,
+        "lon": -90.48455,
+        "intensity": 3.4,
         "responses": 1
       },
       {
@@ -3639,26 +3645,14 @@
         "responses": 1
       },
       {
-        "lat": 33.192975000000004,
-        "lon": -90.48455,
-        "intensity": 3.4,
-        "responses": 1
-      },
-      {
         "lat": 33.1839625,
         "lon": -90.4848075,
         "intensity": 3.3,
         "responses": 2
       },
       {
-        "lat": 33.10224,
-        "lon": -90.04793749999999,
-        "intensity": 3.1,
-        "responses": 1
-      },
-      {
-        "lat": 32.721064999999996,
-        "lon": -89.6621025,
+        "lat": 33.2724725,
+        "lon": -90.879445,
         "intensity": 3.1,
         "responses": 1
       },
@@ -3669,32 +3663,32 @@
         "responses": 1
       },
       {
+        "lat": 32.721064999999996,
+        "lon": -89.6621025,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 33.10224,
+        "lon": -90.04793749999999,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
         "lat": 33.4459375,
         "lon": -90.509535,
         "intensity": 2.8,
         "responses": 2
       },
       {
-        "lat": 33.2051325,
-        "lon": -90.64509,
+        "lat": 33.205935,
+        "lon": -90.68797,
         "intensity": 2.7,
         "responses": 1
       },
       {
         "lat": 34.66054,
         "lon": -88.55515,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 32.56122,
-        "lon": -89.9554825,
-        "intensity": 2.7,
-        "responses": 1
-      },
-      {
-        "lat": 33.205935,
-        "lon": -90.68797,
         "intensity": 2.7,
         "responses": 1
       },
@@ -3711,14 +3705,26 @@
         "responses": 1
       },
       {
-        "lat": 32.21393,
-        "lon": -90.23610500000001,
-        "intensity": 2.2,
+        "lat": 32.56122,
+        "lon": -89.9554825,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 33.2051325,
+        "lon": -90.64509,
+        "intensity": 2.7,
         "responses": 1
       },
       {
         "lat": 33.0940625,
         "lon": -90.4980825,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 32.21393,
+        "lon": -90.23610500000001,
         "intensity": 2.2,
         "responses": 1
       },
