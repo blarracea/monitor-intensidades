@@ -116,11 +116,6 @@
   // dos veces y esa comuna se veria mas intensa de lo real mientras dure
   // seleccionada.
   let recentEventKeys = new Set();
-  // Todos los eventos de la ventana de 7 dias (sin filtrar por reporte
-  // SENAPRED) de la ultima vez que corrio refreshEvents -- se usa solo
-  // para resolver el deep link "#evento=<id>" de la URL al cargar la
-  // pagina (ver applyEventFromHash, mas abajo).
-  let lastAllEvents = [];
 
   const highlightEvent = (event) => {
     if (selectionMarker) {
@@ -406,20 +401,8 @@
     return `${_escapeHtmlDetail(String(Math.round(depth * 10) / 10).replace(".", ","))} km`;
   };
 
-  // Deep link: #evento=<id> en la URL abre directo el detalle de ESE
-  // sismo (ver applyEventFromHash, al final del archivo) -- compartir el
-  // link de la pagina mientras hay un sismo elegido manda a quien lo abre
-  // al mismo detalle, no al mapa general. replaceState (no pushState) para
-  // no llenar el historial de "atras" con cada sismo que se mira.
-  const setEventHash = (event) => {
-    if (!event || !event.id) return;
-    const hash = `#evento=${encodeURIComponent(event.id)}`;
-    if (location.hash !== hash) history.replaceState(null, "", hash);
-  };
-
   const showEventDetail = (event) => {
     highlightEvent(event);
-    setEventHash(event);
     // El panel scrollea por dentro cuando no entra (ver .stack-column .event-detail): al
     // elegir otro sismo vuelve arriba en vez de quedar a la mitad del anterior.
     const detailPanel = document.getElementById("event-detail");
@@ -587,7 +570,6 @@
     try {
       allEvents = await SismosApp.loadRecentEvents(7);
       events = allEvents.filter(hasSenapredReport);
-      lastAllEvents = allEvents;
       statusEl.textContent = `${events.length} sismos con reporte de SENAPRED (ultimos 7 dias).`;
     } catch (err) {
       statusEl.textContent = err.message;
@@ -866,24 +848,7 @@
     }
   };
 
-  // Si la URL ya trae "#evento=<id>" (alguien abrio un link compartido),
-  // busca ese sismo en lo que acaba de cargar refreshEvents (ultimos 7
-  // dias, sin filtrar por reporte SENAPRED) y lo abre directo. Solo se
-  // intenta una vez, al cargar la pagina -- no vuelve a disparar en cada
-  // refresco de los 60s (pisaria la navegacion de quien ya esta mirando
-  // otra cosa), y no avisa nada si no lo encuentra (sismo fuera de la
-  // ventana de 7 dias, o un id viejo/invalido): el mapa general igual
-  // carga bien, el link compartido simplemente no logra enfocar nada.
-  const applyEventFromHash = () => {
-    const match = /^#evento=(.+)$/.exec(location.hash);
-    if (!match) return;
-    const id = decodeURIComponent(match[1]);
-    const event = lastAllEvents.find((e) => e.id === id);
-    if (event) focusEvent(event);
-  };
-
   await Promise.all([refreshEvents(), refreshSocialFeed(), refreshLiveFeed(), refreshDayTable(), refreshLastUpdated()]);
-  applyEventFromHash();
 
   setInterval(() => {
     refreshEvents();
