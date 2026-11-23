@@ -19,7 +19,7 @@
     "senapred_url": null,
     "csn_informe_url": null,
     "usgs_url": null,
-    "gfz_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wxqg",
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucv4",
     "relevant": false,
@@ -429,7 +429,7 @@
     "senapred_url": null,
     "csn_informe_url": null,
     "usgs_url": null,
-    "gfz_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026wxwf",
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucw1",
     "relevant": false,
@@ -3342,7 +3342,7 @@
     "id": "nm60629111",
     "source": "usgs",
     "time": "2026-11-23T06:47:16.940000+00:00",
-    "updated": "2026-11-23T07:08:41.640000+00:00",
+    "updated": "2026-11-23T07:10:54.959000+00:00",
     "lat": 33.263,
     "lon": -90.6073333333333,
     "depth_km": 0.18,
@@ -3351,13 +3351,25 @@
     "place": "1 km W of Isola, Mississippi",
     "cdi": 4.3,
     "mmi": 3.595,
-    "felt_reports": 3,
+    "felt_reports": 5,
     "tsunami_flag": false,
     "dyfi_points": [
+      {
+        "lat": 33.183745,
+        "lon": -90.47409,
+        "intensity": 4.3,
+        "responses": 1
+      },
       {
         "lat": 33.3483,
         "lon": -90.5875225,
         "intensity": 4.3,
+        "responses": 1
+      },
+      {
+        "lat": 33.4461525,
+        "lon": -90.52028250000001,
+        "intensity": 3.4,
         "responses": 1
       },
       {
