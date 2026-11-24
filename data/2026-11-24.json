@@ -2373,5 +2373,31 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394340.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000ud6z",
+    "source": "usgs",
+    "time": "2026-11-24T11:51:44.702000+00:00",
+    "updated": "2026-11-24T12:07:58.040000+00:00",
+    "lat": 14.442,
+    "lon": -93.2417,
+    "depth_km": 35,
+    "magnitude": 5.2,
+    "mag_type": "mb",
+    "place": "93 km WSW of Puerto Madero, Mexico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026xaja",
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ud6z",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
