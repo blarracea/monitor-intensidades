@@ -2191,5 +2191,31 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xgudxu",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/394335.html",
+    "source": "csn",
+    "time": "2026-11-24T10:57:43+00:00",
+    "updated": "2026-11-24T10:57:43+00:00",
+    "lat": -33.14,
+    "lon": -72.07,
+    "depth_km": 16.0,
+    "magnitude": 3.2,
+    "mag_type": "MLv",
+    "place": "44 km al O de Valparaíso, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394335.html",
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394335.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
