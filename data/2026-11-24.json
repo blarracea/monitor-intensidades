@@ -1789,5 +1789,31 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xgpqpn",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/394316.html",
+    "source": "csn",
+    "time": "2026-11-24T08:28:45+00:00",
+    "updated": "2026-11-24T08:28:45+00:00",
+    "lat": -22.59,
+    "lon": -68.02,
+    "depth_km": 168.0,
+    "magnitude": 3.1,
+    "mag_type": "MLv",
+    "place": "41 km al NE de San Pedro de Atacama, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394316.html",
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394316.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
