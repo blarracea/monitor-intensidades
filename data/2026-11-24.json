@@ -5464,21 +5464,39 @@
     "id": "aka2026xhqjlg",
     "source": "usgs",
     "time": "2026-11-24T21:35:49.101000+00:00",
-    "updated": "2026-11-24T21:42:18.641000+00:00",
+    "updated": "2026-11-24T21:47:12.969000+00:00",
     "lat": 59.808,
     "lon": -151.049,
     "depth_km": 8.5,
     "magnitude": 3.3,
     "mag_type": "ml",
     "place": "7 km SW of Fox River, Alaska",
-    "cdi": 2,
+    "cdi": 3.1,
     "mmi": 3.746,
-    "felt_reports": 1,
+    "felt_reports": 4,
     "tsunami_flag": false,
     "dyfi_points": [
       {
+        "lat": 59.737685,
+        "lon": -151.247775,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 59.6510025,
+        "lon": -151.50073,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 59.6514025,
         "lon": -151.5362025,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 59.781345,
+        "lon": -151.15641,
         "intensity": 2,
         "responses": 1
       }
