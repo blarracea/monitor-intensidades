@@ -2486,8 +2486,8 @@
     "lat": -28.65,
     "lon": -71.33,
     "depth_km": 48.0,
-    "magnitude": 5.0,
-    "mag_type": "MLv",
+    "magnitude": 4.8,
+    "mag_type": "Mw",
     "place": "23 km al SO de Huasco, Chile",
     "cdi": null,
     "mmi": null,
@@ -2546,11 +2546,11 @@
     "intensity_source": "csn",
     "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-atacama-2026-11-24-10-30-43",
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394349.html",
-    "usgs_url": null,
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ud7h",
     "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026xalz",
     "ptwc_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394349.html",
-    "relevant": true,
+    "relevant": false,
     "keywords_matched": []
   }
 ]
