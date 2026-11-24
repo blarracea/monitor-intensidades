@@ -2481,21 +2481,70 @@
   {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/394349.html",
     "source": "csn",
-    "time": "2026-11-24T13:22:36+00:00",
-    "updated": "2026-11-24T13:22:36+00:00",
-    "lat": -28.55,
-    "lon": -71.72,
-    "depth_km": 19.0,
-    "magnitude": 5.2,
+    "time": "2026-11-24T13:22:39+00:00",
+    "updated": "2026-11-24T13:22:39+00:00",
+    "lat": -28.65,
+    "lon": -71.33,
+    "depth_km": 48.0,
+    "magnitude": 5.0,
     "mag_type": "MLv",
-    "place": "49 km al O de Huasco, Chile",
+    "place": "23 km al SO de Huasco, Chile",
     "cdi": null,
     "mmi": null,
     "felt_reports": null,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
-    "senapred_url": null,
+    "dyfi_points": [
+      {
+        "lat": -28.5086484,
+        "lon": -71.0785719,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Freirina",
+        "region": "Atacama"
+      },
+      {
+        "lat": -28.4651248,
+        "lon": -71.2207947,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Huasco",
+        "region": "Atacama"
+      },
+      {
+        "lat": -28.5708,
+        "lon": -70.7581,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Vallenar",
+        "region": "Atacama"
+      },
+      {
+        "lat": -27.3668,
+        "lon": -70.3323,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Copiapó",
+        "region": "Atacama"
+      },
+      {
+        "lat": -27.4680505,
+        "lon": -70.2649307,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Tierra Amarilla",
+        "region": "Atacama"
+      },
+      {
+        "lat": -28.9667,
+        "lon": -70.5333,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Alto del Carmen",
+        "region": "Atacama"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-la-region-de-atacama-2026-11-24-10-30-43",
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394349.html",
     "usgs_url": null,
     "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026xalz",
