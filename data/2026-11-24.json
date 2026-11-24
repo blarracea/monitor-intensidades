@@ -1583,5 +1583,31 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394308.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000ud55",
+    "source": "usgs",
+    "time": "2026-11-24T06:24:09.408000+00:00",
+    "updated": "2026-11-24T06:30:12.040000+00:00",
+    "lat": 29.0267,
+    "lon": -97.7566,
+    "depth_km": 5,
+    "magnitude": 2.9,
+    "mag_type": "mb_lg",
+    "place": "16 km NNW of Runge, Texas",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ud55",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
