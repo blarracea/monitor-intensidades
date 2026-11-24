@@ -2848,25 +2848,44 @@
   {
     "id": "aka2026xhgksb",
     "source": "usgs",
-    "time": "2026-11-24T16:37:31.049000+00:00",
-    "updated": "2026-11-24T16:40:15.254000+00:00",
-    "lat": 61.308,
-    "lon": -150.167,
-    "depth_km": 27.8,
-    "magnitude": 4.3,
+    "time": "2026-11-24T16:37:31.142000+00:00",
+    "updated": "2026-11-24T16:43:07.664000+00:00",
+    "lat": 61.29,
+    "lon": -150.132,
+    "depth_km": 28.2,
+    "magnitude": 4.2,
     "mag_type": "ml",
-    "place": "11 km WSW of Point MacKenzie, Alaska",
-    "cdi": null,
-    "mmi": null,
-    "felt_reports": 0,
+    "place": "11 km SW of Point MacKenzie, Alaska",
+    "cdi": 3.3,
+    "mmi": 3.939,
+    "felt_reports": 5,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 61.1226975,
+        "lon": -149.719695,
+        "intensity": 3.3,
+        "responses": 2
+      },
+      {
+        "lat": 61.182,
+        "lon": -149.89227499999998,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 61.10513,
+        "lon": -149.6996225,
+        "intensity": 2.2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "usgs_url": null,
     "gfz_url": null,
-    "ptwc_url": null,
+    "ptwc_url": "https://www.tsunami.gov/events/PAAQ/2026/11/24/tp0m6e/1/WEAK53/WEAK53.txt",
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xhgksb",
     "relevant": false,
     "keywords_matched": []
