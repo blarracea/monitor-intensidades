@@ -1062,5 +1062,31 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394285.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000ud41",
+    "source": "usgs",
+    "time": "2026-11-24T03:12:24.992000+00:00",
+    "updated": "2026-11-24T03:25:02.040000+00:00",
+    "lat": -7.21,
+    "lon": 125.1897,
+    "depth_km": 514.284,
+    "magnitude": 4.4,
+    "mag_type": "mb",
+    "place": "153 km N of Likisá, Timor Leste",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ud41",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
