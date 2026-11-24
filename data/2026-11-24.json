@@ -935,22 +935,28 @@
     "id": "us6000ud3m",
     "source": "usgs",
     "time": "2026-11-24T01:55:57.417000+00:00",
-    "updated": "2026-11-24T04:03:56.611000+00:00",
+    "updated": "2026-11-24T10:14:43.256000+00:00",
     "lat": 7.5171,
     "lon": -80.6224,
     "depth_km": 15.655,
     "magnitude": 4.5,
     "mag_type": "mb",
     "place": "9 km NNW of La Tronosa, Panama",
-    "cdi": 4.3,
+    "cdi": 3.4,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 8.1554775,
         "lon": -80.68680499999999,
         "intensity": 4.3,
+        "responses": 1
+      },
+      {
+        "lat": 8.173545,
+        "lon": -80.6595575,
+        "intensity": 2.2,
         "responses": 1
       }
     ],
@@ -2027,19 +2033,26 @@
     "id": "tx2026xcyrjw",
     "source": "usgs",
     "time": "2026-11-24T09:09:45.454000+00:00",
-    "updated": "2026-11-24T09:25:37.040000+00:00",
+    "updated": "2026-11-24T10:12:51.720000+00:00",
     "lat": 29.111,
     "lon": -97.775,
     "depth_km": 8.8753,
     "magnitude": 2.8,
     "mag_type": "ml",
     "place": "17 km S of Nixon, Texas",
-    "cdi": null,
+    "cdi": 2.2,
     "mmi": null,
-    "felt_reports": 0,
+    "felt_reports": 1,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
+    "dyfi_points": [
+      {
+        "lat": 29.6984475,
+        "lon": -98.44696,
+        "intensity": 2.2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
     "senapred_url": null,
     "csn_informe_url": null,
     "usgs_url": null,
