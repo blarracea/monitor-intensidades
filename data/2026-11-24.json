@@ -2844,5 +2844,31 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394365.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026xhgksb",
+    "source": "usgs",
+    "time": "2026-11-24T16:37:31.049000+00:00",
+    "updated": "2026-11-24T16:40:15.254000+00:00",
+    "lat": 61.308,
+    "lon": -150.167,
+    "depth_km": 27.8,
+    "magnitude": 4.3,
+    "mag_type": "ml",
+    "place": "11 km WSW of Point MacKenzie, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xhgksb",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
