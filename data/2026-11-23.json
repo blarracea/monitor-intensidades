@@ -3957,6 +3957,51 @@
     "keywords_matched": []
   },
   {
+    "id": "us6000ucxd",
+    "source": "usgs",
+    "time": "2026-11-23T07:56:18.913000+00:00",
+    "updated": "2026-11-24T07:14:37.360000+00:00",
+    "lat": 44.6255,
+    "lon": -112.575,
+    "depth_km": 10,
+    "magnitude": 2.9,
+    "mag_type": "ml",
+    "place": "1 km SE of Lima, Montana",
+    "cdi": 3.3,
+    "mmi": null,
+    "felt_reports": 3,
+    "tsunami_flag": false,
+    "dyfi_points": [
+      {
+        "lat": 44.642714999999995,
+        "lon": -112.5951275,
+        "intensity": 3.3,
+        "responses": 1
+      },
+      {
+        "lat": 44.77072,
+        "lon": -111.195875,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 43.474205,
+        "lon": -110.7836225,
+        "intensity": 2,
+        "responses": 1
+      }
+    ],
+    "intensity_source": "usgs_dyfi",
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ucxd",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
     "id": "mb90213553",
     "source": "usgs",
     "time": "2026-11-23T07:56:19.140000+00:00",
