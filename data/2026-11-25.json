@@ -435,7 +435,7 @@
     "senapred_url": null,
     "csn_informe_url": null,
     "usgs_url": null,
-    "gfz_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026xbpy",
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000uddj",
     "relevant": false,
@@ -627,7 +627,7 @@
     "id": "us6000ude6",
     "source": "usgs",
     "time": "2026-11-25T07:40:44.054000+00:00",
-    "updated": "2026-11-25T07:58:22.186000+00:00",
+    "updated": "2026-11-25T08:02:19.939000+00:00",
     "lat": 36.9498,
     "lon": -104.8395,
     "depth_km": 5,
@@ -636,7 +636,7 @@
     "place": "20 km S of Weston, Colorado",
     "cdi": 5.5,
     "mmi": 5.888,
-    "felt_reports": 12,
+    "felt_reports": 15,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -652,16 +652,22 @@
         "responses": 1
       },
       {
+        "lat": 37.17591,
+        "lon": -104.50997,
+        "intensity": 3.8,
+        "responses": 1
+      },
+      {
         "lat": 36.9051925,
         "lon": -104.4443575,
         "intensity": 3.8,
         "responses": 3
       },
       {
-        "lat": 37.17591,
-        "lon": -104.50997,
-        "intensity": 3.8,
-        "responses": 1
+        "lat": 36.8601225,
+        "lon": -104.4446825,
+        "intensity": 3.6,
+        "responses": 2
       },
       {
         "lat": 37.13981,
@@ -679,6 +685,12 @@
         "lat": 36.89623,
         "lon": -104.4556475,
         "intensity": 2.9,
+        "responses": 1
+      },
+      {
+        "lat": 36.89748,
+        "lon": -105.00560999999999,
+        "intensity": 2.7,
         "responses": 1
       },
       {
