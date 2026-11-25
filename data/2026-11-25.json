@@ -1157,5 +1157,31 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394495.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "tx2026xfdirs",
+    "source": "usgs",
+    "time": "2026-11-25T13:39:19.365000+00:00",
+    "updated": "2026-11-25T13:49:25.185000+00:00",
+    "lat": 32.005,
+    "lon": -103.83,
+    "depth_km": 6.651,
+    "magnitude": 3,
+    "mag_type": "ml",
+    "place": "33 km SE of Malaga, New Mexico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026xfdirs",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
