@@ -1836,5 +1836,31 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udib",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "pr71540038",
+    "source": "usgs",
+    "time": "2026-11-25T21:47:40.980000+00:00",
+    "updated": "2026-11-25T22:06:52.110000+00:00",
+    "lat": 18.9428333333333,
+    "lon": -66.8233333333333,
+    "depth_km": 9.76,
+    "magnitude": 3.12,
+    "mag_type": "md",
+    "place": "50 km N of Hatillo, Puerto Rico",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71540038",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
