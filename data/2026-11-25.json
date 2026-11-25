@@ -596,5 +596,31 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71539943",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000ude3",
+    "source": "usgs",
+    "time": "2026-11-25T06:34:08.672000+00:00",
+    "updated": "2026-11-25T07:03:11.040000+00:00",
+    "lat": -36.0191,
+    "lon": 178.3688,
+    "depth_km": 25.327,
+    "magnitude": 5.2,
+    "mag_type": "mww",
+    "place": "175 km N of Hicks Bay, New Zealand",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026xbua",
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ude3",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
