@@ -957,5 +957,31 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udew",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "tx2026xeyqni",
+    "source": "usgs",
+    "time": "2026-11-25T11:17:30.995000+00:00",
+    "updated": "2026-11-25T11:29:10.606000+00:00",
+    "lat": 29.128,
+    "lon": -97.783,
+    "depth_km": 9.2915,
+    "magnitude": 2.5,
+    "mag_type": "ml",
+    "place": "15 km S of Nixon, Texas",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026xeyqni",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
