@@ -1563,5 +1563,31 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394520.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000udhb",
+    "source": "usgs",
+    "time": "2026-11-25T18:07:59.725000+00:00",
+    "updated": "2026-11-25T18:50:40.040000+00:00",
+    "lat": 38.4121,
+    "lon": 20.6921,
+    "depth_km": 49.971,
+    "magnitude": 4.4,
+    "mag_type": "mb",
+    "place": "5 km NNW of Itháki, Greece",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026xcqx",
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udhb",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
