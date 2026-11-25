@@ -5725,7 +5725,7 @@
     "id": "us6000udck",
     "source": "usgs",
     "time": "2026-11-24T23:29:55.097000+00:00",
-    "updated": "2026-11-25T04:08:49.235000+00:00",
+    "updated": "2026-11-25T08:51:18.433000+00:00",
     "lat": 10.9039,
     "lon": 122.4796,
     "depth_km": 35.846,
@@ -5734,7 +5734,7 @@
     "place": "2 km NNW of Cabatuan, Philippines",
     "cdi": 4.1,
     "mmi": null,
-    "felt_reports": 6,
+    "felt_reports": 7,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -5758,6 +5758,12 @@
       {
         "lat": 10.705905,
         "lon": 122.5381825,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
+        "lat": 10.696915,
+        "lon": 122.574775,
         "intensity": 3.1,
         "responses": 1
       },
