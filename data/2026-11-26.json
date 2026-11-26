@@ -858,7 +858,7 @@
     "id": "ci41580392",
     "source": "usgs",
     "time": "2026-11-26T07:20:41.080000+00:00",
-    "updated": "2026-11-26T07:27:08.907000+00:00",
+    "updated": "2026-11-26T07:31:33.450000+00:00",
     "lat": 32.87883,
     "lon": -116.2315,
     "depth_km": 10.63,
@@ -866,7 +866,7 @@
     "mag_type": "mlr",
     "place": "27 km NW of Ocotillo, CA",
     "cdi": 3.1,
-    "mmi": 3.967,
+    "mmi": 3.986,
     "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
@@ -897,27 +897,57 @@
     "id": "ci41580416",
     "source": "usgs",
     "time": "2026-11-26T07:23:22.240000+00:00",
-    "updated": "2026-11-26T07:29:00.718000+00:00",
+    "updated": "2026-11-26T07:34:38.980000+00:00",
     "lat": 32.87467,
     "lon": -116.22733,
     "depth_km": 10.25,
     "magnitude": 2.82,
     "mag_type": "ml",
     "place": "27 km NW of Ocotillo, CA",
-    "cdi": 2.7,
+    "cdi": 2.5,
     "mmi": null,
-    "felt_reports": 6,
+    "felt_reports": 19,
     "tsunami_flag": false,
     "dyfi_points": [
       {
-        "lat": 32.74933,
-        "lon": -116.95195749999999,
-        "intensity": 2.7,
+        "lat": 32.85748,
+        "lon": -116.834335,
+        "intensity": 2.5,
+        "responses": 1
+      },
+      {
+        "lat": 32.731300000000005,
+        "lon": -116.973315,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 32.86659,
+        "lon": -116.93052,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 32.78542,
+        "lon": -117.02669,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 32.830495,
+        "lon": -116.9091775,
+        "intensity": 2.2,
         "responses": 1
       },
       {
         "lat": 32.776385000000005,
         "lon": -116.9305875,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 32.731295,
+        "lon": -116.9626425,
         "intensity": 2.2,
         "responses": 1
       },
@@ -928,8 +958,32 @@
         "responses": 1
       },
       {
+        "lat": 32.7940225,
+        "lon": -116.674255,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 32.676195,
+        "lon": -116.5040275,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
         "lat": 32.839535,
         "lon": -116.941225,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 32.83939,
+        "lon": -116.802315,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 32.992855,
+        "lon": -117.101685,
         "intensity": 2,
         "responses": 1
       }
@@ -941,6 +995,32 @@
     "gfz_url": null,
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41580416",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/394608.html",
+    "source": "csn",
+    "time": "2026-11-26T07:26:24+00:00",
+    "updated": "2026-11-26T07:26:24+00:00",
+    "lat": -22.17,
+    "lon": -69.72,
+    "depth_km": 12.0,
+    "magnitude": 2.5,
+    "mag_type": "MLv",
+    "place": "20 km al N de María Elena, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394608.html",
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394608.html",
     "relevant": false,
     "keywords_matched": []
   }
