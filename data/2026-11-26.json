@@ -232,5 +232,31 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394572.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000udjx",
+    "source": "usgs",
+    "time": "2026-11-26T01:48:44.213000+00:00",
+    "updated": "2026-11-26T02:01:37.040000+00:00",
+    "lat": -35.9665,
+    "lon": 178.6429,
+    "depth_km": 12.687,
+    "magnitude": 5.2,
+    "mag_type": "mww",
+    "place": "183 km N of Hicks Bay, New Zealand",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026xdgc",
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udjx",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
