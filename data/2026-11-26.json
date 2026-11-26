@@ -2838,5 +2838,31 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xlfucd",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/394683.html",
+    "source": "csn",
+    "time": "2026-11-26T20:46:29+00:00",
+    "updated": "2026-11-26T20:46:29+00:00",
+    "lat": -30.44,
+    "lon": -72.14,
+    "depth_km": 20.0,
+    "magnitude": 3.0,
+    "mag_type": "MLv",
+    "place": "51 km al NO de Parque Fray Jorge, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394683.html",
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394683.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
