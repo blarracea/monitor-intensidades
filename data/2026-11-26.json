@@ -2645,5 +2645,31 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394659.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "pr2026330000",
+    "source": "usgs",
+    "time": "2026-11-26T18:04:47.530000+00:00",
+    "updated": "2026-11-26T18:35:03.557000+00:00",
+    "lat": 18.9948,
+    "lon": -65.018,
+    "depth_km": 23,
+    "magnitude": 3.88,
+    "mag_type": "md",
+    "place": "72 km N of Charlotte Amalie, U.S. Virgin Islands",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026330000",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
