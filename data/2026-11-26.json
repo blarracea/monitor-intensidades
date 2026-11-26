@@ -599,16 +599,16 @@
     "id": "nc75469411",
     "source": "usgs",
     "time": "2026-11-26T05:08:25.120000+00:00",
-    "updated": "2026-11-26T05:22:25.277000+00:00",
+    "updated": "2026-11-26T05:37:59.822000+00:00",
     "lat": 40.5598335266113,
     "lon": -124.293502807617,
     "depth_km": 16.5200004577637,
     "magnitude": 2.83,
     "mag_type": "md",
     "place": "3 km SW of Ferndale, CA",
-    "cdi": 2.4,
+    "cdi": 2.3,
     "mmi": null,
-    "felt_reports": 4,
+    "felt_reports": 5,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -618,16 +618,16 @@
         "responses": 1
       },
       {
-        "lat": 40.58544,
-        "lon": -124.258455,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
         "lat": 40.802595,
         "lon": -124.16771,
         "intensity": 2,
         "responses": 1
+      },
+      {
+        "lat": 40.58544,
+        "lon": -124.258455,
+        "intensity": 2,
+        "responses": 2
       }
     ],
     "intensity_source": "usgs_dyfi",
@@ -663,6 +663,32 @@
     "gfz_url": null,
     "ptwc_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394592.html",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/394594.html",
+    "source": "csn",
+    "time": "2026-11-26T05:29:06+00:00",
+    "updated": "2026-11-26T05:29:06+00:00",
+    "lat": -36.39,
+    "lon": -73.04,
+    "depth_km": 8.0,
+    "magnitude": 2.7,
+    "mag_type": "MLv",
+    "place": "36 km al SO de Cobquecura, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394594.html",
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394594.html",
     "relevant": false,
     "keywords_matched": []
   }
