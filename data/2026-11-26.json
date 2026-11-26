@@ -258,5 +258,31 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udjx",
     "relevant": true,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/394576.html",
+    "source": "csn",
+    "time": "2026-11-26T02:08:58+00:00",
+    "updated": "2026-11-26T02:08:58+00:00",
+    "lat": -21.59,
+    "lon": -68.58,
+    "depth_km": 149.0,
+    "magnitude": 2.9,
+    "mag_type": "MLv",
+    "place": "53 km al SO de Ollagüe, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394576.html",
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394576.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
