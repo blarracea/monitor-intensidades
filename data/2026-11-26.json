@@ -2511,5 +2511,31 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394646.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000udq5",
+    "source": "usgs",
+    "time": "2026-11-26T15:26:44.294000+00:00",
+    "updated": "2026-11-26T15:44:57.040000+00:00",
+    "lat": 19.8135,
+    "lon": -109.2958,
+    "depth_km": 10,
+    "magnitude": 5.7,
+    "mag_type": "mww",
+    "place": "Revilla Gigedo Islands region",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026xehc",
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udq5",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
