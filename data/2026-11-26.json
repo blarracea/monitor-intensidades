@@ -3104,5 +3104,31 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udsx",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000udsy",
+    "source": "usgs",
+    "time": "2026-11-26T22:40:25.258000+00:00",
+    "updated": "2026-11-26T23:01:15.040000+00:00",
+    "lat": 41.1445,
+    "lon": -116.6574,
+    "depth_km": 16.661,
+    "magnitude": 2.9,
+    "mag_type": "ml",
+    "place": "55 km NE of Valmy, Nevada",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000udsy",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
