@@ -440,5 +440,31 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394582.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026xjxyti",
+    "source": "usgs",
+    "time": "2026-11-26T03:22:48.553000+00:00",
+    "updated": "2026-11-26T03:24:44.138000+00:00",
+    "lat": 59.178,
+    "lon": -152.118,
+    "depth_km": 57.2,
+    "magnitude": 2.9,
+    "mag_type": "ml",
+    "place": "22 km SSW of Nanwalek, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xjxyti",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
