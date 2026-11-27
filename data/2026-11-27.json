@@ -1299,5 +1299,31 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xndbvp",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/394852.html",
+    "source": "csn",
+    "time": "2026-11-27T21:22:24+00:00",
+    "updated": "2026-11-27T21:22:24+00:00",
+    "lat": -24.01,
+    "lon": -67.4,
+    "depth_km": 229.0,
+    "magnitude": 3.0,
+    "mag_type": "MLv",
+    "place": "69 km al SE de Socaire, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394852.html",
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394852.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
