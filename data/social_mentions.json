@@ -175,17 +175,17 @@
     "lon": -71.6127
   },
   {
-    "title": "Sismo débil mag. 2.5 - Tarapaca, Chile, Thursday 26 Nov 2026 a las 23:58 (GMT -3) - Volcano Discovery",
+    "title": "Sismo débil mag. 2.5 - Iquique, 31 km al sur de Pica, Tamarugal, Tarapacá, Chile, Thursday 26 Nov 2026 a las 23:58 (GMT -3) - Volcano Discovery",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdTJyWGJkMk1seFJIYWN3YS1TNjlDdWpQN29SQV9BUjN3alZmLWJvcGd2Q2RURDdmcVJfZ29yR08xZ0ZYamVpZGt6WjROdExMcUxNVUNkczZCQWRLNW5YZkppYmI5RVZuMXNpWXRqTGxxdTducTN4Q3pWLXNjQk84T2k2em04Ny1ueF9zX1daa2YtMFV1SDBSeUg1RVlicWFOM2hzd1lHeV83TTg?oc=5",
     "source": "Volcano Discovery",
-    "published": "2026-11-27T03:16:49+00:00",
+    "published": "2026-11-27T03:18:49+00:00",
     "keywords_matched": [
       "sismo"
     ],
     "chile": true,
-    "place": null,
-    "lat": null,
-    "lon": null
+    "place": "iquique",
+    "lat": -20.2133,
+    "lon": -70.1503
   },
   {
     "title": "Terremoto leve mag. 3.1 - Iquique, 70 km al este de Pica, Tamarugal, Tarapacá, Chile, Thursday 26 Nov 2026 a las 23:20 (GMT -3) - Volcano Discovery",
@@ -319,19 +319,6 @@
     "place": null,
     "lat": null,
     "lon": null
-  },
-  {
-    "title": "Terremoto leve mag. 3.0 - Océano Pacífico Sur, 100 km al suroeste de Coquimbo, Elqui, Coquimbo, Chile, Thursday 26 Nov 2026 a las 15:46 (GMT -5) - Volcano Discovery",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORVVoQzQxVFdNYU95U0xTbDdTVnI0ZUlZdktDZjUxZktUeEJNQWlHS2NRYV8wVHpfZXIta0xTZEpvQkdEQ1ZWV1poaXc0V1o1Ny1hdC14anNoNzFiUXhyRVNLRVFkRXA1Q2JmeTlfakxHT2lacUw3MkdfX0VNZUJ1d3FrOEdURGMwcENKVEFGZTBBUDFqVkJMVm5CRl9HeERjMmNSNEZFYjFseWxvNlVQMlFmMXR0ZXc?oc=5",
-    "source": "Volcano Discovery",
-    "published": "2026-11-26T21:59:15+00:00",
-    "keywords_matched": [
-      "terremoto"
-    ],
-    "chile": true,
-    "place": "coquimbo",
-    "lat": -29.9533,
-    "lon": -71.3436
   },
   {
     "title": "Temblor en la zona central del país: Revisa la magnitud del sismo - Meganoticias",
@@ -617,6 +604,19 @@
     "place": null,
     "lat": null,
     "lon": null
+  },
+  {
+    "title": "Terremoto leve mag. 3.0 - Océano Pacífico Sur, 100 km al suroeste de Coquimbo, Elqui, Coquimbo, Chile, Thursday 26 Nov 2026 a las 15:46 (GMT -5) - Volcano Discovery",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORVVoQzQxVFdNYU95U0xTbDdTVnI0ZUlZdktDZjUxZktUeEJNQWlHS2NRYV8wVHpfZXIta0xTZEpvQkdEQ1ZWV1poaXc0V1o1Ny1hdC14anNoNzFiUXhyRVNLRVFkRXA1Q2JmeTlfakxHT2lacUw3MkdfX0VNZUJ1d3FrOEdURGMwcENKVEFGZTBBUDFqVkJMVm5CRl9HeERjMmNSNEZFYjFseWxvNlVQMlFmMXR0ZXc?oc=5",
+    "source": "Volcano Discovery",
+    "published": "2026-11-26T10:59:15+00:00",
+    "keywords_matched": [
+      "terremoto"
+    ],
+    "chile": true,
+    "place": "coquimbo",
+    "lat": -29.9533,
+    "lon": -71.3436
   },
   {
     "title": "Terremoto leve mag. 3.1 - Potosi, Bolivia, Thursday 26 Nov 2026 a las 06:17 (GMT -4) - Volcano Discovery",
@@ -2101,19 +2101,6 @@
     "published": "2026-11-24T09:26:22+00:00",
     "keywords_matched": [
       "sismo"
-    ],
-    "chile": true,
-    "place": "iquique",
-    "lat": -20.2133,
-    "lon": -70.1503
-  },
-  {
-    "title": "Terremoto leve mag. 3.0 - Iquique, 75 km al sur de Pica, Tamarugal, Tarapacá, Chile, Tuesday 24 Nov 2026 a las 06:04 (GMT -3) - Volcano Discovery",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQXVZQ21tMHZHRFpuRlBFSmRsNlpFZzB5SEs3cXd3ZnVGOVFrZDYwS1JqcDUzLTRESThSYzlaQzZ2eVBqTFFCMi1LUjNHeEhqWi1MZS1kZ1NDMWlhUTI0V2Z5eklBcEItMDBBN0p4RTA3Yk5BMzJydnZ5SEt5ejZHVEF6ZHpzYU05WXdqSnZZQUFBQ1RwLXRVaEYyNFA5LTM1czI5MGRXT0dUaEE?oc=5",
-    "source": "Volcano Discovery",
-    "published": "2026-11-24T09:17:28+00:00",
-    "keywords_matched": [
-      "terremoto"
     ],
     "chile": true,
     "place": "iquique",
