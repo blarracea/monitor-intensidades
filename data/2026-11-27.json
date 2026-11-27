@@ -811,5 +811,31 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41580744",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/394791.html",
+    "source": "csn",
+    "time": "2026-11-27T12:48:53+00:00",
+    "updated": "2026-11-27T12:48:53+00:00",
+    "lat": -28.33,
+    "lon": -70.49,
+    "depth_km": 85.0,
+    "magnitude": 3.1,
+    "mag_type": "MLv",
+    "place": "38 km al NE de Vallenar, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394791.html",
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394791.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
