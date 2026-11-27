@@ -1208,5 +1208,31 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394846.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "aka2026xndbvp",
+    "source": "usgs",
+    "time": "2026-11-27T20:55:14.936000+00:00",
+    "updated": "2026-11-27T20:58:54.892000+00:00",
+    "lat": 61.918,
+    "lon": -149.96,
+    "depth_km": 5.6,
+    "magnitude": 3.3,
+    "mag_type": "ml",
+    "place": "19 km NNE of Willow, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xndbvp",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
