@@ -123,13 +123,18 @@
       selectionMarker = null;
     }
     if (event.lat == null || event.lon == null) return;
-    selectionMarker = L.circleMarker([event.lat, event.lon], {
-      radius: 14,
-      color: "#ffd400",
-      weight: 3,
-      fillOpacity: 0,
-      className: "selection-ring",
-    }).addTo(map);
+    // Un anillo por cada copia del mundo del mapa base (lon -360 / 0 / +360), igual que los puntos.
+    selectionMarker = L.layerGroup(
+      [-360, 0, 360].map((offset) =>
+        L.circleMarker([event.lat, event.lon + offset], {
+          radius: 14,
+          color: "#ffd400",
+          weight: 3,
+          fillOpacity: 0,
+          className: "selection-ring",
+        })
+      )
+    ).addTo(map);
   };
 
   // Mismo patron que _escapeHtml/_escapeAttr/_safeUrl en social-layer.js y

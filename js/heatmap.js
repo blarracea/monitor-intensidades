@@ -222,12 +222,26 @@ SismosApp.buildHeatLayer = function (events) {
   return L.layerGroup(layers);
 };
 
+// El mapa base se repite horizontalmente (copias del mundo a izquierda y derecha al alejar el zoom), pero un
+// marcador se dibuja solo en su longitud real: en la copia vecina del mundo el sismo "no existia" (por ejemplo,
+// Asia sin puntos al lado izquierdo del Pacifico). Cada marcador se dibuja tambien en la copia de la izquierda
+// (lon - 360) y de la derecha (lon + 360); con minZoom 1 no se ven mas copias que esas.
+const WORLD_COPY_OFFSETS = [-360, 0, 360];
+
 SismosApp.addEventMarkers = function (map, events, onSelect) {
   // Marcadores chicos: son solo el punto de click para ver el detalle del
   // epicentro, no deben competir visualmente con el heatmap de intensidad.
   const layer = L.layerGroup();
   events.forEach((event) => {
     if (event.lat == null || event.lon == null) return;
+    WORLD_COPY_OFFSETS.forEach((offset) => _addEventMarkerAt(layer, event, event.lon + offset, onSelect));
+  });
+  layer.addTo(map);
+  return layer;
+};
+
+function _addEventMarkerAt(layer, event, lon, onSelect) {
+  {
     const radius = 1.5 + Math.max(event.magnitude || 0, 0) * 0.55;
     const select = () => onSelect(event);
 
@@ -237,7 +251,7 @@ SismosApp.addEventMarkers = function (map, events, onSelect) {
     // para "radio de deteccion". Se agrega un circulo invisible mas
     // grande, debajo del visible, solo para ampliar donde reacciona el
     // click sin cambiar en nada el tamano que se ve.
-    L.circleMarker([event.lat, event.lon], {
+    L.circleMarker([event.lat, lon], {
       radius: Math.max(radius + 10, 14),
       stroke: false,
       fillOpacity: 0,
@@ -245,7 +259,7 @@ SismosApp.addEventMarkers = function (map, events, onSelect) {
       .on("click", select)
       .addTo(layer);
 
-    const marker = L.circleMarker([event.lat, event.lon], {
+    const marker = L.circleMarker([event.lat, lon], {
       radius,
       color: "#ffffff",
       fillColor: event.relevant ? "#e74c3c" : "#123a5e",
@@ -255,10 +269,8 @@ SismosApp.addEventMarkers = function (map, events, onSelect) {
     });
     marker.on("click", select);
     marker.addTo(layer);
-  });
-  layer.addTo(map);
-  return layer;
-};
+  }
+}
 
 // Capa de reportes ciudadanos ("¿Lo sentiste?"): un circulo por comuna con el color promedio de las
 // respuestas en la misma escala de la barra de colores, con borde punteado para distinguirlo del
@@ -273,16 +285,18 @@ SismosApp.buildCitizenLayer = function (summary) {
     const idx = Math.min(255, Math.max(0, Math.floor((result.value / 12) * 255))) * 4;
     const color = `rgb(${palette[idx]}, ${palette[idx + 1]}, ${palette[idx + 2]})`;
     const roman = SismosApp.ROMANS[Math.min(12, Math.max(1, Math.round(result.value)))];
-    L.circleMarker(coords, {
-      radius: 15,
-      color: '#111',
-      weight: 2.5,
-      dashArray: '4 3',
-      fillColor: color,
-      fillOpacity: 0.8,
-    })
-      .bindTooltip(`Reporte ciudadano · ${entry.comuna} · aprox. ${roman} · ${result.n} ${result.n === 1 ? "respuesta" : "respuestas"}`)
-      .addTo(layer);
+    WORLD_COPY_OFFSETS.forEach((offset) => {
+      L.circleMarker([coords[0], coords[1] + offset], {
+        radius: 15,
+        color: '#111',
+        weight: 2.5,
+        dashArray: '4 3',
+        fillColor: color,
+        fillOpacity: 0.8,
+      })
+        .bindTooltip(`Reporte ciudadano · ${entry.comuna} · aprox. ${roman} · ${result.n} ${result.n === 1 ? "respuesta" : "respuestas"}`)
+        .addTo(layer);
+    });
   });
   return layer;
 };
@@ -301,26 +315,31 @@ SismosApp.addUnverifiedMarkers = function (map, events, onSelect) {
     const select = () => onSelect(event);
     const tooltip = `M${event.magnitude ?? "?"} · sin reporte de intensidad`;
 
-    // Mismo truco que en addEventMarkers: un circulo invisible mas grande
-    // debajo, solo para ampliar el area de click sin agrandar el punto.
-    L.circleMarker([event.lat, event.lon], {
-      radius: Math.max(radius + 10, 14),
-      stroke: false,
-      fillOpacity: 0,
-    })
-      .on("click", select)
-      .addTo(layer);
+    // Una copia por cada "mundo" repetido del mapa base (ver WORLD_COPY_OFFSETS).
+    WORLD_COPY_OFFSETS.forEach((offset) => {
+      const lon = event.lon + offset;
 
-    const marker = L.circleMarker([event.lat, event.lon], {
-      radius,
-      color: "#ffffff",
-      fillColor: "#1565c0",
-      fillOpacity: 0.85,
-      weight: 1,
+      // Mismo truco que en addEventMarkers: un circulo invisible mas grande
+      // debajo, solo para ampliar el area de click sin agrandar el punto.
+      L.circleMarker([event.lat, lon], {
+        radius: Math.max(radius + 10, 14),
+        stroke: false,
+        fillOpacity: 0,
+      })
+        .on("click", select)
+        .addTo(layer);
+
+      const marker = L.circleMarker([event.lat, lon], {
+        radius,
+        color: "#ffffff",
+        fillColor: "#1565c0",
+        fillOpacity: 0.85,
+        weight: 1,
+      });
+      marker.bindTooltip(tooltip, { direction: "top" });
+      marker.on("click", select);
+      marker.addTo(layer);
     });
-    marker.bindTooltip(tooltip, { direction: "top" });
-    marker.on("click", select);
-    marker.addTo(layer);
   });
   layer.addTo(map);
   return layer;
