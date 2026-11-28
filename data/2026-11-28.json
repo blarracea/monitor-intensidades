@@ -666,17 +666,17 @@
   {
     "id": "hv75077417",
     "source": "usgs",
-    "time": "2026-11-28T05:57:07.090000+00:00",
-    "updated": "2026-11-28T06:12:15.272000+00:00",
-    "lat": 20.3168334960938,
-    "lon": -156.00016784668,
-    "depth_km": 14.6899995803833,
-    "magnitude": 3.35,
+    "time": "2026-11-28T05:57:06.990000+00:00",
+    "updated": "2026-11-28T06:33:42.137000+00:00",
+    "lat": 20.3251666666667,
+    "lon": -155.980333333333,
+    "depth_km": 31.39,
+    "magnitude": 3.25,
     "mag_type": "ml",
-    "place": "19 km WNW of Hāwī, Hawaii",
+    "place": "17 km WNW of Hāwī, Hawaii",
     "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 5,
+    "felt_reports": 6,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -686,9 +686,21 @@
         "responses": 1
       },
       {
+        "lat": 20.016145,
+        "lon": -155.67147,
+        "intensity": 2.7,
+        "responses": 1
+      },
+      {
         "lat": 20.0250275,
         "lon": -155.681175,
         "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 20.22136,
+        "lon": -155.82799749999998,
+        "intensity": 2,
         "responses": 1
       },
       {
@@ -700,12 +712,6 @@
       {
         "lat": 19.94217,
         "lon": -155.78480000000002,
-        "intensity": 2,
-        "responses": 1
-      },
-      {
-        "lat": 20.22136,
-        "lon": -155.82799749999998,
         "intensity": 2,
         "responses": 1
       }
@@ -724,7 +730,7 @@
     "id": "aka2026xnvqjt",
     "source": "usgs",
     "time": "2026-11-28T06:11:42.401000+00:00",
-    "updated": "2026-11-28T06:29:13.587000+00:00",
+    "updated": "2026-11-28T06:33:46.838000+00:00",
     "lat": 61.333,
     "lon": -150.163,
     "depth_km": 39.5,
