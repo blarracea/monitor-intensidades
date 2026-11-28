@@ -187,5 +187,31 @@
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394885.html",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/394886.html",
+    "source": "csn",
+    "time": "2026-11-28T02:25:05+00:00",
+    "updated": "2026-11-28T02:25:05+00:00",
+    "lat": -24.25,
+    "lon": -67.38,
+    "depth_km": 226.0,
+    "magnitude": 5.3,
+    "mag_type": "Mw(Mwp)",
+    "place": "89 km al SE de Socaire, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394886.html",
+    "usgs_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026xgyh",
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394886.html",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
