@@ -431,7 +431,7 @@
     "id": "nc75470411",
     "source": "usgs",
     "time": "2026-11-28T03:33:28.880000+00:00",
-    "updated": "2026-11-28T03:49:02.694000+00:00",
+    "updated": "2026-11-28T03:55:39.794000+00:00",
     "lat": 36.0408325195312,
     "lon": -121.045669555664,
     "depth_km": 8.1899995803833,
@@ -440,15 +440,9 @@
     "place": "10 km SSW of San Lucas, CA",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 6,
+    "felt_reports": 7,
     "tsunami_flag": false,
     "dyfi_points": [
-      {
-        "lat": 36.079094999999995,
-        "lon": -121.03981999999999,
-        "intensity": 3.1,
-        "responses": 1
-      },
       {
         "lat": 36.022585,
         "lon": -120.896965,
@@ -456,8 +450,20 @@
         "responses": 1
       },
       {
+        "lat": 36.079094999999995,
+        "lon": -121.03981999999999,
+        "intensity": 3.1,
+        "responses": 1
+      },
+      {
         "lat": 36.37588,
         "lon": -120.998955,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
+        "lat": 35.944645,
+        "lon": -121.08749,
         "intensity": 2.2,
         "responses": 1
       },
