@@ -3280,5 +3280,31 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ue3d",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000ue3e",
+    "source": "usgs",
+    "time": "2026-11-28T11:10:50.727000+00:00",
+    "updated": "2026-11-28T11:17:50.040000+00:00",
+    "lat": 56.6557,
+    "lon": -147.9649,
+    "depth_km": 10,
+    "magnitude": 3.3,
+    "mag_type": "ml",
+    "place": "282 km ESE of Chiniak, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ue3e",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
