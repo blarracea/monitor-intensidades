@@ -76,5 +76,31 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ue12",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "us6000ue1b",
+    "source": "usgs",
+    "time": "2026-11-28T01:17:42.722000+00:00",
+    "updated": "2026-11-28T01:32:03.040000+00:00",
+    "lat": 22.2546,
+    "lon": 101.7463,
+    "depth_km": 10,
+    "magnitude": 5.1,
+    "mag_type": "mww",
+    "place": "73 km NNW of Phôngsali, Laos",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": "https://geofon.gfz.de/eqinfo/event.php?id=gfz2026xgwc",
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ue1b",
+    "relevant": true,
+    "keywords_matched": []
   }
 ]
