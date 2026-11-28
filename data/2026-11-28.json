@@ -3512,7 +3512,7 @@
     "id": "nc75470816",
     "source": "usgs",
     "time": "2026-11-28T13:24:18.090000+00:00",
-    "updated": "2026-11-28T15:56:19.755000+00:00",
+    "updated": "2026-11-28T16:06:52.393000+00:00",
     "lat": 38.0901679992676,
     "lon": -119.827003479004,
     "depth_km": 5.26000022888184,
@@ -3521,13 +3521,19 @@
     "place": "16 km NNW of Hetch Hetchy Reservoir, CA",
     "cdi": 2.7,
     "mmi": null,
-    "felt_reports": 1,
+    "felt_reports": 2,
     "tsunami_flag": false,
     "dyfi_points": [
       {
         "lat": 38.228970000000004,
         "lon": -120.36664,
         "intensity": 2.7,
+        "responses": 1
+      },
+      {
+        "lat": 37.3203225,
+        "lon": -119.56744499999999,
+        "intensity": 2,
         "responses": 1
       }
     ],
