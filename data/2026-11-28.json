@@ -29,7 +29,7 @@
     "id": "pr71540248",
     "source": "usgs",
     "time": "2026-11-28T00:06:03.820000+00:00",
-    "updated": "2026-11-28T00:28:00.400000+00:00",
+    "updated": "2026-11-28T03:48:02.040000+00:00",
     "lat": 19.091,
     "lon": -66.4423333333333,
     "depth_km": 23.38,
@@ -431,7 +431,7 @@
     "id": "nc75470411",
     "source": "usgs",
     "time": "2026-11-28T03:33:28.880000+00:00",
-    "updated": "2026-11-28T03:42:22.083000+00:00",
+    "updated": "2026-11-28T03:49:02.694000+00:00",
     "lat": 36.0408325195312,
     "lon": -121.045669555664,
     "depth_km": 8.1899995803833,
@@ -440,7 +440,7 @@
     "place": "10 km SSW of San Lucas, CA",
     "cdi": 3.1,
     "mmi": null,
-    "felt_reports": 4,
+    "felt_reports": 6,
     "tsunami_flag": false,
     "dyfi_points": [
       {
@@ -456,8 +456,20 @@
         "responses": 1
       },
       {
+        "lat": 36.37588,
+        "lon": -120.998955,
+        "intensity": 2.2,
+        "responses": 1
+      },
+      {
         "lat": 36.215675000000005,
         "lon": -121.1254075,
+        "intensity": 2,
+        "responses": 1
+      },
+      {
+        "lat": 35.754345,
+        "lon": -121.0257,
         "intensity": 2,
         "responses": 1
       },
@@ -475,6 +487,32 @@
     "gfz_url": null,
     "ptwc_url": null,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75470411",
+    "relevant": false,
+    "keywords_matched": []
+  },
+  {
+    "id": "aka2026xnqusk",
+    "source": "usgs",
+    "time": "2026-11-28T03:46:46.520000+00:00",
+    "updated": "2026-11-28T03:50:14.746000+00:00",
+    "lat": 62.338,
+    "lon": -149.644,
+    "depth_km": 56.3,
+    "magnitude": 2.8,
+    "mag_type": "ml",
+    "place": "22 km NNE of Susitna North, Alaska",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": 0,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": null,
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026xnqusk",
     "relevant": false,
     "keywords_matched": []
   }
