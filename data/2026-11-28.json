@@ -269,27 +269,85 @@
   {
     "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/394891.html",
     "source": "csn",
-    "time": "2026-11-28T02:55:36+00:00",
-    "updated": "2026-11-28T02:55:36+00:00",
+    "time": "2026-11-28T02:55:35+00:00",
+    "updated": "2026-11-28T02:55:35+00:00",
     "lat": -18.97,
-    "lon": -70.45,
-    "depth_km": 47.0,
-    "magnitude": 4.7,
-    "mag_type": "MLv",
-    "place": "35 km al NO de Cuya, Chile",
+    "lon": -70.33,
+    "depth_km": 78.0,
+    "magnitude": 4.5,
+    "mag_type": "Mw",
+    "place": "27 km al NO de Cuya, Chile",
     "cdi": null,
     "mmi": null,
     "felt_reports": null,
     "tsunami_flag": false,
-    "dyfi_points": [],
-    "intensity_source": null,
-    "senapred_url": null,
+    "dyfi_points": [
+      {
+        "lat": -18.4783,
+        "lon": -70.3126,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Arica",
+        "region": "Arica y Parinacota"
+      },
+      {
+        "lat": -19.1401644,
+        "lon": -70.1592132,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "Cuya",
+        "region": "Arica y Parinacota"
+      },
+      {
+        "lat": -18.5183473,
+        "lon": -70.1771824,
+        "intensity": 4,
+        "responses": null,
+        "comuna": "San Miguel de Azapa",
+        "region": "Arica y Parinacota"
+      },
+      {
+        "lat": -20.2716,
+        "lon": -70.1,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Alto Hospicio",
+        "region": "Tarapacá"
+      },
+      {
+        "lat": -20.2133,
+        "lon": -70.1503,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Iquique",
+        "region": "Tarapacá"
+      },
+      {
+        "lat": -19.313081,
+        "lon": -69.4266968,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Camiña",
+        "region": "Tarapacá"
+      },
+      {
+        "lat": -19.5972044,
+        "lon": -70.2132743,
+        "intensity": 3,
+        "responses": null,
+        "comuna": "Pisagua",
+        "region": "Tarapacá"
+      }
+    ],
+    "intensity_source": "csn",
+    "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-las-regiones-de-arica-y-tarapaca-2026-11-28-00-00-39",
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394891.html",
     "usgs_url": null,
     "gfz_url": null,
     "ptwc_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394891.html",
     "relevant": false,
-    "keywords_matched": []
+    "keywords_matched": [],
+    "senapred_match_time": "2026-11-28T00:00:39-03:00"
   }
 ]
