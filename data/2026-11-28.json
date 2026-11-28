@@ -312,7 +312,7 @@
         "intensity": 3,
         "responses": null,
         "comuna": "Alto Hospicio",
-        "region": "Tarapacá"
+        "region": "Tarapaca"
       },
       {
         "lat": -20.2133,
@@ -320,7 +320,7 @@
         "intensity": 3,
         "responses": null,
         "comuna": "Iquique",
-        "region": "Tarapacá"
+        "region": "Tarapaca"
       },
       {
         "lat": -19.313081,
@@ -328,7 +328,7 @@
         "intensity": 3,
         "responses": null,
         "comuna": "Camiña",
-        "region": "Tarapacá"
+        "region": "Tarapaca"
       },
       {
         "lat": -19.5972044,
@@ -336,18 +336,43 @@
         "intensity": 3,
         "responses": null,
         "comuna": "Pisagua",
-        "region": "Tarapacá"
+        "region": "Tarapaca"
       }
     ],
     "intensity_source": "csn",
     "senapred_url": "https://senapred.cl/evento/sismo-de-menor-intensidad-en-las-regiones-de-arica-y-tarapaca-2026-11-28-00-00-39",
     "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394891.html",
-    "usgs_url": null,
+    "usgs_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ue1k",
     "gfz_url": null,
     "ptwc_url": null,
     "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394891.html",
     "relevant": false,
-    "keywords_matched": [],
-    "senapred_match_time": "2026-11-28T00:00:39-03:00"
+    "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/394894.html",
+    "source": "csn",
+    "time": "2026-11-28T03:03:19+00:00",
+    "updated": "2026-11-28T03:03:19+00:00",
+    "lat": -22.87,
+    "lon": -69.09,
+    "depth_km": 97.0,
+    "magnitude": 3.6,
+    "mag_type": "MLv",
+    "place": "24 km al E de Sierra Gorda, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394894.html",
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394894.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
