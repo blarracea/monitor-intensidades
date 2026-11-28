@@ -161,5 +161,31 @@
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ue1d",
     "relevant": false,
     "keywords_matched": []
+  },
+  {
+    "id": "csn:https://www.sismologia.cl/sismicidad/informes/2026/11/394885.html",
+    "source": "csn",
+    "time": "2026-11-28T02:16:29+00:00",
+    "updated": "2026-11-28T02:16:29+00:00",
+    "lat": -24.2,
+    "lon": -70.44,
+    "depth_km": 32.0,
+    "magnitude": 2.7,
+    "mag_type": "MLv",
+    "place": "11 km al NE de Caleta El Cobre, Chile",
+    "cdi": null,
+    "mmi": null,
+    "felt_reports": null,
+    "tsunami_flag": false,
+    "dyfi_points": [],
+    "intensity_source": null,
+    "senapred_url": null,
+    "csn_informe_url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394885.html",
+    "usgs_url": null,
+    "gfz_url": null,
+    "ptwc_url": null,
+    "url": "https://www.sismologia.cl/sismicidad/informes/2026/11/394885.html",
+    "relevant": false,
+    "keywords_matched": []
   }
 ]
